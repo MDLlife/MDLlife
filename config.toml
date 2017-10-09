@@ -1,3 +1,18 @@
 baseurl = "http://mdl.life/"
 title = "mdl.life"
 languageCode = "en-us"
+theme = "hugo-zen"
+
+
+DefaultContentLanguage = "en"
+DefaultContentLanguageInSubdir = "false"
+
+[Languages]
+  [Languages.en]
+    weight = 1
+  [Languages.zh]
+    weight = 3
+  [Languages.zh-hant]
+    weight = 2
+  [Languages.ru]
+    weight = 2
