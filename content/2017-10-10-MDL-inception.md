@@ -18,7 +18,7 @@ It was pretty straightforward – the idea to join blockchain tsunami that is go
 
 Few words about us:
 
-> ***Roman Tronenko.*** Experienced Fullstack Engineer with a demonstrated history of working in the internet industry. IPFS pioneer. Polyglot in all senses: Skilled in Golang, Python, C++, Java, Kotlin, Ruby, and eager to learn more. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the gogo.tattoo Project. If you had to do something with China, Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman built or was involved in.
+> ***Roman Tronenko.*** Experienced Fullstack Engineer with a demonstrated history of working in the internet industry. IPFS pioneer. Polyglot in all senses: Skilled in Golang, Python, C++, Java, Kotlin, Ruby, and eager to learn more. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the [gogo.tattoo](http://gogo.tattoo) Project. If you had to do something with China, Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman built or was involved in.
 
 > ***Dmitry Timokhin.*** Graduated from St. Petersburg State University, Russia he is living in Shanghai, PRC more than a decade. The area of expertise including but not limited to the apparel manufacturing, media publishing house, food and non-food import/export and distribution, biomedicine technologies and regenerative medicine. Dmitry runs a group of companies set in China, Vietnam, Hong Kong, Taiwan and Russia, which makes him able to handle any sort of tax and legal issues in Asia as well as be experienced enough in scaling strategies.
 
