@@ -1,5 +1,5 @@
 baseurl = "http://mdl.life/"
-title = "mdl.life"
+title = "MDL"
 languageCode = "en-us"
 theme = "hugo-zen"
 
@@ -16,3 +16,6 @@ DefaultContentLanguageInSubdir = "false"
     weight = 2
   [Languages.ru]
     weight = 2
+
+[Params]
+  logo = "https://ipfs.io/ipfs/QmYP4CtmUWmpB3cau4KGUcmWX16dpLHTMvkSBi7QSLsVTF"
