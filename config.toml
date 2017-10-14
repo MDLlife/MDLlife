@@ -1,5 +1,5 @@
 baseurl = "http://mdl.life/"
-title = "MDL"
+title = ""
 languageCode = "en-us"
 theme = "hugo-zen"
 
