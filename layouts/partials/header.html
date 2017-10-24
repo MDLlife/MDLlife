@@ -18,8 +18,11 @@
 
 	<header role="banner">
 		<div class="header-logo">
-			<a href="/"><img src="{{ .Site.Params.logo }}" width="60" height="60" alt="{{ .Site.Title }}"></a>
-			<a href="/ru">РУ</a>/<a href="/">EN</a>/<a href="/zh">中</a>
+			<a href="/"><img src="{{ .Site.Params.logo }}" width="200" height="60" alt="{{ .Site.Title }}"></a>
+		</div>
+		<div>
+			<br>
+				<a href="/ru">РУ</a>/<a href="/">EN</a>/<a href="/zh">中文</a>
 		</div>
 		{{ if eq $isHomePage true }}<h1 class="site-title">{{ .Site.Title }}</h1>{{ end }}
 	</header>
