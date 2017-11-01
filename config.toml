@@ -11,9 +11,9 @@ DefaultContentLanguageInSubdir = "false"
   [Languages.en]
     weight = 1
   [Languages.zh]
-    weight = 3
-  [Languages.zh-hant]
     weight = 2
+  [Languages.zh-hant]
+    weight = 3
   [Languages.ru]
     weight = 2
 
