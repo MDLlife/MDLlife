@@ -1,17 +1,19 @@
 <footer>
     <div class="container">
       <div class="row">
-          <a class = "link-f" href="" download>White paper</a>
-          <a class = "link-f" href="" download>Blog</a>
-          
+          <!-- <a class = "link-f" href="" download>White paper</a> -->
+          <a class = "link-f" href="http://mdl.wtf">Blog</a>
           <ul>
           {{ range .Site.Params.Footer.links }}
-            <li>
-              <a href="{{ .url }}"><object type="image/svg+xml" data="{{ .svg}}"></object></a>
-            </li>
+            <a href="{{ .url }}">
+              <li>
+                  <img src="{{ .svg }}">
+              </li>
+            </a>
             {{ end }}
           </ul>
-          
+
+
           <h2><a href="#home">{{ .Site.Params.Home.title }}<span> {{ .Site.Params.Home.subtitle }}</span></a></h2>
       </div>
     </div>

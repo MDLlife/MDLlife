@@ -133,22 +133,22 @@ title = "Our team"
 #------------------
 one_worker_position = "CTO"
 one_worker_name = "Roman Tronenko"
-one_worker_link  = "https://www.linkedin.com/roman-tronenko"
+one_worker_link  = "https://www.linkedin.com/in/roman-tronenko"
 one_worker_link_name = "roman-tronenko"
 #------------------
 two_worker_position = "CFO/COO"
-two_worker_name = "Dmitriy Timokhin"
-two_worker_link  = "https://www.linkedin.com/"
-two_worker_link_name = "roman-tronenko"
+two_worker_name = "Dmitry Timokhin"
+two_worker_link  = "https://www.linkedin.com/in/dtimokhin"
+two_worker_link_name = "dtimokhin"
 #------------------
 three_worker_position = "CEO"
-three_worker_name = "Dimitriy Doronin"
-three_worker_link  = "https://www.linkedin.com/"
-three_worker_link_name = "roman-tronenko"
+three_worker_name = "Dimitry Doronin"
+three_worker_link  = "https://www.linkedin.com/in/dimitry-doronin"
+three_worker_link_name = "dimitry-doronin"
 
 [Params.Roadmap]
 title = "Roadmap"
 
 [[Params.Footer.links]]
-url = "https://www.facebook.com/mdl.wtf"
+url = "https://fb.me/mdl.wtf"
 svg = "img/facebook-logo-button-1.svg"
