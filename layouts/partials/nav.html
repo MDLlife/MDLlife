@@ -1,0 +1,22 @@
+{{ "<!-- NAVIGATION -->" | safeHTML }}
+<div id = "nav-menu">
+    <div class="container-fluid">
+      <div class="row">
+        <nav id="top-menu" class="col-md-12 col-sm-12 wow fadeInLeft" data-wow-duration = "1s" >
+          <i class="fa fa-bars" aria-hidden="true" id = "hamburger"></i>
+            <ul class="list-top-menu" id = "top-menu-wr">
+              <span class="close-mobile-menu glyphicon glyphicon-remove"></span>
+               {{ range .Site.Params.Navigation.links }}
+                <li><a href="{{ .url }}">{{ .name }}</a></li>
+               {{ end }}
+              <li class="link-to-download">
+                <a href="" download>White paper</a>
+              </li>
+              <li class="link-to-blog">
+                <a href="" download>Blog</a>
+              </li>
+            </ul> 
+        </nav>
+     </div>
+    </div>
+  </div>

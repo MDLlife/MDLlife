@@ -1,0 +1,154 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "MDL - talent hub"
+
+# Provide your metadata here.
+[Params]
+  keywords = "MDL"
+  description = "Talent hub"
+
+
+
+ # Navigation section here you can add or change links in top nav menu
+
+[[Params.Navigation.links]]
+      name = "Home"
+      url = "#home"
+
+[[Params.Navigation.links]]
+      name = "Problems"
+      url = "#problems"
+
+[[Params.Navigation.links]]
+      name = "Our-tool"
+      url = "#our-tool"
+
+[[Params.Navigation.links]]
+      name = "Solutions"
+      url = "#solutions"
+
+[[Params.Navigation.links]]
+      name = "Streams"
+      url = "#revenue-streams"
+
+[[Params.Navigation.links]]
+      name = "Market scope"
+      url = "#market-scope"
+
+[[Params.Navigation.links]]
+      name = "Team"
+      url = "#team"
+
+[[Params.Navigation.links]]
+      name = "Roadmap"
+      url = "#roadmap"
+
+
+
+#Home section
+[Params.Home]
+title = "MDL"
+subtitle = "talent hub"
+top_subtitle = "Blockchain powered platform"
+bot_subtitle = "for talent sourcing industry."
+
+	#Home section features
+[[Params.Home.Features]]
+name = "Transparency"
+
+[[Params.Home.Features]]
+name = "Security"
+
+[[Params.Home.Features]]
+name = "Efficiency"
+
+
+
+#Problems section
+
+[Params.Problems]
+title = "Problems"
+
+#-------------------------------
+photo1 = "img/problem-search.png"
+photo1_about = "search"
+blocktitle1 = "search"
+blocksubtitle1 = "Channels are not consolidated, talent search is still done manually"
+
+#-------------------------------
+photo2 = "img/problem-reputation.png"
+photo2_about = "reputation"
+blocktitle2 = "Reputation"
+blocksubtitle2 = "A lot of misbehavior is happening because it is not going to be traced"
+
+#-------------------------------
+photo3 = "img/problem-search.png"
+photo3_about = "presentation"
+blocktitle3 = "Presentation"
+blocksubtitle3 = "There is no industry standard for presentation materials"
+
+
+
+#our-tool section
+[Params.our_tool]
+title = "Our tool"
+
+#solutions section
+[Params.solutions]
+title = "solutions"
+
+[[Params.solutions.block_1]]
+photo = "img/sol-channels.jpg"
+photo_about = "Channels"
+title_top = "Channels"
+title_bot = "consolidated"
+
+[[Params.solutions.block_2]]
+photo = "img/sol-reputation.jpg"
+photo_about = "Reputation"
+title_top = "Reputation"
+title_bot = "is traced"
+
+[[Params.solutions.block_3]]
+photo = "img/sol-presenatation.jpg"
+photo_about = "Presentation"
+title_top = "Presentation"
+title_bot = "standardized"
+
+#revenue_streams section
+[Params.revenuestreams]
+title = "Revenue streams"
+
+#market_scope section
+[Params.marketscope]
+title = "Market scope"
+
+#our_team section
+#unfortunately, i have not found a way how to add line break in TOML, so list of achievments of worker,his bio and other can changed in layouts/partials/our_team.html
+#if u want to change image of worker u have to put new image with the name {Number of worker}-team.png  in static/img/ , and add shadow by image contour
+#with name team-{Number of worker}-1.png
+
+[Params.team]
+title = "Our team"
+#------------------
+one_worker_position = "CTO"
+one_worker_name = "Roman Tronenko"
+one_worker_link  = "https://www.linkedin.com/roman-tronenko"
+one_worker_link_name = "roman-tronenko"
+#------------------
+two_worker_position = "CFO/COO"
+two_worker_name = "Dmitriy Timokhin"
+two_worker_link  = "https://www.linkedin.com/"
+two_worker_link_name = "roman-tronenko"
+#------------------
+three_worker_position = "CEO"
+three_worker_name = "Dimitriy Doronin"
+three_worker_link  = "https://www.linkedin.com/"
+three_worker_link_name = "roman-tronenko"
+
+[Params.Roadmap]
+title = "Roadmap"
+
+[[Params.Footer.links]]
+url = "https://www.facebook.com/mdl.wtf"
+svg = "img/facebook-logo-button-1.svg"

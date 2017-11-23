@@ -1,0 +1,32 @@
+<footer>
+    <div class="container">
+      <div class="row">
+          <a class = "link-f" href="" download>White paper</a>
+          <a class = "link-f" href="" download>Blog</a>
+          
+          <ul>
+          {{ range .Site.Params.Footer.links }}
+            <li>
+              <a href="{{ .url }}"><object type="image/svg+xml" data="{{ .svg}}"></object></a>
+            </li>
+            {{ end }}
+          </ul>
+          
+          <h2><a href="#home">{{ .Site.Params.Home.title }}<span> {{ .Site.Params.Home.subtitle }}</span></a></h2>
+      </div>
+    </div>
+  </footer>
+
+
+
+    {{ "<!-- Scripts -->" | safeHTML}}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.4/jquery.touchSwipe.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src = "js/WOW/dist/wow.min.js"></script>
+    <script>
+              new WOW().init();
+    </script>
+  </body>
+</html>

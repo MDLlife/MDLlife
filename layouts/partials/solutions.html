@@ -1,0 +1,27 @@
+ <div id="solutions">
+    <div class="container">
+      <div class="row">
+      <h2 class="module-title">{{ .Site.Params.Solutions.title }}</h2>
+
+
+        <div class="col-md-3 col-sm-4 wow fadeInLeft" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+        {{range .Site.Params.Solutions.block_1}}
+          <img src="{{ .photo }}" alt="{{ .photo_about }}">
+          <h4>{{ .title_top }} <br> {{ .title_bot }}</h4>
+        {{ end }}  
+        </div>
+        <div class="col-md-3 col-sm-4 col-md-offset-1 wow fadeInLeft" data-wow-duration = "1.2s" data-wow-delay = "0.8s">
+        {{range .Site.Params.Solutions.block_2}}
+          <img src="{{ .photo }}" alt="{{ .photo_about }}">
+          <h4>{{ .title_top }} <br>  {{ .title_bot }}</h4>
+        {{ end }}
+        </div>
+        <div class="col-md-3 col-sm-4 col-md-offset-1 wow fadeInLeft" data-wow-duration = "1.2s" data-wow-delay = "1.2s">
+        {{range .Site.Params.Solutions.block_3}}
+          <img src="{{ .photo }}" alt="{{ .photo_about }}">
+          <h4>{{ .title_top }} <br> {{ .title_bot }}</h4>
+        {{end}}
+        </div>
+      </div>
+    </div>
+  </div>

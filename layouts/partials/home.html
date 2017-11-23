@@ -1,0 +1,22 @@
+{{ "<!-- Stylesheets -->" | safeHTML }}
+<header id = "home">
+    <div class="container">
+      <div class="row top-part">
+        <div class="col-md-5 col-xs-12 wow zoomIn" data-wow-duration = "1s">
+          <img src="img/logo.png" alt="logo MDL">
+          <h1>{{ .Site.Params.Home.title }}</h1>
+          <h5>{{ .Site.Params.Home.subtitle }}</h5>
+        </div>
+      </div>
+      <div class="row discription-part wow zoomIn" data-wow-duration = "1s" data-wow-delay = "0.5s">
+        <div class="col-md-12 col-xs-12">
+          <h2>{{ .Site.Params.Home.top_subtitle }} <br> {{ .Site.Params.Home.bot_subtitle }}</h2>
+        </div>
+      </div>
+      <div class="row down-part">
+      {{ range .Site.Params.Home.features }}
+        <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration ="1s" data-wow-delay = "0.4s">{{ .name }}</div>
+      {{ end }}
+      </div>
+    </div>
+  </header>
