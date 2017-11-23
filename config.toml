@@ -1,11 +1,11 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "MDL - talent hub"
+title = "MDL - Talent Hub"
 
 # Provide your metadata here.
 [Params]
   keywords = "MDL"
-  description = "Talent hub"
+  description = "Talent Hub"
 
 
 
