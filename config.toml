@@ -20,7 +20,7 @@ title = "MDL - Talent Hub"
       url = "#problems"
 
 [[Params.Navigation.links]]
-      name = "Our-tool"
+      name = "Our tool"
       url = "#our-tool"
 
 [[Params.Navigation.links]]
@@ -62,7 +62,10 @@ name = "Security"
 [[Params.Home.Features]]
 name = "Efficiency"
 
-
+# Video introduction
+[Params.Video]
+title = "Video Introduction"
+video = "https://gateway.ipfs.io/ipfs/QmVBECcf1tMtmu4mSXivXJj3NQr9kWjvQrWYpWikEB3ReB/MDL%20Intro%20Video.mp4"
 
 #Problems section
 

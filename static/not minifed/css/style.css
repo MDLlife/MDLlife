@@ -101,7 +101,7 @@ header{
 	background-image: url(../img/header-bg.png);
 	background-repeat: no-repeat;
 	background-size: auto;
-	
+
 	background-position: center -25px;
 	font-family: 'Ropa Sans', sans-serif;
 	text-transform: uppercase;
@@ -464,7 +464,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	position: relative;
 	z-index: 0;
 	width: 250px;
-	height: 220px;	
+	height: 220px;
 }
 .photo-wrapper img{
 	width: 100%;
@@ -816,7 +816,7 @@ footer h2 a>span{
     	-moz-transition: all 0.5s ease-in-out;
     	-o-transition: all 0.5s ease-in-out;
 	}
-	
+
 	.active-mob-menu{
     	left: 0;
     	top: 0;
@@ -1020,13 +1020,13 @@ footer h2 a>span{
 	.triangle-list{
 		width: 100px;
 		    position: relative;
-     right: 0; 
+     right: 0;
     left: 197px;
     top: 7px;
 	}
 	.triangle-list li{
 		margin-bottom: 0;
-		
+
 	}
 	.triangle-list li:nth-child(2){
 		margin-top: 14px;
@@ -1052,8 +1052,6 @@ footer h2 a>span{
 	}
 }
 
-
-
 /* scrollbar */
 ::-webkit-scrollbar{
     width: 8px;
@@ -1061,12 +1059,17 @@ footer h2 a>span{
 ::-webkit-scrollbar:horizontal{
     height: 8px;
 }
- 
+
 ::-webkit-scrollbar-track-piece {
     background-color:white;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-    
+
     background-color: #673091;
+}
+
+#video {
+    padding-top: 85px;
+    padding-bottom: 70px;
 }
