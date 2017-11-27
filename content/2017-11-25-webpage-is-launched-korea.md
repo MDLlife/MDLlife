@@ -11,7 +11,7 @@ In addition, we are glad to announce that our webpage mdl.life is launched now a
 
 Enjoy!  
 
-<video width="760px" style="margin-left: -80px;" src="https://gateway.ipfs.io/ipfs/QmVBECcf1tMtmu4mSXivXJj3NQr9kWjvQrWYpWikEB3ReB/MDL%20Intro%20Video.mp4" autoplay>
+<video width="760px" style="margin-left: -80px;" controls loop src="https://gateway.ipfs.io/ipfs/QmVBECcf1tMtmu4mSXivXJj3NQr9kWjvQrWYpWikEB3ReB/MDL%20Intro%20Video.mp4" autoplay>
 Sorry, your browser doesn't support embedded videos,
 but don't worry, you can <a href="https://gateway.ipfs.io/ipfs/QmVBECcf1tMtmu4mSXivXJj3NQr9kWjvQrWYpWikEB3ReB/MDL%20Intro%20Video.mp4">download it</a>
 and watch it with your favorite video player!
