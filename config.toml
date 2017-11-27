@@ -138,16 +138,22 @@ one_worker_position = "CTO"
 one_worker_name = "Roman Tronenko"
 one_worker_link  = "https://www.linkedin.com/in/roman-tronenko"
 one_worker_link_name = "roman-tronenko"
+one_worker_short_bio = ""
+one_worker_bio = "Experienced Fullstack Engineer with a demonstrated history of working in the internet industry. IPFS pioneer. Polyglot in all senses: Skilled in Golang, Python, C++, jQuery, Java, Ruby and others. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the gogo.tattoo Project. If you had to do something with China, Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman built or was involved in."
 #------------------
 two_worker_position = "CFO/COO"
 two_worker_name = "Dmitry Timokhin"
 two_worker_link  = "https://www.linkedin.com/in/dtimokhin"
 two_worker_link_name = "dtimokhin"
+two_worker_short_bio = ""
+two_worker_bio = "Graduated from St. Petersburg State University, Russia he is living in Shanghai, PRC more than a decade. The area of expertise including but not limited to the apparel manufacturing, media publishing house, food and non-food import/export and distribution, biomedicine technologies and regenerative medicine. Dmitry runs a group of companies set in China, Vietnam, Hong Kong, Taiwan and Russia, which makes him able to handle any sort of tax and legal issues in Asia as well as be experienced enough in scaling strategies."
 #------------------
 three_worker_position = "CEO"
 three_worker_name = "Dimitry Doronin"
 three_worker_link  = "https://www.linkedin.com/in/dimitry-doronin"
 three_worker_link_name = "dimitry-doronin"
+three_worker_short_bio = ""
+three_worker_bio = "Being European educated he is actively developing his professional career in China for about 5 year. While pursuing his PhD degree in team management and team creativity he is actively involved in TVC production as a production coordinator and casting manager. Being a model on part-time basis himself on the top of that gives him excellent observation point to evaluate the overall talent industry in China and worldwide. Initiator and COO of F-You Art Community and several other smaller media projects."
 
 [Params.Roadmap]
 title = "Roadmap"
