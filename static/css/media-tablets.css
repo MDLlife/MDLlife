@@ -1,0 +1,376 @@
+
+
+
+@media (min-width: 481px) and (max-width: 767px){  
+	/* 1.TOP header */
+	header{
+		background-attachment: scroll;
+	}
+	#top-menu{
+		margin-left: 0;
+		padding: 0 15px;
+		height: 100px;
+	}	
+	.list-top-menu{
+		display: none;
+		width: 0;
+		line-height: 11vh;
+	}
+	#hamburger img{
+		float: right;
+		width: 60px;
+		height: 40px;
+		margin-top: 28px;
+	}
+	.active-menu-mobile{
+		opacity: 1;
+	overflow-y: scroll;
+    position: fixed;
+    z-index: 1005;
+    right: 0;
+    background: #181818;
+    padding-top: 20%;
+	text-align: center;
+	width: 0px;
+    display: block;
+    width:100%; 
+    height: 100%; 
+	}
+	.list-top-menu li{
+		display: block;
+		margin-left: 0;
+	}
+	.list-top-menu li>a{
+		font-size: 22px;
+	}
+	.list-top-menu span{
+	position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 40px;
+    color: #1fa7be;
+	}
+	.logo{
+		font-size: 28px;
+		line-height: 97px;
+	}
+	.link-to-whitepaper{
+		margin: 0 auto !important;
+		width: 85%;
+	}
+	.link-to-whitepaper{
+		float: none;
+		line-height: inherit;
+	}
+	
+	/* end top header*/
+
+	/* 2.HEADER PART */
+	header .header{
+		height: 900px;
+	}
+	.header .header-left-wrapper{
+		margin-top: 170px;
+		padding-left: 0;
+		text-align: center;
+	}
+	.header-description {
+		display: none;
+	}
+	.timer-over-wrapper{
+		width: 254px;
+		margin:0 auto;
+	}
+	.timer-wrapper{
+		padding-top: 140px;
+		background-image: none;
+	}
+	#timer{
+		margin: 0 auto !important;
+    position: static !important;
+	}
+	.module-tittle-time{
+		font-size: 40px;
+	}
+	.timer-wrapper .btn-download-paper-wrapper{
+		width: 100%;
+		float: left;
+		left: 0;
+	}
+	.timer-wrapper .btn-download-paper{
+		padding: 15px 92px;
+	}
+	.btn-learn-more-wrapper{
+		position: absolute;
+		z-index: 1000;
+		top: 540px;
+		width: 100%;
+	}
+	.header-left-wrapper .btn-learn-more-wrapper{
+		padding-right: 90px;
+	}
+	.header-left-wrapper .btn-learn-more{
+		background: none;
+	}
+	.header-left-wrapper .btn-learn-more:after{
+		content: "";
+		border-bottom: 2px solid #1fa7be;
+		width: 100px;
+		height: 2px;
+		position: absolute;
+		top:9px;
+		margin-left: 10px;
+	}
+	/* 	end header part */
+
+	/* 3. About project part */
+	#about-project{
+		padding-top: 120px;
+		height: 761px;
+	}
+	.about-wrapper{
+		display:none;
+	}
+	.about-module-tittle{
+		margin-bottom: 80px;
+		font-size: 45px;
+		text-align: center;
+	}
+	.about-module-discription-wrapper{
+		width: 100%;
+	}
+	.about-module-discription{
+		width: 71%;
+		margin: 0 auto;
+		padding-left: 10px;
+		color:#ebebeb;
+		font-size: 24px;
+	}
+	/* end about project part */
+
+	/* 4.Features */
+	#features{
+		background-color: inherit;
+		padding-bottom: 60px;
+	}
+	.module-feature-tittle{
+		font-size: 45px;
+		margin:190px 0 150px;
+	}
+	.feature-wrapper .feature-tittle{
+		font-size: 28px;
+	}
+	.feature-tittle {
+		width: 335px;
+		margin:0 auto;
+		padding:30px 0 30px;
+	}
+	.feature-wrapper .feature-description{
+		width: 470px;
+		font-size: 24px;
+		padding-bottom: 100px;
+	}
+	/* end features */
+
+	/* 5.How it works */
+	#hiw{
+		padding-top: 140px;
+		padding-bottom:80px; 
+	}
+	.hiw-image-wrapper{
+		
+	}
+	.hiw-image-wrapper img{
+		width: 100%;
+	}
+	.hiw-discription-wrapper{
+		margin-bottom: 200px;
+	}
+	.hiw-point-tittle-wrapper{
+		display: none;
+	}
+	#hiw .counter{
+		margin: 0 auto;
+	}
+	.counter-wrapper{
+		padding-left: 16vw;
+	}
+	.hiw-vertical-line{
+		position: relative;
+		left: 49%;
+		height: 200px;
+		margin-left: 0;
+	}
+	.hiw-discription-tittle{
+		font-size: 45px;
+		margin-bottom: 100px;
+	}
+	.hiw-point-discription-wrapper{
+		margin-top:0;
+	}
+	#hiw .hiw-point-discription{
+		margin-top: -6px;
+		font-size: 22px;
+		width: 260px;
+	}
+	/* end how it works */
+
+	/* 	6. Our team */
+	.our-team-tittle{
+		font-size: 42px;
+	}
+	.worker-card{
+		padding-left: 25px;
+	}
+	.worker-card-wrapper{
+		margin: 0 auto;
+		width: 240px;
+	}
+	.carousel-indicators{
+		bottom:-80px;
+	}
+	.carousel-indicators li{
+		background-color: #727272;
+		border:none;
+		margin:1px 3px;
+	}
+	.carousel-indicators li.active{
+		margin:1px 3px;
+		background-color: #1fa6bd;
+		width: 10px;
+		height: 10px;
+	}
+	.worker-card-wrapper:hover .worker-photo-wrapper:before{
+		height: 290px;
+		width: 241px;
+		left: auto;
+	}
+	#our-team .more{
+		left: 48%;
+	}
+	/* 	end our team */
+
+	/* 	7.Join us */
+	.join-us-discription{
+		display: none;
+	}
+	.join-us-tittle{
+		margin: 150px 0 50px 0px;
+		font-size: 42px;
+		text-align: center;
+	}
+	.join-us-form{
+		margin:0 auto;
+		width: 70vw;
+		padding: 20px;
+	}
+	.join-us-form input{
+		width: 100%;
+	}
+	.join-us-form-tittle{
+		font-size: 15px;
+	}
+	.join-us-form label{
+		font-size: 12px;
+	}
+	.ju-right-wrapper{
+		margin-top: 30px;
+	}
+	.ju-right-wrapper img{
+		width: 100%;
+	}
+	.ju-btn-wrapper{
+		text-align: center;
+	}
+	/* 	end join us */
+	/*roadmap*/
+	.planet-1,.planet-2{
+		display: none;
+	}
+	.roadmap-title{
+		position: absolute;
+		width: 100%;
+		padding-top: 0;
+		margin-top: 25px;
+	}
+	#roadmap{
+		position: relative;
+		height: 1850px;
+		background-image: none;
+		background-attachment: scroll;
+	}
+	#roadmap .containe .row *{
+		margin: 0;
+		width: auto;
+	}
+	.right-roadmap{
+		position: absolute;
+		margin-right: 0;
+		margin-left: 0;
+		left:26%;
+		top:-152px;
+		max-width: 100%;
+	}
+	.roadmap-card-right:nth-child(2){
+			margin: 290px 0 0 0 !important;
+	}
+	.roadmap-card-right:nth-child(3){
+			margin: 165px 0 0 0 !important;
+	}
+	.roadmap-card-right:nth-child(4){
+			margin: 167px 0 0 0 !important;
+	}
+	.roadmap-card-left:first-child{
+		margin: 254px 0 0 0 !important;
+	}
+	.roadmap-card-left:nth-child(2){
+		margin: 272px 0 0 0 !important;
+	}
+	.roadmap-card-left:nth-child(3){
+		margin: 217px 0 0 0 !important;
+	}
+	.roadmap-card-left:nth-child(4){
+		margin: 241px 0 0 0 !important;
+	}
+	.roadmap-vertical-line{
+		height: 115px;
+		left: 10%;
+    margin-left: 45px;
+	}
+	.left-roadmap{
+		position: absolute;
+		max-width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		left:26%;
+		top:40px;
+	}
+	.center-roadmap{
+		position: absolute;
+		left: 10%;
+		padding-top: 55px;
+		top: 40px;
+	}
+	.roadmap-card-right,.roadmap-card-left{
+		background-color: inherit;
+		box-shadow: none;
+		width: 67vw !important;
+	}
+	.hor-line-toleft,.hor-line-toright{
+		display: none;
+	}
+	.roadmap-card-right,.roadmap-card-left{
+		margin:220px 0 0 0 !important	}
+	.right-roadmap .row,.left-roadmap .row{
+	 	margin:0;
+	}
+	.roadmap-card-left ul>li, .roadmap-card-right ul>li{
+		margin-top: 7px;
+	}
+	#library .library-text{
+		width: auto;
+	}
+	#library{
+		display: none;
+	}
+}
