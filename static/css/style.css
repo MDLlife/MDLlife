@@ -536,6 +536,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	font-size: 14px;
 	color: #000000;
 	display: none;
+  text-align:justify;
 }
 .worker-card .content-wrapper-text{
 	position: relative;
@@ -692,8 +693,8 @@ footer h2 a>span{
 	text-align: center;
 }
 #mentor-board ul>li{
-	margin-right: 50px;
-	width: 265px;
+	margin-right: 0px;
+	width: 400px;
 	display: inline-block;
 	font-family: 'Ropa Sans' sans-serif;
 	font-weight: 400;
@@ -702,10 +703,12 @@ footer h2 a>span{
 }
 #mentor-board ul>li img{
 	width: 100%;
-	height: 260px;
+	height: 400px;
 }
 .mentor-photo-wrapper{
 	width: 100%;
+  padding: 0px;
+  margin: 48px;
 	position: relative;
 }
 .mentor-name{
@@ -737,7 +740,8 @@ footer h2 a>span{
 	font-family: "DINPro";
 	font-weight: 400;
 	color:black;
-	text-align: left;
+  margin: 58px;
+  text-align:justify;
 }
 
 /* 	medium devices */

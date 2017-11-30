@@ -17,7 +17,7 @@ title = "MDL - Talent Hub"
 
 [[Params.Navigation.links]]
       name = "Video"
-      url = "#video"
+      url = "#video-presentation"
 
 [[Params.Navigation.links]]
       name = "Problems"
