@@ -565,9 +565,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	color:#000000;
 	font-size: 16px;
 	text-decoration: underline;
+  margin-left: 30px;
 }
+
 .link-to-linkedLn:before{
-	    margin-right: 10px;
+	  margin-right: -100px;
     display: block;
     content: '';
     float: left;
