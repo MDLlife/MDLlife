@@ -1,14 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MDL - Talent Hub</title>
-    <link>http://example.org/</link>
-    <description>Recent content on MDL - Talent Hub</description>
+    <title></title>
+    <link>http://mdl.life/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <lastBuildDate>Sun, 03 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mdl.life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Talent Hub at SF2017 Seoul?</title>
+      <link>http://mdl.life/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <description>Since South Korea is actively promoting startup ecosystem and innovations to survive fierce technological competition in Asia, Korean government has initiated program of annual startup festivals and last week was the first successful trial of gathering entrepreneurs, tech media, and VCs under one roof of COEX complex in Seoul.
+MDL Talent Hub was kindly invited to participate in the event and was lucky enough to get an excellent exposure since the problems the project is aiming to solve exist in Korea as well.</description>
+    </item>
+    
+    <item>
+      <title>Webpage is launched and MDL goes to Korea for SF2017.</title>
+      <link>http://mdl.life/2017-11-25-webpage-is-launched-korea/</link>
+      <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-11-25-webpage-is-launched-korea/</guid>
+      <description>In the very beginning of December MDL Team will join Startup Festival 2017 in Seoul, South Korea. SF2017 is organized for the first time by Korean government in order to facilitate innovation ecosystem in the country. There are will be around 60 chosen startups from Asia personally invited to meet VCs and media from around the world. MDL is in the list!
+It will be the first big event for us as a team and we are looking forward to give nice impression to our future potential partners as well as old friends that we will meet there.</description>
+    </item>
+    
+    <item>
+      <title>Where do the money come from?</title>
+      <link>http://mdl.life/2017-11-14-where-do-the-money-come-from/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-11-14-where-do-the-money-come-from/</guid>
+      <description>In order to keep our financial flows positive we are considering the following methods of revenue creation. Innovative streams are enabled due to the use of blockchain technology.
+Traditional Streams
+1.Extended functionality
+We will give a chance to be outstanding for our VIP participants. Extended functionality will allow bookers to be more knowledgeable and talents to be more presentable and thus it will make them both more active on the market.</description>
+    </item>
+    
+    <item>
+      <title>What we gonna do?</title>
+      <link>http://mdl.life/2017-10-30-what-we-gonna-do/</link>
+      <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-10-30-what-we-gonna-do/</guid>
+      <description>&amp;lsquo;If I had an hour to solve a problem I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rsquo; - Albert Einstein
+ That barely applies to constantly evolving talent market that requires nonstop monitoring and analysis in order to be aware of constantly popping up issues. In addition, solutions are not coming immediately so that certain complications remain simply ignored. Thus not only identification of existing issues, but also foreseeing of upcoming ones and consequent implementation of preventive measures will allow one to be on the top of things.</description>
+    </item>
+    
+    <item>
+      <title>MDL team at Slush</title>
+      <link>http://mdl.life/2017-10-13-mdl-team-slush-shanghai/</link>
+      <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <description>The first public appearance of MDL was on the 12th of October 2017 at Slush Conference. We have presented our vision and ideas to several experienced VC investors and high-tech businessman and not only got positive feedback and encouragement but also received some valuable advice.
+Excellent ideas cannot appear in reserved ecosystem, so sharing thinking and knowledge is absolutely important for survival and development in modern world. It is said that social capital is much more important than any physical asset, so we were very happy to grow up our network by acquiring new valuable connections as well as strengthen our ties with old friends.</description>
+    </item>
+    
+    <item>
+      <title>MDL inception (video)</title>
+      <link>http://mdl.life/2017-10-10-mdl-inception/</link>
+      <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-10-10-mdl-inception/</guid>
+      <description>Your browser does not support the video tag.  It is said that some events have less probability to happen and some more. It looks like the event that took place on the 8th of October had pretty good chances to appear. All the puzzle pieces were collected in one place. It was a tiny step of initiation towards a great venture that is going to affect our society and even much more the lives of its direct stakeholders who were three…</description>
+    </item>
+    
+    <item>
+      <title>The thing is</title>
+      <link>http://mdl.life/2017-10-08-the-thing-is/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-10-08-the-thing-is/</guid>
+      <description>As majority of Asian countries, including China and Indonesia, are already for several years enthusiastically transforming their economies from export-driven to consumption-driven, advertisement industry is continuing to show double digits growth. Taking into consideration collectivistic patterns of Asian cultures we can observe overwhelming involvement of talents in all marketing activities. No matter whether it is online, onscreen, or onsite promotion, talents are always the key part of it.
+Thus, for an instance, China is experiencing a massive influx of foreign talents of all types – models and actors, singers and dancers, circus and theme parks performers, and all of them are considered premium here just because of their nationality.</description>
+    </item>
     
   </channel>
 </rss>
