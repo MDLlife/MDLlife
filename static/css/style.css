@@ -83,8 +83,8 @@ box-shadow: 0px -1px 18px -4px rgba(0,0,0,0.75);
 	border-right:0;
 }
 .module-title:after {
-	margin-top: 15px;
-	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
     content: "";
     display: block;
     height: 12px;
@@ -253,7 +253,8 @@ header .down-part div{
 	text-align: center;
 }
 .rev-block-wrapper img{
-height: 91px;
+height: 128px;
+padding: 20px;
 }
 #revenue-streams ul{
 	list-style: none;
@@ -1008,7 +1009,7 @@ footer h2 a>span{
 		font-size: 11px;
 	}
 	.rev-block-wrapper img{
-		height: 80px;
+		height: 128px;
 	}
 
 	/* team */
@@ -1155,6 +1156,10 @@ footer h2 a>span{
 	}
 }
 
+.token img{
+  padding: 0;
+  height: 128px;
+}
 
 
 /* scrollbar */

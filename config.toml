@@ -44,6 +44,10 @@ title = "MDL - Talent Hub"
       url = "#team"
 
 [[Params.Navigation.links]]
+      name = "Advisors"
+      url = "#mentor-board"
+
+[[Params.Navigation.links]]
       name = "Roadmap"
       url = "#roadmap"
 
