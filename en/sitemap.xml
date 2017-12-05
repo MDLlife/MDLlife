@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mdl.life/2017-12-5-how-mdl-secures-reputation/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mdl.life/2017-12-03-mdl-at-sf2017-seoul/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
   </url>
@@ -134,8 +139,13 @@
   
   <url>
     <loc>http://mdl.life/</loc>
-    <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
     <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/"
+                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
@@ -145,11 +155,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -168,6 +173,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/categories/"
                 />
@@ -175,11 +185,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -198,6 +203,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/tags/"
                 />
@@ -205,11 +215,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
