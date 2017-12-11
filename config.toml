@@ -167,5 +167,17 @@ three_worker_bio = "Being European educated he is actively developing his profes
 title = "Roadmap"
 
 [[Params.Footer.links]]
+url = "https://steemit.com/@mdl"
+svg = "img/steemit.svg"
+
+[[Params.Footer.links]]
+url = "https://www.linkedin.com/company/18324359/"
+svg = "img/linkedin.svg"
+
+[[Params.Footer.links]]
+url = "https://t.me/joinchat/BafuqEaDUdGLXyyeJDIT4A"
+svg = "img/telegram.svg"
+
+[[Params.Footer.links]]
 url = "https://fb.me/mdl.wtf"
-svg = "img/facebook-logo-button-1.svg"
+svg = "img/fb.svg"

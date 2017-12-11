@@ -56,7 +56,7 @@ box-shadow: 0px -1px 18px -4px rgba(0,0,0,0.75);
 #top-menu .link-to-download a,
 #top-menu .link-to-blog a{
 	padding: 7px 17px;
-	border:1px solid #662f8f;
+	border:1px solid #e350fa;
 	border-radius: 20px;
 }
 #top-menu li>a{
@@ -76,15 +76,15 @@ box-shadow: 0px -1px 18px -4px rgba(0,0,0,0.75);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	border:0px solid white;
+	border:12px solid white;
 	border-image: url(../img/border.png);
 	border-top:0;
 	border-left:0;
 	border-right:0;
 }
 .module-title:after {
-	margin-top: 15px;
-	margin-bottom: 50px;
+	margin-top: 0px;
+	margin-bottom: 0px;
     content: "";
     display: block;
     height: 12px;
@@ -153,9 +153,9 @@ header .down-part div{
 }
 #video-presentation i{
 	position: absolute;
-	top:140px;
-	left: 50%;
-	margin-left: -10px;
+  margin: 0 auto;
+	top: 190px;
+  left: 280px;
 	font-size: 35px;
 	color: #662f8f;
 	cursor: pointer;
@@ -253,7 +253,8 @@ header .down-part div{
 	text-align: center;
 }
 .rev-block-wrapper img{
-height: 91px;
+height: 128px;
+padding: 20px;
 }
 #revenue-streams ul{
 	list-style: none;
@@ -536,11 +537,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	font-size: 14px;
 	color: #000000;
 	display: none;
+  text-align:justify;
 }
 .worker-card .content-wrapper-text{
 	position: relative;
 	z-index: 0;
-  text-align:justify;
 }
 .worker-card .content-wrapper-text.show-biography p{
 	display: block;
@@ -565,9 +566,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	color:#000000;
 	font-size: 16px;
 	text-decoration: underline;
+  margin-left: 30px;
 }
+
 .link-to-linkedLn:before{
-	    margin-right: 10px;
+	  margin-right: -100px;
     display: block;
     content: '';
     float: left;
@@ -583,11 +586,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	height: 630px;
 }
 .tree-wrapper{
-	height: 430px;
+	height: 330px;
 	background-image: url(../img/roadmap-bg.png);
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position: 268px 18px;
+	background-position: 220px 0px;
 }
 .tree-wrapper ul{
 	list-style: none;
@@ -607,7 +610,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 .tree-wrapper li{
 	font-family: 'DINPro', sans-serif;
 	font-weight: 400;
-	font-size: 19px;
+	font-size: 18px;
 	color:black;
 }
 .tree-wrapper li>span{
@@ -637,7 +640,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 /* 	Footer */
 footer{
 	padding: 35px 0;
-	border-top: 5px solid #662f8f;
+	border-top: 5px solid #e350fa;
 	text-align: center;
 }
 footer ul{
@@ -668,10 +671,6 @@ footer h2 a>span{
 	font-size: 25px;
 	font-weight: normal;
 }
-footer object{
-	width:40px;
-	height: 40px;
-}
 .link-f{
 	color: black;
     font-family: "Ropa Sans";
@@ -681,7 +680,7 @@ footer object{
     display: inline-block;
     cursor: pointer;
     padding: 10px 31px;
-    border: 1px solid #662f8f;
+    border: 1px solid #e350fa;
     border-radius: 22px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
@@ -697,8 +696,8 @@ footer object{
 	text-align: center;
 }
 #mentor-board ul>li{
-	margin-right: 50px;
-	width: 265px;
+	margin-right: 0px;
+	width: 400px;
 	display: inline-block;
 	font-family: 'Ropa Sans' sans-serif;
 	font-weight: 400;
@@ -706,13 +705,15 @@ footer object{
 	vertical-align: top;
 }
 #mentor-board ul>li img{
-	width: 100%;
-	height: 260px;
+	width: 300px;
+	height: 300px;
+  margin-right: 100px;
 }
 .mentor-photo-wrapper{
 	width: 100%;
+  padding: 0px;
+  margin: 48px;
 	position: relative;
-  padding: 0;
 }
 .mentor-name{
 	position: absolute;
@@ -743,7 +744,8 @@ footer object{
 	font-family: "DINPro";
 	font-weight: 400;
 	color:black;
-	text-align: justify;
+  margin: 58px;
+  text-align:justify;
 }
 
 /* 	medium devices */
@@ -782,7 +784,7 @@ footer object{
 		font-size: 16px;
 	}
 	.tree-wrapper{
-		background-position: 195px 18px;
+		background-position: 152px 0;
 	}
 	.event-wrapper li{
 		margin-top: 8px;
@@ -849,7 +851,7 @@ footer object{
 	}
 	/* 	roadmap */
 	.tree-wrapper{
-		background-position: 50px 12px;
+		background-position: 0 0 ;
 	}
 	.event-wrapper li{
 		margin-top: 6px;
@@ -1007,7 +1009,7 @@ footer object{
 		font-size: 11px;
 	}
 	.rev-block-wrapper img{
-		height: 80px;
+		height: 128px;
 	}
 
 	/* team */
@@ -1031,8 +1033,7 @@ footer object{
 		margin:0;
 	}
 	.tree-wrapper{
-
-    background-position: 130px 0px;
+		background-image: none;
 	}
 	.tree-wrapper li>span{
 		font-size: 14px;
@@ -1134,7 +1135,7 @@ footer object{
 		margin:30px 0 0 0;
 	}
 	#video-presentation i{
-		bottom: 40px;
+		bottom: 140px;
 	}
 	#solutions div.col-md-3{
 		margin-top: 0;
@@ -1151,14 +1152,15 @@ footer object{
 		margin:30px 10px 0 0;
 	}
 	#video-presentation i{
-		bottom: 40px;
+		bottom: 140px;
 	}
 }
 
-.community-link {
-  width: 42px;
-  height: 42px;
+.token img{
+  padding: 0;
+  height: 128px;
 }
+
 
 /* scrollbar */
 ::-webkit-scrollbar{
