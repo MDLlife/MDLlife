@@ -178,13 +178,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/"
+                hreflang="ru"
+                href="http://mdl.life/ru/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/"
+                hreflang="kr"
+                href="http://mdl.life/kr/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -199,6 +199,20 @@
   </url>
   
   <url>
+    <loc>http://mdl.life/zh/2017-12-06-mdl-my-daily-life/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-06-mdl-my-daily-life/"
+                />
+  </url>
+  
+  <url>
     <loc>http://mdl.life/zh/categories/</loc>
     <priority>0</priority>
     <xhtml:link
@@ -208,13 +222,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/categories/"
+                hreflang="ru"
+                href="http://mdl.life/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/categories/"
+                hreflang="kr"
+                href="http://mdl.life/kr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -238,13 +252,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/tags/"
+                hreflang="ru"
+                href="http://mdl.life/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/tags/"
+                hreflang="kr"
+                href="http://mdl.life/kr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
