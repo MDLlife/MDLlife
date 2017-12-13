@@ -20,6 +20,10 @@ title = "MDL - Talent Hub"
       url = "#video-presentation"
 
 [[Params.Navigation.links]]
+      name = "Pre-ITO"
+      url = "#pre-ito"
+
+[[Params.Navigation.links]]
       name = "Problems"
       url = "#problems"
 
