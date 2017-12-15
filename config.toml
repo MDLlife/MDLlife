@@ -1,13 +1,11 @@
-baseURL = "http://example.org/"
+baseURL = "http://mdl.life/"
 languageCode = "en-us"
 title = "MDL - Talent Hub"
 
 # Provide your metadata here.
 [Params]
-  keywords = "MDL"
-  description = "Talent Hub"
-
-
+  keywords = "MDL,blockchain,talents,models,technology,app,IPFS"
+  description = "Talent Hub. We create blockchain powered platform for talent sourcing industry."
 
  # Navigation section here you can add or change links in top nav menu
 
