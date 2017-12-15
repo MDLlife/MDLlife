@@ -193,6 +193,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/"
                 />
@@ -200,11 +205,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -242,6 +242,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/categories/"
                 />
@@ -249,11 +254,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -277,6 +277,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/tags/"
                 />
@@ -284,11 +289,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"

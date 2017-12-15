@@ -223,6 +223,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/"
                 />
@@ -235,11 +240,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -258,6 +258,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/categories/"
                 />
@@ -270,11 +275,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -293,6 +293,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/tags/"
                 />
@@ -305,11 +310,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
