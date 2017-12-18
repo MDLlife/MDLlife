@@ -437,7 +437,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	top:13px;
 }
 .triangle-list li{
-	margin-bottom: 35px;
+	margin-bottom: 36px;
 }
 .triangle-list li:nth-child(2),.triangle-list li:last-child{
 	margin-bottom: 33px;
