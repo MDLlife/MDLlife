@@ -98,7 +98,7 @@ header{
 	z-index:0;
 	padding-top: 40px;
 	padding-bottom: 175px;
-	
+
 	background-position: center -25px;
 	font-family: 'Ropa Sans', sans-serif;
 	text-transform: uppercase;
@@ -374,7 +374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 #pre-ito .button{
 	float:left;
 	padding: 11px 60px;
-	margin-right: 10px;
+	margin: 10px 10px;
 	color:black;
 	font-size: 18px;
 	text-decoration: none;
@@ -385,6 +385,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
      -moz-transition: all 0.3s ease;
      -o-transition: all 0.3s ease;
      transition: all 0.3s ease;
+  width: 300px;
 }
 #pre-ito .button:hover{
 	color:white;
@@ -611,7 +612,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	position: relative;
 	z-index: 0;
 	width: 250px;
-	height: 220px;	
+	height: 220px;
 }
 .photo-wrapper img{
 	width: 100%;
@@ -864,7 +865,7 @@ footer object{
 	font-family: 'Ropa Sans';
 	font-weight: 400;
 	font-size: 22px;
-	color: #673091;	
+	color: #673091;
 	text-transform: uppercase;
 }
 #mentor-board p{
@@ -909,11 +910,11 @@ footer object{
 	.tr-persent{
 		font-size: 19px;
 	}
-	
+
 	.tree-wrapper{
 		background-position: 210px 0;
 	}
-	
+
 }
 
 /* 	Small decstop devices */
@@ -978,7 +979,7 @@ footer object{
 	.tree-wrapper{
 		background-position: 80px 0 ;
 	}
-	
+
 }
 
 /* PHONES TABLETS */
@@ -1022,7 +1023,7 @@ footer object{
     	-moz-transition: all 0.5s ease-in-out;
     	-o-transition: all 0.5s ease-in-out;
 	}
-	
+
 	.active-mob-menu{
     	left: 0;
     	top: 0;
@@ -1059,7 +1060,7 @@ footer object{
 		display: none;
 	}
 	/* Problems */
-	
+
 	#problems .col-md-3{
 		text-align: center;
 		margin-left: 0;
@@ -1145,8 +1146,10 @@ footer object{
 
 	}
 	#pre-ito .button{
-		font-size: 9px;
-		padding: 6px;
+		font-size: 12px;
+  	padding: 11px 0px;
+  	margin: 10px 0px;
+    width: 140px;
 	}
 	.rev-block-wrapper img{
 		height: 80px;
@@ -1264,13 +1267,13 @@ footer object{
 	.triangle-list{
 		width: 100px;
 		    position: relative;
-     right: 0; 
+     right: 0;
     left: 197px;
     top: 7px;
 	}
 	.triangle-list li{
 		margin-bottom: 0;
-		
+
 	}
 	.triangle-list li:nth-child(2){
 		margin-top: 14px;
@@ -1345,7 +1348,7 @@ footer object{
 	.tree-wrapper .row:nth-child(2) .event-wrapper ul{
 		margin-top: 4px;
 	}
-	
+
 }
 
 
@@ -1356,12 +1359,12 @@ footer object{
 ::-webkit-scrollbar:horizontal{
     height: 8px;
 }
- 
+
 ::-webkit-scrollbar-track-piece {
     background-color:white;
 }
- 
+
 ::-webkit-scrollbar-thumb {
-    
+
     background-color: #673091;
 }
