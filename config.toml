@@ -22,7 +22,7 @@ title = "MDL - Talent Hub"
       url = "#pre-ito"
 
 [[Params.Navigation.links]]
-      name = "Market Problems"
+      name = "Problems"
       url = "#problems"
 
 [[Params.Navigation.links]]
@@ -80,7 +80,7 @@ video = "https://gateway.ipfs.io/ipfs/QmVBECcf1tMtmu4mSXivXJj3NQr9kWjvQrWYpWikEB
 #Problems section
 
 [Params.Problems]
-title = "Problems"
+title = "Market Problems"
 
 #-------------------------------
 photo1 = "img/problem-search.png"
