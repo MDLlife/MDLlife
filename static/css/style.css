@@ -767,7 +767,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 /* 	Footer */
 footer{
 	padding: 35px 0;
-	border-top: 5px solid #e350fa;
+	border-top: 5px solid #662f8f;
 	text-align: center;
 }
 footer ul{
@@ -811,13 +811,19 @@ footer object{
     display: inline-block;
     cursor: pointer;
     padding: 10px 31px;
-    border: 1px solid #e350fa;
+    border: 1px solid #662f8f;
     border-radius: 22px;
     -webkit-transition: all .3s;
     -moz-transition: all .3s;
     -ms-transition: all .3s;
     -o-transition: all .3s;
     transition: all .3s;
+}
+footer li .community-link{
+	width:40px;
+}
+footer li:nth-child(2) img.community-link{
+	width:48px;
 }
 
 /* 	Mentor board */
@@ -844,6 +850,7 @@ footer object{
 	width: 100%;
 	position: relative;
 	padding:0;
+	margin-bottom:10px;
 }
 .mentor-name{
 	position: absolute;
@@ -874,7 +881,7 @@ footer object{
 	font-family: "DINPro";
 	font-weight: 400;
 	color:black;
-	text-align: left;
+	text-align: justify;
 }
 
 
