@@ -1,0 +1,30 @@
+<div id="raised">
+    <div class="container">
+      <div class="row">
+        <h2 class="module-title">{{ .Site.Params.Raised.title }}</h2>
+        <p class="raised-percent"></p>
+        <div class="raised-line" data-max = "{{ .Site.Params.Raised.max_value }}" data-current = "{{ .Site.Params.Raised.current_value }}"><img id="progress-line" src="img/raised-line.png" alt="progress-line"></div>
+        <div class="scores">
+          <span class="start"><span>0</span> $</span>
+          <span class="raised_end"><span class="raised-end_score"></span> $</span>
+        </div>
+
+        <div class="raised-about">
+          <ul class="raised-about-list">
+            <li class="raised-about-list_item">
+              <span class="list-item-title">Raised</span> <br>
+              <span class="raised_raised-money raised-total"></span>
+            </li>
+            <li class="raised-about-list_item">
+              <span class="list-item-title">Participant</span> <br>
+              <span class="raised_raised-participant raised-total">{{ .Site.Params.Raised.participants }}</span>
+            </li>
+            <li class="raised-about-list_item">
+              <span class="list-item-title">Distributed</span> <br>
+              <span class="raised_raised-distributed raised-total">{{ .Site.Params.Raised.mdl_tokens }} <span>MDL</span></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
