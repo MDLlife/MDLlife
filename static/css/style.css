@@ -593,8 +593,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 #team div.worker-card:nth-of-type(2) .photo-wrapper.changed:after{
 	width: 281px;
 	height: 220px;
-	background-image:url(../img/team-2-shadow.png);
+	background-image:url(../img/tim-shadow.png);
 	opacity: 0.8;
+	top: 3px;
 }
 #team div.worker-card:nth-of-type(3) .photo-wrapper.changed:after{
 	width: 230px;
@@ -682,13 +683,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	font-weight: 400;
 	color:#000000;
 	font-size: 16px;
-	text-align: center;
+	text-align: left;
 	text-decoration: underline;
 	display: block;
     width: 155px;
     margin: 0 auto;
 }
 .link-to-linkedLn:before{
+	margin-right: 5px;
     display: block;
     content: '';
     float: left;
@@ -852,6 +854,26 @@ footer li:nth-child(2) img.community-link{
 	padding:0;
 	margin-bottom:10px;
 }
+.changed.mentor-photo-wrapper:after{
+	content:'';
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.8;
+	background-repeat: no-repeat;
+}
+.mentor-board_item:nth-child(2) .changed.mentor-photo-wrapper:after{
+	width: 265px;
+	height: 260px;
+	background-image: url(../img/doe-shadow.png);
+}
+.mentor-board_item:first-child .changed.mentor-photo-wrapper:after{
+	top: -4px;
+    left: -1px;
+    background-image: url(../img/konn.svg);
+    width: 267px;
+    height: 306px;
+}
 .mentor-name{
 	position: absolute;
 	padding: 0 5px;
@@ -862,6 +884,7 @@ footer li:nth-child(2) img.community-link{
 	font-weight: 400;
 	font-size: 22px;
 	color: black;
+	z-index: 2;
 }
 .mentor-position{
 	position: absolute;
@@ -874,6 +897,7 @@ footer li:nth-child(2) img.community-link{
 	font-size: 22px;
 	color: #673091;
 	text-transform: uppercase;
+	z-index: 2;
 }
 #mentor-board p{
 	margin-top: 15px;
@@ -1374,4 +1398,62 @@ footer li:nth-child(2) img.community-link{
 ::-webkit-scrollbar-thumb {
 
     background-color: #673091;
+}
+/* 	RAISED BLOCK */
+#raised{
+	padding-bottom: 70px;
+	font-family: 'Ropa Sans',sans-serif;
+}
+.raised-percent{
+	text-align: center;
+	font-weight: 700;
+	font-size: 50px;
+}
+.raised-percent:after{
+	margin-top: -10px;
+	display: block;
+	content: 'raised';
+	color:#662f8f;
+	font-size: 30px;
+}
+.raised-line{
+	border:4px solid #ea2f82;
+	min-height: 37px;
+	max-height: 37px;
+	width: 70%;
+	margin:60px auto 0  auto;
+}
+.scores{
+	width: 70%;
+	margin:0 auto;
+	font-size: 20px;
+}
+#progress-line{
+	min-height: 30px;
+	max-height: 30px;
+	width: 100%;
+}
+.raised_end{
+	float: right;
+}
+.raised-about{
+	margin-top: 50px;
+}
+.raised-about-list{
+	padding: 0;
+	list-style: none;
+	text-align: center;
+}
+.raised-about-list_item{
+	width: 220px;
+	display: inline-block;
+}
+.list-item-title{
+	font-size:30px ;
+	color:#662f8f;
+	font-weight: 700;
+}
+.raised-total{
+	font-size: 20px;
+	font-weight: 400;
 }
