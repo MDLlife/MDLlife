@@ -3,6 +3,26 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mdl.life/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</loc>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-21-mdl-mine-distributed-ledger/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-21-mdl-mine-distributed-ledger/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-21-mdl-mine-distributed-ledger/"
+                />
+  </url>
+  
+  <url>
     <loc>http://mdl.life/zh-hant/2017-12-14-mdl-at-skyledger-conference/</loc>
     <lastmod>2017-12-14T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -294,7 +314,7 @@
   
   <url>
     <loc>http://mdl.life/zh-hant/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
