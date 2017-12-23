@@ -97,7 +97,7 @@ $(document).ready(function () {
   var max = $('.raised-line').attr('data-max');
   var cur = $('.raised-line').attr('data-current');
   var percent = (cur/max)*100;
-  $('.raised-percent').html(percent.toFixed(5) + '%');
+  $('.raised-percent').html(percent.toFixed(2) + '%');
   $('.raised-end_score').html(max);
   $('.raised_raised-money').html(cur + '$');
   $('#progress-line').css('width',percent + '%');
