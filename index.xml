@@ -6,10 +6,20 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mdl.life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL - Mine Distributed Ledger</title>
+      <link>http://mdl.life/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <description>MDL Talent Hub will utilize PIDS technologies (IPFS, CXO, etc), which will allow information to be stored in a distributed manner on users’ devices and miners, raising access, speed, and security of information much higher.
+In order to compensate our users and miners we will establish bounty program by which anyone can get a certain number of MDL Tokens for storing info about talents, events, and so forth. Received in such a way, MDL Tokens can be spent on MDL Talent Hub for other valuables or exchanged to other crypto or fiat currency.</description>
+    </item>
     
     <item>
       <title>MDL at Skyledger Conference</title>
