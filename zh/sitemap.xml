@@ -12,6 +12,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-14-mdl-at-skyledger-conference/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-12-14-mdl-at-skyledger-conference/"
                 />
@@ -32,6 +37,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-13-pre-ito-is-ongoing/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-12-13-pre-ito-is-ongoing/"
                 />
@@ -47,8 +57,33 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-08-user-instruments-part1/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-12-08-user-instruments-part1/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mdl.life/zh/2017-12-06-mdl-my-daily-life/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-06-mdl-my-daily-life/"
                 />
   </url>
   
@@ -59,6 +94,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-12-05-how-mdl-secures-reputation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-05-how-mdl-secures-reputation/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -77,6 +117,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-03-mdl-at-sf2017-seoul/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-12-03-mdl-at-sf2017-seoul/"
                 />
@@ -89,6 +134,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-11-25-webpage-is-launched-korea/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-11-25-webpage-is-launched-korea/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -109,6 +159,11 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/2017-11-14-where-do-the-money-come-from/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-11-14-where-do-the-money-come-from/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -137,6 +192,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-10-30-what-we-gonna-do/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-10-30-what-we-gonna-do/"
                 />
@@ -159,6 +219,11 @@
                 rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/2017-10-13-mdl-team-slush-shanghai/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-10-13-mdl-team-slush-shanghai/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -187,6 +252,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-10-10-mdl-inception/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-10-10-mdl-inception/"
                 />
@@ -209,6 +279,11 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/2017-10-08-the-thing-is/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-10-08-the-thing-is/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -250,20 +325,6 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://mdl.life/zh/2017-12-06-mdl-my-daily-life/</loc>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://mdl.life/2017-12-06-mdl-my-daily-life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/2017-12-06-mdl-my-daily-life/"
                 />
   </url>
   
