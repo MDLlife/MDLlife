@@ -91,3 +91,23 @@ $(document).ready(function () {
       return false;
   });
 });
+
+/*raised line*/
+$(document).ready(function () {
+  var max = $('.raised-line').attr('data-max');
+  var cur = $('.raised-line').attr('data-current');
+  var percent = (cur/max)*100;
+  $('.raised-percent').html(percent.toFixed(2) + '%');
+  $('.raised-end_score').html(max);
+  $('.raised_raised-money').html(cur + '$');
+  $('#progress-line').css('width',percent + '%');
+});
+
+$(document).ready(function () {
+  $('.mentor-board_item').mouseenter(function(){
+      $(this).children('.mentor-photo-wrapper').removeClass('changed');
+  });
+  $('.mentor-board_item').mouseleave(function(){
+      $(this).children('.mentor-photo-wrapper').addClass('changed');
+  });
+});
