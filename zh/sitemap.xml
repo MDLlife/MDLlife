@@ -88,26 +88,6 @@
   </url>
   
   <url>
-    <loc>http://mdl.life/zh/2017-12-06-mdl-my-daily-life/</loc>
-    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://mdl.life/2017-12-06-mdl-my-daily-life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="http://mdl.life/zh-hant/2017-12-06-mdl-my-daily-life/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/2017-12-06-mdl-my-daily-life/"
-                />
-  </url>
-  
-  <url>
     <loc>http://mdl.life/zh/2017-12-05-how-mdl-secures-reputation/</loc>
     <lastmod>2017-12-05T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -345,6 +325,25 @@
                 rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mdl.life/zh/2017-12-06-mdl-my-daily-life/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-06-mdl-my-daily-life/"
                 />
   </url>
   
