@@ -2,6 +2,19 @@ baseURL = "http://mdl.life/"
 languageCode = "en-us"
 title = "MDL - Talent Hub"
 
+
+# RAISED SETTINGS
+[Params.Raised]
+title = "logo MDL FUNDRAISING PROCESS"
+max_value = 10000
+current_value = 1000
+participants = 213
+mdl_tokens = 12800
+
+
+
+
+
 # Provide your metadata here.
 [Params]
   keywords = "MDL,blockchain,talents,models,technology,app,IPFS"
@@ -183,3 +196,10 @@ svg = "img/telegram.svg"
 [[Params.Footer.links]]
 url = "https://fb.me/mdl.wtf"
 svg = "img/fb.svg"
+
+[[Params.Footer.links]]
+url = "https://twitter.com/MDL_Talent_Hub"
+svg = "img/Twitter.svg"
+
+
+
