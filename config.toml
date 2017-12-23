@@ -5,14 +5,10 @@ title = "MDL - Talent Hub"
 
 # RAISED SETTINGS
 [Params.Raised]
-title = "logo MDL FUNDRAISING PROCESS"
-max_value = 10000
-current_value = 1000
-participants = 213
-mdl_tokens = 12800
-
-
-
+title = "Pre-ITO STATS"
+max_value = 500000
+current_value = 33123
+participants = 3
 
 
 # Provide your metadata here.
@@ -199,7 +195,4 @@ svg = "img/fb.svg"
 
 [[Params.Footer.links]]
 url = "https://twitter.com/MDL_Talent_Hub"
-svg = "img/Twitter.svg"
-
-
-
+svg = "img/twitter.svg"
