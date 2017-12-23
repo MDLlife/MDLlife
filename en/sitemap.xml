@@ -5,6 +5,21 @@
   <url>
     <loc>http://mdl.life/2017-12-23-what-do-we-do-and-why/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-23-what-do-we-do-and-why/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-23-what-do-we-do-and-why/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-23-what-do-we-do-and-why/"
+                />
   </url>
   
   <url>
@@ -323,6 +338,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="ar"
+                href="http://mdl.life/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/"
                 />
@@ -335,11 +355,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -358,6 +373,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="ar"
+                href="http://mdl.life/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/categories/"
                 />
@@ -370,11 +390,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -393,6 +408,11 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
+                hreflang="ar"
+                href="http://mdl.life/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/tags/"
                 />
@@ -405,11 +425,6 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
