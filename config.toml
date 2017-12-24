@@ -5,7 +5,6 @@ title = "MDL - Talent Hub"
 
 # RAISED SETTINGS
 [Params.Raised]
-title = "Pre-ITO STATS"
 max_value = 500000
 current_value = 33123
 participants = 3
@@ -196,3 +195,55 @@ svg = "img/fb.svg"
 [[Params.Footer.links]]
 url = "https://twitter.com/MDL_Talent_Hub"
 svg = "img/twitter.svg"
+
+[Params.Media]
+title = "media"
+
+[[Params.Media.Links]]
+href = " http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001"
+src = "img/Nasdaq-logo.png"
+
+[[Params.Media.Links]]
+href = "https://www.coinjinja.com/ico/mdl-life"
+src = "img/coinninja.png"
+
+[[Params.Media.Links]]
+href = "https://www.ccn.com/mdl-talent-hub-launches-pre-ito-disrupt-performers-sourcing-market/"
+src = "img/ccn.png"
+
+[[Params.Media.Links]]
+href = "http://www.digitaljournal.com/pr/3598108"
+src = "img/digitaljournal.png"
+
+[[Params.Media.Links]]
+href = "https://cryptopanic.com/news/600282/MDL-Talent-Hub-Pre-ITO-Set-To-Revolutionalize-Performers-Sourcing-Market"
+src = "img/cryptopanic-logo-vert-dark.png"
+
+[[Params.Media.Links]]
+href = "https://www.criptonoticias.com/aplicaciones/mdl-talent-hub-lanzara-plataforma-blockchain-crear-disrupcion-mercado-fuente-talento/"
+src = "img/Criptonoticias-horizontal.png"
+
+[[Params.Media.Links]]
+href = "http://bitcoinnewses.com/bitcoinespanol/mdl-talent-hub-lanza-pre-ito-para-estremecer-el-mercado-de-adquisicion-de-artistas/"
+src = "img/cryptocoinsnews.png"
+
+[[Params.Media.Links]]
+href = "https://www.criptomoedasfacil.com/mdl-talent-hub-lanca-pre-ico-e-revoluciona-o-mercado-de-compras-de-artistas/"
+src = "img/cryptomonedas.png"
+
+[[Params.Media.Links]]
+href = "https://www.newswire.com/news/mdl-talent-hub-launches-pre-ito-to-disrupt-performers-sourcing-market-20106584"
+src = "img/newswire.png"
+
+[[Params.Media.Links]]
+href = "https://money.ca/canadian_money/2017/12/16/mdl-talent-hub-launches-pre-ito-to-disrupt-performers-sourcing-market/"
+src = "img/canadian_money_logo.png"
+
+[[Params.Media.Links]]
+href = "http://www.menafn.com/1096240382/MDL-Talent-Hub-Launches-Pre-ITO-to-Disrupt-Performers-Sourcing-Market"
+src = "img/MenaFN.png"
+
+[[Params.Media.Links]]
+href = "https://zycrypto.com/mdl-talent-hub-pre-ito-set-revolutionalize-performers-sourcing-market/"
+src = "img/zycrypto-luna-transparent-logo-300x300.png"
+
