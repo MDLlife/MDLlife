@@ -951,6 +951,9 @@ footer li:nth-child(2) img.community-link{
 /* 	Small decstop devices */
 
 @media (min-width:769px) and (max-width: 992px){
+	#pre-ito .button{
+		width: 100%;
+	}
 	header h2{
 		font-size: 26px;
 	}
@@ -1180,7 +1183,7 @@ footer li:nth-child(2) img.community-link{
 		font-size: 12px;
   	padding: 11px 0px;
   	margin: 10px 0px;
-    width: 140px;
+    width: 100%;
 	}
 	.rev-block-wrapper img{
 		height: 80px;
@@ -1401,27 +1404,28 @@ footer li:nth-child(2) img.community-link{
 }
 /* 	RAISED BLOCK */
 #raised{
+	margin-top: 50px;
 	padding-bottom: 70px;
 	font-family: 'Ropa Sans',sans-serif;
 }
 .raised-percent{
 	text-align: center;
 	font-weight: 700;
-	font-size: 50px;
+	font-size: 40px;
 }
 .raised-percent:after{
 	margin-top: -10px;
 	display: block;
 	content: 'raised';
 	color:#662f8f;
-	font-size: 30px;
+	font-size: 25px;
 }
 .raised-line{
 	border:4px solid #ea2f82;
 	min-height: 37px;
 	max-height: 37px;
 	width: 70%;
-	margin:60px auto 0  auto;
+	margin:20px auto 0  auto;
 }
 .scores{
 	width: 70%;
@@ -1429,6 +1433,7 @@ footer li:nth-child(2) img.community-link{
 	font-size: 20px;
 }
 #progress-line{
+	margin-top: -0.9px;
 	min-height: 30px;
 	max-height: 30px;
 	width: 100%;
@@ -1456,4 +1461,28 @@ footer li:nth-child(2) img.community-link{
 .raised-total{
 	font-size: 20px;
 	font-weight: 400;
+}
+
+/* 	media */
+#mdl_media{
+	padding-bottom: 100px;	
+}
+.mdl_media-item{
+
+	margin-right: 20px;	
+	margin-top: 10px;	
+}
+.mdl_media-item:nth-child(10) img{
+	width: 43%;
+}
+.mdl_media-item img{
+	padding: 10px 0;
+}
+.mdl_media-row{
+	padding: 0 140px;
+}
+@media (max-width: 1200px){
+	.mdl_media-row{
+		padding: 0;	
+	}
 }
