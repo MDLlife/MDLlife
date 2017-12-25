@@ -122,3 +122,13 @@ $(document).ready(function () {
       $(this).children('.mentor-photo-wrapper').addClass('changed');
   });
 });
+
+$(document).ready(function () {
+  if(window.screen.width < 768 || window.innerWidth<768 || window.screen.availWidth<768){
+    $('#our-tool img').click(function(){
+        $(this).toggleClass('big');
+    });
+  }
+});
+
+
