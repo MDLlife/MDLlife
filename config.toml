@@ -194,6 +194,10 @@ url = "https://fb.me/mdl.wtf"
 svg = "img/fb.svg"
 
 [[Params.Footer.links]]
+url = "http://github.com/MDLlife/"
+svg = "img/github_icon.png"
+
+[[Params.Footer.links]]
 url = "https://twitter.com/MDL_Talent_Hub"
 svg = "img/twitter.svg"
 
@@ -252,3 +256,7 @@ src = "img/zycrypto-luna-transparent-logo-300x300.png"
 [[Params.Media.Links]]
 href = "https://icocountdown.com"
 src = "img/icocountdown.png"
+
+[[Params.Media.Links]]
+href = "https://bitcointalk.org/index.php?topic=2621034.0"
+src = "img/bitcointalk_icon.png"
