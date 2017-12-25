@@ -201,12 +201,16 @@ svg = "img/github_icon.png"
 url = "https://twitter.com/MDL_Talent_Hub"
 svg = "img/twitter.svg"
 
+[[Params.Footer.links]]
+url = "https://bitcointalk.org/index.php?topic=2621034.0"
+svg = "img/bitcoin-logo.svg"
+
 [Params.Media]
 title = "media"
 
 
 [[Params.Media.Links]]
-href = " http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001"
+href = "http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001"
 src = "img/Nasdaq-logo.png"
 
 [[Params.Media.Links]]
@@ -256,7 +260,3 @@ src = "img/zycrypto-luna-transparent-logo-300x300.png"
 [[Params.Media.Links]]
 href = "https://icocountdown.com"
 src = "img/icocountdown.png"
-
-[[Params.Media.Links]]
-href = "https://bitcointalk.org/index.php?topic=2621034.0"
-src = "img/bitcointalk_icon.png"
