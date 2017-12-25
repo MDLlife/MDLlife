@@ -158,7 +158,7 @@ one_worker_name = "Roman Tronenko"
 one_worker_link  = "https://www.linkedin.com/in/roman-tronenko"
 one_worker_link_name = "roman-tronenko"
 one_worker_short_bio = ""
-one_worker_bio = "Experienced Fullstack Engineer with a demonstrated history of working in the internet industry. IPFS pioneer. Polyglot in all senses: Skilled in Golang, Python, C++, jQuery, Java, Ruby and others. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the gogo.tattoo Project. If you had to do something with China, Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman built or was involved in."
+one_worker_bio = ""
 #------------------
 two_worker_position = "CFO/COO"
 two_worker_name = "Dmitry Timokhin"
