@@ -13,6 +13,38 @@
         </div>
       </div>
       </div>
+  <div id="raised">
+    <div class="container">
+      <div class="row">
+        <p class="raised-percent">%</p>
+        <div class="raised-line" data-max = "{{ .Site.Params.Raised.max_value }}"
+             data-current = "{{ .Site.Params.Raised.current_value }}">
+          <img id="progress-line" src="img/raised-line.png" alt="progress-line">
+        </div>
+        <div class="scores">
+          <span class="start"><span>$0</span></span>
+          <span class="raised_end"><span class="raised-end_score">{{ .Site.Params.Raised.max_value }}</span></span>
+        </div>
+
+        <div class="raised-about">
+          <ul class="raised-about-list">
+            <li class="raised-about-list_item">
+              <span class="list-item-title">Raised</span> <br>
+              <span class="raised_raised-money raised-total">{{ .Site.Params.Raised.current_value }}</span>
+            </li>
+            <li class="raised-about-list_item">
+              <span class="list-item-title">Participants</span> <br>
+              <span class="raised_raised-participant raised-total">{{ .Site.Params.Raised.participants }}</span>
+            </li>
+            <li class="raised-about-list_item">
+              <span class="list-item-title">Distributed</span> <br>
+              <span class="raised_raised-distributed raised-total">{{ .Site.Params.Raised.mdl_tokens }}</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
       <div class="row discription-part wow zoomIn" data-wow-duration = "1s" data-wow-delay = "0.5s">
         <div class="col-md-12 col-xs-12">
           <h2>{{ .Site.Params.Home.top_subtitle }} <br> {{ .Site.Params.Home.bot_subtitle }}</h2>
