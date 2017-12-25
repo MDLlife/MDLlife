@@ -18,48 +18,49 @@ participants = 3
  # Navigation section here you can add or change links in top nav menu
 
 [[Params.Navigation.links]]
-      name = "Home"
-      url = "#home"
+    name = "Video"
+    url = "#video-presentation"
 
 [[Params.Navigation.links]]
-      name = "Video"
-      url = "#video-presentation"
+    name = "Pre-ITO"
+    url = "#pre-ito"
 
 [[Params.Navigation.links]]
-      name = "Pre-ITO"
-      url = "#pre-ito"
+    name = "Problems"
+    url = "#problems"
 
 [[Params.Navigation.links]]
-      name = "Problems"
-      url = "#problems"
+    name = "Our tool"
+    url = "#our-tool"
 
 [[Params.Navigation.links]]
-      name = "Our tool"
-      url = "#our-tool"
+    name = "Solutions"
+    url = "#solutions"
 
 [[Params.Navigation.links]]
-      name = "Solutions"
-      url = "#solutions"
+    name = "Streams"
+    url = "#revenue-streams"
 
 [[Params.Navigation.links]]
-      name = "Streams"
-      url = "#revenue-streams"
+    name = "Market scope"
+    url = "#market-scope"
 
 [[Params.Navigation.links]]
-      name = "Market scope"
-      url = "#market-scope"
+    name = "Team"
+    url = "#team"
 
 [[Params.Navigation.links]]
-      name = "Team"
-      url = "#team"
+    name = "Advisors"
+    url = "#mentor-board"
 
 [[Params.Navigation.links]]
-      name = "Advisors"
-      url = "#mentor-board"
+    name = "Roadmap"
+    url = "#roadmap"
 
 [[Params.Navigation.links]]
-      name = "Roadmap"
-      url = "#roadmap"
+    name = "Media"
+    url = "#mdl_media"
+
 
 
 
@@ -199,6 +200,7 @@ svg = "img/twitter.svg"
 [Params.Media]
 title = "media"
 
+
 [[Params.Media.Links]]
 href = " http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001"
 src = "img/Nasdaq-logo.png"
@@ -247,3 +249,6 @@ src = "img/MenaFN.png"
 href = "https://zycrypto.com/mdl-talent-hub-pre-ito-set-revolutionalize-performers-sourcing-market/"
 src = "img/zycrypto-luna-transparent-logo-300x300.png"
 
+[[Params.Media.Links]]
+href = "https://icocountdown.com"
+src = "img/icocountdown.png"
