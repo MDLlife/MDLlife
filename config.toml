@@ -6,8 +6,8 @@ title = "MDL - Talent Hub"
 # RAISED SETTINGS
 [Params.Raised]
 max_value = 500000
-current_value = 33123
-participants = 3
+current_value = 35623
+participants = 5
 
 
 # Provide your metadata here.
@@ -16,6 +16,7 @@ participants = 3
   description = "Talent Hub. We create blockchain powered platform for talent sourcing industry."
   pre_ito_manual = "QmUH7wTKG6bi38hLd7zHShVa5MGoga6UTTFVsZsmawr6za/MDL%20Pre-ITO%20Manual%201.1.pdf"
   whitepaper = "QmYzXXE2SCsyRJscrnj2CuCjBkVFdPGF586AmfPgCzWY7p/MDL%20whitepaper%200.9.5.pdf"
+
  # Navigation section here you can add or change links in top nav menu
 
 [[Params.Navigation.links]]
