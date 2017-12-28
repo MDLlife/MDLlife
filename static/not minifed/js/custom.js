@@ -48,6 +48,8 @@ $(document).ready(function () {
             window.location.hash = hash;
             $(document).on("scroll", onScroll);
         });
+
+        $('#top-menu-wr').removeClass('active-mob-menu');
     });
  
 });
