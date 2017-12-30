@@ -3,6 +3,61 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>http://mdl.life/ru/2017-12-06-mdl-my-daily-life/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/2017-12-06-mdl-my-daily-life/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mdl.life/ru/2017-12-05-how-mdl-secures-reputation/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://mdl.life/2017-12-05-how-mdl-secures-reputation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/2017-12-05-how-mdl-secures-reputation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://mdl.life/zh-hant/2017-12-05-how-mdl-secures-reputation/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/2017-12-05-how-mdl-secures-reputation/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://mdl.life/ru/2017-03-12-sf2017-seoul/</loc>
+    <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://mdl.life/ru/2017-10-30-what-we-gonna-do/</loc>
     <lastmod>2017-10-30T00:00:00+00:00</lastmod>
     <xhtml:link
@@ -124,12 +179,17 @@
   
   <url>
     <loc>http://mdl.life/ru/</loc>
-    <lastmod>2017-10-30T00:00:00+00:00</lastmod>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -140,11 +200,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -168,6 +223,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/categories/"
                 />
@@ -175,11 +235,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -203,6 +258,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/tags/"
                 />
@@ -210,11 +270,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
