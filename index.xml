@@ -6,10 +6,19 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mdl.life/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Approaches and Technical Decisions</title>
+      <link>http://mdl.life/2017-12-31-approaches-technical-decisions/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/2017-12-31-approaches-technical-decisions/</guid>
+      <description>In current state of global blockchain development, it seems that most people absolutely forgot that behind every project there are actual people working [or not]. So a stylish website with a geeky promising video, featuring Bitcoin or Ethereum addresses, gets people more attracted to invest, than a hardworking community, with respect-worthy leaders. People just send money blindly to a smart contract, without researching who&amp;rsquo;s working on the concept, code, marketing, etc.</description>
+    </item>
     
     <item>
       <title>What Do We Do and Why</title>
