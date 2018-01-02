@@ -3,38 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://mdl.life/ar/2017-12-13-pre-ito-is-ongoing/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+    <loc>http://mdl.life/ja/2017-10-08-the-thing-is/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://mdl.life/2017-12-13-pre-ito-is-ongoing/"
+                href="http://mdl.life/2017-10-08-the-thing-is/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://mdl.life/ru/2017-12-13-pre-ito-is-ongoing/"
+                href="http://mdl.life/ru/2017-10-08-the-thing-is/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://mdl.life/zh/2017-12-13-pre-ito-is-ongoing/"
+                href="http://mdl.life/zh/2017-10-08-the-thing-is/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/2017-10-08-the-thing-is/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
-                href="http://mdl.life/zh-hant/2017-12-13-pre-ito-is-ongoing/"
+                href="http://mdl.life/zh-hant/2017-10-08-the-thing-is/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/2017-12-13-pre-ito-is-ongoing/"
+                hreflang="ja"
+                href="http://mdl.life/ja/2017-10-08-the-thing-is/"
                 />
   </url>
   
   <url>
-    <loc>http://mdl.life/ar/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+    <loc>http://mdl.life/ja/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -43,8 +48,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/"
+                hreflang="ar"
+                href="http://mdl.life/ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -68,13 +73,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/"
+                hreflang="ja"
+                href="http://mdl.life/ja/"
                 />
   </url>
   
   <url>
-    <loc>http://mdl.life/ar/categories/</loc>
+    <loc>http://mdl.life/ja/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -83,8 +88,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/categories/"
+                hreflang="ar"
+                href="http://mdl.life/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -108,13 +113,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/categories/"
+                hreflang="ja"
+                href="http://mdl.life/ja/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://mdl.life/ar/tags/</loc>
+    <loc>http://mdl.life/ja/tags/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -123,8 +128,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/tags/"
+                hreflang="ar"
+                href="http://mdl.life/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -148,8 +153,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/tags/"
+                hreflang="ja"
+                href="http://mdl.life/ja/tags/"
                 />
   </url>
   
