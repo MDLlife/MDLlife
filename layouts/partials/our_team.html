@@ -1,53 +1,139 @@
 <div id="team">
     <div class="container">
-      <div class="row">
+      <div class="row team-row">
         <h2 class="module-title">{{ .Site.Params.Team.title }}</h2>
-        <div class="col-md-3 col-sm-6 col-xs-12 worker-card worker-card-first wow bounceInDown" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
-
-          <div class="photo-wrapper changed"><img src="img/1-team.png" alt="worker"><span class="position">{{ .Site.Params.Team.one_worker_position }}</span><br><span class="name">{{ .Site.Params.Team.one_worker_name }}</span>
-          </div>
-
-          <a href="{{ .Site.Params.Team.one_worker_link }}" class="link-to-linkedLn">{{ .Site.Params.Team.one_worker_link_name }}</a>
-
-          <div class="content-wrapper-text">
-           <ul>
-              <li>Polyglot programmer with experiences in Golang, Python, Java, Ruby and others.</li>
-              <li>The founder and initiator of the <a href="http://gogo.tattoo">gogo.tattoo</a> project.</li>
-              <li>Developed mobile solutions for Alibaba (mostly AliExpress), italki.com, chinesepod.com, openlanguage.com and many more.</li>
-            </ul>
-              <p>Experienced Fullstack Engineer with a demonstrated history of working in the internet industry. IPFS pioneer. Polyglot in all senses: Skilled in Golang, Python, C++, jQuery, Java, Ruby and others. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the <a href="http://gogo.tattoo">gogo.tattoo</a> Project. If you had to do something with China, Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman built or was involved with.</p>
-          </div>
+        <div class="flip-container">
+            <div class=" worker-card worker-card-first wow bounceInDown flipper" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+              <div class="front">
+              <img src="img/rotator.png" alt="" class="rotator">
+                <div class="photo-wrapper"><img src="img/t-1.png" alt="Roman Toronenko">
+                </div>
+                <span class="name">Roman Tronenko</span><span class="position">CTO</span>
+                 <!-- <ul>
+                  <li>The founder and initiator <br>of the go  experiences in Golang, Python, Java and Ruby.</li>
+                  <li>Developed mobile solutions for Alibaba, italki.com, open <br> language.com, and more.</li>
+                </ul> -->
+              </div>
+              <div class="back">
+                <p>Experienced Fullstack Engineer with a demonstrated history of working in the internet industry. IPFS pioneer. Polyglot in all senses: Skilled in Golang, Python, C++, jQuery, Java, Ruby and others. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the gogo.tattoo Project. If you had to do something with China, Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman built or was involved with.</p>
+                 <a href="https://www.linkedin.com/in/roman-tronenko" class="link-to-linkedLn"></a>
+              </div>
+            </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-1 worker-card wow bounceInDown" data-wow-duration = "1.2s" data-wow-delay = "0.6s">
-          <div class="photo-wrapper changed"><img src="img/timokhin.png" alt="Dmitry Timokhin"><span class="position">{{ .Site.Params.Team.two_worker_position }}</span><br><span class="name">{{ .Site.Params.Team.two_worker_name }}</span>
-          </div>
 
-          <a href="{{ .Site.Params.Team.two_worker_link }}" class="link-to-linkedLn">{{ .Site.Params.Team.two_worker_link_name }}</a>
-
-          <div class="content-wrapper-text">
-          <ul>
-            <li>Running several companies around Asia - China, Taiwan, Vietnam and Hong-Kong.</li>
-            <li>Area of expertise is project management and entrepreneurship.</li>
-            <li>Work experience in light machinery, F&amp;B, and FMCG as well as bio- and regenerative medicine.</li>
-          </ul>
-            <p>{{ .Site.Params.Team.two_worker_bio }} </p>
-          </div>
+        <div class="flip-container">
+            <div class=" worker-card worker-card-first wow bounceInDown flipper" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+              <div class="front">
+              <img src="img/rotator.png" alt="" class="rotator">
+                <div class="photo-wrapper"><img src="img/t-2.png" alt="Dmitry Timokhin">
+                </div>
+                <span class="name">Dmitry Timokhin</span><span class="position">CFO/COO</span>
+                 <!-- <ul>
+                  <li>The founder and initiator <br>of the go  experiences in Golang, Python, Java and Ruby.</li>
+                  <li>Developed mobile solutions for Alibaba, italki.com, open <br> language.com, and more.</li>
+                </ul> -->
+              </div>
+              <div class="back">
+                <p>Graduated from St. Petersburg State
+                  University, Russia he is living in
+                  Shanghai, PRC more than a decade.
+                  The area of expertise including but
+                  not limited to the apparel
+                  manufacturing, media publishing
+                  house, food and non-food
+                  import/export and distribution,
+                  biomedicine technologies and
+                  regenerative medicine. Dmitry runsa group of companies set in China,
+                  Vietnam, Hong Kong, Taiwan and
+                  Russia, which makes him able to
+                  handle any sort of tax and legal issues
+                  in Asia as well as be experienced
+                  enough in scaling strategies.</p>
+                 <a href="https://www.linkedin.com/in/dtimokhin" class="link-to-linkedLn"></a>
+              </div>
+            </div>
         </div>
-        <div class="col-md-3 col-sm-6 col-xs-12 col-md-offset-1 worker-card wow bounceInDown" data-wow-duration = "1.2s" data-wow-delay = "0.8s">
-          <div class="photo-wrapper changed"><img src="img/3-team.png" alt="worker"><span class="position">{{ .Site.Params.Team.three_worker_position }}</span><br><span class="name">{{ .Site.Params.Team.three_worker_name }}</span>
-          </div>
 
-          <a href="{{ .Site.Params.Team.three_worker_link }}" class="link-to-linkedLn">{{ .Site.Params.Team.three_worker_link_name }}</a>
 
-          <div class="content-wrapper-text">
-            <ul>
-              <li>Involved in the market himself as a talent, booker, and casting director.</li>
-              <li>Founder and operational manager of F-You Art Community as well as other several smaller mediaprojects.</li>
-              <li>Researcher of Creative Industries and Management.</li>
-            </ul>
-            <p>{{ .Site.Params.Team.three_worker_bio }} </p>
-          </div>
-          </div>
+        <div class="flip-container">
+            <div class=" worker-card worker-card-first wow bounceInDown flipper" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+              <div class="front">
+              <img src="img/rotator.png" alt="" class="rotator">
+                <div class="photo-wrapper"><img src="img/t-3.png" alt="Dimitry Doronin">
+                </div>
+                <span class="name">Dimitry Doronin</span><span class="position">CEO</span>
+                 <!-- <ul>
+                  <li>The founder and initiator <br>of the go  experiences in Golang, Python, Java and Ruby.</li>
+                  <li>Developed mobile solutions for Alibaba, italki.com, open <br> language.com, and more.</li>
+                </ul> -->
+              </div>
+              <div class="back">
+                <p>Being European educated he is actively developing his professional career in China for about 5 year. While pursuing his PhD degree in team management and team creativity he is actively involved in TVC production as a production coordinator and casting manager. Being a model on part-time basis himself on the top of that gives him excellent observation point to evaluate the overall talent industry in China and worldwide. Initiator and COO of F-You Art Community and several other smaller media projects.</p>
+                 <a href="https://www.linkedin.com/in/dimitry-doronin/" class="link-to-linkedLn"></a>
+              </div>
+            </div>
+        </div>
+
+        <br>  
+
+         <div class="flip-container">
+            <div class=" worker-card worker-card-first wow bounceInDown flipper" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+              <div class="front">
+              <img src="img/rotator.png" alt="" class="rotator">
+                <div class="photo-wrapper"><img src="img/t-4.png" alt="Bulat Zalimov">
+                </div>
+                <span class="name">Bulat Zalimov</span><span class="position">SA</span>
+                 <!-- <ul>
+                  <li>The founder and initiator <br>of the go  experiences in Golang, Python, Java and Ruby.</li>
+                  <li>Developed mobile solutions for Alibaba, italki.com, open <br> language.com, and more.</li>
+                </ul> -->
+              </div>
+              <div class="back">
+                <p>Professional with about ten years of experience in mastering IT systems. Key areas are networks, software delivery/deployment process, BI-systems. Master of Science in IT focused on software engineering.</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="flip-container">
+            <div class=" worker-card worker-card-first wow bounceInDown flipper" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+              <div class="front">
+              <img src="img/rotator.png" alt="" class="rotator">
+                <div class="photo-wrapper"><img src="img/t-5.png" alt="Alexander Pala">
+                </div>
+                <span class="name">Alexander Pala</span><span class="position">CCM</span>
+                 <!-- <ul>
+                  <li>The founder and initiator <br>of the go  experiences in Golang, Python, Java and Ruby.</li>
+                  <li>Developed mobile solutions for Alibaba, italki.com, open <br> language.com, and more.</li>
+                </ul> -->
+              </div>
+              <div class="back">
+                <p>Has two high degrees in Economics and Cybernetics. Operating in stock and forex markets since 2011. Experienced in managing ICOs and bounty programs as well as in PR with crypto community. Happily married and has three sons.</p>
+              </div>
+            </div>
+        </div>
+
+
+        <div class="flip-container">
+            <div class=" worker-card worker-card-first wow bounceInDown flipper" data-wow-duration = "1.2s" data-wow-delay = "0.4s">
+              <div class="front">
+              <img src="img/rotator.png" alt="" class="rotator">
+                <div class="photo-wrapper"><img src="img/t-6.png" alt="Roman Toronenko">
+                </div>
+                <span class="name">Tsatsynkina Maria</span><span class="position">GD</span>
+                 <!-- <ul>
+                  <li>The founder and initiator <br>of the go  experiences in Golang, Python, Java and Ruby.</li>
+                  <li>Developed mobile solutions for Alibaba, italki.com, open <br> language.com, and more.</li>
+                </ul> -->
+              </div>
+              <div class="back">
+                <p>Posses a Bachelor Degree of Graphic Designer and currently pursing her Master's in Digital Graphic and Web-design in Saint-Petersburg. Maria is more than 3 years actively developing her professional career in branding, graphic design, and advertisement. Has cooperated with a Museum of a street-art in SPB as well as with Eastern Economic forum in Vladivostok. Loves to travel.</p>
+              </div>
+            </div>
+        </div>
+
+
+
+
+        </div>
       </div>
     </div>
-  </div>
