@@ -64,17 +64,6 @@ $(document).ready(function () {
 /* end */
 
 $(document).ready(function () {
-  $('#team .worker-card').mouseenter(function(){
-      $(this).children('.content-wrapper-text').toggleClass('show-biography');
-      $(this).children('.photo-wrapper').removeClass('changed');
-  });
-  $('#team .worker-card').mouseleave(function(){
-      $(this).children('.content-wrapper-text').toggleClass('show-biography');
-      $(this).children('.photo-wrapper').addClass('changed');
-  });
-});
-
-$(document).ready(function () {
   $('#video-btn').click(function(){
       $(this).toggleClass('stoped');
       if($(this).hasClass('stoped')){
