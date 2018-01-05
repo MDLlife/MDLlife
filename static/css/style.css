@@ -579,7 +579,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 }
 .worker-card span.position{
 	color: #673091;
-	text-transform: uppercase;
+	margin-top:15px;
 	font-weight: 700;	
 }
 .worker-card  span{
