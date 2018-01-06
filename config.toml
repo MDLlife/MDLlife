@@ -70,8 +70,8 @@ participants = 9
 [Params.Home]
 title = "MDL"
 subtitle = "talent hub"
-top_subtitle = "Blockchain powered platform"
-bot_subtitle = "for talent sourcing industry."
+top_subtitle = "Trustchain Platform for"
+bot_subtitle = "Talent Sourcing Industry"
 
 	#Home section features
 [[Params.Home.Features]]
@@ -262,3 +262,7 @@ src = "img/zycrypto-luna-transparent-logo-300x300.png"
 [[Params.Media.Links]]
 href = "https://icocountdown.com"
 src = "img/icocountdown.png"
+
+[[Params.Media.Links]]
+href = "https://coinidol.com/mdl-talent-hub-set-to-disrupt-talent-marketing-with-new-platform/"
+src = "img/coinidol.jpg"
