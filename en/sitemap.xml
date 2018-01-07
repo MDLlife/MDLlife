@@ -398,11 +398,6 @@
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/"
                 />
@@ -423,6 +418,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ja"
+                href="http://mdl.life/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-hant"
                 href="http://mdl.life/zh-hant/"
                 />
@@ -436,11 +436,6 @@
   <url>
     <loc>http://mdl.life/categories/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/categories/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -463,6 +458,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="ja"
+                href="http://mdl.life/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-hant"
                 href="http://mdl.life/zh-hant/categories/"
                 />
@@ -476,11 +476,6 @@
   <url>
     <loc>http://mdl.life/tags/</loc>
     <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/tags/"
-                />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
@@ -500,6 +495,11 @@
                 rel="alternate"
                 hreflang="kr"
                 href="http://mdl.life/kr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://mdl.life/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
