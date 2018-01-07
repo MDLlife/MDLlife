@@ -188,7 +188,7 @@ url = "https://www.linkedin.com/company/18324359/"
 svg = "img/linkedin.svg"
 
 [[Params.Footer.links]]
-url = "https://t.me/joinchat/BafuqEaDUdGLXyyeJDIT4A"
+url = "https://t.me/MDL_Talent_Hub"
 svg = "img/telegram.svg"
 
 [[Params.Footer.links]]
