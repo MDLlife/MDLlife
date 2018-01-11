@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <link>http://mdl.life/de/</link>
+    <description>Recent content on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 08 Oct 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://mdl.life/de/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The thing is</title>
+      <link>http://mdl.life/de/2017-10-08-the-thing-is/</link>
+      <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-10-08-the-thing-is/</guid>
+      <description>German translation goes here&amp;hellip;</description>
+    </item>
+    
+  </channel>
+</rss>

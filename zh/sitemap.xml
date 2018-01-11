@@ -367,6 +367,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="de"
+                href="http://mdl.life/de/2017-10-08-the-thing-is/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/2017-10-08-the-thing-is/"
                 />
@@ -403,16 +408,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ja"
                 href="http://mdl.life/ja/"
                 />
@@ -420,6 +415,21 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://mdl.life/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -443,16 +453,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ja"
                 href="http://mdl.life/ja/categories/"
                 />
@@ -460,6 +460,21 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://mdl.life/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -483,16 +498,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ja"
                 href="http://mdl.life/ja/tags/"
                 />
@@ -500,6 +505,21 @@
                 rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://mdl.life/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://mdl.life/ru/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
