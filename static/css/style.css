@@ -114,6 +114,7 @@ header h2{
 }
 header .discription-part{
 	margin-top: 150px;
+	width: 100% ;
 }
 header h2{
 	text-align: center;
@@ -122,6 +123,7 @@ header h2{
 	letter-spacing: 7px;
 }
 header .down-part{
+	width: 100% ;
 	padding-left: 11px;
 	margin-top: 100px;
 }
@@ -335,8 +337,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	padding-top: 125px;
 	padding-bottom: 70px;
 }
+
 #pre-ito .colored{
-	color:#673091;
+    color:#673091;
+	font-weight: bold;
 }
 #pre-ito .rev-block-wrapper{
 	max-width: 350px;
@@ -362,7 +366,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	font-family: 'DINPro',sans-serif;
 	font-weight: 400;
 	font-size: 18px;
-	color: #000000;
+	 color:#000000;
 	text-align: left;
 }
 #pre-ito ul>li:last-child{
@@ -642,6 +646,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	font-size: 16px;
 	text-decoration: underline;
 }
+
 .link-to-linkedLn:before{
 	position: absolute;
 	left: 46%;
@@ -651,6 +656,16 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
     background-size: 100%;
     height: 20px;
     width: 20px;}
+
+.link-to-sky{
+	position: absolute;
+	left: 46%;
+	bottom: 15px;
+}
+
+.link-to-sky img{
+	width: 25px;
+}
 /* весь контейнер поддерживает перспективу */
 .flip-container {
 	margin-top: 10px;	
@@ -721,69 +736,92 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 /* Roadmap */
 #roadmap{
 	padding-top: 75px;
-	height: 700px;
+	padding-bottom: 100px;
 }
-.tree-wrapper{
-	height: 330px;
-	background-image: url(../img/roadmap-bg.png);
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: 343px 0px;
+#roadmap .module-title:after{
+	margin-bottom: 100px;
 }
-.tree-wrapper ul{
-	list-style: none;
+.roadmap-wrapper{
+	position: relative;
+	width: 1100px;
+    height: 750px;
+    margin: 0 auto;
+    background-image: url(../img/roadmap-bg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center
 }
-.date-wrapper ul{
-	padding-left: 0;
-}
-.event-wrapper ul{
-	padding-left: 10px;
-}
-.event-wrapper li{
-	margin-top: 0;
-}
-.date-wrapper{
-	text-align: right;
-}
-.tree-wrapper li{
+.roadmap-item{
+	position: absolute;
+	width: 200px;
+	text-align: left;
+	color: black;
 	font-family: 'DINPro', sans-serif;
-	font-weight: 400;
-	font-size: 16px;
-	color:black;
-	height: 26px;
-
+	font-size: 14px;
 }
-.tree-wrapper li>span{
-	font-size: 15px;
+.roadmap-item:nth-child(1){
+	top: -70px;
+	left: 185px;
+}
+.roadmap-item:nth-child(2){
+	top: -50px;
+	left: 505px;
+}
+.roadmap-item:nth-child(3){
+	top: -50px;
+	left: 830px;
+}
+.roadmap-item:nth-child(4){
+	top: 240px;
+	left: 185px;
+}
+.roadmap-item:nth-child(5){
+	top: 260px;
+	left: 505px;
+}
+.roadmap-item:nth-child(6){
+	top: 260px;
+	left: 830px;
+}
+
+.roadmap-item:nth-child(7){
+	top: 417px;
+	left: 185px;
+}
+.roadmap-item:nth-child(8){
+	top: 418px;
+	left: 505px;
+}
+.roadmap-item:nth-child(9){
+	top: 418px;
+	left: 830px;
+}
+
+.roadmap-item:nth-child(10){
+	top: 580px;
+	left: 185px;
+}
+.roadmap-item:nth-child(11){
+	top: 580px;
+	left: 505px;
+}
+.roadmap-item:nth-child(12){
+	top: 600px;
+	left: 830px;
+}
+.roadmap-item:nth-child(13){
+	top: 780px;
+	left: 368px;
+}
+
+.roadmap-item_date{
+	margin-top: 5px;
 	color: #673091;
-	font-weight: 700;	
+	font-weight: 700;
+	text-transform: uppercase;
 }
-.tree-wrapper .row:nth-child(1) .date-wrapper ul{
-	margin-top: 2px;
-}
-.tree-wrapper .row:nth-child(1) .event-wrapper ul{
-	margin-top: 1px;
-}
-.tree-wrapper .row:nth-child(2) .date-wrapper ul{
-	margin-top: 18px;
-}
-.tree-wrapper .row:nth-child(2) .event-wrapper ul{
-	margin-top: 18px;
-}
-/*
-.tree-wrapper .row:nth-child(3) .date-wrapper ul{
-	margin-top: 23px;
-}
-.tree-wrapper .row:nth-child(3) .event-wrapper ul{
-	margin-top: 33px;
-}*/
 
-#roadmap .row:first-child .event-wrapper li:nth-of-type(1),
-#roadmap .row:first-child .event-wrapper li:nth-of-type(2),
-#roadmap .row:first-child .date-wrapper li:nth-of-type(1),
-#roadmap .row:first-child .date-wrapper li:nth-of-type(2){
-	opacity: 0.6;
-}
+
 
 /* 	Footer */
 footer{
@@ -957,6 +995,67 @@ footer li:nth-child(2) img.community-link{
 	.tree-wrapper{
 		background-position: 260px 0;
 	}
+
+	.roadmap-wrapper{
+		width: 970px;
+	}
+	.roadmap-item{
+		width: 185px;
+	}
+.roadmap-item:nth-child(1){
+	top: -60px;
+	left: 185px;
+}
+.roadmap-item:nth-child(2){
+	top: -20px;
+	left: 505px;
+}
+.roadmap-item:nth-child(3){
+	top: -20px;
+	left: 830px;
+}
+.roadmap-item:nth-child(4){
+	top: 240px;
+	left: 185px;
+}
+.roadmap-item:nth-child(5){
+	top: 260px;
+	left: 505px;
+}
+.roadmap-item:nth-child(6){
+	top: 260px;
+	left: 830px;
+}
+
+.roadmap-item:nth-child(7){
+	top: 417px;
+	left: 185px;
+}
+.roadmap-item:nth-child(8){
+	top: 418px;
+	left: 505px;
+}
+.roadmap-item:nth-child(9){
+	top: 418px;
+	left: 830px;
+}
+
+.roadmap-item:nth-child(10){
+	top: 580px;
+	left: 185px;
+}
+.roadmap-item:nth-child(11){
+	top: 580px;
+	left: 505px;
+}
+.roadmap-item:nth-child(12){
+	top: 600px;
+	left: 830px;
+}
+.roadmap-item:nth-child(13){
+	top: 780px;
+	left: 368px;
+}
 
 }
 
