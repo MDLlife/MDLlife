@@ -6,10 +6,109 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Nov 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mdl.life/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ansätze und technische Entscheidungen</title>
+      <link>http://mdl.life/de/2017-12-31-approaches-technical-decisions/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-31-approaches-technical-decisions/</guid>
+      <description>Im aktuellen Stadium der globalen Blockchain-Entwicklung scheint es, als ob die meisten Leute absolut vergessen haben, dass hinter jedem Projekt tatsächlich Leute arbeiten (oder nicht). Eine stilvolle Website mit einem vielversprechenden Video mit Bitcoin- oder Ethereum-Adressen bringt die Menschen mehr dazu zu investieren, als eine hart arbeitende Gemeinschaft mit respektvollen Anführern. Menschen senden einfach Geld blind zu einem intelligenten Vertrag, ohne zu erforschen, wer an dem Konzept, dem Code, dem Marketing, etc.</description>
+    </item>
+    
+    <item>
+      <title>Was machen wir und warum?</title>
+      <link>http://mdl.life/de/2017-12-23-what-do-we-do-and-why/</link>
+      <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-23-what-do-we-do-and-why/</guid>
+      <description>Was machen wir und warum?
+In der anhaltenden Blockchain-Manie gibt es so viele Projekte, die unecht oder gar unwahr wirken. ICOs wurden ein einfaches Tool für Startups um Geld zu sammeln, und so sind Betrüger auch bereit, schnelles Geld zu machen. Ist MDL Talent Hub eine echte Sache mit einem entschlossenen Visions- und Entwicklungsplan oder reitet es nur die Welle des Cryptohype? Wir glauben, dass wir auf dem festen Boden stehen und hier erklären wir warum.</description>
+    </item>
+    
+    <item>
+      <title>MDL - Mine Distributed Ledger</title>
+      <link>http://mdl.life/de/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <description>MDL Talent Hub wird PIDS-Technologien (IPFS, CXO usw.) verwenden, die es ermöglichen, Informationen auf Geräten der Nutzer und bei Minern verteilt zu speichern, wodurch der Zugriff, die Geschwindigkeit und die Sicherheit von Informationen wesentlich erhöht werden.
+Um unsere Nutzer und Miner (Schürfer) zu entschädigen, werden wir ein Prämienprogramm einrichten, mit dem jeder eine bestimmte Anzahl von MDL-Token erhalten kann, wenn er Informationen über Talente, Ereignisse usw. speichert. MDL-Tokens können so auf MDL Talent Hub für andere Wertsachen ausgegeben oder in andere Krypto- oder Fiat-Währungen umgetauscht werden.</description>
+    </item>
+    
+    <item>
+      <title>MDL bei der Skyledger Konferenz</title>
+      <link>http://mdl.life/de/2017-12-14-mdl-at-skyledger-conference/</link>
+      <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <description>Da MDL Talent Hub in Erwägung zieht, die CXO-Technologie einzusetzen und ein Teil des Skyledger-Ökosystems zu werden, wurden wir freundlicherweise eingeladen, unser Projekt den Blockchain-Enthusiasten und Investoren aus Shanghai vorzustellen.
+Skyledger positioniert sich als Blockchain 3.0 und wird stark von Business- und IT-Communities unterstützt. Die Technologie wird hier in Shanghai von einem internationalen Team entwickelt und zielt darauf ab, andere DAO-Protokolle zu überwinden.
+MDL genießt es, einer der fortschrittlichsten Tech-Bewegungen in China und der Welt nahe zu sein.</description>
+    </item>
+    
+    <item>
+      <title>Pre-ITO läuft</title>
+      <link>http://mdl.life/de/2017-12-13-pre-ito-is-ongoing/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-13-pre-ito-is-ongoing/</guid>
+      <description>Um das ITO vorzubereiten, benötigen wir ca. $ 500.000. Dieser Betrag wird es ermöglichen, die ITO-Kampagne im März 2018 zu starten, die 20 Mio USD für die Entwicklung der Plattform, die grenzüberschreitende Skalierung und Geschäftsentwicklung, sowie für die Forschung und Entwicklung und die weitere Implementierung von BC &amp;amp; PIDS-Technologien einbringen soll.
+Im Januar 2018 planen wir, ein Pre-ITO für den MDL-Token abzuhalten. Der MDL-Token wurde am 8. Oktober 2017 mit der Anzahl von 100.</description>
+    </item>
+    
+    <item>
+      <title>Benutzerinstrumente - Teil 1 </title>
+      <link>http://mdl.life/de/2017-12-08-user-instruments-part1/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-08-user-instruments-part1/</guid>
+      <description>Profil Wir glauben, dass eine talentierte Person in vielerlei Hinsicht talentiert sein kann, so dass jedes Profil mehrere Portfolios hat - Schauspieler, Tänzer, Origami-Meister oder anderes. Jedes der Portfolios wird über ausreichend Präsentationsmaterial wie Compcard, Vorstellungsvideos oder anderes verfügen. So kann ein Bucher leicht ein bestimmtes Portfolio eines Talents auswählen, das für das bestimmte Ereignis benötigt wird.
+Search Suche wird sowohl für Bucher als auch für Talente verfügbar sein, indem es für Jobs als auch für Freiberufler zur Verfügung steht.</description>
+    </item>
+    
+    <item>
+      <title>MDL - Mein tägliches Leben</title>
+      <link>http://mdl.life/de/2017-12-06-mdl-my-daily-life/</link>
+      <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-06-mdl-my-daily-life/</guid>
+      <description>Seit einigen Jahrzehnten erlebt die Weltwirtschaft einen massiven Wandel von Landwirtschaft und Produktion zu Dienstleistungen und weiter zu einem kreativen Wirtschaftssektor, wie Richard Florida, Leiter des Martin Wohlstandsinstitutes in Kanada, festgestellt hat. Moderne Technologien stören die Wirtschaft derart, dass immer mehr Menschen arbeitslos bleiben und die früher als verrückt angesehene Idee des bedingungslosen Grundeinkommens in fortgeschrittenen Ländern bereits umgesetzt wird. Sehr bald wird unsere Gesellschaft mit der Dynamik konfrontiert sein, dass routinemäßige physische und sogar mentale menschliche Arbeit für den Fortschritt nicht mehr benötigt wird.</description>
+    </item>
+    
+    <item>
+      <title>Wie MDL die Reputation (Ruf) sichert</title>
+      <link>http://mdl.life/de/2017-12-05-how-mdl-secures-reputation/</link>
+      <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-05-how-mdl-secures-reputation/</guid>
+      <description>Um die Glaubwürdigkeit der Reputation zu erleichtern, wird MDL Talent Hub zwei moderne Technologien einsetzen - Blockchain und PIDS. Lassen Sie uns auf einfache Weise erklären, wie es funktionieren wird.
+Persistente unveränderliche Datenspeicherung (PIDS) ist eine neue Art, Informationen zu speichern. Die Technologie ermöglicht die Speicherung von Daten auf Geräten von Benutzern, anstelle von zentralisiert, anfällig für Angriffe auf Server. Heutzutage gibt es zwei vielversprechende Protokolle, die entwickelt und für den Gebrauch bereits verfügbar sind - IPFS und CXO; Beide versprechen wesentliche Kostenreduzierung und die Übertragungsgeschwindigkeit zu erhöhen.</description>
+    </item>
+    
+    <item>
+      <title>MDL Talent Hub auf der SF2017 in Seoul</title>
+      <link>http://mdl.life/de/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <description>Da Südkorea aktiv das Startup-Ökosystem und Innovationen fördert um den heftigen technologischen Wettbewerb in Asien zu überleben, hat die koreanische Regierung ein Programm von jährlichen Startup-Festivals initiiert und letzte Woche war der erste erfolgreiche Versuch, Unternehmer, Tech-Medien und VCs unter einem Dach des COEX-Komplexes in Seoul zu versammeln.
+MDL Talent Hub wurde freundlicherweise zur Teilnahme an der Veranstaltung eingeladen und hatte das Glück, eine hervorragende Präsentation zu erhalten, da die Probleme, die das Projekt lösen soll, auch in Korea existieren.</description>
+    </item>
+    
+    <item>
+      <title>Die Webseite ist gestartet und MDL geht für die SF2017 nach Korea</title>
+      <link>http://mdl.life/de/2017-11-25-webpage-is-launched-and-mdl-goes-to-korea-for-sf2017/</link>
+      <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2017-11-25-webpage-is-launched-and-mdl-goes-to-korea-for-sf2017/</guid>
+      <description>Anfang Dezember wird das MDL Team am Startup Festival 2017 in Seoul, Südkorea teilnehmen. Die SF2017 wird zum ersten Mal von der koreanischen Regierung organisiert, um das Innovations-Ökosystem im Land zu unterstützen. Es werden rund 60 ausgewählte Startups aus Asien persönlich eingeladen, VCs und Medien aus aller Welt zu treffen. MDL ist auf der Liste!
+Es wird das erste große Ereignis für uns als Team sein und wir freuen uns darauf, unseren künftigen potenziellen Partnern sowie alten Freunden, die wir dort treffen werden, einen guten Eindruck zu vermitteln.</description>
+    </item>
     
     <item>
       <title>Woher kommt das Geld?</title>
