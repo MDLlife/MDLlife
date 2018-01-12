@@ -15,8 +15,7 @@ participants = 21
   keywords = "MDL,blockchain,talents,models,technology,app,IPFS"
   description = "Talent Hub. We create blockchain powered platform for talent sourcing industry."
   pre_ito_manual = "QmUH7wTKG6bi38hLd7zHShVa5MGoga6UTTFVsZsmawr6za/MDL%20Pre-ITO%20Manual%201.1.pdf"
-  whitepaper = "QmaQWt9Tf2RVwGkT8KiG8ByjuCEK3is7MQ39apPVkGrQDk/MDL%20whitepaper%200.9.6.pdf"
-
+  whitepaper = "QmWRANqki2eDo4QEyDbYZEcshB9LM4WqTXS8bSdsT82K6U/MDL%20Whitepaper%200.9.7.pdf
  # Navigation section here you can add or change links in top nav menu
 
 [[Params.Navigation.links]]
