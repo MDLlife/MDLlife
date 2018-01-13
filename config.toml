@@ -266,3 +266,7 @@ src = "img/coinidol.png"
 [[Params.Media.Links]]
 href = "https://icocountdown.com"
 src = "img/icocountdown.png"
+
+[[Params.Media.Links]]
+href = "https://themerkle.com/introducing-mdl-talent-hub-the-decentralized-marketplace-and-ecosystem-for-talent/"
+src = "img/themerkle.jpg"
