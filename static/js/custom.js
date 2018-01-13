@@ -112,6 +112,12 @@ $(document).ready(function () {
   $('.mentor-board_item').mouseleave(function(){
       $(this).children('.mentor-photo-wrapper').addClass('changed');
   });
+  $('.rotator').click(function(){
+    $(this).parent('.front').parent('.worker-card').parent('.flip-container').addClass('hover');
+  });
+  $('.rotator').mouseleave(function(){
+    $(this).parent('.front').parent('.worker-card').parent('.flip-container').removeClass('hover');
+  });
 });
 
 $(document).ready(function () {
