@@ -6,8 +6,8 @@ title = "MDL - Talent Hub"
 # RAISED SETTINGS
 [Params.Raised]
 max_value = 500000
-current_value = 58453
-participants = 24
+current_value = 73453
+participants = 25
 
 
 # Provide your metadata here.
