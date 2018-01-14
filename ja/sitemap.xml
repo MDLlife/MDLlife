@@ -12,6 +12,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-10-10-mdl-inception/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-10-10-mdl-inception/"
                 />
@@ -98,13 +103,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://mdl.life/de/"
+                hreflang="ru"
+                href="http://mdl.life/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -113,8 +113,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/"
+                hreflang="ar"
+                href="http://mdl.life/ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -123,8 +123,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/"
+                hreflang="de"
+                href="http://mdl.life/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -148,13 +153,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://mdl.life/de/categories/"
+                hreflang="ru"
+                href="http://mdl.life/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -163,8 +163,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/categories/"
+                hreflang="ar"
+                href="http://mdl.life/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -173,8 +173,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/categories/"
+                hreflang="de"
+                href="http://mdl.life/de/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -198,13 +203,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://mdl.life/de/tags/"
+                hreflang="ru"
+                href="http://mdl.life/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -213,8 +213,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/tags/"
+                hreflang="ar"
+                href="http://mdl.life/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -223,8 +223,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/tags/"
+                hreflang="de"
+                href="http://mdl.life/de/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"

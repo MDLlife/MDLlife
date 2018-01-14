@@ -1,0 +1,30 @@
+++++
+title = "Pendekatan dan Keputusan Teknis"
+date = "31 Desember 2017"
+++++
+
+Dalam perkembangan blockchain global terkini, nampaknya kebanyakan orang benar-benar lupa bahwa di balik setiap proyek ada orang-orang yang bekerja secara nyata [atau tidak]. Jadi, situs web bergaya dengan video menarik yang menjanjikan, yang menampilkan alamat Bitcoin atau Ethereum, membuat orang lebih tertarik untuk berinvestasi, daripada komunitas pekerja keras, dengan pemimpin terhormat. Orang hanya mengirim uang secara membabi buta ke kontrak pintar, tanpa meneliti siapa yang mengerjakan konsep, kode, pemasaran, dll. KYC yang benar atau uji kelayakan harus dilakukan di kedua pihak, jika tidak, pemberontakan dan keberuntungan terjadi. MDL mengambil pendekatan yang sedikit berbeda, setidaknya pada saat PRE-ITO. Alih-alih melakukan KYC formal, kami ingin mengetahui investor kami sendiri dan kami pikir penting untuk membiarkan mereka lebih memahami kami juga. Selama PRE-ITO pada bulan Januari, kami siap menjawab pertanyaan dan bersikap responsif semaksimal mungkin secara fisik.
+
+***Mengapa kami memilih platform WAVES untuk PRE-ITO?***
+
+Terus terang, tak satu pun anggota tim kami yang pernah aktif di komunitas Waves. Tapi kami memiliki pengetahuan yang luas tentang beberapa proyek Ethereum saat berpengalaman menjadi investor ERC20s. Masalahnya adalah. Pengalaman pengguna ETH masih jauh dari apa yang orang harapkan darinya. Masalah ini sepertinya tidak akan berubah dalam waktu dekat dan kepadatan saat ini dengan jaringan Ethereum yang tidak hanya memungkinkan aplikasi pertama (ICOs + kripto kitties) berguna untuk menunjukkan potensinya kepada dunia, namun ini menunjukkan bahwa meletakkan seluruh dunia menjadi satu database tunggal [yang mana blockchain] bukanlah ide terbaik. Vitalik dan timnya melakukan pekerjaan yang hebat, mereka membantu komunitas kripto tumbuh dan membuka mata banyak orang, namun mereka meremehkan dampak yang akan dibawa ke seluruh dunia. Alih-alih melawan perang kepadatan dengan semua ERC20 itu, sementara membiarkan investor kami membuang banyak uang untuk biaya transaksi, kami telah menjadi pengguna setia ciptaan Sasha: ini akan memungkinkan tim MDL mencapai tujuan pendanaan awal kami dan fokus pada apa yang penting - membangun produk yang hebat. MDL TIDAK menjelajah hype crypto blockchain, kami menggunakan [industrial revolution 4.0](https://en.wikipedia.org/wiki/Industry_4.0) vibes.
+
+***Mengapa kami memilih teknologi Skycoin / Skyledger?***
+
+MDL saat ini bukanlahsebuah dapp atau sekadar kontrak pintar. Kami melihat blockchain sebagai bagian penting dari evolusi teknis. Yang terpenting - semua blockchains di mata kami adalah database. Ya, database dengan sifat khas menarik mereka yang telah didistribusikan dan tidak berubah. Ethereum mencoba memasukkan seluruh dunia ke dalam satu database; Tapi bagi kami sebagai pemula penting untuk memastikan bahwa teknologi yang kami gunakan bersifat tetap dan teruji dengan baik. Ketika, sangat baik digunakan pada github skycoin, Skycoin memperbaiki Bitcoin [dan sebagian besar cabang] terlalu banyak untuk ditangani di sini. Sebagai gantinya kami sarankan untuk melihat-lihat [blog](https://blog.skycoin.net) mereka dan mungkin bahkan melirik [whitepapers](https://www.skycoin.net/whitepapers).
+
+***Bagaimana transisi ke MDL mainnet terjadi?***
+
+Melalui pintu gerbang. MDL mainnet akan didasarkan pada basis kode Sky, sehingga mewarisi kualitasnya yang berharga. OTC Skycoin telah membuktikan kepada tim dan komunitasnya bahwa hal itu berjalan dengan baik, kode yang dapat diamati dan dianalisis semua orang di [github.com/skycoin/teller](https://github.com/MDLlife/teller). Kami hanya menambahkan dukungan untuk node WAVES, pekerjaan yang telah dimulai.
+
+***Kenapa anda tidak perlu khawatir?***
+
+Kami bukan proyek pertama yang melakukan gateway Sky-code berbasis blockchain dan kasus sebelumnya [sukses](https://otc.skycoin.net). Transisi dari Pre-MDL [MDL.life token pada Waves] ke MDL [mainnet, cabang kode skycoin - jangan disalah artiakan dengan cabang Bitcoin] akan mendapat dukungan informasi penuh dan tim kami akan membantu mengatasi kebingungan apapun. Periode transisi akan terbuka cukup lama bagi setiap orang untuk melakukan pertukaran. Kami peduli bahwa semua orang senang saat bekerja sama dengan MDL.
+
+***Mengapa kamisenang?***
+
+Nah, Anda tetap harus berhati-hati dan tidak pernah menginvestasikan lebih, hal ini genting bagi Anda untuk kalah dalam kasus darurat global. Tidak ada satupun proyek MDL yang diasuransikan terhadap gempa bumi atau tsunami mendadak. Hal itu akan bisa dilakukan sesuai dengan peta jalan kami.
+
+Selamat Tahun Baru 2018, Hadirin sekalian yang terhormat!
+
+Roman Tronenko, [MDL.life](http://MDL.life)'s CTO & [[gogo.tattoo](http://gogo.tattoo) penggagas], Tokyo

@@ -12,6 +12,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-31-approaches-technical-decisions/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-12-31-approaches-technical-decisions/"
                 />
@@ -67,6 +72,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-21-mdl-mine-distributed-ledger/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh-hant"
                 href="http://mdl.life/zh-hant/2017-12-21-mdl-mine-distributed-ledger/"
                 />
@@ -84,6 +94,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-12-14-mdl-at-skyledger-conference/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-14-mdl-at-skyledger-conference/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -117,6 +132,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-13-pre-ito-is-ongoing/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/2017-12-13-pre-ito-is-ongoing/"
                 />
@@ -144,6 +164,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-12-08-user-instruments-part1/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-08-user-instruments-part1/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -177,6 +202,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-06-mdl-my-daily-life/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/2017-12-06-mdl-my-daily-life/"
                 />
@@ -207,6 +237,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-05-how-mdl-secures-reputation/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="zh"
                 href="http://mdl.life/zh/2017-12-05-how-mdl-secures-reputation/"
                 />
@@ -230,6 +265,16 @@
   <url>
     <loc>http://mdl.life/de/2017-12-03-mdl-at-sf2017-seoul/</loc>
     <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-12-03-mdl-at-sf2017-seoul/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://mdl.life/de/2017-12-03-mdl-at-sf2017-seoul/"
+                />
   </url>
   
   <url>
@@ -244,6 +289,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-11-14-where-do-the-money-come-from/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-11-14-where-do-the-money-come-from/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -279,6 +329,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-10-30-what-we-gonna-do/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-10-30-what-we-gonna-do/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -327,6 +382,11 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-10-13-mdl-team-slush-shanghai/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="ru"
                 href="http://mdl.life/ru/2017-10-13-mdl-team-slush-shanghai/"
                 />
@@ -349,6 +409,11 @@
                 rel="alternate"
                 hreflang="en"
                 href="http://mdl.life/2017-10-10-mdl-inception/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://mdl.life/id/2017-10-10-mdl-inception/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -438,8 +503,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/"
+                hreflang="ru"
+                href="http://mdl.life/ru/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -448,8 +513,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/"
+                hreflang="ar"
+                href="http://mdl.life/ar/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -458,13 +523,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/"
+                hreflang="ja"
+                href="http://mdl.life/ja/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/"
+                hreflang="zh"
+                href="http://mdl.life/zh/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -488,8 +553,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/categories/"
+                hreflang="ru"
+                href="http://mdl.life/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -498,8 +563,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/categories/"
+                hreflang="ar"
+                href="http://mdl.life/ar/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -508,13 +573,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/categories/"
+                hreflang="ja"
+                href="http://mdl.life/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/categories/"
+                hreflang="zh"
+                href="http://mdl.life/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -538,8 +603,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ar"
-                href="http://mdl.life/ar/tags/"
+                hreflang="ru"
+                href="http://mdl.life/ru/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -548,8 +613,8 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/tags/"
+                hreflang="ar"
+                href="http://mdl.life/ar/tags/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -558,13 +623,13 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ru"
-                href="http://mdl.life/ru/tags/"
+                hreflang="ja"
+                href="http://mdl.life/ja/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/tags/"
+                hreflang="zh"
+                href="http://mdl.life/zh/tags/"
                 />
     <xhtml:link
                 rel="alternate"
