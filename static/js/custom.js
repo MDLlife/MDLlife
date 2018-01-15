@@ -128,4 +128,24 @@ $(document).ready(function () {
   }
 });
 
+$(document).ready(function () {
+    $('.rp-video-link').click(function(e){
+        e.preventDefault();
+        var path = $(this).attr('data-media');
+        var video_template = '<video class="video_in-modal" controls src="'+path+'"></video>'
+        $('.modal-body').html(video_template);
+    });
+    $('.rp-image-link').click(function(e){
+        e.preventDefault();
+        var path = $(this).attr('data-media');
+        var video_template = '<img class="image_in-modal" src="'+path+'">'
+        $('.modal-body').html(video_template);
+    });
+
+    $("#rp-modal").on('hidden.bs.modal', function () {
+      if($('#rp-modal .video_in-modal').length > 0)
+        $('#rp-modal .video_in-modal').get(0).pause();
+    }); 
+});
+
 
