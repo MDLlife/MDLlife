@@ -768,15 +768,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	left: 505px;
 }
 .roadmap-item:nth-child(3){
-	top: -50px;
+	top: -70px;
 	left: 830px;
 }
 .roadmap-item:nth-child(4){
-	top: 240px;
+	top: 260px;
 	left: 185px;
 }
 .roadmap-item:nth-child(5){
-	top: 260px;
+	top: 240px;
 	left: 505px;
 }
 .roadmap-item:nth-child(6){
@@ -785,7 +785,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 }
 
 .roadmap-item:nth-child(7){
-	top: 417px;
+	top: 440px;
 	left: 185px;
 }
 .roadmap-item:nth-child(8){
@@ -813,7 +813,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	top: 780px;
 	left: 368px;
 }
-
+#rp-modal .close{
+	position: absolute;
+    z-index: 1000;
+    right: 0;
+    top: 0;
+    color: #662f8f;
+}
+.rp-video-link,.rp-image-link{
+	position: absolute;width: 50px;	
+}
+.roadmap-item:nth-child(1) .rp-video-link{	
+	top: 70px;
+}
+.roadmap-item:nth-child(2) .rp-image-link{
+	top: 53px;
+    left: 16px;
+}
+.video_in-modal,.image_in-modal{
+	width: 100%;	
+}
 .roadmap-item_date{
 	margin-top: 5px;
 	color: #673091;
@@ -1056,6 +1075,13 @@ footer li:nth-child(2) img.community-link{
 	top: 710px;
     left: 330px;
 }
+.roadmap-item:nth-child(1) .rp-video-link{	
+	top: 79px;
+}
+.roadmap-item:nth-child(2) .rp-image-link{
+	top: 60px;
+    left: -9px;
+}
 
 }
 
@@ -1143,7 +1169,7 @@ footer li:nth-child(2) img.community-link{
     left: 360px;
 }
 .roadmap-item:nth-child(3){
-	top: -8px;
+	top: -25px;
     left: 570px;
 }
 .roadmap-item:nth-child(4){
@@ -1188,6 +1214,17 @@ footer li:nth-child(2) img.community-link{
 	top: 556px;
     left: 250px;
 
+}
+.rp-video-link, .rp-image-link{
+	width: 35px;	
+}
+.roadmap-item:nth-child(1) .rp-video-link{	
+	top: 71px;
+    left: -12px;
+}
+.roadmap-item:nth-child(2) .rp-image-link{
+    top: 54px;
+    left: -7px;
 }
 
 }
@@ -1420,40 +1457,40 @@ footer li:nth-child(2) img.community-link{
 	left: -167px;	
 }
 .roadmap-item:nth-child(3){
-	top: 247px;
+	top: 240px;
 }
 .roadmap-item:nth-child(3) .roadmap-item_date{
-	top: -4px;
-	left: -157px;	
+	top: 4px;
+    left: -171px;x	
 }
 .roadmap-item:nth-child(4){
-	top: 347px; 	
+	top: 364px; 	
 }
 .roadmap-item:nth-child(4) .roadmap-item_date{
-	top: 14px;	
-	left: -145px;	
+	top: -4px;
+    left: -156px;	
 }
 .roadmap-item:nth-child(5){
-	top: 483px; 	
+	top: 475px; 	
 }
 .roadmap-item:nth-child(5) .roadmap-item_date{
-	top: -6px;	
-	left: -164px;	
+	top: 2px;
+    left: -142px;	
 }
 .roadmap-item:nth-child(6){
-	top: 598px; 	
+	top: 599px; 	
 }
 .roadmap-item:nth-child(6) .roadmap-item_date{
 	top: -3px;
-    left: -141px;	
+    left: -166px;	
 }
 
 .roadmap-item:nth-child(7){
-	top: 698px; 	
+	top: 715px; 	
 }
 .roadmap-item:nth-child(7) .roadmap-item_date{
-	top: 14px;
-    left: -169px;	
+	    top: -3px;
+    left: -141px;	
 }
 .roadmap-item:nth-child(8){
 	top: 816px;	
@@ -1467,7 +1504,7 @@ footer li:nth-child(2) img.community-link{
 }
 .roadmap-item:nth-child(9) .roadmap-item_date{
 	top: 13px;	
-	left: -162px;	
+	left: -170px;	
 }
 
 .roadmap-item:nth-child(10){
@@ -1475,14 +1512,14 @@ footer li:nth-child(2) img.community-link{
 }
 .roadmap-item:nth-child(10) .roadmap-item_date{
 	top: 7px;
-	left: -140px;		
+	left: -165px;		
 }
 .roadmap-item:nth-child(11){
-	top: 1165px;	
+	top: 1175px;	
 }
 .roadmap-item:nth-child(11) .roadmap-item_date{
-	top: 14px;
-	left: -131px;		
+	top: 4px;
+    left: -140px;	
 }
 .roadmap-item:nth-child(12){
 	top: 1301px;	
@@ -1497,6 +1534,16 @@ footer li:nth-child(2) img.community-link{
 .roadmap-item:nth-child(13) .roadmap-item_date{
 	top: 5px;	
 	left: -127px;	
+}
+
+
+.roadmap-item:nth-child(1) .rp-video-link{	
+	top: -8px;
+    left: -58px;
+}
+.roadmap-item:nth-child(2) .rp-image-link{
+    top: -17px;
+    left: -58px;
 }
 
 	/* 	Market scope */
