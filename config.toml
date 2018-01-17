@@ -70,8 +70,8 @@ participants = 32
 [Params.Home]
 title = "MDL"
 subtitle = "talent hub"
-top_subtitle = "Trustchain Platform for"
-bot_subtitle = "Talent Sourcing Industry"
+top_subtitle = "TRUSTCHAIN PLATFORM FOR"
+bot_subtitle = "THE TALENT SOURCING INDUSTRY"
 
 	#Home section features
 [[Params.Home.Features]]
@@ -103,7 +103,7 @@ blocksubtitle1 = "Channels are not consolidated, talent search is still done man
 photo2 = "img/problem-reputation.png"
 photo2_about = "reputation"
 blocktitle2 = "Reputation"
-blocksubtitle2 = "A lot of misbehavior is happening because it is not going to be traced"
+blocksubtitle2 = "A lot of misbehavior is happening because it isn’t being traced"
 
 #-------------------------------
 photo3 = "img/problem-presentation.png"
@@ -270,3 +270,7 @@ src = "img/icocountdown.png"
 [[Params.Media.Links]]
 href = "https://themerkle.com/introducing-mdl-talent-hub-the-decentralized-marketplace-and-ecosystem-for-talent/"
 src = "img/themerkle.jpg"
+
+[[Params.Media.Links]]
+href = "https://icoholder.com/en/ico/mdl-talent-hub-17379"
+src = "img/icoholder.jpg"
