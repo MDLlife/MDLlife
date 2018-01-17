@@ -301,6 +301,9 @@ height: 91px;
 	font-size: 20px;
 	color: #000000;
 }
+#revenue-streams .token ul>li:nth-child(2){
+	padding: 10px;
+}
 #revenue-streams ul>li:last-child{
 	border-bottom: 0;
 }
@@ -748,8 +751,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
     margin: 0 auto;
     background-image: url(../img/roadmap-bg.png);
     background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center
+    background-size: 120%;
+    background-position: -92px;
 }
 .roadmap-item{
 	position: absolute;
@@ -797,17 +800,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	left: 830px;
 }
 
-.roadmap-item:nth-child(10){
+.roadmap-item:nth-child(12){
 	top: 580px;
-	left: 185px;
+	left: 830px;
+
 }
 .roadmap-item:nth-child(11){
 	top: 580px;
 	left: 505px;
 }
-.roadmap-item:nth-child(12){
+.roadmap-item:nth-child(10){
 	top: 600px;
-	left: 830px;
+	left: 185px;
 }
 .roadmap-item:nth-child(13){
 	top: 780px;
@@ -829,6 +833,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 .roadmap-item:nth-child(2) .rp-image-link{
 	top: 53px;
     left: 16px;
+}
+.roadmap-item:nth-child(3) .rp-image-link{
+	left: 10px;
+    top: 70px;
 }
 .video_in-modal,.image_in-modal{
 	width: 100%;	
@@ -1017,6 +1025,7 @@ footer li:nth-child(2) img.community-link{
 
 	.roadmap-wrapper{
 		width: 970px;
+		background-position: -80px;
 	}
 	.roadmap-item{
 		width: 185px;
@@ -1059,17 +1068,19 @@ footer li:nth-child(2) img.community-link{
 	left: 750px;
 }
 
-.roadmap-item:nth-child(10){
+.roadmap-item:nth-child(12){
 	top: 555px;
-	left: 170px;
+	left: 750px;
+	
 }
 .roadmap-item:nth-child(11){
 	top: 555px;
 	left: 470px;
 }
-.roadmap-item:nth-child(12){
+.roadmap-item:nth-child(10){
 	top: 575px;
-	left: 750px;
+	left: 170px;
+
 }
 .roadmap-item:nth-child(13){
 	top: 710px;
@@ -1080,7 +1091,11 @@ footer li:nth-child(2) img.community-link{
 }
 .roadmap-item:nth-child(2) .rp-image-link{
 	top: 60px;
-    left: -9px;
+    left: -9px;   
+}
+.roadmap-item:nth-child(3) .rp-image-link{
+	 left: -7px;
+    top: 62px;
 }
 
 }
@@ -1155,6 +1170,7 @@ footer li:nth-child(2) img.community-link{
 	.roadmap-wrapper{
 		width: 740px;
 		height: 600px;
+		background-position: -60px;
 	}
 	.roadmap-item{
 		width: 165px;
@@ -1198,17 +1214,18 @@ footer li:nth-child(2) img.community-link{
 	left: 570px;
 }
 
-.roadmap-item:nth-child(10){
+.roadmap-item:nth-child(12){
 	top: 440px;
-	left: 133px;
+	left: 570px;
+
 }
 .roadmap-item:nth-child(11){
 	top: 440px;
 	left: 360px;
 }
-.roadmap-item:nth-child(12){
+.roadmap-item:nth-child(10){
 	top: 458px;
-	left: 570px;
+	left: 133px;
 }
 .roadmap-item:nth-child(13){
 	top: 556px;
@@ -1225,6 +1242,10 @@ footer li:nth-child(2) img.community-link{
 .roadmap-item:nth-child(2) .rp-image-link{
     top: 54px;
     left: -7px;
+}
+.roadmap-item:nth-child(3) .rp-image-link{
+	left: -5px;
+    top: 71px;
 }
 
 }
@@ -1430,6 +1451,8 @@ footer li:nth-child(2) img.community-link{
 		width: 315px;
 		height: 1450px;
 		background-image: url(../img/roadmap-bg-mob.png);
+		background-size: contain;
+		background-position: center;
 	}
 
 	.roadmap-item{
@@ -1507,10 +1530,10 @@ footer li:nth-child(2) img.community-link{
 	left: -170px;	
 }
 
-.roadmap-item:nth-child(10){
+.roadmap-item:nth-child(12){
 	top: 1055px;	
 }
-.roadmap-item:nth-child(10) .roadmap-item_date{
+.roadmap-item:nth-child(12) .roadmap-item_date{
 	top: 7px;
 	left: -165px;		
 }
@@ -1521,10 +1544,10 @@ footer li:nth-child(2) img.community-link{
 	top: 4px;
     left: -140px;	
 }
-.roadmap-item:nth-child(12){
+.roadmap-item:nth-child(10){
 	top: 1301px;	
 }
-.roadmap-item:nth-child(12) .roadmap-item_date{
+.roadmap-item:nth-child(10) .roadmap-item_date{
 	top: -4px;	
 	left: -120px;	
 }
@@ -1544,6 +1567,10 @@ footer li:nth-child(2) img.community-link{
 .roadmap-item:nth-child(2) .rp-image-link{
     top: -17px;
     left: -58px;
+}
+.roadmap-item:nth-child(3) .rp-image-link {
+    left: -58px;
+    top: -9px;
 }
 
 	/* 	Market scope */
@@ -1779,6 +1806,9 @@ footer li:nth-child(2) img.community-link{
 }
 .mdl_media-item:nth-child(15) img{
 	width: 100px;
+}
+.mdl_media-item:nth-child(16) img{
+	width: 120px;
 }
 .mdl_media-item img{
 	padding: 10px 0;
