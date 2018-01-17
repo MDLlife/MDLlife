@@ -6,10 +6,20 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 14 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mdl.life/de/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Warum steigt der Wert von MDL Token im Laufe der Zeit?</title>
+      <link>http://mdl.life/de/2018-01-14-why-mdl-value-increase/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2018-01-14-why-mdl-value-increase/</guid>
+      <description>Für unsere frühen Investoren ist es wichtig zu wissen, warum die MDL-Token im Laufe der Zeit an Wert gewinnen. Wir haben gerade erst realisiert, dass das, was für uns offensichtlich war, für die Gemeinschaft nicht klar ist. Hier erklären wir kurz unsere Pläne zur Nutzung der Token und wie wir das Wachstum für unsere Krypto Investoren garantieren.
+Zuallererst wird der Wert des MDL-Tokens durch unsere Expansion auf dem Talent-Sourcing-Markt wachsen, der sich selbst ständig in der Expansion befindet.</description>
+    </item>
     
     <item>
       <title>Ansätze und technische Entscheidungen</title>
@@ -159,6 +169,16 @@ Ausgezeichnete Ideen können nicht in einem geschlossenen Ökosystem auftauchen,
       <guid>http://mdl.life/de/2017-10-08-the-thing-is/</guid>
       <description>Da die Mehrheit der asiatischen Länder, darunter China und Indonesien, bereits seit mehreren Jahren ihre Volkswirtschaften mit Begeisterung von der Export- zur Konsumorientierung transformieren, wächst die Werbeindustrie jährlich weiterhin zweistellig. Unter Berücksichtigung kollektivistischer Muster asiatischer Kulturen können wir eine überwältigende Beteiligung von Talenten bei allen Marketingaktivitäten beobachten. Egal ob online, auf dem Bildschirm oder vor Ort, Talent ist immer der Schlüssel dazu.
 So erlebt beispielsweise China einen massiven Zustrom von ausländischen Talenten aller Art - Models und Schauspieler, Sänger und Tänzer, Zirkus- und Themenparkdarsteller, und alle von ihnen werden hier nur wegen ihrer Nationalität als „Premium“ angesehen.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://mdl.life/de/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <description>++++ title = &amp;ldquo;Anonymität und Öffentlichkeitsarbeit im MDL Talent Hub&amp;rdquo; date = &amp;ldquo;2018-01-09&amp;rdquo; ++++
+Eine unserer Missionen ist es, Transparenz auf dem Markt für Talentquellen zu schaffen. Wir müssen uns jedoch auch mit den allgemein akzeptierten Prozessen und Einstellungen in diesem Bereich beschäftigen. Der Einsatz von Blockchain und Persistent Immutable Data Storage (PIDS) - IPFS , CXO - Technologien, die dafür bekannt sind, Daten offen, nachvollziehbar und unveränderbar zu machen, werfen eine große Frage auf - welche Art von Informationen werden einem Publikum zugänglich sein?</description>
     </item>
     
   </channel>
