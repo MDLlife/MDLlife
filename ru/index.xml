@@ -6,10 +6,40 @@
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://mdl.life/ru/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Чем так замечательны токены MDL Token Hours?</title>
+      <link>http://mdl.life/ru/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/ru/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <description>Платформа MDL Talent Hub будет использовать для работы особые токены - MDL Token Hours (MDL TH). MDL TH нужен для поддержки роста стоимости токена MDL, а также для защиты платформы от высокой волатильности токенов MDL. Концепцию MDL TH описывают 8 инструкций:
+ Механизм MDL Token Hours был адаптирован из Coin Hours проекта Skycoin. Чем больше токенов MDL лежит на счету пользователя, тем больше токенов MDL Token Hours ему регулярно начисляется. Токены можно копить.</description>
+    </item>
+    
+    <item>
+      <title>Почему будет расти стоимость токенов MDL</title>
+      <link>http://mdl.life/ru/2018-01-14-why-mdl-value-increase/</link>
+      <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/ru/2018-01-14-why-mdl-value-increase/</guid>
+      <description>Нашим ранним инвесторам крайне важно знать ответ на простой вопрос: &amp;ldquo;Почему токены MDL будут расти в цене?&amp;rdquo;. Мы только что поняли, что некоторые, очевидные для нас вещи, не вполне понятны сообществу. Поэтому мы должны кратко пояснить для наших криптоинвесторов планы использования токенов и то, чем мы обеспечиваем рост их стоимости.
+Прежде всего, цена токенов MDL будет увеличиваться по мере покорения нашим проектом рынка талантов, который сам по себе постоянно растет. Чем больше людей начинает использовать нашу платформу, тем больше спрос на токены MDL.</description>
+    </item>
+    
+    <item>
+      <title>Анонимность и публичность в MDL Talent Hub</title>
+      <link>http://mdl.life/ru/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/ru/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <description>Мы считаем, что необходимо сделать рынок талантов прозрачным, но необходимо учитывать множество устоявшихся норм и сложившихся годами моделей поведения. При использовании блокчейна, PIDS (постоянных неизменяемых хранилищ данных) - IPFS и CXO – технологий, позволяющих хранить данные открыто, общедоступно и неизменно, возникает резонный вопрос: какая именно информация будет находиться в открытом доступе?
+Учитывая наш богатый опыт работы в сегменте подбора талантов для индустрии развлечений, мы хорошо понимаем, какие материалы большинство исполнителей предпочтут сохранить в секрете, а какие обнародовать.</description>
+    </item>
     
     <item>
       <title>Наши подходы и технические решения</title>

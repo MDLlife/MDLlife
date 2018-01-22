@@ -22,6 +22,15 @@ Zuallererst wird der Wert des MDL-Tokens durch unsere Expansion auf dem Talent-S
     </item>
     
     <item>
+      <title>Anonymität und Öffentlichkeitsarbeit im MDL Talent Hub</title>
+      <link>http://mdl.life/de/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://mdl.life/de/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <description>Eine unserer Missionen ist es, Transparenz auf dem Markt für Talentquellen zu schaffen. Wir müssen uns jedoch auch mit den allgemein akzeptierten Prozessen und Einstellungen in diesem Bereich beschäftigen. Der Einsatz von Blockchain und Persistent Immutable Data Storage (PIDS) - IPFS , CXO - Technologien, die dafür bekannt sind, Daten offen, nachvollziehbar und unveränderbar zu machen, werfen eine große Frage auf - welche Art von Informationen werden einem Publikum zugänglich sein?</description>
+    </item>
+    
+    <item>
       <title>Ansätze und technische Entscheidungen</title>
       <link>http://mdl.life/de/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
@@ -169,16 +178,6 @@ Ausgezeichnete Ideen können nicht in einem geschlossenen Ökosystem auftauchen,
       <guid>http://mdl.life/de/2017-10-08-the-thing-is/</guid>
       <description>Da die Mehrheit der asiatischen Länder, darunter China und Indonesien, bereits seit mehreren Jahren ihre Volkswirtschaften mit Begeisterung von der Export- zur Konsumorientierung transformieren, wächst die Werbeindustrie jährlich weiterhin zweistellig. Unter Berücksichtigung kollektivistischer Muster asiatischer Kulturen können wir eine überwältigende Beteiligung von Talenten bei allen Marketingaktivitäten beobachten. Egal ob online, auf dem Bildschirm oder vor Ort, Talent ist immer der Schlüssel dazu.
 So erlebt beispielsweise China einen massiven Zustrom von ausländischen Talenten aller Art - Models und Schauspieler, Sänger und Tänzer, Zirkus- und Themenparkdarsteller, und alle von ihnen werden hier nur wegen ihrer Nationalität als „Premium“ angesehen.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>http://mdl.life/de/2018-01-09-anonymity-publicity-in-mdl/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://mdl.life/de/2018-01-09-anonymity-publicity-in-mdl/</guid>
-      <description>++++ title = &amp;ldquo;Anonymität und Öffentlichkeitsarbeit im MDL Talent Hub&amp;rdquo; date = &amp;ldquo;2018-01-09&amp;rdquo; ++++
-Eine unserer Missionen ist es, Transparenz auf dem Markt für Talentquellen zu schaffen. Wir müssen uns jedoch auch mit den allgemein akzeptierten Prozessen und Einstellungen in diesem Bereich beschäftigen. Der Einsatz von Blockchain und Persistent Immutable Data Storage (PIDS) - IPFS , CXO - Technologien, die dafür bekannt sind, Daten offen, nachvollziehbar und unveränderbar zu machen, werfen eine große Frage auf - welche Art von Informationen werden einem Publikum zugänglich sein?</description>
     </item>
     
   </channel>
