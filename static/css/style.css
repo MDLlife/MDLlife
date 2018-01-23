@@ -662,12 +662,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 
 .link-to-sky{
 	position: absolute;
-	left: 46%;
+	left: 42%;
 	bottom: 15px;
 }
 
 .link-to-sky img{
-	width: 25px;
+	width: 40px;
 }
 /* весь контейнер поддерживает перспективу */
 .flip-container {
