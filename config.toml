@@ -6,8 +6,8 @@ title = "MDL - Talent Hub"
 # RAISED SETTINGS
 [Params.Raised]
 max_value = 500000
-current_value = 237352
-participants = 69
+current_value = 247352
+participants = 71
 
 
 # Provide your metadata here.
@@ -274,3 +274,11 @@ src = "img/themerkle.jpg"
 [[Params.Media.Links]]
 href = "https://icoholder.com/en/ico/mdl-talent-hub-17379"
 src = "img/icoholder.jpg"
+
+[[Params.Media.Links]]
+href = "https://www.coinspeaker.com/2018/01/10/talent-industry-market-turn-blockchain-mdl-talent-hubs-pre-ito/"
+src = "img/coinspeaker.png"
+
+[[Params.Media.Links]]
+href = "http://ekd.me/2018/01/blokchejn-platforma-rossijskoj-kompanii-pomozhet-inostrannym-artistam-v-kitae/"
+src = "img/ekd.png"
