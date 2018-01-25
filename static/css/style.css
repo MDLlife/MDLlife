@@ -663,7 +663,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 .link-to-sky{
 	position: absolute;
 	left: 42%;
-	bottom: 15px;
+	bottom: 140px;
 }
 
 .link-to-sky img{
@@ -675,9 +675,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 	margin-right: 10px;	
 	position: relative;	
 	display: inline-block;
-    background-image: url(../img/1234.png);
-    background-size: 411px 388px;
-    background-position: -88px;
  perspective: 1000;
 }
  /* переверните сторону при проведении мышью */
@@ -685,11 +682,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 .flip-container:hover .flipper,.flip-container.hover .flipper, .flip-container.flip .flipper {
  transform: rotateY(180deg);
 -webkit-transform: rotateY(180deg);
-}
-.flip-container.hover,.flip-container:hover{
-	 background-image: url(../img/123.png);
-    background-size: 411px 388px;
-    background-position: -91px;
 }
 
 .flip-container, .front, .back {
@@ -722,12 +714,18 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 /* лицевая сторона размещена над обратной */
 .front {
  z-index: 2;
+ background-image: url(../img/1234.png);
+    background-size: 411px 388px;
+    background-position: -88px;
 }
 
 /* обратная, изначально скрытая сторона */
 .back {
  transform: rotateY(180deg);
 -webkit-transform: rotateY(180deg);
+background-image: url(../img/123.png);
+    background-size: 411px 388px;
+    background-position: -91px;
 }
 .rotator{
 	position: absolute;
@@ -983,6 +981,10 @@ footer li:nth-child(2) img.community-link{
 	color: #673091;
 	text-transform: uppercase;
 	z-index: 2;
+}
+/* 	Modal window */
+#rp-modal .modal-dialog{
+	width: 980px;
 }
 
 
@@ -1246,6 +1248,9 @@ footer li:nth-child(2) img.community-link{
 .roadmap-item:nth-child(3) .rp-image-link{
 	left: -5px;
     top: 71px;
+}
+#rp-modal .modal-dialog{
+	width: 760px;
 }
 
 }
@@ -1648,6 +1653,9 @@ footer li:nth-child(2) img.community-link{
 	#solutions div.col-md-3{
 		margin-top: 0;
 	}
+	#rp-modal .modal-dialog{
+	width: 96%;
+	}
 }
 @media (min-width: 480px) and (max-width: 768px){
 	.round-diagram img,#solutions img,#problems img{
@@ -1810,6 +1818,12 @@ footer li:nth-child(2) img.community-link{
 .mdl_media-item:nth-child(16) img{
 	width: 120px;
 }
+.mdl_media-item:nth-child(17) img{
+	width: 160px;
+}
+.mdl_media-item:nth-child(18) img{
+	width: 160px;
+}
 .mdl_media-item img{
 	padding: 10px 0;
 }
@@ -1821,3 +1835,6 @@ footer li:nth-child(2) img.community-link{
 		padding: 0;	
 	}
 }
+
+
+
