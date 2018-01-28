@@ -142,10 +142,11 @@ header .down-part div{
 	font-weight: 400;
 }
 .pre-ito .buttons{
-	margin-top:50px;
+	margin-top:103px;
 	text-align: center;
 }
 .pre-ito h2{
+	display:none;
 	font-size: 49px;
 	letter-spacing: 0;
 }
