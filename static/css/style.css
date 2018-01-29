@@ -50,14 +50,26 @@ box-shadow: 0px -1px 18px -4px rgba(0,0,0,0.75);
 	margin-left: 20px;
 }
 #top-menu .link-to-download,
-#top-menu .link-to-blog {
+#top-menu .link-to-blog,
+#top-menu .link-to-teleg{
 	float: right;
 }
 #top-menu .link-to-download a,
-#top-menu .link-to-blog a{
+#top-menu .link-to-blog a,
+#top-menu .link-to-teleg a{
 	padding: 7px 17px;
 	border:1px solid #662f8f;
 	border-radius: 20px;
+	text-decoration: none;
+	-webkit-transition:all .5s ease-in;
+	-o-transition:all .5s ease-in;
+	transition:all .5s ease-in;
+}
+#top-menu .link-to-download a:hover,
+#top-menu .link-to-blog a:hover,
+#top-menu .link-to-teleg a:hover{
+	background-color: #662f8f;
+	color:white;
 }
 #top-menu li>a{
 	font-family: 'Ropa Sans', sans-serif;
@@ -137,17 +149,23 @@ header .down-part div{
 
 
 .pre-ito{
-	margin-top: 10px;
+	padding: 21px 0;
+	margin-top: 49px;
 	font-family: 'Ropa Sans', sans-serif;
 	font-weight: 400;
+	background-image: url(../img/home_round.png);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .pre-ito .buttons{
 	margin-top:50px;
 	text-align: center;
 }
 .pre-ito h2{
-	font-size: 49px;
+	font-size: 31px;
 	letter-spacing: 0;
+	text-transform: none;
 }
 .pre-ito .button-item{
 	padding: 11px 13px;
@@ -673,15 +691,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 .flip-container {
 	margin-top: 10px;	
 	margin-right: 10px;	
-	position: relative;	
 	display: inline-block;
  perspective: 1000;
 }
  /* переверните сторону при проведении мышью */
 
 .flip-container:hover .flipper,.flip-container.hover .flipper, .flip-container.flip .flipper {
+ -webkit-transform: rotateY(180deg);
  transform: rotateY(180deg);
--webkit-transform: rotateY(180deg);
 }
 
 .flip-container, .front, .back {
@@ -703,9 +720,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 
 /* скройте обратную сторону во время переворота */
 .front, .back {
- backface-visibility: hidden;
--webkit-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
 -moz-backface-visibility: hidden;
+ backface-visibility: hidden;
  position: absolute;
  top: 0;
  left: 0;
@@ -721,8 +738,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#673191', end
 
 /* обратная, изначально скрытая сторона */
 .back {
- transform: rotateY(180deg);
 -webkit-transform: rotateY(180deg);
+ transform: rotateY(180deg);
+
 background-image: url(../img/123.png);
     background-size: 411px 388px;
     background-position: -91px;
@@ -750,7 +768,7 @@ background-image: url(../img/123.png);
     background-image: url(../img/roadmap-bg.png);
     background-repeat: no-repeat;
     background-size: 120%;
-    background-position: -92px;
+    background-position: -107px;
 }
 .roadmap-item{
 	position: absolute;
@@ -1027,7 +1045,7 @@ footer li:nth-child(2) img.community-link{
 
 	.roadmap-wrapper{
 		width: 970px;
-		background-position: -80px;
+		background-position: -97px;
 	}
 	.roadmap-item{
 		width: 185px;
@@ -1172,7 +1190,7 @@ footer li:nth-child(2) img.community-link{
 	.roadmap-wrapper{
 		width: 740px;
 		height: 600px;
-		background-position: -60px;
+		background-position: -73px;
 	}
 	.roadmap-item{
 		width: 165px;
@@ -1327,9 +1345,8 @@ footer li:nth-child(2) img.community-link{
 		letter-spacing: 2px;
 	}
 	header .discription-part{
-		margin-top: 60px;
+		margin: 60px auto 0;
 		width: 100%;
-		margin-right:0;
 	}
 	header .down-part{
 		display: none;
