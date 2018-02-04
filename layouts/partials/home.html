@@ -19,10 +19,53 @@
           <h2>{{ .Site.Params.Home.top_subtitle }} <br> {{ .Site.Params.Home.bot_subtitle }}</h2>
         </div>
       </div>
-      <div class="row down-part">
-      {{ range .Site.Params.Home.features }}
-        <div class="col-md-4 col-sm-4 wow fadeInLeft" data-wow-duration ="1s" data-wow-delay = "0.4s">{{ .name }}</div>
-      {{ end }}
-      </div>
+    <div id="sib_embed_signup" style="padding: 10px;">
+      <div class="forms-builder-wrapper" style="position:relative;margin-left: auto;margin-right: auto;">
+        <input type="hidden" id="sib_embed_signup_lang" value="en">
+        <input type="hidden" id="sib_embed_invalid_email_message" value="That email address is not valid. Please try again.">
+        <input type="hidden" name="primary_type" id="primary_type" value="email">
+        <div id="sib_loading_gif_area" style="position: absolute;z-index: 9999;display: none;">
+          <img src="https://my.sendinblue.com/public/theme/version4/assets/images/loader_sblue.gif" style="display: block;margin-left: auto;margin-right: auto;position: relative;top: 40%;">
+        </div>
+        <form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1" onsubmit="return false;">
+          <input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden" name="listid" id="listid" value="2"><input type="hidden" name="from_url" id="from_url" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+          <div class="sib-container rounded">
+
+           <input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
+           <div class="header" style="padding: 0px 20px;">
+            <h1 class="title editable" data-editfield="newsletter_name"  style="font-weight: normal; text-align: left; font-size: 35px; margin-bottom: 2px; padding: 0px; margin-top: 0px; font-family: Baskerville, Times, &quot;Times New Roman&quot;, serif; color: rgb(35, 35, 35); display: none;">Sing up for newsletter</h1>
+            <h3 id="company-name"  style="font-weight: normal; text-align: left; font-size: 25px; margin-bottom: 12px; padding: 0px; margin-top: 0px; font-family: Baskerville, Times, &quot;Times New Roman&quot;, serif; color: rgb(103, 48, 145); display: none;">By</h3>
+          </div>
+          <div class="description editable" data-editfield="newsletter_description"  style="padding: 0px 20px 15px; border-bottom: 1px solid rgb(204, 204, 204); font-family: Baskerville, Times, &quot;Times New Roman&quot;, serif; color: rgb(103, 48, 145); font-size: 25px; display: none;">What type of content do you plan to share with your subscribers? </div>
+          <div class="view-messages" style=" margin:5px 0;"> </div>
+          <!-- an email as primary -->
+          <div class="primary-group email-group forms-builder-group ui-sortable" style="">
+            <div class="row mandatory-email" style="padding: 10px 20px; position: relative; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; left: 0px; top: 0px;">
+              <div class="lbl-tinyltr">Get the latest news from MDL</div>
+              <input type="text" name="email" id="email" value="" placeholder="E-mail">
+              <div style="clear:both;"></div>
+              <div class="hidden-btns">
+                <a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
+                <!--<a class="btn btn-danger delete"  href="#"><i class="fa fa-trash-o fa-inverse"></i></a>-->
+              </div>
+            </div>
+
+          </div>
+          <div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
+
+          <!-- end of primary -->
+          <div class="byline" style="font-family: Baskerville, Times, &quot;Times New Roman&quot;, serif; color: rgb(52, 52, 52); font-weight: bold; font-size: 25px; text-align: center; display: block;">
+           <button class="button editable " type="submit" data-editfield="subscribe">Subscribe</button></div>
+           <div style="clear:both;"></div>
+         </div>
+       </form>
+     </div>
+   </div>
+   <script type="text/javascript">
+    var sib_prefix = 'sib';
+    var sib_dateformat = 'mm-dd-yyyy';
+  </script>
+  <script type='text/javascript' src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1509617036'></script>
+  <!-- End : SendinBlue Signup Form HTML Code -->
     </div>
   </header>
