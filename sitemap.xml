@@ -9,27 +9,6 @@
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://mdl.life/ja/sitemap.xml</loc>
-		
-	   	<lastmod>2017-10-10T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://mdl.life/kr/sitemap.xml</loc>
-		
-	   	<lastmod>2017-11-14T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://mdl.life/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
 	   	<loc>http://mdl.life/ar/sitemap.xml</loc>
 		
 	   	<lastmod>2017-12-13T00:00:00+00:00</lastmod>
@@ -44,13 +23,6 @@
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://mdl.life/de/sitemap.xml</loc>
-		
-	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
 	   	<loc>http://mdl.life/es/sitemap.xml</loc>
 		
 	   	<lastmod>2018-01-19T00:00:00+00:00</lastmod>
@@ -58,9 +30,37 @@
 	</sitemap>
 	
 	<sitemap>
+	   	<loc>http://mdl.life/de/sitemap.xml</loc>
+		
+	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
 	   	<loc>http://mdl.life/ru/sitemap.xml</loc>
 		
 	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://mdl.life/ja/sitemap.xml</loc>
+		
+	   	<lastmod>2017-10-10T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://mdl.life/zh/sitemap.xml</loc>
+		
+	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://mdl.life/kr/sitemap.xml</loc>
+		
+	   	<lastmod>2017-12-14T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	

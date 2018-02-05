@@ -688,21 +688,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/"
                 />
@@ -713,13 +698,28 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://mdl.life/es/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://mdl.life/de/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://mdl.life/es/"
+                hreflang="ja"
+                href="http://mdl.life/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -743,21 +743,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/categories/"
                 />
@@ -768,13 +753,28 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://mdl.life/es/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://mdl.life/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://mdl.life/es/categories/"
+                hreflang="ja"
+                href="http://mdl.life/ja/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -798,21 +798,6 @@
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="ja"
-                href="http://mdl.life/ja/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://mdl.life/kr/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://mdl.life/zh/tags/"
-                />
-    <xhtml:link
-                rel="alternate"
                 hreflang="ar"
                 href="http://mdl.life/ar/tags/"
                 />
@@ -823,13 +808,28 @@
                 />
     <xhtml:link
                 rel="alternate"
+                hreflang="es"
+                href="http://mdl.life/es/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
                 hreflang="de"
                 href="http://mdl.life/de/tags/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="es"
-                href="http://mdl.life/es/tags/"
+                hreflang="ja"
+                href="http://mdl.life/ja/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://mdl.life/zh/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://mdl.life/kr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
