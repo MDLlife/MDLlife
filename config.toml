@@ -13,7 +13,7 @@ participants = 136
 # Provide your metadata here.
 [Params]
   keywords = "MDL,blockchain,talents,models,technology,app,IPFS"
-  description = "Talent Hub. We create blockchain powered platform for talent sourcing industry."
+  description = "Talent Hub. Trustchain platform for the talent sourcing industry."
   pre_ito_manual = "QmUH7wTKG6bi38hLd7zHShVa5MGoga6UTTFVsZsmawr6za/MDL%20Pre-ITO%20Manual%201.1.pdf"
   whitepaper = "MDL_Whitepaper_0.9.12.pdf"
 
