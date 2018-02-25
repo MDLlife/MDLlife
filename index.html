@@ -1,166 +1,780 @@
 <!DOCTYPE html>
-<html lang="en-us">
-
+<html lang="en">
 <head>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-108901953-1');
-</script>
-<meta charset="utf-8">
-<meta name="generator" content="Hugo 0.34" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link href="//fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet" type="text/css">
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/github.min.css">
-<link rel="stylesheet" href="/css/normalize.css">
-<link rel="stylesheet" href="/css/skeleton.css">
-<link rel="stylesheet" href="/css/custom.css">
-<link rel="alternate" href="/index.xml" type="application/rss+xml" title="">
-<title></title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>MDL - Talent Hub</title>
+	<link rel="stylesheet" href="css/libs.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 </head>
 <body>
-
-<div class="container">
-
-	<header role="banner">
-		<div class="header-logo">
-			<a href="http://mdl.life"><img src="https://ipfs.io/ipfs/QmdfEPfbk5wbWJPYcLRNk9n847J1Zva7gDXR7LsyyhyrGS" width="200" height="60" alt=""></a>
+	<!-- Modal -->
+	<div class="modal fade" id="mentorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="img/popup-close.svg" alt="">
+				</button>
+				<div class="modal-body">
+				</div>
+			</div>
 		</div>
-		<div>
-			<br>
-				<a href="/ru">РУ</a> / <a href="/">EN</a> / <a href="/de">DE</a> / <a href="/es">ES</a> / <a href="/id">ID</a> / <a href="/zh">简体</a> / <a href="/zh-hant">繁體</a> / <a href="/kr">한글</a> / <a href="/ja">日本語</a> / <a href="/ar">عربي</a>
+	</div>
+	<div class="modal fade" id="teamModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="img/popup-close.svg" alt="">
+				</button>
+				<div class="modal-body">
+				</div>
+			</div>
 		</div>
-		<h1 class="site-title"></h1>
-	</header>
-
-
-	<main role="main">
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2018-02-16-development-update-1/">Development Update #1</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2018-02-16">February 16, 2018</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2018-01-31-pre-ito-hard-cap/">Pre-ITO Hard Cap Is Reached!</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2018-01-31">January 31, 2018</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2018-01-19-why-mdl-token-hours-are-so-cool/">Why MDL Token Hours Are So Cool?</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2018-01-19">January 19, 2018</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2018-01-14-why-mdl-value-increase/">Why the value of MDL Token will increase over time</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2018-01-14">January 14, 2018</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2018-01-09-anonymity-publicity-in-mdl/">Anonymity and publicity in MDL Talent Hub</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2018-01-09">January 09, 2018</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-31-approaches-technical-decisions/">Approaches and Technical Decisions</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-31">December 31, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-23-what-do-we-do-and-why/">What Do We Do and Why</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-23">December 23, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-21-mdl-mine-distributed-ledger/">MDL - Mine Distributed Ledger</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-21">December 21, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-14-mdl-at-skyledger-conference/">MDL at Skyledger Conference</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-14">December 14, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-13-pre-ito-is-ongoing/">Pre-ITO Is Ongoing</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-13">December 13, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-08-user-instruments-part1/">User Instruments - Part 1</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-08">December 08, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-06-mdl-my-daily-life/">MDL - My Daily Life</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-06">December 06, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-05-how-mdl-secures-reputation/">How MDL secures reputation</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-05">December 05, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-12-03-mdl-at-sf2017-seoul/">MDL Talent Hub at SF2017 Seoul</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-12-03">December 03, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-11-25-webpage-is-launched-korea/">Webpage is launched and MDL goes to Korea for SF2017.</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-11-25">November 25, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-11-14-where-do-the-money-come-from/">Where will the money come from?</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-11-14">November 14, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-10-30-what-we-gonna-do/">What are we gonna do?</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-10-30">October 30, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-10-13-mdl-team-slush-shanghai/">MDL team at Slush</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-10-13">October 13, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-10-10-mdl-inception/">MDL inception (video)</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-10-10">October 10, 2017</time></span>
-		</article>
-
-		<article itemscope itemtype="http://schema.org/Blog">
-			<h2 class="entry-title" itemprop="headline"><a href="/2017-10-08-the-thing-is/">The thing is</a></h2>
-			<span class="entry-meta"><time itemprop="datePublished" datetime="2017-10-08">October 08, 2017</time></span>
-		</article>
-
-	</main>
-
-
-	<footer role="contentinfo">
-		<div class="hr"></div>
-		<div class="footer-link">
-			
-			
-			
-			
-			
+	</div>
+	<div id="rp-modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="img/popup-close.svg" alt="">
+				</button>
+				<div class="modal-body">
+				</div>
+			</div>
 		</div>
-		<div class="copyright">Copyright &copy; </div>
-	</footer>
+	</div>
 
-</div>
+	<div id="menu" class="">
+		<div class="border"></div>
+		<div class="border"></div>
+		<div class="border"></div>
+		<div class="border"></div>
+		<div class="menu-left"></div>
+		<div class="menu-right"></div>
+		<div class="menu__content">
+			<div class="menu-list">
+				<ul>
+					<li class="menu-list__link"><a href="#about">Who we are</a></li>
+					<li class="menu-list__link"><a href="#wallet">Initial Token Offering</a></li>
+					<li class="menu-list__link"><a href="#problem">Market needs</a></li>
+					<li class="menu-list__link"><a href="#solution">Solution</a></li>
+					<li class="menu-list__link"><a href="#instruments">Instrument</a></li>
+					<li class="menu-list__link"><a href="#roadmap">Roadmap</a></li>
+					<li class="menu-list__link"><a href="#team">Team</a></li>
+					<li class="menu-list__link"><a href="#mentors">Advisor</a></li>
+					<li class="menu-list__link"><a href="#media">Media</a></li>
+				</ul>
+			</div>
+				<div id="sib_embed_signup1">
+					<div class="forms-builder-wrapper">
+						<input type="hidden" id="sib_embed_signup_lang" value="en">
+						<input type="hidden" id="sib_embed_invalid_email_message" value="That email address is not valid. Please try again.">
+						<input type="hidden" name="primary_type" id="primary_type" value="email">
+						<form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1" onsubmit="return false;">
+							<input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden" name="listid" id="listid" value="2"><input type="hidden" name="from_url" id="from_url" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+							<div class="sib-container rounded">
+			
+								<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
+								<div class="view-messages" style=" margin:5px 0;"> </div>
+								<!-- an email as primary -->
+								<div class="primary-group email-group forms-builder-group ui-sortable" style="">
+									<div class="row mandatory-email" style="position: relative">
+										<input type="text" name="email" id="email" value="" placeholder="E-mail">
+										<button class="button editable " type="submit" data-editfield="subscribe">GET</button>
+										<div style="clear:both;"></div>
+										<div class="hidden-btns">
+											<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
+											<!--<a class="btn btn-danger delete"  href="#"><i class="fa fa-trash-o fa-inverse"></i></a>-->
+										</div>
+									</div>
+			
+								</div>
+								<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
+			
+								<!-- end of primary -->
+			
+							</div>
+						</form>
+					</div>
+				</div>
+				<script type="text/javascript">
+					var sib_prefix = 'sib';
+					var sib_dateformat = 'mm-dd-yyyy';
+				</script>
+				<div id="menu__social-links">
+					<ul class="menu__social-links--list">
+						<li class="menu__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="menu__social-links--link"><img src="img/telegram-seeklogo.svg" alt="" class="menu__social-links--img two"><img src="img/telegram-seeklogo2.svg" alt="" class="menu__social-links--img one"></a></li>
+						<li class="menu__social-links--item"><a href="http://github.com/MDLlife/" class="menu__social-links--link"><img src="img/Github.svg" alt="" class="menu__social-links--img two"><img src="img/Github2.svg" alt="" class="menu__social-links--img one"></a></li>
+						<li class="menu__social-links--item"><a href="https://twitter.com/MDL_Talent_Hub" class="menu__social-links--link"><img src="img/Twitter.svg" alt="" class="menu__social-links--img two"><img src="img/Twitter2.svg" alt="" class="menu__social-links--img one"></a></li>
+					</ul>
+				</div>
+		</div>
+	</div>
+	<!-- <div id="preloader">
+		<video class="preloader__video" preload="true">
+			<source src="img/preload.mp4" type="video/mp4">
+			</video>
+		</div> -->
+<!-- 	<div class="hd__border-r">	</div>
+	<div class="hd__border-l">	</div>
+	<div class="hd__border-t">	</div> -->
+	
+	<nav id="nav-main" class="cd-auto-hide-header">
+		<div class="nav__logo"><img src="img/logo_mdl.svg" alt="MDL logo" class="nav__logo--image"><div id = "nav__logo--text">MDL</div></div>
+		<div class="nav__burger">
+				<span></span>
+				<span></span>
+				<span></span>
+		</div>
+		<div class="nav__links-lang">
+			<div class="nav__link-lang--lang">
+				<span class="nav__link-lang--text">ENG</span>
+				<svg class="base forpc" width="55" height="55" viewBox="0 0 98 98">
+					<circle class="c1" cx="49" cy="49" r="47" stroke="#FFF" stroke-width="1" fill="none"></circle>
+				</svg>
+			</div>
+			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/">Blog</a>
+			<a class="nav__link-lang--wp " target = "_blank" href="whitepaper/MDL_Whitepaper_0.9.12.pdf">Whitepaper</a>
+		</div>
+	</nav>
+
+	<header id="main-header" >
+		<img src="img/header-bubble.png" alt="" class="header__bubble">
+		<div class="header__content--wrapper">
+			<div class="header__left-part">
+				<h1 class="header__title" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "1500"><img class="header__title--img" src="img/logo_mdl.svg" alt=""><span>MDL</span> Talent Hub</h1>
+				<div class="header__separator separator" data-aos="fade-up" data-aos-duration="1200" data-aos-delay = "1300"></div>
+				<h2 class="header__desc" data-aos="fade-up" data-aos-duration="1200" data-aos-delay = "1100">Global trustchain connecting <br> performers to gigs and brands <br> to audiences</h2>
+				<div id="sib_embed_signup">
+					<div class="forms-builder-wrapper">
+						<input type="hidden" id="sib_embed_signup_lang" value="en">
+						<input type="hidden" id="sib_embed_invalid_email_message" value="That email address is not valid. Please try again.">
+						<input type="hidden" name="primary_type" id="primary_type" value="email">
+						<form class="description" id="theform" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1" onsubmit="return false;">
+							<input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden" name="listid" id="listid" value="2"><input type="hidden" name="from_url" id="from_url" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt" value="">
+							<div class="sib-container rounded">
+
+								<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
+								<div class="view-messages" style=" margin:5px 0;"> </div>
+								<!-- an email as primary -->
+								<div class="primary-group email-group forms-builder-group ui-sortable" style="">
+									<div class="row mandatory-email" style="position: relative">
+										<input type="text" name="email" id="email" value="" placeholder="E-mail">
+										<button class="button editable " type="submit" data-editfield="subscribe">GET</button>
+										<div style="clear:both;"></div>
+										<div class="hidden-btns">
+											<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
+											<!--<a class="btn btn-danger delete"  href="#"><i class="fa fa-trash-o fa-inverse"></i></a>-->
+										</div>
+									</div>
+
+								</div>
+								<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
+
+								<!-- end of primary -->
+
+							</div>
+						</form>
+					</div>
+				</div>
+				<script type="text/javascript">
+					var sib_prefix = 'sib';
+					var sib_dateformat = 'mm-dd-yyyy';
+				</script>
+				<!-- End : SendinBlue Signup Form HTML Code -->
+				<button id = "header__link" class="header__link" type="button" data-editfield="subscribe" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><svg class="liquid-button"
+					data-text="GET UPDATES"
+					data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+					data-color1="rgb(110, 179, 231)"
+					data-color2="#FFFFFF"
+					data-color3="#ffffff"
+					data-width = "163"
+					data-height = "49"></svg> </button>
+					<div style="clear:both;"></div>
+				</div>
+				<div class="header__right-part">
+					<div class="header-timer">
+						<p class="timer-title" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1500">ITO HAS BEEN STARTED</p>
+						<div class="header-timer_dhms" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1300">
+							<div class="dhms_item days">
+								<span id = "timer_d" class="number">20</span><span class="number-type">Days</span>
+							</div>
+							<div class="dhms_item hours">
+								<span id = "timer_h" class="number">12</span><span class="number-type">Hours</span>
+							</div>
+							<div class="dhms_item minutes">
+								<span id = "timer_m" class="number">13</span><span class="number-type">Minutes</span>
+							</div>
+							<div class="dhms_item seconds">
+								<span id = "timer_s" class="number">57</span><span class="number-type">Seconds</span>
+							</div>
+						</div>
+						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1200">WE ARE ACCEPT BTC, ETH WAVES AND SKY</p>
+						<a class="header-timer_btn" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500"><svg class="liquid-button"
+							data-text="JOIN WHITELIST"
+							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+							data-color1="rgb(110, 179, 231)"
+							data-color2="#c72897"
+							data-color3="#c72897"
+							data-width = "163"
+							data-height = "49"
+							data-text-color = "#ffffff"></svg><span class="mobile">JOIN WHITELIST</span></a>
+						</div>
+					</div>
+				</div>
+				<!-- <img class="hd__down-bg" src="img/header-down-bg.png" alt=""> -->
+				<!-- <div class="header__line-down"></div> -->
+
+			</header>
+			<div id="header__social-links">
+				<ul class="header__social-links--list">
+					<li class="header__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="header__social-links--link" target = "_blank"><img src="img/telegram-seeklogo.svg" alt="" class="header__social-links--img two"><img src="img/telegram-seeklogo2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="http://github.com/MDLlife/" target = "_blank" class="header__social-links--link"><img src="img/Github.svg" alt="" class="header__social-links--img two"><img src="img/Github2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="https://twitter.com/MDL_Talent_Hub" class="header__social-links--link" target = "_blank"><img src="img/Twitter.svg" alt="" class="header__social-links--img two"><img src="img/Twitter2.svg" alt="" class="header__social-links--img one"></a></li>
+				</ul>
+			</div>
 
 
 
-<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
-<script>hljs.initHighlightingOnLoad();</script>
+			<main id = "main-section" >
+				<div id="site-nav" data-aos = "fade-left">
+					<ul class="site-nav__list">
+						<li class="site-nav__item"><a href="#about" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#wallet" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#problem" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#solution" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#instruments" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#roadmap" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#team" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#mentors" class="site-nav__link"></a></li>
+						<li class="site-nav__item"><a href="#media" class="site-nav__link"></a></li>
+					</ul>
+				</div>
+				<section id="about">
+					<img src="img/bubble-vertical.png" alt="" class="b-h-a">
+					<img src="img/hd.gif" alt="" class="b-h-a-t">
+					<div class="about__wrapper">
+						<div class="about__content--wrapper">
+							<h2 class="about__text-block--title" data-aos="fade-up" data-aos-duration="1200">Who we are?</h2>
+							<div class="about__text-block--separator separator" data-aos="fade" data-aos-duration="1200" data-aos-delay="100"></div>
+							<p class="about__text-block--desc" data-aos="fade">Isn’t it nice when people can find a paying audiencefor their talents <br> and monetize their time spent on hobbies? MDL will make it easier!</p>
+							<div id="about__video-block--wrappper">
+								<div id="about__video-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+									<video preload="none" id = "video-preview" class = "video-preview" poster="img/video-preview.png">
+										<source src="img/mdl-video.mp4" type="video/mp4">
+										</video>
+										<i class="about__video-block--btn-play play"><img src="img/play.svg" alt=""></i>
+									</div>
+									<!-- <img class="about__bubble" src="img/hd.gif" alt=""> -->
+								</div>
+							</div>
+						</div>
+					</section>
 
-</body>
-</html>
+					<section id = "wallet">
+						<div class="wallet__content--wrapper">
+							<img src="img/wallet-lines.svg" alt="" class="wallet-lines">
+							<div class="wallet__wrapper">
+								<h2 class="wallet__title"  data-aos="slide-up" data-aos-duration="1200">Initial Token Offering</h2>
+								<div class="wallet__separator separator" data-aos="fade" data-aos-duration="1200"></div>
+								<div class="wallet__left-part" data-aos = "fade" data-aos-duration="1200">
+									<h2 class="wallet__left-part--title">ITO details</h2>
+									<p class="start-date">Start date <br> 24.03.2018 00:00 UTC</p>
+									<p class="end-date">End date <br> 24.04.2018 00:00 UTC</p>
+									<div class="wallet__left-part-l">
+										<ul>
+											<li>Token price</li>
+											<li>Hard cap</li>
+											<li>Soft cap</li>
+											<li>Token for sale</li>
+											<li>Total token supply</li>
+											<li>Currencies accepted</li>
+											<li>Min individual cap</li>
+											<li>Max individual cap</li>
+										</ul>
+									</div>
+									<div class="wallet__left-part-r">
+										<ul>
+											<li>0.05 USD</li>
+											<li>20,000,000 USD</li>
+											<li>10,000,000 USD</li>
+											<li>400,000,000</li>
+											<li>1,000,000,000</li>
+											<li>BTC, ETH, Waves, SKY</li>
+											<li>1550 MDL</li>
+											<li></li>
+										</ul>
+									</div>
+								</div>
+								<div class="wallet__right-part" data-aos = "fade">
+									<h2 class="wallet__right-part--title">Open soon</h2>
+									<ul>
+										<li></li>
+										<li></li>
+										<li></li>
+									</ul>
+										<a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank"><svg class="liquid-button"
+											data-text="JOIN TELEGRAM"
+											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+											data-color1="rgb(110, 179, 231)"
+											data-color2="#c72897"
+											data-color3="#c72897"
+											data-width = "163"
+											data-height = "49"
+											data-text-color = "#ffffff"></svg><span class="mobile">JOIN TELEGRAM</span></a>
+											<a class="wallet__button two"><svg class="liquid-button"
+												data-text="JOIN WHITELIST"
+												data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+												data-color1="rgb(110, 179, 231)"
+												data-color2="#ffffff"
+												data-color3="#ffffff"
+												data-width = "163"
+												data-height = "49"
+												data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a>
+										</div>
+								<!-- <a href="#" class="wallet__link">
+									<svg class="liquid-button"
+									data-text="WATCH VIDEO"
+									data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+									data-color1="rgb(110, 179, 231)"
+									data-color2="#e040a9"
+									data-color3="#ff3e92"
+									data-height="49"
+									data-width="163"
+									data-text-color="#ffffff"></svg>
+								</a> -->
+							</div>
+						</div>
+					</section>
 
+					<div class="section-wrapper-second">
+						<section id="problem">
+							<img class="problem__bubble" src="img/hd.gif" alt="">
+							<img src="img/hd.gif" alt="" class="problem__bubble-second">
+							<h2 class="problem__title" data-aos = "fade-up" data-aos-duration = "1200">Market needs</h2>
+							<div class="problem__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+							<div class="problem__item--wrapper">
+								<div class="problem__item"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+									<img src="img/pi-1-1.svg" alt="" class="problem__item--image not-hover">
+									<img src="img/pi-1-2.svg" alt="" class="problem__item--image hover">
+									<div class="problem__item--separator"></div>
+									<h3 class="problem__item--title">Talent</h3>
+									<ul class="problem__item--desc">
+										<li>Job security</li>
+										<li>Global exposure</li>
+									</ul>
+								</div>
+								<div class="problem__item"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+									<img src="img/pi-2-1.svg" alt="" class="problem__item--image not-hover">
+									<img src="img/pi-2-2.svg" alt="" class="problem__item--image hover">
+									<div class="problem__item--separator"></div>
+									<h3 class="problem__item--title">Bookers</h3>
+									<ul class="problem__item--desc">
+										<li>Global search pool</li>
+										<li>Convenience of sourcing</li>
+									</ul>
+								</div>
+								<div class="problem__item"  data-aos="fade-up" data-aos-duration="2000" data-aos-delay="200">
+									<img src="img/pi-3-1.svg" alt="" class="problem__item--image not-hover">
+									<img src="img/pi-3-2.svg" alt="" class="problem__item--image hover">
+									<div class="problem__item--separator"></div>
+									<h3 class="problem__item--title">Clients</h3>
+									<ul class="problem__item--desc">
+										<li>Presentation Materials</li>
+										<li>Reliablity of sourcing</li>
+									</ul>
+								</div>
+							</div>
+						</section>
+
+						<section id="solution">
+							<h2 class="solution__title" data-aos = "fade-up" data-aos-duration = "1200">Solution</h2>
+							<div class="solution__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+							<p class="solution__desc" data-aos = "fade" data-aos-duration = "1200">MDL Talent Hub is the ecosystem designed to facilitate the talent sourcing market. Insightful expertise in both IT technologies and the entertainment industry allows us to bring the most efficient and effective medium for collaboration between artists, bookers, and brands.</p>
+						</section>
+
+						<section id="instruments">
+							<img src="img/hd.gif" alt="" class="instruments__bubble">
+							<img src="img/hd.gif" alt="" class="instruments__bubble-second">
+							<h2 class="instruments__title" data-aos = "fade-up" data-aos-duration = "1200">Instruments</h2>
+							<div class="instruments__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+							<div class="instruments__box--wrapper">
+								<div class="instruments__box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/senmatik.svg" alt="" class="instruments__box--image first">
+										<img src="img/semantic2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Semantic AI search</h3>
+									<p class="instruments__box--desc">Сontextual meaning and graphic recognition.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/yoyowo.svg" alt="" class="instruments__box--image first">
+										<img src="img/yoyowo2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">YOYOW authentication</h3>
+									<p class="instruments__box--desc">To be confirmed.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/booking_time_managment.svg" alt="" class="instruments__box--image first">
+										<img src="img/booking2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Booking and Time Management</h3>
+									<p class="instruments__box--desc">Ecosystem synchronized time booking system with enhanced conditions algorithm.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/sky.svg" alt="" class="instruments__box--image first">
+										<img src="img/sky2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Skyledger powered MDL token</h3>
+									<p class="instruments__box--desc">Transactions are fast and free of charge, Token Hours accumulation is enabled.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box hide-on-mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/game.svg" alt="" class="instruments__box--image first">
+										<img src="img/game2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Gamification</h3>
+									<p class="instruments__box--desc">Engaging and encouraging reward system to increase platform activity.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box hide-on-mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/dispute.svg" alt="" class="instruments__box--image first">
+										<img src="img/dispute resolution2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Dispute resolution</h3>
+									<p class="instruments__box--desc">Community powered judgment arrangement for fair reputation score allocation.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box hide-on-mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/disdata.svg" alt="" class="instruments__box--image first">
+										<img src="img/disdata2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Distributed data storage</h3>
+									<p class="instruments__box--desc">Skyledger  CXO technology for the fastest bandwidth. Token mining enabled.</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box hide-on-mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+									<div class="instruments__box--image-wrapper">
+										<img src="img/reputation.svg" alt="" class="instruments__box--image first">
+										<img src="img/reputation2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Blockchain <span>reputation</span> module</h3>
+									<p class="instruments__box--desc">Traceable and immutable reputation statistics storage. </p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<span id="in-vm">VIEW MORE</span>
+							</div>
+						</section>
+					</div>
+					<section id="roadmap" class="roadmap">
+						<div class="roadmap__wrapper">
+							<div class="roadmap__content-wrapper">
+								<h2 class="roadmap-title" data-aos = "fade-up" data-aos-duration = "1200">Roadmap</h2>
+								<div class="roadmap-separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+								<div class="container">
+									<div class="roadmap-slider row">
+										<div class="roadmap-slider-nav col-lg-2">
+											<div class="roadmap-slider-nav__item">
+												<div class="roadmap-slider-nav__circle"><span>2017</span></div>
+											</div>
+											<div class="roadmap-slider-nav__item">
+												<div class="roadmap-slider-nav__circle"><span>2018</span></div>
+											</div>
+											<div class="roadmap-slider-nav__item">
+												<div class="roadmap-slider-nav__circle"><span>2019</span></div>
+											</div>
+											<div class="roadmap-slider-nav__item">
+												<div class="roadmap-slider-nav__circle"><span>2020</span></div>
+											</div>
+										</div>
+										<div class="roadmap-slider-for col-lg-10 col-sm-12">
+											<div class="roadmap-slider-for__item">
+												<p class="roadmap-slider-for__item-title">2017</p>
+												<div class="roadmap-slider-for__item-text">
+													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">oct</span>Launch of Website and blog,  MDL Token issue<a class="media rp-video-link" data-media = "img/Token_issue_video.mp4" data-toggle="modal" data-target="#rp-modal" href="#">Video</a></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">nov</span>GUI Prototype development<a class="media rp-image-link" data-media = "img/gui.jpg" data-toggle="modal" data-target="#rp-modal" href="#">Photo</a></li>
+													</ul>
+												</div>
+											</div>
+											<div class="roadmap-slider-for__item">
+												<p class="roadmap-slider-for__item-title">2018</p>
+												<div class="roadmap-slider-for__item-text">
+													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">jan</span>Pre-ITO<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>ITO<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">nov</span>Alpha version launch<!-- <a class="media">Photo</a> --></li>
+													</ul>
+												</div>
+											</div>
+											<div class="roadmap-slider-for__item">
+												<p class="roadmap-slider-for__item-title">2019</p>
+												<div class="roadmap-slider-for__item-text">
+													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>MVP Launch<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">apr-jun</span>Launch of Chinese version for local talents<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">sept</span>Expansion to entire China  foreign talent market<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">dec</span>Cross-border expansion to Asia<!-- <a class="media">Photo</a> --></li>
+													</ul>
+												</div>
+											</div>
+											<div class="roadmap-slider-for__item">
+												<p class="roadmap-slider-for__item-title">2020</p>
+												<div class="roadmap-slider-for__item-text">
+													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">jun</span>Mining system launch<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>Prosumer ecosystem  marketplace<!-- <a class="media">Photo</a> --></li>
+													</ul>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section id="team">
+							<div class="team__content--wrapper">
+								<img src="img/wallet-lines.svg" alt="" class="team-lines">
+								<div class="team__wrapper">
+									<h2 class="team__title" data-aos = "fade-up" data-aos-duration = "1200">Team</h2>
+									<div class="team__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+									<div class="container">
+										<div class="team__item--wrapper">
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-1.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Since graduating from St. Petersburg State University, Russia, Dmitry has been living in Shanghai, China, for more than a decade. His areas of expertise include but are not limited to apparel manufacturing, media publishing, food and non-food import/export and distribution, biomedical technologies and regenerative medicine. Dmitry’s experience running a group of companies in China, Vietnam, Hong Kong, Taiwan and Russia has left him well equipped to handle any tax and legal issues in Asia, and also means he is a pro in developing business scaling strategies.</p>
+														<a href="https://www.linkedin.com/in/dtimokhin" class="team__item--link"></a>
+														<a href="#team" class="team__item--bio">Biography</a>
+													</div>
+												<h2 class="team__item--title">Dmitry Timokhin</h2>
+												<p class="team__item--position-sec">CFO/COO</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-2.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Experienced Fullstack Engineer with an impressive history of working in the internet industry. IPFS pioneer. Polyglot programmer, developed solutions for Alibaba, chinesepod.com, italki.com, and openlanguage.com. Strong engineering professional with two Master's degrees focused in Computer Science. The founder and initiator of the gogo.tattoo Project. If you have any interest in China,  the Mandarin language or languages in general, there's a very big chance you've used one of the apps Roman has built or was involved with.</p>
+														<a href="https://www.linkedin.com/in/roman-tronenko" class="team__item--link"></a>
+														<a href="#team" class="team__item--bio" >Biography</a>
+													</div>
+												<h2 class="team__item--title">Roman Tronenko</h2>
+												<p class="team__item--position-sec">CTO</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-3.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Since completing his Education in Europe, Dmitry has been actively developing his professional career in China for about 5 years.  Currently pursuing his PhD in team management and team creativity, Dmitry has also been actively involved in TVC production as a production coordinator and casting manager.  As a part-time model himself, Dmitry has a first hand understanding of the overall talent industry in China and worldwide. Founder and COO of the F-You Art Community and several other smaller media projects.</p>
+														<a href="https://www.linkedin.com/in/dimitry-doronin/" class="team__item--link"></a>
+														<a href="#team" class="team__item--bio">Biography</a>
+													</div>
+												<h2 class="team__item--title">Dimitry Doronin</h2>
+												<p class="team__item--position-sec">CEO</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-9.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">After graduating with honors from International Business Management Nathan’s career brought him through different marketing paths across gaming companies, energy drink companies and the live streaming company called “musical.ly”. Bringing his experience as a global marketing and project manager at DesignNest where he helped collect over 1 million USD in crowdfunding for various projects, he is now ready to take on the entertainment industry and help MDL Talent Hub get to the next level as the Chief Marketing Director.</p>
+														<a href=https://"www.linkedin.com/in/nathanaelhorn" class="team__item--link"></a>
+														<a href="#team" class="team__item--bio" >Biography</a>
+													</div>
+												<h2 class="team__item--title">Nathanael Horn</h2>
+												<p class="team__item--position-sec">Chief Marketing Officer</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay=500" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-4.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Professional with about ten years of experience in mastering IT systems. Key areas of expertise  include networks, software delivery/deployment process, and BI-systems. Master of Science in IT  with a focus on software engineering.</p>
+														<a href="https://www.linkedin.com/in/bulatzamilov/" class="team__item--link"></a>
+														<a href="#team" class="team__item--bio">Biography</a>
+													</div>
+												<h2 class="team__item--title">Bulat Zamilov</h2>
+												<p class="team__item--position-sec">System Administrator</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-5.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Has two high degrees in Economics and Cybernetics. Operating in stock and forex markets since 2011. Experienced in managing ICOs and bounty programs as well as in PR with the crypto community. Happily married with three sons.</p>
+														<a href="#team" class="team__item--bio" >Biography</a>
+													</div>
+												<h2 class="team__item--title">Alexander Pala</h2>
+												<p class="team__item--position-sec">Crypto Community Manager</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="700" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-6.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">BA in Graphic Design, currently pursing her Master's in Digital Graphics and Web-design in Saint-Petersburg. Maria has more than three years of professional experience in the fields of branding, graphic design, and advertisement. Has cooperated with a museum of a street-art in Saint-Petersburg  as well as with the Eastern Economic forum in Vladivostok. Loves to travel.</p>
+														<a href="#team" class="team__item--bio">Biography</a>
+													</div>
+												<h2 class="team__item--title">Tsatsynkina Maria</h2>
+												<p class="team__item--position-sec">Graphic Designer</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="800" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-7.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Kiev-based UX/UI web and mobile designer with more than 3 years of experience in the industry. Successfully completed more than 40 projects including a mobile APP for Ukrainian State TV Channel STB. Loves techno.</p>
+														<a href="#team" class="team__item--bio">Biography</a>
+													</div>
+												<h2 class="team__item--title">Bohdan Pshenichnyi</h2>
+												<p class="team__item--position-sec">Web Designer</p>
+											</div>
+											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" data-toggle="modal" data-target="#teamModal">
+												<div class="team__item--photo-wrapper">
+														<img src="img/t-8.png" alt="" class="team__item--photo">
+														<p class="team__item--desc">Daniil is mad keen on programming and modern technologies, a programming polyglot. Full stack developer, has been involved in different projects, including those relating to actor casting and social media. Programming since 12 years old. Holds a degree in Psychology.</p>
+														<a href="#team" class="team__item--bio">Biography</a>
+													</div>
+												<h2 class="team__item--title">Daniil Kostin</h2>
+												<p class="team__item--position-sec">Android Developer</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<div class="section-wrapper-third">
+							<section id="mentors">
+								<h2 class="mentors__title" data-aos = "fade-up" data-aos-duration = "1200">Mentors</h2>
+								<div class="mentors__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+								<div class="mentor__item--wrapper">
+									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300" data-toggle="modal" data-target="#mentorsModal">
+										<div class="mentor__item--photo-wrapper" >
+											<img src="img/m-1.png" alt="" class="mentor__item--photo">
+											<p class="mentor__item--desc">Business administration and finance alumni of Heinrich Heine University of Düsseldorf. With over 11 years working in banking and corporate industries in Germany, he acquired profound knowledge and expertise in topics, related to financial markets, treasury and small-cap companies financing. Relocated to Shanghai 3 years ago to lead Asia-Pacific Treasury Department for a DAX-member German multinational company. CFA® charterholder.</p>
+											<a href="https://www.linkedin.com/in/jevgenij-konn-cfa-08062965/" class="mentor__item--linkin"></a>
+											<a href="#mentors" class="mentor__item--link">Biography</a>
+										</div>
+										<h2 class="mentor__item--title">Jevgenij Konn</h2>
+										<p class="mentor__item--position-sec">Advisor</p>
+									</div>
+									<div class="mentor__item" data-toggle="modal" data-target="#mentorsModal">
+										<div class="mentor__item--photo-wrapper" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+											<img src="img/m-2.png" alt="" class="mentor__item--photo">
+											<p class="mentor__item--desc">Samuel Doe is a serial entrepreneur with over 28 years’ of experience across various industries such as: video games/software development, mobile, internet, social media, digital vending, maritime, and automotive.He specializes in developing and bringing to market early stage startups and scale-ups – with a strong focus on monetization. He has successfully founded and sold 4 of his startups in the USA. Samuel has personally worked with: Intel, HP, Microsoft, Google, EA, Nintendo, Sony, Sega, Dream Works, Samsung, Motorola, TI; as well as other reputable technological organizations.</p>
+											<a href="https://www.linkedin.com/in/samuel-doe-26-latitiude/" class="mentor__item--linkin"></a>
+											<a href="#mentors" class="mentor__item--link">Biography</a>
+										</div>
+										<h2 class="mentor__item--title">Samuel Doe</h2>
+										<p class="mentor__item--position-sec">Mentor</p>
+									</div>
+									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-toggle="modal" data-target="#mentorsModal">
+										<div class="mentor__item--photo-wrapper">
+											<img src="img/m-3.png" alt="" class="mentor__item--photo">
+											<p class="mentor__item--desc">The creator of Skycoin</p>
+											<a href="https://www.skycoin.net/" class="mentor__item--linkin"></a>
+											<a href="#mentors" class="mentor__item--link">Biography</a>
+										</div>
+										<h2 class="mentor__item--title">Synth</h2>
+										<p class="mentor__item--position-sec">Mentor</p>
+									</div>
+									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-toggle="modal" data-target="#mentorsModal">
+										<div class="mentor__item--photo-wrapper">
+											<img src="img/m-4.png" alt="" class="mentor__item--photo">
+											<p class="mentor__item--desc">BitShares community senior participant, HelloBTS founder, YOYOW founder</p>
+											<a href="#mentors" class="mentor__item--link">Biography</a>
+										</div>
+										<h2 class="mentor__item--title">Qiang Liu</h2>
+										<p class="mentor__item--position-sec">Mentor</p>
+									</div>
+								</div>
+							</section>
+
+							<section id="media">
+								<h2 class="media__title" data-aos = "fade-up" data-aos-duration = "1200">Media</h2>
+								<div class="media__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
+								<div class="media__item--first-row">
+									<div class="media__item--first--item"><a href="https://themerkle.com/introducing-mdl-talent-hub-the-decentralized-marketplace-and-ecosystem-for-talent/" class="media__item--first--link" target = "_blank"><img src="img/mercle.png" alt="" ></a></div>
+									<div class="media__item--first--item"><a href="http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001" class="media__item--first--link" target = "_blank"><img src="img/nasdaq.png" alt="" ></a></div>
+									<div class="media__item--first--item"><a href="https://www.ccn.com/mdl-talent-hub-announces-pre-ito-disrupt-2-3-trillion-entertainment-industry/" class="media__item--first--link" target = "_blank"><img src="img/ccn.png" alt="" ></a></div>
+									<div class="media__item--first--item"><a href="https://www.coindesk.com/" class="media__item--first--link" target = "_blank"><img src="img/coindesk.png" alt="" ></a></div>
+								</div>
+								<div class="media__item--wrapper">
+									<a href="https://zycrypto.com/mdl-talent-hub-pre-ito-set-revolutionalize-performers-sourcing-market/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/zycrypto.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.newswire.com/news/mdl-talent-hub-launches-pre-ito-to-disrupt-performers-sourcing-market-20106584" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/newswire.png" alt="" class="media__item--photo"></a>
+									<a href="http://ekd.me/2018/01/blokchejn-platforma-rossijskoj-kompanii-pomozhet-inostrannym-artistam-v-kitae/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/ekd2.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.coinspeaker.com/2018/01/10/talent-industry-market-turn-blockchain-mdl-talent-hubs-pre-ito/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/coinspeakerr.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.criptomoedasfacil.com/mdl-talent-hub-lanca-pre-ico-e-revoluciona-o-mercado-de-compras-de-artistas/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/criptomoedas.png" alt="" class="media__item--photo"></a>
+									<a href="https://cryptopanic.com/news/600282/MDL-Talent-Hub-Pre-ITO-Set-To-Revolutionalize-Performers-Sourcing-Market" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/cryptopanic.png" alt="" class="media__item--photo"></a>
+									<a href="https://icocountdown.com" class="media__item--link" data-aos="slide-up" data-aos-duration="2000"><img src="img/icocoundown.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.coinjinja.com/ico/mdl-life" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/coinjinjia.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.criptonoticias.com/aplicaciones/mdl-talent-hub-lanzara-plataforma-blockchain-crear-disrupcion-mercado-fuente-talento/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/criptonoticias.png" alt="" class="media__item--photo"></a>
+									<a href="https://icoholder.com/en/ico/mdl-talent-hub-17379" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="img/icoholder.png" alt="" class="media__item--photo"></a>
+								</div>
+							</section>
+							<footer>
+								<div class="container">
+									<div class="row">
+										<div class="link-f--wrapper">
+											<a class = "link-f" target = "_blank" href="whitepaper/MDL_Whitepaper_0.9.12.pdf">White paper</a>
+											<a class = "link-f" href="http://mdl.wtf">Blog</a>
+										</div>
+										<ul>
+											<li class="community-link">
+												<a href="https://fb.me/mdl.wtf">
+													<img class="one" src="img/fb_f.svg">
+													<img class = "two" src="img/fb2.svg" alt="">
+												</a>
+											</li>
+											<li class="community-link">
+												<a href="http://github.com/MDLlife/">
+													<img class="one" src="img/Github_f.svg">
+													<img class = "two" src="img/Github_f2.svg" alt="">
+												</a>
+											</li>
+											<li class="community-link">
+												<a href="https://www.linkedin.com/company/18324359/">
+													<img class="one" src="img/linkedin_f.svg">
+													<img class = "two" src="img/linkedin2.svg" alt="">
+												</a>
+											</li>
+											<li class="community-link">
+												<a href="https://steemit.com/@mdl">
+													<img class="one" src="img/steemit_f.svg">
+													<img class = "two" src="img/steemit2.svg" alt="">
+												</a>
+											</li>
+											<li class="community-link">
+												<a href="https://t.me/MDL_Talent_Hub">
+													<img class="one" src="img/telegram_f.svg">
+													<img class = "two" src="img/telegrammm22.svg" alt="">
+												</a>
+											</li>
+											<li class="community-link">
+												<a href="https://twitter.com/MDL_Talent_Hub">
+													<img class="one" src="img/twitter_f.svg">
+													<img class = "two" src="img/twitter22.svg" alt="">
+												</a>
+											</li>
+										</ul>
+										<h2><a href="#">MDL<span>Talent Hub</span></a></h2>
+									</div>
+								</div>
+							</footer>
+						</div>
+					</main>
+
+
+					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+					<script src="js/libs.min.js"></script>
+					<script src="js/common.js"></script>
+				</body>
+				</html>
