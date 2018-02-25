@@ -310,10 +310,10 @@ function rpModal(){
 }
 
 function get_timer() {
-     var date_new = "March 8,2018 22:00";
-     var date_t = new Date(date_new);
+     // 2018 March (js month number starts with 0) 24th 00:01 UTC
+     var date_t = new Date(Date.UTC(2018, 02, 24, 00, 01));
 
-     var date = new Date();
+     var date = new Date(Date.now());
      var timer = date_t - date;
      if(date_t > date) {
 
@@ -757,22 +757,22 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
         else if (sendinblueFormLang == "es") {
             emptyError = "Por favor, complete este campo";
             smsError = 'El campo SMS debe contener entre 6 y 19 cifras.';
-            dateError = "Formato de fecha no válido";
+            dateError = "Formato de fecha no vГЎlido";
         }
         else if (sendinblueFormLang == "pt") {
             emptyError = "Preencha este campo.";
-            smsError = 'O campo SMS deve conter entre 6 e 19 dígitos.';
-            dateError = "O formato da data é inválido";
+            smsError = 'O campo SMS deve conter entre 6 e 19 dГ­gitos.';
+            dateError = "O formato da data Г© invГЎlido";
         }
         else if (sendinblueFormLang == "it") {
             emptyError = "Compilare questo campo.";
             smsError = 'Il campo SMS deve contenere dai 6 ai 19 caratteri.';
-            dateError = "Il formato della data non è valido";
+            dateError = "Il formato della data non ГЁ valido";
         }
         else if (sendinblueFormLang == "de") {
-            emptyError = "Bitte füllen Sie dieses Feld aus.";
+            emptyError = "Bitte fГјllen Sie dieses Feld aus.";
             smsError = 'Das SMS-Feld muss 6 bis 19 Ziffern enthalten.';
-            dateError = "Ungültiges Datumsformat";
+            dateError = "UngГјltiges Datumsformat";
         }
 
         theForm.find('div.alert').remove();
@@ -1078,9 +1078,9 @@ $('#'+sib_prefix+'_embed_signup input[type=radio]').on('click',function(){
 
 
 
-// ——————————————————————————————————————————————————
+// вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”
 // Hover effect on button 'blog' and on logo mdl
-// ——————————————————————————————————————————————————
+// вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”
 
 class TextScramble {
   constructor(el) {
@@ -1223,4 +1223,3 @@ jQuery(document).ready(function($){
       }
   }
 });
-
