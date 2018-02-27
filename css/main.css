@@ -563,6 +563,8 @@
         opacity: 0; }
 
 @media (max-width: 768px) {
+  #timer_d {
+  left: 0; }
   body #preloader {
     display: none !important;
     z-index: 0 !important; }
