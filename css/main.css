@@ -668,7 +668,8 @@
     #header__social-links .header__social-links--item {
       width: 35px;
       height: 35px; } }
-
+#timer_d {
+  left: -5px; }
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url("../fonts/Gilroy-ExtraBold.eot");
