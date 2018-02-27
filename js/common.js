@@ -151,9 +151,6 @@ function initScrambleText(){
     $('#nav__link-lang--blog').mouseenter(function(){
         doScrambleText('#nav__link-lang--blog','BLOG')
     });
-    $('.nav__logo').mouseenter(function(){
-        doScrambleText('#nav__logo--text','MDL')
-    });
 }
 function initSiteNav() {
  
@@ -255,7 +252,7 @@ function teamPopup(){
         var path = $(this).find('.team__item--link').attr('href');
         var linked_template = '<a href="'+path+'" class="modal--linkin" ><img src="img/linkedin-logo.svg" alt=""></a>';
         $('#teamModal .modal-body').html($(this).find('.team__item--desc').html());
-        if( path.length > 2){
+        if(path){
           $('#teamModal .modal-content').append(linked_template);
         } 
       });
@@ -310,10 +307,10 @@ function rpModal(){
 }
 
 function get_timer() {
-     // 2018 March (js month number starts with 0) 24th 00:01 UTC
-     var date_t = new Date(Date.UTC(2018, 02, 24, 00, 01));
+     var date_new = "March 8,2018 22:00";
+     var date_t = new Date(date_new);
 
-     var date = new Date(Date.now());
+     var date = new Date();
      var timer = date_t - date;
      if(date_t > date) {
 
@@ -724,7 +721,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
     $('#'+sib_prefix+'_embed_signup .'+sib_prefix+'-container').find('.hidden-btns').remove();
     $('#'+sib_prefix+'_embed_signup .'+sib_prefix+'-container').find('.message_area').remove();
 
-    $('#'+sib_prefix+'_embed_signup #theform').on('submit',function() {
+    $('#'+sib_prefix+'_embed_signup #theform, #sib_embed_signup1 #theform1').on('submit',function() {
         var theForm = $(this);
         if (theForm.hasClass(sib_prefix+'_processing')) {
             return false;
@@ -757,22 +754,22 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
         else if (sendinblueFormLang == "es") {
             emptyError = "Por favor, complete este campo";
             smsError = 'El campo SMS debe contener entre 6 y 19 cifras.';
-            dateError = "Formato de fecha no vГЎlido";
+            dateError = "Formato de fecha no válido";
         }
         else if (sendinblueFormLang == "pt") {
             emptyError = "Preencha este campo.";
-            smsError = 'O campo SMS deve conter entre 6 e 19 dГ­gitos.';
-            dateError = "O formato da data Г© invГЎlido";
+            smsError = 'O campo SMS deve conter entre 6 e 19 dígitos.';
+            dateError = "O formato da data é inválido";
         }
         else if (sendinblueFormLang == "it") {
             emptyError = "Compilare questo campo.";
             smsError = 'Il campo SMS deve contenere dai 6 ai 19 caratteri.';
-            dateError = "Il formato della data non ГЁ valido";
+            dateError = "Il formato della data non è valido";
         }
         else if (sendinblueFormLang == "de") {
-            emptyError = "Bitte fГјllen Sie dieses Feld aus.";
+            emptyError = "Bitte füllen Sie dieses Feld aus.";
             smsError = 'Das SMS-Feld muss 6 bis 19 Ziffern enthalten.';
-            dateError = "UngГјltiges Datumsformat";
+            dateError = "Ungültiges Datumsformat";
         }
 
         theForm.find('div.alert').remove();
@@ -792,7 +789,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                     if (required[i] == 'email') {
                         if (!/^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(input.val())) {
                             input.closest('.row').addClass("needsfilled");
-                            input.closest('.row').append('<div class="message_area" style="background-color: #f2dede;border:1px solid #ebccd1; color: #a94442;margin-top: 5px;"><button type="button" class="close">x</button>'+emailError+'</div>' );
+                            input.closest('.row').append('<div class="message_area" style="background-color: #f2dede;border:1px solid #ebccd1; color: #a94442;margin-top: 15px;"><button type="button" class="close">x</button>'+emailError+'</div>' );
                             input.val('');
                         } else {
                             input.closest('.row').removeClass("needsfilled");
@@ -1078,9 +1075,9 @@ $('#'+sib_prefix+'_embed_signup input[type=radio]').on('click',function(){
 
 
 
-// вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”
+// ——————————————————————————————————————————————————
 // Hover effect on button 'blog' and on logo mdl
-// вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”вЂ”
+// ——————————————————————————————————————————————————
 
 class TextScramble {
   constructor(el) {
@@ -1223,3 +1220,4 @@ jQuery(document).ready(function($){
       }
   }
 });
+
