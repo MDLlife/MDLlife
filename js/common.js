@@ -307,10 +307,9 @@ function rpModal(){
 }
 
 function get_timer() {
-     var date_new = "March 8,2018 22:00";
-     var date_t = new Date(date_new);
+     var date_t = new Date(Date.UTC(2018, 02, 24, 00, 01));
 
-     var date = new Date();
+     var date = new Date(Date.now());
      var timer = date_t - date;
      if(date_t > date) {
 
