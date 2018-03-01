@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>YouTube</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Desktop-HD-Copy-13" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-361.000000, -227.000000)">
+        <g id="YouTube" transform="translate(361.000000, 227.000000)" fill="#F0EAEA" fill-rule="nonzero">
+            <path d="M64,128 C28.653776,128 0,99.346224 0,64 C0,28.653776 28.653776,0 64,0 C99.346224,0 128,28.653776 128,64 C128,99.346224 99.346224,128 64,128 Z M99.8398,78.3359 L99.8398,49.6641 C99.8398,44.0313 95.2314,39.4238 89.5996,39.4238 L38.3994,39.4238 C32.7676,39.4238 28.1602,44.0313 28.1602,49.6641 L28.1602,78.3359 C28.1602,83.9668 32.7676,88.5762 38.3994,88.5762 L89.5996,88.5762 C95.2314,88.5762 99.8398,83.9668 99.8398,78.3359 Z" id="Combined-Shape"></path>
+            <polygon id="youtube-youtube" points="56.5967 72.793 75.9648 62.7578 56.5967 52.6523"></polygon>
+        </g>
+    </g>
+</svg>
