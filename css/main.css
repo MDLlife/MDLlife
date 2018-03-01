@@ -480,6 +480,7 @@
       letter-spacing: normal;
       color: #ffffff; }
     #main-header .header__right-part .header-timer_dhms .number-type {
+      position: relative;
       display: block;
       font-family: "Gilroy-Light";
       font-size: 14px;
@@ -488,15 +489,21 @@
       font-stretch: normal;
       line-height: normal;
       letter-spacing: 1.8px;
-      text-align: left;
+      text-align: center;
       color: #ffffff;
       text-transform: uppercase; }
     #main-header .header__right-part .dhms_item {
       width: 25%;
       position: absolute;
       text-align: left; }
+    #main-header .header__right-part .dhms_item.days .number-type {
+      left: -10px; }
     #main-header .header__right-part .dhms_item.hours {
       left: 23%; }
+      #main-header .header__right-part .dhms_item.hours .number {
+        left: 10px; }
+      #main-header .header__right-part .dhms_item.hours .number-type {
+        left: 0px; }
     #main-header .header__right-part .dhms_item.minutes {
       text-align: center;
       left: 48%; }
@@ -563,8 +570,6 @@
         opacity: 0; }
 
 @media (max-width: 768px) {
-  #timer_d {
-  left: 0; }
   body #preloader {
     display: none !important;
     z-index: 0 !important; }
@@ -622,9 +627,11 @@
         margin-bottom: 30px; }
         #main-header .header__right-part .header-timer_dhms .number {
           font-size: 46px;
-          text-align: center; }
+          text-align: center;
+          left: 0 !important; }
         #main-header .header__right-part .header-timer_dhms .number-type {
-          text-align: center; }
+          text-align: center;
+          left: 0 !important; }
       #main-header .header__right-part .header-timer_about {
         margin-bottom: 0;
         text-align: center; }
@@ -670,8 +677,7 @@
     #header__social-links .header__social-links--item {
       width: 35px;
       height: 35px; } }
-#timer_d {
-  left: -5px; }
+
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url("../fonts/Gilroy-ExtraBold.eot");
@@ -2274,15 +2280,15 @@
 #team {
   position: relative;
   top: 88.5vh;
-  height: 100vh;
-  min-height: 1000px;
+  height: 102vh;
+  min-height: 1050px;
   padding: 20px;
   z-index: 10001; }
   #team .team__wrapper {
-    height: 870px;
+    height: 890px;
     position: absolute;
     top: 50%;
-    margin-top: -435px;
+    margin-top: -445px;
     width: 926px;
     left: 50%;
     margin-left: -470px; }

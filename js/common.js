@@ -339,12 +339,6 @@ function get_timer() {
     $('#timer_m').html(min);
     $('#timer_s').html(sec);
     setTimeout(get_timer,1000);
-
-    if(window.screen.width < 768 || window.innerWidth<768 || window.screen.availWidth<768){
-      for(var i = 0; i < $('.number-type').length; i++ ){
-        $('.number-type:eq('+i+')').html($('.number-type:eq('+i+')').attr('data-short'));
-      }
-    }
 }
 
 
