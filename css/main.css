@@ -46,6 +46,10 @@
     top: 0;
     background-color: #150526;
     height: 80px; }
+    #nav-main.sticky .select-styled {
+      background-color: #150526 !important; }
+    #nav-main.sticky .select-options {
+      background-color: #150526 !important; }
     #nav-main.sticky .nav__logo {
       top: 15px; }
     #nav-main.sticky .nav__burger {
@@ -158,6 +162,77 @@
     top: 0px;
     right: 98px;
     cursor: pointer; }
+    #nav-main .nav__links-lang .select-hidden {
+      display: none;
+      visibility: hidden;
+      padding-right: 10px; }
+    #nav-main .nav__links-lang .select-styled {
+      position: absolute;
+      width: 51px;
+      height: 50px;
+      z-index: 1000;
+      top: 1px;
+      right: 0;
+      bottom: 0;
+      left: 1px;
+      background-color: #1f0738;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      padding-top: 17px; }
+    #nav-main .nav__links-lang .select-options {
+      display: none;
+      position: absolute;
+      top: 12px;
+      width: 53px;
+      right: 0;
+      left: 0px;
+      z-index: 999;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      background-color: #1f0738;
+      border: 1px solid #ffffff;
+      color: white;
+      -webkit-border-bottom-left-radius: 29.5px;
+              border-bottom-left-radius: 29.5px;
+      -webkit-border-bottom-right-radius: 29.5px;
+              border-bottom-right-radius: 29.5px;
+      -webkit-border-top-left-radius: 20px;
+              border-top-left-radius: 20px;
+      -webkit-border-top-right-radius: 20px;
+              border-top-right-radius: 20px;
+      padding-bottom: 25px; }
+    #nav-main .nav__links-lang .select-options li {
+      text-align: center;
+      margin: 0;
+      padding: 2px 0 0 0;
+      -o-transition: all 0.15s ease-in;
+      -webkit-transition: all 0.15s ease-in;
+      transition: all 0.15s ease-in; }
+      #nav-main .nav__links-lang .select-options li:first-child {
+        display: none; }
+    #nav-main .nav__links-lang .select-options li > a {
+      color: white;
+      text-decoration: none;
+      display: block;
+      width: 100%;
+      text-transform: uppercase; }
+    #nav-main .nav__links-lang .select-options li:nth-child(2) {
+      padding-top: 60px; }
+    #nav-main .nav__links-lang .select-options li > a:hover {
+      opacity: 0.5; }
+    #nav-main .nav__links-lang .select-options li[rel="hide"] {
+      display: none; }
     #nav-main .nav__links-lang.menu-open {
       opacity: 0; }
     #nav-main .nav__links-lang .nav__link-lang--lang {
@@ -193,6 +268,14 @@
         position: absolute;
         left: -1px;
         top: -1px; }
+        #nav-main .nav__links-lang .nav__link-lang--lang .base.clicked {
+          z-index: 1001; }
+          #nav-main .nav__links-lang .nav__link-lang--lang .base.clicked .c1 {
+            stroke-dasharray: 295 295;
+            opacity: 1;
+            -webkit-transition-property: stroke-dasharray;
+            -o-transition-property: stroke-dasharray;
+            transition-property: stroke-dasharray; }
         #nav-main .nav__links-lang .nav__link-lang--lang .base .c1 {
           stroke-dasharray: 0 295;
           -webkit-transition: 1s;
@@ -262,11 +345,9 @@
       top: 30px;
       left: 40px; }
     #nav-main .nav__links-lang {
-      top: 20px;
-      right: 27px;
+      top: 15px;
+      right: 40px;
       width: 40px; }
-      #nav-main .nav__links-lang .nav__link-lang--lang {
-        display: none; }
       #nav-main .nav__links-lang .nav__link-lang--wp {
         display: none; }
       #nav-main .nav__links-lang .nav__link-lang--blog {
@@ -275,8 +356,9 @@
       width: 55px;
       height: 45px;
       top: 28px;
-      right: 20px;
-      left: unset;
+      right: unset;
+      left: 50%;
+      margin-left: -27.5px;
       text-align: right; }
       #nav-main .nav__logo #nav__logo--text {
         display: none; } }
@@ -466,7 +548,7 @@
       color: #ffffff; }
     #main-header .header__right-part .header-timer_dhms {
       height: 75px;
-      margin-bottom: 49.5px;
+      margin-bottom: 44px;
       position: relative; }
     #main-header .header__right-part .header-timer_dhms .number {
       position: relative;
@@ -511,18 +593,23 @@
       text-align: center;
       left: 75%; }
     #main-header .header__right-part .header-timer_about {
+      margin-left: 3px;
       font-family: "Gilroy-Light";
-      font-size: 14px;
+      font-size: 16px;
+      font-weight: 700;
       font-style: normal;
       font-stretch: normal;
       line-height: normal;
       letter-spacing: normal;
       text-align: left;
-      color: #ffffff; }
+      color: #c72897;
+      margin-bottom: 5px; }
+      #main-header .header__right-part .header-timer_about.half-opacity {
+        color: rgba(199, 40, 151, 0.5); }
     #main-header .header__right-part .header-timer_btn {
       position: absolute;
-      bottom: -28px;
-      left: -38px; }
+      bottom: -27px;
+      left: -36.7px; }
       #main-header .header__right-part .header-timer_btn .mobile {
         display: none; }
   #main-header .header__bubble {
@@ -611,6 +698,9 @@
       width: 100%;
       text-align: center;
       height: 250px; }
+      #main-header .header__right-part .header-timer {
+        width: 310px;
+        margin: 0 auto; }
       #main-header .header__right-part .timer-title {
         text-align: center;
         font-size: 28px;
@@ -917,8 +1007,22 @@
       vertical-align: top;
       display: inline-block;
       width: 330px; }
+    #wallet .wallet__wrapper .wallet__left-part .week-info {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #c72897;
+      text-align: left;
+      margin-bottom: 0; }
+      @media (max-width: 768px) {
+        #wallet .wallet__wrapper .wallet__left-part .week-info {
+          font-size: 14px;
+          text-align: center; } }
+      #wallet .wallet__wrapper .wallet__left-part .week-info.half-opacity {
+        opacity: 0.5;
+        margin-bottom: 24px; }
     #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title {
-      margin-bottom: 30px;
+      margin-bottom: 24px;
       font-size: 22px;
       text-align: left;
       font-family: "Open Sans", sans-serif;
@@ -947,7 +1051,7 @@
       width: 147px;
       height: 38px; }
     #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l {
-      width: 49%;
+      width: 49.5%;
       display: inline-block;
       vertical-align: top; }
       #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l ul {
@@ -1802,6 +1906,8 @@
     text-transform: uppercase;
     text-align: left;
     color: #1f0738; }
+    .roadmap-slider-for__item .date.zh {
+      width: 40px; }
   .roadmap-slider-for__item .media {
     float: right;
     display: inline-block;
@@ -1902,7 +2008,8 @@
   -webkit-transition: opacity .5s;
   -o-transition: opacity .5s;
   transition: opacity .5s;
-  opacity: .2; }
+  opacity: .2;
+  text-align: center; }
 
 .slick-current .roadmap-slider-nav__circle {
   border: 0.5px solid #1f0738;
@@ -3037,6 +3144,341 @@ footer .community-link {
 
 footer li:nth-child(2) img.community-link {
   width: 48px; }
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.ttf") format("truetype"), url("../fonts/Gilroy-Light.svg#Gilroy-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#whitelist-form {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 0;
+  opacity: 0;
+  background-color: #1f0738;
+  -webkit-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease; }
+  #whitelist-form.opened {
+    z-index: 9000000000;
+    width: 100%;
+    opacity: 1;
+    height: 100%; }
+  #whitelist-form .whitelist-form--next {
+    position: absolute;
+    bottom: 24px;
+    right: 62px;
+    border: none;
+    -webit-appearence: none;
+    outline: none;
+    background-color: #c72897;
+    width: 122px;
+    height: 43px;
+    -webkit-border-radius: 24.5px;
+            border-radius: 24.5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer; }
+    #whitelist-form .whitelist-form--next.disabled {
+      opacity: 0.5; }
+  #whitelist-form .whitelist-form--wrapper {
+    padding: 5px;
+    width: 691px;
+    height: 731px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -345.5px;
+    margin-top: -365.5px;
+    background-color: white;
+    overflow: hidden; }
+    #whitelist-form .whitelist-form--wrapper .btn_close {
+      width: 45px;
+      height: 45px;
+      position: absolute;
+      z-index: 2131;
+      right: 5px;
+      top: 5px;
+      background-color: #1a0a2b;
+      cursor: pointer; }
+      #whitelist-form .whitelist-form--wrapper .btn_close:before, #whitelist-form .whitelist-form--wrapper .btn_close:after {
+        content: "";
+        display: block;
+        width: 2px;
+        height: 25px;
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        margin-left: -1px;
+        top: 50%;
+        margin-top: -12.5px; }
+      #whitelist-form .whitelist-form--wrapper .btn_close:before {
+        -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+                transform: rotate(45deg); }
+      #whitelist-form .whitelist-form--wrapper .btn_close:after {
+        -webkit-transform: rotate(-45deg);
+            -ms-transform: rotate(-45deg);
+                transform: rotate(-45deg); }
+    #whitelist-form .whitelist-form--wrapper .white-list--nav {
+      display: inline-block;
+      vertical-align: top;
+      padding-top: 63px;
+      position: relative;
+      height: 100%;
+      width: 115px;
+      background-color: #1a0a2b; }
+      #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn {
+        position: relative;
+        width: 43px;
+        height: 43px;
+        display: block;
+        margin: 0 auto;
+        border: 1px solid #c72897;
+        -webkit-border-radius: 50%;
+                border-radius: 50%;
+        -webit-appearence: none;
+        outline: none;
+        background-color: transparent;
+        cursor: pointer; }
+        #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn:before, #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          margin-top: -7.5px;
+          width: 2px;
+          height: 15px;
+          background-color: #c72897; }
+        #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn.up:before {
+          left: 13.9px;
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+        #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn.up:after {
+          right: 15.5px;
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg); }
+        #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn.down:before {
+          left: 13.9px;
+          -webkit-transform: rotate(-45deg);
+              -ms-transform: rotate(-45deg);
+                  transform: rotate(-45deg); }
+        #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--btn.down:after {
+          right: 15.5px;
+          -webkit-transform: rotate(45deg);
+              -ms-transform: rotate(45deg);
+                  transform: rotate(45deg); }
+      #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots {
+        padding-top: 83px;
+        padding-bottom: 75px; }
+        #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot {
+          display: block;
+          position: relative;
+          margin: 63px auto;
+          width: 15.4px;
+          height: 15.4px;
+          border: 1px solid white;
+          -webkit-border-radius: 50%;
+                  border-radius: 50%;
+          background-color: #1a0a2b;
+          -webkit-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          cursor: pointer; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot:last-child {
+            margin: 63px auto 0; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot:first-child {
+            margin: 0 auto 63px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot:hover {
+            background-color: #c72897;
+            border: 1px solid #c72897; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot.active {
+            width: 25px;
+            height: 25px;
+            background-color: #c72897;
+            border: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot:last-child:before {
+            display: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot:before {
+            content: "";
+            display: block;
+            width: 1px;
+            height: 64px;
+            position: relative;
+            left: 0;
+            margin: 0 auto;
+            background-color: white; }
+          #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot:before {
+            top: 100%; }
+    #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper {
+      position: relative;
+      vertical-align: top;
+      width: -webkit-calc(100% - 120px);
+      width: calc(100% - 120px);
+      height: 100%;
+      display: inline-block;
+      background-color: white; }
+      #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0;
+        -webkit-transition: all 0.5s ease;
+        -o-transition: all 0.5s ease;
+        transition: all 0.5s ease; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item[data-step] {
+          width: 100%;
+          height: 100%; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information {
+          padding-left: 47px;
+          padding-top: 21px;
+          padding-right: 59px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-title {
+            font-family: "Gilroy-ExtraBold";
+            font-size: 24px;
+            color: #c72897; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.name {
+            margin-top: 24px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper label {
+            display: block;
+            margin-bottom: 6px;
+            color: #1d082d;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 14px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .pi-input {
+            width: 100%;
+            height: 55px;
+            padding-left: 18px;
+            border: 1px solid #eff0f0;
+            -webit-appearence: none;
+            font-size: 16px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: #1a0a2b;
+            outline: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select {
+            position: relative;
+            vertical-align: top;
+            display: inline-block;
+            width: 138px;
+            height: 55px;
+            margin-right: 15px;
+            border: 1px solid #eff0f0 !important;
+            outline: none !important;
+            background: transparent !important;
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            font-weight: 400;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: normal;
+            text-align: center;
+            color: #1a0a2b;
+            cursor: pointer; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country {
+              width: 100%; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options {
+                position: absolute;
+                top: 51px;
+                z-index: 1; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li {
+                width: 100%;
+                text-align: left; }
+                #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li span {
+                  margin-left: 17px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select:last-child {
+              margin-right: 0; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-hidden, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-hidden {
+            display: none;
+            visibility: hidden;
+            padding-right: 10px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled {
+            position: relative;
+            padding-top: 16px;
+            color: #1a0a2b;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            text-align: left;
+            padding-left: 17.5px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled.active:after {
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 0 5.5px 6px 5.5px;
+              border-color: transparent transparent #33144a transparent; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled:after {
+              content: "";
+              display: block;
+              position: absolute;
+              right: 17.5px;
+              bottom: 7px;
+              width: 0;
+              height: 0;
+              border-style: solid;
+              border-width: 6px 5.5px 0 5.5px;
+              border-color: #33144a transparent transparent transparent; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options {
+            height: 165px;
+            width: 138px;
+            position: relative;
+            z-index: 5;
+            top: 15px;
+            left: 0;
+            display: none;
+            list-style: none;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            padding-left: 0;
+            background-color: white; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li {
+            padding-top: 16px;
+            position: relative;
+            z-index: 5;
+            text-align: center;
+            border: 1px solid #eff0f0 !important;
+            border-top: 0px solid transparent;
+            height: 55px;
+            width: 138px;
+            color: #1d082d;
+            background-color: white;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            -o-transition: all 0.15s ease-in;
+            -webkit-transition: all 0.15s ease-in;
+            transition: all 0.15s ease-in; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li:first-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li:first-child {
+              display: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > span {
+            color: #1d082d;
+            font-size: 14px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            text-decoration: none;
+            display: block;
+            width: 100%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > a:hover, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > a:hover {
+            color: #783387;
+            background: #fff; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li[rel="hide"], #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li[rel="hide"] {
+            display: none; }
 
 body {
   background-color: #FBFBFB !important;

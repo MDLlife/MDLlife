@@ -1,3 +1,4 @@
+// Initialization
 $(document).ready(function(){
     jumpingArrow();
     customScrolling();
@@ -12,68 +13,84 @@ $(document).ready(function(){
     showInstruments();
     burger();
     rpModal();
-    /*initiation for HTML document*/
+    //formInit();
+    customizeSelect($('#langs-list'));
+    circleLang();
     AOS.init({
       once: true,
       delay: 100
     });
-  $(".roadmap-slider-for").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 1,
-    vertical: !0,
-    swipe: !1,
-    focusOnSelect: !0,
-    centerMode: !0,
-    centerPadding: "0",
-    asNavFor: ".roadmap-slider-nav",
-    arrows: !0,
-    dots: !0,
-    infinite: !1,
-    dotsClass: "custom_paging",
-    customPaging: function(e, t) {
-        var n = t + 1
-        , o = e.slideCount;
-        return '<a class="custom-dot" role="button" title="' + n + " of " + o + '"><span class="slide-number">' + n + "</span>/" + o + "</a>"
-    },
-    responsive: [{
-        breakpoint: 1024,
-        settings: {
-            slidesToShow: 1,
-            centerMode: !1,
-            vertical: !1,
-            swipe: !0,
-            adaptiveHeight: !0,
-            dots: !1
-        }
-    }]
+    $(".roadmap-slider-for").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1,
+        vertical: !0,
+        swipe: !1,
+        focusOnSelect: !0,
+        centerMode: !0,
+        centerPadding: "0",
+        asNavFor: ".roadmap-slider-nav",
+        arrows: !0,
+        dots: !0,
+        infinite: !1,
+        dotsClass: "custom_paging",
+        customPaging: function(e, t) {
+            var n = t + 1
+            , o = e.slideCount;
+            return '<a class="custom-dot" role="button" title="' + n + " of " + o + '"><span class="slide-number">' + n + "</span>/" + o + "</a>"
+        },
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                centerMode: !1,
+                vertical: !1,
+                swipe: !0,
+                adaptiveHeight: !0,
+                dots: !1
+            }
+        }]
+    });
+    $(".roadmap-slider-nav").slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        initialSlide: 1,
+        focusOnSelect: !0,
+        centerMode: !0,
+        vertical: !0,
+        centerPadding: 0,
+        swipe: !1,
+        asNavFor: ".roadmap-slider-for",
+        arrows: !1,
+        dots: !1,
+        infinite: !1,
+        responsive: [{
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 3,
+                centerMode: !1,
+                vertical: !1,
+                swipe: !0,
+                arrows: !1
+            }
+        }]
+    });
 });
-  $(".roadmap-slider-nav").slick({
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    initialSlide: 1,
-    focusOnSelect: !0,
-    centerMode: !0,
-    vertical: !0,
-    centerPadding: 0,
-    swipe: !1,
-    asNavFor: ".roadmap-slider-for",
-    arrows: !1,
-    dots: !1,
-    infinite: !1,
-    responsive: [{
-        breakpoint: 1024,
-        settings: {
-            slidesToShow: 3,
-            centerMode: !1,
-            vertical: !1,
-            swipe: !0,
-            arrows: !1
-        }
-    }]
-});
-});
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+/*----------Variables-----------*/
+// Form select birthday English
+  const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'], 
+        en_month = ['Month','January','February','March','April','May','June','July','August','September','October','November','December'],
+        en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
+  // Countries
+  const country_arr = ["Select country","Afghanistan", "Albania", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo, Democratic Republic of the", "Congo, Republic of the", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Korea, North", "Korea, South", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia, Former Yugoslav Republic of", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Sudan", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "USA", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Yemen", "Yugoslavia", "Zambia", "Zimbabwe"];
 
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+/*----------EVENTS-----------*/
 var showForm = true;
 var menu_selector = "#site-nav";
 function updateForm(){
@@ -104,8 +121,14 @@ function customScrolling(){
         }, 1000);
     });
 }
-
-
+function circleLang(){
+    $('#nav-main .nav__links-lang .nav__link-lang--lang .select-styled').click(function(){
+        $(this).parent('.select').siblings('.base').addClass('clicked');
+    });
+    $('#nav-main .nav__links-lang .nav__link-lang--lang .base, body').click(function(){
+        $('#nav-main .nav__links-lang .nav__link-lang--lang .base').removeClass('clicked');
+    });
+}
 function videoControllers(){
     $('.about__video-block--btn-play').click(function(){
         if($(this).hasClass('play')){
@@ -125,8 +148,6 @@ function videoControllers(){
 }
 function windowOnSroll(){
     $(window).scroll(function(){
-        // $('.roadmap-slider-nav__item.slick-current:eq(0)').click();
-        // $('.roadmap-slider-for__item.slick-current').click();
     if(window.screen.width > 768 || window.innerWidth>768 || window.screen.availWidth>768){
         if($(this).scrollTop() > 1200)
             $('#main-header').css('position','absolute');
@@ -135,12 +156,6 @@ function windowOnSroll(){
     }
     });
 }
-
-// function preloader(){
-//     $(window).on('load', function () {
-//             $('.header__left-part,.header__right-part').addClass('init');
-//     });
-// }
 
 function doScrambleText(element,phrase){ 
   const el = document.querySelector(element);
@@ -194,12 +209,6 @@ function onScroll(){
         } else if($('#team').position().top <= scroll_top && $('#team').position().top + $('#team').outerHeight() > scroll_top){
             $("#site-nav .site-nav__link").addClass('white');
         }
-        // if (target.position().top <= scroll_top && target.position().top + target.outerHeight() > scroll_top) {
-        //     $("#site-nav .site-nav__item.active").removeClass("active");
-        //     $(this).addClass("active");
-        // } else {
-        //     $(this).removeClass("active");
-        // }
         if($('#about').position().top <= scroll_top && $('#about').position().top + $('#about').outerHeight() > scroll_top){
             $("#site-nav .site-nav__item.active").removeClass("active");
             $('#site-nav .site-nav__link[href$="#about"]').parent('.site-nav__item').addClass('active');
@@ -256,7 +265,6 @@ function teamPopup(){
           $('#teamModal .modal-content').append(linked_template);
         } 
       });
-    
 }
 function showInstruments(){
   $('#in-vm').click(function(){
@@ -285,7 +293,6 @@ function burger(){
     $('.nav__links-lang,.nav__logo,#nav-main').removeClass('menu-open')
   })
 }
-
 function rpModal(){
   $('.rp-video-link').click(function(e){
         e.preventDefault();
@@ -306,6 +313,200 @@ function rpModal(){
     }); 
 }
 
+// --- FORM ----
+function initBirthSelect(){
+  var select_days = $('#day-birth'),
+      select_month = $('#month-birth'),
+      select_year = $('#year-birth');
+  var country = $('#country');
+      addOptionToBirthSelect(country_arr,country);
+      customizeSelect(country);
+      addOptionToBirthSelect(en_year,select_year);
+      addOptionToBirthSelect(en_month,select_month);
+      addOptionToBirthSelect(en_days,select_days);
+      customizeSelect(select_year);
+      customizeSelect(select_month);
+      customizeSelect(select_days);
+}
+function addOptionToBirthSelect(arr,select){
+    for(var i = 0; i < arr.length; i++){
+        select.append('<option value ="'+i+'">'+arr[i]+'</option>');
+    }
+}
+function checkInputs(){
+    var name_input = $('#pi-input--name').val(),
+        email_input = $('#pi-input--email').val(),
+        adress_input = $('#pi-input--adress').val(),
+        phone_input = $('#pi-input--phone').val(),
+        select_day = $('#day-birth').val(),
+        select_month = $('#month-birth').val(),
+        select_year = $('#year-birth').val()
+        select_country = $('#country').val();
+
+    if(name_input.length != 0 && email_input.length != 0 && adress_input.length != 0 && phone_input.length != 0 && select_day > 0 && select_month > 0 && select_year > 0 && select_country > 0){
+        $('#whitelist-form--next').removeClass('disabled');
+    } else {
+        $('#whitelist-form--next').addClass('disabled');
+    }
+    $('#pi-input--email').blur(function() {
+        if($(this).val() != '') {
+          var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+          if(pattern.test($(this).val())){
+            $(this).css({'border' : '1px solid #eff0f0'});
+          } else {
+            $(this).css({'border' : '1px solid #ff0000'});
+          }
+        } 
+    });
+}
+//--- SLIDER ----
+function formSliderInit(){
+  var dots = $('.white-list--dot'),
+      button = $('.white-list--btn'),
+      content_item = $('.white-list--content-item');
+  setContentItem(content_item);
+  setDots(dots);
+  setContentPosition(content_item,1);
+  setButton(button,content_item);
+  btnNext(content_item);
+  clickOnDot();
+}
+function upSlide(item){
+    item.each(function(i){
+        var item_height = item.height();
+        var top = parseInt($(this).css('top'),10);
+        var val = top + item_height;
+        $(this).css('top',val);
+    })
+}
+function downSlide(item){
+    item.each(function(i){
+        var item_height = item.height();
+        var top = parseInt($(this).css('top'),10);
+        var val = top - item_height;
+        $(this).css('top',val);
+    })
+}
+function btnNext(item){
+    $('#whitelist-form--next').click(function(){
+       if($('.white-list--content-item.current').attr('data-step') == 5){
+          return;
+       }
+       var current = $('.white-list--content-item.current');
+       current.next().addClass('current');
+       current.removeClass('current');
+       downSlide(item);
+       currentDot();
+       listenCurrent();
+    });
+}
+function setContentPosition(item,position){
+    var percent = 100;
+    item.each(function(i){
+        $(this).css('top',percent*(i) + '%')
+        if($(this).attr('data-step') == position){
+          $(this).addClass('current');
+          $('.white-list--dot[data-dot = "'+(i+1)+'"]').addClass('active');
+        }
+    })
+}
+function setButton(btn,item){
+  btn.click(function(){
+    if($(this).attr('data-dir') == 'up'){
+       if($('.white-list--content-item.current').attr('data-step') == 1){
+          return;
+       }
+       var current = $('.white-list--content-item.current');
+       current.prev().addClass('current');
+       current.removeClass('current')
+       upSlide(item);
+       currentDot();
+    }
+    if($(this).attr('data-dir') == 'down'){
+      if($('.white-list--content-item.current').attr('data-step') == 5){
+          return;
+       }
+       var current = $('.white-list--content-item.current');
+       current.next().addClass('current');
+       current.removeClass('current');
+       downSlide(item);
+       currentDot();
+    }
+    listenCurrent()
+  });
+}
+function setContentItem(item){
+    item.each(function(i){
+        $(this).attr('data-step',i+1)
+    });
+}
+function setDots(dots){
+    dots.each(function(i){
+        $(this).attr('data-dot',i+1)
+    })
+}
+function currentDot(){
+    var position = $('.white-list--content-item.current').attr('data-step');
+    $('.white-list--dot.active').removeClass('active');
+    $('.white-list--dot[data-dot = "'+position+'"]').addClass('active');
+}
+function clickOnDot(){
+    var content_item = $('.white-list--content-item');
+    var content_item_height = parseInt(content_item.height(),10);
+    $('.white-list--dot').click(function(){
+        var content_num = $('.white-list--content-item.current').attr('data-step');
+        var dot_num = $(this).attr('data-dot');
+        var loop_start = 0 - dot_num + 1;
+        if(dot_num == 1){
+            setContentPosition($('.white-list--content-item'),1);
+        }
+        content_item.each(function(){
+            $(this).css('top',content_item_height*loop_start);
+            loop_start++;
+        });
+        $('.white-list--dot.active').removeClass('active');
+        $(this).addClass('active');
+        $('.white-list--content-item.current').removeClass('current');
+        $('.white-list--content-item[data-step = "'+dot_num+'"]').addClass('current');
+        listenCurrent();
+    });
+}
+function listenCurrent(){
+    if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
+        setTimeout(function(){
+          $('.whitelist-form--wrapper').css('overflow','visible');
+        },500);
+        checkInputs();
+    } else {
+      $('.whitelist-form--wrapper').css('overflow','hidden');
+      $('#whitelist-form--next').removeClass('disabled');
+    }
+
+}
+function formInit(){
+    initBirthSelect();
+    $('.pi-input').keyup(function(){
+      if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
+          checkInputs();
+      }
+    });
+    $('.whitelist-form--wrapper').mousemove(function(){
+     if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
+          checkInputs();
+      }
+    });
+    $('.open-white-list-form').click(function(){
+        $('#whitelist-form').addClass('opened');
+    });
+    $('#whitelist-btn_close').click(function(){
+        $('#whitelist-form').removeClass('opened');
+    });
+    formSliderInit();
+}
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+/*----------TIMER-----------*/
 function get_timer() {
      var date_t = new Date(Date.UTC(2018, 02, 24, 00, 01));
 
@@ -340,8 +541,6 @@ function get_timer() {
     $('#timer_s').html(sec);
     setTimeout(get_timer,1000);
 }
-
-
 /*---------------------*/
 /*---------------------*/
 /*---------------------*/
@@ -1131,6 +1330,13 @@ class TextScramble {
     return this.chars[Math.floor(Math.random() * this.chars.length)]
   }
 }
+
+
+
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+/*----------MENU AUTO HIDER-----------*/
 jQuery(document).ready(function($){
   var mainHeader = $('.cd-auto-hide-header'),
     secondaryNavigation = $('.cd-secondary-nav'),
@@ -1219,4 +1425,72 @@ jQuery(document).ready(function($){
       }
   }
 });
+
+
+/*---------------------*/
+/*---------------------*/
+/*---------------------*/
+/*----------CUSTOM SELECT-----------*/
+function customizeSelect(v){
+  v.each(function(){
+    var id = $(this).attr('id');
+    var $this = $(this), numberOfOptions = $(this).children('option').length;
+    $this.addClass('select-hidden'); 
+    $this.wrap('<div class="select '+id+'"></div>');
+    $this.after('<div class="select-styled"></div>');
+
+    var $styledSelect = $this.next('div.select-styled');
+    $styledSelect.text($this.children('option').eq(0).text());
+  
+    var $list = $('<ul />', {
+        'class': ''+id+' select-options'
+    }).insertAfter($styledSelect);
+  
+    for (var i = 0; i < numberOfOptions; i++) {
+        $('<li />',{
+            'class': $this.children('option').eq(i).attr('class'),
+        }).appendTo($list);
+    }
+    if(id === 'langs-list'){
+        for (var i = 0; i < numberOfOptions; i++) {
+            $('<a />', {
+                text: $this.children('option').eq(i).text(),
+                href: $this.children('option').eq(i).val()
+            }).appendTo(('.'+id+' .select-options li:eq('+i+')'));
+        }
+    } else{
+        for (var i = 0; i < numberOfOptions; i++) {
+            $('<span />', {
+                text: $this.children('option').eq(i).text(),
+                'data-val': $this.children('option').eq(i).val()
+            }).appendTo(('.'+id+' .select-options li:eq('+i+')'));
+         }
+    }
+    
+  
+    var $listItems = $list.children('li');
+  
+    $styledSelect.click(function(e) {
+        e.stopPropagation();
+        $('.'+id+' div.select-styled.active').not(this).each(function(){
+            $(this).removeClass('active').next('ul.select-options').hide();
+        });
+        $(this).toggleClass('active').next('ul.select-options').toggle();
+    });
+  
+    $listItems.click(function(e) {
+        e.stopPropagation();
+        $styledSelect.text($(this).text()).removeClass('active');
+        $this.val($(this).find('span').attr('data-val'));
+        $list.hide();
+        //console.log($this.val());
+    });
+  
+    $(document).click(function() {
+        $styledSelect.removeClass('active');
+        $list.hide();
+    });
+
+});
+}
 
