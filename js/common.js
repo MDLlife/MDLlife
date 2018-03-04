@@ -13,9 +13,7 @@ $(document).ready(function(){
     showInstruments();
     burger();
     rpModal();
-    //formInit();
-    customizeSelect($('#langs-list'));
-    circleLang();
+    formInit();
     AOS.init({
       once: true,
       delay: 100
@@ -81,7 +79,7 @@ $(document).ready(function(){
 /*---------------------*/
 /*----------Variables-----------*/
 // Form select birthday English
-  const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'], 
+  const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'],
         en_month = ['Month','January','February','March','April','May','June','July','August','September','October','November','December'],
         en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
   // Countries
@@ -121,14 +119,6 @@ function customScrolling(){
         }, 1000);
     });
 }
-function circleLang(){
-    $('#nav-main .nav__links-lang .nav__link-lang--lang .select-styled').click(function(){
-        $(this).parent('.select').siblings('.base').addClass('clicked');
-    });
-    $('#nav-main .nav__links-lang .nav__link-lang--lang .base, body').click(function(){
-        $('#nav-main .nav__links-lang .nav__link-lang--lang .base').removeClass('clicked');
-    });
-}
 function videoControllers(){
     $('.about__video-block--btn-play').click(function(){
         if($(this).hasClass('play')){
@@ -157,7 +147,7 @@ function windowOnSroll(){
     });
 }
 
-function doScrambleText(element,phrase){ 
+function doScrambleText(element,phrase){
   const el = document.querySelector(element);
   const fx = new TextScramble(el);
   fx.setText(phrase);
@@ -168,9 +158,9 @@ function initScrambleText(){
     });
 }
 function initSiteNav() {
- 
+
     $(document).on("scroll", onScroll);
- 
+
     $("#site-nav .site-nav__item").click(function(e){
         e.preventDefault();
         $(document).off("scroll");
@@ -185,7 +175,7 @@ function initSiteNav() {
             $(document).on("scroll", onScroll);
         });
     });
- 
+
 }
 function onScroll(){
     if($(document).scrollTop() > 830){
@@ -236,7 +226,7 @@ function onScroll(){
         } else if($('#media').position().top + $('.section-wrapper-third').position().top <= scroll_top && $('#media').position().top + $('.section-wrapper-third').position().top + $('#media').outerHeight() > scroll_top){
             $("#site-nav .site-nav__item.active").removeClass("active");
             $('#site-nav .site-nav__link[href$="#media"]').parent('.site-nav__item').addClass('active');
-        } 
+        }
         else{
             $('#site-nav .site-nav__link').removeClass("active");
         }
@@ -252,7 +242,7 @@ function mentorsPopup(){
         $('#mentorsModal .modal-body').html($(this).find('.mentor__item--desc').html());
         if( path.length > 2){
           $('#mentorsModal .modal-content').append(linked_template);
-        } 
+        }
     })
 }
 function teamPopup(){
@@ -263,7 +253,7 @@ function teamPopup(){
         $('#teamModal .modal-body').html($(this).find('.team__item--desc').html());
         if(path){
           $('#teamModal .modal-content').append(linked_template);
-        } 
+        }
       });
 }
 function showInstruments(){
@@ -310,7 +300,7 @@ function rpModal(){
     $("#rp-modal").on('hidden.bs.modal', function () {
       if($('#rp-modal .video_in-modal').length > 0)
         $('#rp-modal .video_in-modal').get(0).pause();
-    }); 
+    });
 }
 
 // --- FORM ----
@@ -340,13 +330,13 @@ function checkInputs(){
         phone_input = $('#pi-input--phone').val(),
         select_day = $('#day-birth').val(),
         select_month = $('#month-birth').val(),
-        select_year = $('#year-birth').val()
+        select_year = $('#year-birth').val(),
         select_country = $('#country').val();
 
     if(name_input.length != 0 && email_input.length != 0 && adress_input.length != 0 && phone_input.length != 0 && select_day > 0 && select_month > 0 && select_year > 0 && select_country > 0){
-        $('#whitelist-form--next').removeClass('disabled');
+        $('#whitelist-form--submit').removeClass('disabled');
     } else {
-        $('#whitelist-form--next').addClass('disabled');
+        $('#whitelist-form--submit').addClass('disabled');
     }
     $('#pi-input--email').blur(function() {
         if($(this).val() != '') {
@@ -356,7 +346,7 @@ function checkInputs(){
           } else {
             $(this).css({'border' : '1px solid #ff0000'});
           }
-        } 
+        }
     });
 }
 //--- SLIDER ----
@@ -486,14 +476,14 @@ function listenCurrent(){
 function formInit(){
     initBirthSelect();
     $('.pi-input').keyup(function(){
-      if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
+      // if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
           checkInputs();
-      }
+      // }
     });
     $('.whitelist-form--wrapper').mousemove(function(){
-     if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
+     // if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
           checkInputs();
-      }
+      // }
     });
     $('.open-white-list-form').click(function(){
         $('#whitelist-form').addClass('opened');
@@ -502,13 +492,41 @@ function formInit(){
         $('#whitelist-form').removeClass('opened');
     });
     formSliderInit();
+
+    $('#whitelist-form--submit').on('click', function (t) {
+       if(!$(t).is('.disabled')) {
+           var name_input = $('#pi-input--name').val(),
+               email_input = $('#pi-input--email').val(),
+               adress_input = $('#pi-input--adress').val(),
+               phone_input = $('#pi-input--phone').val(),
+               select_day = $('#day-birth').val(),
+               select_month = $('#month-birth').val(),
+               select_year = $('#year-birth').val(),
+               select_country = $('#country').val();
+
+           $.post( "ajax/whitelist/request",
+               JSON.stringify({
+                   name: name_input,
+                   email: email_input,
+                   address: adress_input,
+                   phone: phone_input,
+                   birthday: select_year + '-' + select_month + '-' + select_day,
+                   country: select_country
+               }),
+               function( data ) {
+                   if(data.success) {
+                       alert("Your request received!")
+                   }
+           }, "json");
+       }
+    });
 }
 /*---------------------*/
 /*---------------------*/
 /*---------------------*/
 /*----------TIMER-----------*/
 function get_timer() {
-     var date_t = new Date(Date.UTC(2018, 02, 24, 00, 01));
+     var date_t = new Date(Date.UTC(2018, 2, 24, 0, 1));
 
      var date = new Date(Date.now());
      var timer = date_t - date;
@@ -533,7 +551,7 @@ function get_timer() {
     if(sec < 10) {
         sec = '0' + sec;
     }
-    sec = sec.toString(); 
+    sec = sec.toString();
     }
     $('#timer_d').html(day);
     $('#timer_h').html(hour);
@@ -698,7 +716,7 @@ point.x += point.vx;
 point.y += point.vy;
 }
 for (let pointIndex = 0; pointIndex < points.length; pointIndex++) {
-    const prev = points[(pointIndex + points.length - 1) % points.length]; 
+    const prev = points[(pointIndex + points.length - 1) % points.length];
     const point = points[pointIndex];
     const next = points[(pointIndex + points.length + 1) % points.length];
     const dPrev = this.distance(point, prev);
@@ -1018,10 +1036,10 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                 if(captchaResponse.length == 0){
                     $(".captcha > div.row").addClass("needsfilled");
                     $(".captcha > div.row").append('<div class="message_area" style="background-color: #f2dede;border:1px solid #ebccd1; color: #a94442;margin-top: 5px;"><button type="button" class="close">x</button>'+emptyError+'</div>' );
-                    
+
                 } else {
                     $(".captcha > div.row").removeClass("needsfilled");
-                } 
+                }
             } else {
                 var fields =input.serializeArray();
                 if (fields.length == 0) {
@@ -1142,7 +1160,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                             messageHtml += data.result.general_err_msg;
                         } else if(data.result.result == 'invalidCaptcha') {
                             messageHtml += data.result.general_err_msg;
-                        } 
+                        }
                         messageHtml += '</div>';
                         theForm.find('.'+sib_prefix+'-container').prepend(messageHtml);
                         $('div.message_area button.close').on('click', function() {
@@ -1343,7 +1361,7 @@ jQuery(document).ready(function($){
     //this applies only if secondary nav is below intro section
     belowNavHeroContent = $('.sub-nav-hero'),
     headerHeight = mainHeader.height();
-  
+
   //set scrolling variables
   var scrolling = false,
     previousTop = 0,
@@ -1371,7 +1389,7 @@ jQuery(document).ready(function($){
   function autoHideHeader() {
     var currentTop = $(window).scrollTop();
 
-    ( belowNavHeroContent.length > 0 ) 
+    ( belowNavHeroContent.length > 0 )
       ? checkStickyNavigation(currentTop) // secondary navigation below intro
       : checkSimpleNavigation(currentTop);
 
@@ -1393,9 +1411,9 @@ jQuery(document).ready(function($){
   function checkStickyNavigation(currentTop) {
     //secondary nav below intro section - sticky secondary nav
     var secondaryNavOffsetTop = belowNavHeroContent.offset().top - secondaryNavigation.height() - mainHeader.height();
-    
+
     if (previousTop >= currentTop ) {
-        //if scrolling up... 
+        //if scrolling up...
         if( currentTop < secondaryNavOffsetTop ) {
           //secondary nav is not fixed
           mainHeader.removeClass('is-hidden');
@@ -1404,19 +1422,19 @@ jQuery(document).ready(function($){
         } else if( previousTop - currentTop > scrollDelta ) {
           //secondary nav is fixed
           mainHeader.removeClass('is-hidden');
-          secondaryNavigation.removeClass('slide-up').addClass('fixed'); 
+          secondaryNavigation.removeClass('slide-up').addClass('fixed');
           belowNavHeroContent.addClass('secondary-nav-fixed');
         }
-        
+
       } else {
-        //if scrolling down...  
+        //if scrolling down...
         if( currentTop > secondaryNavOffsetTop + scrollOffset ) {
           //hide primary nav
           mainHeader.addClass('is-hidden');
           secondaryNavigation.addClass('fixed slide-up');
           belowNavHeroContent.addClass('secondary-nav-fixed');
         } else if( currentTop > secondaryNavOffsetTop ) {
-          //once the secondary nav is fixed, do not hide primary nav if you haven't scrolled more than scrollOffset 
+          //once the secondary nav is fixed, do not hide primary nav if you haven't scrolled more than scrollOffset
           mainHeader.removeClass('is-hidden');
           secondaryNavigation.addClass('fixed').removeClass('slide-up');
           belowNavHeroContent.addClass('secondary-nav-fixed');
@@ -1435,41 +1453,32 @@ function customizeSelect(v){
   v.each(function(){
     var id = $(this).attr('id');
     var $this = $(this), numberOfOptions = $(this).children('option').length;
-    $this.addClass('select-hidden'); 
+    $this.addClass('select-hidden');
     $this.wrap('<div class="select '+id+'"></div>');
     $this.after('<div class="select-styled"></div>');
 
     var $styledSelect = $this.next('div.select-styled');
     $styledSelect.text($this.children('option').eq(0).text());
-  
+
     var $list = $('<ul />', {
-        'class': ''+id+' select-options'
+        'class': 'select-options'
     }).insertAfter($styledSelect);
-  
+
     for (var i = 0; i < numberOfOptions; i++) {
         $('<li />',{
             'class': $this.children('option').eq(i).attr('class'),
         }).appendTo($list);
     }
-    if(id === 'langs-list'){
-        for (var i = 0; i < numberOfOptions; i++) {
-            $('<a />', {
-                text: $this.children('option').eq(i).text(),
-                href: $this.children('option').eq(i).val()
-            }).appendTo(('.'+id+' .select-options li:eq('+i+')'));
-        }
-    } else{
-        for (var i = 0; i < numberOfOptions; i++) {
-            $('<span />', {
-                text: $this.children('option').eq(i).text(),
-                'data-val': $this.children('option').eq(i).val()
-            }).appendTo(('.'+id+' .select-options li:eq('+i+')'));
-         }
+
+    for (var i = 0; i < numberOfOptions; i++) {
+        $('<span />', {
+            text: $this.children('option').eq(i).text(),
+            'data-val': $this.children('option').eq(i).val()
+        }).appendTo(('.select-options li:eq('+i+')'));
     }
-    
-  
+
     var $listItems = $list.children('li');
-  
+
     $styledSelect.click(function(e) {
         e.stopPropagation();
         $('.'+id+' div.select-styled.active').not(this).each(function(){
@@ -1477,7 +1486,7 @@ function customizeSelect(v){
         });
         $(this).toggleClass('active').next('ul.select-options').toggle();
     });
-  
+
     $listItems.click(function(e) {
         e.stopPropagation();
         $styledSelect.text($(this).text()).removeClass('active');
@@ -1485,7 +1494,7 @@ function customizeSelect(v){
         $list.hide();
         //console.log($this.val());
     });
-  
+
     $(document).click(function() {
         $styledSelect.removeClass('active');
         $list.hide();
@@ -1493,4 +1502,3 @@ function customizeSelect(v){
 
 });
 }
-
