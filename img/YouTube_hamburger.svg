@@ -1,14 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="128px" height="128px" viewBox="0 0 128 128" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
-    <title>YouTube</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Desktop-HD-Copy-13" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-361.000000, -227.000000)">
-        <g id="YouTube" transform="translate(361.000000, 227.000000)">
-            <rect id="Rectangle-4" fill="#FFFFFF" x="27" y="33" width="77" height="60"></rect>
-            <path d="M64,128 C28.653776,128 0,99.346224 0,64 C0,28.653776 28.653776,0 64,0 C99.346224,0 128,28.653776 128,64 C128,99.346224 99.346224,128 64,128 Z M99.8398,78.3359 L99.8398,49.6641 C99.8398,44.0313 95.2314,39.4238 89.5996,39.4238 L38.3994,39.4238 C32.7676,39.4238 28.1602,44.0313 28.1602,49.6641 L28.1602,78.3359 C28.1602,83.9668 32.7676,88.5762 38.3994,88.5762 L89.5996,88.5762 C95.2314,88.5762 99.8398,83.9668 99.8398,78.3359 Z" id="Combined-Shape" fill="#1F0738" fill-rule="nonzero"></path>
-            <polygon id="youtube-youtube" fill="#1F0738" fill-rule="nonzero" points="56.5967 72.793 75.9648 62.7578 56.5967 52.6523"></polygon>
-        </g>
-    </g>
-</svg>
+<svg width="128" height="128" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><path fill="#FFF" d="M27 33h77v60H27z"/><path d="M64 128C28.654 128 0 99.346 0 64 0 28.654 28.654 0 64 0c35.346 0 64 28.654 64 64 0 35.346-28.654 64-64 64zm35.84-49.664V49.664c0-5.633-4.609-10.24-10.24-10.24H38.4c-5.632 0-10.24 4.607-10.24 10.24v28.672c0 5.63 4.608 10.24 10.24 10.24h51.2c5.631 0 10.24-4.61 10.24-10.24z" fill="#1F0738" fill-rule="nonzero"/><path fill="#1F0738" fill-rule="nonzero" d="M56.597 72.793l19.368-10.035-19.368-10.106z"/></g></svg>

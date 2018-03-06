@@ -1,1 +1,5 @@
 .DS_Store
+/.idea
+/node-modules
+/backend/backend
+/backend/database.db

@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -19,62 +18,9 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-	<!-- Form -->
-	<div id="whitelist-form" class="whitelist-form" data-initial-slide = "1">
-		<div class="whitelist-form--wrapper">
-			<div class="btn_close" id = "whitelist-btn_close"></div>
-            <!--<div class="white-list--nav">
-                <button type = "button" class="white-list--btn up" data-dir = "up"></button>
-                <div class="white-list--dots">
-                    <dlass="white-list--dot"></div>
-                    <!-- <div class="white-list--dot"></div>
-                    <div class="white-list--dot"></div>
-                    <div class="white-list--dot"></div>
-                    <div class="white-list--dot"></div>
-				</div>
-				<button type = "button" class="white-list--btn down" data-dir = "down"></button>
-			</div>-->
-			<div class="white-list--content-wrapper">
-				<!-- <div class="white-list--content-item"></div> -->
-				<div class="white-list--content-item personal-information">
-					<h2 class="pi-title">Personal information</h2>
-					<p class="pi-input--wrapper name">
-						<label for="name">Name</label>
-						<input type="text" name = "name" id = "pi-input--name" class="pi-input">
-					</p>
-					<p class="pi-input--wrapper email">
-						<label for="email">Email</label>
-						<input type="email" name = "email" id = "pi-input--email" class="pi-input">
-					</p>
-					<p class="pi-input--wrapper adress">
-						<label for="adress">Physical adress</label>
-						<input type="text" name = "adress" id = "pi-input--adress" class="pi-input">
-					</p>
-					<p class="pi-input--wrapper phone">
-						<label for="phone">Telephone number</label>
-						<input type="tel" name = "phone" id = "pi-input--phone" class="pi-input">
-					</p>
-					<p class="pi-input--wrapper date-birth">
-						<label >Date of birth</label>
-						<select name="day-birth" id="day-birth"></select>
-						<select name="month-birth" id="month-birth"></select>
-						<select name="year-birth" id="year-birth"></select>
-					</p>
-					<p class="pi-input--wrapper country-select">
-						<label >Contry of residence</label>
-						<select name="country" id="country"></select>
-					</p>
-				</div>
-				<!-- <div class="white-list--content-item"></div>
-				<div class="white-list--content-item"></div>
-				<div class="white-list--content-item"></div> -->
-			</div>
-            <button type="button" class="whitelist-form--next" id="whitelist-form--submit">Submit</button>
-			<!-- <button type="button" class="whitelist-form--next" id="whitelist-form--next">Next</button> -->
-		</div>
-	</div>
 	<!-- Modal -->
 	<div class="modal fade" id="mentorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
@@ -176,7 +122,7 @@
 
 				</ul>
 				<a href="http://mdl.wtf/" class="mobile-blog" target="_blank">Blog</a>
-				<a href="whitepaper/WhitePaper_eng_1.1.1.pdf" class="mobile-wp" target="_blank">Whitepaper</a>
+				<a href="whitepaper/WhitePaper_eng 1.2.1.pdf" class="mobile-wp" target="_blank">Whitepaper</a>
 			</div>
 		</div>
 	</div>
@@ -188,23 +134,24 @@
 <!-- 	<div class="hd__border-r">	</div>
 	<div class="hd__border-l">	</div>
 	<div class="hd__border-t">	</div> -->
-
+	
 	<nav id="nav-main" class="cd-auto-hide-header">
 		<div class="nav__logo">
 			<img src="img/logo_mdl_nav.svg" alt="MDL logo" class="nav__logo--image dec">
 			<img src="img/logo_mdl.svg" alt="MDL logo" class="nav__logo--image mob">
 		</div>
 		<div class="nav__burger">
-			<span></span>
-			<span></span>
-			<span></span>
+			MENU
 		</div>
 		<div class="nav__links-lang">
 			<div class="nav__link-lang--lang">
-				<span class="nav__link-lang--text">ENG</span>
 				<svg class="base forpc" width="55" height="55" viewBox="0 0 98 98">
-					<circle class="c1" cx="49" cy="49" r="47" stroke="#FFF" stroke-width="1" fill="none"></circle>
+					<circle class="c1" cx="49" cy="49" r="47" stroke="#FFF" stroke-width="1.7" fill="none"></circle>
 				</svg>
+				<select name="langs-list" id="langs-list">
+					<option class = "/" value="/">eng</option>
+					<option class = "zh" value="/zh">简体</option>
+				</select>
 			</div>
 			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/">Blog</a>
 			<a class="nav__link-lang--wp " target = "_blank" href="whitepaper/WhitePaper_eng_1.1.1.pdf">Whitepaper</a>
@@ -259,10 +206,11 @@
 					data-text="GET UPDATES"
 					data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 					data-color1="rgb(110, 179, 231)"
-					data-color2="#FFFFFF"
-					data-color3="#ffffff"
+					data-color2="#c72897"
+					data-color3="#c72897"
 					data-width = "163"
-					data-height = "49"></svg> </button>
+					data-height = "49"
+					data-text-color = "#ffffff"></svg> </button>
 					<div style="clear:both;"></div>
 				</div>
 				<div class="header__right-part">
@@ -282,16 +230,17 @@
 								<span id = "timer_s" class="number">57</span><span class="number-type">Sec</span>
 							</div>
 						</div>
-						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1200">WE ACCEPT BTC, ETH, WAVES AND SKY</p>
-						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500"><svg class="liquid-button"
+						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1100">40% discount for 10% of MDL</p>
+						<p class="header-timer_about half-opacity" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">20% discount for 20% of MDL</p>
+						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="form/"><svg class="liquid-button"
 							data-text="JOIN WHITELIST"
 							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 							data-color1="rgb(110, 179, 231)"
-							data-color2="#c72897"
-							data-color3="#c72897"
+							data-color2="#ffffff"
+							data-color3="#ffffff"
 							data-width = "163"
 							data-height = "49"
-							data-text-color = "#ffffff"></svg><span class="mobile">JOIN WHITELIST</span></a>
+							data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a>
 						</div>
 					</div>
 				</div>
@@ -352,6 +301,8 @@
 								<div class="wallet__separator separator" data-aos="fade" data-aos-duration="1200"></div>
 								<div class="wallet__left-part" data-aos = "fade" data-aos-duration="1200">
 									<h2 class="wallet__left-part--title">ITO details</h2>
+									<p class="week-info">40% discount for 10% of MDL</p>
+									<p class="week-info half-opacity">20% discount for 20% of MDL</p>
 									<p class="start-date">Start date <br> 24.03.2018 00:01 UTC</p>
 									<p class="end-date">End date <br> 24.04.2018 23:59 UTC</p>
 									<div class="wallet__left-part-l">
@@ -391,7 +342,7 @@
 										data-width = "163"
 										data-height = "49"
 										data-text-color = "#ffffff"></svg><span class="mobile">JOIN TELEGRAM</span></a>
-										<a class="wallet__button two open-white-list-form"><svg class="liquid-button"
+										<a class="wallet__button two" href="form/"><svg class="liquid-button"
 											data-text="JOIN WHITELIST"
 											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 											data-color1="rgb(110, 179, 231)"
@@ -564,10 +515,16 @@
 												<div class="roadmap-slider-nav__circle"><span>2017</span></div>
 											</div>
 											<div class="roadmap-slider-nav__item">
-												<div class="roadmap-slider-nav__circle"><span>2018</span></div>
+												<div class="roadmap-slider-nav__circle"><span>2018 <br>1/2</span></div>
 											</div>
 											<div class="roadmap-slider-nav__item">
-												<div class="roadmap-slider-nav__circle"><span>2019</span></div>
+												<div class="roadmap-slider-nav__circle"><span>2018 <br>2/2</span></div>
+											</div>
+											<div class="roadmap-slider-nav__item">
+												<div class="roadmap-slider-nav__circle"><span>2019<br>1/2</span></div>
+											</div>
+											<div class="roadmap-slider-nav__item">
+												<div class="roadmap-slider-nav__circle"><span>2019<br>2/2</span></div>
 											</div>
 											<div class="roadmap-slider-nav__item">
 												<div class="roadmap-slider-nav__circle"><span>2020</span></div>
@@ -578,8 +535,10 @@
 												<p class="roadmap-slider-for__item-title">2017</p>
 												<div class="roadmap-slider-for__item-text">
 													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">aug</span>Launch of the project<!-- <a class="media rp-video-link" data-media = "img/Token_issue_video.mp4" data-toggle="modal" data-target="#rp-modal" href="#">Video</a> --></li>
 														<li class="roadmap-slider-for__list-item"><span class="date">oct</span>Launch of Website and blog,  MDL Token issue<a class="media rp-video-link" data-media = "img/Token_issue_video.mp4" data-toggle="modal" data-target="#rp-modal" href="#">Video</a></li>
 														<li class="roadmap-slider-for__list-item"><span class="date">nov</span>GUI Prototype development<a class="media rp-image-link" data-media = "img/gui.jpg" data-toggle="modal" data-target="#rp-modal" href="#">Photo</a></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">dec</span>Skyledger conference<!-- <a class="media rp-video-link" data-media = "img/Token_issue_video.mp4" data-toggle="modal" data-target="#rp-modal" href="#">Video</a> --></li>
 													</ul>
 												</div>
 											</div>
@@ -589,7 +548,19 @@
 													<ul class="roadmap-slider-for__list">
 														<li class="roadmap-slider-for__list-item"><span class="date">jan</span>Pre-ITO hardcap achieved<a class="media rp-image-link" data-media = "img/pre-ito.png" data-toggle="modal" data-target="#rp-modal" href="#">Photo</a></li>
 														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>ITO<!-- <a class="media">Photo</a> --></li>
-														<li class="roadmap-slider-for__list-item"><span class="date">nov</span>Alpha version launch<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">apr</span>Major partnerships in entertainment industry<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">jun</span>MVP release<!-- <a class="media">Photo</a> --></li>
+													</ul>
+												</div>
+											</div>
+											<div class="roadmap-slider-for__item">
+												<p class="roadmap-slider-for__item-title">2018</p>
+												<div class="roadmap-slider-for__item-text">
+													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">jul</span>Rise conference<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">aug</span>Blockchain repuational module implementation<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">oct</span>Semantic AI search implementation<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">dec</span>Realease on Chinese market<!-- <a class="media">Photo</a> --></li>
 													</ul>
 												</div>
 											</div>
@@ -597,10 +568,19 @@
 												<p class="roadmap-slider-for__item-title">2019</p>
 												<div class="roadmap-slider-for__item-text">
 													<ul class="roadmap-slider-for__list">
-														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>MVP Launch<!-- <a class="media">Photo</a> --></li>
-														<li class="roadmap-slider-for__list-item"><span class="date">apr-jun</span>Launch of Chinese version for local talents<!-- <a class="media">Photo</a> --></li>
-														<li class="roadmap-slider-for__list-item"><span class="date">sept</span>Expansion to entire China  foreign talent market<!-- <a class="media">Photo</a> --></li>
-														<li class="roadmap-slider-for__list-item"><span class="date">dec</span>Cross-border expansion to Asia<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">feb</span>Livestreaming implementation<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>Realese on Korean and Japanese markets<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">apr</span>Major partnerships with brands<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">may</span>Internal marketplace implementation<!-- <a class="media">Photo</a> --></li>
+													</ul>
+												</div>
+											</div>
+											<div class="roadmap-slider-for__item">
+												<p class="roadmap-slider-for__item-title">2019</p>
+												<div class="roadmap-slider-for__item-text">
+													<ul class="roadmap-slider-for__list">
+														<li class="roadmap-slider-for__list-item"><span class="date">aug</span>Expansion to the whole Asia<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">dec</span>Expansion to Africa, South America, Western and Eastern Europe talents<!-- <a class="media">Photo</a> --></li>
 													</ul>
 												</div>
 											</div>
@@ -608,8 +588,8 @@
 												<p class="roadmap-slider-for__item-title">2020</p>
 												<div class="roadmap-slider-for__item-text">
 													<ul class="roadmap-slider-for__list">
-														<li class="roadmap-slider-for__list-item"><span class="date">mar</span>Prosumer ecosystem  marketplace<!-- <a class="media">Photo</a> --></li>
-														<li class="roadmap-slider-for__list-item"><span class="date">jun</span>Mining system launch<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">may</span>Skymining implementation<!-- <a class="media">Photo</a> --></li>
+														<li class="roadmap-slider-for__list-item"><span class="date">aug</span>Global expansion<!-- <a class="media">Photo</a> --></li>
 													</ul>
 												</div>
 											</div>
@@ -819,7 +799,7 @@
 								<div class="container">
 									<div class="row">
 										<div class="link-f--wrapper">
-											<a class = "link-f" target = "_blank" href="whitepaper/WhitePaper_eng_1.1.1.pdf">White paper</a>
+											<a class = "link-f" target = "_blank" href="whitepaper/WhitePaper_eng 1.2.1.pdf">White paper</a>
 											<a class = "link-f" target = "_blank" href="http://mdl.wtf">Blog</a>
 										</div>
 										<ul>
@@ -878,42 +858,5 @@
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 					<script src="js/libs.min.js"></script>
 					<script src="js/common.js"></script>
-				<!--]-->
-<div style="text-align:center;font-size:11px" class="cbalink"><a href="https://www.zzz.com.ua/" title="&#1073;&#1077;&#1089;&#1087;&#1083;&#1072;&#1090;&#1085;&#1099;&#1081; &#1093;&#1086;&#1089;&#1090;&#1080;&#1085;&#1075;">&#1073;&#1077;&#1089;&#1087;&#1083;&#1072;&#1090;&#1085;&#1099;&#1081; &#1093;&#1086;&#1089;&#1090;&#1080;&#1085;&#1075;</a> ZZZ.COM.UA<br/><br/></div>
-<script type="text/javascript" src="//a5.zzz.com.ua/r1.js"></script>
-<div class="cumf_bt_form_wrapper" style="display:none">
-<form id="contact_us_mail_feedback" action="/oldTi9QvqM6ytokU9Q8ylQq" method="post">
-    <fieldset>
-        <!-- Form Name -->
-        <legend>Contact Us</legend>
-        <!-- Text input-->
-        <div class="cumf_bt_form-group">
-            <label class="col-md-4 cumf_bt_control-label" for="cumf_bt_name">name</label>
-            <div class="col-md-4">
-                <input id="cumf_bt_name" name="cumf_bt_name" type="text" placeholder="your name" class="cumf_bt_form-control cumf_bt_input-md" required />
-                <span class="cumf_bt_help-block">Please enter your name</span>
-            </div>
-        </div>
-        <!-- Text input-->
-        <div class="cumf_bt_form-group">
-            <label class="col-md-4 cumf_bt_control-label" for="cumf_bt_email">your email</label>
-            <div class="col-md-4">
-                <input id="cumf_bt_email" name="cumf_bt_email" type="text" placeholder="enter your email" class="cumf_bt_form-control cumf_bt_input-md" required />
-                <span class="cumf_bt_help-block">please enter your email</span>
-            </div>
-        </div>
-        <!-- Textarea -->
-        <div class="cumf_bt_form-group">
-            <label class="col-md-4 cumf_bt_control-label" for="cumf_bt_message">your message</label>
-            <div class="col-md-4">
-                <textarea class="cumf_bt_form-control" id="cumf_bt_message" name="cumf_bt_message">Message goes here</textarea>
-            </div>
-        </div>
-        <input type="submit" id="cumf_bt_submit" value="Send"/>
-    </fieldset>
-</form>
-</div>
-
-</body>
+				</body>
 				</html>
-<!-- zzz </body><!-->
