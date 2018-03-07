@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url("../fonts/Gilroy-ExtraBold.eot");
@@ -2766,25 +2767,25 @@
         -o-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out; }
 
-#mentorsModal, #teamModal, #comingSoon {
+#mentorsModal, #teamModal {
   z-index: 0;
   padding: 0 !important;
   margin: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.5); }
-  #mentorsModal.show, #teamModal.show, #comingSoon.show {
+  #mentorsModal.show, #teamModal.show {
     z-index: 7000000; }
-  #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog {
+  #mentorsModal .modal-dialog, #teamModal .modal-dialog {
     top: 50%;
     margin-top: -150px;
     left: 50%;
     margin-left: -300px;
     width: 600px !important;
     height: auto; }
-  #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin {
+  #mentorsModal .modal--linkin, #teamModal .modal--linkin {
     text-align: center; }
-  #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content {
+  #mentorsModal .modal-content, #teamModal .modal-content {
     background-color: #150526;
     outline: none;
     border: none;
@@ -2796,13 +2797,13 @@
     font-weight: 400;
     padding: 50px 20px 30px 20px;
     text-align: left; }
-    #mentorsModal .modal-content .close, #teamModal .modal-content .close, #comingSoon .modal-content .close {
+    #mentorsModal .modal-content .close, #teamModal .modal-content .close {
       position: absolute;
       right: -10px;
       top: -10px;
       outline: none;
       opacity: 1 !important; }
-      #mentorsModal .modal-content .close img, #teamModal .modal-content .close img, #comingSoon .modal-content .close img {
+      #mentorsModal .modal-content .close img, #teamModal .modal-content .close img {
         width: 40px;
         height: 40px; }
 
@@ -2812,15 +2813,6 @@
 
 .modal-backdrop {
   background: none !important; }
-
-#comingSoon .modal-dialog {
-  margin-top: -100px; }
-
-#comingSoon .modal-content {
-  height: 200px;
-  font-size: 50px;
-  text-transform: uppercase;
-  text-align: center; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #mentors .mentor__item--wrapper {
@@ -2865,22 +2857,20 @@
             color: white; }
         #mentors .mentor__item--wrapper .mentor__item .mentor__item--link {
           display: none; }
-  #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog {
+  #mentorsModal .modal-dialog, #teamModal .modal-dialog {
     margin-top: 0;
     top: 100px;
     width: 90% !important;
     margin-left: -45%; }
-  #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content {
+  #mentorsModal .modal-content, #teamModal .modal-content {
     width: 100%;
     height: 100%; }
-  #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin {
+  #mentorsModal .modal--linkin, #teamModal .modal--linkin {
     display: block;
     margin-top: 20px; }
   .modal-body {
     font-size: 12px;
-    padding: 0; }
-  #comingSoon .modal-body {
-    font-size: 26px; } }
+    padding: 0; } }
 
 @font-face {
   font-family: 'Gilroy-ExtraBold';
@@ -3180,8 +3170,24 @@ footer li:nth-child(2) img.community-link {
   font-weight: normal;
   font-style: normal; }
 
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
 #whitelist-form {
-  position: fixed;
+  position: relative;
   top: 0;
   left: 0;
   height: 0;
@@ -3190,13 +3196,49 @@ footer li:nth-child(2) img.community-link {
   background-color: #1f0738;
   -webkit-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
-  transition: all 0.5s ease; }
+  transition: all 0.5s ease;
+  z-index: 9000000000;
+  width: 100%;
+  opacity: 1;
+  height: 1000px; }
+  #whitelist-form #whitelist-loader {
+    position: absolute;
+    z-index: 1200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a0a2b;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    #whitelist-form #whitelist-loader.loaded {
+      opacity: 0;
+      z-index: 0; }
+    #whitelist-form #whitelist-loader #loader-spin {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      width: 100px;
+      height: 100px;
+      margin: -50px 0 0 -50px;
+      border: 5px solid #f3f3f3;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      border-top: 5px solid #c72897;
+      -webkit-animation: spin 1.5s linear infinite;
+              animation: spin 1.5s linear infinite; }
   #whitelist-form.opened {
     z-index: 9000000000;
     width: 100%;
     opacity: 1;
     height: 100%; }
-  #whitelist-form .whitelist-form--next {
+  @media (max-width: 768px) {
+    #whitelist-form #whitelist-form--back, #whitelist-form #whitelist-form--next {
+      display: none !important; } }
+  #whitelist-form #whitelist-form--next, #whitelist-form .whitelist-form--next {
     position: absolute;
     bottom: 24px;
     right: 62px;
@@ -3214,8 +3256,47 @@ footer li:nth-child(2) img.community-link {
     text-transform: uppercase;
     color: white;
     cursor: pointer; }
-    #whitelist-form .whitelist-form--next.disabled {
-      opacity: 0.5; }
+    #whitelist-form #whitelist-form--next.mob, #whitelist-form .whitelist-form--next.mob {
+      display: none; }
+      @media (max-width: 768px) {
+        #whitelist-form #whitelist-form--next.mob, #whitelist-form .whitelist-form--next.mob {
+          display: block; } }
+    #whitelist-form #whitelist-form--next.disabled, #whitelist-form .whitelist-form--next.disabled {
+      color: rgba(255, 255, 255, 0.5); }
+  #whitelist-form #whitelist-form--back, #whitelist-form .whitelist-form--back {
+    display: none;
+    position: absolute;
+    bottom: 24px;
+    left: 165px;
+    border: none;
+    -webit-appearence: none;
+    outline: none;
+    background-color: #c72897;
+    width: 122px;
+    height: 43px;
+    -webkit-border-radius: 24.5px;
+            border-radius: 24.5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer; }
+    #whitelist-form #whitelist-form--back.term, #whitelist-form .whitelist-form--back.term {
+      bottom: -68px; }
+    #whitelist-form #whitelist-form--back.mob, #whitelist-form .whitelist-form--back.mob {
+      display: none; }
+      @media (max-width: 768px) {
+        #whitelist-form #whitelist-form--back.mob, #whitelist-form .whitelist-form--back.mob {
+          display: block; } }
+    #whitelist-form #whitelist-form--back.deckstop, #whitelist-form .whitelist-form--back.deckstop {
+      display: block;
+      left: 40px; }
+      @media (max-width: 768px) {
+        #whitelist-form #whitelist-form--back.deckstop, #whitelist-form .whitelist-form--back.deckstop {
+          display: none; } }
+    #whitelist-form #whitelist-form--back.disabled, #whitelist-form .whitelist-form--back.disabled {
+      color: rgba(255, 255, 255, 0.5); }
   #whitelist-form .whitelist-form--wrapper {
     padding: 5px;
     width: 691px;
@@ -3305,8 +3386,8 @@ footer li:nth-child(2) img.community-link {
               -ms-transform: rotate(45deg);
                   transform: rotate(45deg); }
       #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots {
-        padding-top: 83px;
-        padding-bottom: 75px; }
+        padding-top: 133px;
+        padding-bottom: 115px; }
         #whitelist-form .whitelist-form--wrapper .white-list--nav .white-list--dots .white-list--dot {
           display: block;
           position: relative;
@@ -3353,7 +3434,8 @@ footer li:nth-child(2) img.community-link {
       width: calc(100% - 120px);
       height: 100%;
       display: inline-block;
-      background-color: white; }
+      background-color: white;
+      overflow: hidden; }
       #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item {
         width: 100%;
         height: 100%;
@@ -3368,11 +3450,71 @@ footer li:nth-child(2) img.community-link {
         #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information {
           padding-left: 47px;
           padding-top: 21px;
-          padding-right: 59px; }
+          padding-right: 59px;
+          padding-bottom: 80px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #hidden-submit-form {
+            display: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information label {
+            display: block;
+            margin-bottom: 6px;
+            color: #1d082d;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 14px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .input-group.date .input-group-addon {
+            display: block !important;
+            width: 50px !important;
+            border: 1px solid #eff0f0;
+            padding-top: 7px;
+            text-align: center;
+            font-size: 25px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .input-group > .custom-select:not(:last-child), #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .input-group > .form-control:not(:last-child) {
+            border: 1px solid #eff0f0;
+            height: 55px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .form-control:focus {
+            -webkit-box-shadow: none !important;
+                    box-shadow: none !important;
+            border: 1px solid #eff0f0 !important; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-title {
             font-family: "Gilroy-ExtraBold";
             font-size: 24px;
             color: #c72897; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field {
+            display: inline-block;
+            vertical-align: top;
+            width: 48%;
+            height: 55px;
+            text-align: center;
+            border: 1px solid #eff0f0;
+            -webit-appearence: none !important;
+            font-size: 22px !important;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 700;
+            color: #1a0a2b !important;
+            outline: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field:focus {
+            border: 1px solid #c035a0 !important; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled {
+            padding-top: 12px;
+            margin-right: 2.5%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--day, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--year {
+            padding-top: 7px;
+            width: 30%;
+            display: inline-block;
+            vertical-align: top; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--day {
+            margin-right: 10px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .select.month {
+            padding-top: 0 !important;
+            margin-right: 10px !important; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field {
+            padding-top: 2px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .intl-tel-input {
+            width: 100%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--phone {
+            padding-left: 60px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.captcha {
+            margin-bottom: 5px; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.name {
             margin-top: 24px; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper label {
@@ -3387,20 +3529,47 @@ footer li:nth-child(2) img.community-link {
             height: 55px;
             padding-left: 18px;
             border: 1px solid #eff0f0;
-            -webit-appearence: none;
-            font-size: 16px;
+            -webit-appearence: none !important;
+            font-size: 16px !important;
             font-family: "Open Sans", sans-serif;
             font-weight: 400;
-            color: #1a0a2b;
+            color: #1a0a2b !important;
             outline: none; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select {
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .pi-input:focus {
+              border: 1px solid #c035a0 !important; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--adress {
+            width: 265px;
+            display: inline-block;
+            vertical-align: top;
+            margin-right: 15px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--apt {
+            width: 145px;
+            display: inline-block;
+            vertical-align: top; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--passport {
+            display: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .file-upload-styled {
+            width: 100%;
+            height: 55px;
+            padding-left: 18px;
+            border: 1px solid #eff0f0;
+            -webit-appearence: none !important;
+            font-size: 16px !important;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: #1a0a2b !important;
+            outline: none;
+            cursor: pointer; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
+            padding-bottom: 10px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
             position: relative;
             vertical-align: top;
             display: inline-block;
             width: 138px;
             height: 55px;
             margin-right: 15px;
-            border: 1px solid #eff0f0 !important;
+            border: 1px solid #eff0f0;
             outline: none !important;
             background: transparent !important;
             font-family: "Open Sans", sans-serif;
@@ -3412,24 +3581,27 @@ footer li:nth-child(2) img.community-link {
             text-align: center;
             color: #1a0a2b;
             cursor: pointer; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country {
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.month .select-options li span {
+              margin-left: 17px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country {
               width: 100%; }
-              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options {
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options {
                 position: absolute;
                 top: 51px;
                 z-index: 1; }
-              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li {
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options li {
                 width: 100%;
                 text-align: left; }
-                #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li span {
+                #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options li span {
                   margin-left: 17px; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select:last-child {
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled:last-child {
               margin-right: 0; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-hidden, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-hidden {
             display: none;
             visibility: hidden;
             padding-right: 10px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled {
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
+            width: 100%;
             position: relative;
             padding-top: 16px;
             color: #1a0a2b;
@@ -3438,13 +3610,14 @@ footer li:nth-child(2) img.community-link {
             font-size: 16px;
             text-align: left;
             padding-left: 17.5px; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled.active:after {
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.active:after {
+              content: "";
               width: 0;
               height: 0;
               border-style: solid;
               border-width: 0 5.5px 6px 5.5px;
               border-color: transparent transparent #33144a transparent; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled:after {
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled:after {
               content: "";
               display: block;
               position: absolute;
@@ -3456,7 +3629,7 @@ footer li:nth-child(2) img.community-link {
               border-width: 6px 5.5px 0 5.5px;
               border-color: #33144a transparent transparent transparent; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options {
-            height: 165px;
+            height: 270px;
             width: 138px;
             position: relative;
             z-index: 5;
@@ -3467,13 +3640,13 @@ footer li:nth-child(2) img.community-link {
             overflow-y: scroll;
             overflow-x: hidden;
             padding-left: 0;
-            background-color: white; }
+            background-color: white;
+            border: 1px solid #eff0f0 !important; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li {
             padding-top: 16px;
             position: relative;
             z-index: 5;
             text-align: center;
-            border: 1px solid #eff0f0 !important;
             border-top: 0px solid transparent;
             height: 55px;
             width: 138px;
@@ -3484,9 +3657,10 @@ footer li:nth-child(2) img.community-link {
             font-weight: 400;
             -o-transition: all 0.15s ease-in;
             -webkit-transition: all 0.15s ease-in;
-            transition: all 0.15s ease-in; }
+            transition: all 0.15s ease-in;
+            text-align: left; }
             #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li:first-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li:first-child {
-              display: none; }
+              display: none !important; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > span {
             color: #1d082d;
             font-size: 14px;
@@ -3500,6 +3674,268 @@ footer li:nth-child(2) img.community-link {
             background: #fff; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li[rel="hide"], #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li[rel="hide"] {
             display: none; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome {
+          padding-left: 47px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-desc {
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            color: #1a0a2b; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-desc a {
+              font-family: "Open Sans", sans-serif;
+              font-weight: 700;
+              font-size: 16px;
+              color: #1a0a2b; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-title {
+            margin-top: 184px;
+            margin-bottom: 74px;
+            font-family: "Gilroy-ExtraBold";
+            font-size: 24px;
+            color: #c72897; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-checkbox-wrapper {
+            margin-bottom: 16px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-checkbox-wrapper .welcome-checkbox {
+              position: relative;
+              top: 5px;
+              -webkit-appearance: none;
+              width: 20px;
+              height: 20px;
+              -webkit-border-radius: 50%;
+                      border-radius: 50%;
+              border: 1px solid #1f0a2f;
+              outline: none;
+              background-color: transparent; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-checkbox-wrapper .welcome-checkbox:checked + .welcome-label {
+                color: #c72897; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-checkbox-wrapper .welcome-checkbox:checked:before {
+                content: "";
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -3px;
+                margin-left: -3px;
+                width: 6px;
+                height: 6px;
+                background-color: #c72897;
+                -webkit-border-radius: 50%;
+                        border-radius: 50%;
+                display: block; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-checkbox-wrapper .welcome-label {
+              position: relative;
+              left: 15px;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              color: #1e092e;
+              font-size: 14px;
+              -webkit-transition: all 0.4s ease;
+              -o-transition: all 0.4s ease;
+              transition: all 0.4s ease; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-checkbox-wrapper:hover .welcome-label {
+              color: #c72897; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms {
+          height: -webkit-calc(100% - 41px);
+          height: calc(100% - 41px);
+          padding: 39px 41px 32px 41px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+          color: #1e092e;
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+          font-weight: 400; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .terms-wrapper {
+            position: relative; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h2, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h3, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h4, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h5 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 15px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms u {
+            margin-bottom: 15px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h2 {
+            text-align: center; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h3 {
+            display: inline-block; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms p {
+            margin-bottom: 15px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms li {
+            margin-bottom: 20px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms a {
+            font-weight: 700;
+            color: #1e092e; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms strong {
+            font-weight: 600; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"] {
+            margin-right: 5px;
+            left: 0px;
+            top: 7px;
+            outline: none;
+            width: 20px;
+            height: 20px;
+            -webkit-appearance: none;
+            position: relative;
+            border: 1px solid black; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"]:checked {
+              top: 7px;
+              border: 1px solid #c72897 !important; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"]:checked:before {
+                content: "✔";
+                color: #c72897;
+                position: absolute;
+                left: 3px;
+                bottom: 0;
+                height: 100%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"] + span {
+            color: #c72897 !important; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .ti-fc {
+            position: relative;
+            left: 25px;
+            text-indent: -25px !important; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .table-wrapper {
+            overflow-x: scroll;
+            padding-bottom: 40px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .top-wrap {
+            padding-left: 17px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .second-wrap {
+            padding-left: 17px; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank {
+          padding-top: 184px;
+          position: relative;
+          padding-left: 47px;
+          padding-right: 40px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-title {
+            font-family: "Gilroy-ExtraBold";
+            font-size: 24px;
+            color: #c72897; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-desc {
+            margin-top: 91px;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            color: #1e092e;
+            font-size: 14px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-link {
+            position: absolute;
+            bottom: 24px;
+            right: 40px;
+            padding-top: 8px;
+            display: block;
+            width: 122px;
+            height: 43px;
+            -webkit-border-radius: 24.5px;
+                    border-radius: 24.5px;
+            background-color: #c72897;
+            color: white;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            font-size: 16px;
+            text-align: center; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .thank-title {
+            font-family: "Gilroy-ExtraBold";
+            font-size: 24px;
+            color: #c72897; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item .month.select-options {
+          top: 0 !important; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #submit-btn {
+          margin-top: 30px;
+          float: right;
+          -webkit-appearance: none;
+          border: none;
+          padding-top: 0px;
+          display: block;
+          width: 122px;
+          height: 43px;
+          -webkit-border-radius: 24.5px;
+                  border-radius: 24.5px;
+          background-color: #c72897;
+          color: white;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 600;
+          font-size: 16px;
+          text-align: center;
+          cursor: pointer;
+          outline: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #submit-btn.disabled {
+            color: rgba(255, 255, 255, 0.5); }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #error-send {
+          font-family: "Open Sans", sans-serif;
+          color: red;
+          font-size: 14px;
+          font-weight: 700;
+          display: none; }
+
+@media (max-width: 768px) {
+  #whitelist-form {
+    height: 100vh;
+    min-height: 540px;
+    max-height: 850px;
+    background-color: white; }
+    #whitelist-form .personal-information-wrapper {
+      height: 710px;
+      position: relative; }
+    #whitelist-form .whitelist-form--next {
+      right: 10px;
+      bottom: 0; }
+    #whitelist-form .whitelist-form--back {
+      display: block;
+      left: 10px;
+      bottom: 0; }
+    #whitelist-form .whitelist-form--wrapper {
+      width: 100%;
+      height: 600px;
+      position: static;
+      margin: unset; }
+      #whitelist-form .whitelist-form--wrapper .white-list--nav {
+        display: none; }
+      #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper {
+        width: 100%; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item {
+          padding-left: 40px;
+          padding-right: 40px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #submit-btn {
+            position: absolute;
+            margin-top: 0;
+            right: 10px;
+            bottom: -68px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information {
+            overflow-y: scroll;
+            padding-left: 40px;
+            padding-right: 40px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--day {
+              width: 31.5%;
+              margin-right: 1%;
+              padding-left: 10px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .select.month {
+              width: 31.5% !important;
+              margin-right: 1% !important;
+              padding-left: 0px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--year {
+              width: 31.5%;
+              padding-left: 10px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #month-search {
+              padding-left: 10px !important;
+              margin-right: 1% !important; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field {
+              width: 47.9%; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled {
+              margin-right: 2.2%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-title {
+            margin-top: 95px;
+            margin-bottom: 90px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank {
+            padding-top: 100px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-link {
+              bottom: 195px; } }
+
+@media (max-width: 480px) {
+  #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item {
+    padding-left: 20px !important;
+    padding-right: 20px; }
+    #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information {
+      overflow-y: scroll;
+      padding-left: 20px;
+      padding-right: 20px; }
+    #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms {
+      padding-left: 20px;
+      padding-right: 20px; }
+      #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .ti-fc {
+        left: 15px; } }
 
 body {
   background-color: #FBFBFB !important;

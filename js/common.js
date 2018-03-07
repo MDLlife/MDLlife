@@ -13,7 +13,7 @@ $(document).ready(function(){
     showInstruments();
     burger();
     rpModal();
-    //formInit();
+    formInit();
     customizeSelect($('#langs-list'));
     circleLang();
     AOS.init({
@@ -82,11 +82,11 @@ $(document).ready(function(){
 /*----------Variables-----------*/
 // Form select birthday English
   const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'], 
-        en_month = ['Month','January','February','March','April','May','June','July','August','September','October','November','December'],
+        en_month = ['January','February','March','April','May','June','July','August','September','October','November','December'],
         en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
   // Countries
-  const country_arr = ["Select country","Afghanistan", "Albania", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo, Democratic Republic of the", "Congo, Republic of the", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Korea, North", "Korea, South", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia, Former Yugoslav Republic of", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Sudan", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "USA", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Yemen", "Yugoslavia", "Zambia", "Zimbabwe"];
-
+  const country_arr = ["Afghanistan", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lesotho", "Liberia", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "Uzbekistan", "Vanuatu", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Zambia"];
+  const captcha_arr = ['1','2','3','4','5','6','7','8','9','0','a','b','c','q','w','e','r','t','y','u','i','o','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'];
 /*---------------------*/
 /*---------------------*/
 /*---------------------*/
@@ -313,50 +313,245 @@ function rpModal(){
     }); 
 }
 
-// --- FORM ----
-function initBirthSelect(){
-  var select_days = $('#day-birth'),
-      select_month = $('#month-birth'),
-      select_year = $('#year-birth');
-  var country = $('#country');
-      addOptionToBirthSelect(country_arr,country);
-      customizeSelect(country);
-      addOptionToBirthSelect(en_year,select_year);
-      addOptionToBirthSelect(en_month,select_month);
-      addOptionToBirthSelect(en_days,select_days);
-      customizeSelect(select_year);
-      customizeSelect(select_month);
-      customizeSelect(select_days);
+// --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
+// Cписок инпутов (где без префикса пи инпут селекты)  $('#pi-input--name') $('#pi-input--day') $('#month') $('#pi-input--year')
+// $('#pi-input--email')  $('#country')  $('#pi-input--passport')
+// так же добавил скрытую кнопку сабмита(если надо) $('#hidden-submit-form')
+// addOptionToBirthSelect(arr,select) - добавляет значения в селект 
+// --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
+///submitting form
+function submitAllForm(){
+    $('#submit-btn').click(function(e){
+        e.preventDefault();
+        if($(this).hasClass('disabled')){
+            return;
+        }
+       var formData = new FormData($('#main-whitelist-form')[0]);
+       $.ajax({
+        url: "http://127.0.0.1:8321/whitelist/request",
+        type: "POST",
+        data: formData,
+        dataType: "json",
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            console.log(data);
+            if (data.success) {
+                $('.white-list--btn').removeClass('disabled');
+                $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
+                clickOnChosenDot(4);
+            }
+        },
+        error: function (xhr, exception) {
+         if (xhr.status === 0) {
+            $('#error-send').show();
+            console.log('Not connected.\nPlease verify your network connection.');
+        } else if (xhr.status == 404) {
+         $('#error-send').show();
+         console.log('The requested page not found. [404]');
+        } else if (xhr.status == 500) {
+            $('#error-send').show();
+            console.log('Internal Server Error [500].');
+        } else if (exception === 'parsererror') {
+            $('#error-send').show();
+            console.log('Requested JSON parse failed.');
+        } else if (exception === 'timeout') {
+            $('#error-send').show();
+            console.log('Time out error.');
+        } else if (exception === 'abort') {
+            $('#error-send').show();
+            console.log('Ajax request aborted.');
+        } else {
+            $('#error-send').show();
+            console.log('Uncaught Error.\n' + xhr.responseText);
+        }
+      }
+    });
+});
+
 }
-function addOptionToBirthSelect(arr,select){
+
+function initBirthSelect(){
+  var name = $('#pi-input--name');
+  var country = $('#country'),
+      month = $('#month');
+      addOptionToMonthSelect(en_month,month);
+      addOptionToCountrySelect(country_arr,country);
+      customizeSelect(country);
+      customizeSelect(month);
+  forceLetter(name);
+  forceLetter($('#month-search'));
+  forceNumber($('#pi-input--day'));
+  forceNumber($('#pi-input--year'));
+  setFileInput();
+  setCaptcha();
+  searchSelect();
+}
+function setCaptcha(){
+    var captcha_field = $('#captcha-styled');
+    var tmp = "";
+    for(var i = 0; i < 6; i++){
+        var rand = Math.floor(Math.random() * captcha_arr.length);
+        tmp += captcha_arr[rand];
+    }
+    captcha_field.text(tmp);
+}
+function checkCaptcha(){
+    var captcha_field = $('#captcha-styled'),
+        captcha_input = $('#captcha-field');
+
+    if(captcha_field.text() == captcha_input.val()){
+        captcha_input.css({'border' : '1px solid #eff0f0'});
+        return true;
+    } else {
+        captcha_input.css({'border' : '1px solid #ff0000'});
+        return false;
+    }
+}
+function addOptionToCountrySelect(arr,select){
+     for(var i = 0; i < arr.length; i++){
+         select.append('<option value ="'+arr[i]+'">'+arr[i]+'</option>');
+     }
+ }
+function addOptionToMonthSelect(arr,select){
     for(var i = 0; i < arr.length; i++){
         select.append('<option value ="'+i+'">'+arr[i]+'</option>');
     }
 }
 function checkInputs(){
-    var name_input = $('#pi-input--name').val(),
-        email_input = $('#pi-input--email').val(),
-        adress_input = $('#pi-input--adress').val(),
-        phone_input = $('#pi-input--phone').val(),
-        select_day = $('#day-birth').val(),
-        select_month = $('#month-birth').val(),
-        select_year = $('#year-birth').val()
-        select_country = $('#country').val();
-
-    if(name_input.length != 0 && email_input.length != 0 && adress_input.length != 0 && phone_input.length != 0 && select_day > 0 && select_month > 0 && select_year > 0 && select_country > 0){
-        $('#whitelist-form--next').removeClass('disabled');
+    var name_input = $('#pi-input--name'),
+    email_input = $('#pi-input--email'),
+    date_day = $('#pi-input--day'),
+    date_month = $('#month'),
+    date_year = $('#pi-input--year'),
+    file_input = $('#pi-input--passport'),
+    select_country = $('#country');
+    $('.white-list--dot[data-dot = "3"]').addClass('disabled');
+    $('#whitelist-form--next,.whitelist-form--next').addClass('disabled');
+    $('.white-list--btn[data-dir = "up"]').removeClass('disabled');
+    $('.white-list--btn[data-dir = "down"]').addClass('disabled');
+    if(file_input.val().length !=0 && name_input.val().length != 0 && email_input.val().length != 0 && select_country.val().length > 0 && date_day.val().length > 0 && date_month.val().length > 0 && date_year.val().length > 0){
+        //
     } else {
-        $('#whitelist-form--next').addClass('disabled');
+        return;
     }
-    $('#pi-input--email').blur(function() {
-        if($(this).val() != '') {
-          var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
-          if(pattern.test($(this).val())){
-            $(this).css({'border' : '1px solid #eff0f0'});
-          } else {
-            $(this).css({'border' : '1px solid #ff0000'});
-          }
-        } 
+    
+    if(checkEmailInput() && checkCaptcha()){
+        $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
+        $('.white-list--dot[data-dot = "3"]').removeClass('disabled');
+        $('.white-list--btn').removeClass('disabled');
+    }
+    
+}
+function submitCheckbox(){
+        if($('.term-checkbox-one').is(':checked') && $('.term-checkbox-two').is(':checked') && $('.term-checkbox-three').is(':checked') && $('.term-checkbox-four').is(':checked')){
+            $('#submit-btn').removeClass('disabled');
+            $('.terms').scrollTop($('.terms')[0].scrollHeight);
+        } else{
+            $('#submit-btn').addClass('disabled');
+             $('.white-list--btn[data-dir = "up"]').removeClass('disabled');
+            $('.white-list--btn[data-dir = "down"]').addClass('disabled');
+            $('.white-list--dot[data-dot = "1"],.white-list--dot[data-dot = "2"],.white-list--dot[data-dot = "3"]').removeClass('disabled');
+            $('.white-list--dot[data-dot = "4"]').addClass('disabled');
+        }
+}
+function checkEmailInput(){
+    if($('#pi-input--email').val() != '') {
+      var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+      if(pattern.test($('#pi-input--email').val())){
+        $('#pi-input--email').css({'border' : '1px solid #eff0f0'});
+        return true;
+    } else {
+        $('#pi-input--email').css({'border' : '1px solid #ff0000'});
+        return false;
+    }
+    }
+}
+function resetCheck(){
+    $('.check-input').each(function(){
+        $(this).css({'border' : '1px solid #eff0f0'});
+    });
+    $('#pi-input--email').css({'border' : '1px solid #eff0f0'});
+}
+
+function checkboxEvents(){
+    $('input[name = "private"],#private-label').click(function(){
+        $('input[name = "institutional"]').prop('checked',false);
+        $('input[name = "private"]').prop('checked',true);
+    });
+    $('.ti-fc').click(function(){
+        if($(this).find('input[type = "checkbox"]').is(':checked'))
+            $(this).find('input[type = "checkbox"]').prop('checked', false);
+        else
+            $(this).find('input[type = "checkbox"]').prop('checked', true);
+    });
+    $('.term-checkbox').click(function(){
+        if($(this).is(':checked'))
+            $(this).prop('checked', false);
+        else
+            $(this).prop('checked', true);
+    });
+}
+function forceLetter(element) {
+     element.keydown(function (e) {
+        element.keydown(function (e) {
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) || 
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 40 || e.keyCode > 57)) && (e.keyCode < 95 || e.keyCode > 104)) {
+            return;
+        } else {
+            e.preventDefault();
+        }
+    });
+});
+}
+function forceNumber(element){
+    element.keydown(function (e) {
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) || 
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 40 || e.keyCode > 57)) && (e.keyCode < 95 || e.keyCode > 104)) {
+            e.preventDefault();
+        }
+    });
+}
+function searchSelect(){
+    $('#month-search').keyup(function(){
+        var input_val = $('#month-search').val().toLowerCase();
+        $('.select-options.month li').each(function(){
+            if($(this).find('span').html().toLowerCase().indexOf(input_val) > -1){
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
+    });
+    $('#country-search').keyup(function(){
+        var input_val = $('#country-search').val().toLowerCase();
+        $('.select-options.country li').each(function(){
+            if($(this).find('span').html().toLowerCase().indexOf(input_val) > -1){
+                $(this).show();
+            } else {
+                $(this).hide();
+            }
+        });
+    });
+}
+function setFileInput(){
+    $('#pi-input--passport').change(function(){
+    var filename = $(this).val().replace(/.*\\/, "");
+    $(".file-upload-styled").val(filename);
+  });
+    $('.file-upload-styled').click(function(){
+        $('#pi-input--passport').click();
     });
 }
 //--- SLIDER ----
@@ -369,7 +564,33 @@ function formSliderInit(){
   setContentPosition(content_item,1);
   setButton(button,content_item);
   btnNext(content_item);
+  btnBack(content_item);
   clickOnDot();
+  // $('.white-list--btn').click(function(){
+  //   setAccess();
+  // });
+  $('#whitelist-form').mousemove(function(){
+    setAccess();
+  });
+  
+  $('#whitelist-form--next,.white-list--dot,.white-list--btn,.whitelist-form--next').click(function(){
+    if($(this).hasClass('disabled')){
+        if($('.white-list--content-item.current').attr('data-step') == 2){
+            $('.check-input').each(function(){
+                if($(this).val().length != 0){
+                    $(this).css({'border' : '1px solid #eff0f0'});
+                } else {
+                    $(this).css({'border' : '1px solid #ff0000'});
+                }
+            });
+            checkEmailInput();
+        }
+    }
+});
+  $('.check-input').click(function(){
+    resetCheck();
+  })
+
 }
 function upSlide(item){
     item.each(function(i){
@@ -385,10 +606,49 @@ function downSlide(item){
         var top = parseInt($(this).css('top'),10);
         var val = top - item_height;
         $(this).css('top',val);
-    })
+    });
+    return false;
+}
+function setAccess(){
+    $('.white-list--btn').addClass('disabled');
+    if($('.white-list--content-item.current').attr('data-step') == 1){
+        $('.white-list--dot').addClass('disabled');
+        $('#whitelist-form--next').show();
+        $('#whitelist-form--next,.whitelist-form--next').addClass('disabled')
+        $('.white-list--btn').addClass('disabled');
+        $('#thank-wrapper').show();
+        $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
+        $('.white-list--dot[data-dot="1"],.white-list--dot[data-dot="2"]').removeClass('disabled');
+        $('.white-list--btn').removeClass('disabled');
+}
+
+    if($('.white-list--content-item.current').attr('data-step') == 2){
+        $('#whitelist-form--next').show();
+        checkInputs();
+    }
+    if($('.white-list--content-item.current').attr('data-step') == 3){
+         $('#whitelist-form--next').hide();
+         submitCheckbox();
+    }
+    if($('.white-list--content-item.current').attr('data-step') == 4){
+         $('#whitelist-form--next').hide();
+         $('.white-list--btn').addClass('disabled');
+         $('.white-list--dot').addClass('disabled');
+    }
 }
 function btnNext(item){
-    $('#whitelist-form--next').click(function(){
+    $('#whitelist-form--next,.whitelist-form--next').click(function(){
+        if($('input[name = "institutional"]').is(':checked')){
+            if($('.white-list--content-item.current').attr('data-step') == 1){
+              clickOnChosenDot(4);
+            }
+            if($('.white-list--content-item.current').attr('data-step') == 4){
+              return;
+            }
+        }
+        if($(this).hasClass('disabled')){
+            return;
+        }
        if($('.white-list--content-item.current').attr('data-step') == 5){
           return;
        }
@@ -397,8 +657,34 @@ function btnNext(item){
        current.removeClass('current');
        downSlide(item);
        currentDot();
-       listenCurrent();
+       //listenCurrent();
     });
+}
+function btnBack(item){
+
+$('#whitelist-form--back,.whitelist-form--back').click(function(){
+        if($('input[name = "institutional"]').is(':checked')){
+            if($('.white-list--content-item.current').attr('data-step') == 4){
+              clickOnChosenDot(1);
+              return;
+          }
+      }
+      if($(this).hasClass('disabled')){
+          return;
+      }
+      if($(this).hasClass('waiting')){
+          return;
+      }
+      if($('.white-list--content-item.current').attr('data-step') == 1){
+          return;
+      }
+      var current = $('.white-list--content-item.current');
+      current.prev().addClass('current');
+      current.removeClass('current')
+      upSlide(item);
+      currentDot();
+});
+ 
 }
 function setContentPosition(item,position){
     var percent = 100;
@@ -412,7 +698,20 @@ function setContentPosition(item,position){
 }
 function setButton(btn,item){
   btn.click(function(){
-    if($(this).attr('data-dir') == 'up'){
+    var $this = $(this);
+    if($this.attr('data-dir') == 'up'){
+        if($('input[name = "institutional"]').is(':checked')){
+            if($('.white-list--content-item.current').attr('data-step') == 4){
+              clickOnChosenDot(1);
+              return;
+            }
+        }
+        if($this.hasClass('disabled')){
+          return;
+       }
+        if($this.hasClass('waiting')){
+          return;
+       }
        if($('.white-list--content-item.current').attr('data-step') == 1){
           return;
        }
@@ -421,9 +720,25 @@ function setButton(btn,item){
        current.removeClass('current')
        upSlide(item);
        currentDot();
+       $this.addClass('waiting');
+       setTimeout(function(){
+          $this.removeClass('waiting');
+       },700);
     }
-    if($(this).attr('data-dir') == 'down'){
-      if($('.white-list--content-item.current').attr('data-step') == 5){
+    if($this.attr('data-dir') == 'down'){
+        if($('input[name = "institutional"]').is(':checked')){
+            if($('.white-list--content-item.current').attr('data-step') == 1){
+              clickOnChosenDot(4);
+              return;
+            }
+        }
+        if($this.hasClass('disabled')){
+          return;
+       }
+       if($this.hasClass('waiting')){
+          return;
+       }
+      if($('.white-list--content-item.current').attr('data-step') == 4){
           return;
        }
        var current = $('.white-list--content-item.current');
@@ -431,8 +746,12 @@ function setButton(btn,item){
        current.removeClass('current');
        downSlide(item);
        currentDot();
+       $this.addClass('waiting');
+       setTimeout(function(){
+          $this.removeClass('waiting');
+       },700);
     }
-    listenCurrent()
+    //listenCurrent()
   });
 }
 function setContentItem(item){
@@ -454,6 +773,9 @@ function clickOnDot(){
     var content_item = $('.white-list--content-item');
     var content_item_height = parseInt(content_item.height(),10);
     $('.white-list--dot').click(function(){
+        if($(this).hasClass('disabled')){
+            return;
+        }
         var content_num = $('.white-list--content-item.current').attr('data-step');
         var dot_num = $(this).attr('data-dot');
         var loop_start = 0 - dot_num + 1;
@@ -468,40 +790,71 @@ function clickOnDot(){
         $(this).addClass('active');
         $('.white-list--content-item.current').removeClass('current');
         $('.white-list--content-item[data-step = "'+dot_num+'"]').addClass('current');
-        listenCurrent();
+        //listenCurrent();
     });
 }
-function listenCurrent(){
-    if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
-        setTimeout(function(){
-          $('.whitelist-form--wrapper').css('overflow','visible');
-        },500);
-        checkInputs();
-    } else {
-      $('.whitelist-form--wrapper').css('overflow','hidden');
-      $('#whitelist-form--next').removeClass('disabled');
-    }
+function clickOnChosenDot(num){
+    var content_item = $('.white-list--content-item');
+    var content_item_height = parseInt(content_item.height(),10);
+        if($(this).hasClass('disabled')){
+            return;
+        }
+        var content_num = $('.white-list--content-item.current').attr('data-step');
+        var dot_num = num;
+        var loop_start = 0 - dot_num + 1;
+        if(dot_num == 1){
+            setContentPosition($('.white-list--content-item'),1);
+        }
+        content_item.each(function(){
+            $(this).css('top',content_item_height*loop_start);
+            loop_start++;
+        });
+        $('.white-list--dot.active').removeClass('active');
+        $('.white-list--dot[data-dot = "'+dot_num+'"]').addClass('active');
+        $('.white-list--content-item.current').removeClass('current');
+        $('.white-list--content-item[data-step = "'+dot_num+'"]').addClass('current');
+}
+function turnOffForm(){
+    $('#main-whitelist-form').submit(function(e){
+        e.preventDefault();
+    });
+}
+function actionOnEnter(){
+    $(document).keypress(function(e){
+        if (e.which == 13) {
+        if($('#whitelist-form--next').hasClass('disabled')){
+            return;
+        }
+        if($('.white-list--content-item.current').attr('data-step') == 3){
+          return;
+       }
+       if($('.white-list--content-item.current').attr('data-step') == 4){
+          return;
+       }
+       var current = $('.white-list--content-item.current');
+       current.next().addClass('current');
+       current.removeClass('current');
+       downSlide($('.white-list--content-item'));
+       currentDot();
+  }
+});
+}
+function wlLoader(){
+    setTimeout(function(){
+        $('#whitelist-loader').addClass('loaded');
+    },2000);
+}
 
-}
 function formInit(){
+    actionOnEnter();
+    wlLoader();
+    checkboxEvents();
+    turnOffForm();
     initBirthSelect();
-    $('.pi-input').keyup(function(){
-      if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
-          checkInputs();
-      }
-    });
-    $('.whitelist-form--wrapper').mousemove(function(){
-     if($('.white-list--content-item[data-step = "2"]').hasClass('current')){
-          checkInputs();
-      }
-    });
-    $('.open-white-list-form').click(function(){
-        $('#whitelist-form').addClass('opened');
-    });
-    $('#whitelist-btn_close').click(function(){
-        $('#whitelist-form').removeClass('opened');
-    });
+    $('.white-list--dot').addClass('disabled');
+    submitAllForm();
     formSliderInit();
+   // searchSelect();
 }
 /*---------------------*/
 /*---------------------*/
@@ -853,16 +1206,16 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 // Validate & submit process
 //--------------------------
 (function($) {
-
-    var dateFormat;
-    if( $("input[name='hdn_new_format']").length )
-    {
-        dateFormat = sib_dateformat;
-    }
-    else {
-        dateFormat = 'dd/mm/yyyy';
-    }
-    $('.tooltip').css({left: '101%'});
+    if(window.location.path = ""){
+        var dateFormat;
+        if( $("input[name='hdn_new_format']").length )
+        {
+            dateFormat = sib_dateformat;
+        }
+        else {
+            dateFormat = 'dd/mm/yyyy';
+        }
+        $('.tooltip').css({left: '101%'});
 
     // check if inputed sms value is valid
     function isValidSms(smsField, sms) {
@@ -1090,8 +1443,8 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                                   width: "150px",
                                   opacity: "0"
                               },700);
-                             $('#header__link').show();
-                            }, 3000);
+                              $('#header__link').show();
+                          }, 3000);
                         }
                         else {
                             backColor = '#f2dede';
@@ -1268,7 +1621,7 @@ $('#'+sib_prefix+'_embed_signup input[type=radio]').on('click',function(){
     }
     // set last submit to avoid refresh post
     $("#hdn_email_txt").val(new Date().getTime());
-
+}
 }(jQuery));
 
 
@@ -1437,10 +1790,17 @@ function customizeSelect(v){
     var $this = $(this), numberOfOptions = $(this).children('option').length;
     $this.addClass('select-hidden'); 
     $this.wrap('<div class="select '+id+'"></div>');
-    $this.after('<div class="select-styled"></div>');
-
-    var $styledSelect = $this.next('div.select-styled');
-    $styledSelect.text($this.children('option').eq(0).text());
+    if(id === "country"){
+        $this.after('<input placeholder = "Select country" type = "text" id = "country-search" class="check-input select-styled">');
+        var $styledSelect = $this.next('input.select-styled');
+    } else if(id === "month"){
+        $this.after('<input placeholder = "Month" type = "text" id = "month-search" class="check-input select-styled">');
+        var $styledSelect = $this.next('input.select-styled');
+    } else{
+         $this.after('<div class="select-styled"></div>');
+         var $styledSelect = $this.next('div.select-styled');
+         $styledSelect.text($this.children('option').eq(0).text());
+    }
   
     var $list = $('<ul />', {
         'class': ''+id+' select-options'
@@ -1480,6 +1840,15 @@ function customizeSelect(v){
   
     $listItems.click(function(e) {
         e.stopPropagation();
+        
+        if(id === "country"){
+            $styledSelect.val($(this).text()).removeClass('active');
+        } else {
+            $styledSelect.text($(this).text()).removeClass('active');
+        }
+        if(id === "month"){
+            $styledSelect.val($(this).text()).removeClass('active');
+        }
         $styledSelect.text($(this).text()).removeClass('active');
         $this.val($(this).find('span').attr('data-val'));
         $list.hide();
@@ -1493,4 +1862,3 @@ function customizeSelect(v){
 
 });
 }
-
