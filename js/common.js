@@ -326,7 +326,7 @@ function submitAllForm(){
 // statusCode == 422 // form errors
 // statusCode == 500 // server errors
         $.ajax({
-            url: "http://127.0.0.1:8321/whitelist/request",
+            url: "/ajax/whitelist/request",
             type: "POST",
             data: formData,
             dataType: "json",
