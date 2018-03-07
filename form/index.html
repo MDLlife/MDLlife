@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-108901953-1');
+	</script>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="MDL,blockchain,talents,models,technology,app,IPFS">
+	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
+	<title>MDL - Talent Hub</title>
+	<link rel="stylesheet" href="../css/libs.min.css">
+	<link rel="stylesheet" href="../css/main.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
+	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</head>
+<body>
+	<!-- Form -->
+	<div id="whitelist-form" class="whitelist-form" data-initial-slide = "1">
+		<div class="whitelist-form--wrapper">
+			<div id="whitelist-loader">
+				<div id="loader-spin"></div>
+			</div>
+			<a class="btn_close" id = "whitelist-btn_close" href="/"></a>
+			<div class="white-list--nav">
+				<button type = "button" class="white-list--btn up" data-dir = "up"></button>
+				<div class="white-list--dots">
+					<div class="white-list--dot"></div>
+					<div class="white-list--dot"></div>
+					<div class="white-list--dot"></div>
+					<div class="white-list--dot"></div>
+				</div>
+				<button type = "button" class="white-list--btn down" data-dir = "down"></button>
+			</div>
+			<div class="white-list--content-wrapper">
+				<div class="white-list--content-item welcome">
+					<h2 class="welcome-title">Welcome to join the MDL ITO <br> Whitelist application! </h2>
+					<p class="welcome-desc">The whitelist is for individuals only. Purchases from <br> institutional investors can be handled via <a href="mailto:team@mdl.life">team@mdl.life</a></p>
+					<!-- <p class="welcome-checkbox-wrapper"><input name = "private" type="checkbox" class="welcome-checkbox"><label for="private" id = "private-label" class="welcome-label">For Private Individuals</label></p> -->
+<!-- 					<p class="welcome-checkbox-wrapper"><input name = "institutional" type="checkbox" class="welcome-checkbox"><label for="institutional" id = "institutional-label" class="welcome-label">For Institutional Entities</label></p> -->
+					<button type="button" class="whitelist-form--next mob">Next</button>
+				</div>
+				<div class="white-list--content-item personal-information">
+					<div class="personal-information-wrapper">
+						<h2 class="pi-title">Personal information</h2>
+						<form id="main-whitelist-form">
+							<p class="pi-input--wrapper name">
+								<label for="name">Name (Full name as in passport) </label>
+								<input type="text" name = "name" placeholder="Name" id = "pi-input--name" class="check-input pi-input"">
+							</p>
+							<p class="pi-input--wrapper date-birth">
+								<label for="date-birth">Date of birth</label>
+								<input type="text" name = "day" id = "pi-input--day" placeholder="Day" maxlength="2" class="check-input pi-input">
+								<select name="country" id="month"></select>
+								<input type="text" name = "year" id = "pi-input--year" placeholder="Year" maxlength="4" class="check-input pi-input">
+							</p>
+							<p class="pi-input--wrapper country-select">
+									<label >Contry of residence</label>
+									<select name="country" id="country"></select>
+									<span class="triangle"></span>
+							</p>
+							<p class="pi-input--wrapper email">
+								<label for="email">Email</label> 
+								<input type="email" name = "email" placeholder="E-mail" id = "pi-input--email" class="check-input pi-input">
+							</p>
+							<p class="pi-input--wrapper passport-upload">
+								<label for = "passport">Upload passport</label>
+								<input type="file" name = "passport" class="pi-input" id = "pi-input--passport">
+								<input type="text" placeholder = "Upload passport" class="check-input file-upload-styled" readonly="readonly">
+							</p>
+							<p class="pi-input--wrapper captcha">
+								<label for = "passport">Captcha</label>
+								<div class="captcha-styled" id="captcha-styled"></div>
+								<input type="text" id = "captcha-field" class="check-input captcha-field" maxlength = "6">
+							</p>
+							<input type="submit" id = "hidden-submit-form" class="hidden-submit-form">
+						</form>
+						<button type="button" class="whitelist-form--next mob">Next</button>
+						<button type="button" class="whitelist-form--back mob">Back</button>
+					</div>
+				</div>
+				<div class="white-list--content-item terms">
+					<div class="terms-wrapper">
+						<h2>MDL TALENT HUB</h2>
+						<h2>MDL TOKEN PURCHASE AGREEMENT</h2>
+						<p>This MDL Token Purchase Agreement (including the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>) (this “<u>Agreement</u>”) contains the terms and conditions that govern your participation in the MDL Token Initial Token Offering ([10 March 2018 to 10 April 2018]) (“ITO”) and (as applicable) your purchase, receipt and use of the MDL Tokens (the “Tokens”) and is an agreement between you [and the entity that you represent – <strong>MDL to confirm whether entities are permitted to participate in the ITO or only individual buyers]</strong> (“<u>Buyer</u>” or “<u>you</u>”) and [MDL Life – <strong>insert name(s) of all relevant MDL entity(ies)]</strong> MDL (SG) PTE., LTD (“Company”). Buyer and Company are herein referred to individually as a “<u>Party</u>” and collectively, as the “<u>Parties</u>”.</p>
+						<p><strong>IMPORTANT INFORMATION: PLEASE READ THIS AGREEMENT CAREFULLY AND IN ITS ENTIRETY AND CONSULT YOUR LEGAL, TAX OR OTHER PROFESSIONAL ADVISOR.</strong></p>
+						<p>Buyer acknowledges, understands and agrees to the following:</p>
+						<ol class="top-wrap">
+							<li><u>Binding agreement</u>: by checking the box below confirming that you have read, understand and agree to the terms of this Agreement (which includes the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>), you are agreeing to be bound to the terms of this Agreement (whether or not you purchase the Tokens).</li>
+							<li><u>No Restricted Person purchasers</u>: the Tokens are not being offered or distributed to citizens or residents of or entities formed or incorporated in any of the excluded countries set out in Exhibit 2 of the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a> or Sanctioned Parties (as defined in the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>) (a “Restricted Person”). A Restricted Person is not eligible to purchase any Tokens and any payments made by or on behalf of a Restricted Person may, in Company’s sole discretion, not be refunded or if refunded may be subject to an administrative fee to be determined by Company.</li>
+							<li><u>Whitelist</u>: Notwithstanding Buyer’s registration and acceptance of this Agreement, Buyer will only be able to purchase Tokens if Buyer has been included in (and has not subsequently been removed from) the MDL Token ITO whitelist (“Whitelist”) and meets the other eligibility requirements.</li>
+							<li><u>No Refunds/Cancellation by Buyer</u>: Purchase of the Tokens are non-refundable and purchases cannot be cancelled by Buyer. Company reserves the right to refuse or cancel Token purchase requests at any time in its sole discretion.</li>
+							<li><u>Risks</u>: There are risks associated with purchasing the Tokens, owning the Tokens and using the Tokens in the MDL Talent Hub platform or ecosystem (“MDL Talent Hub Platform”) including (but not necessarily limited to) that the Tokens may have no value and the risks described in Exhibit 3 of the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a> and Buyer has read, understood and accepts all such risks</li>
+						</ol>
+						<p>Please scroll down fully and check all boxes to proceed:</p>
+						<p class="ti-fc"><input class="term-checkbox-one term-checkbox" type="checkbox"><span>Check here to confirm that you are not a Restricted Person nor are you purchasing the Tokens on behalf of a Restricted Person</span> </p>
+						<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the terms of this Agreement (which includes the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a></span></p>
+						<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms of Use</a> and <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Privacy Policy</a></span></p>
+						<p class="ti-fc">
+							<input class="term-checkbox-four term-checkbox" type="checkbox">
+							<span>Check here to confirm that you have read and understand the <a target = "_blank" href="https://mdl.life/whitepaper/WhitePaper_eng%201.2.1.pdf">Whitepaper</a></span>
+						</p>
+						<button type="submit" id = "submit-btn">Submit</button>
+						<p id="error-send">Your form was not sent, please try to send later</p>
+						<button type="button" class="whitelist-form--back mob term">Back</button>
+					</div>
+				</div>
+				<div class="white-list--content-item contact-thank">
+					<div class="thank-wrapper" id = "thank-wrapper">
+						<h2 class="thank-title">You application has been submitted!</h2>
+						<p class="contact-desc">MDL Talent Hub will send the confirmation to your email <br> along with instructions of how to purchase MDL Tokens</p>
+					</div>
+				</div>
+			</div>
+			<button type="button" class="whitelist-form--next" id="whitelist-form--next">Next</button>
+			<button type="button" class="whitelist-form--back" id="whitelist-form--back">Back</button>
+		</div>
+	</div>
+	
+
+
+					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+					<script src="../js/libs.min.js"></script>
+					<script src="../js/common.js"></script>
+				</body>
+				</html>
