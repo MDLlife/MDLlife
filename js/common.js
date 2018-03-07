@@ -317,41 +317,60 @@ function rpModal(){
 // Cписок инпутов (где без префикса пи инпут селекты)  $('#pi-input--name') $('#pi-input--day') $('#month') $('#pi-input--year')
 // $('#pi-input--email')  $('#country')  $('#pi-input--passport')
 // так же добавил скрытую кнопку сабмита(если надо) $('#hidden-submit-form')
-// addOptionToBirthSelect(arr,select) - добавляет значения в селект 
+// addOptionToBirthSelect(arr,select) - добавляет значения в селект
 // --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
 ///submitting form
 function submitAllForm(){
-    $('#submit-btn').click(function () {
-        var formData = new FormData($('#main-whitelist-form')[0]);
-// statusCode == 422 // form errors
-// statusCode == 500 // server errors
-        $.ajax({
-            url: "/ajax/whitelist/request",
-            type: "POST",
-            data: formData,
-            dataType: "json",
-            cache: false,
-            contentType: false,
-            processData: false,
-            success: function (data) {
-                console.log(data);
-                if (data.success) {
-                    $('.white-list--btn').removeClass('disabled');
-                    $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
-                    clickOnChosenDot(4);
-                }
-            },
-            error: function (xhr, ajaxOptions, thrownError) {
-                console.log(xhr.status);
-                console.log(thrownError);
-                $('#error-send').show();
+    $('#submit-btn').click(function(e){
+        e.preventDefault();
+        if($(this).hasClass('disabled')){
+            return;
+        }
+       var formData = new FormData($('#main-whitelist-form')[0]);
+       $.ajax({
+        url: "/ajax/whitelist/request",
+        type: "POST",
+        data: formData,
+        dataType: "json",
+        cache: false,
+        contentType: false,
+        processData: false,
+        success: function (data) {
+            console.log(data);
+            if (data.success) {
+                $('.white-list--btn').removeClass('disabled');
+                $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
+                clickOnChosenDot(4);
             }
-        });
+        },
+        error: function (xhr, exception) {
+         if (xhr.status === 0) {
+            $('#error-send').show();
+            console.log('Not connected.\nPlease verify your network connection.');
+        } else if (xhr.status == 404) {
+         $('#error-send').show();
+         console.log('The requested page not found. [404]');
+        } else if (xhr.status == 500) {
+            $('#error-send').show();
+            console.log('Internal Server Error [500].');
+        } else if (exception === 'parsererror') {
+            $('#error-send').show();
+            console.log('Requested JSON parse failed.');
+        } else if (exception === 'timeout') {
+            $('#error-send').show();
+            console.log('Time out error.');
+        } else if (exception === 'abort') {
+            $('#error-send').show();
+            console.log('Ajax request aborted.');
+        } else {
+            $('#error-send').show();
+            console.log('Uncaught Error.\n' + xhr.responseText);
+        }
+      }
+    });
 });
 
 }
-
-
 
 function initBirthSelect(){
   var name = $('#pi-input--name');
@@ -361,7 +380,10 @@ function initBirthSelect(){
       addOptionToCountrySelect(country_arr,country);
       customizeSelect(country);
       customizeSelect(month);
-  $(name).bind('keypress', forceLetter);
+  forceLetter(name);
+  forceLetter($('#month-search'));
+  forceNumber($('#pi-input--day'));
+  forceNumber($('#pi-input--year'));
   setFileInput();
   setCaptcha();
   searchSelect();
@@ -388,10 +410,10 @@ function checkCaptcha(){
     }
 }
 function addOptionToCountrySelect(arr,select){
-    for(var i = 0; i < arr.length; i++){
-        select.append('<option value ="'+arr[i]+'">'+arr[i]+'</option>');
-    }
-}
+     for(var i = 0; i < arr.length; i++){
+         select.append('<option value ="'+arr[i]+'">'+arr[i]+'</option>');
+     }
+ }
 function addOptionToMonthSelect(arr,select){
     for(var i = 0; i < arr.length; i++){
         select.append('<option value ="'+i+'">'+arr[i]+'</option>');
@@ -406,7 +428,7 @@ function checkInputs(){
     file_input = $('#pi-input--passport'),
     select_country = $('#country');
     $('.white-list--dot[data-dot = "3"]').addClass('disabled');
-    $('#whitelist-form--next').addClass('disabled');
+    $('#whitelist-form--next,.whitelist-form--next').addClass('disabled');
     $('.white-list--btn[data-dir = "up"]').removeClass('disabled');
     $('.white-list--btn[data-dir = "down"]').addClass('disabled');
     if(file_input.val().length !=0 && name_input.val().length != 0 && email_input.val().length != 0 && select_country.val().length > 0 && date_day.val().length > 0 && date_month.val().length > 0 && date_year.val().length > 0){
@@ -414,19 +436,20 @@ function checkInputs(){
     } else {
         return;
     }
-    
+
     if(checkEmailInput() && checkCaptcha()){
-        $('#whitelist-form--next').removeClass('disabled');
+        $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
         $('.white-list--dot[data-dot = "3"]').removeClass('disabled');
         $('.white-list--btn').removeClass('disabled');
     }
-    
+
 }
 function submitCheckbox(){
         if($('.term-checkbox-one').is(':checked') && $('.term-checkbox-two').is(':checked') && $('.term-checkbox-three').is(':checked') && $('.term-checkbox-four').is(':checked')){
-            $('#submit-btn').show();
+            $('#submit-btn').removeClass('disabled');
+            $('.terms').scrollTop($('.terms')[0].scrollHeight);
         } else{
-            $('#submit-btn').hide();
+            $('#submit-btn').addClass('disabled');
              $('.white-list--btn[data-dir = "up"]').removeClass('disabled');
             $('.white-list--btn[data-dir = "down"]').addClass('disabled');
             $('.white-list--dot[data-dot = "1"],.white-list--dot[data-dot = "2"],.white-list--dot[data-dot = "3"]').removeClass('disabled');
@@ -457,15 +480,48 @@ function checkboxEvents(){
         $('input[name = "institutional"]').prop('checked',false);
         $('input[name = "private"]').prop('checked',true);
     });
-    $('input[name = "institutional"],#institutional-label').click(function(){
-        $('input[name = "private"]').prop('checked',false);
-        $('input[name = "institutional"]').prop('checked',true);
+    $('.ti-fc').click(function(){
+        if($(this).find('input[type = "checkbox"]').is(':checked'))
+            $(this).find('input[type = "checkbox"]').prop('checked', false);
+        else
+            $(this).find('input[type = "checkbox"]').prop('checked', true);
+    });
+    $('.term-checkbox').click(function(){
+        if($(this).is(':checked'))
+            $(this).prop('checked', false);
+        else
+            $(this).prop('checked', true);
     });
 }
-function forceLetter(event) {
-   var value = String.fromCharCode(event.which);
-   var pattern = new RegExp(/[a-zåäö ]/i);
-   return pattern.test(value);
+function forceLetter(element) {
+     element.keydown(function (e) {
+        element.keydown(function (e) {
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 40 || e.keyCode > 57)) && (e.keyCode < 95 || e.keyCode > 104)) {
+            return;
+        } else {
+            e.preventDefault();
+        }
+    });
+});
+}
+function forceNumber(element){
+    element.keydown(function (e) {
+        if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+            (e.keyCode >= 35 && e.keyCode <= 40)) {
+                 return;
+        }
+        // Ensure that it is a number and stop the keypress
+        if ((e.shiftKey || (e.keyCode < 40 || e.keyCode > 57)) && (e.keyCode < 95 || e.keyCode > 104)) {
+            e.preventDefault();
+        }
+    });
 }
 function searchSelect(){
     $('#month-search').keyup(function(){
@@ -474,7 +530,6 @@ function searchSelect(){
             if($(this).find('span').html().toLowerCase().indexOf(input_val) > -1){
                 $(this).show();
             } else {
-                console.log($(this).find('span').text().toLowerCase());
                 $(this).hide();
             }
         });
@@ -509,6 +564,7 @@ function formSliderInit(){
   setContentPosition(content_item,1);
   setButton(button,content_item);
   btnNext(content_item);
+  btnBack(content_item);
   clickOnDot();
   // $('.white-list--btn').click(function(){
   //   setAccess();
@@ -516,8 +572,8 @@ function formSliderInit(){
   $('#whitelist-form').mousemove(function(){
     setAccess();
   });
-  
-  $('#whitelist-form--next,.white-list--dot,.white-list--btn').click(function(){
+
+  $('#whitelist-form--next,.white-list--dot,.white-list--btn,.whitelist-form--next').click(function(){
     if($(this).hasClass('disabled')){
         if($('.white-list--content-item.current').attr('data-step') == 2){
             $('.check-input').each(function(){
@@ -554,29 +610,16 @@ function downSlide(item){
     return false;
 }
 function setAccess(){
-    var checkbox_private = $('input[name = "private"]');
     $('.white-list--btn').addClass('disabled');
-    var checkbox_inst = $('input[name = "institutional"]');
     if($('.white-list--content-item.current').attr('data-step') == 1){
         $('.white-list--dot').addClass('disabled');
         $('#whitelist-form--next').show();
-        $('#whitelist-form--next').addClass('disabled')
-      if(checkbox_private.is(':checked')){
+        $('#whitelist-form--next,.whitelist-form--next').addClass('disabled')
         $('.white-list--btn').addClass('disabled');
-        $('#contact-wrapper').hide();
         $('#thank-wrapper').show();
-        $('#whitelist-form--next').removeClass('disabled');
+        $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
         $('.white-list--dot[data-dot="1"],.white-list--dot[data-dot="2"]').removeClass('disabled');
         $('.white-list--btn').removeClass('disabled');
-    }
-    if(checkbox_inst.is(':checked')){
-        $('#contact-wrapper').show();
-        $('#thank-wrapper').hide();
-        $('.white-list--dot').addClass('disabled');
-        $('#whitelist-form--next').removeClass('disabled');
-        $('.white-list--dot[data-dot="1"],.white-list--dot[data-dot="4"]').removeClass('disabled');
-        $('.white-list--btn').removeClass('disabled');
-    }
 }
 
     if($('.white-list--content-item.current').attr('data-step') == 2){
@@ -594,7 +637,7 @@ function setAccess(){
     }
 }
 function btnNext(item){
-    $('#whitelist-form--next').click(function(){
+    $('#whitelist-form--next,.whitelist-form--next').click(function(){
         if($('input[name = "institutional"]').is(':checked')){
             if($('.white-list--content-item.current').attr('data-step') == 1){
               clickOnChosenDot(4);
@@ -616,6 +659,32 @@ function btnNext(item){
        currentDot();
        //listenCurrent();
     });
+}
+function btnBack(item){
+
+$('#whitelist-form--back,.whitelist-form--back').click(function(){
+        if($('input[name = "institutional"]').is(':checked')){
+            if($('.white-list--content-item.current').attr('data-step') == 4){
+              clickOnChosenDot(1);
+              return;
+          }
+      }
+      if($(this).hasClass('disabled')){
+          return;
+      }
+      if($(this).hasClass('waiting')){
+          return;
+      }
+      if($('.white-list--content-item.current').attr('data-step') == 1){
+          return;
+      }
+      var current = $('.white-list--content-item.current');
+      current.prev().addClass('current');
+      current.removeClass('current')
+      upSlide(item);
+      currentDot();
+});
+
 }
 function setContentPosition(item,position){
     var percent = 100;
@@ -744,17 +813,48 @@ function clickOnChosenDot(num){
         $('.white-list--dot[data-dot = "'+dot_num+'"]').addClass('active');
         $('.white-list--content-item.current').removeClass('current');
         $('.white-list--content-item[data-step = "'+dot_num+'"]').addClass('current');
-
+}
+function turnOffForm(){
+    $('#main-whitelist-form').submit(function(e){
+        e.preventDefault();
+    });
+}
+function actionOnEnter(){
+    $(document).keypress(function(e){
+        if (e.which == 13) {
+        if($('#whitelist-form--next').hasClass('disabled')){
+            return;
+        }
+        if($('.white-list--content-item.current').attr('data-step') == 3){
+          return;
+       }
+       if($('.white-list--content-item.current').attr('data-step') == 4){
+          return;
+       }
+       var current = $('.white-list--content-item.current');
+       current.next().addClass('current');
+       current.removeClass('current');
+       downSlide($('.white-list--content-item'));
+       currentDot();
+  }
+});
+}
+function wlLoader(){
+    setTimeout(function(){
+        $('#whitelist-loader').addClass('loaded');
+    },2000);
 }
 
 function formInit(){
+    actionOnEnter();
+    wlLoader();
     checkboxEvents();
+    turnOffForm();
     initBirthSelect();
     $('.white-list--dot').addClass('disabled');
     submitAllForm();
     formSliderInit();
    // searchSelect();
-
 }
 /*---------------------*/
 /*---------------------*/
@@ -1106,16 +1206,16 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 // Validate & submit process
 //--------------------------
 (function($) {
-
-    var dateFormat;
-    if( $("input[name='hdn_new_format']").length )
-    {
-        dateFormat = sib_dateformat;
-    }
-    else {
-        dateFormat = 'dd/mm/yyyy';
-    }
-    $('.tooltip').css({left: '101%'});
+    if(window.location.path = ""){
+        var dateFormat;
+        if( $("input[name='hdn_new_format']").length )
+        {
+            dateFormat = sib_dateformat;
+        }
+        else {
+            dateFormat = 'dd/mm/yyyy';
+        }
+        $('.tooltip').css({left: '101%'});
 
     // check if inputed sms value is valid
     function isValidSms(smsField, sms) {
@@ -1343,8 +1443,8 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                                   width: "150px",
                                   opacity: "0"
                               },700);
-                             $('#header__link').show();
-                            }, 3000);
+                              $('#header__link').show();
+                          }, 3000);
                         }
                         else {
                             backColor = '#f2dede';
@@ -1521,7 +1621,7 @@ $('#'+sib_prefix+'_embed_signup input[type=radio]').on('click',function(){
     }
     // set last submit to avoid refresh post
     $("#hdn_email_txt").val(new Date().getTime());
-
+}
 }(jQuery));
 
 
@@ -1740,7 +1840,7 @@ function customizeSelect(v){
   
     $listItems.click(function(e) {
         e.stopPropagation();
-        
+
         if(id === "country"){
             $styledSelect.val($(this).text()).removeClass('active');
         } else {
@@ -1762,3 +1862,4 @@ function customizeSelect(v){
 
 });
 }
+

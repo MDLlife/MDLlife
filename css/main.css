@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url("../fonts/Gilroy-ExtraBold.eot");
@@ -2766,25 +2767,25 @@
         -o-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out; }
 
-#mentorsModal, #teamModal {
+#mentorsModal, #teamModal, #comingSoon {
   z-index: 0;
   padding: 0 !important;
   margin: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.5); }
-  #mentorsModal.show, #teamModal.show {
+  #mentorsModal.show, #teamModal.show, #comingSoon.show {
     z-index: 7000000; }
-  #mentorsModal .modal-dialog, #teamModal .modal-dialog {
+  #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog {
     top: 50%;
     margin-top: -150px;
     left: 50%;
     margin-left: -300px;
     width: 600px !important;
     height: auto; }
-  #mentorsModal .modal--linkin, #teamModal .modal--linkin {
+  #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin {
     text-align: center; }
-  #mentorsModal .modal-content, #teamModal .modal-content {
+  #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content {
     background-color: #150526;
     outline: none;
     border: none;
@@ -2796,13 +2797,13 @@
     font-weight: 400;
     padding: 50px 20px 30px 20px;
     text-align: left; }
-    #mentorsModal .modal-content .close, #teamModal .modal-content .close {
+    #mentorsModal .modal-content .close, #teamModal .modal-content .close, #comingSoon .modal-content .close {
       position: absolute;
       right: -10px;
       top: -10px;
       outline: none;
       opacity: 1 !important; }
-      #mentorsModal .modal-content .close img, #teamModal .modal-content .close img {
+      #mentorsModal .modal-content .close img, #teamModal .modal-content .close img, #comingSoon .modal-content .close img {
         width: 40px;
         height: 40px; }
 
@@ -2812,6 +2813,15 @@
 
 .modal-backdrop {
   background: none !important; }
+
+#comingSoon .modal-dialog {
+  margin-top: -100px; }
+
+#comingSoon .modal-content {
+  height: 200px;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center; }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #mentors .mentor__item--wrapper {
@@ -2856,20 +2866,22 @@
             color: white; }
         #mentors .mentor__item--wrapper .mentor__item .mentor__item--link {
           display: none; }
-  #mentorsModal .modal-dialog, #teamModal .modal-dialog {
+  #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog {
     margin-top: 0;
     top: 100px;
     width: 90% !important;
     margin-left: -45%; }
-  #mentorsModal .modal-content, #teamModal .modal-content {
+  #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content {
     width: 100%;
     height: 100%; }
-  #mentorsModal .modal--linkin, #teamModal .modal--linkin {
+  #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin {
     display: block;
     margin-top: 20px; }
   .modal-body {
     font-size: 12px;
-    padding: 0; } }
+    padding: 0; }
+  #comingSoon .modal-body {
+    font-size: 26px; } }
 
 @font-face {
   font-family: 'Gilroy-ExtraBold';
@@ -3169,6 +3181,22 @@ footer li:nth-child(2) img.community-link {
   font-weight: normal;
   font-style: normal; }
 
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg); } }
+
 #whitelist-form {
   position: relative;
   top: 0;
@@ -3184,12 +3212,44 @@ footer li:nth-child(2) img.community-link {
   width: 100%;
   opacity: 1;
   height: 1000px; }
+  #whitelist-form #whitelist-loader {
+    position: absolute;
+    z-index: 1200;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a0a2b;
+    opacity: 1;
+    -webkit-transition: all 0.5s ease-out;
+    -o-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out; }
+    #whitelist-form #whitelist-loader.loaded {
+      opacity: 0;
+      z-index: 0; }
+    #whitelist-form #whitelist-loader #loader-spin {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      z-index: 1;
+      width: 100px;
+      height: 100px;
+      margin: -50px 0 0 -50px;
+      border: 5px solid #f3f3f3;
+      -webkit-border-radius: 50%;
+              border-radius: 50%;
+      border-top: 5px solid #c72897;
+      -webkit-animation: spin 1.5s linear infinite;
+              animation: spin 1.5s linear infinite; }
   #whitelist-form.opened {
     z-index: 9000000000;
     width: 100%;
     opacity: 1;
     height: 100%; }
-  #whitelist-form .whitelist-form--next {
+  @media (max-width: 768px) {
+    #whitelist-form #whitelist-form--back, #whitelist-form #whitelist-form--next {
+      display: none !important; } }
+  #whitelist-form #whitelist-form--next, #whitelist-form .whitelist-form--next {
     position: absolute;
     bottom: 24px;
     right: 62px;
@@ -3207,7 +3267,46 @@ footer li:nth-child(2) img.community-link {
     text-transform: uppercase;
     color: white;
     cursor: pointer; }
-    #whitelist-form .whitelist-form--next.disabled {
+    #whitelist-form #whitelist-form--next.mob, #whitelist-form .whitelist-form--next.mob {
+      display: none; }
+      @media (max-width: 768px) {
+        #whitelist-form #whitelist-form--next.mob, #whitelist-form .whitelist-form--next.mob {
+          display: block; } }
+    #whitelist-form #whitelist-form--next.disabled, #whitelist-form .whitelist-form--next.disabled {
+      color: rgba(255, 255, 255, 0.5); }
+  #whitelist-form #whitelist-form--back, #whitelist-form .whitelist-form--back {
+    display: none;
+    position: absolute;
+    bottom: 24px;
+    left: 165px;
+    border: none;
+    -webit-appearence: none;
+    outline: none;
+    background-color: #c72897;
+    width: 122px;
+    height: 43px;
+    -webkit-border-radius: 24.5px;
+            border-radius: 24.5px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: white;
+    cursor: pointer; }
+    #whitelist-form #whitelist-form--back.term, #whitelist-form .whitelist-form--back.term {
+      bottom: -68px; }
+    #whitelist-form #whitelist-form--back.mob, #whitelist-form .whitelist-form--back.mob {
+      display: none; }
+      @media (max-width: 768px) {
+        #whitelist-form #whitelist-form--back.mob, #whitelist-form .whitelist-form--back.mob {
+          display: block; } }
+    #whitelist-form #whitelist-form--back.deckstop, #whitelist-form .whitelist-form--back.deckstop {
+      display: block;
+      left: 40px; }
+      @media (max-width: 768px) {
+        #whitelist-form #whitelist-form--back.deckstop, #whitelist-form .whitelist-form--back.deckstop {
+          display: none; } }
+    #whitelist-form #whitelist-form--back.disabled, #whitelist-form .whitelist-form--back.disabled {
       color: rgba(255, 255, 255, 0.5); }
   #whitelist-form .whitelist-form--wrapper {
     padding: 5px;
@@ -3588,6 +3687,15 @@ footer li:nth-child(2) img.community-link {
             display: none; }
         #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome {
           padding-left: 47px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-desc {
+            font-family: "Open Sans", sans-serif;
+            font-size: 16px;
+            color: #1a0a2b; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-desc a {
+              font-family: "Open Sans", sans-serif;
+              font-weight: 700;
+              font-size: 16px;
+              color: #1a0a2b; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-title {
             margin-top: 184px;
             margin-bottom: 74px;
@@ -3644,6 +3752,8 @@ footer li:nth-child(2) img.community-link {
           font-family: "Open Sans", sans-serif;
           font-size: 14px;
           font-weight: 400; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .terms-wrapper {
+            position: relative; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h2, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h3, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h4, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms h5 {
             font-size: 14px;
             font-weight: 600;
@@ -3664,13 +3774,27 @@ footer li:nth-child(2) img.community-link {
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms strong {
             font-weight: 600; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"] {
-            position: relative;
             margin-right: 5px;
             left: 0px;
-            top: 5px;
+            top: 7px;
             outline: none;
             width: 20px;
-            height: 20px; }
+            height: 20px;
+            -webkit-appearance: none;
+            position: relative;
+            border: 1px solid black; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"]:checked {
+              top: 7px;
+              border: 1px solid #c72897 !important; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"]:checked:before {
+                content: "✔";
+                color: #c72897;
+                position: absolute;
+                left: 3px;
+                bottom: 0;
+                height: 100%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms input[type="checkbox"] + span {
+            color: #c72897 !important; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .ti-fc {
             position: relative;
             left: 25px;
@@ -3699,7 +3823,7 @@ footer li:nth-child(2) img.community-link {
             font-size: 14px; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-link {
             position: absolute;
-            bottom: 40px;
+            bottom: 24px;
             right: 40px;
             padding-top: 8px;
             display: block;
@@ -3736,13 +3860,93 @@ footer li:nth-child(2) img.community-link {
           font-weight: 600;
           font-size: 16px;
           text-align: center;
-          cursor: pointer; }
+          cursor: pointer;
+          outline: none; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #submit-btn.disabled {
+            color: rgba(255, 255, 255, 0.5); }
         #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #error-send {
           font-family: "Open Sans", sans-serif;
           color: red;
           font-size: 14px;
           font-weight: 700;
           display: none; }
+
+@media (max-width: 768px) {
+  #whitelist-form {
+    height: 100vh;
+    min-height: 540px;
+    max-height: 850px;
+    background-color: white; }
+    #whitelist-form .personal-information-wrapper {
+      height: 710px;
+      position: relative; }
+    #whitelist-form .whitelist-form--next {
+      right: 10px;
+      bottom: 0; }
+    #whitelist-form .whitelist-form--back {
+      display: block;
+      left: 10px;
+      bottom: 0; }
+    #whitelist-form .whitelist-form--wrapper {
+      width: 100%;
+      height: 600px;
+      position: static;
+      margin: unset; }
+      #whitelist-form .whitelist-form--wrapper .white-list--nav {
+        display: none; }
+      #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper {
+        width: 100%; }
+        #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item {
+          padding-left: 40px;
+          padding-right: 40px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item #submit-btn {
+            position: absolute;
+            margin-top: 0;
+            right: 10px;
+            bottom: -68px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information {
+            overflow-y: scroll;
+            padding-left: 40px;
+            padding-right: 40px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--day {
+              width: 31.5%;
+              margin-right: 1%;
+              padding-left: 10px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .select.month {
+              width: 31.5% !important;
+              margin-right: 1% !important;
+              padding-left: 0px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--year {
+              width: 31.5%;
+              padding-left: 10px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #month-search {
+              padding-left: 10px !important;
+              margin-right: 1% !important; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field {
+              width: 47.9%; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled {
+              margin-right: 2.2%; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-title {
+            margin-top: 95px;
+            margin-bottom: 90px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank {
+            padding-top: 100px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-link {
+              bottom: 195px; } }
+
+@media (max-width: 480px) {
+  #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item {
+    padding-left: 20px !important;
+    padding-right: 20px; }
+    #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information {
+      overflow-y: scroll;
+      padding-left: 20px;
+      padding-right: 20px; }
+    #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms {
+      padding-left: 20px;
+      padding-right: 20px; }
+      #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.terms .ti-fc {
+        left: 15px; } }
 
 body {
   background-color: #FBFBFB !important;

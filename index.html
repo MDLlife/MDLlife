@@ -18,10 +18,21 @@
 	<link rel="stylesheet" href="css/main.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 </head>
 <body>
-	<!-- Modal -->
+	<!-- Form -->
+	<div class="modal fade" id="comingSoon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="img/popup-close.svg" alt="">
+				</button>
+				<div class="modal-body">
+					Coming soon
+				</div>
+			</div>
+		</div>
+	</div>
 	<div class="modal fade" id="mentorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -141,12 +152,12 @@
 			<img src="img/logo_mdl.svg" alt="MDL logo" class="nav__logo--image mob">
 		</div>
 		<div class="nav__burger">
-			MENU
+			menu
 		</div>
 		<div class="nav__links-lang">
 			<div class="nav__link-lang--lang">
 				<svg class="base forpc" width="55" height="55" viewBox="0 0 98 98">
-					<circle class="c1" cx="49" cy="49" r="47" stroke="#FFF" stroke-width="1.7" fill="none"></circle>
+					<circle class="c1" cx="49" cy="49" r="47" stroke="#FFF" stroke-width="1" fill="none"></circle>
 				</svg>
 				<select name="langs-list" id="langs-list">
 					<option class = "/" value="/">eng</option>
@@ -154,7 +165,7 @@
 				</select>
 			</div>
 			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/">Blog</a>
-			<a class="nav__link-lang--wp " target = "_blank" href="whitepaper/WhitePaper_eng_1.1.1.pdf">Whitepaper</a>
+			<a class="nav__link-lang--wp " target = "_blank" href="whitepaper/WhitePaper_eng 1.2.1.pdf">Whitepaper</a>
 		</div>
 	</nav>
 
@@ -232,7 +243,7 @@
 						</div>
 						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1100">40% discount for 10% of MDL</p>
 						<p class="header-timer_about half-opacity" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">20% discount for 20% of MDL</p>
-						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="form/"><svg class="liquid-button"
+						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500"  data-toggle="modal" data-target="#comingSoon"><svg class="liquid-button"
 							data-text="JOIN WHITELIST"
 							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 							data-color1="rgb(110, 179, 231)"
@@ -342,7 +353,7 @@
 										data-width = "163"
 										data-height = "49"
 										data-text-color = "#ffffff"></svg><span class="mobile">JOIN TELEGRAM</span></a>
-										<a class="wallet__button two" href="form/"><svg class="liquid-button"
+										<a class="wallet__button two" data-toggle="modal" data-target="#comingSoon"><svg class="liquid-button"
 											data-text="JOIN WHITELIST"
 											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 											data-color1="rgb(110, 179, 231)"
