@@ -3,21 +3,24 @@ package main
 import (
 	"os"
 	"io"
+	"io/ioutil"
 	"time"
 	"regexp"
 	"math/rand"
 	"path/filepath"
 	"strings"
 
+	"gopkg.in/yaml.v2"
+
 	"github.com/kataras/iris"
 
 	"github.com/go-xorm/xorm"
 	_ "github.com/mattn/go-sqlite3"
 
-	"github.com/asaskevich/govalidator"
 	"github.com/srajelli/ses-go"
-	"io/ioutil"
-	"gopkg.in/yaml.v2"
+
+	"github.com/go-ozzo/ozzo-validation"
+	"github.com/go-ozzo/ozzo-validation/is"
 )
 
 /*
@@ -41,10 +44,10 @@ import (
 type Whitelist struct {
 	ID        int64 // auto-increment by-default by xorm
 	PhotoId   int64     `xorm:"unique"`
-	Name      string    `json:"name" valid:"name,required"`
-	Email     string    `xorm:"unique" json:"email" valid:"email,required"`
-	Birthday  string    `json:"birthday" valid:"datetime,required"`
-	Country   string    `json:"country" valid:"name,required"`
+	Name      string    `json:"name"`
+	Email     string    `xorm:"unique"`
+	Birthday  string    `json:"birthday"`
+	Country   string    `json:"country"`
 	CreatedAt time.Time `xorm:"created"`
 }
 
@@ -69,21 +72,16 @@ type Config struct {
 	Port string `yaml:"Port"`
 }
 
-var config = &Config{}
+var (
+	config = &Config{}
+
+	nameValidatorRegex = regexp.MustCompile("(?:(\\pL|[-])+((?:\\s)+)?)")
+	// YYYY-MM-DD // YYYY >= 1000 matches correct dates in months
+	dateValidatorRegex = regexp.MustCompile("^(?:[1-9]\\d{3}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1\\d|2[0-9])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31))$")
+)
 
 func init() {
 	loadConfig()
-
-	nameValidatorRegex := regexp.MustCompile("(\\pL+(\\s+)?)")
-	govalidator.TagMap["name"] = govalidator.Validator(func(str string) bool {
-		return nameValidatorRegex.MatchString(str)
-	})
-
-	// YYYY-MM-DD // YYYY >= 1000 matches correct dates in months
-	datetimeValidatorRegex := regexp.MustCompile("^(?:[1-9]\\d{3}-(?:(?:0[1-9]|1[0-2])-(?:0[1-9]|1\\d|2[0-9])|(?:0[13-9]|1[0-2])-(?:29|30)|(?:0[13578]|1[02])-31))$")
-	govalidator.TagMap["datetime"] = govalidator.Validator(func(str string) bool {
-		return datetimeValidatorRegex.MatchString(str)
-	})
 
 	// Amazon SES setup
 	ses.SetConfiguration(config.AwsKey, config.AwsSecret, config.AwsRegion)
@@ -128,8 +126,7 @@ func routes(app *iris.Application, orm *xorm.Engine) {
 			Birthday: combineDatetime(ctx.FormValue("year"), ctx.FormValue("month"), ctx.FormValue("day")),
 		}
 
-		_, err := govalidator.ValidateStruct(whitelist)
-		if err != nil {
+		if err := whitelist.Validate(); err != nil {
 			ctx.StatusCode(iris.StatusUnprocessableEntity)
 			ctx.JSON(map[string]interface{}{"errors": err})
 			return
@@ -152,25 +149,37 @@ func routes(app *iris.Application, orm *xorm.Engine) {
 		file, info, err := ctx.FormFile("passport")
 
 		if err != nil {
-			ctx.StatusCode(iris.StatusInternalServerError)
-			ctx.JSON(map[string]interface{}{"errors": map[string]interface{}{"passport": err}})
+			ctx.StatusCode(iris.StatusUnprocessableEntity)
+			ctx.JSON(map[string]interface{}{"errors": map[string]string{"passport": "Add image of your passport"}})
 			return
 		}
 
 		defer file.Close()
 		ext := filepath.Ext(info.Filename)
 		ext = strings.ToLower(ext[1:]) // remove dot and cast to lower case
-		filename := RandString(48)
-		imgPath := filename[0:3] + "/" + filename[3:6]
+		var (
+			filename string
+			imgPath  string
+		)
 
-		// create path / bug with 0644
-		if err = os.MkdirAll("./uploads/"+imgPath, 0744); err != nil {
-			ctx.StatusCode(iris.StatusInternalServerError)
-			println("Can't create passport path: " + err.Error())
-			return
+		// generate a new name if file exists
+		for {
+			filename = RandString(48)
+			imgPath = filename[0:3] + "/" + filename[3:6]
+
+			// create path / bug with 0644
+			if err = os.MkdirAll("./uploads/"+imgPath, 0744); err != nil {
+				ctx.StatusCode(iris.StatusInternalServerError)
+				println("Can't create passport path: " + err.Error())
+				return
+			}
+
+			if _, err := os.Stat("./uploads/" + imgPath + "/" + filename + "." + ext); os.IsNotExist(err) {
+				break
+			}
 		}
 
-		// Create a file with the same name
+		// Create a file
 		out, err := os.OpenFile("./uploads/"+imgPath+"/"+filename+"."+ext,
 			os.O_WRONLY|os.O_CREATE, 0744)
 
@@ -206,7 +215,7 @@ func routes(app *iris.Application, orm *xorm.Engine) {
 
 		sendEmail(whitelist.Email)
 
-		ctx.JSON(map[string]bool{"status": true})
+		ctx.JSON(map[string]bool{"success": true})
 	})
 }
 
@@ -284,4 +293,13 @@ func loadConfig() {
 	if err != nil {
 		panic(err)
 	}
+}
+
+func (w Whitelist) Validate() error {
+	return validation.ValidateStruct(&w,
+		validation.Field(&w.Name, validation.Required, validation.Match(nameValidatorRegex)),
+		validation.Field(&w.Email, validation.Required, is.Email),
+		validation.Field(&w.Birthday, validation.Required, validation.Match(dateValidatorRegex)),
+		validation.Field(&w.Country, validation.Required, validation.Match(nameValidatorRegex)),
+	)
 }
