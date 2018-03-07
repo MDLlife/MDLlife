@@ -14,13 +14,13 @@ import (
 
 	"github.com/kataras/iris"
 
-	"github.com/go-xorm/xorm"
-	_ "github.com/mattn/go-sqlite3"
-
 	"github.com/srajelli/ses-go"
 
 	"github.com/go-ozzo/ozzo-validation"
 	"github.com/go-ozzo/ozzo-validation/is"
+
+	"github.com/jinzhu/gorm"
+    _ "github.com/jinzhu/gorm/dialects/postgres"
 )
 
 /*
@@ -42,10 +42,11 @@ import (
 
 // Whitelist is whitelist table structure.
 type Whitelist struct {
-	ID        int64 // auto-increment by-default by xorm
-	PhotoId   int64     `xorm:"unique"`
-	Name      string    `json:"name"`
-	Email     string    `xorm:"unique"`
+	Id int64 `gorm:"primary_key"`
+	Photo     Photo
+	PhotoId   int64     `gorm:"not null;unique"`
+	Name      string
+	Email     string    `gorm:"not null;unique"`
 	Birthday  string    `json:"birthday"`
 	Country   string    `json:"country"`
 	CreatedAt time.Time `xorm:"created"`
@@ -61,11 +62,15 @@ type Photo struct {
 
 // Config file structure
 type Config struct {
-	AwsKey       string `yaml:"AwsKey"`
-	AwsSecret    string `yaml:"AwsSecret"`
-	AwsRegion    string `yaml:"AwsRegion"`
+	AwsKey    string `yaml:"AwsKey"`
+	AwsSecret string `yaml:"AwsSecret"`
+	AwsRegion string `yaml:"AwsRegion"`
+
 	NoReplyEmail string `yaml:"NoReplyEmail"`
 	ReplyEmail   string `yaml:"ReplyEmail"`
+
+	DatabaseDriver string `yaml:"DatabaseDriver"`
+	DatabaseDSN    string `yaml:"DatabaseDSN"`
 
 	MaxFileUploadSizeMb int64 `yaml:"MaxFileUploadSizeMb"`
 
@@ -90,33 +95,25 @@ func init() {
 func main() {
 	app := iris.New()
 
-	orm, err := xorm.NewEngine("sqlite3", "./database.db")
+	db, err := gorm.Open(config.DatabaseDriver, config.DatabaseDSN)
 	if err != nil {
-		app.Logger().Fatalf("orm failed to initialized: %v", err)
+		app.Logger().Fatalf("db failed to initialized: %v", err)
 	}
 
 	iris.RegisterOnInterrupt(func() {
-		orm.Close()
+		db.Close()
 	})
 
-	err = orm.Sync2(new(Whitelist))
-	if err != nil {
-		app.Logger().Fatalf("orm failed to initialized User table: %v", err)
-	}
+	db.AutoMigrate(&Whitelist{}, &Photo{})
 
-	err = orm.Sync2(new(Photo))
-	if err != nil {
-		app.Logger().Fatalf("orm failed to initialized Photo table: %v", err)
-	}
-
-	routes(app, orm)
+	routes(app, db)
 
 	app.Run(iris.Addr(config.Port),
 		iris.WithoutServerError(iris.ErrServerClosed),
 		iris.WithPostMaxMemory(config.MaxFileUploadSizeMb<<20))
 }
 
-func routes(app *iris.Application, orm *xorm.Engine) {
+func routes(app *iris.Application, db *gorm.DB) {
 
 	app.Post("/whitelist/request", func(ctx iris.Context) {
 		whitelist := &Whitelist{
@@ -132,14 +129,7 @@ func routes(app *iris.Application, orm *xorm.Engine) {
 			return
 		}
 
-		has, err := orm.Where("email = ?", whitelist.Email).Exist(&Whitelist{})
-		if err != nil {
-			ctx.StatusCode(iris.StatusInternalServerError)
-			println("Can't get whitelist from database: " + err.Error())
-			return
-		}
-
-		if has {
+		if !db.Where("email = ?", whitelist.Email).First(&Whitelist{}).RecordNotFound() {
 			ctx.StatusCode(iris.StatusUnprocessableEntity)
 			ctx.JSON(map[string]interface{}{"errors": map[string]string{"email": "This email already registered."}})
 			return
@@ -197,8 +187,8 @@ func routes(app *iris.Application, orm *xorm.Engine) {
 			Extension: ext,
 		}
 
-		_, err = orm.Insert(photo)
-		if err != nil {
+		db.NewRecord(photo)
+		if err := db.Create(photo).Error; err != nil {
 			ctx.StatusCode(iris.StatusInternalServerError)
 			println("Can't insert photo " + err.Error())
 			return
@@ -206,8 +196,8 @@ func routes(app *iris.Application, orm *xorm.Engine) {
 
 		whitelist.PhotoId = photo.ID
 
-		_, err = orm.Insert(whitelist)
-		if err != nil {
+		db.NewRecord(whitelist)
+		if err := db.Create(whitelist).Error; err != nil {
 			ctx.StatusCode(iris.StatusInternalServerError)
 			println("Can't insert whitelist " + err.Error())
 			return
