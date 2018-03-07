@@ -1,0 +1,10 @@
+AwsKey: string
+AwsSecret: string
+AwsRegion: string
+
+NoReplyEmail: string
+ReplyEmail: string
+
+MaxFileUploadSizeMb: 10
+
+Port: :8081

@@ -82,7 +82,7 @@ $(document).ready(function(){
 /*----------Variables-----------*/
 // Form select birthday English
   const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'], 
-        en_month = ['January','February','March','April','May','June','July','August','September','October','November','December'],
+        en_month = ['Month', 'January','February','March','April','May','June','July','August','September','October','November','December'],
         en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
   // Countries
   const country_arr = ["Afghanistan", "Albania", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo, Democratic Republic of the", "Congo, Republic of the", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Korea, North", "Korea, South", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia, Former Yugoslav Republic of", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Sudan", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "USA", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Yemen", "Yugoslavia", "Zambia", "Zimbabwe"];
@@ -321,33 +321,32 @@ function rpModal(){
 // --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
 ///submitting form
 function submitAllForm(){
-    $('#submit-btn').click(function(){
-            var form_input = { 
-                   name: $('#pi-input--name').val(),
-                   email: $('#pi-input--email').val(),
-                   birthday_year: $('#pi-input--year').val(),
-                   birthday_month: $('#month').val(),
-                   birthday_day: $('#pi-input--day').val(),
-                   country: $('#country').val(),
-                   passport: $('#pi-input--passport').val() 
-               };
-        var parse_form_input = JSON.stringify(form_input);
+    $('#submit-btn').click(function () {
+        var formData = new FormData($('#main-whitelist-form')[0]);
+// statusCode == 422 // form errors
+// statusCode == 500 // server errors
         $.ajax({
-            url: "/whitelist",
+            url: "http://127.0.0.1:8321/whitelist/request",
             type: "POST",
-            data: parse_form_input,
-            contentType: "application/json",
-            success: function() {
-                 $('.white-list--btn').removeClass('disabled');
-                 $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
-                 clickOnChosenDot(4);
+            data: formData,
+            dataType: "json",
+            cache: false,
+            contentType: false,
+            processData: false,
+            success: function (data) {
+                console.log(data);
+                if (data.success) {
+                    $('.white-list--btn').removeClass('disabled');
+                    $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
+                    clickOnChosenDot(4);
+                }
             },
             error: function (xhr, ajaxOptions, thrownError) {
-                   console.log(xhr.status);
-                   console.log(thrownError);
-                   $('#error-send').show();
+                console.log(xhr.status);
+                console.log(thrownError);
+                $('#error-send').show();
             }
-      })
+        });
 });
 
 }
@@ -358,8 +357,8 @@ function initBirthSelect(){
   var name = $('#pi-input--name');
   var country = $('#country'),
       month = $('#month');
-      addOptionToBirthSelect(en_month,month);
-      addOptionToBirthSelect(country_arr,country);
+      addOptionToMonthSelect(en_month,month);
+      addOptionToCountrySelect(country_arr,country);
       customizeSelect(country);
       customizeSelect(month);
   $(name).bind('keypress', forceLetter);
@@ -388,9 +387,14 @@ function checkCaptcha(){
         return false;
     }
 }
-function addOptionToBirthSelect(arr,select){
+function addOptionToCountrySelect(arr,select){
     for(var i = 0; i < arr.length; i++){
         select.append('<option value ="'+arr[i]+'">'+arr[i]+'</option>');
+    }
+}
+function addOptionToMonthSelect(arr,select){
+    for(var i = 0; i < arr.length; i++){
+        select.append('<option value ="'+i+'">'+arr[i]+'</option>');
     }
 }
 function checkInputs(){
