@@ -82,10 +82,10 @@ $(document).ready(function(){
 /*----------Variables-----------*/
 // Form select birthday English
   const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'], 
-        en_month = ['Month', 'January','February','March','April','May','June','July','August','September','October','November','December'],
+        en_month = ['January','February','March','April','May','June','July','August','September','October','November','December'],
         en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
   // Countries
-  const country_arr = ["Afghanistan", "Albania", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Bosnia and Herzegovina", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Burundi", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "China", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Congo, Democratic Republic of the", "Congo, Republic of the", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cuba", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Eritrea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Korea, North", "Korea, South", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", "Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Macedonia, Former Yugoslav Republic of", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "Somalia", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Sudan", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Syria", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "USA", "Uzbekistan", "Vanuatu", "Venezuela", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Yemen", "Yugoslavia", "Zambia", "Zimbabwe"];
+  const country_arr = ["Afghanistan", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lesotho", "Liberia", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "Uzbekistan", "Vanuatu", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Zambia"];
   const captcha_arr = ['1','2','3','4','5','6','7','8','9','0','a','b','c','q','w','e','r','t','y','u','i','o','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'];
 /*---------------------*/
 /*---------------------*/
@@ -317,7 +317,7 @@ function rpModal(){
 // Cписок инпутов (где без префикса пи инпут селекты)  $('#pi-input--name') $('#pi-input--day') $('#month') $('#pi-input--year')
 // $('#pi-input--email')  $('#country')  $('#pi-input--passport')
 // так же добавил скрытую кнопку сабмита(если надо) $('#hidden-submit-form')
-// addOptionToBirthSelect(arr,select) - добавляет значения в селект
+// addOptionToBirthSelect(arr,select) - добавляет значения в селект 
 // --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
 ///submitting form
 function submitAllForm(){
@@ -328,44 +328,65 @@ function submitAllForm(){
         }
        var formData = new FormData($('#main-whitelist-form')[0]);
        $.ajax({
-        url: "/ajax/whitelist/request",
+        url: "http://127.0.0.1:8321/whitelist/request",
         type: "POST",
         data: formData,
         dataType: "json",
         cache: false,
         contentType: false,
         processData: false,
+        beforeSend: function(){
+            $('#error-send').hide();
+            $('#whitelist-waiting-send').removeClass('loaded');
+        },
         success: function (data) {
             console.log(data);
             if (data.success) {
                 $('.white-list--btn').removeClass('disabled');
                 $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
+                $('#whitelist-waiting-send').addClass('loaded');
                 clickOnChosenDot(4);
             }
         },
         error: function (xhr, exception) {
          if (xhr.status === 0) {
+            $('#error-send').html('Your form was not sent, please try to send later');
             $('#error-send').show();
             console.log('Not connected.\nPlease verify your network connection.');
         } else if (xhr.status == 404) {
+         $('#error-send').html('Your form was not sent, please try to send later');
          $('#error-send').show();
          console.log('The requested page not found. [404]');
         } else if (xhr.status == 500) {
+            $('#error-send').html('This e-mail has registered');
             $('#error-send').show();
             console.log('Internal Server Error [500].');
+        } else if (xhr.status == 422) {
+            $('#error-send').html('This e-mail has registered');
+            $('#error-send').show();
+            console.log('Invalid mail [422].');
+        } else if (xhr.status == 413) {
+            $('#error-send').html('Maximum size of attachment - 15mb');
+            $('#error-send').show();
+            console.log('Big file size [413].');
         } else if (exception === 'parsererror') {
+            $('#error-send').html('Your form was not sent, please try to send later');
             $('#error-send').show();
             console.log('Requested JSON parse failed.');
         } else if (exception === 'timeout') {
+            $('#error-send').html('Your form was not sent, please try to send later');
             $('#error-send').show();
             console.log('Time out error.');
         } else if (exception === 'abort') {
+            $('#error-send').html('Your form was not sent, please try to send later');
             $('#error-send').show();
             console.log('Ajax request aborted.');
         } else {
+            $('#error-send').html('Your form was not sent, please try to send later');
             $('#error-send').show();
             console.log('Uncaught Error.\n' + xhr.responseText);
         }
+        $('#whitelist-waiting-send').addClass('loaded');
       }
     });
 });
@@ -436,14 +457,14 @@ function checkInputs(){
     } else {
         return;
     }
-
-    if(checkEmailInput() && checkCaptcha()){
+    
+    if(checkEmailInput() && checkCaptcha() &&  checkDayInput() && checkYearInput()){
         $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
         $('.white-list--dot[data-dot = "3"]').removeClass('disabled');
         $('.white-list--btn').removeClass('disabled');
     }
-
 }
+
 function submitCheckbox(){
         if($('.term-checkbox-one').is(':checked') && $('.term-checkbox-two').is(':checked') && $('.term-checkbox-three').is(':checked') && $('.term-checkbox-four').is(':checked')){
             $('#submit-btn').removeClass('disabled');
@@ -458,7 +479,7 @@ function submitCheckbox(){
 }
 function checkEmailInput(){
     if($('#pi-input--email').val() != '') {
-      var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,4}$/i;
+      var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,15}$/i;
       if(pattern.test($('#pi-input--email').val())){
         $('#pi-input--email').css({'border' : '1px solid #eff0f0'});
         return true;
@@ -466,6 +487,26 @@ function checkEmailInput(){
         $('#pi-input--email').css({'border' : '1px solid #ff0000'});
         return false;
     }
+    }
+}
+function checkYearInput(){
+    if($('#pi-input--year').val() > 1940 && $('#pi-input--year').val() < 2002){
+        $('#pi-input--year').css({'border' : '1px solid #eff0f0'});
+        return true;
+    } else {
+        $('#pi-input--year').css({'border' : '1px solid #ff0000'});
+        $('#pi-input--year').val('');
+        return false;
+    }
+}
+function checkDayInput(){
+    if($('#pi-input--day').val() > 0 && $('#pi-input--day').val() < 32){
+        $('#pi-input--day').css({'border' : '1px solid #eff0f0'});
+        return true;
+    } else {
+        $('#pi-input--day').css({'border' : '1px solid #ff0000'});
+        $('#pi-input--day').val('');
+        return false;
     }
 }
 function resetCheck(){
@@ -497,7 +538,7 @@ function forceLetter(element) {
      element.keydown(function (e) {
         element.keydown(function (e) {
         if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
-            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) || 
             (e.keyCode >= 35 && e.keyCode <= 40)) {
                  return;
         }
@@ -513,7 +554,7 @@ function forceLetter(element) {
 function forceNumber(element){
     element.keydown(function (e) {
         if ($.inArray(e.keyCode, [46, 8, 9, 27, 13, 110, 190]) !== -1 ||
-            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) ||
+            (e.keyCode === 65 && (e.ctrlKey === true || e.metaKey === true)) || 
             (e.keyCode >= 35 && e.keyCode <= 40)) {
                  return;
         }
@@ -572,7 +613,7 @@ function formSliderInit(){
   $('#whitelist-form').mousemove(function(){
     setAccess();
   });
-
+  
   $('#whitelist-form--next,.white-list--dot,.white-list--btn,.whitelist-form--next').click(function(){
     if($(this).hasClass('disabled')){
         if($('.white-list--content-item.current').attr('data-step') == 2){
@@ -684,7 +725,7 @@ $('#whitelist-form--back,.whitelist-form--back').click(function(){
       upSlide(item);
       currentDot();
 });
-
+ 
 }
 function setContentPosition(item,position){
     var percent = 100;
@@ -1840,7 +1881,7 @@ function customizeSelect(v){
   
     $listItems.click(function(e) {
         e.stopPropagation();
-
+        
         if(id === "country"){
             $styledSelect.val($(this).text()).removeClass('active');
         } else {
@@ -1862,4 +1903,3 @@ function customizeSelect(v){
 
 });
 }
-

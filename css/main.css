@@ -3212,7 +3212,7 @@ footer li:nth-child(2) img.community-link {
   width: 100%;
   opacity: 1;
   height: 1000px; }
-  #whitelist-form #whitelist-loader {
+  #whitelist-form #whitelist-loader, #whitelist-form #whitelist-waiting-send {
     position: absolute;
     z-index: 1200;
     top: 0;
@@ -3224,10 +3224,10 @@ footer li:nth-child(2) img.community-link {
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
-    #whitelist-form #whitelist-loader.loaded {
+    #whitelist-form #whitelist-loader.loaded, #whitelist-form #whitelist-waiting-send.loaded {
       opacity: 0;
       z-index: 0; }
-    #whitelist-form #whitelist-loader #loader-spin {
+    #whitelist-form #whitelist-loader #loader-spin, #whitelist-form #whitelist-waiting-send #loader-spin {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -3241,6 +3241,11 @@ footer li:nth-child(2) img.community-link {
       border-top: 5px solid #c72897;
       -webkit-animation: spin 1.5s linear infinite;
               animation: spin 1.5s linear infinite; }
+  #whitelist-form #whitelist-waiting-send {
+    background-color: rgba(255, 255, 255, 0.7) !important; }
+    #whitelist-form #whitelist-waiting-send #loader-spin {
+      border: 5px solid #6eb3e7;
+      border-top: 5px solid #c72897; }
   #whitelist-form.opened {
     z-index: 9000000000;
     width: 100%;
@@ -3821,6 +3826,9 @@ footer li:nth-child(2) img.community-link {
             font-weight: 400;
             color: #1e092e;
             font-size: 14px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-desc a {
+              color: #1e092e;
+              font-weight: 700; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-link {
             position: absolute;
             bottom: 24px;
