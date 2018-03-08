@@ -328,7 +328,7 @@ function submitAllForm(){
         }
        var formData = new FormData($('#main-whitelist-form')[0]);
        $.ajax({
-        url: "http://127.0.0.1:8321/whitelist/request",
+        url: "/ajax/whitelist/request",
         type: "POST",
         data: formData,
         dataType: "json",
