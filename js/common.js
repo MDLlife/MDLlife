@@ -349,7 +349,7 @@ function submitAllForm(){
                 }
             },
             error: function (xhr, exception) {
-               if (xhr.status === 0) {
+            if (xhr.status === 0) {
                 $('#error-send').html('Your form was not sent, please try to send later');
                 $('#error-send').show();
                 console.log('Not connected.\nPlease verify your network connection.');
@@ -357,40 +357,39 @@ function submitAllForm(){
                $('#error-send').html('Your form was not sent, please try to send later');
                $('#error-send').show();
                console.log('The requested page not found. [404]');
-           } else if (xhr.status == 500) {
-            $('#error-send').html('This e-mail has registered');
-            $('#error-send').show();
-            console.log('Internal Server Error [500].');
-        } else if (xhr.status == 422) {
-            $('#error-send').html('This e-mail has registered');
-            $('#error-send').show();
-            console.log('Invalid mail [422].');
-        } else if (xhr.status == 413) {
-            $('#error-send').html('Maximum size of attachment - 15mb');
-            $('#error-send').show();
-            console.log('Big file size [413].');
-        } else if (exception === 'parsererror') {
-            $('#error-send').html('Your form was not sent, please try to send later');
-            $('#error-send').show();
-            console.log('Requested JSON parse failed.');
-        } else if (exception === 'timeout') {
-            $('#error-send').html('Your form was not sent, please try to send later');
-            $('#error-send').show();
-            console.log('Time out error.');
-        } else if (exception === 'abort') {
-            $('#error-send').html('Your form was not sent, please try to send later');
-            $('#error-send').show();
-            console.log('Ajax request aborted.');
-        } else {
-            $('#error-send').html('Your form was not sent, please try to send later');
-            $('#error-send').show();
-            console.log('Uncaught Error.\n' + xhr.responseText);
+            } else if (xhr.status == 500) {
+                $('#error-send').html('This e-mail has registered');
+                $('#error-send').show();
+                console.log('Internal Server Error [500].');
+            } else if (xhr.status == 422) {
+                $('#error-send').html('This e-mail has registered');
+                $('#error-send').show();
+                console.log('Invalid mail [422].');
+            } else if (xhr.status == 413) {
+                $('#error-send').html('Maximum size of attachment - 15mb');
+                $('#error-send').show();
+                console.log('Big file size [413].');
+            } else if (exception === 'parsererror') {
+                $('#error-send').html('Your form was not sent, please try to send later');
+                $('#error-send').show();
+                console.log('Requested JSON parse failed.');
+            } else if (exception === 'timeout') {
+                $('#error-send').html('Your form was not sent, please try to send later');
+                $('#error-send').show();
+                console.log('Time out error.');
+            } else if (exception === 'abort') {
+                $('#error-send').html('Your form was not sent, please try to send later');
+                $('#error-send').show();
+                console.log('Ajax request aborted.');
+            } else {
+                $('#error-send').html('Your form was not sent, please try to send later');
+                $('#error-send').show();
+                console.log('Uncaught Error.\n' + xhr.responseText);
+            }
+            $('#whitelist-waiting-send').addClass('loaded');
         }
-        $('#whitelist-waiting-send').addClass('loaded');
-    }
-});
     });
-
+});
 }
 
 function initBirthSelect(){
