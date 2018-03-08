@@ -27,6 +27,9 @@
 			<div id="whitelist-loader">
 				<div id="loader-spin"></div>
 			</div>
+			<div id="whitelist-waiting-send" class="loaded">
+				<div id="loader-spin"></div>
+			</div>
 			<a class="btn_close" id = "whitelist-btn_close" href="/"></a>
 			<div class="white-list--nav">
 				<button type = "button" class="white-list--btn up" data-dir = "up"></button>
@@ -57,7 +60,7 @@
 							<p class="pi-input--wrapper date-birth">
 								<label for="date-birth">Date of birth</label>
 								<input type="text" name = "day" id = "pi-input--day" placeholder="Day" maxlength="2" class="check-input pi-input">
-								<select name="month" id="month"></select>
+								<select name="country" id="month"></select>
 								<input type="text" name = "year" id = "pi-input--year" placeholder="Year" maxlength="4" class="check-input pi-input">
 							</p>
 							<p class="pi-input--wrapper country-select">
@@ -66,13 +69,13 @@
 									<span class="triangle"></span>
 							</p>
 							<p class="pi-input--wrapper email">
-								<label for="email">Email</label>
+								<label for="email">Email</label> 
 								<input type="email" name = "email" placeholder="E-mail" id = "pi-input--email" class="check-input pi-input">
 							</p>
 							<p class="pi-input--wrapper passport-upload">
 								<label for = "passport">Upload passport</label>
 								<input type="file" name = "passport" class="pi-input" id = "pi-input--passport">
-								<input type="text" placeholder = "Upload passport" class="check-input file-upload-styled" readonly="readonly">
+								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled" readonly="readonly">
 							</p>
 							<p class="pi-input--wrapper captcha">
 								<label for = "passport">Captcha</label>
@@ -89,33 +92,34 @@
 					<div class="terms-wrapper">
 						<h2>MDL TALENT HUB</h2>
 						<h2>MDL TOKEN PURCHASE AGREEMENT</h2>
-						<p>This MDL Token Purchase Agreement (including the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>) (this “<u>Agreement</u>”) contains the terms and conditions that govern your participation in the MDL Token Initial Token Offering ([10 March 2018 to 10 April 2018]) (“ITO”) and (as applicable) your purchase, receipt and use of the MDL Tokens (the “Tokens”) and is an agreement between you [and the entity that you represent – <strong>MDL to confirm whether entities are permitted to participate in the ITO or only individual buyers]</strong> (“<u>Buyer</u>” or “<u>you</u>”) and [MDL Life – <strong>insert name(s) of all relevant MDL entity(ies)]</strong> MDL (SG) PTE., LTD (“Company”). Buyer and Company are herein referred to individually as a “<u>Party</u>” and collectively, as the “<u>Parties</u>”.</p>
+						<p>This MDL Token Purchase Agreement (including the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>) (this “<u>Agreement</u>”) contains the terms and conditions that govern your participation in the MDL Token Initial Token Offering ([24 March 2018 to 24 April 2018]) (“ITO”) and (as applicable) your purchase, receipt and use of the MDL Tokens (the “Tokens”) and is an agreement between you [and the entity that you represent – <strong>MDL to confirm whether entities are permitted to participate in the ITO or only individual buyers]</strong> (“<u>Buyer</u>” or “<u>you</u>”) and [MDL Life – <strong>insert name(s) of all relevant MDL entity(ies)]</strong> MDL (SG) PTE., LTD (“Company”). Buyer and Company are herein referred to individually as a “<u>Party</u>” and collectively, as the “<u>Parties</u>”.</p>
 						<p><strong>IMPORTANT INFORMATION: PLEASE READ THIS AGREEMENT CAREFULLY AND IN ITS ENTIRETY AND CONSULT YOUR LEGAL, TAX OR OTHER PROFESSIONAL ADVISOR.</strong></p>
 						<p>Buyer acknowledges, understands and agrees to the following:</p>
 						<ol class="top-wrap">
-							<li><u>Binding agreement</u>: by checking the box below confirming that you have read, understand and agree to the terms of this Agreement (which includes the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>), you are agreeing to be bound to the terms of this Agreement (whether or not you purchase the Tokens).</li>
-							<li><u>No Restricted Person purchasers</u>: the Tokens are not being offered or distributed to citizens or residents of or entities formed or incorporated in any of the excluded countries set out in Exhibit 2 of the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a> or Sanctioned Parties (as defined in the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>) (a “Restricted Person”). A Restricted Person is not eligible to purchase any Tokens and any payments made by or on behalf of a Restricted Person may, in Company’s sole discretion, not be refunded or if refunded may be subject to an administrative fee to be determined by Company.</li>
+							<li><u>Binding agreement</u>: by checking the box below confirming that you have read, understand and agree to the terms of this Agreement (which includes the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>), you are agreeing to be bound to the terms of this Agreement (whether or not you purchase the Tokens).</li>
+							<li><u>No Restricted Person purchasers</u>: the Tokens are not being offered or distributed to citizens or residents of or entities formed or incorporated in any of the excluded countries set out in Exhibit 2 of the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a> or Sanctioned Parties (as defined in the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a>) (a “Restricted Person”). A Restricted Person is not eligible to purchase any Tokens and any payments made by or on behalf of a Restricted Person may, in Company’s sole discretion, not be refunded or if refunded may be subject to an administrative fee to be determined by Company.</li>
 							<li><u>Whitelist</u>: Notwithstanding Buyer’s registration and acceptance of this Agreement, Buyer will only be able to purchase Tokens if Buyer has been included in (and has not subsequently been removed from) the MDL Token ITO whitelist (“Whitelist”) and meets the other eligibility requirements.</li>
 							<li><u>No Refunds/Cancellation by Buyer</u>: Purchase of the Tokens are non-refundable and purchases cannot be cancelled by Buyer. Company reserves the right to refuse or cancel Token purchase requests at any time in its sole discretion.</li>
-							<li><u>Risks</u>: There are risks associated with purchasing the Tokens, owning the Tokens and using the Tokens in the MDL Talent Hub platform or ecosystem (“MDL Talent Hub Platform”) including (but not necessarily limited to) that the Tokens may have no value and the risks described in Exhibit 3 of the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a> and Buyer has read, understood and accepts all such risks</li>
+							<li><u>Risks</u>: There are risks associated with purchasing the Tokens, owning the Tokens and using the Tokens in the MDL Talent Hub platform or ecosystem (“MDL Talent Hub Platform”) including (but not necessarily limited to) that the Tokens may have no value and the risks described in Exhibit 3 of the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a> and Buyer has read, understood and accepts all such risks</li>
 						</ol>
 						<p>Please scroll down fully and check all boxes to proceed:</p>
 						<p class="ti-fc"><input class="term-checkbox-one term-checkbox" type="checkbox"><span>Check here to confirm that you are not a Restricted Person nor are you purchasing the Tokens on behalf of a Restricted Person</span> </p>
-						<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the terms of this Agreement (which includes the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms and Conditions</a></span></p>
-						<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Terms of Use</a> and <a target = "_blank" href="../TermsAndConditions/MDL_Token_sale_agreement.pdf">Privacy Policy</a></span></p>
+						<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the terms of this Agreement (which includes the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms and Conditions</a></span></p>
+						<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Terms of Use</a> and <a target = "_blank" href="../TermsAndCondition/MDL_Token_sale_agreement.pdf">Privacy Policy</a></span></p>
 						<p class="ti-fc">
 							<input class="term-checkbox-four term-checkbox" type="checkbox">
 							<span>Check here to confirm that you have read and understand the <a target = "_blank" href="https://mdl.life/whitepaper/WhitePaper_eng%201.2.1.pdf">Whitepaper</a></span>
 						</p>
 						<button type="submit" id = "submit-btn">Submit</button>
-						<p id="error-send">Your form was not sent, please try to send later</p>
+						<p id="error-send"></p>
 						<button type="button" class="whitelist-form--back mob term">Back</button>
 					</div>
 				</div>
 				<div class="white-list--content-item contact-thank">
 					<div class="thank-wrapper" id = "thank-wrapper">
-						<h2 class="thank-title">You application has been submitted!</h2>
-						<p class="contact-desc">MDL Talent Hub will send the confirmation to your email <br> along with instructions of how to purchase MDL Tokens</p>
+						<h2 class="thank-title">Your whitelist submission is well received.</h2>
+						<p class="contact-desc">The intrsuctions of how to purchase the MDL Tokens to be sent soon is the confirmation that you have passed the whitelist.</p>
+						<p class="contact-desc">For inquiries and support please contact <a href="mailto:support@mdl.life">support@mdl.life</a></p>
 					</div>
 				</div>
 			</div>
@@ -123,7 +127,7 @@
 			<button type="button" class="whitelist-form--back" id="whitelist-form--back">Back</button>
 		</div>
 	</div>
-
+	
 
 
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
