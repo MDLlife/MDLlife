@@ -52,19 +52,25 @@
 				<div class="white-list--content-item personal-information">
 					<div class="personal-information-wrapper">
 						<h2 class="pi-title">Personal information</h2>
-						<form id="main-whitelist-form">
+						<form id="main-whitelist-form" autocomplete="off">
 							<p class="pi-input--wrapper name">
 								<label for="name">Name (Full name as in passport) </label>
 								<input type="text" name = "name" placeholder="Name" id = "pi-input--name" class="check-input pi-input"">
 							</p>
 							<p class="pi-input--wrapper date-birth">
 								<label for="date-birth">Date of birth</label>
-								<input type="text" name = "day" id = "pi-input--day" placeholder="Day" maxlength="2" class="check-input pi-input">
-								<select name="country" id="month"></select>
-								<input type="text" name = "year" id = "pi-input--year" placeholder="Year" maxlength="4" class="check-input pi-input">
+								<!-- <input type="text" name = "day" id = "pi-input--day" placeholder="Day" maxlength="2" class="check-input pi-input">
+								<select name="month" id="month"></select>
+								<input type="text" name = "year" id = "pi-input--year" placeholder="Year" maxlength="4" class="check-input pi-input"> -->
+								<div class="input-group date">
+									<input id = "pi-input--date-birth" type="text" class="form-control" placeholder ="2001-01-01">
+									<div class="input-group-addon">
+										<span class="fas fa-calendar-alt"></span>
+									</div>
+								</div>
 							</p>
 							<p class="pi-input--wrapper country-select">
-									<label >Contry of residence</label>
+									<label >Country of residence</label>
 									<select name="country" id="country"></select>
 									<span class="triangle"></span>
 							</p>
@@ -73,14 +79,15 @@
 								<input type="email" name = "email" placeholder="E-mail" id = "pi-input--email" class="check-input pi-input">
 							</p>
 							<p class="pi-input--wrapper passport-upload">
-								<label for = "passport">Upload passport</label>
+								<label for = "passport">Upload Passport, ID or Driver licence</label>
 								<input type="file" name = "passport" class="pi-input" id = "pi-input--passport">
 								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled" readonly="readonly">
 							</p>
 							<p class="pi-input--wrapper captcha">
-								<label for = "passport">Captcha</label>
-								<div class="captcha-styled" id="captcha-styled"></div>
-								<input type="text" id = "captcha-field" class="check-input captcha-field" maxlength = "6">
+								<div class="g-recaptcha" data-sitekey="6LfaqUsUAAAAAPws04rWkNcgPl_R1WhrOXCC2Byr"></div>
+								<span id = "captcha-error">Confirm that you are not a robot</span>
+								<!-- <div class="captcha-styled" id="captcha-styled"></div>
+								<input type="text" id = "captcha-field" class="check-input captcha-field" maxlength = "6"> -->
 							</p>
 							<input type="submit" id = "hidden-submit-form" class="hidden-submit-form">
 						</form>
@@ -118,7 +125,7 @@
 				<div class="white-list--content-item contact-thank">
 					<div class="thank-wrapper" id = "thank-wrapper">
 						<h2 class="thank-title">Your whitelist submission is well received.</h2>
-						<p class="contact-desc">The intrsuctions of how to purchase the MDL Tokens to be sent soon is the confirmation that you have passed the whitelist.</p>
+						<p class="contact-desc">To initiate the whitelist entry process please confirm your email address via the link sent to your inbox. </p>
 						<p class="contact-desc">For inquiries and support please contact <a href="mailto:support@mdl.life">support@mdl.life</a></p>
 					</div>
 				</div>
@@ -132,7 +139,9 @@
 
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+					<script src='https://www.google.com/recaptcha/api.js'></script>
 					<script src="../js/libs.min.js"></script>
 					<script src="../js/common.js"></script>
+					
 				</body>
 				</html>
