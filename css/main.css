@@ -697,6 +697,10 @@
         font-size: 20px;
         left: 0;
         text-align: center; }
+        #main-header .header__left-part .header__desc.ru {
+          font-size: 16px;
+          width: 90%;
+          margin: 0 auto; }
       #main-header .header__left-part .header__link {
         display: none; }
     #main-header .header__right-part {
@@ -1028,6 +1032,7 @@
         opacity: 0.5;
         margin-bottom: 24px; }
     #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title {
+      position: relative;
       margin-bottom: 24px;
       font-size: 22px;
       text-align: left;
@@ -1035,6 +1040,30 @@
       font-weight: 600;
       letter-spacing: 0.45px;
       color: white; }
+      #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title #icobazar-link {
+        display: block;
+        position: absolute;
+        top: -8px;
+        left: 150px;
+        width: 40px; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title #icobazar-link:hover:before {
+          opacity: 1; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title #icobazar-link:before {
+          content: "ICObazaar.com 4.0 (A)";
+          position: absolute;
+          left: -50px;
+          top: -30px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+          color: white;
+          display: block;
+          width: 160px;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease-out;
+          -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title #icobazar-link img {
+          width: 40px; }
     #wallet .wallet__wrapper .wallet__left-part .start-date {
       position: relative;
       display: inline-block;
@@ -1101,15 +1130,15 @@
       #wallet .wallet__wrapper .wallet__right-part ul li {
         text-align: left;
         font-size: 16px;
-        line-height: 60px;
+        height: 60px;
         opacity: 0.75;
         color: white; }
         #wallet .wallet__wrapper .wallet__right-part ul li:nth-child(1):before {
-          content: "1."; }
+          content: "1.  "; }
         #wallet .wallet__wrapper .wallet__right-part ul li:nth-child(2):before {
-          content: "2."; }
+          content: "2.  "; }
         #wallet .wallet__wrapper .wallet__right-part ul li:nth-child(3):before {
-          content: "3."; }
+          content: "3.  "; }
     #wallet .wallet__wrapper .wallet__right-part .wallet__button {
       position: relative;
       display: inline-block;
@@ -1176,6 +1205,11 @@
           text-align: center; }
         #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title {
           text-align: center; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title #icobazar-link {
+            top: 97px;
+            left: 131px; }
+            #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title #icobazar-link:before {
+              display: none; }
         #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l {
           display: none;
           left: 2%; }
@@ -1247,6 +1281,240 @@
           width: 125px; }
     #wallet .wallet__link {
       left: 0; } }
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.ttf") format("truetype"), url("../fonts/Gilroy-Light.svg#Gilroy-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#income {
+  padding: 20px;
+  position: relative;
+  top: -webkit-calc(100vh - 40px);
+  top: calc(100vh - 40px);
+  z-index: 10003;
+  width: 100%;
+  height: 100vh;
+  min-height: 800px;
+  background-color: #FBFBFB; }
+  #income .income-wrapper {
+    padding-top: 0px;
+    top: 0;
+    position: relative;
+    height: 100%;
+    -webkit-box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.36);
+            box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.36);
+    text-align: center;
+    margin: 0 auto;
+    background-color: white; }
+    #income .income-wrapper .income__content-wrapper {
+      position: absolute;
+      width: 814px;
+      height: 670px;
+      left: 50%;
+      top: 50%;
+      margin-left: -407px;
+      margin-top: -335px; }
+    #income .income-wrapper .income__title {
+      font-family: "Gilroy-Light";
+      font-size: 48px;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.02;
+      letter-spacing: normal;
+      text-align: center;
+      color: #1f0738; }
+    #income .income-wrapper .income-menu {
+      width: 215px;
+      margin: 0 auto; }
+      #income .income-wrapper .income-menu ul {
+        list-style: none;
+        padding-left: 0; }
+        #income .income-wrapper .income-menu ul li {
+          margin-right: 55px;
+          display: inline-block;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 600;
+          color: #1a0a2b;
+          opacity: 0.5;
+          position: relative; }
+          #income .income-wrapper .income-menu ul li.active {
+            opacity: 1; }
+            #income .income-wrapper .income-menu ul li.active:before {
+              content: "";
+              position: absolute;
+              bottom: -6px;
+              width: 100%;
+              height: 2px;
+              background-color: #ff2394; }
+          #income .income-wrapper .income-menu ul li:last-child {
+            margin-right: 0; }
+    #income .income-wrapper .income__separator {
+      width: 60px;
+      height: 3px;
+      background-color: #ff2394;
+      margin: 45px auto 45px; }
+    #income .income-wrapper .income-cards {
+      position: relative;
+      top: 65px;
+      list-style-type: none;
+      padding: 0;
+      max-width: 814px;
+      height: 412px; }
+    #income .income-wrapper .income-card {
+      width: 814px;
+      height: 412px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 2;
+      background: white;
+      -webkit-border-radius: 0px;
+              border-radius: 0px;
+      padding: 0;
+      -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
+              box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
+      -webkit-transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+          -ms-transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+              transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+      -webkit-transform-origin: 0 0;
+          -ms-transform-origin: 0 0;
+              transform-origin: 0 0;
+      -webkit-transition: background 0.4s linear, -webkit-transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s;
+      transition: background 0.4s linear, -webkit-transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s;
+      -o-transition: transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s, background 0.4s linear;
+      transition: transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s, background 0.4s linear;
+      transition: transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s, background 0.4s linear, -webkit-transform 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8) 0.1s;
+      cursor: pointer;
+      -webkit-user-select: none;
+         -moz-user-select: none;
+          -ms-user-select: none;
+              user-select: none; }
+      #income .income-wrapper .income-card:last-child {
+        margin-bottom: 0; }
+      #income .income-wrapper .income-card .income-text-wrapper {
+        padding-top: 80px;
+        position: absolute;
+        left: 58px;
+        width: 324px; }
+        #income .income-wrapper .income-card .income-text-wrapper .income-title {
+          margin-bottom: 30px;
+          text-align: left;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 600;
+          font-size: 20px;
+          color: #1f0738; }
+        #income .income-wrapper .income-card .income-text-wrapper .income-desc {
+          font-family: "Open Sans", sans-serif;
+          font-size: 16px;
+          text-align: left;
+          color: #554961; }
+      #income .income-wrapper .income-card .income-image-wrapper {
+        position: absolute;
+        right: 128px;
+        top: 69px;
+        width: 206px;
+        height: 343px; }
+        #income .income-wrapper .income-card .income-image-wrapper .income-image {
+          position: absolute; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-image.marketplace {
+            top: 144px;
+            left: 64px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-image.talent {
+            left: -19px;
+            top: 14px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-image.crowd {
+            right: -18px;
+            top: 13px; }
+        #income .income-wrapper .income-card .income-image-wrapper .income-text, #income .income-wrapper .income-card .income-image-wrapper .income-legend {
+          color: #22093a;
+          font-size: 16px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          position: absolute; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-text.talent, #income .income-wrapper .income-card .income-image-wrapper .income-legend.talent {
+            left: 59px;
+            top: 69px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-text.crowd, #income .income-wrapper .income-card .income-image-wrapper .income-legend.crowd {
+            top: 0;
+            right: -60px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-text.marketplace, #income .income-wrapper .income-card .income-image-wrapper .income-legend.marketplace {
+            top: 200px;
+            right: -35px; }
+        #income .income-wrapper .income-card .income-image-wrapper .income-legend {
+          font-size: 14px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-legend .income-legend-image {
+            margin-right: 8px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-legend.first {
+            bottom: 57px;
+            left: -30px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-legend.second {
+            bottom: 57px;
+            right: -70px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-legend.third {
+            bottom: 32px;
+            left: -30px; }
+    #income .income-wrapper .card--next {
+      z-index: 5;
+      -webkit-transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
+          -ms-transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
+              transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1); }
+    #income .income-wrapper .card--out {
+      -webkit-animation: card-out 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8);
+              animation: card-out 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8);
+      -webkit-transform: translateY(-30px) rotate(0deg) translateX(38px) scale(0.9);
+          -ms-transform: translateY(-30px) rotate(0deg) translateX(38px) scale(0.9);
+              transform: translateY(-30px) rotate(0deg) translateX(38px) scale(0.9);
+      z-index: 1; }
+    #income .income-wrapper .card--current {
+      cursor: auto;
+      -webkit-user-select: auto;
+         -moz-user-select: auto;
+          -ms-user-select: auto;
+              user-select: auto;
+      position: relative;
+      z-index: 10;
+      opacity: 1;
+      -webkit-transform: translateX(0%) scale(1);
+          -ms-transform: translateX(0%) scale(1);
+              transform: translateX(0%) scale(1); }
+
+@-webkit-keyframes card-out {
+  0% {
+    z-index: 20;
+    -webkit-transform: translateY(0px) rotate(0deg);
+            transform: translateY(0px) rotate(0deg); }
+  50% {
+    -webkit-transform: translateY(-120%) rotate(0deg) translateX(-40px);
+            transform: translateY(-120%) rotate(0deg) translateX(-40px); }
+  80% {
+    z-index: 1; }
+  100% {
+    -webkit-transform: translateY(-50px) rotate(0deg) translateX(55px) scale(0.95);
+            transform: translateY(-50px) rotate(0deg) translateX(55px) scale(0.95); } }
+
+@keyframes card-out {
+  0% {
+    z-index: 20;
+    -webkit-transform: translateY(0px) rotate(0deg);
+            transform: translateY(0px) rotate(0deg); }
+  50% {
+    -webkit-transform: translateY(-120%) rotate(0deg) translateX(-40px);
+            transform: translateY(-120%) rotate(0deg) translateX(-40px); }
+  80% {
+    z-index: 1; }
+  100% {
+    -webkit-transform: translateY(-50px) rotate(0deg) translateX(55px) scale(0.95);
+            transform: translateY(-50px) rotate(0deg) translateX(55px) scale(0.95); } }
 
 @font-face {
   font-family: 'Gilroy-ExtraBold';
@@ -1775,7 +2043,9 @@
     font-family: "Open Sans", sans-serif;
     font-size: 14px;
     font-weight: 700;
-    color: white; } }
+    color: white; }
+    #instruments #in-vm.ru {
+      padding-top: 4px; } }
 
 @font-face {
   font-family: 'Gilroy-ExtraBold';
@@ -1935,6 +2205,8 @@
     color: #ff2394;
     text-decoration: none;
     outline: none; }
+    .roadmap-slider-for__item .media.ru {
+      width: 15px; }
 
 .roadmap-slider-for__item.slick-current {
   -webkit-box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.15);
@@ -1954,6 +2226,9 @@
 .roadmap-slider-for__list {
   list-style: none;
   padding: 0; }
+  @media (max-width: 768px) {
+    .roadmap-slider-for__list.ru {
+      width: 310px; } }
 
 .roadmap-slider-for__list-item {
   position: relative;
@@ -3212,7 +3487,7 @@ footer li:nth-child(2) img.community-link {
   width: 100%;
   opacity: 1;
   height: 1000px; }
-  #whitelist-form #whitelist-loader {
+  #whitelist-form #whitelist-loader, #whitelist-form #whitelist-waiting-send {
     position: absolute;
     z-index: 1200;
     top: 0;
@@ -3224,10 +3499,10 @@ footer li:nth-child(2) img.community-link {
     -webkit-transition: all 0.5s ease-out;
     -o-transition: all 0.5s ease-out;
     transition: all 0.5s ease-out; }
-    #whitelist-form #whitelist-loader.loaded {
+    #whitelist-form #whitelist-loader.loaded, #whitelist-form #whitelist-waiting-send.loaded {
       opacity: 0;
       z-index: 0; }
-    #whitelist-form #whitelist-loader #loader-spin {
+    #whitelist-form #whitelist-loader #loader-spin, #whitelist-form #whitelist-waiting-send #loader-spin {
       position: absolute;
       left: 50%;
       top: 50%;
@@ -3241,6 +3516,11 @@ footer li:nth-child(2) img.community-link {
       border-top: 5px solid #c72897;
       -webkit-animation: spin 1.5s linear infinite;
               animation: spin 1.5s linear infinite; }
+  #whitelist-form #whitelist-waiting-send {
+    background-color: rgba(255, 255, 255, 0.7) !important; }
+    #whitelist-form #whitelist-waiting-send #loader-spin {
+      border: 5px solid #6eb3e7;
+      border-top: 5px solid #c72897; }
   #whitelist-form.opened {
     z-index: 9000000000;
     width: 100%;
@@ -3821,6 +4101,9 @@ footer li:nth-child(2) img.community-link {
             font-weight: 400;
             color: #1e092e;
             font-size: 14px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-desc a {
+              color: #1e092e;
+              font-weight: 700; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.contact-thank .contact-link {
             position: absolute;
             bottom: 24px;
