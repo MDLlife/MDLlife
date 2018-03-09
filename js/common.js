@@ -16,6 +16,7 @@ $(document).ready(function(){
     formInit();
     customizeSelect($('#langs-list'));
     circleLang();
+    incomeCards($('.income-cards'));
     AOS.init({
       once: true,
       delay: 100
@@ -168,9 +169,9 @@ function initScrambleText(){
     });
 }
 function initSiteNav() {
-   
+
     $(document).on("scroll", onScroll);
-    
+
     $("#site-nav .site-nav__item").click(function(e){
         e.preventDefault();
         $(document).off("scroll");
@@ -185,7 +186,7 @@ function initSiteNav() {
             $(document).on("scroll", onScroll);
         });
     });
-    
+
 }
 function onScroll(){
     if($(document).scrollTop() > 830){
@@ -312,6 +313,35 @@ function rpModal(){
         $('#rp-modal .video_in-modal').get(0).pause();
 }); 
 }
+function incomeCards(element){
+
+  return element.each(function(){
+
+    var $this = $(this),
+    $cards = $this.find('.income-card'),
+    $current = $cards.filter('.card--current'),
+    $next;
+
+    $cards.on('click',function(){
+      if ( !$current.is(this) ) {
+        $cards.removeClass('card--current card--out card--next');
+        $current.addClass('card--out');
+        $current = $(this).addClass('card--current');
+        $next = $current.next();
+        $next = $next.length ? $next : $cards.first();
+        $next.addClass('card--next');
+    }
+});
+    if ( !$current.length ) {
+      $current = $cards.last();
+      $cards.first().trigger('click');
+  }
+
+  $this.addClass('cards--active');
+
+})
+
+};
 
 // --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
 // Cписок инпутов (где без префикса пи инпут селекты)  $('#pi-input--name') $('#pi-input--day') $('#month') $('#pi-input--year')
@@ -349,84 +379,95 @@ function submitAllForm(){
                 }
             },
             error: function (xhr, exception) {
-            if (xhr.status === 0) {
+             if (xhr.status === 0) {
                 $('#error-send').html('Your form was not sent, please try to send later');
                 $('#error-send').show();
                 console.log('Not connected.\nPlease verify your network connection.');
-            } else if (xhr.status == 404) {
-               $('#error-send').html('Your form was not sent, please try to send later');
-               $('#error-send').show();
-               console.log('The requested page not found. [404]');
-            } else if (xhr.status == 500) {
-                $('#error-send').html('This e-mail has registered');
+             } else if (xhr.status == 404) {
+                $('#error-send').html('Your form was not sent, please try to send later');
+                $('#error-send').show();
+                console.log('The requested page not found. [404]');
+             } else if (xhr.status == 500) {
+                $('#error-send').html('Your form was not sent, please try to send later');
                 $('#error-send').show();
                 console.log('Internal Server Error [500].');
-            } else if (xhr.status == 422) {
-                $('#error-send').html('This e-mail has registered');
-                $('#error-send').show();
-                console.log('Invalid mail [422].');
-            } else if (xhr.status == 413) {
-                $('#error-send').html('Maximum size of attachment - 15mb');
-                $('#error-send').show();
-                console.log('Big file size [413].');
-            } else if (exception === 'parsererror') {
-                $('#error-send').html('Your form was not sent, please try to send later');
-                $('#error-send').show();
-                console.log('Requested JSON parse failed.');
-            } else if (exception === 'timeout') {
-                $('#error-send').html('Your form was not sent, please try to send later');
-                $('#error-send').show();
-                console.log('Time out error.');
-            } else if (exception === 'abort') {
-                $('#error-send').html('Your form was not sent, please try to send later');
-                $('#error-send').show();
-                console.log('Ajax request aborted.');
-            } else {
-                $('#error-send').html('Your form was not sent, please try to send later');
-                $('#error-send').show();
-                console.log('Uncaught Error.\n' + xhr.responseText);
-            }
+             } else if (xhr.status == 422) {
+                 $('#error-send').html('This e-mail has registered');
+                 $('#error-send').show();
+                 setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--email').val('');
+                    $('#pi-input--email').css({'border' : '1px solid #ff0000'});
+                 },600);
+                 console.log('Invalid mail [422].');
+             } else if (xhr.status == 413) {
+                 $('#error-send').html('Maximum size of attachment - 15mb');
+                 $('#error-send').show();
+                  setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--passport').val('');
+                    $('#pi-input--passport').css({'border' : '1px solid #ff0000'});
+                 },600);
+                 console.log('Big file size [413].');
+             } else if (exception === 'parsererror') {
+                 $('#error-send').html('Your form was not sent, please try to send later');
+                 $('#error-send').show();
+                 console.log('Requested JSON parse failed.');
+             } else if (exception === 'timeout') {
+                 $('#error-send').html('Your form was not sent, please try to send later');
+                 $('#error-send').show();
+                 console.log('Time out error.');
+             } else if (exception === 'abort') {
+                 $('#error-send').html('Your form was not sent, please try to send later');
+                 $('#error-send').show();
+                 console.log('Ajax request aborted.');
+             } else {
+                 $('#error-send').html('Your form was not sent, please try to send later');
+                 $('#error-send').show();
+                 console.log('Uncaught Error.\n' + xhr.responseText);
+             }
             $('#whitelist-waiting-send').addClass('loaded');
-        }
-    });
+    }
 });
+    });
+
 }
 
 function initBirthSelect(){
   var name = $('#pi-input--name');
-  var country = $('#country'),
-  month = $('#month');
-  addOptionToMonthSelect(en_month,month);
+  var country = $('#country');
   addOptionToCountrySelect(country_arr,country);
   customizeSelect(country);
-  customizeSelect(month);
   forceLetter(name);
-  forceLetter($('#month-search'));
-  forceNumber($('#pi-input--day'));
-  forceNumber($('#pi-input--year'));
   setFileInput();
-  setCaptcha();
+  // setCaptcha();
   searchSelect();
+  blurCheck();
+  $('.input-group.date').datepicker({
+    format: "yyyy-mm-dd",
+    startView: 2,
+    maxViewMode: 2,
+    autoclose: true,
+    startDate: "1950y 1m 0d",
+    endDate: "2001y 1m 0d"
+});
 }
-function setCaptcha(){
-    var captcha_field = $('#captcha-styled');
-    var tmp = "";
-    for(var i = 0; i < 6; i++){
-        var rand = Math.floor(Math.random() * captcha_arr.length);
-        tmp += captcha_arr[rand];
-    }
-    captcha_field.text(tmp);
-}
+// function setCaptcha(){
+//     var captcha_field = $('#captcha-styled');
+//     var tmp = "";
+//     for(var i = 0; i < 6; i++){
+//         var rand = Math.floor(Math.random() * captcha_arr.length);
+//         tmp += captcha_arr[rand];
+//     }
+//     captcha_field.text(tmp);
+// }
 function checkCaptcha(){
-    var captcha_field = $('#captcha-styled'),
-    captcha_input = $('#captcha-field');
-
-    if(captcha_field.text() == captcha_input.val()){
-        captcha_input.css({'border' : '1px solid #eff0f0'});
-        return true;
-    } else {
-        captcha_input.css({'border' : '1px solid #ff0000'});
+    if (grecaptcha.getResponse() == ""){
+        $('#captcha-error').show();
         return false;
+    } else {
+        $('#captcha-error').hide();
+        return true;
     }
 }
 function addOptionToCountrySelect(arr,select){
@@ -434,36 +475,51 @@ function addOptionToCountrySelect(arr,select){
        select.append('<option value ="'+arr[i]+'">'+arr[i]+'</option>');
    }
 }
-function addOptionToMonthSelect(arr,select){
-    for(var i = 0; i < arr.length; i++){
-        select.append('<option value ="'+i+'">'+arr[i]+'</option>');
-    }
-}
+// function addOptionToMonthSelect(arr,select){
+//     for(var i = 0; i < arr.length; i++){
+//         select.append('<option value ="'+i+'">'+arr[i]+'</option>');
+//     }
+// }
 function checkInputs(){
     var name_input = $('#pi-input--name'),
     email_input = $('#pi-input--email'),
-    date_day = $('#pi-input--day'),
-    date_month = $('#month'),
-    date_year = $('#pi-input--year'),
+    date_birth = $('#pi-input--date-birth'),
     file_input = $('#pi-input--passport'),
     select_country = $('#country');
     $('.white-list--dot[data-dot = "3"]').addClass('disabled');
     $('#whitelist-form--next,.whitelist-form--next').addClass('disabled');
     $('.white-list--btn[data-dir = "up"]').removeClass('disabled');
     $('.white-list--btn[data-dir = "down"]').addClass('disabled');
-    if(file_input.val().length !=0 && name_input.val().length != 0 && email_input.val().length != 0 && select_country.val().length > 0 && date_day.val().length > 0 && date_month.val().length > 0 && date_year.val().length > 0){
+    if(file_input.val().length !=0 && name_input.val().length != 0 && email_input.val().length != 0 && select_country.val().length > 0 && date_birth.val().length > 0){
         //
     } else {
         return;
     }
-    
-    if(checkEmailInput() && checkCaptcha() &&  checkDayInput() && checkYearInput()){
+    if(checkEmailInput() && checkCaptcha()){
         $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
         $('.white-list--dot[data-dot = "3"]').removeClass('disabled');
         $('.white-list--btn').removeClass('disabled');
     }
 }
-
+function blurCheck(){
+    $('#pi-input--email').blur(function(){
+       var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z0-9_.-]{2,30}$/i;
+       if(pattern.test($('#pi-input--email').val())){
+        $('#pi-input--email').css({'border' : '1px solid #eff0f0'});
+        return true;
+    } else {
+        $('#pi-input--email').css({'border' : '1px solid #ff0000'});
+        return false;
+    }
+});
+    $('#pi-input--name').blur(function(){
+        if($(this).val().length != 0){
+            $(this).css({'border' : '1px solid #eff0f0'});
+        } else {
+            $(this).css({'border' : '1px solid #ff0000'});
+        }
+    });
+}
 function submitCheckbox(){
     if($('.term-checkbox-one').is(':checked') && $('.term-checkbox-two').is(':checked') && $('.term-checkbox-three').is(':checked') && $('.term-checkbox-four').is(':checked')){
         $('#submit-btn').removeClass('disabled');
@@ -478,7 +534,7 @@ function submitCheckbox(){
 }
 function checkEmailInput(){
     if($('#pi-input--email').val() != '') {
-      var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z]{2,15}$/i;
+      var pattern = /^([a-z0-9_\.-])+@[a-z0-9-]+\.([a-z]{2,4}\.)?[a-z0-9_\.-]{2,30}$/i;
       if(pattern.test($('#pi-input--email').val())){
         $('#pi-input--email').css({'border' : '1px solid #eff0f0'});
         return true;
@@ -488,31 +544,13 @@ function checkEmailInput(){
     }
 }
 }
-function checkYearInput(){
-    if($('#pi-input--year').val() > 1940 && $('#pi-input--year').val() < 2002){
-        $('#pi-input--year').css({'border' : '1px solid #eff0f0'});
-        return true;
-    } else {
-        $('#pi-input--year').css({'border' : '1px solid #ff0000'});
-        $('#pi-input--year').val('');
-        return false;
-    }
-}
-function checkDayInput(){
-    if($('#pi-input--day').val() > 0 && $('#pi-input--day').val() < 32){
-        $('#pi-input--day').css({'border' : '1px solid #eff0f0'});
-        return true;
-    } else {
-        $('#pi-input--day').css({'border' : '1px solid #ff0000'});
-        $('#pi-input--day').val('');
-        return false;
-    }
-}
 function resetCheck(){
     $('.check-input').each(function(){
         $(this).css({'border' : '1px solid #eff0f0'});
     });
     $('#pi-input--email').css({'border' : '1px solid #eff0f0'});
+    $('#pi-input--date-birth').css({'border' : '1px solid #eff0f0'});
+     $('#captcha-error').hide();
 }
 
 function checkboxEvents(){
@@ -689,42 +727,38 @@ function btnNext(item){
       if($(this).hasClass('disabled')){
         return;
     }
-    if($('.white-list--content-item.current').attr('data-step') == 5){
-      return;
-  }
-  var current = $('.white-list--content-item.current');
-  current.next().addClass('current');
-  current.removeClass('current');
-  downSlide(item);
-  currentDot();
+    var current = $('.white-list--content-item.current');
+    current.next().addClass('current');
+    current.removeClass('current');
+    downSlide(item);
+    currentDot();
        //listenCurrent();
    });
 }
 function btnBack(item){
 
     $('#whitelist-form--back,.whitelist-form--back').click(function(){
-        if($('input[name = "institutional"]').is(':checked')){
-            if($('.white-list--content-item.current').attr('data-step') == 4){
-              clickOnChosenDot(1);
-              return;
-          }
-      }
-      if($(this).hasClass('disabled')){
+      if($('input[name = "institutional"]').is(':checked')){
+        if($('.white-list--content-item.current').attr('data-step') == 4){
+          clickOnChosenDot(1);
           return;
       }
-      if($(this).hasClass('waiting')){
-          return;
-      }
-      if($('.white-list--content-item.current').attr('data-step') == 1){
-          return;
-      }
-      var current = $('.white-list--content-item.current');
-      current.prev().addClass('current');
-      current.removeClass('current')
-      upSlide(item);
-      currentDot();
-  });
-    
+  }
+  if($(this).hasClass('disabled')){
+      return;
+  }
+  if($(this).hasClass('waiting')){
+      return;
+  }
+  if($('.white-list--content-item.current').attr('data-step') == 1){
+      return;
+  }
+  var current = $('.white-list--content-item.current');
+  current.prev().addClass('current');
+  current.removeClass('current')
+  upSlide(item);
+  currentDot();
+});
 }
 function setContentPosition(item,position){
     var percent = 100;
@@ -1724,8 +1758,6 @@ randomChar() {
 }
 }
 
-
-
 /*---------------------*/
 /*---------------------*/
 /*---------------------*/
@@ -1736,7 +1768,7 @@ jQuery(document).ready(function($){
     //this applies only if secondary nav is below intro section
     belowNavHeroContent = $('.sub-nav-hero'),
     headerHeight = mainHeader.height();
-    
+
   //set scrolling variables
   var scrolling = false,
   previousTop = 0,
@@ -1800,7 +1832,7 @@ function checkStickyNavigation(currentTop) {
           secondaryNavigation.removeClass('slide-up').addClass('fixed'); 
           belowNavHeroContent.addClass('secondary-nav-fixed');
       }
-      
+
   } else {
         //if scrolling down...  
         if( currentTop > secondaryNavOffsetTop + scrollOffset ) {
@@ -1841,11 +1873,11 @@ function customizeSelect(v){
        var $styledSelect = $this.next('div.select-styled');
        $styledSelect.text($this.children('option').eq(0).text());
    }
-   
+
    var $list = $('<ul />', {
     'class': ''+id+' select-options'
 }).insertAfter($styledSelect);
-   
+
    for (var i = 0; i < numberOfOptions; i++) {
     $('<li />',{
         'class': $this.children('option').eq(i).attr('class'),
@@ -1880,7 +1912,7 @@ $styledSelect.click(function(e) {
 
 $listItems.click(function(e) {
     e.stopPropagation();
-    
+
     if(id === "country"){
         $styledSelect.val($(this).text()).removeClass('active');
     } else {
@@ -1899,5 +1931,6 @@ $(document).click(function() {
     $styledSelect.removeClass('active');
     $list.hide();
 });
+
 });
 }
