@@ -3976,6 +3976,8 @@ footer li:nth-child(2) img.community-link {
           padding-top: 21px;
           padding-right: 59px;
           padding-bottom: 80px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .fa-sync-alt, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .fa-volume-up {
+            color: #1d082d !important; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #hidden-submit-form {
             display: none; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information label {
@@ -4006,7 +4008,7 @@ footer li:nth-child(2) img.community-link {
             font-family: "Gilroy-ExtraBold";
             font-size: 24px;
             color: #c72897; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field {
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .captcha-field {
             display: inline-block;
             vertical-align: top;
             width: 48%;
@@ -4022,8 +4024,16 @@ footer li:nth-child(2) img.community-link {
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-field:focus {
             border: 1px solid #c035a0 !important; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled {
-            padding-top: 12px;
+            padding-top: 0;
             margin-right: 2.5%; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #captcha-styled #captcha-image {
+              width: 100%;
+              max-height: 55px; }
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .captchaReloadButton, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .captchaPlayButton {
+            position: relative;
+            margin-top: 10px;
+            top: 2px;
+            cursor: pointer; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--day, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--year {
             padding-top: 7px;
             width: 30%;
@@ -4571,7 +4581,7 @@ body {
       padding-left: 0;
       list-style: none; }
       #menu .menu-list ul li {
-        line-height: 56px; }
+        line-height: 50px; }
         #menu .menu-list ul li a {
           font-family: "Gilroy-Light";
           color: white;

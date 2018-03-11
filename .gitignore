@@ -1,1 +1,10 @@
 .DS_Store
+/.idea
+/node-modules
+/config.yml
+/uploads
+
+/backend/backend
+/backend/database.db
+/backend/config.yml
+/backend/uploads

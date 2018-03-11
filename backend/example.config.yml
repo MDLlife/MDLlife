@@ -1,0 +1,13 @@
+AwsKey: string
+AwsSecret: string
+AwsRegion: string
+
+DatabaseDriver: sqlight3
+DatabaseDSN: ./database.db
+
+NoReplyEmail: string
+ReplyEmail: string
+
+MaxFileUploadSizeMb: 10
+
+Port: :8081
