@@ -53,11 +53,11 @@
 					<div class="personal-information-wrapper">
 						<h2 class="pi-title">Personal information</h2>
 						<form id="main-whitelist-form" autocomplete="off">
-							<p class="pi-input--wrapper name">
+							<div class="pi-input--wrapper name">
 								<label for="name">Name (Full name as in passport) </label>
-								<input type="text" name = "name" placeholder="Name" id = "pi-input--name" class="check-input pi-input"">
-							</p>
-							<p class="pi-input--wrapper date-birth">
+								<input type="text" name = "name" placeholder="Name" id = "pi-input--name" class="check-input pi-input">
+							</div>
+							<div class="pi-input--wrapper date-birth">
 								<label for="date-birth">Date of birth</label>
 								<!-- <input type="text" name = "day" id = "pi-input--day" placeholder="Day" maxlength="2" class="check-input pi-input">
 								<select name="month" id="month"></select>
@@ -68,31 +68,29 @@
 										<span class="fas fa-calendar-alt"></span>
 									</div>
 								</div>
-							</p>
-							<p class="pi-input--wrapper country-select">
+							</div>
+							<div class="pi-input--wrapper country-select">
 									<label >Country of residence</label>
 									<select name="country" id="country"></select>
 									<span class="triangle"></span>
-							</p>
-							<p class="pi-input--wrapper email">
+							</div>
+							<div class="pi-input--wrapper email">
 								<label for="email">Email</label> 
 								<input type="email" name = "email" placeholder="E-mail" id = "pi-input--email" class="check-input pi-input">
-							</p>
-							<p class="pi-input--wrapper passport-upload">
+							</div>
+							<div class="pi-input--wrapper passport-upload">
 								<label for = "passport">Upload Passport, ID or Driver licence</label>
 								<input type="file" name = "passport" class="pi-input" id = "pi-input--passport">
 								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled" readonly="readonly">
-							</p>
-							<p class="pi-input--wrapper captcha">
-								<!-- <div class="g-recaptcha" data-sitekey="6LfaqUsUAAAAAPws04rWkNcgPl_R1WhrOXCC2Byr"></div>
-								<span id = "captcha-error">Confirm that you are not a robot</span> -->
+							</div>
+							<div class="pi-input--wrapper captcha">
 								<div class="captcha-styled" id="captcha-styled"><img id = "captcha-image" alt="Captcha image"></div>
 								<input type = "text" name="captchaSolution" id = "pi-input--captchaSolution" class="check-input captcha-field">
 								<span class = "captchaReloadButton fas fa-sync-alt" onclick="reloadCaptcha()"></span> | <span onclick="playAudioCaptcha()" class=" captchaPlayButton fas fa-volume-up"></span>
 								<audio id = "captcha-audio" style="display:none" preload=none>
 								</audio>
 								<input type= "hidden" name = "captchaId" id = "captchaId"><br>
-							</p>
+							</div>
 							<input type="submit" id = "hidden-submit-form" class="hidden-submit-form">
 						</form>
 						<button type="button" class="whitelist-form--next mob">Next</button>
