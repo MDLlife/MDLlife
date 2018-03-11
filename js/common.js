@@ -435,7 +435,6 @@ function submitAllForm(){
                 setCaptcha();
             },
             success: function (data) {
-                console.log(data);
                 if (data.success) {
                     $('.white-list--btn').removeClass('disabled');
                     $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
@@ -472,23 +471,25 @@ function submitAllForm(){
              },600);
              console.log('Internal Server Error [500].');
              } else if (xhr.status == 422) {
+               var json = JSON.parse(xhr.responseText);
+               if(json && json.errors) {
+                 setTimeout(function(){
+                   clickOnChosenDot(2);
+                   $.each(json.errors, function (key, err) {
+                     applyError(key, err);
+                   })
+                 },600);
+               } else {
                  $('#error-send').html('Your form was not sent, please try to send later');
                  $('#error-send').show();
-                 setTimeout(function(){
-                    clickOnChosenDot(2);
-                    $('#pi-input--email').val('');
-                    $('#pi-input--email').css({'border' : '1px solid #ff0000'});
-                    $('#pi-input--captchaSolution').val('');
-                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
-                 },600);
-                 console.log('Invalid mail [422].');
+               }
              } else if (xhr.status == 413) {
                  $('#error-send').html('Maximum size of attachment - 15mb');
                  $('#error-send').show();
                   setTimeout(function(){
                     clickOnChosenDot(2);
                     $('#pi-input--passport').val('');
-                    $('#pi-input--passport').css({'border' : '1px solid #ff0000'});
+                    applyError('passport', 'Maximum size of attachment - 15mb')
                  },600);
                  console.log('Big file size [413].');
              } else if (exception === 'parsererror') {
@@ -535,6 +536,34 @@ function submitAllForm(){
 
 }
 
+function applyError(fieldName, err) {
+  fieldName = fieldName.charAt(0).toLowerCase() + fieldName.slice(1);
+  var
+    $input = $('#main-whitelist-form').find('[name="'+ fieldName +'"]'),
+    $container = $input.closest('.pi-input--wrapper'),
+    $helper = $container.find('.helper');
+
+  if(!$helper.length) {
+    $helper = $('<span class="helper"/>');
+    $container.append($helper);
+  }
+
+  $helper.text(err);
+  $container.addClass('has-error');
+}
+
+function removeErrorsOnChange() {
+  var
+    $form = $('#main-whitelist-form'),
+    removeErrorClass = function() {
+      var $this = $(this);
+      $this.closest('[class*="--wrapper"]').removeClass('has-error')
+    };
+
+  $form.find('input').on('click', removeErrorClass);
+  $form.find('select').on('click change', removeErrorClass);
+}
+
 var captcha_id = '';
 function initBirthSelect(){
   var name = $('#pi-input--name');
@@ -562,6 +591,7 @@ function setCaptcha(){
             $('#captcha-image').attr('src','/ajax/captcha/'+captcha_id+'.png');
             $('#captcha-audio').attr('src','/ajax/captcha/'+captcha_id+'.wav?lang=en');
             $('#captchaId').val(captcha_id);
+            $('#pi-input--captchaSolution').val(''); // reset input for new captcha
         }
     });
 }
@@ -764,7 +794,7 @@ function formSliderInit(){
   btnNext(content_item);
   btnBack(content_item);
   clickOnDot();
-  $('#whitelist-form').mousemove(function(){
+  $('#whitelist-form').on('click keyup paste', function(){
     setAccess();
 });
   
@@ -1050,6 +1080,7 @@ function formInit(){
     $('.white-list--dot').addClass('disabled');
     submitAllForm();
     formSliderInit();
+    removeErrorsOnChange();
    // searchSelect();
 }
 /*---------------------*/

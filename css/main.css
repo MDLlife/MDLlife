@@ -1,4 +1,25 @@
 @charset "UTF-8";
+
+.pi-input--wrapper {
+  margin-bottom: 1rem;
+
+}
+
+.pi-input--wrapper.has-error input,
+.pi-input--wrapper.has-error .input-group-addon {
+  border-color: red !important;
+}
+
+.pi-input--wrapper.has-error .helper {
+  display: block;
+  color: red;
+  font-size: 12px;
+}
+
+.pi-input--wrapper .helper {
+  display: none;
+}
+
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url("../fonts/Gilroy-ExtraBold.eot");
