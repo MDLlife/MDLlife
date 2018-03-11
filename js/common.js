@@ -559,8 +559,9 @@ function setCaptcha(){
     $.get("/ajax/captcha/id", function(data, status){
         if(status === "success"){
             captcha_id = data;
-            $('#captcha-image').attr('src','/ajax/captcha/'+data+'.png');
-            $('#captcha-audio').attr('src','/ajax/captcha/'+data+'.wav?lang=en')
+            $('#captcha-image').attr('src','/ajax/captcha/'+captcha_id+'.png');
+            $('#captcha-audio').attr('src','/ajax/captcha/'+captcha_id+'.wav?lang=en');
+            $('#captchaId').val(captcha_id);
         }
     });
 }
