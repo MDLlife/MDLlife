@@ -432,6 +432,7 @@ function submitAllForm(){
             beforeSend: function(){
                 $('#error-send').hide();
                 $('#whitelist-waiting-send').removeClass('loaded');
+                setCaptcha();
             },
             success: function (data) {
                 console.log(data);
@@ -446,14 +447,29 @@ function submitAllForm(){
              if (xhr.status === 0) {
                 $('#error-send').html('Your form was not sent, please try to send later');
                 $('#error-send').show();
+                setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+                },600);
                 console.log('Not connected.\nPlease verify your network connection.');
              } else if (xhr.status == 404) {
              $('#error-send').html('Your form was not sent, please try to send later');
-              $('#error-send').show();
+             $('#error-send').show();
+             setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+             },600);
              console.log('The requested page not found. [404]');
              } else if (xhr.status == 500) {
              $('#error-send').html('Your form was not sent, please try to send later');
              $('#error-send').show();
+             setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+             },600);
              console.log('Internal Server Error [500].');
              } else if (xhr.status == 422) {
                  $('#error-send').html('Your form was not sent, please try to send later');
@@ -478,18 +494,38 @@ function submitAllForm(){
              } else if (exception === 'parsererror') {
                  $('#error-send').html('Your form was not sent, please try to send later');
                  $('#error-send').show();
+                 setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+                 },600);
                  console.log('Requested JSON parse failed.');
              } else if (exception === 'timeout') {
                  $('#error-send').html('Your form was not sent, please try to send later');
                  $('#error-send').show();
+                 setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+                 },600);
                  console.log('Time out error.');
              } else if (exception === 'abort') {
                  $('#error-send').html('Your form was not sent, please try to send later');
                  $('#error-send').show();
+                 setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+                 },600);
                  console.log('Ajax request aborted.');
              } else {
                  $('#error-send').html('Your form was not sent, please try to send later');
                  $('#error-send').show();
+                 setTimeout(function(){
+                    clickOnChosenDot(2);
+                    $('#pi-input--captchaSolution').val('');
+                    $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
+                 },600);
                  console.log('Uncaught Error.\n' + xhr.responseText);
              }
             $('#whitelist-waiting-send').addClass('loaded');
@@ -519,7 +555,6 @@ function initBirthSelect(){
     endDate: "2001y 1m 0d"
 });
 }
-
 function setCaptcha(){
     $.get("/ajax/captcha/id", function(data, status){
         if(status === "success"){
@@ -548,9 +583,11 @@ function reloadCaptcha() {
     return false;
 }
 function checkCaptcha(){
-    if(captcha_id == $('#pi-input--captchaSolution').val()){
+    if($('#pi-input--captchaSolution').val().length == 6){
+        $('#pi-input--captchaSolution').css({'border' : '1px solid #eff0f0'});
         return true;
     } else {
+        $('#pi-input--captchaSolution').css({'border' : '1px solid #ff0000'});
         return false;
     }
 }
@@ -566,7 +603,6 @@ function checkInputs(){
     date_birth = $('#pi-input--date-birth'),
     file_input = $('#pi-input--passport'),
     select_country = $('#country');
-    console.log(select_country.val())
     $('.white-list--dot[data-dot = "3"]').addClass('disabled');
     $('#whitelist-form--next,.whitelist-form--next').addClass('disabled');
     $('.white-list--btn[data-dir = "up"]').removeClass('disabled');
