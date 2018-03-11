@@ -522,9 +522,9 @@ function initBirthSelect(){
 
 function setCaptcha(){
     $.get("/ajax/captcha/id", function(data, status){
-        if(status.success){
+        if(status === "success"){
             captcha_id = data;
-            $('#captcha-image').attr('src','/ajax/captcha/'+data+'.png?params=');
+            $('#captcha-image').attr('src','/ajax/captcha/'+data+'.png');
             $('#captcha-audio').attr('src','/ajax/captcha/'+data+'.wav?lang=en')
         }
     });
