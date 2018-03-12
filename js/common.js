@@ -84,8 +84,8 @@ $(document).ready(function(){
 /*----------Variables-----------*/
 // Form select birthday English
 const en_year = ['Year','1950','1951','1952','1953','1954','1955','1956','1957','1958','1959','1960','1961','1962','1963','1964','1965','1966','1967','1968','1969','1970','1971','1972','1973','1974','1975','1976','1977','1978','1979','1980','1981','1982','1983','1984','1985','1986','1987','1988','1989','1990','1991','1992','1993','1994','1995','1996','1997','1998','1999','2000','2001','2002','2003','2004','2005','2006','2007','2008','2009','2010','2011','2012','2013','2014','2015','2016','2017'], 
-en_month = ['Month','January','February','March','April','May','June','July','August','September','October','November','December'],
-en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
+      en_month = ['Month','January','February','March','April','May','June','July','August','September','October','November','December'],
+      en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31'];
   // Countries
   const country_arr = ["","Afghanistan", "Algeria", "American Samoa", "Angola", "Anguilla", "Antartica", "Antigua and Barbuda", "Argentina", "Armenia", "Aruba", "Ashmore and Cartier Island", "Australia", "Austria", "Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", "Belgium", "Belize", "Benin", "Bermuda", "Bhutan", "Bolivia", "Botswana", "Brazil", "British Virgin Islands", "Brunei", "Bulgaria", "Burkina Faso", "Burma", "Cambodia", "Cameroon", "Canada", "Cape Verde", "Cayman Islands", "Central African Republic", "Chad", "Chile", "Christmas Island", "Clipperton Island", "Cocos (Keeling) Islands", "Colombia", "Comoros", "Cook Islands", "Costa Rica", "Cote d'Ivoire", "Croatia", "Cyprus", "Czeck Republic", "Denmark", "Djibouti", "Dominica", "Dominican Republic", "Ecuador", "Egypt", "El Salvador", "Equatorial Guinea", "Estonia", "Ethiopia", "Europa Island", "Falkland Islands (Islas Malvinas)", "Faroe Islands", "Fiji", "Finland", "France", "French Guiana", "French Polynesia", "French Southern and Antarctic Lands", "Gabon", "Gambia, The", "Gaza Strip", "Georgia", "Germany", "Ghana", "Gibraltar", "Glorioso Islands", "Greece", "Greenland", "Grenada", "Guadeloupe", "Guam", "Guatemala", "Guernsey", "Guinea", "Guyana", "Haiti", "Heard Island and McDonald Islands", "Holy See (Vatican City)", "Honduras", "Hong Kong", "Howland Island", "Hungary", "Iceland", "India", "Indonesia", "Ireland", "Ireland, Northern", "Israel", "Italy", "Jamaica", "Jan Mayen", "Japan", "Jarvis Island", "Jersey", "Johnston Atoll", "Jordan", "Juan de Nova Island", "Kazakhstan", "Kenya", "Kiribati", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lesotho", "Liberia", "Liechtenstein", "Lithuania", "Luxembourg", "Macau", "Madagascar", "Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Man, Isle of", "Marshall Islands", "Martinique", "Mauritania", "Mauritius", "Mayotte", "Mexico", "Micronesia, Federated States of", "Midway Islands", "Moldova", "Monaco", "Mongolia", "Montserrat", "Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "Netherlands Antilles", "New Caledonia", "New Zealand", "Nicaragua", "Niger", "Nigeria", "Niue", "Norfolk Island", "Northern Mariana Islands", "Norway", "Oman", "Pakistan", "Palau", "Panama", "Papua New Guinea", "Paraguay", "Peru", "Philippines", "Pitcaim Islands", "Poland", "Portugal", "Puerto Rico", "Qatar", "Reunion", "Romainia", "Russia", "Rwanda", "Saint Helena", "Saint Kitts and Nevis", "Saint Lucia", "Saint Pierre and Miquelon", "Saint Vincent and the Grenadines", "Samoa", "San Marino", "Sao Tome and Principe", "Saudi Arabia", "Scotland", "Senegal", "Seychelles", "Sierra Leone", "Singapore", "Slovakia", "Slovenia", "Solomon Islands", "South Africa", "South Georgia and South Sandwich Islands", "Spain", "Spratly Islands", "Sri Lanka", "Suriname", "Svalbard", "Swaziland", "Sweden", "Switzerland", "Taiwan", "Tajikistan", "Tanzania", "Thailand", "Tobago", "Toga", "Tokelau", "Tonga", "Trinidad", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda", "Ukraine", "United Arab Emirates", "United Kingdom", "Uruguay", "Uzbekistan", "Vanuatu", "Vietnam", "Virgin Islands", "Wales", "Wallis and Futuna", "West Bank", "Western Sahara", "Zambia"];
   const captcha_arr = ['1','2','3','4','5','6','7','8','9','0','a','b','c','q','w','e','r','t','y','u','i','o','p','s','d','f','g','h','j','k','l','z','x','c','v','b','n','m'];
@@ -299,7 +299,7 @@ function rpModal(){
   $('.rp-video-link').click(function(e){
     e.preventDefault();
     var path = $(this).attr('data-media');
-    var video_template = '<video class="video_in-modal" controls src="'+path+'"></video>'
+    var video_template = '<video class="video_in-modal" preload = "metadata" controls src="'+path+'"></video>'
     $('.modal-body').html(video_template);
 });
   $('.rp-image-link').click(function(e){
@@ -1433,7 +1433,6 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 // Validate & submit process
 //--------------------------
 (function($) {
-    if(window.location.path = ""){
         var dateFormat;
         if( $("input[name='hdn_new_format']").length )
         {
@@ -1666,6 +1665,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                             color = '#ffffff';
                             setTimeout(function(){
                               $('.message_area').remove();
+                              $('#theform #email').attr('placeholder','E-mail');
                               $('#sib_embed_signup').animate({
                                   width: "150px",
                                   opacity: "0"
@@ -1681,7 +1681,15 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 
                         var messageHtml = '<div class="message_area" style="background-color: ' + backColor + ';border:1px solid ' + borderColor + '; color: ' + color + '"><button type="button" class="close">x</button>';
                         if (data.result.result == 'success' || data.result.result == 'OK') {
-                            messageHtml += data.result.succcess_msg;
+                            if(window.location.pathname.indexOf('ru') < 0 && window.location.pathname.indexOf('zh') < 0){
+                                messageHtml += 'Awesome!<br>Now you are subsribed on MDL News'
+                            }
+                            if(window.location.pathname.indexOf('ru') > 0){
+                                messageHtml += 'Ура!<br>Теперь вы подписаны на MDL новости'
+                            }
+                            if(window.location.pathname.indexOf('zh') > 0){
+                                messageHtml += '这么好！<br>现在您订阅MDL的新闻'
+                            }
                             if (data.result.smsExist != ''){
                                 var smsMSG = '';
                                 var smsNumber = data.result.smsExist;
@@ -1848,8 +1856,8 @@ $('#'+sib_prefix+'_embed_signup input[type=radio]').on('click',function(){
     }
     // set last submit to avoid refresh post
     $("#hdn_email_txt").val(new Date().getTime());
-}
 }(jQuery));
+
 
 
 

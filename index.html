@@ -15,7 +15,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="css/libs.min.css">
-	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/main.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="img/favicon.ico" type="image/x-icon" />
 	<!-- Yandex.Metrika counter -->
@@ -71,18 +71,6 @@
 	</head>
 <body>
 	<!-- Form -->
-	<div class="modal fade" id="comingSoon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<img src="img/popup-close.svg" alt="">
-				</button>
-				<div class="modal-body">
-					Coming soon
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="modal fade" id="mentorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -147,10 +135,8 @@
 					<form class="description" id="theform1" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1" onsubmit="return false;">
 						<input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden" name="listid" id="listid1" value="2"><input type="hidden" name="from_url" id="from_url1" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt1" value="">
 						<div class="sib-container rounded">
-
 							<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
 							<div class="view-messages" style=" margin:5px 0;"> </div>
-							<!-- an email as primary -->
 							<div class="primary-group email-group forms-builder-group ui-sortable" style="">
 								<div class="row mandatory-email" style="position: relative">
 									<input type="text" name="email" id="email1" value="" placeholder="E-mail">
@@ -158,15 +144,10 @@
 									<div style="clear:both;"></div>
 									<div class="hidden-btns">
 										<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
-										<!--<a class="btn btn-danger delete"  href="#"><i class="fa fa-trash-o fa-inverse"></i></a>-->
 									</div>
 								</div>
-
 							</div>
 							<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
-
-							<!-- end of primary -->
-
 						</div>
 					</form>
 				</div>
@@ -184,19 +165,10 @@
 
 				</ul>
 				<a href="http://mdl.wtf/" class="mobile-blog" target="_blank">Blog</a>
-				<a href="whitepaper/WhitePaper_eng_1.3.1.pdf" class="mobile-wp" target="_blank">Whitepaper</a>
+				<a href="whitepaper/WhitePaper_eng_1.4.1.pdf" class="mobile-wp" target="_blank">Whitepaper</a>
 			</div>
 		</div>
 	</div>
-	<!-- <div id="preloader">
-		<video class="preloader__video" preload="true">
-			<source src="img/preload.mp4" type="video/mp4">
-			</video>
-		</div> -->
-<!-- 	<div class="hd__border-r">	</div>
-	<div class="hd__border-l">	</div>
-	<div class="hd__border-t">	</div> -->
-	
 	<nav id="nav-main" class="cd-auto-hide-header">
 		<div class="nav__logo">
 			<img src="img/website-parts/nav/logo_mdl_nav.svg" alt="MDL logo" class="nav__logo--image dec">
@@ -217,7 +189,7 @@
 				</select>
 			</div>
 			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/">Blog</a>
-			<a class="nav__link-lang--wp " target = "_blank" href="whitepaper/WhitePaper_eng_1.3.1.pdf">Whitepaper</a>
+			<a class="nav__link-lang--wp " target = "_blank" href="whitepaper/WhitePaper_eng_1.4.1.pdf">Whitepaper</a>
 		</div>
 	</nav>
 
@@ -238,7 +210,6 @@
 
 								<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
 								<div class="view-messages" style=" margin:5px 0;"> </div>
-								<!-- an email as primary -->
 								<div class="primary-group email-group forms-builder-group ui-sortable" style="">
 									<div class="row mandatory-email" style="position: relative">
 										<input type="text" name="email" id="email" value="" placeholder="E-mail">
@@ -246,15 +217,11 @@
 										<div style="clear:both;"></div>
 										<div class="hidden-btns">
 											<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
-											<!--<a class="btn btn-danger delete"  href="#"><i class="fa fa-trash-o fa-inverse"></i></a>-->
 										</div>
 									</div>
 
 								</div>
 								<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
-
-								<!-- end of primary -->
-
 							</div>
 						</form>
 					</div>
@@ -263,6 +230,7 @@
 					var sib_prefix = 'sib';
 					var sib_dateformat = 'mm-dd-yyyy';
 				</script>
+				<!-- <script type='text/javascript' src='https://my.sendinblue.com/public/theme/version4/assets/js/src/subscribe-validate.js?v=1509617036'></script> -->
 				<!-- End : SendinBlue Signup Form HTML Code -->
 				<button id = "header__link" class="header__link" type="button" data-editfield="subscribe" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><svg class="liquid-button"
 					data-text="GET UPDATES"
@@ -336,7 +304,6 @@
 				</div>
 				<section id="about">
 					<img src="img/decorative-elements/bubble-vertical.png" alt="" class="b-h-a">
-					<img src="img/decorative-elements/hd.gif" alt="" class="b-h-a-t">
 					<div class="about__wrapper">
 						<img src="img/website-parts/about/who_we_are_1.svg" alt="" class="about-background-image one">
 						<img src="img/website-parts/about/who_we_are_2.svg" alt="" class="about-background-image two">
@@ -502,8 +469,6 @@
 
 					<div class="section-wrapper-second">
 						<section id="problem">
-							<img class="problem__bubble" src="img/decorative-elements/hd.gif" alt="">
-							<img src="img/decorative-elements/hd.gif" alt="" class="problem__bubble-second">
 							<h2 class="problem__title" data-aos = "fade-up" data-aos-duration = "1200">Market needs</h2>
 							<div class="problem__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
 							<div class="problem__item--wrapper">
@@ -547,8 +512,6 @@
 						</section>
 
 						<section id="instruments">
-							<img src="img/decorative-elements/hd.gif" alt="" class="instruments__bubble">
-							<img src="img/decorative-elements/hd.gif" alt="" class="instruments__bubble-second">
 							<h2 class="instruments__title" data-aos = "fade-up" data-aos-duration = "1200">Instruments</h2>
 							<div class="instruments__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
 							<div class="instruments__box--wrapper">
@@ -891,7 +854,7 @@
 									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500" data-toggle="modal" data-target="#mentorsModal">
 										<div class="mentor__item--photo-wrapper">
 											<img src="img/website-parts/mentors/m-3.png" alt="" class="mentor__item--photo">
-											<p class="mentor__item--desc">The creator of Skycoin</p>
+											<p class="mentor__item--desc">Synth, one of the earliest developers behind Bitcoin, started Skycoin 8 years ago with a vision of creating a new, decentralized Internet. He sits on the advisory boards of several cryptocurrency projects. Synth has a background in mathematics, distributed systems, and symbolic logic.</p>
 											<a href="https://www.skycoin.net/" class="mentor__item--linkin"></a>
 											<a href="#mentors" class="mentor__item--link">Biography</a>
 										</div>
@@ -936,7 +899,7 @@
 								<div class="container">
 									<div class="row">
 										<div class="link-f--wrapper">
-											<a class = "link-f" target = "_blank" href="whitepaper/WhitePaper_eng_1.3.1.pdf">White paper</a>
+											<a class = "link-f" target = "_blank" href="whitepaper/WhitePaper_eng_1.4.1.pdf">White paper</a>
 											<a class = "link-f" target = "_blank" href="http://mdl.wtf">Blog</a>
 										</div>
 										<ul>

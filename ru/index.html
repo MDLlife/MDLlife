@@ -15,7 +15,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="../css/libs.min.css">
-	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/main.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<!-- Yandex.Metrika counter -->
@@ -72,18 +72,6 @@
 </head>
 <body>
 	<!-- Modal -->
-	<div class="modal fade" id="comingSoon" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-		<div class="modal-dialog">
-			<div class="modal-content">
-				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-					<img src="../img/popup-close.svg" alt="">
-				</button>
-				<div class="modal-body">
-					Coming soon
-				</div>
-			</div>
-		</div>
-	</div>
 	<div class="modal fade" id="mentorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -185,7 +173,7 @@
 
 				</ul>
 				<a href="http://mdl.wtf/" class="mobile-blog" target="_blank">Блог</a>
-				<a href="whitepaper/WhitePaper_ru_1.0.2-RU.pdf" class="mobile-wp" target="_blank">Белая книга</a>
+				<a href="whitepaper/WhitePaper_ru_1.0.2-RU.pdf" class="mobile-wp" target="_blank">Whitepaper</a>
 			</div>
 		</div>
 	</div>
@@ -218,7 +206,7 @@
 				</select>
 			</div>
 			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/">Блог</a>
-			<a class="nav__link-lang--wp " target = "_blank" href="../whitepaper/WhitePaper_ru_1.0.2-RU.pdf">Белая книга</a>
+			<a class="nav__link-lang--wp " target = "_blank" href="../whitepaper/WhitePaper_ru_1.0.2-RU.pdf">Whitepaper</a>
 		</div>
 	</nav>
 
@@ -266,7 +254,7 @@
 				</script>
 				<!-- End : SendinBlue Signup Form HTML Code -->
 				<button id = "header__link" class="header__link" type="button" data-editfield="subscribe" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="500"><svg class="liquid-button"
-					data-text="ПОДПИСАТСЯ"
+					data-text="ПОДПИСАТЬСЯ"
 					data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 					data-color1="rgb(110, 179, 231)"
 					data-color2="#c72897"
@@ -295,15 +283,15 @@
 						</div>
 						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1100">40% скидка на 10% MDL</p>
 						<p class="header-timer_about half-opacity" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">20% скидка на 20% MDL</p>
-						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="form/"><svg class="liquid-button"
-							data-text="БЕЛЫЙ СПИСОК"
+						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="../form/"><svg class="liquid-button"
+							data-text="JOIN WHITELIST"
 							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 							data-color1="rgb(110, 179, 231)"
 							data-color2="#ffffff"
 							data-color3="#ffffff"
 							data-width = "163"
 							data-height = "49"
-							data-text-color = "#c72897"></svg><span class="mobile">БЕЛЫЙ СПИСОК</span></a>
+							data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a>
 						</div>
 					</div>
 				</div>
@@ -337,7 +325,6 @@
 				</div>
 				<section id="about">
 					<img src="../img/decorative-elements/bubble-vertical.png" alt="" class="b-h-a">
-					<img src="../img/decorative-elements/hd.gif" alt="" class="b-h-a-t">
 					<div class="about__wrapper">
 						<img src="../img/website-parts/about/who_we_are_1.svg" alt="" class="about-background-image one">
 						<img src="../img/website-parts/about/who_we_are_2.svg" alt="" class="about-background-image two">
@@ -350,7 +337,7 @@
 							<p class="about__text-block--desc" data-aos="fade">Хорошо, когда люди могут найти аудиторию для своих талантов и монетизировать время, потраченное на хобби, не так ли? MDL поможет в этом!</p>
 							<div id="about__video-block--wrappper">
 								<div id="about__video-block" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
-									<video preload="none" id = "video-preview" class = "video-preview" poster="../img/website-parts/about/video-preview.png">
+									<video preload="none" id = "video-preview" preload="metadata" class = "video-preview" poster="../img/website-parts/about/video-preview.png">
 										<source src="../img/website-parts/about/mdl-video.mp4" type="video/mp4">
 										</video>
 										<i class="about__video-block--btn-play play"><img src="../img/play.svg" alt=""></i>
@@ -397,9 +384,9 @@
 								<div class="wallet__right-part" data-aos = "fade">
 									<h2 class="wallet__right-part--title">Скоро начало</h2>
 									<ul>
-										<li></li>
-										<li></li>
-										<li></li>
+										<li>Отправить заявку на белый лист</li>
+										<li>После прохождения белого листа загрузить MDL кошелек</li>
+										<li>Приобрести токена с помощью теллера, установленого в кошельке</li>
 									</ul>
 									<a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank"><svg class="liquid-button"
 										data-text="НАШ TELEGRAM"
@@ -410,15 +397,15 @@
 										data-width = "163"
 										data-height = "49"
 										data-text-color = "#ffffff"></svg><span class="mobile">НАШ TELEGRAM</span></a>
-										<a class="wallet__button two" data-toggle="modal" data-target="#comingSoon"><svg class="liquid-button"
-											data-text="БЕЛЫЙ СПИСОК"
+										<a class="wallet__button two" href = "../form/"><svg class="liquid-button"
+											data-text="JOIN WHITELIST"
 											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 											data-color1="rgb(110, 179, 231)"
 											data-color2="#ffffff"
 											data-color3="#ffffff"
 											data-width = "163"
 											data-height = "49"
-											data-text-color = "#c72897"></svg><span class="mobile">БЕЛЫЙ СПИСОК</span></a>
+											data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a>
 										</div>
 								<!-- <a href="#" class="wallet__link">
 									<svg class="liquid-button"
@@ -503,8 +490,6 @@
 
 					<div class="section-wrapper-second">
 						<section id="problem">
-							<img class="problem__bubble" src="../img/decorative-elements/hd.gif" alt="">
-							<img src="../img/decorative-elements/hd.gif" alt="" class="problem__bubble-second">
 							<h2 class="problem__title" data-aos = "fade-up" data-aos-duration = "1200">Потребности Рынка</h2>
 							<div class="problem__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
 							<div class="problem__item--wrapper">
@@ -548,8 +533,6 @@
 						</section>
 
 						<section id="instruments">
-							<img src="../img/decorative-elements/hd.gif" alt="" class="instruments__bubble">
-							<img src="../img/decorative-elements/hd.gif" alt="" class="instruments__bubble-second">
 							<h2 class="instruments__title" data-aos = "fade-up" data-aos-duration = "1200">Инструменты</h2>
 							<div class="instruments__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
 							<div class="instruments__box--wrapper">
@@ -937,7 +920,7 @@
 								<div class="container">
 									<div class="row">
 										<div class="link-f--wrapper">
-											<a class = "link-f" target = "_blank" href="../whitepaper/WhitePaper_ru 1.0.2-RU.pdf">Белая книга</a>
+											<a class = "link-f" target = "_blank" href="../whitepaper/WhitePaper_ru 1.0.2-RU.pdf">Whitepaper</a>
 											<a class = "link-f" target = "_blank" href="http://mdl.wtf">Блог</a>
 										</div>
 										<ul>

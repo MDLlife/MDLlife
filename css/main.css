@@ -1,25 +1,4 @@
 @charset "UTF-8";
-
-.pi-input--wrapper {
-  margin-bottom: 1rem;
-
-}
-
-.pi-input--wrapper.has-error input,
-.pi-input--wrapper.has-error .input-group-addon {
-  border-color: red !important;
-}
-
-.pi-input--wrapper.has-error .helper {
-  display: block;
-  color: red;
-  font-size: 12px;
-}
-
-.pi-input--wrapper .helper {
-  display: none;
-}
-
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url("../fonts/Gilroy-ExtraBold.eot");
@@ -490,7 +469,7 @@
       opacity: 0; }
       #main-header .header__left-part #sib_embed_signup .message_area {
         position: absolute !important;
-        bottom: -25px;
+        bottom: -40px;
         background-color: transparent !important;
         border: none !important;
         font-family: "Open Sans", sans-serif !important;
@@ -3347,8 +3326,9 @@
   margin-top: -100px; }
 
 #comingSoon .modal-content {
+  padding-top: 40px;
   height: 200px;
-  font-size: 50px;
+  font-size: 40px;
   text-transform: uppercase;
   text-align: center; }
 
@@ -4077,171 +4057,181 @@ footer li:nth-child(2) img.community-link {
             width: 100%; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information #pi-input--phone {
             padding-left: 60px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth {
-            margin-bottom: 6px; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth label {
-              margin-bottom: 0; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.captcha {
-            margin-bottom: 5px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.name {
-            margin-top: 24px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper label {
-            display: block;
-            margin-bottom: 6px;
-            color: #1d082d;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            font-size: 14px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .pi-input {
-            width: 100%;
-            height: 55px;
-            padding-left: 18px;
-            border: 1px solid #eff0f0;
-            -webit-appearence: none !important;
-            font-size: 16px !important;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            color: #1a0a2b !important;
-            outline: none; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .pi-input:focus {
-              border: 1px solid #c035a0 !important; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--adress {
-            width: 265px;
-            display: inline-block;
-            vertical-align: top;
-            margin-right: 15px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--apt {
-            width: 145px;
-            display: inline-block;
-            vertical-align: top; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--passport {
-            display: none; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .file-upload-styled {
-            width: 100%;
-            height: 55px;
-            padding-left: 18px;
-            border: 1px solid #eff0f0;
-            -webit-appearence: none !important;
-            font-size: 16px !important;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            color: #1a0a2b !important;
-            outline: none;
-            cursor: pointer; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
-            padding-bottom: 10px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
-            position: relative;
-            vertical-align: top;
-            display: inline-block;
-            width: 138px;
-            height: 55px;
-            margin-right: 15px;
-            border: 1px solid #eff0f0;
-            outline: none !important;
-            background: transparent !important;
-            font-family: "Open Sans", sans-serif;
-            font-size: 16px;
-            font-weight: 400;
-            font-style: normal;
-            font-stretch: normal;
-            line-height: normal;
-            text-align: center;
-            color: #1a0a2b;
-            cursor: pointer; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.month .select-options li span {
-              margin-left: 17px; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country {
-              width: 100%; }
-              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options {
-                position: absolute;
-                top: 51px;
-                z-index: 1; }
-              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options li {
-                width: 100%;
-                text-align: left; }
-                #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options li span {
-                  margin-left: 17px; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled:last-child {
-              margin-right: 0; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-hidden, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-hidden {
-            display: none;
-            visibility: hidden;
-            padding-right: 10px; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
-            width: 100%;
-            position: relative;
-            padding-top: 16px;
-            color: #1a0a2b;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            font-size: 16px;
-            text-align: left;
-            padding-left: 17.5px; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.active:after {
-              content: "";
-              width: 0;
-              height: 0;
-              border-style: solid;
-              border-width: 0 5.5px 6px 5.5px;
-              border-color: transparent transparent #33144a transparent; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled:after {
-              content: "";
+          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper {
+            margin-bottom: 1rem; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.has-error input, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.has-error .input-group-addon {
+              border-color: red !important; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.has-error .helper {
               display: block;
-              position: absolute;
-              right: 17.5px;
-              bottom: 7px;
-              width: 0;
-              height: 0;
-              border-style: solid;
-              border-width: 6px 5.5px 0 5.5px;
-              border-color: #33144a transparent transparent transparent; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options {
-            height: 270px;
-            width: 138px;
-            position: relative;
-            z-index: 5;
-            top: 15px;
-            left: 0;
-            display: none;
-            list-style: none;
-            overflow-y: scroll;
-            overflow-x: hidden;
-            padding-left: 0;
-            background-color: white;
-            border: 1px solid #eff0f0 !important; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li {
-            padding-top: 16px;
-            position: relative;
-            z-index: 5;
-            text-align: center;
-            border-top: 0px solid transparent;
-            height: 55px;
-            width: 138px;
-            color: #1d082d;
-            background-color: white;
-            font-size: 14px;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            -o-transition: all 0.15s ease-in;
-            -webkit-transition: all 0.15s ease-in;
-            transition: all 0.15s ease-in;
-            text-align: left; }
-            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li:first-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li:first-child {
-              display: none !important; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > span {
-            color: #1d082d;
-            font-size: 14px;
-            font-family: "Open Sans", sans-serif;
-            font-weight: 400;
-            text-decoration: none;
-            display: block;
-            width: 100%; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > a:hover, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > a:hover {
-            color: #783387;
-            background: #fff; }
-          #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li[rel="hide"], #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li[rel="hide"] {
-            display: none; }
+              color: red;
+              font-size: 12px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth {
+              margin-bottom: 6px; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth label {
+                margin-bottom: 0; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.captcha {
+              margin-bottom: 5px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.name {
+              margin-top: 24px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .helper {
+              display: none; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper label {
+              display: block;
+              margin-bottom: 6px;
+              color: #1d082d;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              font-size: 14px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .pi-input {
+              width: 100%;
+              height: 55px;
+              padding-left: 18px;
+              border: 1px solid #eff0f0;
+              -webit-appearence: none !important;
+              font-size: 16px !important;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              color: #1a0a2b !important;
+              outline: none; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .pi-input:focus {
+                border: 1px solid #c035a0 !important; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--adress {
+              width: 265px;
+              display: inline-block;
+              vertical-align: top;
+              margin-right: 15px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--apt {
+              width: 145px;
+              display: inline-block;
+              vertical-align: top; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper #pi-input--passport {
+              display: none; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper .file-upload-styled {
+              width: 100%;
+              height: 55px;
+              padding-left: 18px;
+              border: 1px solid #eff0f0;
+              -webit-appearence: none !important;
+              font-size: 16px !important;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              color: #1a0a2b !important;
+              outline: none;
+              cursor: pointer; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
+              padding-bottom: 10px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
+              position: relative;
+              vertical-align: top;
+              display: inline-block;
+              width: 138px;
+              height: 55px;
+              margin-right: 15px;
+              border: 1px solid #eff0f0;
+              outline: none !important;
+              background: transparent !important;
+              font-family: "Open Sans", sans-serif;
+              font-size: 16px;
+              font-weight: 400;
+              font-style: normal;
+              font-stretch: normal;
+              line-height: normal;
+              text-align: center;
+              color: #1a0a2b;
+              cursor: pointer; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.month .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.month .select-options li span {
+                margin-left: 17px; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country {
+                width: 100%; }
+                #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options {
+                  position: absolute;
+                  top: 51px;
+                  z-index: 1; }
+                #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options li {
+                  width: 100%;
+                  text-align: left; }
+                  #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select.country .select-options li span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.country .select-options li span {
+                    margin-left: 17px; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select:last-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled:last-child {
+                margin-right: 0; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-hidden, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-hidden {
+              display: none;
+              visibility: hidden;
+              padding-right: 10px; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled {
+              width: 100%;
+              position: relative;
+              padding-top: 16px;
+              color: #1a0a2b;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              font-size: 16px;
+              text-align: left;
+              padding-left: 17.5px; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled.active:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled.active:after {
+                content: "";
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 0 5.5px 6px 5.5px;
+                border-color: transparent transparent #33144a transparent; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth input.select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-styled:after, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select input.select-styled:after {
+                content: "";
+                display: block;
+                position: absolute;
+                right: 17.5px;
+                bottom: 7px;
+                width: 0;
+                height: 0;
+                border-style: solid;
+                border-width: 6px 5.5px 0 5.5px;
+                border-color: #33144a transparent transparent transparent; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options {
+              height: 270px;
+              width: 138px;
+              position: relative;
+              z-index: 5;
+              top: 15px;
+              left: 0;
+              display: none;
+              list-style: none;
+              overflow-y: scroll;
+              overflow-x: hidden;
+              padding-left: 0;
+              background-color: white;
+              border: 1px solid #eff0f0 !important; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li {
+              padding-top: 16px;
+              position: relative;
+              z-index: 5;
+              text-align: center;
+              border-top: 0px solid transparent;
+              height: 55px;
+              width: 138px;
+              color: #1d082d;
+              background-color: white;
+              font-size: 14px;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              -o-transition: all 0.15s ease-in;
+              -webkit-transition: all 0.15s ease-in;
+              transition: all 0.15s ease-in;
+              text-align: left; }
+              #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li:first-child, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li:first-child {
+                display: none !important; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > span, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > span {
+              color: #1d082d;
+              font-size: 14px;
+              font-family: "Open Sans", sans-serif;
+              font-weight: 400;
+              text-decoration: none;
+              display: block;
+              width: 100%; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li > a:hover, #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li > a:hover {
+              color: #783387;
+              background: #fff; }
+            #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.date-birth .select-options li[rel="hide"], #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.personal-information .pi-input--wrapper.country-select .select-options li[rel="hide"] {
+              display: none; }
         #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome {
           padding-left: 47px; }
           #whitelist-form .whitelist-form--wrapper .white-list--content-wrapper .white-list--content-item.welcome .welcome-desc {
