@@ -299,7 +299,7 @@ function rpModal(){
   $('.rp-video-link').click(function(e){
     e.preventDefault();
     var path = $(this).attr('data-media');
-    var video_template = '<video class="video_in-modal" controls src="'+path+'"></video>'
+    var video_template = '<video class="video_in-modal" preload = "metadata" controls src="'+path+'"></video>'
     $('.modal-body').html(video_template);
 });
   $('.rp-image-link').click(function(e){
@@ -1433,7 +1433,6 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 // Validate & submit process
 //--------------------------
 (function($) {
-    if(window.location.path = ""){
         var dateFormat;
         if( $("input[name='hdn_new_format']").length )
         {
@@ -1666,6 +1665,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                             color = '#ffffff';
                             setTimeout(function(){
                               $('.message_area').remove();
+                              $('#theform #email').attr('placeholder','E-mail');
                               $('#sib_embed_signup').animate({
                                   width: "150px",
                                   opacity: "0"
@@ -1681,7 +1681,15 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
 
                         var messageHtml = '<div class="message_area" style="background-color: ' + backColor + ';border:1px solid ' + borderColor + '; color: ' + color + '"><button type="button" class="close">x</button>';
                         if (data.result.result == 'success' || data.result.result == 'OK') {
-                            messageHtml += data.result.succcess_msg;
+                            if(window.location.pathname.indexOf('ru') < 0 && window.location.pathname.indexOf('zh') < 0){
+                                messageHtml += 'Awesome!<br>Now you are subsribed on MDL News'
+                            }
+                            if(window.location.pathname.indexOf('ru') > 0){
+                                messageHtml += 'Ура!<br>Теперь вы подписаны на MDL новости'
+                            }
+                            if(window.location.pathname.indexOf('zh') > 0){
+                                messageHtml += '这么好！<br>现在您订阅MDL的新闻'
+                            }
                             if (data.result.smsExist != ''){
                                 var smsMSG = '';
                                 var smsNumber = data.result.smsExist;
@@ -1848,8 +1856,8 @@ $('#'+sib_prefix+'_embed_signup input[type=radio]').on('click',function(){
     }
     // set last submit to avoid refresh post
     $("#hdn_email_txt").val(new Date().getTime());
-}
 }(jQuery));
+
 
 
 
