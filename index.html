@@ -48,6 +48,23 @@
 	</script>
 	<!-- /Yandex.Metrika counter -->
 	<script type="text/javascript">(window.Image ? (new Image()) : document.createElement('img')).src = 'https://vk.com/rtrg?p=VK-RTRG-222270-aZjpj';</script>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+	
+		gtag('config', 'GA_TRACKING_ID');
+	</script>
+	<script>
+		var trackOutboundLink = function(url) {
+			ga('send', 'event', 'outbound-links', 'click', url, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = url;}
+			});
+		}
+	</script>
 </head>
 <body>
 	<!-- Form -->
@@ -292,9 +309,9 @@
 			</header>
 			<div id="header__social-links">
 				<ul class="header__social-links--list">
-					<li class="header__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="header__social-links--link" target="_blank"><img src="img/website-parts/header/telegram-seeklogo.svg" alt="" class="header__social-links--img two"><img src="img/website-parts/header/telegram-seeklogo2.svg" alt="" class="header__social-links--img one"></a></li>
-					<li class="header__social-links--item"><a href="http://github.com/MDLlife/" class="header__social-links--link" target="_blank"><img src="img/website-parts/header/Github.svg" alt="" class="header__social-links--img two"><img src="img/website-parts/header/Github2.svg" alt="" class="header__social-links--img one"></a></li>
-					<li class="header__social-links--item"><a href="https://twitter.com/MDL_Talent_Hub" class="header__social-links--link" target="_blank"><img src="img/website-parts/header/Twitter.svg" alt="" class="header__social-links--img two"><img src="img/website-parts/header/Twitter2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');"><img src="img/website-parts/header/telegram-seeklogo.svg" alt="" class="header__social-links--img two"><img src="img/website-parts/header/telegram-seeklogo2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="http://github.com/MDLlife/" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('http://github.com/MDLlife/');"><img src="img/website-parts/header/Github.svg" alt="" class="header__social-links--img two"><img src="img/website-parts/header/Github2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="https://twitter.com/MDL_Talent_Hub/" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('https://twitter.com/MDL_Talent_Hub/');"><img src="img/website-parts/header/Twitter.svg" alt="" class="header__social-links--img two"><img src="img/website-parts/header/Twitter2.svg" alt="" class="header__social-links--img one"></a></li>
 				</ul>
 			</div>
 
