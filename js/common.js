@@ -127,7 +127,17 @@ function circleLang(){
     $('#nav-main .nav__links-lang .nav__link-lang--lang .select-styled').click(function(){
         $(this).parent('.select').siblings('.base').addClass('clicked');
     });
+    $('#nav-main .nav__links-lang .nav__link-lang--lang').mouseleave(function(){
+        $('#nav-main .nav__links-lang .select-options').hide();
+        $('#nav-main .nav__links-lang .select-styled').removeClass('active');
+        $('#nav-main .nav__links-lang .nav__link-lang--lang .base').removeClass('clicked');
+    });
     $('#nav-main .nav__links-lang .nav__link-lang--lang .base, body').click(function(){
+        $('#nav-main .nav__links-lang .nav__link-lang--lang .base').removeClass('clicked');
+    });
+    $('#nav-main .nav__links-lang .select-options').mouseleave(function(){
+        $(this).hide();
+        $('#nav-main .nav__links-lang .select-styled').removeClass('active');
         $('#nav-main .nav__links-lang .nav__link-lang--lang .base').removeClass('clicked');
     });
 }
@@ -394,16 +404,35 @@ function incomeEvents(){
             $('.income-legend.yellow').find('.income-legend-image').css('transform','scale(1)');
         }
     );
+    $('.income-arrow.dark-blue,.income-legend.dark-blue').hover(
+        function(){
+            $('.income-legend.dark-blue').find('.income-legend-image').css('transform','scale(1.1)');
+            $('.income-legend.dark-blue').css({'font-size':'16px','font-weight':'600'});
+            $('.income-arrow.dark-blue').css('transform','scale(1.1)');
+        }, function(){
+            $('.income-arrow.dark-blue').css('transform','scale(1)');
+            $('.income-legend.dark-blue').css({'font-size':'14px','font-weight':'400'});
+            $('.income-legend.dark-blue').find('.income-legend-image').css('transform','scale(1)');
+        }
+    );
     $('#income-menu li').click(function(){
         if($(this).hasClass('first')){
             $('.income-card:eq(0)').trigger('click');
             $(this).addClass('active');
             $('#income-menu li.second').removeClass('active');
+            $('#income-menu li.third').removeClass('active');
         }
         if($(this).hasClass('second')){
             $('.income-card:eq(1)').trigger('click');
             $(this).addClass('active');
             $('#income-menu li.first').removeClass('active');
+            $('#income-menu li.third').removeClass('active');
+        }
+        if($(this).hasClass('third')){
+            $('.income-card:eq(2)').trigger('click');
+            $(this).addClass('active');
+            $('#income-menu li.first').removeClass('active');
+            $('#income-menu li.second').removeClass('active');
         }
     });
 }
