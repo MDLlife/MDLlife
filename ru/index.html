@@ -68,6 +68,41 @@
 			&noscript=1"/>
 		</noscript>
 		<!-- End Facebook Pixel Code -->
+		<!-- Global Site Tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag(){dataLayer.push(arguments);}
+			gtag('js', new Date());
+		
+			gtag('config', 'UA-108901953-1');
+		</script>
+		<script>
+			var trackOutboundLink = function(url) {
+				ga('send', 'event', 'outbound-links', 'click', url, {
+					'transport': 'beacon',
+					'hitCallback': function(){document.location = url;}
+				});
+			}
+			var trackWhitelistLink = function(url) {
+				ga('send', 'event', 'Whitelist-link', 'click', url, {
+					'transport': 'beacon'
+				});
+			}
+			var trackWhitepaperLink = function(url) {
+				ga('send', 'event', 'Whitepaper-link', 'click', url, {
+					'transport': 'beacon'
+				});
+			}
+			var trackBlogLink = function(url) {
+				ga('send', 'event', 'Whitepaper-link', 'click', url, {
+					'transport': 'beacon'
+				});
+			}
+			var trackEmailSubscribe = function(url) {
+				ga('send', 'event', 'Email submit', 'click', 'Email subscribe')
+			}
+		</script>
 </head>
 </head>
 <body>
@@ -143,7 +178,7 @@
 							<div class="primary-group email-group forms-builder-group ui-sortable" style="">
 								<div class="row mandatory-email" style="position: relative">
 									<input type="text" name="email" id="email1" value="" placeholder="E-mail">
-									<button class="button editable " type="submit" data-editfield="subscribe">GET</button>
+									<button class="button editable " type="submit" data-editfield="subscribe" onclick="trackEmailSubscribe();">GET</button>
 									<div style="clear:both;"></div>
 									<div class="hidden-btns">
 										<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
@@ -166,14 +201,13 @@
 			</script>
 			<div id="menu__social-links">
 				<ul class="menu__social-links--list">
-					<li class="menu__social-links--item"><a href="https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g" class="menu__social-links--link" target="_blank"><img src="../img/website-parts/nav/YouTube_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/YouTube_hamburger2.svg" alt="" class="menu__social-links--img one"></a></li>
-					<li class="menu__social-links--item"><a href="https://fb.me/mdl.wtf" class="menu__social-links--link" target="_blank"><img src="../img/website-parts/nav/fb_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/fb_hambureger_2.svg" alt="" class="menu__social-links--img one"></a></li>
-					<li class="menu__social-links--item"><a href="https://steemit.com/@mdl" class="menu__social-links--link" target="_blank"><img src="../img/website-parts/nav/steemit_hamurger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/steemit_hamburger2.svg" alt="" class="menu__social-links--img one"></a></li>
-					<li class="menu__social-links--item"><a href="https://www.linkedin.com/company/18324359/" class="menu__social-links--link" target="_blank"><img src="../img/website-parts/nav/linkedin_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/linkedin_hambureger2.svg" alt="" class="menu__social-links--img one"></a></li>
-
+					<li class="menu__social-links--item"><a href="https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g" class="menu__social-links--link" target="_blank" onclick="trackOutboundLink('https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g');"><img src="../img/website-parts/nav/YouTube_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/YouTube_hamburger2.svg" alt="" class="menu__social-links--img one"></a></li>
+					<li class="menu__social-links--item"><a href="https://fb.me/mdl.wtf" class="menu__social-links--link" target="_blank" onclick="trackOutboundLink('https://fb.me/mdl.wtf');"><img src="../img/website-parts/nav/fb_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/fb_hambureger_2.svg" alt="" class="menu__social-links--img one"></a></li>
+					<li class="menu__social-links--item"><a href="https://steemit.com/@mdl" class="menu__social-links--link" target="_blank" onclick="trackOutboundLink('https://steemit.com/@mdl');"><img src="../img/website-parts/nav/steemit_hamurger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/steemit_hamburger2.svg" alt="" class="menu__social-links--img one"></a></li>
+					<li class="menu__social-links--item"><a href="https://www.linkedin.com/company/18324359/" class="menu__social-links--link" target="_blank" onclick="trackOutboundLink('https://www.linkedin.com/company/18324359/');"><img src="../img/website-parts/nav/linkedin_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/linkedin_hambureger2.svg" alt="" class="menu__social-links--img one"></a></li>
 				</ul>
-				<a href="http://mdl.wtf/" class="mobile-blog" target="_blank">Блог</a>
-				<a href="whitepaper/WhitePaper_ru_1.0.2-RU.pdf" class="mobile-wp" target="_blank">Whitepaper</a>
+				<a href="http://mdl.wtf/" class="mobile-blog" target="_blank" onclick="trackBlogLink('http://mdl.wtf/');">Блог</a>
+				<a href="whitepaper/WhitePaper_ru_1.0.2-RU.pdf" class="mobile-wp" target="_blank" onclick="trackWhitepaperLink('https://mdl.life/whitepaper/WhitePaper_ru_1.0.2-RU.pdf');">Whitepaper</a>
 			</div>
 		</div>
 	</div>
@@ -205,8 +239,8 @@
 					<option class = "/" value="/">eng</option>
 				</select>
 			</div>
-			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/">Блог</a>
-			<a class="nav__link-lang--wp " target = "_blank" href="../whitepaper/WhitePaper_ru_1.0.2-RU.pdf">Whitepaper</a>
+			<a id = "nav__link-lang--blog" class="nav__link-lang--blog" href="http://mdl.wtf/" onclick="trackBlogLink('http://mdl.wtf/');">Блог</a>
+			<a class="nav__link-lang--wp " target = "_blank" href="../whitepaper/WhitePaper_ru_1.0.2-RU.pdf" onclick="trackWhitepaperLink('https://mdl.life/whitepaper/WhitePaper_ru_1.0.2-RU.pdf');">Whitepaper</a>
 		</div>
 	</nav>
 
@@ -231,7 +265,7 @@
 								<div class="primary-group email-group forms-builder-group ui-sortable" style="">
 									<div class="row mandatory-email" style="position: relative">
 										<input type="text" name="email" id="email" value="" placeholder="E-mail">
-										<button class="button editable " type="submit" data-editfield="subscribe">GET</button>
+										<button class="button editable " type="submit" data-editfield="subscribe" onclick="trackEmailSubscribe();">GET</button>
 										<div style="clear:both;"></div>
 										<div class="hidden-btns">
 											<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
@@ -284,9 +318,8 @@
 						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1100">40% скидка на 10% MDL</p>
 						<p class="header-timer_about half-opacity" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">20% скидка на 20% MDL</p>
 
-						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="../form/"><svg class="liquid-button"
+						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="../form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
 							data-text="JOIN WHITELIST"
-
 							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 							data-color1="rgb(110, 179, 231)"
 							data-color2="#ffffff"
@@ -303,9 +336,9 @@
 			</header>
 			<div id="header__social-links">
 				<ul class="header__social-links--list">
-					<li class="header__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="header__social-links--link" target="_blank"><img src="../img/website-parts/header/telegram-seeklogo.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/telegram-seeklogo2.svg" alt="" class="header__social-links--img one"></a></li>
-					<li class="header__social-links--item"><a href="http://github.com/MDLlife/" class="header__social-links--link" target="_blank"><img src="../img/website-parts/header/Github.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/Github2.svg" alt="" class="header__social-links--img one"></a></li>
-					<li class="header__social-links--item"><a href="https://twitter.com/MDL_Talent_Hub" class="header__social-links--link" target="_blank"><img src="../img/website-parts/header/Twitter.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/Twitter2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');"><img src="../img/website-parts/header/telegram-seeklogo.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/telegram-seeklogo2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="http://github.com/MDLlife/" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('http://github.com/MDLlife/');"><img src="../img/website-parts/header/Github.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/Github2.svg" alt="" class="header__social-links--img one"></a></li>
+					<li class="header__social-links--item"><a href="https://twitter.com/MDL_Talent_Hub" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('https://twitter.com/MDL_Talent_Hub');"><img src="../img/website-parts/header/Twitter.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/Twitter2.svg" alt="" class="header__social-links--img one"></a></li>
 				</ul>
 			</div>
 
@@ -352,12 +385,12 @@
 
 					<section id = "wallet">
 						<div class="wallet__content--wrapper">
-							<img src="../img/website-parts/wallet/wallet1.svg" alt="" class="wallet-bg-image one"><img src="../img/website-parts/wallet/wallet2.svg" alt="" class="wallet-bg-image two">
+							<!-- <img src="../img/website-parts/wallet/wallet1.svg" alt="" class="wallet-bg-image one"><img src="../img/website-parts/wallet/wallet2.svg" alt="" class="wallet-bg-image two"> -->
 							<div class="wallet__wrapper">
 								<h2 class="wallet__title"  data-aos="slide-up" data-aos-duration="1200">Детали ICO</h2>
 								<div class="wallet__separator separator" data-aos="fade" data-aos-duration="1200"></div>
 								<div class="wallet__left-part" data-aos = "fade" data-aos-duration="1200">
-									<h2 class="wallet__left-part--title">Детали ITO <a class = "icobazar-link" target = "_blank" href="https://icobazaar.com/v2/mdl_talent_hub"><img src="../img/website-parts/wallet/icobazaar.svg" alt=""></a><a class = "icobazar-link" target = "_blank" href="https://icoholder.com/en/mdl-talent-hub-17379"><img src="../img/website-parts/wallet/icoholder.svg" alt=""></a><a class = "icobazar-link" target = "_blank" href="https://icobench.com/ico/mdl-talent-hub"><img src="../img/website-parts/wallet/icobench.svg" alt=""></a></h2>
+									<h2 class="wallet__left-part--title">Детали ITO <a class = "icobazar-link" target = "_blank" href="https://icobazaar.com/v2/mdl_talent_hub" onclick="trackOutboundLink('https://icobazaar.com/v2/mdl_talent_hub');"><img src="../img/website-parts/wallet/icobazaar.svg" alt=""></a><a class = "icobazar-link" target = "_blank" href="https://icoholder.com/en/mdl-talent-hub-17379" onclick="trackOutboundLink('https://icoholder.com/en/mdl-talent-hub-17379');"><img src="../img/website-parts/wallet/icoholder.svg" alt=""></a><a class = "icobazar-link" target = "_blank" href="https://icobench.com/ico/mdl-talent-hub" onclick="trackOutboundLink('https://icobench.com/ico/mdl-talent-hub');"><img src="../img/website-parts/wallet/icobench.svg" alt=""></a></h2>
 									<p class="week-info">40% скидка на 10% MDL</p>
 									<p class="week-info half-opacity">20% скидка на 20% MDL</p>
 									<p class="start-date">Начало<br> 24.03.2018 00:01 UTC</p>
@@ -390,7 +423,7 @@
 										<li>После прохождения белого листа загрузить MDL кошелек</li>
 										<li>Приобрести токена с помощью теллера, установленого в кошельке</li>
 									</ul>
-									<a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank"><svg class="liquid-button"
+									<a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');"><svg class="liquid-button"
 										data-text="НАШ TELEGRAM"
 										data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 										data-color1="rgb(110, 179, 231)"
@@ -399,7 +432,7 @@
 										data-width = "163"
 										data-height = "49"
 										data-text-color = "#ffffff"></svg><span class="mobile">НАШ TELEGRAM</span></a>
-										<a class="wallet__button two" href = "../form/"><svg class="liquid-button"
+										<a class="wallet__button two" href = "../form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
 											data-text="JOIN WHITELIST"
 											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 											data-color1="rgb(110, 179, 231)"
@@ -878,10 +911,10 @@
 										<div class="mentor__item--photo-wrapper">
 											<img src="../img/website-parts/mentors/m-3.png" alt="" class="mentor__item--photo">
 											<p class="mentor__item--desc">Создатель Skycoin</p>
-											<a href="https://www.skycoin.net/" class="mentor__item--linkin"></a>
+											<a href="https://www.linkedin.com/in/brandon-smietana-16389812/" class="mentor__item--linkin"></a>
 											<a href="#mentors" class="mentor__item--link">Биография</a>
 										</div>
-										<h2 class="mentor__item--title">Synth</h2>
+										<h2 class="mentor__item--title">Brandon Smietana</h2>
 										<p class="mentor__item--position-sec">Куратор</p>
 									</div>
 									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-toggle="modal" data-target="#mentorsModal">
@@ -900,76 +933,75 @@
 								<h2 class="media__title" data-aos = "fade-up" data-aos-duration = "1200">Медиа</h2>
 								<div class="media__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
 								<div class="media__item--first-row">
-									<div class="media__item--first--item"><a href="https://themerkle.com/introducing-mdl-talent-hub-the-decentralized-marketplace-and-ecosystem-for-talent/" class="media__item--first--link" target = "_blank"><img src="../img/website-parts/media/mercle.png" alt="" ></a></div>
-									<div class="media__item--first--item"><a href="http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001" class="media__item--first--link" target = "_blank"><img src="../img/website-parts/media/nasdaq.png" alt="" ></a></div>
-									<div class="media__item--first--item"><a href="https://www.ccn.com/mdl-talent-hub-announces-pre-ito-disrupt-2-3-trillion-entertainment-industry/" class="media__item--first--link" target = "_blank"><img src="../img/website-parts/media/ccn.png" alt="" ></a></div>
-									<div class="media__item--first--item"><a href="https://www.coindesk.com/" class="media__item--first--link" target = "_blank"><img src="../img/website-parts/media/coindesk.png" alt="" ></a></div>
+									<div class="media__item--first--item"><a href="https://themerkle.com/introducing-mdl-talent-hub-the-decentralized-marketplace-and-ecosystem-for-talent/" class="media__item--first--link" target = "_blank" onclick="trackOutboundLink('https://themerkle.com/introducing-mdl-talent-hub-the-decentralized-marketplace-and-ecosystem-for-talent/');"><img src="../img/website-parts/media/mercle.png" alt="" ></a></div>
+									<div class="media__item--first--item"><a href="http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001" class="media__item--first--link" target = "_blank" onclick="trackOutboundLink('http://www.nasdaq.com/press-release/mdl-talent-hub-launches-preito-to-disrupt-performers-sourcing-market-20171216-00001');"><img src="../img/website-parts/media/nasdaq.png" alt="" ></a></div>
+									<div class="media__item--first--item"><a href="https://www.ccn.com/mdl-talent-hub-announces-pre-ito-disrupt-2-3-trillion-entertainment-industry/" class="media__item--first--link" target = "_blank" onclick="trackOutboundLink('https://www.ccn.com/mdl-talent-hub-announces-pre-ito-disrupt-2-3-trillion-entertainment-industry/');"><img src="../img/website-parts/media/ccn.png" alt="" ></a></div>
 								</div>
 								<div class="media__item--wrapper">
-									<a href="https://zycrypto.com/mdl-talent-hub-pre-ito-set-revolutionalize-performers-sourcing-market/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/zycrypto.png" alt="" class="media__item--photo"></a>
-									<a href="https://www.newswire.com/news/mdl-talent-hub-launches-pre-ito-to-disrupt-performers-sourcing-market-20106584" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/newswire.png" alt="" class="media__item--photo"></a>
-									<a href="http://ekd.me/2018/01/blokchejn-platforma-rossijskoj-kompanii-pomozhet-inostrannym-artistam-v-kitae/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/ekd2.png" alt="" class="media__item--photo"></a>
-									<a href="https://www.coinspeaker.com/2018/01/10/talent-industry-market-turn-blockchain-mdl-talent-hubs-pre-ito/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/coinspeakerr.png" alt="" class="media__item--photo"></a>
-									<a href="https://www.criptomoedasfacil.com/mdl-talent-hub-lanca-pre-ico-e-revoluciona-o-mercado-de-compras-de-artistas/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/criptomoedas.png" alt="" class="media__item--photo"></a>
-									<a href="https://cryptopanic.com/news/600282/MDL-Talent-Hub-Pre-ITO-Set-To-Revolutionalize-Performers-Sourcing-Market" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/cryptopanic.png" alt="" class="media__item--photo"></a>
-									<a href="https://icocountdown.com" class="media__item--link" data-aos="slide-up" data-aos-duration="2000"><img src="../img/website-parts/media/icocoundown.png" alt="" class="media__item--photo"></a>
-									<a href="https://www.coinjinja.com/ico/mdl-life" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/coinjinjia.png" alt="" class="media__item--photo"></a>
-									<a href="https://www.criptonoticias.com/aplicaciones/mdl-talent-hub-lanzara-plataforma-blockchain-crear-disrupcion-mercado-fuente-talento/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/criptonoticias.png" alt="" class="media__item--photo"></a>
-									<a href="https://icoholder.com/en/ico/mdl-talent-hub-17379" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank"><img src="../img/website-parts/media/icoholder.png" alt="" class="media__item--photo"></a>
+									<a href="https://zycrypto.com/mdl-talent-hub-pre-ito-set-revolutionalize-performers-sourcing-market/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://zycrypto.com/mdl-talent-hub-pre-ito-set-revolutionalize-performers-sourcing-market/');"><img src="../img/website-parts/media/zycrypto.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.newswire.com/news/mdl-talent-hub-launches-pre-ito-to-disrupt-performers-sourcing-market-20106584" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://www.newswire.com/news/mdl-talent-hub-launches-pre-ito-to-disrupt-performers-sourcing-market-20106584');"><img src="../img/website-parts/media/newswire.png" alt="" class="media__item--photo"></a>
+									<a href="http://ekd.me/2018/01/blokchejn-platforma-rossijskoj-kompanii-pomozhet-inostrannym-artistam-v-kitae/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('http://ekd.me/2018/01/blokchejn-platforma-rossijskoj-kompanii-pomozhet-inostrannym-artistam-v-kitae/');"><img src="../img/website-parts/media/ekd2.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.coinspeaker.com/2018/01/10/talent-industry-market-turn-blockchain-mdl-talent-hubs-pre-ito/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://www.coinspeaker.com/2018/01/10/talent-industry-market-turn-blockchain-mdl-talent-hubs-pre-ito/');"><img src="../img/website-parts/media/coinspeakerr.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.criptomoedasfacil.com/mdl-talent-hub-lanca-pre-ico-e-revoluciona-o-mercado-de-compras-de-artistas/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://www.criptomoedasfacil.com/mdl-talent-hub-lanca-pre-ico-e-revoluciona-o-mercado-de-compras-de-artistas/');"><img src="../img/website-parts/media/criptomoedas.png" alt="" class="media__item--photo"></a>
+									<a href="https://cryptopanic.com/news/600282/MDL-Talent-Hub-Pre-ITO-Set-To-Revolutionalize-Performers-Sourcing-Market" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://cryptopanic.com/news/600282/MDL-Talent-Hub-Pre-ITO-Set-To-Revolutionalize-Performers-Sourcing-Market');"><img src="../img/website-parts/media/cryptopanic.png" alt="" class="media__item--photo"></a>
+									<a href="https://icocountdown.com" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" onclick="trackOutboundLink('https://icocountdown.com');"><img src="../img/website-parts/media/icocoundown.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.coinjinja.com/ico/mdl-life" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://www.coinjinja.com/ico/mdl-life');"><img src="../img/website-parts/media/coinjinjia.png" alt="" class="media__item--photo"></a>
+									<a href="https://www.criptonoticias.com/aplicaciones/mdl-talent-hub-lanzara-plataforma-blockchain-crear-disrupcion-mercado-fuente-talento/" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://www.criptonoticias.com/aplicaciones/mdl-talent-hub-lanzara-plataforma-blockchain-crear-disrupcion-mercado-fuente-talento/');"><img src="../img/website-parts/media/criptonoticias.png" alt="" class="media__item--photo"></a>
+									<a href="https://icoholder.com/en/ico/mdl-talent-hub-17379" class="media__item--link" data-aos="slide-up" data-aos-duration="2000" target = "_blank" onclick="trackOutboundLink('https://icoholder.com/en/ico/mdl-talent-hub-17379');"><img src="../img/website-parts/media/icoholder.png" alt="" class="media__item--photo"></a>
 								</div>
 							</section>
 							<footer>
 								<div class="container">
 									<div class="row">
 										<div class="link-f--wrapper">
-											<a class = "link-f" target = "_blank" href="../whitepaper/WhitePaper_ru 1.0.2-RU.pdf">Whitepaper</a>
-											<a class = "link-f" target = "_blank" href="http://mdl.wtf">Блог</a>
+											<a class = "link-f" target = "_blank" href="../whitepaper/WhitePaper_ru 1.0.2-RU.pdf" onclick="trackWhitepaperLink('https://mdl.life/whitepaper/WhitePaper_ru_1.0.2-RU.pdf');">Whitepaper</a>
+											<a class = "link-f" target = "_blank" href="http://mdl.wtf" onclick="trackBlogLink('http://mdl.wtf/');">Блог</a>
 										</div>
 										<ul>
 											<li class="community-link">
-												<a href="https://fb.me/mdl.wtf" target="_blank">
+												<a href="https://fb.me/mdl.wtf" target="_blank" onclick="trackOutboundLink('https://fb.me/mdl.wtf');">
 													<img class="one" src="../img/website-parts/footer/fb_f.svg">
 													<img class = "two" src="../img/website-parts/footer/fb2.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="http://github.com/MDLlife/" target="_blank">
+												<a href="http://github.com/MDLlife/" target="_blank" onclick="trackOutboundLink('http://github.com/MDLlife/');">
 													<img class="one" src="../img/website-parts/footer/Github_f.svg">
 													<img class = "two" src="../img/website-parts/footer/Github_f2.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://www.linkedin.com/company/18324359/" target="_blank">
+												<a href="https://www.linkedin.com/company/18324359/" target="_blank" onclick="trackOutboundLink('https://www.linkedin.com/company/18324359/');">
 													<img class="one" src="../img/website-parts/footer/linkedin_f.svg">
 													<img class = "two" src="../img/website-parts/footer/linkedin2.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://steemit.com/@mdl" target="_blank">
+												<a href="https://steemit.com/@mdl" target="_blank" onclick="trackOutboundLink('https://steemit.com/@mdl');">
 													<img class="one" src="../img/website-parts/footer/steemit_f.svg">
 													<img class = "two" src="../img/website-parts/footer/steemit2.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://t.me/MDL_Talent_Hub" target="_blank">
+												<a href="https://t.me/MDL_Talent_Hub" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');">
 													<img class="one" src="../img/website-parts/footer/telegram_f.svg">
 													<img class = "two" src="../img/website-parts/footer/telegrammm22.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://twitter.com/MDL_Talent_Hub" target="_blank">
+												<a href="https://twitter.com/MDL_Talent_Hub" target="_blank" onclick="trackOutboundLink('https://twitter.com/MDL_Talent_Hub');">
 													<img class="one" src="../img/website-parts/footer/twitter_f.svg">
 													<img class = "two" src="../img/website-parts/footer/twitter22.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g" target="_blank">
+												<a href="https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g" target="_blank" onclick="trackOutboundLink('https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g');">
 													<img class="one" src="../img/website-parts/footer/youtube_f.svg">
 													<img class = "two" src="../img/website-parts/footer/youtube_f2.svg" alt="">
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://bitcointalk.org/index.php?topic=2621034" target="_blank">
+												<a href="https://bitcointalk.org/index.php?topic=2621034" target="_blank" onclick="trackOutboundLink('https://bitcointalk.org/index.php?topic=2621034');">
 													<img class="one" src="../img/website-parts/footer/btt_logo.svg">
 													<img class = "two" src="../img/website-parts/footer/btt_logo.svg" alt="">
 												</a>
