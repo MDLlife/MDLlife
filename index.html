@@ -104,6 +104,24 @@
 			}
 		</script>
 	</head>
+	<!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-108901953-1');
+	</script>
+	<script>
+		var trackOutboundLink = function(url) {
+			ga('send', 'event', 'outbound-links', 'click', url, {
+				'transport': 'beacon',
+				'hitCallback': function(){document.location = url;}
+			});
+		}
+	</script>
+</head>
 <body>
 	<!-- Form -->
 	<div class="modal fade" id="mentorsModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
