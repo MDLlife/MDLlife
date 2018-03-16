@@ -62,25 +62,28 @@
 			&noscript=1"/>
 		</noscript>
 		<!-- End Facebook Pixel Code -->
-		<!-- Global Site Tag (gtag.js) - Google Analytics -->
-		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
+		<!-- Google Analytics -->
 		<script>
-			window.dataLayer = window.dataLayer || [];
-			function gtag(){dataLayer.push(arguments);}
-			gtag('js', new Date());
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-			gtag('config', 'UA-108901953-1');
+			ga('create', 'UA-108901953-1', 'auto');
+			ga('send', 'pageview');
 		</script>
+		<!-- End Google Analytics -->
 		<script>
 			var trackOutboundLink = function(url) {
 				ga('send', 'event', 'outbound-links', 'click', url, {
 					'transport': 'beacon',
-					'hitCallback': function(){document.location = url;}
+					'hitCallback': function(){ }
 				});
 			}
 			var trackWhitelistLink = function(url) {
 				ga('send', 'event', 'Whitelist-link', 'click', url, {
-					'transport': 'beacon'
+					'transport': 'beacon',
+					'hitCallback': function(){ window.location = url }
 				});
 			}
 			var trackWhitepaperLink = function(url) {
