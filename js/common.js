@@ -469,6 +469,7 @@ function submitAllForm(){
                       'event_category': 'Whitelist-Form',
                       'event_label': 'Successful submitting of whitelist form'
                     });
+                    yaCounter48000959.reachGoal('whitelist');
                     $('.white-list--btn').removeClass('disabled');
                     $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
                     $('#whitelist-waiting-send').addClass('loaded');
