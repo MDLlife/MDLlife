@@ -216,7 +216,10 @@
               border-top-left-radius: 30px;
       -webkit-border-top-right-radius: 30px;
               border-top-right-radius: 30px;
-      padding-bottom: 25px; }
+      padding-bottom: 15px;
+      -webkit-transition: all 0.5s ease-out;
+      -o-transition: all 0.5s ease-out;
+      transition: all 0.5s ease-out; }
     #nav-main .nav__links-lang .select-options li {
       text-align: center;
       margin: 0;
@@ -1426,6 +1429,10 @@
     #income .income-wrapper .income-menu {
       width: 215px;
       margin: 0 auto; }
+      #income .income-wrapper .income-menu.en {
+        width: 310px; }
+        #income .income-wrapper .income-menu.en li {
+          margin-right: 30px; }
       #income .income-wrapper .income-menu.ru {
         width: 290px; }
       #income .income-wrapper .income-menu ul {
@@ -1486,9 +1493,9 @@
       padding: 0;
       -webkit-box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
               box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27);
-      -webkit-transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
-          -ms-transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
-              transform: translateY(0) rotate(4deg) translateX(25px) scale(1);
+      -webkit-transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95);
+          -ms-transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95);
+              transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95);
       -webkit-transform-origin: 0 0;
           -ms-transform-origin: 0 0;
               transform-origin: 0 0;
@@ -1547,6 +1554,15 @@
           #income .income-wrapper .income-card .income-image-wrapper .income-image.brand {
             bottom: 133px;
             left: -19px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-image.insurance {
+            bottom: 133px;
+            left: -19px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-image.talent-insu {
+            bottom: 133px;
+            right: -19px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-image.booker-insu {
+            top: -10px;
+            left: 58px; }
         #income .income-wrapper .income-card .income-image-wrapper .income-text, #income .income-wrapper .income-card .income-image-wrapper .income-legend {
           color: #22093a;
           font-size: 16px;
@@ -1571,6 +1587,16 @@
           #income .income-wrapper .income-card .income-image-wrapper .income-text.brand, #income .income-wrapper .income-card .income-image-wrapper .income-legend.brand {
             bottom: 195px;
             left: 68px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-text.insurance, #income .income-wrapper .income-card .income-image-wrapper .income-legend.insurance {
+            bottom: 81px;
+            left: -78px;
+            text-align: left; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-text.talent-insu, #income .income-wrapper .income-card .income-image-wrapper .income-legend.talent-insu {
+            bottom: 115px;
+            right: -64px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-text.booker-insu, #income .income-wrapper .income-card .income-image-wrapper .income-legend.booker-insu {
+            top: -16px;
+            right: 5px; }
         #income .income-wrapper .income-card .income-image-wrapper .income-arrow {
           -webkit-transition: all 0.3s ease-out;
           -o-transition: all 0.3s ease-out;
@@ -1609,6 +1635,18 @@
           #income .income-wrapper .income-card .income-image-wrapper .income-arrow.brand-booker {
             left: 0;
             top: 40px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-arrow.talent-insurence {
+            bottom: 120px;
+            left: 50px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-arrow.insurance-talent {
+            bottom: 133px;
+            left: 60px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-arrow.booker-insurence {
+            left: 10px;
+            top: 50px; }
+          #income .income-wrapper .income-card .income-image-wrapper .income-arrow.insurence-booker {
+            left: 0;
+            top: 40px; }
         #income .income-wrapper .income-card .income-image-wrapper .income-legend {
           -webkit-transition: all 0.3s ease-out;
           -o-transition: all 0.3s ease-out;
@@ -1622,17 +1660,23 @@
           #income .income-wrapper .income-card .income-image-wrapper .income-legend.first {
             bottom: 57px;
             left: -30px; }
+            #income .income-wrapper .income-card .income-image-wrapper .income-legend.first.ins {
+              bottom: 22px; }
           #income .income-wrapper .income-card .income-image-wrapper .income-legend.second {
             bottom: 57px;
             right: -70px; }
+            #income .income-wrapper .income-card .income-image-wrapper .income-legend.second.dark-blue {
+              right: unset;
+              left: -30px;
+              bottom: 47px; }
           #income .income-wrapper .income-card .income-image-wrapper .income-legend.third {
             bottom: 32px;
             left: -30px; }
     #income .income-wrapper .card--next {
       z-index: 5;
-      -webkit-transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
-          -ms-transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1);
-              transform: translateY(-25px) rotate(4deg) translateX(25px) scale(1); }
+      -webkit-transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95);
+          -ms-transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95);
+              transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95); }
     #income .income-wrapper .card--out {
       -webkit-animation: card-out 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8);
               animation: card-out 0.6s cubic-bezier(0.8, 0.2, 0.1, 0.8);
@@ -1716,8 +1760,13 @@
       #income .income-wrapper .income-cards .income-card {
         width: 310px;
         height: 800px; }
+        #income .income-wrapper .income-cards .income-card.third .income-text-wrapper .income-desc {
+          font-size: 14px; }
         #income .income-wrapper .income-cards .income-card .income-image-wrapper {
           right: 70px; }
+          #income .income-wrapper .income-cards .income-card .income-image-wrapper .income-text.insurance {
+            bottom: 70px;
+            left: -31px; }
         #income .income-wrapper .income-cards .income-card .income-text-wrapper {
           position: relative;
           margin: 0 auto;
@@ -1785,16 +1834,12 @@
       margin-top: 45px;
       margin-right: 0;
       background-color: transparent; }
-      #problem .problem__item--wrapper .problem__item:hover {
-        background-color: white;
-        -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5);
-                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5); }
-        #problem .problem__item--wrapper .problem__item:hover .problem__item--image.not-hover {
-          opacity: 0; }
-        #problem .problem__item--wrapper .problem__item:hover .problem__item--image.hover {
-          opacity: 1; }
-        #problem .problem__item--wrapper .problem__item:hover .problem__item--desc li:before {
-          background-color: #940067; }
+      #problem .problem__item--wrapper .problem__item:hover .problem__item--image.not-hover {
+        opacity: 0; }
+      #problem .problem__item--wrapper .problem__item:hover .problem__item--image.hover {
+        opacity: 1; }
+      #problem .problem__item--wrapper .problem__item:hover .problem__item--desc li:before {
+        background-color: #940067; }
       #problem .problem__item--wrapper .problem__item:nth-child(3n) {
         margin-right: 0; }
       #problem .problem__item--wrapper .problem__item .problem__item--separator {
@@ -1851,7 +1896,7 @@
           #problem .problem__item--wrapper .problem__item .problem__item--desc.zh li:before {
             display: none; }
         #problem .problem__item--wrapper .problem__item .problem__item--desc li {
-          padding-left: 12px;
+          padding-left: 0;
           margin-bottom: 3px;
           position: relative;
           font-family: "Open Sans", sans-serif;
@@ -1861,11 +1906,11 @@
           font-stretch: normal;
           line-height: 1.25;
           letter-spacing: 0.7px;
-          text-align: left;
+          text-align: center;
           color: rgba(26, 10, 43, 0.75); }
           #problem .problem__item--wrapper .problem__item .problem__item--desc li:before {
             content: "";
-            display: block;
+            display: none;
             position: absolute;
             left: 0;
             top: 50%;
@@ -2049,6 +2094,16 @@
         #instruments .instruments__box--wrapper .instruments__box:nth-child(8) .instruments__box--image-wrapper .instruments__box--image {
           width: 55px;
           height: 55px; }
+      #instruments .instruments__box--wrapper .instruments__box:nth-child(9) .instruments__box--image-wrapper {
+        width: 59px;
+        height: 59px;
+        margin-left: -29.5px;
+        margin-top: -4px; }
+        #instruments .instruments__box--wrapper .instruments__box:nth-child(9) .instruments__box--image-wrapper .instruments__box--image {
+          width: 59px;
+          height: 59px; }
+      #instruments .instruments__box--wrapper .instruments__box:nth-child(9):hover .instruments__box--title {
+        left: 105px; }
       #instruments .instruments__box--wrapper .instruments__box:hover {
         background-color: white;
         -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
@@ -2176,68 +2231,66 @@
   #instruments .instruments__box--wrapper {
     width: 100%;
     text-align: center; }
-    #instruments .instruments__box--wrapper .instruments__box {
-      width: 90%; }
-      #instruments .instruments__box--wrapper .instruments__box.hide-on-mobile {
-        display: none !important; }
-      #instruments .instruments__box--wrapper .instruments__box:hover {
-        background-color: white;
-        -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
-                box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35); }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.second {
-          opacity: 1 !important; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.first {
-          opacity: 0; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.second {
-          opacity: 1 !important; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.first {
-          opacity: 0; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image-wrapper {
-          left: 22px;
-          top: 21px;
-          margin: unset; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--title {
-          text-align: left;
-          left: 94.5px;
-          top: 21px;
-          margin-left: unset;
-          margin-top: unset;
-          font-weight: 400; }
-          #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--title span {
-            font-weight: 600; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--desc {
-          bottom: 52px; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--trigger-image.clos {
-          opacity: 1 !important; }
-        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--trigger-image.arr {
-          opacity: 0 !important; }
-      #instruments .instruments__box--wrapper .instruments__box.clicked {
-        background-color: white; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--image.second {
-          opacity: 1 !important; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--image.first {
-          opacity: 0; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--image-wrapper {
-          left: 22px;
-          top: 21px;
-          margin: unset; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--title {
-          text-align: left;
-          left: 94.5px;
-          top: 21px;
-          margin-left: unset;
-          margin-top: unset;
-          font-weight: 400; }
-          #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--title span {
-            font-weight: 600; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--desc {
-          bottom: 52px; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--trigger-image.clos {
-          opacity: 1 !important; }
-        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--trigger-image.arr {
-          opacity: 0 !important; }
-      #instruments .instruments__box--wrapper .instruments__box .instruments__box--desc {
-        left: 22px; }
+    #instruments .instruments__box--wrapper .instruments__box.hide-on-mobile {
+      display: none !important; }
+    #instruments .instruments__box--wrapper .instruments__box:hover {
+      background-color: white;
+      -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35);
+              box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35); }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.second {
+        opacity: 1 !important; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.first {
+        opacity: 0; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.second {
+        opacity: 1 !important; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image.first {
+        opacity: 0; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image-wrapper {
+        left: 22px;
+        top: 21px;
+        margin: unset; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--title {
+        text-align: left;
+        left: 94.5px;
+        top: 21px;
+        margin-left: unset;
+        margin-top: unset;
+        font-weight: 400; }
+        #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--title span {
+          font-weight: 600; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--desc {
+        bottom: 52px; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--trigger-image.clos {
+        opacity: 1 !important; }
+      #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--trigger-image.arr {
+        opacity: 0 !important; }
+    #instruments .instruments__box--wrapper .instruments__box.clicked {
+      background-color: white; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--image.second {
+        opacity: 1 !important; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--image.first {
+        opacity: 0; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--image-wrapper {
+        left: 22px;
+        top: 21px;
+        margin: unset; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--title {
+        text-align: left;
+        left: 94.5px;
+        top: 21px;
+        margin-left: unset;
+        margin-top: unset;
+        font-weight: 400; }
+        #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--title span {
+          font-weight: 600; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--desc {
+        bottom: 52px; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--trigger-image.clos {
+        opacity: 1 !important; }
+      #instruments .instruments__box--wrapper .instruments__box.clicked .instruments__box--trigger-image.arr {
+        opacity: 0 !important; }
+    #instruments .instruments__box--wrapper .instruments__box .instruments__box--desc {
+      left: 22px; }
   #instruments #in-vm {
     display: block;
     padding-top: 15px;
@@ -3315,6 +3368,10 @@
         width: 40px;
         height: 40px; }
 
+#mentorsModal .modal-content {
+  font-size: 14px;
+  padding: 25px 20px 30px 20px; }
+
 .modal-open {
   padding-right: 0 !important;
   overflow-y: hidden !important; }
@@ -3414,21 +3471,21 @@
   background-color: white;
   background-color: #FBFBFB; }
   #media .media__item--first-row {
-    width: 870px;
-    margin: 0 auto 30px; }
+    width: 875px;
+    margin: 0 auto 10px; }
     #media .media__item--first-row .media__item--first--item {
       position: relative;
       display: inline-block;
-      width: 195px;
-      height: 143px;
+      width: 270px;
+      height: 165px;
       background-color: white;
       margin-right: 18px;
       -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.24);
               box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.24); }
       #media .media__item--first-row .media__item--first--item:hover .media__item--first--link img {
-        -webkit-transform: scale(1.1);
-            -ms-transform: scale(1.1);
-                transform: scale(1.1); }
+        -webkit-transform: scale(1.25);
+            -ms-transform: scale(1.25);
+                transform: scale(1.25); }
       #media .media__item--first-row .media__item--first--item:nth-child(4n) {
         margin-right: 0; }
       #media .media__item--first-row .media__item--first--item .media__item--first--link {
@@ -3514,7 +3571,11 @@
         width: 104px;
         height: 45px;
         top: -20px;
-        left: 365px; }
+        left: 485px; }
+      #media .media__item--wrapper .media__item--link:nth-child(11) {
+        width: 200px;
+        top: -20px;
+        left: 145px; }
       #media .media__item--wrapper .media__item--link:hover .media__item--photo {
         -webkit-filter: none;
                 filter: none;
