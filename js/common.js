@@ -77,6 +77,7 @@ $(document).ready(function(){
             }
         }]
     });
+    setRaisedLegend();
 });
 /*---------------------*/
 /*---------------------*/
@@ -166,6 +167,17 @@ function windowOnSroll(){
             else
                 $('#main-header').css('position','fixed');
         }
+    });
+}
+
+function setRaisedLegend(){
+    $.getJSON("https://ito.mdl.wtf/ito-stats", function(data){
+        var mdl = Number(data.mdl).toFixed(2);
+        var usd = Number(data.usd).toFixed(2);
+        $('#raised-dollars').text(usd);
+        $('#raised-mdl').text(mdl);
+        var line_percent = (data.usd / 10000000) * 100;
+        $('#pink-line').css('width',line_percent + "%");
     });
 }
 
