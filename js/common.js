@@ -171,9 +171,7 @@ function windowOnSroll(){
 }
 
 function setRaisedLegend(){
-    console.log("I'm in setRaisedLegend");
     $.getJSON("/ito-stats", function(data){
-        console.log("I'm in getJSON result");
         var mdl = Number(data.mdl).toFixed(2);
         var usd = Number(data.usd).toFixed(2);
         $('#raised-dollars').text(usd);
