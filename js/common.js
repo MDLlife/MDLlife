@@ -19,6 +19,7 @@ $(document).ready(function(){
     circleLang();
     incomeCards($('.income-cards'));
     incomeEvents();
+    checkGetMDL();
     AOS.init({
       once: true,
       delay: 100
@@ -78,6 +79,7 @@ $(document).ready(function(){
             }
         }]
     });
+    setRaisedLegend();
 });
 /*---------------------*/
 /*---------------------*/
@@ -166,6 +168,16 @@ function windowOnSroll(){
                 $('#main-header').css('position','absolute');
             else
                 $('#main-header').css('position','fixed');
+        }
+    });
+}
+
+function checkGetMDL(){
+    $('#get-mdl-modal').mousemove(function(){
+        if($('.term-checkbox-one').is(':checked') && $('.term-checkbox-two').is(':checked') && $('.term-checkbox-three').is(':checked') && $('.term-checkbox-four').is(':checked') && $('.term-checkbox-five').is(':checked')){
+            $('#dropdownMenuLink').addClass('active');
+        } else {
+            $('#dropdownMenuLink').removeClass('active');
         }
     });
 }
@@ -477,13 +489,16 @@ function submitAllForm(){
             },
             success: function (data) {
                 if (data.success) {
-                    gtag('event', 'Submit', {
-                      'event_category': 'Whitelist-Form',
-                      'event_label': 'Successful submitting of whitelist form'
-                    });
-                    yaCounter48000959.reachGoal('whitelist');
+                   gtag('event', 'Submit', {
+-                      'event_category': 'Whitelist-Form',
+-                      'event_label': 'Successful submitting of whitelist form'
+-                    });
+-                   yaCounter48000959.reachGoal('whitelist');
                     $('.white-list--btn').removeClass('disabled');
                     $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
+                    setTimeout(function(){
+                        $('#confirm').addClass('active');
+                    },60000);
                     $('#whitelist-waiting-send').addClass('loaded');
                     clickOnChosenDot(4);
                 }
@@ -599,8 +614,7 @@ function applyError(fieldName, err) {
 }
 
 function removeErrorsOnChange() {
-  var
-    $form = $('#main-whitelist-form'),
+  var $form = $('#main-whitelist-form'),
     removeErrorClass = function() {
       var $this = $(this);
       $this.closest('[class*="--wrapper"]').removeClass('has-error')
@@ -612,23 +626,45 @@ function removeErrorsOnChange() {
 
 var captcha_id = '';
 function initBirthSelect(){
-  var name = $('#pi-input--name');
-  var country = $('#country');
-  addOptionToCountrySelect(country_arr,country);
-  customizeSelect(country);
-  forceLetter(name);
-  setFileInput();
-  setCaptcha();
-  searchSelect();
-  blurCheck();
-  $('.input-group.date').datepicker({
-    format: "yyyy-mm-dd",
-    startView: 2,
-    maxViewMode: 2,
-    autoclose: true,
-    startDate: "1950y 1m 0d",
-    endDate: "2001y 1m 0d"
+	var name = $('#pi-input--name');
+	var country = $('#country'),
+	citizen = $('#citizen'),
+	phone = $('#pi-input--phone');
+	addOptionToCountrySelect(country_arr,country);
+	customizeSelect(country);
+	addOptionToCountrySelect(country_arr,citizen);
+	customizeSelect(citizen);
+	forceLetter(name);
+	setFileInput();
+	setCaptcha();
+	searchSelect();
+	blurCheck();
+	clickOnConfirm();
+	$('.input-group.date').datepicker({
+		format: "yyyy-mm-dd",
+		startView: 2,
+		maxViewMode: 2,
+		autoclose: true,
+		startDate: "1950y 1m 0d",
+		endDate: "2001y 1m 0d"
+	});
+	phone.intlTelInput({
+		initialCountry: "auto",
+		geoIpLookup: function(callback) {
+			$.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+				var countryCode = (resp && resp.country) ? resp.country : "";
+				callback(countryCode);
+			});
+		},
+    utilsScript: "../js/utils.js" // just for formatting/placeholders etc
 });
+}
+function clickOnConfirm(){
+    $('#confirm').click(function(){
+        if($(this).hasClass('active')){
+            $(this).text('Purchase Confirmed');
+        }
+    });
 }
 function setCaptcha(){
     $.get("/ajax/captcha/id", function(data, status){
@@ -669,6 +705,19 @@ function checkCaptcha(){
     }
 }
 
+function checkPhone(){
+    var telInput = $('#pi-input--phone');
+    telInput.blur(function(){
+        if (telInput.intlTelInput("isValidNumber")) {
+          $(this).css({'border' : '1px solid #eff0f0'});
+          return true;
+        } else {
+          $(this).css({'border' : '1px solid #ff0000'});
+          return false;
+        }
+    });
+}
+
 function addOptionToCountrySelect(arr,select){
    for(var i = 0; i < arr.length; i++){
        select.append('<option value ="'+arr[i]+'">'+arr[i]+'</option>');
@@ -690,7 +739,7 @@ function checkInputs(){
         return;
     }
     
-    if(checkEmailInput() && checkCaptcha()){
+    if(checkEmailInput() && checkCaptcha() && checkPhone()){
         $('#whitelist-form--next,.whitelist-form--next').removeClass('disabled');
         $('.white-list--dot[data-dot = "3"]').removeClass('disabled');
         $('.white-list--btn').removeClass('disabled');
@@ -714,6 +763,14 @@ function blurCheck(){
             $(this).css({'border' : '1px solid #ff0000'});
         }
     });
+    var telInput = $('#pi-input--phone');
+    telInput.blur(function(){
+        if (telInput.intlTelInput("isValidNumber")) {
+          $(this).css({'border' : '1px solid #eff0f0'});
+        } else {
+          $(this).css({'border' : '1px solid #ff0000'});
+        }
+    })
 
 }
 function submitCheckbox(){
