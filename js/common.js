@@ -489,7 +489,11 @@ function submitAllForm(){
             },
             success: function (data) {
                 if (data.success) {
-                    ga('send', 'event', 'Whitelist-Form', 'Submit', 'Successful submitting of whitelist form');
+                   gtag('event', 'Submit', {
+-                      'event_category': 'Whitelist-Form',
+-                      'event_label': 'Successful submitting of whitelist form'
+-                    });
+-                   yaCounter48000959.reachGoal('whitelist');
                     $('.white-list--btn').removeClass('disabled');
                     $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
                     setTimeout(function(){
