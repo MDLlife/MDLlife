@@ -8,7 +8,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="../css/libs.min.css">
-	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/main.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -72,38 +72,44 @@
       gtag('config', 'UA-108901953-1');
     </script>
     <script>
-      var trackOutboundLink = function(url) {
-        gtag('event', 'click', {
-          'event_category': 'outbound-links',
-          'event_label': url
-        });
-      }
-      var trackWhitelistLink = function(url) {
-        gtag('event', 'click', {
-          'event_category': 'Whitelist-link',
-          'event_label': url,
-          'event_callback': {
-            function(){ window.location = url }
-          }});
-      }
-      var trackWhitepaperLink = function(url) {
-        gtag('event', 'click', {
-          'event_category': 'Whitepaper-link',
-          'event_label': url
-        });
-      }
-      var trackBlogLink = function(url) {
-        gtag('event', 'click', {
-          'event_category': 'Blog-link',
-          'event_label': url
-        });
-      }
-      var trackEmailSubscribe = function() {
-        gtag('event', 'click', {
-          'event_category': 'Email submit',
-          'event_label': 'Email subscribe'
-        });
-      }
+    	var trackOutboundLink = function(url) {
+    		gtag('event', 'click', {
+    			'event_category': 'outbound-links',
+    			'event_label': url
+    		});
+    	}
+		var trackWhitelistLink = function(url) {
+			gtag('event', 'click', {
+				'event_category': 'Whitelist-link',
+				'event_label': url,
+				'event_callback': {
+					function(){ window.location = url }
+				}});
+		}
+		var trackWhitepaperLink = function(url) {
+			gtag('event', 'click', {
+				'event_category': 'Whitepaper-link',
+				'event_label': url
+			});
+		}
+		var trackBlogLink = function(url) {
+			gtag('event', 'click', {
+				'event_category': 'Blog-link',
+				'event_label': url
+			});
+		}
+		var trackEmailSubscribe = function() {
+			gtag('event', 'click', {
+				'event_category': 'Email submit',
+				'event_label': 'Email subscribe'
+			});
+		}
+		var trackPurchaseConfirm = function() {
+			gtag('event', 'click', {
+				'event_category': 'Purchase Confirm',
+				'event_label': 'Purchase Confirm'
+			});
+    	}
     </script>
 </head>
 <body>
@@ -155,6 +161,11 @@
 									</div>
 								</div>
 							</div>
+							<div class="pi-input--wrapper citizen-select">
+									<label >Citizen</label>
+									<select name="citizen" id="citizen"></select>
+									<span class="triangle"></span>
+							</div>
 							<div class="pi-input--wrapper country-select">
 									<label >Country of residence</label>
 									<select name="country" id="country"></select>
@@ -165,9 +176,22 @@
 								<input type="email" name = "email" placeholder="E-mail" id = "pi-input--email" class="check-input pi-input">
 							</div>
 							<div class="pi-input--wrapper passport-upload">
-								<label for = "passport">Upload Passport, ID or Driver licence</label>
+								<label for = "passport">Copy of passport, NRIC (i.e. Singapore identity card) or alternative government issued identification which is acceptable to Company</label>
 								<input type="file" name = "passport" class="pi-input" id = "pi-input--passport">
-								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled" readonly="readonly">
+								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled file-upload-styled-passport" readonly="readonly">
+							</div>
+							<div class="pi-input--wrapper adress-proof">
+								<label for = "adress-proof">Residential address proof (e.g. bank statement or utility bill which is not older than 3 months)</label>
+								<input type="file" name = "adress-proof" class="pi-input" id = "pi-input--adress-proof">
+								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled file-upload-styled-adress" readonly="readonly">
+							</div>
+							<div class="pi-input--wrapper source">
+								<label for="source">Statement on source of funds</label>
+								<input type="text" name = "source" placeholder="" id = "pi-input--source" class="check-input pi-input">
+							</div>
+							<div class="pi-input--wrapper phone">
+								<label for="phone">Phone number</label>
+								<input type="tel" name = "phone" placeholder="" id = "pi-input--phone" class="check-input pi-input">
 							</div>
 							<div class="pi-input--wrapper captcha">
 								<div class="captcha-styled" id="captcha-styled"><img id = "captcha-image" alt="Captcha image"></div>
@@ -216,6 +240,7 @@
 						<p class="contact-desc">To initiate the whitelist entry process please confirm your email address via the link sent to your inbox.<br><br>
 						If you don't receive the confirmation email within several minutes please check your spam folder.</p>
 						<p class="contact-desc">For inquiries and support please contact <a href="mailto:support@mdl.life">support@mdl.life</a></p>
+						<span id = "confirm" onclick="trackPurchaseConfirm();">Confirm Purchase</span>
 					</div>
 				</div>
 			</div>

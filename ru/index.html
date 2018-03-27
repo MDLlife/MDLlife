@@ -103,6 +103,12 @@
 					'event_label': 'Email subscribe'
 				});
 			}
+			var trackGetMDL = function() {
+				gtag('event', 'click', {
+				  'event_category': 'Get MDL',
+				  'event_label': 'Get MDL click'
+				});
+			}
 		</script>
 </head>
 <body>
@@ -144,6 +150,37 @@
 					<img src="../img/popup-close.svg" alt="">
 				</button>
 				<div class="modal-body">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="get-mdl-modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="../img/popup-close.svg" alt="">
+				</button>
+				<div class="modal-body">
+					<p class="ti-fc"><input class="term-checkbox-one term-checkbox" type="checkbox"><span>Check here to confirm that you are not a Restricted Person nor are you purchasing the Tokens on behalf of a Restricted Person</span> </p>
+					<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the terms of this Agreement (which includes the <a href="https://mdl.life/docs/MDL_Terms_And_Conditions.pdf">Terms and Conditions</a>)</span></p>
+					<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the <a href="https://mdl.life/docs/MDL_Terms_Of_Use.pdf" target="_blank">Terms of Use</a> and <a href="https://mdl.life/docs/MDL_Privacy_Policy.pdf" target="_blank">Privacy Policy</a> </span></p>
+					<p class="ti-fc">
+						<input class="term-checkbox-four term-checkbox" type="checkbox">
+						<span>Check here to confirm that you have read and understand the <a href="https://mdl.life/whitepaper/WhitePaper_eng_1.5.0.pdf" target="_blank">Whitepaper</a></span>
+					</p>
+					<p class="ti-fc">
+						<input class="term-checkbox-five term-checkbox" type="checkbox">
+						<span>I hereby confirm with accordance to the Singaporean law that I have passed <a href="/form">KYC procedures</a>. I understand the liability. Let me in and let’s rock!</span>
+					</p>
+					<p style="text-align: center;">Watch the manual <a target = "_blank" href="https://www.youtube.com/watch?v=wMAEpBB79uk">video</a></p>
+					<div class="get-mdl--wrapper dropdown">
+						<a href="#" role="button" class="get-mdl dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get MDL</a>
+						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-linux-x64.AppImage">For Linux</a>
+							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-win-setup.exe">For Windows</a>
+							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-osx.dmg">For MacOS</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -326,7 +363,7 @@
 								<div class="raised-legend">Distributed:<br><span id = "raised-mdl"></span><span> MDL</span></div>
 							</div>
 						</div>
-						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
+						<!-- <a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
 							data-text="JOIN WHITELIST"
 							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 							data-color1="rgb(110, 179, 231)"
@@ -334,7 +371,16 @@
 							data-color3="#ffffff"
 							data-width = "163"
 							data-height = "49"
-							data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a>
+							data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a> -->
+						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" data-toggle="modal" data-target="#get-mdl-modal" onclick="trackGetMDL();"><svg class="liquid-button"
+							data-text="GET MDL"
+							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+							data-color1="rgb(110, 179, 231)"
+							data-color2="#ffffff"
+							data-color3="#ffffff"
+							data-width = "163"
+							data-height = "49"
+							data-text-color = "#c72897"></svg><span class="mobile">GET MDL</span></a>
 						</div>
 					</div>
 				<!-- <img class="hd__down-bg" src="../img/header-down-bg.png" alt=""> -->
@@ -430,15 +476,24 @@
 										<li>После прохождения белого листа загрузить MDL кошелек</li>
 										<li>Приобрести токена с помощью теллера, установленого в кошельке</li>
 									</ul>
-									<a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');yaCounter48000959.reachGoal('socseticlick');"><svg class="liquid-button"
-										data-text="НАШ TELEGRAM"
+									<!-- <a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');yaCounter48000959.reachGoal('socseticlick');"><svg class="liquid-button"
+										data-text="JOIN TELEGRAM"
 										data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 										data-color1="rgb(110, 179, 231)"
 										data-color2="#c72897"
 										data-color3="#c72897"
 										data-width = "163"
 										data-height = "49"
-										data-text-color = "#ffffff"></svg><span class="mobile">НАШ TELEGRAM</span></a>
+										data-text-color = "#ffffff"></svg><span class="mobile">JOIN TELEGRAM</span></a> -->
+										<a class="wallet__button one" data-toggle="modal" data-target="#get-mdl-modal" onclick="trackGetMDL();"><svg class="liquid-button"
+											data-text="GET MDL"
+											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+											data-color1="rgb(110, 179, 231)"
+											data-color2="#c72897"
+											data-color3="#c72897"
+											data-width = "163"
+											data-height = "49"
+											data-text-color = "#ffffff"></svg><span class="mobile">GET MDL</span></a>
 										<a class="wallet__button two" href = "../form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
 											data-text="JOIN WHITELIST"
 											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
@@ -879,7 +934,7 @@
 											</div>
 											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" data-toggle="modal" data-target="#teamModal">
 												<div class="team__item--photo-wrapper">
-													<img src="img/website-parts/team/t-13.png" alt="" class="team__item--photo">
+													<img src="../img/website-parts/team/t-13.png" alt="" class="team__item--photo">
 													<p class="team__item--desc">Thomas is an IT professional with 15 years of experience in software development. Thomas played several different roles across the board, from engineering and team leading to solutions architect and technical testing.
 													Some of the customers Thomas has been working with are: IBM, William Hill, Coull Video Advertising Platform, Weeronline.nl, Comentarismo.com and many more.
 													During his career, Thomas gained knowledge in team leadership, vendor management and contracting as well as managing large data pools and data streaming.
@@ -1035,13 +1090,24 @@
 												</a>
 											</li>
 											<li class="community-link">
-												<a href="https://bitcointalk.org/index.php?topic=2621034" target="_blank" onclick="trackOutboundLink('https://bitcointalk.org/index.php?topic=2621034');">
+												<a href="https://bitcointalk.org/index.php?topic=2621034" target="_blank" onclick="trackOutboundLink('https://bitcointalk.org/index.php?topic=2621034');yaCounter48000959.reachGoal('socseticlick');">
 													<img class="one" src="../img/website-parts/footer/btt_logo.svg">
 													<img class = "two" src="../img/website-parts/footer/btt_logo.svg" alt="">
 												</a>
 											</li>
 										</ul>
 										<h2><a href="#">MDL<span>Talent Hub</span></a></h2>
+										<div class="col-md-3 offset-md-1 f-t">
+											<a href="https://mdl.life/docs/MDL_Terms_Of_Use.pdf" target="_blank">Website Terms of Use</a> <br>
+											<a href="https://mdl.life/docs/MDL_Privacy_Policy.pdf" target="_blank">Privacy Policy</a> <br>
+											<a href="https://mdl.life/docs/MDL_Terms_And_Conditions.pdf" target="_blank">MDL Token Crowdsale Agreement</a> <br>
+											<a href="http://explorer.mdl.life" target="_blank">MDL explorer</a> <br>
+										</div>
+										<div class="col-md-4 f-g">
+											MDL (SG) PTE. LTD. (201807451Z) <br>
+											6 RAFFLES QUAY #33-03 <br>
+											HONG LEONG BUILDING SINGAPORE (048581) <br>
+										</div>
 									</div>
 								</div>
 							</footer>
