@@ -176,6 +176,11 @@ function checkGetMDL(){
     $('#get-mdl-modal').mousemove(function(){
         if($('.term-checkbox-one').is(':checked') && $('.term-checkbox-two').is(':checked') && $('.term-checkbox-three').is(':checked') && $('.term-checkbox-four').is(':checked') && $('.term-checkbox-five').is(':checked')){
             $('#dropdownMenuLink').addClass('active');
+            if($('#dropdownMenuLink').hasClass('click')){
+                return;
+            } else {
+                $('#dropdownMenuLink').addClass('click').trigger('click');
+            }
         } else {
             $('#dropdownMenuLink').removeClass('active');
         }
@@ -498,7 +503,7 @@ function submitAllForm(){
                     $('.white-list--dot[data-dot = "4"]').removeClass('disabled');
                     setTimeout(function(){
                         $('#confirm').addClass('active');
-                    },60000);
+                    },30000);
                     $('#whitelist-waiting-send').addClass('loaded');
                     clickOnChosenDot(4);
                 }
@@ -707,15 +712,15 @@ function checkCaptcha(){
 
 function checkPhone(){
     var telInput = $('#pi-input--phone');
-    telInput.blur(function(){
-        if (telInput.intlTelInput("isValidNumber")) {
-          $(this).css({'border' : '1px solid #eff0f0'});
-          return true;
-        } else {
-          $(this).css({'border' : '1px solid #ff0000'});
-          return false;
-        }
-    });
+        if ($.trim(telInput.val())) {
+            if (telInput.intlTelInput("isValidNumber")) {
+              telInput.css({'border' : '1px solid #eff0f0'});
+              return true;
+          } else {
+              telInput.css({'border' : '1px solid #ff0000'});
+              return false;
+          }
+      }
 }
 
 function addOptionToCountrySelect(arr,select){
@@ -765,12 +770,16 @@ function blurCheck(){
     });
     var telInput = $('#pi-input--phone');
     telInput.blur(function(){
-        if (telInput.intlTelInput("isValidNumber")) {
-          $(this).css({'border' : '1px solid #eff0f0'});
-        } else {
-          $(this).css({'border' : '1px solid #ff0000'});
-        }
-    })
+        if ($.trim(telInput.val())) {
+            if (telInput.intlTelInput("isValidNumber")) {
+              telInput.css({'border' : '1px solid #eff0f0'});
+              return true;
+          } else {
+              telInput.css({'border' : '1px solid #ff0000'});
+              return false;
+          }
+      }
+    });
 
 }
 function submitCheckbox(){
@@ -879,10 +888,17 @@ function searchSelect(){
 function setFileInput(){
     $('#pi-input--passport').change(function(){
         var filename = $(this).val().replace(/.*\\/, "");
-        $(".file-upload-styled").val(filename);
+        $(".file-upload-styled-passport").val(filename);
     });
-    $('.file-upload-styled').click(function(){
+    $('.file-upload-styled-passport').click(function(){
         $('#pi-input--passport').click();
+    });
+    $('#pi-input--adress-proof').change(function(){
+        var filename = $(this).val().replace(/.*\\/, "");
+        $(".file-upload-styled-adress").val(filename);
+    });
+    $('.file-upload-styled-adress').click(function(){
+        $('#pi-input--adress-proof').click();
     });
 }
 //--- SLIDER ----
@@ -2129,8 +2145,8 @@ function customizeSelect(v){
     if(id === "country"){
         $this.after('<input placeholder = "Select country" type = "text" id = "country-search" class="check-input select-styled">');
         var $styledSelect = $this.next('input.select-styled');
-    } else if(id === "month"){
-        $this.after('<input placeholder = "Month" type = "text" id = "month-search" class="check-input select-styled">');
+    } else if(id === "citizen"){
+        $this.after('<input placeholder = "Select citizen" type = "text" id = "citizen-search" class="check-input select-styled">');
         var $styledSelect = $this.next('input.select-styled');
     } else{
        $this.after('<div class="select-styled"></div>');
@@ -2178,6 +2194,11 @@ $listItems.click(function(e) {
     e.stopPropagation();
 
     if(id === "country"){
+        $styledSelect.val($(this).text()).removeClass('active');
+    } else {
+        $styledSelect.text($(this).text()).removeClass('active');
+    }
+    if(id === "citizen"){
         $styledSelect.val($(this).text()).removeClass('active');
     } else {
         $styledSelect.text($(this).text()).removeClass('active');
