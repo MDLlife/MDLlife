@@ -20,9 +20,10 @@ $(document).ready(function(){
     incomeCards($('.income-cards'));
     incomeEvents();
     checkGetMDL();
+    mob_video();
     AOS.init({
       once: true,
-      delay: 100
+      delay: 100 
   });
     $(".roadmap-slider-for").slick({
         slidesToShow: 1,
@@ -79,6 +80,27 @@ $(document).ready(function(){
             }
         }]
     });
+    $('#problem__item--wrapper').slick({
+        slidesToShow: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    unslick: true
+                }
+            },
+            {
+                breakpoint: 768,
+                settings: {
+                    arrows: false,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: true
+                }
+            }
+        ]
+    });
     setRaisedLegend();
 });
 /*---------------------*/
@@ -108,6 +130,13 @@ en_days = ['Day','1','2','3','4','5','6','7','8','9','10','11','12','13','14','1
             $(this).hide();
         });
     }
+    $('#subs-menu-mob').click(function(){
+        $('#sib_embed_signup1').animate({
+            width: "310px",
+            opacity: "1"
+        },700);
+        $(this).hide();
+    });
 }
 function jumpingArrow(){
     $('#header__arrow').mouseenter(function(){
@@ -116,6 +145,12 @@ function jumpingArrow(){
             top: '0'
         },300);
     });
+}
+
+function mob_video(){
+    if(window.screen.width < 768 || window.innerWidth < 768 || window.screen.availWidth < 768){
+        $('#video-preview').attr('poster','/img/website-parts/about/video-preview-mob.png')
+    }
 }
 
 function customScrolling(){
@@ -163,12 +198,10 @@ function videoControllers(){
 }
 function windowOnSroll(){
     $(window).scroll(function(){
-        if(window.screen.width > 768 || window.innerWidth>768 || window.screen.availWidth>768){
-            if($(this).scrollTop() > 1200)
-                $('#main-header').css('position','absolute');
-            else
-                $('#main-header').css('position','fixed');
-        }
+        if($(this).scrollTop() > 1200)
+            $('#main-header').css('position','absolute');
+        else
+            $('#main-header').css('position','fixed');
     });
 }
 
@@ -631,36 +664,36 @@ function removeErrorsOnChange() {
 
 var captcha_id = '';
 function initBirthSelect(){
-	var name = $('#pi-input--name');
-	var country = $('#country'),
-	citizen = $('#citizen'),
-	phone = $('#pi-input--phone');
-	addOptionToCountrySelect(country_arr,country);
-	customizeSelect(country);
-	addOptionToCountrySelect(country_arr,citizen);
-	customizeSelect(citizen);
-	forceLetter(name);
-	setFileInput();
-	setCaptcha();
-	searchSelect();
-	blurCheck();
-	clickOnConfirm();
-	$('.input-group.date').datepicker({
-		format: "yyyy-mm-dd",
-		startView: 2,
-		maxViewMode: 2,
-		autoclose: true,
-		startDate: "1950y 1m 0d",
-		endDate: "2001y 1m 0d"
-	});
-	phone.intlTelInput({
-		initialCountry: "auto",
-		geoIpLookup: function(callback) {
-			$.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
-				var countryCode = (resp && resp.country) ? resp.country : "";
-				callback(countryCode);
-			});
-		},
+    var name = $('#pi-input--name');
+    var country = $('#country'),
+    citizen = $('#citizen'),
+    phone = $('#pi-input--phone');
+    addOptionToCountrySelect(country_arr,country);
+    customizeSelect(country);
+    addOptionToCountrySelect(country_arr,citizen);
+    customizeSelect(citizen);
+    forceLetter(name);
+    setFileInput();
+    setCaptcha();
+    searchSelect();
+    blurCheck();
+    clickOnConfirm();
+    $('.input-group.date').datepicker({
+        format: "yyyy-mm-dd",
+        startView: 2,
+        maxViewMode: 2,
+        autoclose: true,
+        startDate: "1950y 1m 0d",
+        endDate: "2001y 1m 0d"
+    });
+    phone.intlTelInput({
+        initialCountry: "auto",
+        geoIpLookup: function(callback) {
+            $.get('https://ipinfo.io', function() {}, "jsonp").always(function(resp) {
+                var countryCode = (resp && resp.country) ? resp.country : "";
+                callback(countryCode);
+            });
+        },
     utilsScript: "../js/utils.js" // just for formatting/placeholders etc
 });
 }
@@ -1617,7 +1650,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
     $('#'+sib_prefix+'_embed_signup .'+sib_prefix+'-container').find('.hidden-btns').remove();
     $('#'+sib_prefix+'_embed_signup .'+sib_prefix+'-container').find('.message_area').remove();
 
-    $('#'+sib_prefix+'_embed_signup #theform, #sib_embed_signup1 #theform1').on('submit',function() {
+    $('#'+sib_prefix+'_embed_signup #theform, #sib_embed_signup1 #theform1,#sib_embed_signup2 #theform2').on('submit',function() {
         var theForm = $(this);
         if (theForm.hasClass(sib_prefix+'_processing')) {
             return false;
@@ -1801,7 +1834,7 @@ for (let buttonIndex = 0; buttonIndex < buttons.length; buttonIndex++) {
                         var messageHtml = '<div class="message_area" style="background-color: ' + backColor + ';border:1px solid ' + borderColor + '; color: ' + color + '"><button type="button" class="close">x</button>';
                         if (data.result.result == 'success' || data.result.result == 'OK') {
                             if(window.location.pathname.indexOf('ru') < 0 && window.location.pathname.indexOf('zh') < 0){
-                                messageHtml += 'Awesome!<br>Now you are subsribed on MDL News'
+                                messageHtml += 'Awesome!<br>Now you are subscribed on MDL News'
                             }
                             if(window.location.pathname.indexOf('ru') > 0){
                                 messageHtml += 'Ура!<br>Теперь вы подписаны на MDL новости'

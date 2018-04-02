@@ -8,7 +8,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="../css/libs.min.css?ver_1">
-	<link rel="stylesheet" href="../css/main.min.css?ver_1">
+	<link rel="stylesheet" href="../css/main.min.css?ver_2">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<!-- Yandex.Metrika counter -->
@@ -154,6 +154,43 @@
 			</div>
 		</div>
 	</div>
+	<div id="subs-modal" class="modal fade" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<img src="../img/popup-close.svg" alt="">
+				</button>
+				<div class="modal-body">
+					<div id="sib_embed_signup2">
+						<div class="forms-builder-wrapper">
+							<input type="hidden" id="sib_embed1_signup_lang" value="en">
+							<input type="hidden" id="sib_embed1_invalid_email_message" value="That email address is not valid. Please try again.">
+							<input type="hidden" name="primary_type" id="primary_type" value="email">
+							<form class="description" id="theform2" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1" onsubmit="return false;">
+								<input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden" name="listid" id="listid1" value="2"><input type="hidden" name="from_url" id="from_url2" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt2" value="">
+								<div class="sib-container rounded">
+									<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
+									<div class="view-messages" style=" margin:5px 0;"> </div>
+									<div class="primary-group email-group forms-builder-group ui-sortable" style="">
+										<p style="text-align: center;">Enter your email address</p>
+										<div class="row mandatory-email" style="position: relative">
+											<input type="text" name="email" id="email2" value="" placeholder="E-mail">
+											<button class="button editable " type="submit" data-editfield="subscribe" onclick="trackEmailSubscribe(); yaCounter48000959.reachGoal('ostemail')";>Sub</button>
+											<div style="clear:both;"></div>
+											<div class="hidden-btns">
+												<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
+											</div>
+										</div>
+									</div>
+									<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
 	<div id="get-mdl-modal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -244,6 +281,7 @@
 				var sib_prefix = 'sib';
 				var sib_dateformat = 'mm-dd-yyyy';
 			</script>
+			<div id="subs-menu-mob">Subscribe</div>
 			<div id="menu__social-links">
 				<ul class="menu__social-links--list">
 					<li class="menu__social-links--item"><a href="https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g" class="menu__social-links--link" target="_blank" onclick="trackOutboundLink('https://www.youtube.com/channel/UCa8YMIZgtCo6a7M6tcjtG9g');yaCounter48000959.reachGoal('socseticlick');"><img src="../img/website-parts/nav/YouTube_hamburger.svg" alt="" class="menu__social-links--img two"><img src="../img/website-parts/nav/YouTube_hamburger2.svg" alt="" class="menu__social-links--img one"></a></li>
@@ -292,7 +330,7 @@
 	<header id="main-header" >
 		<div class="header__content--wrapper">
 			<div class="header__left-part">
-				<div class="header__title" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "1500"><img class="header__title--img" src="../img/website-parts/header/logo_mdl_header.svg" alt=""></div>
+				<div class="header__title" data-aos = "fade-up" data-aos-duration = "1500" data-aos-delay = "1500"><img class="header__title--img" src="../img/website-parts/header/logo_mdl_header.svg" alt=""><h1><span>MDL</span>Talent Hub</h1></div>
 				<div class="header__separator separator" data-aos="fade-up" data-aos-duration="1200" data-aos-delay = "1300"></div>
 				<h2 class="header__desc ru" data-aos="fade-up" data-aos-duration="1200" data-aos-delay = "1100">Глобальная платформа доверия, <br> помогающая найти мероприятия для <br> исполнителей и аудиторию для брендов</h2>
 				<div id="sib_embed_signup">
@@ -357,6 +395,7 @@
 								<div class="pink-point"></div>
 								<div class="white-point"></div>
 								<div class="sc-point"></div>
+								<div class="hc-point"></div>
 							</div>
 							<div class="raised-legend-wrapper">
 								<div class="raised-legend">Raised:<br><span>USD </span><span id = "raised-dollars"></span></div>
@@ -381,6 +420,7 @@
 							data-width = "163"
 							data-height = "49"
 							data-text-color = "#c72897"></svg><span class="mobile">GET MDL</span></a>
+						<a href="#" class="mob-sub" data-toggle="modal" data-target="#subs-modal">SUBSCRIBE</a>
 						</div>
 					</div>
 				<!-- <img class="hd__down-bg" src="../img/header-down-bg.png" alt=""> -->
@@ -446,8 +486,8 @@
 									<h2 class="wallet__left-part--title">Детали ITO <a class = "icobazar-link" target = "_blank" href="https://icobazaar.com/v2/mdl_talent_hub" onclick="trackOutboundLink('https://icobazaar.com/v2/mdl_talent_hub');"><img src="../img/website-parts/wallet/icobazaar.svg" alt=""></a><a class = "icobazar-link" target = "_blank" href="https://icoholder.com/en/mdl-talent-hub-17379" onclick="trackOutboundLink('https://icoholder.com/en/mdl-talent-hub-17379');"><img src="../img/website-parts/wallet/icoholder.svg" alt=""></a><a class = "icobazar-link" target = "_blank" href="https://icobench.com/ico/mdl-talent-hub" onclick="trackOutboundLink('https://icobench.com/ico/mdl-talent-hub');"><img src="../img/website-parts/wallet/icobench.svg" alt=""></a></h2>
 									<p class="week-info">40% скидка на 10% MDL</p>
 									<p class="week-info half-opacity">20% скидка на 20% MDL</p>
-									<p class="start-date">Начало<br> 24.03.2018 00:01 UTC</p>
-									<p class="end-date">Окончание<br> 24.04.2018 23:59 UTC</p>
+									<p class="start-date"><span>Начало</span><br> <span>24.03.2018 00:01 UTC</span></p>
+									<p class="end-date"><span>Окончание</span><br> <span>24.04.2018 23:59 UTC</span></p>
 									<div class="wallet__left-part-l">
 										<ul>
 											<li>Цена токена</li>
@@ -582,7 +622,7 @@
 						<section id="problem">
 							<h2 class="problem__title" data-aos = "fade-up" data-aos-duration = "1200">Потребности Рынка</h2>
 							<div class="problem__separator separator" data-aos = "fade" data-aos-duration = "1200"></div>
-							<div class="problem__item--wrapper">
+							<div class="problem__item--wrapper" id="problem__item--wrapper">
 								<div class="problem__item"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
 									<img src="../img/website-parts/problems/pi-3-1.svg" alt="" class="problem__item--image not-hover">
 									<img src="../img/website-parts/problems/pi-3-2.svg" alt="" class="problem__item--image hover">
@@ -1118,6 +1158,6 @@
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 					<script src="../js/libs.min.js?ver_1"></script>
-					<script src="../js/common.js?ver_1"></script>
+					<script src="../js/common.js?ver_2"></script>
 				</body>
 				</html>
