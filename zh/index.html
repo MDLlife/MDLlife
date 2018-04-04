@@ -8,7 +8,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="../css/libs.min.css?ver_1">
-	<link rel="stylesheet" href="../css/main.min.css?ver_2">
+	<link rel="stylesheet" href="../css/main.min.css?ver_3">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<!-- Yandex.Metrika counter -->
@@ -110,6 +110,16 @@
 				});
 			}
 		</script>
+		<script> 
+			var $buoop = {notify:{e:14,f:-4,o:-4,s:-2,c:-4},insecure:true,unsupported:true,mobile:false,style:"bottom",api:5}; 
+			function $buo_f(){ 
+				var e = document.createElement("script"); 
+				e.src = "//browser-update.org/update.min.js"; 
+				document.body.appendChild(e);
+			};
+			try {document.addEventListener("DOMContentLoaded", $buo_f,false)}
+			catch(e){window.attachEvent("onload", $buo_f)}
+		</script>
 </head>
 <body>
 	<script src="https://secure.adnxs.com/px?id=970376&seg=11810881&t=1" type="text/javascript"></script>
@@ -166,7 +176,7 @@
 			</div>
 		</div>
 	</div>
-	<div id="subs-modal" class="modal fade" role="dialog">
+	<!-- <div id="subs-modal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
 				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
@@ -202,7 +212,7 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 	<div id="get-mdl-modal" class="modal fade" role="dialog">
 		<div class="modal-dialog">
 			<div class="modal-content">
@@ -396,8 +406,7 @@
 				<div class="header__right-part">
 					<div class="header-timer">
 						<p class="timer-title" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1500">ITO HAS STARTED</p>
-						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1100">40% discount for 10% of MDL</p>
-						<p class="header-timer_about half-opacity" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">20% discount for 20% of MDL</p>
+						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">20% discount for 20% of MDL</p>
 						<div class="raised-wrapper">
 							<span class="text-discount">Discount</span>
 							<span class="max-value">$18 400 000 <br> <b>Hard Cap</b></span>
@@ -412,6 +421,7 @@
 							<div class="raised-legend-wrapper">
 								<div class="raised-legend">Raised:<br><span>USD </span><span id = "raised-dollars"></span></div>
 								<div class="raised-legend">Distributed:<br><span id = "raised-mdl"></span><span> MDL</span></div>
+								<p class="raised-mob-alert">Please use desktop version to get MDL tokens</p>
 							</div>
 						</div>
 						<!-- <a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" href="form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
@@ -423,22 +433,46 @@
 							data-width = "163"
 							data-height = "49"
 							data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a> -->
-						<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" data-toggle="modal" data-target="#get-mdl-modal" onclick="trackGetMDL();"><svg class="liquid-button"
-							data-text="GET MDL"
-							data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
-							data-color1="rgb(110, 179, 231)"
-							data-color2="#ffffff"
-							data-color3="#ffffff"
-							data-width = "163"
-							data-height = "49"
-							data-text-color = "#c72897"></svg><span class="mobile">GET MDL</span></a>
-						<a href="#" class="mob-sub" data-toggle="modal" data-target="#subs-modal">SUBSCRIBE</a>
+							<a class="header-timer_btn open-white-list-form" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "500" data-toggle="modal" data-target="#get-mdl-modal" onclick="trackGetMDL();"><svg class="liquid-button"
+								data-text="GET MDL"
+								data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
+								data-color1="rgb(110, 179, 231)"
+								data-color2="#ffffff"
+								data-color3="#ffffff"
+								data-width = "163"
+								data-height = "49"
+								data-text-color = "#c72897"></svg><!-- <span class="mobile">GET MDL</span> --></a>
+								<div id="sib_embed_signup2">
+									<div class="forms-builder-wrapper">
+										<input type="hidden" id="sib_embed1_signup_lang" value="en">
+										<input type="hidden" id="sib_embed1_invalid_email_message" value="That email address is not valid. Please try again.">
+										<input type="hidden" name="primary_type" id="primary_type" value="email">
+										<form class="description" id="theform2" name="theform" action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1" onsubmit="return false;">
+											<input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden" name="listid" id="listid1" value="2"><input type="hidden" name="from_url" id="from_url2" value="yes"><input type="hidden" name="hdn_email_txt" id="hdn_email_txt2" value="">
+											<div class="sib-container rounded">
+												<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
+												<div class="view-messages" style=" margin:5px 0;"> </div>
+												<div class="primary-group email-group forms-builder-group ui-sortable" style="">
+													<div class="row mandatory-email" style="position: relative">
+														<input type="text" name="email" id="email2" value="" placeholder="E-mail">
+														<button class="button editable " type="submit" data-editfield="subscribe" onclick="trackEmailSubscribe(); yaCounter48000959.reachGoal('ostemail')";>Subscribe</button>
+														<div style="clear:both;"></div>
+														<div class="hidden-btns">
+															<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
+														</div>
+													</div>
+												</div>
+												<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
 						</div>
-				</div>
-				<!-- <img class="hd__down-bg" src="../img/header-down-bg.png" alt=""> -->
-				<!-- <div class="header__line-down"></div> -->
+						<!-- <img class="hd__down-bg" src="../img/header-down-bg.png" alt=""> -->
+						<!-- <div class="header__line-down"></div> -->
 
-			</header>
+					</header>
 			<div id="header__social-links">
 				<ul class="header__social-links--list">
 					<li class="header__social-links--item"><a href="https://t.me/MDL_Talent_Hub" class="header__social-links--link" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');yaCounter48000959.reachGoal('socseticlick');"><img src="../img/website-parts/header/telegram-seeklogo.svg" alt="" class="header__social-links--img two"><img src="../img/website-parts/header/telegram-seeklogo2.svg" alt="" class="header__social-links--img one"></a></li>
@@ -1170,6 +1204,6 @@
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 					<script src="../js/libs.min.js?ver_1"></script>
-					<script src="../js/common.js?ver_2"></script>
+					<script src="../js/common.js?ver_3"></script>
 				</body>
 				</html>
