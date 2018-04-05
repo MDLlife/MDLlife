@@ -101,7 +101,6 @@ $(document).ready(function(){
             }
         ]
     });
-    setRaisedLegend();
 });
 /*---------------------*/
 /*---------------------*/
@@ -221,11 +220,13 @@ function checkGetMDL(){
 }
 
 function setRaisedLegend(){
-    $.getJSON("/ito-stats", function(data){
-        var mdl = Number(data.mdl).toFixed(2);
-        var usd = Number(data.usd).toFixed(2);
-        $('#raised-dollars').text(usd);
-        $('#raised-mdl').text(mdl);
+     $.getJSON("/ito-stats", function(data){
+        var mdl = Number(data.mdl).toFixed(0),
+            usd = Number(data.usd).toFixed(0);
+        var pretty_usd = usd.toString().split( /(?=(?:\d{3})+(?!\d))/),
+            pretty_mdl = mdl.toString().split( /(?=(?:\d{3})+(?!\d))/);
+        $('#raised-dollars').text(pretty_usd.join(" "));
+        $('#raised-mdl').text(pretty_mdl.join(" "));
         var line_percent = (data.usd / 10000000) * 100;
         $('#pink-line').css('width',line_percent + "%");
     });
