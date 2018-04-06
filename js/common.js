@@ -220,9 +220,9 @@ function checkGetMDL(){
 }
 
 function setRaisedLegend(){
-     $.getJSON("/ito-stats", function(data){
-        var mdl = Number(data.mdl).toFixed(0),
-            usd = Number(data.usd).toFixed(0);
+    $.getJSON("/ito-stats", function(data){
+        var mdl = Number(data.mdl).toFixed(0);
+        var usd = Number(data.usd).toFixed(0);
         var pretty_usd = usd.toString().split( /(?=(?:\d{3})+(?!\d))/),
             pretty_mdl = mdl.toString().split( /(?=(?:\d{3})+(?!\d))/);
         $('#raised-dollars').text(pretty_usd.join(" "));
@@ -1816,12 +1816,6 @@ if (window.screen.width > 768 || window.innerWidth > 768 || window.screen.availW
                             color = '#ffffff';
                             setTimeout(function(){
                               $('.message_area').remove();
-                              $('#theform #email').attr('placeholder','E-mail');
-                              $('#sib_embed_signup').animate({
-                                  width: "150px",
-                                  opacity: "0"
-                              },700);
-                              $('#header__link').show();
                           }, 3000);
                         }
                         else {
