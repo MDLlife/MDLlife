@@ -1,149 +1,149 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>http://mdl.life/es/</link>
-    <description>Recent content on </description>
+    <title>Es on MDL - Talent Hub Blog</title>
+    <link>http://mdl.wtf/es/</link>
+    <description>Recent content in Es on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mdl.life/es/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mdl.wtf/es/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>¿Por qué las horas de Token de MDL son tan geniales?</title>
-      <link>http://mdl.life/es/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>http://mdl.wtf/es/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>http://mdl.wtf/es/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>La plataforma MDL Talent Hub contará con la tecnología MDL Token Hours (MDL TH). MDL TH se utilizará para respaldar el crecimiento del valor de MDL Token y para proteger la plataforma de una alta volatilidad de tokens MDL. A continuación hay 8 afirmaciones que describen el concepto de MDL TH.
  El mecanismo de MDL Token Hours se ha adaptado de Skycoin Coin Hours. La cantidad de MDL Tokens Hours recibidas aumenta de acuerdo con la cantidad de Tokens MDL que se tienen.</description>
     </item>
     
     <item>
       <title>Por qué el valor del token MDL aumentará con el tiempo</title>
-      <link>http://mdl.life/es/2018-01-14-why-mdl-value-increase/</link>
+      <link>http://mdl.wtf/es/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>http://mdl.wtf/es/2018-01-14-why-mdl-value-increase/</guid>
       <description>Para nuestros primeros inversores, es crucial saber por qué los tokens MDL aumentarán en valor a lo largo del tiempo. Nos acabamos de dar cuenta de que lo que era obvio para nosotros no es claro para la comunidad. Aquí explicamos brevemente nuestros planes sobre el uso del token y cómo garantizamos su crecimiento para nuestros criptoinversores.
 En primer lugar, el valor del token MDL aumentará a partir de nuestra expansión en el mercado de búsqueda de talentos, que a su vez está creciendo continuamente.</description>
     </item>
     
     <item>
       <title>Anonimato y publicidad en MDL Talent Hub</title>
-      <link>http://mdl.life/es/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>http://mdl.wtf/es/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>http://mdl.wtf/es/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>Una de nuestras misiones es brindar transparencia al mercado de búsqueda de talentos, sin embargo, también debemos hacer frente a los procesos y entornos comúnmente aceptados en este área. El uso de la cadena de bloques y almacenamiento persistente de datos inmutables (PIDS) - IPFS, CXO - tecnologías que son conocidas por su capacidad de hacer que los datos sean abiertos, rastreables e inmutables plantea una buena pregunta: ¿qué tipo de información estará abierta al público?</description>
     </item>
     
     <item>
       <title>Enfoques y decisiones técnicas</title>
-      <link>http://mdl.life/es/2017-12-31-approaches-technical-decisions/</link>
+      <link>http://mdl.wtf/es/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>http://mdl.wtf/es/2017-12-31-approaches-technical-decisions/</guid>
       <description>Dado el estado actual del desarrollo global de la cadena de bloques, parece que la mayoría de la gente ha olvidado por completo que detrás de cada proyecto hay personas trabajando [o no]. Por lo tanto, un sitio web elegante con un video prometedor y geek, con direcciones de Bitcoin o Ethereum, atrae más a la gente para invertir que una comunidad trabajadora con líderes respetuosos. La gente simplemente envía dinero a ciegas a un contrato inteligente, sin investigar quién está trabajando en el concepto, el código, el marketing, etc.</description>
     </item>
     
     <item>
       <title>Qué hacemos y por qué</title>
-      <link>http://mdl.life/es/2017-12-23-what-do-we-do-and-why/</link>
+      <link>http://mdl.wtf/es/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>http://mdl.wtf/es/2017-12-23-what-do-we-do-and-why/</guid>
       <description>¿Qué estamos haciendo y por qué?
 En la obsesión actual por la cadena de bloques hay tantos proyectos que parecen ser todo menos auténticos o incluso a veces son falsos. Las ICO se han convertido no solo en una herramienta para las startups para recaudar fondos, sino también para los estafadores que buscan hacer dinero rápido. ¿MDL Talent Hub es un proyecto real con una visión bien pensada y un plan de desarrollo, o simplemente está montando la ola de la criptolocura?</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger</title>
-      <link>http://mdl.life/es/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>http://mdl.wtf/es/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>http://mdl.wtf/es/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub utilizará tecnologías PIDS (IPFS, CXO, etc.), que permitirán que la información se almacene de forma distribuida en los dispositivos y mineros de los usuarios, mejorando el acceso, la velocidad y la seguridad de la información.
 A fin de compensar a nuestros usuarios y mineros, estableceremos un programa de recompensas mediante el cual cualquier persona puede obtener un cierto número de Tokens MDL para almacenar información sobre talentos, eventos, etc.</description>
     </item>
     
     <item>
       <title>MDL en la Skyledger Conference</title>
-      <link>http://mdl.life/es/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>http://mdl.wtf/es/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>http://mdl.wtf/es/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>Dado que MDL Talent Hub está considerando utilizar la tecnología CXO y formar parte del ecosistema de Skyledger, se nos invitó amablemente a presentar nuestro proyecto a los entusiastas e inversores de cadena de bloques de Shanghai.
 Skyledger se está posicionando como una cadena de bloques 3.0 y es fuertemente respaldado por las comunidades de negocios y tecnología de la información. La tecnología se desarrolla aquí en Shanghai por un equipo internacional y tiene como objetivo superar otros protocolos DAO.</description>
     </item>
     
     <item>
       <title>La Pre-ITO está en marcha</title>
-      <link>http://mdl.life/es/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>http://mdl.wtf/es/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>http://mdl.wtf/es/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>Para prepararnos para la ITO, necesitamos un capital de 500.000 $. Esta cantidad nos permitirá lanzar nuestra campaña de ITO en marzo de 2018, en la que esperamos recaudar 20 millones de dólares para el desarrollo de la plataforma, expansión transfronteriza y desarrollo comercial, así como para I + D y la implementación adicional de las tecnologías de la cadena de bloques y PIDS.
 En enero de 2018, estamos planeando concluir la Pre-ITO para el token MDL.</description>
     </item>
     
     <item>
       <title>Instrumentos de usuario - Parte 1</title>
-      <link>http://mdl.life/es/2017-12-08-user-instruments-part1/</link>
+      <link>http://mdl.wtf/es/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-08-user-instruments-part1/</guid>
+      <guid>http://mdl.wtf/es/2017-12-08-user-instruments-part1/</guid>
       <description>Perfil Creemos que una persona talentosa puede ser talentosa de muchas maneras, por lo que cada perfil tendrá varias carteras: actor, bailarín, maestro de origami o lo que sea. Cada una de las carteras tendrá suficientes materiales de presentación como compcard, videos introductorios, etc. Por lo tanto, una agencia puede elegir fácilmente una cartera específica de un talento tal y como se requiera para el evento determinado.
 Buscar La búsqueda estará disponible tanto para agencias como para talentos, de modo que los freelancers puedan buscar trabajos y que las agencias encuentren freelancers.</description>
     </item>
     
     <item>
       <title>MDL - My Daily Life</title>
-      <link>http://mdl.life/es/2017-12-06-mdl-my-daily-life/</link>
+      <link>http://mdl.wtf/es/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>http://mdl.wtf/es/2017-12-06-mdl-my-daily-life/</guid>
       <description>Durante las últimas décadas, la economía mundial ha experimentado un cambio masivo de la agricultura y la producción a los servicios y la creatividad, como lo señala Richard Florida, director del Martin Prosperity Institute de Canadá. Las tecnologías modernas revolucionan la economía de tal manera que cada vez más personas quedarán desempleadas. El cambio es tan trascendental que las ideas que anteriormente se consideraban una locura, como la del ingreso básico incondicional, ya se están implementando en los países avanzados.</description>
     </item>
     
     <item>
       <title>Cómo MDL asegura la reputación</title>
-      <link>http://mdl.life/es/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>http://mdl.wtf/es/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>http://mdl.wtf/es/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>Para facilitar la credibilidad de la reputación, MDL Talent Hub empleará dos tecnologías modernas: la cadena de bloque y los PIDS. Permítanos explicar de manera simple cómo funcionará.
 El almacenamiento permanente de datos inmutables (PIDS) es una nueva forma de mantener la información. La tecnología permite el almacenamiento de datos en dispositivos de usuarios en lugar de utilizar servidores centralizados que son vulnerables a los ataques. Hoy en día existen dos protocolos prometedores que se están desarrollando y ya están disponibles para su uso: IPFS y CXO; ambos prometen reducir sustancialmente los costos y aumentar la velocidad de transmisión.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub en SF2017 Seoul</title>
-      <link>http://mdl.life/es/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>http://mdl.wtf/es/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>http://mdl.wtf/es/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>Dado que Corea del Sur está promoviendo activamente el ecosistema de startups y las innovaciones para sobrevivir a la feroz competencia tecnológica en Asia, el gobierno coreano ha iniciado un programa de festivales de startups anuales, y la semana pasada fue la primera prueba exitosa. Fue una reunión de empresarios, medios tecnológicos y capitalistas de riesgo, todo bajo el mismo techo del complejo COEX en Seúl.
 MDL Talent Hub fue amablemente invitado a participar en el evento y tuvo la suerte de obtener una excelente exposición ya que los problemas que el proyecto intenta resolver también existen en Corea.</description>
     </item>
     
     <item>
       <title>Lanzamiento de la página web y MDL va a Corea para el SF2017.</title>
-      <link>http://mdl.life/es/2017-11-25--webpage-is-launched-korea/</link>
+      <link>http://mdl.wtf/es/2017-11-25--webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-11-25--webpage-is-launched-korea/</guid>
+      <guid>http://mdl.wtf/es/2017-11-25--webpage-is-launched-korea/</guid>
       <description>A principios de diciembre, el equipo de MDL se unirá al Startup Festival 2017 en Seúl, Corea del Sur. SF2017 es organizado por primera vez por el gobierno coreano para facilitar un ecosistema innovador en el país. Habrá alrededor de 60 startups elegidas de Asia que han sido invitadas personalmente a conocer capital de riesgo y medios de todo el mundo. ¡MDL está en la lista!
 Será el primer gran evento para nosotros como equipo y esperamos dar una buena impresión a nuestros socios potenciales, así como a los viejos amigos que nos encontraremos allí.</description>
     </item>
     
     <item>
       <title>¿De dónde saldrá el dinero?</title>
-      <link>http://mdl.life/es/2017-11-14-where-do-the-money-come-from/</link>
+      <link>http://mdl.wtf/es/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>http://mdl.wtf/es/2017-11-14-where-do-the-money-come-from/</guid>
       <description>Para mantener nuestros flujos financieros positivos, estamos considerando los siguientes métodos de creación de ingresos. Las transmisiones innovadoras se habilitan mediante el uso de tecnología de cadena de bloques.
 Fuentes tradicionales
 1.Funcionalidad extendida
@@ -152,39 +152,39 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>¿Qué haremos?</title>
-      <link>http://mdl.life/es/2017-10-30-what-we-gonna-do/</link>
+      <link>http://mdl.wtf/es/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-10-30-what-we-gonna-do/</guid>
+      <guid>http://mdl.wtf/es/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;ldquo;Si tuviera una hora para resolver un problema, gastaría 55 minutos pensando el problema y 5 minutos pensando en las soluciones&amp;rdquo;. - Albert Einstein
  Esto se aplica especialmente al mercado de talentos en constante evolución que requiere un monitoreo y análisis ininterrumpidos para estar al tanto de los problemas en constante evolución. Además, como las soluciones no son fáciles de desarrollar, ciertas complicaciones simplemente se ignoran. Por lo tanto, no solo es necesario identificar los problemas existentes, sino también prever los próximos y tomar medidas preventivas para permitirle a uno estar a la vanguardia.</description>
     </item>
     
     <item>
       <title>El equipo de MDL en Slush</title>
-      <link>http://mdl.life/es/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>http://mdl.wtf/es/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>http://mdl.wtf/es/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>La primera aparición pública de MDL fue el 12 de octubre de 2017 en la Slush Conference. Presentamos nuestra visión e ideas a varios inversores de capital de riesgo con experiencia y hombres de negocios de alta tecnología, y no solo obtuvimos comentarios positivos y aliento, sino que también recibimos algunos consejos valiosos.
 Las ideas excelentes no pueden florecer en un ecosistema cerrado, por lo que compartir el pensamiento y el conocimiento es absolutamente importante para la supervivencia y el desarrollo en el mundo moderno.</description>
     </item>
     
     <item>
       <title>Creación de MDL (video)</title>
-      <link>http://mdl.life/es/2017-10-10-mdl-inception/</link>
+      <link>http://mdl.wtf/es/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-10-10-mdl-inception/</guid>
+      <guid>http://mdl.wtf/es/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  Se dice que algunos eventos tienen menos probabilidades de suceder y algunos más. Parece que el evento que tuvo lugar el 8 de octubre tuvo muchas posibilidades de ocurrir. Todas las piezas del rompecabezas se juntaron en un solo lugar. Fue un pequeño paso adelante hacia una gran empresa que va a afectar a nuestra sociedad, y aún más, las vidas de sus partes directamente interesadas.</description>
     </item>
     
     <item>
       <title>Lo principal</title>
-      <link>http://mdl.life/es/2017-10-08-the-thing-is/</link>
+      <link>http://mdl.wtf/es/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/es/2017-10-08-the-thing-is/</guid>
+      <guid>http://mdl.wtf/es/2017-10-08-the-thing-is/</guid>
       <description>La mayoría de los países asiáticos, incluidos China e Indonesia, ya en los últimos años han transformado con entusiasmo sus economías de las impulsadas por las exportaciones a las impulsadas por el consumo. En consecuencia, se espera que la industria publicitaria siga mostrando un crecimiento de dos dígitos. Teniendo en cuenta los patrones colectivistas de las culturas asiáticas, podemos observar la participación abrumadora de talentos en todas las actividades de marketing.</description>
     </item>
     
