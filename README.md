@@ -1,2 +1,0 @@
-# MDLlife
-MDL Blog 

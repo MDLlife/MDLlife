@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>http://mdl.life/kr/</link>
-    <description>Recent content on </description>
+    <title>Krs on MDL - Talent Hub Blog</title>
+    <link>http://mdl.wtf/kr/</link>
+    <description>Recent content in Krs on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 14 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mdl.life/kr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://mdl.wtf/kr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MDL팀, 스카이레저(Skyledger) 컨퍼런스 참석</title>
-      <link>http://mdl.life/kr/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>http://mdl.wtf/kr/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>http://mdl.wtf/kr/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>MDL 탤런트 허브(Talent Hub)는 CXO 기술의 채택을 면밀히 검토하고 있으며 스카이레저 생태계의 구성원이 될 계획이므로 중국 상해의 블록체인 지지자 및 투자자들에게 MDL 프로젝트를 소개할 수 있도록 스카이레저 컨퍼런스에 초청 받았습니다.
 스카이레저는 블록체인 3.0을 내세우고 있어 업계 및 IT 관계사들의 열렬한 지지를 받고 있습니다. 이 기술은 세계적인 팀이 이 곳 상해에서 개발하고 있으며 여타 DAO 프로토콜을 극복하는 것을 목표로 삼고 있습니다.
 MDL은 중국을 비롯한 전세계에서 가장 진보된 기술을 이끌어 가고 있는 팀과 긴밀한 관계를 유지할 수 있게 되어 매우 기쁩니다.</description>
@@ -24,10 +24,10 @@ MDL은 중국을 비롯한 전세계에서 가장 진보된 기술을 이끌어 
     
     <item>
       <title>Pre-ITO 진행 중</title>
-      <link>http://mdl.life/kr/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>http://mdl.wtf/kr/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>http://mdl.wtf/kr/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>MDL팀은 ITO 준비를 위해 약 50만 달러가 필요합니다. 이 금액으로 2018년 3월에 ITO 캠페인을 개시할 계획이며, 이 과정에서 플랫폼 개발, 아시아권 확대 및 사업 전개, R&amp;amp;D, BC 및 PIDS 기술 구현 등을 위해 약 2천만 달러를 추가 조성할 계획입니다.
 2018년 1월에는 MDL 토큰을 위한 Pre-ITO를 마무리할 계획입니다. MDL 토큰은 2017년 10월 8일에 Waves 플랫폼으로 1억개가 발행되었습니다.
 토큰 자산 정보는 아래 주소에서 확인하실 수 있습니다 - http://wavesgo.com/tokens/HtM2zY7gDnGbmNmEtF44K8TGCgajDj4rBX29bH87kwXP
@@ -36,59 +36,59 @@ Pre-ITO 세일에 참가할 참가자는 Waves 지갑을 설치해야 합니다.
     
     <item>
       <title>사용자 도구 - 1부</title>
-      <link>http://mdl.life/kr/2017-12-08-user-instruments-part1/</link>
+      <link>http://mdl.wtf/kr/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-12-08-user-instruments-part1/</guid>
+      <guid>http://mdl.wtf/kr/2017-12-08-user-instruments-part1/</guid>
       <description>프로필 Profile 재능이 있는 사람은 여러 방면에 재능이 있다고 생각됩니다. 따라서 각 프로필에는 다수의 포트폴리오, 즉, 배우, 무용수, 종이접기 장인 등등을 위한 포트폴리오가 필요할 것입니다. 이들 포트폴리오 각각에는 컴카드, 소개 동영상 등등 충분한 자기 소개 자료들이 포함됩니다. 따라서 인력소싱회사는 특정 행사에 필요한 재능에 대해 손쉽게 해당 포트폴리오를 선택할 수 있습니다.
 검색 Search 검색 기능은 인력소싱회사와 연예인력 양측 모두에게 제공되므로 프리랜서 뿐만 아니라 구직자들도 활용할 수 있습니다. MDL은 이 플랫폼을 누구나 한 눈에 보고 손쉽게 이용할 수 있도록 제작한다는 목표 아래 플랫폼을 준비하고 있으며 MDL 커뮤니티에서 나오는 다양한 제안들에 주의해서 귀기울이고 있으며 동시에 업계에서 이미 수용된 표준들 역시 활용할 것입니다.</description>
     </item>
     
     <item>
       <title>MDL - 나의 일상 생활(My Daily Life)</title>
-      <link>http://mdl.life/kr/2017-12-06-mdl-my-daily-life/</link>
+      <link>http://mdl.wtf/kr/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>http://mdl.wtf/kr/2017-12-06-mdl-my-daily-life/</guid>
       <description>캐나다 마틴번영연구소(Martin Prosperity Institute)의 리처드 플로리다(Richard Florida) 소장도 주목한 바 있듯이, 지난 수십년간 세계 경제는 농업 및 생산 경제에서 서비스 경제, 나아가서는 창조 경제로 대대적인 이동을 경험하고 있습니다. 현대 기술은 점점 더 많은 사람들을 실업자로 전락시켜 경제가 어려워지고 있으며, 이전에는 미친 소리로 치부되었던 &amp;ldquo;조건없는 기본 소득&amp;rdquo;의 개념도 선진국에서는 이미 시행되고 있는 상황입니다. 머지 않아 우리 사회는 발전을 위해서 더 이상 사람의 일상적 정신 활동, 심지어는 육체 활동마저도 필요하지 않을 순간을 마주하게 될 것입니다.</description>
     </item>
     
     <item>
       <title>MDL의 평판 확보 방법</title>
-      <link>http://mdl.life/kr/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>http://mdl.wtf/kr/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>http://mdl.wtf/kr/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>평판의 신뢰성을 확보하기 위해 MDL 탤런트 허브(Talent Hub)는 두 가지 최신 기술을 채택하는데, 블록체인과 PIDS가 바로 그것입니다. 이 기술들이 어떻게 작동하는지 간단하게 설명드리겠습니다.
 PIDS(Persistent Immutable Data Storage 지속성 변형불가 데이터 저장)는 새로운 형태의 데이터 저장 방식입니다. 이 기술은 중앙집중식의, 공격에 취약한 서버를 사용하지 않고 각 사용자 장치에 데이터를 저장합니다. 최근, 그 미래가 아주 밝은 두 가지 새로운 프로토콜이 개발되고 있으며 이미 사용가능한 단계에 이르고 있는데, IPFS와 CXO가 바로 그것입니다. 이 두 가지 프로토콜은 전송 비용의 대폭적인 감소와 전송 속도의 상당한 향상을 동시에 보장합니다.</description>
     </item>
     
     <item>
       <title>SF2017에 참가한 MDL 탤런트허브(Talent Hub)</title>
-      <link>http://mdl.life/kr/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>http://mdl.wtf/kr/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>http://mdl.wtf/kr/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>한국은 아시아의 치열한 기술 경쟁에서 이기기 위해 스타트업 생태계와 혁신을 적극 권장하고 있습니다. 그 일환으로 한국 정부는 매년 개최될 스타트업 페스티발 프로그램을 구상하였고, 드디어 지난 주, 서울 코엑스의 한 지붕 아래 기업가, 첨단기술 언론매체, 창업투자사 등이 함께 모이는 첫번째 시도를 성공적으로 치루어냈습니다.
 MDL 탤런트 허브(Talent Hub)는 이번 행사에 참가 초청을 받아 그 존재감을 훌륭하게 발휘할 수 있었습니다. MDL팀의 그런 활약이 가능했던 이유는 바로 MDL이 해결하고자 하는 문제점들이 한국에도 존재하고 있기 때문이었습니다.</description>
     </item>
     
     <item>
       <title>SF2017 참가 위해 한국 방문하는 MDL팀! 그리고 MDL 홈페이지 오픈!</title>
-      <link>http://mdl.life/kr/2017-11-25-webpage-is-launched-korea/</link>
+      <link>http://mdl.wtf/kr/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>http://mdl.wtf/kr/2017-11-25-webpage-is-launched-korea/</guid>
       <description>2017년 12월 초, 대한민국 서울에서 개최되는 &amp;lsquo;스타트업 페스티발 2017&amp;rsquo;(Startup Festival 2017)(이하 SF2017)에 참석하기 위해 MDL팀이 한국을 방문합니다. 한국 정부는 한국내 혁신 생태계 활성화를 위해 처음으로 SF2017를 개최합니다. 이번 행사에는 아시아에서 엄선된 약 60개 스타트업이 참가하며, 각각 개별 초청되어 창투사 및 전세계 언론 매체를 만날 기회를 가지게 됩니다. MDL이 당당히 그 초청목록에 포함되었습니다!
 이번 행사는 MDL팀으로서도 처음 맞이하는 대규모 행사이며, 한국에서 만나게 될 오랜 친구들은 물론 미래의 잠재 파트너들에게도 좋은 인상을 남길 수 있기를 고대하고 있습니다.</description>
     </item>
     
     <item>
       <title>돈은 어디서 나오나요?</title>
-      <link>http://mdl.life/kr/2017-11-14-where-do-the-money-come-from/</link>
+      <link>http://mdl.wtf/kr/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>http://mdl.wtf/kr/2017-11-14-where-do-the-money-come-from/</guid>
       <description>재정 흐름을 긍정적으로 유지하기 위해 다음과 같은 수익 창출 방법을 고려하고 있습니다. 혁신적인 스트림은 블록체인 기술로 인해 가능하게 됩니다.
 전통적인 스트림
 1.기능 확장
@@ -99,40 +99,40 @@ MDL 탤런트 허브(Talent Hub)는 이번 행사에 참가 초청을 받아 그
     
     <item>
       <title>우리가 할 일은?</title>
-      <link>http://mdl.life/kr/2017-10-30-what-we-gonna-do/</link>
+      <link>http://mdl.wtf/kr/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-10-30-what-we-gonna-do/</guid>
+      <guid>http://mdl.wtf/kr/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;lsquo;나에게 문제를 해결할 시간이 1시간 주어진다면 그 문제에 대해 55분, 해답을 생각하는 것에 5분을 쓸 것입니다.&amp;rsquo; - 알버트 아인슈타인
 이러한 아인슈타인의 말은 끊임없이 진화하는 탤런트 시장에서는 거의 적용되지 않습니다. 탤런트 시장은 지속적으로 나타나는 문제점을 알리는 논스톱 모니터링 및 분석이 필요합니다. 게다가 문제에 대한 해결책은 즉각적으로 나오지 않으므로 이에 따른 더 복잡한 문제들이 생기고 방치되고 있습니다. 따라서 기존의 문제를 확인할 뿐 아니라 앞으로 발생할 문제를 미리 예측하고 이에 대한 예방 조치를 시행하여 상황을 잘 파악할 수 있습니다.</description>
     </item>
     
     <item>
       <title>Slush 에서의 MDL team</title>
-      <link>http://mdl.life/kr/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>http://mdl.wtf/kr/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>http://mdl.wtf/kr/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>MDL의 첫 공개는 2017년 10월 12일 Slush Conference에서 있었습니다. 우리는 경험 많은 벤처 투자자들과 하이테크 사업가에게 우리의 비전과 아이디어를 제시했으며 긍정적인 피드백과 격려뿐 아니라 소중한 조언을 받았습니다.
 훌륭한 아이디어는 보존된 생태계에는 나타나지 않으므로 현대사회에서 생존과 발전을 위해서는 생각과 지식을 공유하는 것이 절대적으로 중요합니다. 사회적 자본은 그 어떤 물리적 자산보다 훨씬 중요하다고 합니다. 그래서 우리는 오랜 친구와의 유대 관계를 강화할 뿐만 아니라 새로운 관계를 맺음으로써 네트워크를 확장할 수 있어서 매우 행복했습니다.</description>
     </item>
     
     <item>
       <title>MDL 인셉션 (비디오)</title>
-      <link>http://mdl.life/kr/2017-10-10-mdl-inception/</link>
+      <link>http://mdl.wtf/kr/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-10-10-mdl-inception/</guid>
+      <guid>http://mdl.wtf/kr/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  어떤 사건들은 일어날 확률이 적고 또 어떤 사건들은 더 많이 발생한다고 합니다. 10 월 8 일에 있었던 사건은 꽤 좋은 기회였던 것처럼 보입니다. 모든 퍼즐 조각들이 한 곳에서 모였습니다. 그것은 우리 사회에 영향을 끼칠 수 있는 커다란 모험을 향한 작은 시작 단계에 불과했지만 우리 3명의 삶에 직접적인 영향을 끼칠 정도로 큰일이었습니다.
 IT, 국제무역, TV CF제작 등 다양한 산업분야에서 활약하고 있는, 러시아의 옛 수도 상트페테르부르크에서 온 세 남자들.</description>
     </item>
     
     <item>
       <title>그러니까 문제는..</title>
-      <link>http://mdl.life/kr/2017-10-08-the-thing-is/</link>
+      <link>http://mdl.wtf/kr/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.life/kr/2017-10-08-the-thing-is/</guid>
+      <guid>http://mdl.wtf/kr/2017-10-08-the-thing-is/</guid>
       <description>중국과 인도네시아를 비롯한 대다수 아시아 국가들이 수년간 적극적으로 수출주도 경제에서 소비주도 경제로 전환함에 따라 광고산업은 계속해서 두 자릿수의 성장을 보이고 있습니다. 아시아문화의 집단주의적 패턴을 고려하였을 때, 우리는 모든 마케팅 활동에서 인재들의 압도적인 참여를 관찰할 수 있습니다. 온라인, 영화, TV 또는 현장 프로모션 무엇이 되었든 텔런트의 능력이 핵심요소가 됩니다.
 그렇기에 중국의 예를 보면 모델과 배우, 가수와 댄서, 서커스와 테마파크 공연자 등 다양한 유형의 해외 인재가 엄청나게 유입되고 있고 이들 모두는 외국인이라는 국적으로 인해 프리미엄으로 간주됩니다.</description>
     </item>
