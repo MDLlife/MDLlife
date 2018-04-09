@@ -8,7 +8,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="../css/libs.min.css?ver_1">
-	<link rel="stylesheet" href="../css/main.min.css?ver_5">
+	<link rel="stylesheet" href="../css/main.min.css?ver_6">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<!-- Yandex.Metrika counter -->
@@ -183,7 +183,7 @@
 					<img src="img/popup-close.svg" alt="">
 				</button>
 				<div class="modal-body">
-					<p class="get-mdl-title">To get MDL Tokens <span>download the wallet</span> with the link below and follow the instructions in the video</p>
+					<p class="get-mdl-title">To get MDL Tokens <span>download the wallet</span> with the link below and follow the instructions in the <a target = "_blank" href="https://www.youtube.com/watch?v=wMAEpBB79uk">video</a></p>
 					<p class="ti-fc"><input class="term-checkbox-one term-checkbox" type="checkbox"><span>Check here to confirm that you are not a Restricted Person nor are you purchasing the Tokens on behalf of a Restricted Person</span> </p>
 					<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the terms of this Agreement (which includes the <a href="https://mdl.life/docs/MDL_Terms_And_Conditions.pdf">Terms and Conditions</a>)</span></p>
 					<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the <a href="https://mdl.life/docs/MDL_Terms_Of_Use.pdf" target="_blank">Terms of Use</a> and <a href="https://mdl.life/docs/MDL_Privacy_Policy.pdf" target="_blank">Privacy Policy</a> </span></p>
@@ -197,7 +197,7 @@
 					</p>
 					<p class="mdl-manual">Watch the manual <a target = "_blank" href="https://www.youtube.com/watch?v=wMAEpBB79uk">video</a></p>
 					<div class="get-mdl--wrapper dropdown">
-						<a href="#" role="button" class="get-mdl dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">DOWNLOAD</a>
+						<a href="#" role="button" class="get-mdl dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="trackGetMDL();">DOWNLOAD</a>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-linux-x64.AppImage">For Linux</a>
 							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-win-setup.exe">For Windows</a>
@@ -379,6 +379,7 @@
 															<a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
 														</div>
 													</div>
+													<p class="sub-mob-alert">Subscribe for beta testing</p>
 												</div>
 												<div class="captcha forms-builder-group" style="display: none;"><div class="row" style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;"><div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div></div></div>
 											</div>
@@ -474,11 +475,11 @@
 									</div>
 								</div>
 								<div class="wallet__right-part" data-aos = "fade">
-									<h2 class="wallet__right-part--title">Open soon</h2>
+									<h2 class="wallet__right-part--title">怎么样买MDL代币</h2>
 									<ul>
-										<li></li>
-										<li></li>
-										<li></li>
+										<li>申请白名单</li>
+										<li>通过白名单中的链接下载钱包</li>
+										<li>通过 买MDL代币 安装钱包</li>
 									</ul>
 									<!-- <a class="wallet__button one" href="https://t.me/MDL_Talent_Hub" target="_blank" onclick="trackOutboundLink('https://t.me/MDL_Talent_Hub');yaCounter48000959.reachGoal('socseticlick');"><svg class="liquid-button"
 										data-text="JOIN TELEGRAM"
@@ -529,6 +530,7 @@
 									<ul>
 										<li class="active first">品牌</li>
 										<li class="second">市场</li>
+										<li class="third">保险体系</li>
 									</ul>
 								</div>
 								<ul class="income-cards">
@@ -575,6 +577,26 @@
 											<span class="income-legend first pink"><img class="income-legend-image" src="../img/website-parts/income/income-legend-pink.svg" alt="">MDL代币流向</span>
 											<span class="income-legend second blue"><img class="income-legend-image" src="../img/website-parts/income/income-legend-blue.svg" alt="">商品&服务</span>
 											<span class="income-legend third purple"><img class="income-legend-image" src="../img/website-parts/income/income-legend-purple.svg" alt="">直播</span>
+										</div>
+									</li>
+									<li class="income-card third">
+										<div class="income-text-wrapper">
+											<h2 class="income-title">保险体系</h2>
+											<p class="income-desc">这个在MDL Talent Hub平台上的保险体系是确立预定者和演艺人员之间的交易信用的，如果个人的交易信用非常好的话，用MDL代币买保险是有折扣的。</p>
+										</div>
+										<div class="income-image-wrapper">
+											<img src="../img/website-parts/income/income-booker-insurence.svg" alt="" class="booker-insurence income-arrow pink">
+											<img src="../img/website-parts/income/income-talent-insurence.svg" alt="" class="talent-insurence income-arrow dark-blue">
+											<img src="../img/website-parts/income/income-insurence-talent.svg" alt="" class="insurance-talent income-arrow pink">
+											<img src="../img/website-parts/income/income-insurence-booker.svg" alt="" class="insurence-booker income-arrow dark-blue">
+											<img class="income-image booker-insu" src="../img/website-parts/income/income-booker.svg" alt="">
+											<span class="income-text booker-insu">Booker</span>
+											<img class="income-image talent-insu" src="../img/website-parts/income/income-talent.svg" alt="">
+											<span class="income-text talent-insu">Talent</span>
+											<img class="income-image insurance" src="../img/website-parts/income/income-insurance.svg" alt="">
+											<span class="income-text insurance">MDL <br> Insurance <br>	 Pool</span>
+											<span class="income-legend first ins pink"><img class="income-legend-image" src="../img/website-parts/income/income-legend-pink.svg" alt="">MDL Token Flow</span>
+											<span class="income-legend second ins dark-blue"><img class="income-legend-image" src="../img/website-parts/income/income-legend-dark-blue.svg" alt="">Insurance compensations</span>
 										</div>
 									</li>
 								</ul>
@@ -707,6 +729,16 @@
 									</div>
 									<h3 class="instruments__box--title">区块链声誉模块</h3>
 									<p class="instruments__box--desc">可跟踪&不可更改的声誉统计。</p>
+									<div class="instruments__box--trigger">
+									</div>
+								</div>
+								<div class="instruments__box hide-on-mobile" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900">
+									<div class="instruments__box--image-wrapper">
+										<img src="../img/website-parts/instruments/data.svg" alt="" class="instruments__box--image first">
+										<img src="../img/website-parts/instruments/data2.svg" alt="" class="instruments__box--image second">
+									</div>
+									<h3 class="instruments__box--title">Big Data</h3>
+									<p class="instruments__box--desc">在平台上所有用户数据都会被合理的收集和分析</p>
 									<div class="instruments__box--trigger">
 									</div>
 								</div>
@@ -939,15 +971,12 @@
 											<div class="team__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="900" data-toggle="modal" data-target="#teamModal">
 												<div class="team__item--photo-wrapper">
 													<img src="../img/website-parts/team/t-13.png" alt="" class="team__item--photo">
-													<p class="team__item--desc">Thomas is an IT professional with 15 years of experience in software development. Thomas played several different roles across the board, from engineering and team leading to solutions architect and technical testing.
-													Some of the customers Thomas has been working with are: IBM, William Hill, Coull Video Advertising Platform, Weeronline.nl, Comentarismo.com and many more.
-													During his career, Thomas gained knowledge in team leadership, vendor management and contracting as well as managing large data pools and data streaming.
-													In his spare time, Thomas acts as a member of SouJava NGO board of directors, where he advocates for the Java User Group in the Java Community Process.</p>
+													<p class="team__item--desc">Thomas是一个在软件开放领域有15年经验IT专家。Thomas服务过以下客户：IBM，William Hill，Coull Video Advertising Platform，Weeronline.nl, Comentarismo.com等等。Thomas在大数据数据库和数据流方面有非常丰富的领导，供应商管理等经验。同时，Thomas也是SouJava 非政府组织的主管，他在Java community Process持续推广了Java User Group。</p>
 													<a href="https://www.linkedin.com/in/thomasmodeneis/" class="team__item--link"></a>
 													<a href="#team" class="team__item--bio">Biography</a>
 												</div>
 												<h2 class="team__item--title">Thomas Modeneis</h2>
-												<p class="team__item--position-sec">Blockchain Developer</p>
+												<p class="team__item--position-sec">区块链开发者</p>
 											</div>
 										</div>
 									</div>
@@ -1001,7 +1030,7 @@
 									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-toggle="modal" data-target="#mentorsModal">
 										<div class="mentor__item--photo-wrapper">
 											<img src="../img/website-parts/mentors/m-5.png" alt="" class="mentor__item--photo">
-											<p class="mentor__item--desc">Monika Rofler is an international fashion model and actress with features in magazines such as: Vogue, Elle, Cosmopolitan, Marie Claire, Madame Figaro to name a few. She began her career working at Sweden’s top agency - Stockholmsgruppen and then was represented by Ford Models, in Europe and New York. Monika has worked with brands such as Hugo Boss, Diane Von Furstenberg, Fendissimi (Fendi) and Premiata. In addition, she has worked with many renowned international photographers, has 15 years’ experience and a strong network in the industry, Monika was a jeans designer for Therapy by Lane Crawford and has a tech background as an editor/programmer for two online magazines. She also studied Computer game production at IAA School of Engineering at Jonkoping University.She is now based in Seoul where she frequently works for LG /Samsung and other Korean brands and TV shows. Monika is also active in the Blockchain community and hosts her own yoga vlog on Dtube.</p>
+											<p class="mentor__item--desc">Monika Rofler是一个国际的时装模特和演员，在以下品牌Vogue, Elle,Cosmopolitan, Marie Claire, Madame Figar等. 她在Sweden's top经纪公司开始自己的模特职，Stockholmsgruppen公司和在欧洲和纽约做Ford公司的模特。她为Hugo Boss, Diane Von Furstenberg, Fendissimi (Fendi) and Premiata做过模特。她在这个行业有15年的工作经验，和一些著名的摄影师深度合作；同时她是Therapy by Lane Crawford的牛仔裤设计师和两个科技杂志的程序员。她之前在Jonkoping大学学习电脑游戏制作。她现在在韩国为LG/Samsung等大牌和TV Shows工作。同时她也在区块链社群里非常活跃和在Dtube.eller里主持了自己的瑜伽博客。</p>
 											<a href="https://www.linkedin.com/in/monika-rofler-92394220/" class="mentor__item--linkin"></a>
 											<a href="#mentors" class="mentor__item--link">Biography</a>
 										</div>
@@ -1011,7 +1040,7 @@
 									<div class="mentor__item" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600" data-toggle="modal" data-target="#mentorsModal">
 										<div class="mentor__item--photo-wrapper">
 											<img src="../img/website-parts/mentors/m-6.png" alt="" class="mentor__item--photo">
-											<p class="mentor__item--desc">Chris has been a journalist, a TV and Radio broadcaster, a lifestyle magazine editor, a theatre artist and a university teacher. He has directed over 100 episodes of TV drama and comedies, including Nigeria's all time favourite family sitcom, Fuji House of Commotion. He has produced 2 seasons of the acclaimed behavioral change drama series MTVShuga. Chris has been Head Writer on 2 Africa Magic Telenovelas and has written, created, consulted for or been Head Writer on over 1000 episodes of TV drama/comedies. Chris has made 2 short films, including Big Daddy (2011), which has almost 600,000 views on Youtube. He has held StoryStory, a storytelling Masterclass at the British Council in Lagos, training over 100 storytellers. He founded LFA, a filmmaking training Academy  and Foundation in 2018. He's currently working on many projects across the media space in Africa.</p>
+											<p class="mentor__item--desc">Chris过去是一个记者，电视，无线电广播员，生活品味杂志编辑，剧院艺术家和大学老师。他导演了超过100集的电视剧和喜剧，包括尼日利亚史上最受欢迎的家庭情景喜剧《富士之家》。他制作了两季广受好评的行为改变系列电视剧《MTVShuga》。克里斯一直担任《非洲魔术电视》的首席编剧，并在1000多集电视剧/喜剧中担任编剧、创作、咨询或担任首席编剧。克里斯制作了两部短片，包括《爸爸大爸爸》(2011)，在Youtube上有近60万的点击量。他在拉各斯的英国文化协会(British Council in Lagos)举办了StoryStory，一个讲故事的大师班，训练了100多名讲故事的人。他于2018年创办了电影制作培训学院和基金会。他目前正在非洲的媒体领域从事许多项目。</p>
 											<a href="https://www.linkedin.com/in/chris-ihidero-a3a64242/" class="mentor__item--linkin"></a>
 											<a href="#mentors" class="mentor__item--link">Biography</a>
 										</div>
@@ -1155,6 +1184,6 @@
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 					<script src="../js/libs.min.js?ver_1"></script>
-					<script src="../js/common.js?ver_5"></script>
+					<script src="../js/common.js?ver_7"></script>
 				</body>
 				</html>

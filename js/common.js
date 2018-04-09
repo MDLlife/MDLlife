@@ -244,7 +244,7 @@ function initScrambleText(){
 }
 function initSiteNav() {
 
-    $(document).on("scroll", onScroll);
+    //$(document).on("scroll", onScroll);
 
     $("#site-nav .site-nav__item").click(function(e){
         e.preventDefault();
@@ -1814,8 +1814,10 @@ if (window.screen.width > 768 || window.innerWidth > 768 || window.screen.availW
                             backColor = '#dff0d8';
                             borderColor = '#d6e9c6';
                             color = '#ffffff';
+                            $(".sub-mob-alert").hide();
                             setTimeout(function(){
                               $('.message_area').remove();
+                              $(".sub-mob-alert").show();
                           }, 3000);
                         }
                         else {
