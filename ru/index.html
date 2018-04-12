@@ -106,7 +106,7 @@
 			var trackGetMDL = function() {
 				gtag('event', 'click', {
 				  'event_category': 'Get MDL',
-				  'event_label': 'Get MDL click'
+				  'event_label': 'Get MDL download'
 				});
 			}
 		</script>
@@ -185,7 +185,7 @@
 					</p>
 					<p class="mdl-manual">Смотреть<a target = "_blank" href="https://www.youtube.com/watch?v=wMAEpBB79uk"> видео мануал</a></p>
 					<div class="get-mdl--wrapper dropdown">
-						<a href="#" role="button" class="get-mdl dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="trackGetMDL();">СКАЧАТЬ</a>
+						<a href="#" role="button" class="get-mdl dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="trackGetMDL(); yaCounter48000959.reachGoal('poluchit');">СКАЧАТЬ</a>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
 							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-linux-x64.AppImage">Для Linux</a>
 							<a class="dropdown-item" href="http://mdl.life/wallet/mdl-0.21.12-gui-win-setup.exe">Для Windows</a>
@@ -487,7 +487,7 @@
 											data-width = "163"
 											data-height = "49"
 											data-text-color = "#ffffff"></svg><span class="mobile">ПОЛУЧИТЬ MDL</span></a>
-										<a class="wallet__button two" href = "../form/" onclick="trackWhitelistLink('https://mdl.life/form/');"><svg class="liquid-button"
+										<a class="wallet__button two" href = "form/" onclick="trackWhitelistLink('https://mdl.life/ru/form/');"><svg class="liquid-button"
 											data-text="JOIN WHITELIST"
 											data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4" data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1" data-layer-2-force-limit="2"
 											data-color1="rgb(110, 179, 231)"
