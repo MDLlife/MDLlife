@@ -259,7 +259,7 @@ function setRaisedLegend(){
             pretty_mdl = mdl.toString().split( /(?=(?:\d{3})+(?!\d))/);
         $('#raised-dollars').text(pretty_usd.join(" "));
         $('#raised-mdl').text(pretty_mdl.join(" "));
-        var line_percent = (data.usd / 10000000) * 100;
+        var line_percent = (data.usd / 2500000) * 100;
         $('#pink-line').css('width',line_percent + "%");
     });
     $.getJSON("/ito-stats", function(data){
