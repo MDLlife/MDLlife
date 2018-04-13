@@ -8,7 +8,7 @@
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
 	<link rel="stylesheet" href="../css/libs.min.css?ver_1">
-	<link rel="stylesheet" href="../css/main.min.css?ver_6">
+	<link rel="stylesheet" href="../css/main.min.css?ver_9">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<!-- Yandex.Metrika counter -->
@@ -183,7 +183,6 @@
 						<input class="term-checkbox-five term-checkbox" type="checkbox">
 						<span>I hereby confirm with accordance to the Singaporean law that I have passed <a href="/form">KYC procedures</a>. I understand the liability. Let me in and let’s rock!</span>
 					</p>
-					<p class="mdl-manual">Watch the manual <a target = "_blank" href="https://www.youtube.com/watch?v=wMAEpBB79uk">video</a></p>
 					<div class="get-mdl--wrapper dropdown">
 						<a href="#" role="button" class="get-mdl dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" onclick="trackGetMDL(); yaCounter48000959.reachGoal('poluchit');">DOWNLOAD</a>
 						<div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
@@ -314,15 +313,18 @@
 						<p class="timer-title" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1500">ITO</p>
 						<p class="header-timer_about" data-aos = "fade-up" data-aos-duration = "1000" data-aos-delay = "1000">총 MDL의 20%까지만 20% 할인 적용</p>
 						<div class="raised-wrapper">
-							<span class="text-discount">Discount</span>
-							<span class="max-value">$18 400 000 <br> <b>Hard Cap</b></span>
-							<span class="max-value sc">$10 000 000 <br> <b>Soft Cap</b></span>
+							<!-- <span class="text-discount">Discount</span> -->
+							<span class="start-value"><b>Start of sales</b><br>$0</span>
+							<span class="max-value"><b>Hard Cap</b><br>$2 500 000</span>
+							<span class="max-value sc"><b>Soft Cap</b><br>$1 800 000</span>
 							<div class="line-wrapper">
 								<div class="line"><div id = "pink-line" class="pink-line"></div></div>
+								<!-- <div class="white-point"></div> -->
 								<div class="pink-point"></div>
-								<div class="white-point"></div>
 								<div class="sc-point"></div>
 								<div class="hc-point"></div>
+								<span class="st-name">Token price</span>
+								<span class="st-price first">$0.03</span><span class="st-price second">$0.035</span>
 							</div>
 							<div class="raised-legend-wrapper">
 								<div class="raised-legend">Raised:<br><span>USD </span><span id = "raised-dollars"></span></div>
@@ -496,6 +498,93 @@
 											data-width = "163"
 											data-height = "49"
 											data-text-color = "#c72897"></svg><span class="mobile">JOIN WHITELIST</span></a>
+										</div>
+										<div class="ito-structure">
+											<div class="is-wrapper">
+												<h2 class="is-title">MDL ITO Structure</h2>
+												<div class="is-choser">
+													<ul class="isc-list">
+														<li class="isc-item active first">1 Stage</li>
+														<li class="isc-item second">2 Stage</li>
+														<li class="isc-item third">3 Stage</li>
+													</ul>
+												</div>
+												<div class="stage first">
+													<div class="stage-legend">
+														<h3 class="sl-title">1 Stage</h3>
+														<ul class="sl-list">
+															<li class="sl-list-item">0.03-0.035 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">2 500 000 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">1 800 000 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">24.03.2018</li>
+															<li class="sl-list-item">24.04.2018</li>
+														</ul>
+													</div>
+													<div class="stage-counter first">
+														<div class="sc-counter">
+															<span class="sc-price first">
+																$0.035
+															</span>
+															<span class="sc-price second">
+																Token <br> price <br> $0.03
+															</span>
+															<div id="total-first-stage" class="total-stage-counter"></div>
+														</div>
+														<div class="sc-legend">
+															<span class="sc-legend-ach first">Hard cap <br> $2.5 M</span>
+															<span class="sc-legend-ach second">Soft cap <br> $1.8 M</span>
+															<span class="sc-legend-ach third">Raised <br> <span id="sc-legend-raised-first"></span></span>
+														</div>
+														<span class="stage-number">Stage 1</span>
+													</div>
+												</div>
+												<div class="stage non-active second">
+													<div class="stage-legend">
+														<h3 class="sl-title">2 Stage</h3>
+														<ul class="sl-list">
+															<li class="sl-list-item">0.04-0.045 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">5 000 000 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">3 200 000 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">15.05.2018</li>
+															<li class="sl-list-item">15.06.2018</li>
+														</ul>
+													</div>
+													<div class="stage-counter">
+														<div class="sc-counter">
+															<span class="sc-price first">
+																$0.045
+															</span>
+															<span class="sc-price second">
+																$0.04
+															</span>
+														</div>
+														<span class="stage-number">Stage 2</span>
+													</div>
+												</div>
+												<div class="stage non-active third">
+													<div class="stage-legend">
+														<h3 class="sl-title">3 Stage</h3>
+														<ul class="sl-list">
+															<li class="sl-list-item">0.05 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">10 000 000 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">6 000 000 <span class="sl-list-item-currency">USD</span><span class="sl-list-item-currency mob">$</span></li>
+															<li class="sl-list-item">25.08.2018</li>
+															<li class="sl-list-item">25.09.2018</li>
+														</ul>
+													</div>
+													<div class="stage-counter">
+														<div class="sc-counter">
+															<!-- <span class="sc-price first">
+																$0,035
+															</span> -->
+															<span class="sc-price second">
+																$0.05
+															</span>
+														</div>
+														<span class="stage-number">Stage 3</span>
+													</div>
+												</div>
+											</div>
 										</div>
 								<div class="wallet-banner">
 									<p class="wb-first">Our ICO is also running on <a href= "http://KICKICO.COM" target="_blank"> <img src="../img/website-parts/wallet/kickico.svg" alt=""> KICKICO</a></p>
@@ -1033,6 +1122,9 @@
 								</div>
 							</section>
 							<section id = "subscribe">
+								<div class="s-el"><img src="../img/website-parts/subscribe/s-1.png" alt=""></div>
+								<div class="s-el"><img src="../img/website-parts/subscribe/s-2.png" alt=""></div>
+								<div class="s-el"><img src="../img/website-parts/subscribe/s-3.png" alt=""></div>
 								<div id="sib_embed_signup">
 									<div class="forms-builder-wrapper">
 										<input type="hidden" id="sib_embed_signup_lang" value="en">
@@ -1044,7 +1136,7 @@
 												<input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
 												<div class="view-messages" style=" margin:5px 0;"> </div>
 												<div class="primary-group email-group forms-builder-group ui-sortable" style="">
-													<p class="subscribe-label">Enter your email address for newsletter subscription</p>
+													<p class="subscribe-label">Enter your email address for newsletter <br> subscription</p>
 													<div class="row mandatory-email" style="position: relative">
 														<input type="text" name="email" id="email" value="" placeholder="E-mail">
 														<button class="button editable " type="submit" data-editfield="subscribe" onclick="trackEmailSubscribe();yaCounter48000959.reachGoal('ostemail');">SUBSCRIBE</button>
@@ -1144,6 +1236,6 @@
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 					<script src="../js/libs.min.js?ver_1"></script>
-					<script src="../js/common.js?ver_7"></script>
+					<script src="../js/common.js?ver_9"></script>
 				</body>
 				</html>

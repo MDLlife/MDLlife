@@ -6,6 +6,7 @@ $(document).ready(function(){
     updateForm();
     videoControllers();
     windowOnSroll();
+    walletIcoStructure();
     initScrambleText();
     initSiteNav();
     mentorsPopup();
@@ -152,6 +153,37 @@ function mob_video(){
     }
 }
 
+function walletIcoStructure(){
+    $('.isc-item').click(function(){
+        var isc_item = $('.isc-item');
+        var $this  = $(this);
+        if($this.hasClass('active')){
+            return;
+        }
+        if($this.hasClass('first')){
+            $('.stage.first').show();
+            $('.stage.second').hide();
+            $('.stage.third').hide();
+            isc_item.removeClass('active');
+            $this.addClass('active');
+        }
+        if($this.hasClass('second')){
+            $('.stage.second').show();
+            $('.stage.first').hide();
+            $('.stage.third').hide();
+            isc_item.removeClass('active');
+            $this.addClass('active');
+        }
+        if($this.hasClass('third')){
+            $('.stage.third').show();
+            $('.stage.second').hide();
+            $('.stage.first').hide();
+            isc_item.removeClass('active');
+            $this.addClass('active');
+        }
+    });
+}
+
 function customScrolling(){
     $('#nav-main .nav__logo').on('click',function(e){
         e.preventDefault();
@@ -229,6 +261,12 @@ function setRaisedLegend(){
         $('#raised-mdl').text(pretty_mdl.join(" "));
         var line_percent = (data.usd / 10000000) * 100;
         $('#pink-line').css('width',line_percent + "%");
+    });
+    $.getJSON("/ito-stats", function(data){
+        var usd = (Number(data.usd).toFixed(0) / 1000000).toFixed(2);
+        $('#sc-legend-raised-first').text(usd.toString() + "M");
+        var total_percent = (data.usd / 2500000) * 100;
+        $('#total-first-stage').css('height',total_percent + "%");
     });
 }
 
