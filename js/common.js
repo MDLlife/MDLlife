@@ -229,7 +229,7 @@ function videoControllers(){
 }
 function windowOnSroll(){
     $(window).scroll(function(){
-        if($(this).scrollTop() > 1200)
+        if($(this).scrollTop() > 800)
             $('#main-header').css('position','absolute');
         else
             $('#main-header').css('position','fixed');
@@ -1326,24 +1326,22 @@ if (window.screen.width > 768 || window.innerWidth > 768 || window.screen.availW
     var LiquidButton = function () {
         function LiquidButton(svg) {
             _classCallCheck(this, LiquidButton);
-
-            var options = svg.dataset;
             this.id = this.constructor.id || (this.constructor.id = 1);
             this.constructor.id++;
             this.xmlns = 'http://www.w3.org/2000/svg';
-            this.tension = options.tension * 1 || 0.4;
-            this.width = options.width * 1 || 200;
-            this.height = options.height * 1 || 50;
-            this.margin = options.margin || 40;
-            this.hoverFactor = options.hoverFactor || -0.1;
-            this.gap = options.gap || 3;
-            this.debug = options.debug || false;
-            this.forceFactor = options.forceFactor || 0.2;
-            this.color1 = options.color1 || '#36DFE7';
-            this.color2 = options.color2 || '#8F17E1';
-            this.color3 = options.color3 || '#BF09E6';
-            this.textColor = options.textColor || '#eb3fa1';
-            this.text = options.text || 'Button';
+            this.tension = +svg.getAttribute('data-tension') * 1 || 0.4;
+            this.width = +svg.getAttribute('data-width') * 1 || 200;
+            this.height = +svg.getAttribute('data-height') * 1 || 50;
+            this.margin = +svg.getAttribute('data-margin') || 40;
+            this.hoverFactor = +svg.getAttribute('data-hover-factor') || -0.1;
+            this.gap = +svg.getAttribute('data-gap') || 3;
+            this.debug = svg.getAttribute('data-debug') || false;
+            this.forceFactor = +svg.getAttribute('data-force-factor') || 0.2;
+            this.color1 = svg.getAttribute('data-color1') || '#36DFE7';
+            this.color2 = svg.getAttribute('data-color2') || '#8F17E1';
+            this.color3 = svg.getAttribute('data-color3') || '#BF09E6';
+            this.textColor = svg.getAttribute('data-text-color') || '#eb3fa1';
+            this.text = svg.getAttribute('data-text') || 'Button';
             this.svg = svg;
             this.layers = [{
                 points: [],
@@ -1358,13 +1356,13 @@ if (window.screen.width > 768 || window.innerWidth > 768 || window.screen.availW
             }];
             for (var layerIndex = 0; layerIndex < this.layers.length; layerIndex++) {
                 var layer = this.layers[layerIndex];
-                layer.viscosity = options['layer-' + (layerIndex + 1) + 'Viscosity'] * 1 || layer.viscosity;
-                layer.mouseForce = options['layer-' + (layerIndex + 1) + 'MouseForce'] * 1 || layer.mouseForce;
-                layer.forceLimit = options['layer-' + (layerIndex + 1) + 'ForceLimit'] * 1 || layer.forceLimit;
+                layer.viscosity = svg.getAttribute('data-layer-' + (layerIndex + 1) + '-viscosity') * 1 || layer.viscosity;
+                layer.mouseForce = svg.getAttribute('data-layer-' + (layerIndex + 1) + '-mouse-force') * 1 || layer.mouseForce;
+                layer.forceLimit = svg.getAttribute('data-layer-' + (layerIndex + 1) + '-force-limit') * 1 || layer.forceLimit;
                 layer.path = document.createElementNS(this.xmlns, 'path');
                 this.svg.appendChild(layer.path);
             }
-            this.wrapperElement = options.wrapperElement || document.body;
+            this.wrapperElement = svg.getAttribute('wrapperElement') || document.body;
             if (!this.svg.parentElement) {
                 this.wrapperElement.append(this.svg);
             }
@@ -1385,7 +1383,7 @@ if (window.screen.width > 768 || window.innerWidth > 768 || window.screen.availW
             this.svg.appendChild(this.svgDefs);
 
             this.touches = [];
-            this.noise = options.noise || 0;
+            this.noise = svg.getAttribute('data-noise') || 0;
             document.body.addEventListener('touchstart', this.touchHandler);
             document.body.addEventListener('touchmove', this.touchHandler);
             document.body.addEventListener('touchend', this.clearHandler);
