@@ -1,0 +1,284 @@
+@import "../fonts.sass"
+
+#instruments
+	background-color: transparent
+	text-align: left
+	height: auto
+	position: relative
+	z-index: 10001
+	// top: 910px
+	padding-bottom: 190px
+	.instruments__bubble
+		position: absolute
+		right: -70px
+		top: -120px
+	.instruments__bubble-second
+		position: absolute
+		left: -50px
+		bottom: 50px
+	.instruments__title
+		font-family: $gilroy_light
+		font-size: 48px
+		font-weight: 300
+		font-style: normal
+		font-stretch: normal
+		line-height: 1.02
+		letter-spacing: normal
+		text-align: center
+		color: #1f0738
+	.instruments__separator
+		width: 60px
+		height: 3px
+		background-color: #ff2394
+		margin: 45px auto 45px
+	.instruments__box--wrapper
+		width: 855px
+		margin: 0 auto
+		.instruments__box
+			overflow: hidden
+			display: inline-block
+			width: 280px
+			height: 180px
+			position: relative
+			transition: all 0.3s ease
+			&:nth-child(1)
+				.instruments__box--image-wrapper
+					width: 60px
+					height: 60px
+					margin-left: -30px
+					.instruments__box--image
+						width: 60px
+						height: 60px
+			&:nth-child(6)
+				.instruments__box--image-wrapper
+					width: 55px
+					height: 55px
+					margin-left: -27.5px
+					.instruments__box--image
+						width: 55px
+						height: 55px
+			&:nth-child(7)
+				.instruments__box--image-wrapper
+					width: 55px
+					height: 55px
+					margin-left: -27.5px
+					.instruments__box--image
+						width: 55px
+						height: 55px
+			&:nth-child(8)
+				.instruments__box--image-wrapper
+					width: 55px
+					height: 55px
+					margin-left: -27.5px
+					.instruments__box--image
+						width: 55px
+						height: 55px
+			&:nth-child(9)
+				.instruments__box--image-wrapper
+					width: 59px
+					height: 59px
+					margin-left: -29.5px
+					margin-top: -4px
+					.instruments__box--image
+						width: 59px
+						height: 59px
+				&:hover
+					.instruments__box--title
+						left: 105px
+			&:hover
+				background-color: white
+				box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.35)
+				.instruments__box--image.second
+					opacity: 1 !important
+				.instruments__box--image.first
+					opacity: 0
+				.instruments__box--image.second
+					opacity: 1 !important
+				.instruments__box--image.first
+					opacity: 0
+				.instruments__box--image-wrapper
+					left: 31px
+					top: 21px
+					margin: unset
+				.instruments__box--title
+					text-align: left
+					left: 94px
+					top: 21px
+					margin-left: unset
+					margin-top: unset
+					font-weight: 400
+					span
+						font-weight: 600
+				.instruments__box--desc
+					top: 90px
+				.instruments__box--trigger-image.clos
+					opacity: 1 !important
+				.instruments__box--trigger-image.arr
+					opacity: 0 !important
+			.instruments__box--image-wrapper
+				position: absolute
+				width: 52px
+				height: 50px
+				left: 50%
+				margin-left: -26px
+				top: 35px
+				transition: all 0.5s ease-out
+				.instruments__box--image
+					position: absolute
+					top: 0	
+					left: 0	
+					width: 52px
+					height: 50px
+					object-fit: contain
+					transition: all 0.5s ease-out
+					&.second
+						opacity: 0
+			.instruments__box--title
+				position: absolute
+				top: 60%
+				margin-top: 0px
+				left: 50%
+				margin-left: -85px
+				width: 170px
+				font-family: $sans
+				font-size: 16px
+				font-weight: 600
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: normal
+				text-align: center
+				color: #1a0a2b
+				transition: all 0.6s ease-out
+			.instruments__box--desc
+				position: absolute
+				top: 400px
+				left: 31px
+				width: 232px
+				opacity: 0.62
+				font-family: $sans
+				font-size: 14px
+				font-weight: normal
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: 0.2px
+				text-align: left
+				color: #1a0a2b
+				transition: all 0.6s ease-out
+			.instruments__box--trigger
+				display: block
+				width: 15px	
+				height: 25px
+				position: absolute
+				left: 50%
+				margin-left: -8.5px
+				bottom: 15px
+				transition: all 0.5s ease
+				.instruments__box--trigger-image
+					position: absolute
+					left: 0	
+					top: 0
+					&.clos,&.arr
+						opacity: 0
+	#in-vm
+		display: none
+@media(max-width: 991px)
+	#instruments
+		.instruments__bubble
+			display: none 
+		.instruments__bubble-second
+			display: none
+		.instruments__box--wrapper
+			width: 565px
+@media (max-width: 768px)
+	#instruments
+		padding-bottom: 140px
+		.instruments__title
+			font-size: 28px	
+		.instruments__bubble
+			display: none
+		.instruments__bubble-second
+			display: none
+		.instruments__box--wrapper
+			width: 100%
+			text-align: center
+			.instruments__box
+				background-color: transparent
+				box-shadow: none
+				height: auto
+				animation: none !important
+				transition-property: none !important;
+				transform: none !important;
+				.instruments__box--image.second
+					opacity: 0 !important
+				.instruments__box--image.first
+					opacity: 1
+				.instruments__box--image-wrapper
+					left: 15px
+					top: 26px
+					margin: unset !important
+				.instruments__box--title
+					position: static
+					margin-top: 28px
+					margin-left: 83px
+					text-align: left
+					color: #1b0531
+					font-weight: 600
+					span
+						font-weight: 600
+				.instruments__box--desc
+					position: static
+					margin-left: 83px
+					width: 180px
+					opacity: 1 !important
+				.instruments__box--trigger-image.clos
+					opacity: 1 !important
+				.instruments__box--trigger-image.arr
+					opacity: 0 !important
+				// &.hide-on-mobile
+				// 	display: block !important
+				&:hover
+					background-color: transparent
+					box-shadow: none
+					.instruments__box--image.second
+						opacity: 0 !important
+					.instruments__box--image.first
+						opacity: 1
+					.instruments__box--image-wrapper
+						left: 15px
+						top: 26px
+						margin: unset !important
+					.instruments__box--title
+						position: static
+						margin-top: 28px
+						margin-left: 83px
+						text-align: left
+						color: #1b0531
+						font-weight: 600
+						span
+							font-weight: 600
+					.instruments__box--desc
+						position: static
+						margin-left: 83px
+						width: 180px
+						opacity: 1 !important
+					.instruments__box--trigger-image.clos
+						opacity: 1 !important
+					.instruments__box--trigger-image.arr
+						opacity: 0 !important
+		#in-vm
+			display: none
+			padding-top: 15px
+			margin: 45px auto 0
+			width: 163px
+			height: 49px
+			border-radius: 24.5px
+			background-color: #c72897
+			text-align: center
+			font-family: $sans
+			font-size: 14px
+			font-weight: 700
+			color: white
+			&.ru
+				padding-top: 4px

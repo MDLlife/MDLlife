@@ -1,0 +1,735 @@
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.ttf") format("truetype"), url("../fonts/Gilroy-Light.svg#Gilroy-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#wallet {
+  padding: 20px;
+  position: relative;
+  z-index: 10003;
+  width: 100%;
+  height: 100vh;
+  min-height: 1450px;
+  top: -webkit-calc(100vh - 40px);
+  top: calc(100vh - 40px);
+  text-align: center; }
+  #wallet .wallet__content--wrapper {
+    position: relative;
+    overflow: hidden;
+    background-color: #150526;
+    background-image: url("/app/assets/img/website-parts/wallet/wallet-bg.png");
+    -webkit-background-size: cover;
+            background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%; }
+    #wallet .wallet__content--wrapper .wallet-bg-image {
+      position: absolute; }
+      @media (max-width: 768px) {
+        #wallet .wallet__content--wrapper .wallet-bg-image {
+          display: none; } }
+      #wallet .wallet__content--wrapper .wallet-bg-image.one {
+        bottom: 54px;
+        left: 66px; }
+      #wallet .wallet__content--wrapper .wallet-bg-image.two {
+        top: 141px;
+        left: 328px; }
+    #wallet .wallet__content--wrapper .wallet-lines {
+      display: block;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 110%;
+      height: 100%; }
+  #wallet .wallet__wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -450px;
+    margin-top: -650px;
+    z-index: 1;
+    width: 900px;
+    height: 1300px;
+    background-color: transparent;
+    -webkit-box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.15);
+            box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.15); }
+    #wallet .wallet__wrapper .wallet__left-part {
+      vertical-align: top;
+      display: inline-block;
+      width: 430px;
+      margin-right: 100px; }
+    #wallet .wallet__wrapper .wallet__right-part {
+      vertical-align: top;
+      display: inline-block;
+      width: 330px; }
+    #wallet .wallet__wrapper .wallet__left-part .week-info {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 16px;
+      color: #c72897;
+      text-align: left;
+      margin-bottom: 0; }
+      @media (max-width: 768px) {
+        #wallet .wallet__wrapper .wallet__left-part .week-info {
+          font-size: 14px;
+          text-align: center;
+          display: none; } }
+      #wallet .wallet__wrapper .wallet__left-part .week-info.half-opacity {
+        opacity: 0.5;
+        margin-bottom: 24px; }
+    #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title {
+      position: relative;
+      margin-bottom: 24px;
+      font-size: 22px;
+      text-align: left;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.45px;
+      color: white; }
+      #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link {
+        display: block;
+        position: absolute;
+        top: -8px;
+        width: 40px; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
+          left: 140px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1):before {
+            content: "ICObazaar 4.0";
+            left: -25px; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2) {
+          left: 200px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2):before {
+            content: "ICOHOLDER 4.03";
+            left: -35px; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
+          left: 260px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3):before {
+            content: "ICObench 4.6";
+            left: -20px; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:hover:before {
+          opacity: 1; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:hover img {
+          opacity: 1; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:before {
+          position: absolute;
+          top: -30px;
+          font-family: "Open Sans", sans-serif;
+          font-size: 14px;
+          color: white;
+          display: block;
+          width: 160px;
+          opacity: 0;
+          -webkit-transition: all 0.3s ease-out;
+          -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link img {
+          width: 40px;
+          opacity: 0.5;
+          -webkit-transition: all 0.3s ease-out;
+          -o-transition: all 0.3s ease-out;
+          transition: all 0.3s ease-out; }
+    #wallet .wallet__wrapper .wallet__left-part .start-date {
+      position: relative;
+      display: inline-block;
+      float: left;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      text-align: left;
+      color: white;
+      width: 147px;
+      height: 38px; }
+    #wallet .wallet__wrapper .wallet__left-part .end-date {
+      position: relative;
+      display: inline-block;
+      font-size: 14px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+      text-align: left;
+      color: white;
+      width: 147px;
+      height: 38px; }
+    #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l {
+      width: 49.5%;
+      display: inline-block;
+      vertical-align: top; }
+      #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l ul {
+        margin-top: 10px;
+        list-style: none;
+        padding-left: 0; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l ul li {
+          text-align: left;
+          font-size: 16px;
+          line-height: 33px;
+          opacity: 0.75;
+          color: white; }
+    #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r {
+      width: 49%;
+      display: inline-block;
+      vertical-align: top; }
+      #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul {
+        margin-top: 10px;
+        list-style: none;
+        padding-left: 0; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li {
+          text-align: left;
+          font-size: 16px;
+          line-height: 33px;
+          opacity: 0.75;
+          color: white; }
+    #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r {
+      width: 49%;
+      display: inline-block; }
+    #wallet .wallet__wrapper .wallet__right-part .wallet__right-part--title {
+      font-size: 22px;
+      text-align: left;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      letter-spacing: 0.45px;
+      color: white; }
+    #wallet .wallet__wrapper .wallet__right-part ul {
+      margin-top: 80px;
+      list-style: none;
+      padding-left: 0; }
+      #wallet .wallet__wrapper .wallet__right-part ul li {
+        text-align: left;
+        font-size: 16px;
+        height: 60px;
+        opacity: 0.75;
+        color: white; }
+        #wallet .wallet__wrapper .wallet__right-part ul li:nth-child(1):before {
+          content: "1.  "; }
+        #wallet .wallet__wrapper .wallet__right-part ul li:nth-child(2):before {
+          content: "2.  "; }
+        #wallet .wallet__wrapper .wallet__right-part ul li:nth-child(3):before {
+          content: "3.  "; }
+    #wallet .wallet__wrapper .wallet__right-part .wallet__button {
+      position: relative;
+      display: inline-block;
+      vertical-align: bottom;
+      width: 49%;
+      top: -14px; }
+      #wallet .wallet__wrapper .wallet__right-part .wallet__button span.mobile {
+        display: none; }
+      #wallet .wallet__wrapper .wallet__right-part .wallet__button.one {
+        left: -40px; }
+  #wallet .ito-structure {
+    margin-top: 30px;
+    position: relative;
+    left: -75px;
+    width: 1000px; }
+    #wallet .ito-structure .is-choser {
+      display: none; }
+      @media (max-width: 991px) {
+        #wallet .ito-structure .is-choser {
+          display: block; } }
+    #wallet .ito-structure .is-wrapper {
+      position: relative;
+      width: 1000px; }
+    #wallet .ito-structure .is-title {
+      padding-left: 49px;
+      margin-bottom: 65px;
+      width: 100%;
+      text-align: center;
+      font-size: 22px;
+      letter-spacing: 0.4px;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600; }
+    #wallet .ito-structure .stage {
+      position: relative;
+      width: 360px;
+      height: 320px;
+      display: inline-block; }
+      #wallet .ito-structure .stage.second {
+        opacity: 1 !important;
+        left: 55px; }
+      #wallet .ito-structure .stage.third {
+        left: 100px; }
+      #wallet .ito-structure .stage.non-active {
+        width: 268px;
+        opacity: 0.24; }
+        #wallet .ito-structure .stage.non-active .stage-counter {
+          width: 46px; }
+          #wallet .ito-structure .stage.non-active .stage-counter .sc-counter {
+            width: 46px; }
+            #wallet .ito-structure .stage.non-active .stage-counter .sc-counter .sc-price {
+              font-size: 12px; }
+              #wallet .ito-structure .stage.non-active .stage-counter .sc-counter .sc-price.first {
+                left: 3px; }
+              #wallet .ito-structure .stage.non-active .stage-counter .sc-counter .sc-price.second {
+                left: 6px; }
+          #wallet .ito-structure .stage.non-active .stage-counter .stage-number {
+            left: 0; }
+      #wallet .ito-structure .stage .stage-legend {
+        position: absolute;
+        left: 0; }
+        #wallet .ito-structure .stage .stage-legend .sl-title {
+          position: relative;
+          top: -6px;
+          text-align: left;
+          font-size: 18px;
+          letter-spacing: 0.3px;
+          color: white;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 600; }
+        #wallet .ito-structure .stage .stage-legend .sl-list {
+          padding-left: 0;
+          list-style: none; }
+          #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item {
+            line-height: 33px;
+            text-align: left;
+            font-size: 14px;
+            letter-spacing: 0.3px;
+            color: rgba(255, 255, 255, 0.75);
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:before {
+              display: inline-block;
+              width: 100px;
+              color: white; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:nth-child(1):before {
+              content: "Token price"; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:nth-child(2):before {
+              content: "Hard cap"; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:nth-child(3):before {
+              content: "Soft cap"; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:nth-child(4):before {
+              content: "Start date"; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:nth-child(5):before {
+              content: "End date"; }
+            @media (max-width: 768px) {
+              #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item .sl-list-item-currency {
+                display: none; } }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item .sl-list-item-currency.mob {
+              display: none; }
+              @media (max-width: 768px) {
+                #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item .sl-list-item-currency.mob {
+                  display: inline-block; } }
+      #wallet .ito-structure .stage .stage-counter {
+        width: 135px;
+        height: 320px;
+        position: absolute;
+        right: 0; }
+        #wallet .ito-structure .stage .stage-counter .sc-counter {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 70px;
+          height: 316px;
+          border: 1px solid white; }
+          #wallet .ito-structure .stage .stage-counter .sc-counter:before {
+            content: "";
+            width: 100%;
+            height: 1px;
+            position: absolute;
+            left: 0;
+            top: 81px;
+            background-color: white; }
+          #wallet .ito-structure .stage .stage-counter .sc-counter .total-stage-counter {
+            position: absolute;
+            z-index: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: #c72897; }
+          #wallet .ito-structure .stage .stage-counter .sc-counter .sc-price {
+            text-align: center;
+            position: absolute;
+            z-index: 1;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: white; }
+            #wallet .ito-structure .stage .stage-counter .sc-counter .sc-price.first {
+              left: 12px;
+              top: 34px; }
+            #wallet .ito-structure .stage .stage-counter .sc-counter .sc-price.second {
+              bottom: 92px;
+              left: 12px; }
+        #wallet .ito-structure .stage .stage-counter .stage-number {
+          display: block;
+          width: 50px;
+          position: absolute;
+          bottom: -24px;
+          left: 12px;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 400;
+          font-size: 14px;
+          color: white; }
+        #wallet .ito-structure .stage .stage-counter .sc-legend {
+          position: absolute;
+          right: -10px;
+          top: 0;
+          height: 320px;
+          width: 62px; }
+          #wallet .ito-structure .stage .stage-counter .sc-legend .sc-legend-ach {
+            position: absolute;
+            left: 0;
+            display: block;
+            font-family: "Open Sans", sans-serif;
+            font-weight: 400;
+            font-size: 14px;
+            color: white;
+            text-align: left; }
+            #wallet .ito-structure .stage .stage-counter .sc-legend .sc-legend-ach.first {
+              top: -6px; }
+            #wallet .ito-structure .stage .stage-counter .sc-legend .sc-legend-ach.second {
+              top: 77px; }
+            #wallet .ito-structure .stage .stage-counter .sc-legend .sc-legend-ach.third {
+              bottom: 139px; }
+            #wallet .ito-structure .stage .stage-counter .sc-legend .sc-legend-ach #sc-legend-raised-first {
+              color: #c72897; }
+  #wallet .wallet-banner {
+    width: 657px;
+    height: 85px;
+    padding: 10px 20px 10px 20px;
+    margin: 85px auto;
+    text-align: left;
+    border-width: 3px 3px 3px 3px;
+    border-style: solid;
+    -webkit-border-image: -webkit-gradient(left top, right top, color-stop(0%, #0044cb), color-stop(100%, #ff2ac6)) 1;
+    -webkit-border-image: -webkit-gradient(left top, right top, color-stop(0%, #0044cb), color-stop(100%, #ff2ac6)) 1;
+    -o-border-image: -o-linear-gradient(to right, #0044cb 0%, #ff2ac6 100%) 1;
+    border-image: -webkit-gradient(linear, left top, right top, from(#0044cb), to(#ff2ac6)) 1;
+    border-image: linear-gradient(to right, #0044cb 0%, #ff2ac6 100%) 1; }
+    #wallet .wallet-banner .wb-first {
+      margin-bottom: 0;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 16px;
+      color: rgba(255, 255, 255, 0.67); }
+      #wallet .wallet-banner .wb-first a {
+        position: relative;
+        top: 0;
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        text-decoration: none; }
+        #wallet .wallet-banner .wb-first a img {
+          position: relative;
+          top: -2px;
+          left: 1px; }
+    #wallet .wallet-banner .wb-second {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 25px;
+      color: white;
+      line-height: 32px; }
+      #wallet .wallet-banner .wb-second span {
+        color: #eb3386; }
+  #wallet .wallet__title {
+    font-family: "Gilroy-Light";
+    font-size: 48px;
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: white; }
+  #wallet .wallet__separator {
+    margin: 45px auto 80px;
+    width: 60px;
+    height: 3px;
+    background-color: #ef3f9e; }
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  #wallet .ito-structure {
+    left: -95px; }
+    #wallet .ito-structure .is-title {
+      padding-left: 87px; }
+    #wallet .ito-structure .stage.first {
+      left: 38px; }
+    #wallet .ito-structure .stage.third {
+      left: 65px; } }
+
+@media (max-width: 991px) {
+  #wallet .ito-structure {
+    width: auto;
+    left: unset; }
+    #wallet .ito-structure .is-title {
+      margin-bottom: 50px; }
+    #wallet .ito-structure .is-choser {
+      margin-bottom: 53px; }
+      #wallet .ito-structure .is-choser .isc-list {
+        padding-left: 0px;
+        list-style: none; }
+        #wallet .ito-structure .is-choser .isc-list .isc-item {
+          display: inline-block;
+          color: white;
+          font-family: "Open Sans", sans-serif;
+          font-weight: 300;
+          margin-right: 10px; }
+          #wallet .ito-structure .is-choser .isc-list .isc-item.active {
+            font-weight: 700; }
+          #wallet .ito-structure .is-choser .isc-list .isc-item:last-child {
+            margin-right: 0; }
+    #wallet .ito-structure .is-wrapper {
+      width: auto;
+      left: unset; }
+    #wallet .ito-structure .stage {
+      display: block;
+      left: unset;
+      right: unset;
+      margin: 0 auto; }
+      #wallet .ito-structure .stage.second, #wallet .ito-structure .stage.third {
+        left: unset;
+        display: none; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #wallet .wallet__wrapper {
+    width: 100%;
+    margin-left: 0;
+    left: 0; }
+    #wallet .wallet__wrapper .wallet__left-part {
+      margin-right: 0;
+      width: 390px;
+      margin: 0 auto; }
+    #wallet .wallet__wrapper .wallet__right-part {
+      margin: 0 auto;
+      width: 280px; }
+      #wallet .wallet__wrapper .wallet__right-part .wallet__button.one {
+        left: -80px; }
+      #wallet .wallet__wrapper .wallet__right-part .wallet__button.two {
+        left: -50px; } }
+
+@media (max-width: 768px) {
+  #wallet {
+    top: 0;
+    min-height: 1635px;
+    padding: 0; }
+    #wallet .wallet__content--wrapper {
+      background-image: none;
+      background-color: #1b0531; }
+    #wallet .wallet__title {
+      font-size: 28px;
+      letter-spacing: 0.4px; }
+    #wallet .wallet__separator {
+      margin: 45px auto; }
+    #wallet .wallet__wrapper {
+      padding-top: 70px;
+      width: 100%;
+      margin: 0 auto;
+      position: static; }
+      #wallet .wallet__wrapper .wallet__left-part {
+        width: 100%;
+        margin: 0 auto; }
+        #wallet .wallet__wrapper .wallet__left-part .end-date, #wallet .wallet__wrapper .wallet__left-part .start-date {
+          text-align: left;
+          padding-left: 17px;
+          padding-right: 17px;
+          margin-bottom: 0;
+          font-size: 12px;
+          width: 100%;
+          float: unset; }
+          #wallet .wallet__wrapper .wallet__left-part .end-date span, #wallet .wallet__wrapper .wallet__left-part .start-date span {
+            position: relative; }
+            #wallet .wallet__wrapper .wallet__left-part .end-date span:nth-child(1), #wallet .wallet__wrapper .wallet__left-part .start-date span:nth-child(1) {
+              top: 11px; }
+            #wallet .wallet__wrapper .wallet__left-part .end-date span:nth-child(3), #wallet .wallet__wrapper .wallet__left-part .start-date span:nth-child(3) {
+              float: right;
+              top: -7px; }
+        #wallet .wallet__wrapper .wallet__left-part .start-date {
+          background-color: rgba(255, 255, 255, 0.07); }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title {
+          text-align: center;
+          margin-bottom: 35px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:before {
+            opacity: 1;
+            top: unset;
+            font-size: 12px;
+            width: 60px;
+            text-align: center;
+            font-weight: 400;
+            z-index: 3; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
+            left: 35px;
+            top: 614px; }
+            #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1):before {
+              bottom: -32px;
+              left: -10px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2) {
+            top: 614px;
+            left: 50%;
+            margin-left: -20px; }
+            #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2):before {
+              bottom: -32px;
+              left: -14px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
+            top: 614px;
+            left: unset;
+            right: 35px; }
+            #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3):before {
+              bottom: -32px;
+              left: -8px; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link img {
+            opacity: 1; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l {
+          display: none;
+          left: 2%; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-l ul li {
+            font-size: 12px; }
+        #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r {
+          width: 100%;
+          left: 2%; }
+          #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul {
+            margin-top: 0; }
+            #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li {
+              padding: 0 17px 0 17px;
+              text-align: center;
+              font-size: 12px;
+              text-align: right;
+              line-height: -30; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(odd) {
+                background-color: rgba(255, 255, 255, 0.07); }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(even) {
+                background-color: #1b0531; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:before {
+                display: inline-block;
+                opacity: 1;
+                height: 18px;
+                font-weight: 700;
+                float: left; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(1):before {
+                content: "Token price"; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(2):before {
+                content: "Hard cap"; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(3):before {
+                content: "Soft cap"; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(4):before {
+                content: "Token for sale"; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(5):before {
+                content: "Total token supply"; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(6):before {
+                content: "Currencies accepted"; }
+              #wallet .wallet__wrapper .wallet__left-part .wallet__left-part-r ul li:nth-child(7):before {
+                content: "Min individual cap"; }
+      #wallet .wallet__wrapper .wallet-banner {
+        position: relative;
+        top: 165px;
+        padding: 8px 10px 8px 10px;
+        width: 90%; }
+        #wallet .wallet__wrapper .wallet-banner .wb-first {
+          font-size: 12px; }
+          #wallet .wallet__wrapper .wallet-banner .wb-first a {
+            font-size: 16px; }
+        #wallet .wallet__wrapper .wallet-banner .wb-second {
+          font-size: 16px;
+          line-height: 18px; }
+      #wallet .wallet__wrapper .wallet__right-part {
+        margin-top: 17px;
+        width: 100%; }
+        #wallet .wallet__wrapper .wallet__right-part .wallet__button {
+          display: inline-block;
+          top: 130px !important;
+          left: -8px !important;
+          width: 134px; }
+          #wallet .wallet__wrapper .wallet__right-part .wallet__button.two {
+            left: 0px !important; }
+          #wallet .wallet__wrapper .wallet__right-part .wallet__button svg {
+            display: none; }
+          #wallet .wallet__wrapper .wallet__right-part .wallet__button span.mobile {
+            padding-top: 12px;
+            display: block;
+            width: 134px;
+            height: 39px;
+            -webkit-border-radius: 24.5px;
+                    border-radius: 24.5px;
+            text-align: center;
+            font-family: "Open Sans", sans-serif;
+            font-size: 12px;
+            font-weight: 700; }
+          #wallet .wallet__wrapper .wallet__right-part .wallet__button.one span.mobile {
+            color: white;
+            background-color: #c72897; }
+          #wallet .wallet__wrapper .wallet__right-part .wallet__button.two span.mobile {
+            background-color: white;
+            color: #c72897; }
+        #wallet .wallet__wrapper .wallet__right-part .wallet__right-part--title {
+          text-align: center;
+          font-size: 16px; }
+        #wallet .wallet__wrapper .wallet__right-part ul {
+          margin-top: 35px;
+          padding-left: 0; }
+          #wallet .wallet__wrapper .wallet__right-part ul li {
+            max-width: 330px;
+            margin-bottom: 18px;
+            height: auto;
+            padding-left: 17px;
+            padding-right: 0;
+            font-size: 14px; }
+    #wallet .wallet__list {
+      width: 268px;
+      margin: 0 auto 25px;
+      float: unset !important; }
+      #wallet .wallet__list .wallet__list--item {
+        font-size: 12px; }
+        #wallet .wallet__list .wallet__list--item:before {
+          width: 125px; }
+    #wallet .wallet__link {
+      left: 0; }
+    #wallet .ito-structure {
+      margin-top: 0;
+      top: 160px; }
+      #wallet .ito-structure .is-title {
+        margin-bottom: 40px;
+        text-align: center;
+        padding-left: 0; }
+      #wallet .ito-structure .stage {
+        width: 310px; }
+        #wallet .ito-structure .stage .stage-counter .sc-counter {
+          left: -4px; }
+        #wallet .ito-structure .stage .stage-counter .sc-legend {
+          right: 0; }
+        #wallet .ito-structure .stage .stage-legend {
+          top: -10px; }
+          #wallet .ito-structure .stage .stage-legend .sl-title {
+            font-size: 16px;
+            display: none; }
+          #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item {
+            font-size: 12px; }
+            #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:before {
+              width: 80px; } }
+
+@media (max-width: 350px) {
+  #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title {
+    text-align: center;
+    margin-bottom: 35px; }
+    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:before {
+      opacity: 1;
+      top: unset;
+      font-size: 12px;
+      width: 60px;
+      text-align: center;
+      font-weight: 400;
+      z-index: 3; }
+    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
+      left: 35px;
+      top: 550px; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1):before {
+        bottom: -32px;
+        left: -10px; }
+    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2) {
+      top: 550px;
+      left: 50%;
+      margin-left: -20px; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2):before {
+        bottom: -32px;
+        left: -14px; }
+    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
+      top: 550px;
+      left: unset;
+      right: 35px; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3):before {
+        bottom: -32px;
+        left: -8px; }
+  #wallet .wallet__content--wrapper .wallet__right-part ul li {
+    font-size: 10px; } }

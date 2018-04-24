@@ -1,0 +1,378 @@
+@import "../fonts.sass"
+
+#income
+	padding: 20px
+	position: relative
+	top: calc(100vh - 57px)
+	z-index: 10003
+	width: 100%
+	height: 100vh
+	min-height: 800px
+	background-color: #FBFBFB
+	.income-wrapper
+		padding-top: 0px
+		top: 0
+		position: relative
+		height: 100%
+		box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.36)
+		text-align: center	
+		margin: 0 auto
+		background-color: white
+		.income-background-image
+			position: absolute
+			@media(max-width: 768px)
+				display: none
+			&.one
+				top: 0
+				left: 10px
+				transform: rotate(180deg)
+			&.two
+				top: 330px
+				left: 30px
+			&.three
+				top: 100px
+				right: 250px
+			&.four
+				right: 30px
+				top: 200px
+		.income__content-wrapper
+			position: absolute
+			width: 814px
+			height: 670px
+			left: 50%
+			top: 50%
+			margin-left: -407px
+			margin-top: -335px
+		.income__title
+			font-family: $gilroy_light
+			font-size: 48px
+			font-style: normal
+			font-stretch: normal
+			line-height: 1.02
+			letter-spacing: normal
+			text-align: center
+			color: #1f0738
+		.income-menu
+			width: 215px
+			margin: 0 auto
+			&.zh
+				li
+					margin-right: 30px
+			&.en
+				width: 310px
+				li
+					margin-right: 30px
+			&.ru
+				width: 450px
+				li
+					margin-right: 15px
+			ul
+				list-style: none
+				padding-left: 0
+				li
+					margin-right: 55px
+					display: inline-block
+					font-family: $sans
+					font-weight: 600
+					color: #1a0a2b
+					opacity: 0.5
+					position: relative
+					cursor: pointer
+					&.active
+						opacity: 1
+						&:before
+							content: ""
+							position: absolute
+							bottom: -6px
+							width: 100%
+							height: 2px
+							background-color: #ff2394
+							transition: all 0.3s ease-out
+					&:last-child
+						margin-right: 0
+		.income__separator
+			width: 60px
+			height: 3px
+			background-color: #ff2394
+			margin: 45px auto 45px
+		.income-cards
+			position: relative
+			top: 65px
+			list-style-type: none
+			padding: 0
+			max-width: 814px
+			height: 412px
+			&.ru
+				.income-card
+					&.first
+						.income-text-wrapper
+							left: 40px
+							width: 390px
+						.income-image-wrapper
+							.income-legend
+								&.second
+									right: -110px
+					&.second
+						.income-image-wrapper
+							.income-legend
+								&.second
+									right: -110px
+		.income-card
+			width: 814px
+			height: 412px
+			position: absolute
+			top: 0
+			left: 0
+			z-index: 2
+			background: white
+			border-radius: 0px
+			padding: 0
+			box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.27)
+			transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95)
+			transform-origin: 0 0
+			transition: transform 0.6s cubic-bezier(.8,.2,.1,0.8) 0.1s,background 0.4s linear
+			cursor: pointer
+			user-select: none
+			&:last-child
+				margin-bottom: 0
+			.income-text-wrapper
+				padding-top: 80px
+				position: absolute
+				left: 58px
+				width: 324px
+				.income-title
+					margin-bottom: 30px
+					text-align: left
+					font-family: $sans
+					font-weight: 600
+					font-size: 20px
+					color: #1f0738
+				.income-desc
+					font-family: $sans
+					font-size: 16px
+					text-align: left
+					color: #554961
+			.income-image-wrapper
+				position: absolute
+				right: 128px
+				top: 69px
+				width: 206px
+				height: 343px
+				.income-image
+					position: absolute
+					&.marketplace
+						top: 144px
+						left: 64px
+					&.talent
+						left: -19px
+						top: 14px
+					&.crowd
+						right: -18px
+						top: 13px
+					&.booker
+						top: -10px
+						left: 58px
+					&.talent-bran
+						bottom: 133px
+						right: -19px
+					&.brand
+						bottom: 133px
+						left: -19px
+					&.insurance
+						bottom: 133px
+						left: -19px
+					&.talent-insu
+						bottom: 133px
+						right: -19px
+					&.booker-insu
+						top: -10px
+						left: 58px
+				.income-text,.income-legend
+					color: #22093a
+					font-size: 16px
+					font-family: $sans
+					font-weight: 400
+					position: absolute
+					&.talent
+						left: 59px
+						top: 73px
+					&.crowd
+						top: 0
+						right: -60px
+					&.marketplace
+						top: 200px
+						right: -35px
+					&.booker
+						top: -16px
+						right: 5px
+					&.talent-bran
+						bottom: 195px
+						right: -64px
+					&.brand
+						bottom: 195px
+						left: 68px
+					&.insurance
+						bottom: 81px
+						left: -78px
+						text-align: left
+					&.talent-insu
+						bottom: 115px
+						right: -64px
+					&.booker-insu
+						top: -16px
+						right: 5px
+				.income-arrow
+					transition: all 0.3s ease-out
+					position: absolute
+					&.crowd-marketplace
+						bottom: 155px
+						right: 0
+					&.crowd-talent
+						right: 52px
+						top: 0
+					&.telent-crowd
+						top: 36px
+						left: 74px
+					&.talent-marketplace-talent
+						bottom: 155px
+						left: 0
+					&.talent-marketplace
+						bottom: 167px
+						left: 17px
+					&.income-marketplace-crowd
+						bottom: 167px
+						right: 7px
+					&.talent-brand
+						bottom: 116px
+						left: 50px
+					&.brand-talent
+						bottom: 130px
+						left: 57px
+					&.talent-brand1
+						bottom: 145px
+						left: 63px
+					&.booker-talent
+						top: 38px
+						right: 0px
+					&.brand-booker
+						left: 0
+						top: 40px
+					&.talent-insurence
+						bottom: 120px
+						left: 50px
+					&.insurance-talent
+						bottom: 133px
+						left: 60px
+					&.booker-insurence
+						left: 10px
+						top: 50px
+					&.insurence-booker
+						left: 0
+						top: 40px
+				.income-legend
+					transition: all 0.3s ease-out
+					font-size: 14px
+					.income-legend-image
+						margin-right: 8px
+						transition: all 0.3s ease-out
+					&.first
+						bottom: 57px
+						left: -30px
+						&.ins
+							bottom: 22px
+					&.second
+						bottom: 57px
+						right: -70px
+						&.dark-blue
+							right: unset
+							left: -30px
+							bottom: 47px
+					&.third
+						bottom: 32px
+						left: -30px
+		.card--next
+			z-index: 5
+			transform: translateY(-15px) rotate(0deg) translateX(17px) scale(0.95)
+		.card--out 
+			animation: card-out 0.6s cubic-bezier(.8,.2,.1,0.8)
+			transform: translateY(-30px) rotate(0deg) translateX(38px) scale(0.9)
+			z-index: 1
+		.card--current 
+			cursor: auto
+			user-select: auto
+			position: relative
+			z-index: 10
+			opacity: 1
+			transform: translateX(0%) scale(1)
+@keyframes card-out 
+	0% 
+		z-index: 20
+		transform: translateY(0px) rotate(-0deg)
+	50%
+		transform: translateY(-120%) rotate(-0deg) translateX(-40px)
+	80%
+		z-index: 1
+	100%
+		transform: translateY(-50px) rotate(0deg) translateX(55px) scale(0.95)
+
+@media(max-width: 768px)
+	#income
+		top: 0
+		height: 1250px
+		padding: 0
+		z-index: 200001
+		background-color: transparent
+		box-shadow: none
+		.income-wrapper
+			.income-menu
+				&.ru
+					width: 215px
+					li
+						margin-right: 0
+						margin-top: 12px
+			.card--out
+				transform: translateY(-30px) rotate(0deg) translateX(30px) scale(0.9)
+			.income__content-wrapper
+				padding-top: 140px	
+				height: 100%
+				width: 100%
+				top: 0
+				left: 0
+				margin-left: 0
+				margin-top: 0
+			.income-cards
+				margin: 0 auto
+				max-width: 310px
+				&.ru
+					.income-card
+						.income-image-wrapper
+							.income-legend
+								&.second
+									right: -50px !important
+									bottom: 33px
+						.income-text-wrapper
+							width: 90% !important
+							left: 0 !important
+							.income-desc
+								font-size: 14px
+				.income-card
+					width: 310px
+					height: 800px
+					&.third
+						.income-text-wrapper
+							.income-desc
+								font-size: 14px	
+					.income-image-wrapper
+						right: 70px
+						.income-text
+							&.insurance
+								bottom: 70px
+								left: -31px
+					.income-text-wrapper
+						position: relative
+						margin: 0 auto
+						width: 90%
+						left: 0 !important
+						top: 340px	
+
+

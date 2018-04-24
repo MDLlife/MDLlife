@@ -1,0 +1,1218 @@
+@import "../fonts.sass"
+
+#main-header
+	position: fixed
+	top: 20px
+	left: 20px
+	height: calc(100vh - 20px)
+	width: calc(100% - 40px) !important
+	background-image: url("/app/assets/img/website-parts/header/header-bg.png") 
+	background-repeat: no-repeat
+	background-position: center
+	background-size: cover
+	z-index: 1
+	@media (max-width: 2300px)
+		background-position: center 0px
+	@media (max-width: 768px)
+		min-height: 480px
+	.header__content--wrapper
+		position: absolute
+		height: 356px
+		width: 100vw
+		top: 50%
+		margin-top: -152.5px
+	.header__left-part
+		position: absolute
+		left: 9.9vw
+		margin: 0 auto
+		text-align: left
+		@media (max-width: 768px)
+			position: relative
+			left: 0
+		.header__title
+			position: relative
+			top: 0
+			font-family: $gilroy_light
+			font-weight: 300
+			color: white
+			font-size: 32px
+			span
+				display: none
+			h1
+				display: none
+		.header__title--img
+			width: 295px
+			height: 65px
+			display: inline-block
+			position: relative
+			top: -7px 
+			margin-right: 17px 
+		.header__separator
+			margin: 40px 0 35px 0
+			width: 70px
+			height: 3px
+			top: 0
+			background-image: linear-gradient(267deg, #e040a9, #ff3e92)
+			position: relative
+			left: 5px
+			@media (max-width: 768px)
+				margin: 25px auto
+				left: 0
+		.header__desc
+			width: 100%
+			position: relative
+			left: 0
+			top: 15px
+			font-family: $gilroy_light
+			font-weight: 300
+			font-size: 24px
+			font-style: normal
+			font-stretch: normal
+			line-height: 1.12
+			letter-spacing: normal
+			text-align: left
+			color: #ffffff
+		.header__link
+			position: absolute
+			top: 261px
+			left: -45px
+			background-color: transparent
+			-webkit-appearence: none
+			border: none
+			outline: none
+			z-index: 1000000
+		#sib_embed_signup2
+			position: absolute
+			left: -10px
+			bottom: -121px
+			width: 330px
+			opacity: 1
+			@media(max-width: 768px)
+				display: none
+			.subscribe-label
+				position: relative
+				left: 12px
+				text-align: left
+				color: white
+				font-family: $sans
+				font-weight: 600
+				font-size: 14px
+			.message_area
+				position: absolute !important
+				bottom: -40px
+				background-color: transparent !important
+				border: none !important
+				font-family: $sans !important
+				font-weight: 400 !important
+				font-size: 14px !important
+				width: 100% !important
+				text-align: center !important
+				.close
+					display: none !important
+			.mandatory-email
+				position: relative	
+				left: 20px	
+				width: 100%	
+			#email2
+				position: relative
+				left: 0
+				top: 0
+				padding-left: 31px	
+				display: block
+				margin: 0 auto
+				width: 290px
+				height: 46px
+				border-radius: 33px
+				border: solid 1px #c72897
+				outline: none
+				-webkit-appearence: none
+				font-size: 14px	
+				color: white
+				font-family: $sans
+				background-color: transparent
+			::placeholder
+				font-family: $sans
+				font-weight: 400
+				font-size: 14px
+				color: rgba(255,255,255,0.72)
+				opacity: 1
+			:-ms-input-placeholder
+				font-family: $sans
+				font-weight: 400
+				font-size: 14px
+				color: rgba(255,255,255,0.72)
+			::-ms-input-placeholder
+				font-family: $sans
+				font-weight: 400
+				font-size: 14px
+				color: rgba(255,255,255,0.72)
+			.button
+				position: absolute
+				top: 0	
+				right: -30px
+				height: 46px
+				width: 123px	
+				border-radius: 33px
+				border: none
+				outline: none
+				-webkit-appearence: none
+				background-color: #c72897
+				font-family: $sans
+				font-size: 14px
+				font-weight: 700
+				font-style: normal
+				font-stretch: normal
+				letter-spacing: normal
+				color: white
+	.header__right-part
+		opacity: 1
+		transition: all 1.5s ease
+		transition-delay: 1s
+		position: absolute
+		right: 14vw
+		width: 300px
+		height: 100%
+		margin-top: 13px
+		&.ito-going
+			.sub-mob-alert
+				position: relative
+				bottom: 20px
+				width: 100%
+				font-family: $gilroy_light
+				font-weight: 600
+				font-size: 12px
+				text-align: center
+				color: white
+				display: none
+				@media(max-width: 768px)
+					display: block
+			#sib_embed_signup2
+				position: relative
+				top: 181px
+				width: 290px
+				display: none
+				@media(max-width: 768px)
+					display: inline-block
+				.message_area
+					position: absolute !important
+					bottom: -25px
+					background-color: transparent !important
+					border: none !important
+					font-family: $sans !important
+					font-weight: 400 !important
+					font-size: 14px !important
+					width: 100% !important
+					text-align: center !important
+					.close
+						display: none !important
+				.mandatory-email
+					position: relative
+					margin: 0 auto
+					left: 0
+					width: 100%	
+				#email2
+					position: relative
+					left: 0
+					top: 0
+					padding-left: 31px	
+					display: block	
+					width: 100%
+					height: 46px
+					border-radius: 33px
+					border: solid 1px #ffffff
+					outline: none
+					-webkit-appearence: none
+					font-size: 14px	
+					color: white
+					font-family: $sans
+					background-color: transparent
+				.button
+					position: absolute
+					top: 0	
+					right: 0
+					height: 46px
+					width: 80px	
+					border-radius: 33px
+					border: none
+					outline: none
+					-webkit-appearence: none
+					background-color: white
+					font-family: $sans
+					font-size: 14px
+					font-weight: bold
+					font-style: normal
+					font-stretch: normal
+					letter-spacing: normal
+					color: #c72897
+			.timer-title
+				font-family: $gilroy_light
+				font-size: 28px
+				margin-bottom: 30px
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: normal
+				text-align: left
+				color: #ffffff
+				text-transform: uppercase
+				span
+					font-size: 16px
+					text-transform: capitalize
+			.header-timer_about
+				margin: 0 0 5px 3px
+				font-family: $gilroy_light
+				font-size: 14px
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: normal
+				text-align: left
+				color: #eb3386
+				span
+					color: white
+				// &.half-opacity
+				// 	font-size: 14px	
+				// 	color: rgba(255, 255, 255, 0.5)
+			.raised-wrapper
+				position: relative
+				top: 33px
+				left: 3px
+				.raised-mob-alert
+					width: 100%
+					position: absolute
+					top: 58px
+					font-family: $gilroy_light
+					font-weight: 600
+					font-size: 12px
+					text-align: center
+					color: white
+					display: none
+					@media(max-width: 768px)
+						display: block
+				.text-discount
+					position: relative
+					top: 20px
+					left: 26px
+					font-family: $gilroy_light
+					font-size: 12px
+					color: #eb3386
+					opacity: 1
+				.max-value
+					font-family: $sans
+					font-weight: 400
+					font-size: 14px
+					color: white
+					b
+						color: rgba(255,255,255,.72)
+						font-weight: 400
+						font-size: 12px
+						position: relative
+						left: 18px
+						top: 4px
+				.min-value
+					float: left
+				.start-value
+					position: absolute
+					top: -25px
+					font-family: $sans
+					font-weight: 400
+					font-size: 14px
+					color: white
+					b
+						color: rgba(255,255,255,.72)
+						font-weight: 400
+						font-size: 12px
+						position: relative
+						left: 0
+						top: 4px
+				.max-value
+					float: right
+					position: relative
+					right: 5px
+					top: -25px
+					&.sc
+						right: 19px
+						b
+							left: 24px
+				.line-wrapper
+					position: relative
+					top: 25px
+					.st-name
+						position: absolute
+						top: 10px
+						font-family: $sans
+						font-weight: 400
+						font-size: 14px
+						color: white
+					.st-price
+						position: absolute
+						top: 10px
+						font-size: 14px
+						&.first
+							left: 176px
+							color: #eb3386
+							font-weight: 400
+						&.second
+							opacity: 0.6
+							right: 5px
+							color: white
+					.line
+						position: relative
+						width: 295px
+						height: 2px
+						background-color: white
+						.pink-line
+							height: 2px
+							position: absolute
+							left: 0
+							top: 0
+							background-color: #eb3386
+					.pink-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						left: 0px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: #eb3386
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+					.white-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						left: 65px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: #82005a
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+					.sc-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						left: 203px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: white
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+					.hc-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						right: 3px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: white
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+				.raised-legend-wrapper
+					position: relative
+					top: 70px
+					text-align: left
+					.raised-legend
+						position: absolute
+						top: 0
+						display: inline-block
+						font-family: $sans
+						font-weight: 300
+						font-size: 14px
+						color: white
+						&:nth-child(1)
+							left: 0
+							width: 120px
+						&:nth-child(2)
+							left: 173px
+							width: 120px
+						span
+							opacity: 0.8
+		&.ito-wait
+			.header-timer_dhms
+				height: 75px
+				margin-bottom: 46px
+				position: relative
+			.header-timer_dhms .number
+				position: relative
+				display: block
+				margin-bottom: 5px
+				font-family: $gilroy_light
+				font-size: 48px
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: normal
+				color: #ffffff
+			.header-timer_dhms .number-type
+				position: relative
+				display: block
+				font-family: $gilroy_light
+				font-size: 14px
+				font-weight: 300
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: 1.8px
+				text-align: center
+				color: #ffffff
+				text-transform: uppercase
+			.dhms_item
+				width: 25%
+				position: absolute
+				text-align: left
+			.dhms_item.days
+				.number-type
+					left: -10px
+			.dhms_item.hours
+				left: 23%
+				.number
+					left: 10px
+				.number-type
+					left: 0px
+			.dhms_item.minutes
+				text-align: center	
+				left: 48%
+			.dhms_item.seconds
+				text-align: center
+				left: 75%
+			.sub-mob-alert
+				position: relative
+				bottom: 20px
+				width: 100%
+				font-family: $gilroy_light
+				font-weight: 600
+				font-size: 12px
+				text-align: center
+				color: white
+				display: none
+				@media(max-width: 768px)
+					display: block
+			#sib_embed_signup2
+				position: relative
+				top: 181px
+				width: 290px
+				display: none
+				@media(max-width: 768px)
+					display: inline-block
+				.message_area
+					position: absolute !important
+					bottom: -25px
+					background-color: transparent !important
+					border: none !important
+					font-family: $sans !important
+					font-weight: 400 !important
+					font-size: 14px !important
+					width: 100% !important
+					text-align: center !important
+					.close
+						display: none !important
+				.mandatory-email
+					position: relative
+					margin: 0 auto
+					left: 0
+					width: 100%	
+				#email2
+					position: relative
+					left: 0
+					top: 0
+					padding-left: 31px	
+					display: block	
+					width: 100%
+					height: 46px
+					border-radius: 33px
+					border: solid 1px #ffffff
+					outline: none
+					-webkit-appearence: none
+					font-size: 14px	
+					color: white
+					font-family: $sans
+					background-color: transparent
+				.button
+					position: absolute
+					top: 0	
+					right: 0
+					height: 46px
+					width: 80px	
+					border-radius: 33px
+					border: none
+					outline: none
+					-webkit-appearence: none
+					background-color: white
+					font-family: $sans
+					font-size: 14px
+					font-weight: bold
+					font-style: normal
+					font-stretch: normal
+					letter-spacing: normal
+					color: #c72897
+			.timer-title
+				font-family: $gilroy_light
+				font-size: 28px
+				margin-bottom: 50px
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: normal
+				text-align: left
+				color: #ffffff
+				text-transform: uppercase
+				span
+					font-size: 16px
+					text-transform: capitalize
+			.header-timer_about
+				margin: 0 0 5px 3px
+				font-family: $gilroy_light
+				font-size: 14px
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: normal
+				text-align: left
+				color: #eb3386
+				span
+					color: white
+				// &.half-opacity
+				// 	font-size: 14px	
+				// 	color: rgba(255, 255, 255, 0.5)
+			.raised-wrapper
+				position: relative
+				top: -2px
+				left: 3px
+				.raised-mob-alert
+					width: 100%
+					position: absolute
+					top: 58px
+					font-family: $gilroy_light
+					font-weight: 600
+					font-size: 12px
+					text-align: center
+					color: white
+					display: none
+					@media(max-width: 768px)
+						display: block
+				.text-discount
+					position: relative
+					top: 20px
+					left: 26px
+					font-family: $gilroy_light
+					font-size: 12px
+					color: #eb3386
+					opacity: 1
+				.max-value
+					font-family: $sans
+					font-weight: 400
+					font-size: 16px
+					color: white
+					b
+						color: rgba(255,255,255,.72)
+						font-weight: 400
+						font-size: 12px
+						position: relative
+						left: 18px
+						top: 4px
+				.min-value
+					float: left
+				.start-value
+					position: absolute
+					top: -25px
+					font-family: $sans
+					font-weight: 400
+					font-size: 14px
+					color: white
+					b
+						color: rgba(255,255,255,.72)
+						font-weight: 400
+						font-size: 12px
+						position: relative
+						left: 0
+						top: 4px
+				.max-value
+					position: relative
+					left: 0
+					top: 15px
+					&.sc
+						right: 19px
+						b
+							left: 24px
+				.line-wrapper
+					position: relative
+					top: 25px
+					.st-name
+						position: absolute
+						top: 10px
+						font-family: $sans
+						font-weight: 400
+						font-size: 14px
+						color: white
+					.st-price
+						position: absolute
+						top: 10px
+						font-size: 14px
+						&.first
+							left: 176px
+							color: #eb3386
+							font-weight: 400
+						&.second
+							opacity: 0.6
+							right: 5px
+							color: white
+					.line
+						position: relative
+						width: 295px
+						height: 2px
+						background-color: white
+						.pink-line
+							height: 2px
+							position: absolute
+							left: 0
+							top: 0
+							background-color: #eb3386
+					.pink-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						left: 0px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: #eb3386
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+					.white-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						left: 65px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: #82005a
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+					.sc-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						left: 203px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: white
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+					.hc-point
+						display: block
+						position: absolute
+						text-align: center
+						z-index: 1
+						right: 3px
+						top: -4px
+						width: 10px
+						height: 10px
+						background-color: white
+						border: 2px solid #200239
+						border-radius: 50%
+						color: rgba(255,255,255,.35)
+						font-family: $gilroy_bold
+						font-size: 12px
+				.raised-legend-wrapper
+					position: relative
+					top: 35px
+					text-align: left
+					.raised-legend
+						position: absolute
+						top: 0
+						display: inline-block
+						font-family: $sans
+						font-weight: 300
+						font-size: 14px
+						color: white
+						&:nth-child(1)
+							left: 0
+							width: 120px
+						&:nth-child(2)
+							left: 173px
+							width: 120px
+						span
+							opacity: 0.8
+
+
+	.header-timer_btn
+			position: absolute
+			bottom: -27px
+			left: -36.7px
+			.mobile
+				display: none
+	.mob-sub
+		display: none
+	.header__bubble
+		width: 132px
+		height: 66px
+		display: block
+		position: absolute
+		left: 25vw
+		top: -20px
+		z-index: 21122121122121
+	// .header__line-down
+	// 	position: absolute
+	// 	left: 50%
+	// 	top: 100%
+	// 	margin-top: -160px
+	// 	width: 1px
+	// 	height: 0
+	// 	background-color: #eb3fa1
+	// 	transition: all 1.5s ease-out
+	// 	&.full
+	// 		height: 160px
+
+#header__social-links
+	position: fixed
+	bottom: 50px
+	left: 65px
+	z-index: 200000
+	@media(min-width: 1900px)
+		bottom: 180px
+		left: 70px
+	.header__social-links--list
+		padding-left: 0
+		list-style: none
+	.header__social-links--item
+		margin-top: 24px
+		position: relative
+		width: 50px
+		height: 50px
+		&:hover
+			.header__social-links--img
+				&.one
+					opacity: 1
+				&.two
+					opacity: 0
+		&:first-child
+			margin-top: 0
+		.header__social-links--img
+			position: absolute
+			left: 0
+			top: 0
+			transition: all 0.8s ease
+			width: 100%
+			height: 100%
+			&.one
+				opacity: 0
+
+@media (max-width: 768px)
+	body #preloader
+		display: none !important
+		z-index: 0 !important
+	.header__separator
+		display: none
+	#main-header
+		position: relative !important
+		z-index: 200001
+		top: 0
+		left: 0
+		width: 100% !important
+		padding: 0
+		height: 700px
+		background-image: url("/app/assets/img/website-parts/header/header-bg-m.png")
+		background-position: 0 -50px
+		.header__content--wrapper
+			position: relative
+			top: 119px
+			margin-top: 0
+			width: 100%
+			height: 378px
+		.header__left-part
+			position: relative
+			top: 0
+			height: 30px
+			text-align: center
+			left: 0
+			.header__title--img
+				width: 295px
+				height: 59px
+				margin-right: 0
+				top: -2px
+			.header__title
+				font-size: 24px
+				img
+					display: none
+				h1
+					display: block
+					position: relative
+					font-size: 24px
+					font-family: $gilroy_light
+					&:after
+						content: ''
+						position: absolute
+						bottom: -33px
+						left: 50%
+						margin-left: -20px
+						display: block
+						width: 40px
+						height: 2px
+						background-color: #c72897
+				span
+					margin-right: 7px	
+					display: inline-block
+					font-weight: 600
+			.header__desc
+				display: none
+				top: 20px
+				font-size: 20px
+				left: 0
+				text-align: center
+				&.ru
+					font-size: 16px
+					width: 90%
+					margin: 0 auto
+			.header__link
+				display: none
+		.header__right-part
+			position: relative
+			top: 45px
+			right: 0
+			width: 100%
+			text-align: center
+			height: 250px
+			&.ito-going
+				.header-timer
+					width: 310px
+					margin: 0 auto
+				.timer-title
+					text-align: center
+					font-size: 16px
+					font-family: $sans
+					font-weight: 400
+					margin-bottom: 9px
+				.dhms_item
+					text-align: center
+					width: 23%
+					&.hours
+						left: 25%
+					&.minutes
+						left: 50%
+				.raised-wrapper
+					top: 36px
+					left: 0
+					.start-value
+						left: 17px
+						top: -13px
+						text-align: left
+						font-size: 12px
+						color: rgba(255,255,255,0.72)
+						b
+							color: rgba(255,255,255,1)
+					.max-value
+						top: -13px
+						right: 16px
+						font-size: 12px
+						color: rgba(255,255,255,0.72)
+						span
+							position: relative
+							top: 45px
+						b
+							left: 3px
+							color: rgba(255,255,255,1)
+						&.sc
+							right: 33px
+							text-align: right
+							b
+								left: 0px	
+					.text-discount
+						left: -8px
+						font-family: $sans
+						font-weight: 400
+						font-size: 12px
+						color: white
+					.line-wrapper
+						width: 281px
+						margin: 0 auto
+						.st-name
+							left: 3px
+							font-size: 12px
+						.st-price
+							font-size: 12px
+							&.first
+								left: 173px
+							&.second
+								right: 0px
+						.line
+							width: 281px
+							margin: 0 auto
+							background-color: rgba(255,255,255,0.17)
+						.white-point
+							left: 34px
+							background-color: white
+						.pink-point
+							left: 0px
+						.hc-point
+							right: 0
+						.sc-point
+							left: 192px
+					.raised-legend-wrapper
+						top: 64px
+						.raised-legend
+							font-weight: 600
+							font-size: 12px
+							span
+								font-weight: 300
+							&:nth-child(1)
+								left: 17px
+							&:nth-child(2)
+								left: 170px
+
+				.header-timer_dhms
+					height: 65px
+					margin-bottom: 30px
+					left: 5px
+					.number
+						font-size: 46px
+						text-align: center
+						left: 0 !important
+					.number-type
+						text-align: center
+						left: 0 !important
+				.header-timer_about
+					font-family: $sans
+					font-weight: 400
+					font-size: 12px
+					margin-bottom: 0
+					text-align: center
+					&.half-opacity
+						display: none
+				.header-timer_btn
+					position: relative
+					top: 176px
+					left: 12px
+					width: 134px
+					margin: unset
+					display: block
+					svg
+						display: none
+					.mobile
+						padding-top: 12px
+						display: block
+						width: 134px
+						height: 39px
+						border-radius: 24.5px
+						text-align: center
+						font-family: $sans
+						font-size: 12px
+						font-weight: 700
+						background-color: #c72897
+						color: white
+				.mob-sub
+					position: relative
+					top: 137px
+					left: 158px
+					padding-top: 12px
+					display: block
+					width: 134px
+					height: 39px
+					border-radius: 24.5px
+					background-color: white
+					text-align: center
+					font-family: $sans
+					font-size: 12px
+					font-weight: 700
+					color: #c72897
+			&.ito-wait
+				.header-timer
+					width: 310px
+					margin: 0 auto
+				.timer-title
+					text-align: center
+					font-size: 16px
+					font-family: $sans
+					font-weight: 400
+					margin-bottom: 20px
+				.dhms_item
+					text-align: center
+					width: 23%
+					&.hours
+						left: 25%
+					&.minutes
+						left: 50%
+				#sib_embed_signup2
+					top: 124px
+				.raised-wrapper
+					top: -15px
+					left: 0
+					.start-value
+						left: 17px
+						top: -13px
+						text-align: left
+						font-size: 12px
+						color: rgba(255,255,255,0.72)
+						b
+							color: rgba(255,255,255,1)
+					.max-value
+						top: 13px
+						left: 0
+						font-size: 14px
+						color: rgba(255,255,255,0.72)
+						span
+							position: relative
+							top: 45px
+						b
+							left: 3px
+							color: rgba(255,255,255,1)
+						&.sc
+							right: 33px
+							text-align: right
+							b
+								left: 0px	
+					.text-discount
+						left: -8px
+						font-family: $sans
+						font-weight: 400
+						font-size: 12px
+						color: white
+					.line-wrapper
+						width: 281px
+						margin: 0 auto
+						.st-name
+							left: 3px
+							font-size: 12px
+						.st-price
+							font-size: 12px
+							&.first
+								left: 173px
+							&.second
+								right: 0px
+						.line
+							width: 281px
+							margin: 0 auto
+							background-color: rgba(255,255,255,0.17)
+						.white-point
+							left: 34px
+							background-color: white
+						.pink-point
+							left: 0px
+						.hc-point
+							right: 0
+						.sc-point
+							left: 192px
+					.raised-legend-wrapper
+						top: 34px
+						.raised-legend
+							font-weight: 600
+							font-size: 12px
+							span
+								font-weight: 300
+							&:nth-child(1)
+								left: 17px
+							&:nth-child(2)
+								left: 170px
+
+				.header-timer_dhms
+					height: 65px
+					margin-bottom: 30px	
+					.number
+						font-size: 46px
+						text-align: center
+						left: 0 !important
+					.number-type
+						text-align: center
+						left: 0 !important
+				.header-timer_about
+					font-family: $sans
+					font-weight: 400
+					font-size: 12px
+					margin-bottom: 0
+					text-align: center
+					&.half-opacity
+						display: none
+				.header-timer_btn
+					position: relative
+					top: 176px
+					left: 12px
+					width: 134px
+					margin: unset
+					display: block
+					svg
+						display: none
+					.mobile
+						padding-top: 12px
+						display: block
+						width: 134px
+						height: 39px
+						border-radius: 24.5px
+						text-align: center
+						font-family: $sans
+						font-size: 12px
+						font-weight: 700
+						background-color: #c72897
+						color: white
+				.mob-sub
+					position: relative
+					top: 137px
+					left: 158px
+					padding-top: 12px
+					display: block
+					width: 134px
+					height: 39px
+					border-radius: 24.5px
+					background-color: white
+					text-align: center
+					font-family: $sans
+					font-size: 12px
+					font-weight: 700
+					color: #c72897
+		.header__line-down
+			display: none
+	#header__social-links
+		left: 10px
+		bottom: 10px
+		.header__social-links--item
+			width: 35px
+			height: 35px
+			.header__social-links--img
+				height: 35px
+				width: 35px
+
+@media(min-width:768px) and (max-width: 991px)
+	#main-header
+		.header__content--wrapper
+			.header__left-part
+				left: 4vw
+			.header__right-part
+				right: 10vw
+	#header__social-links
+		left: 10px
+		.header__social-links--item
+			width: 35px
+			height: 35px
+
