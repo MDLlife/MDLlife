@@ -1279,7 +1279,7 @@ function formInit(){
 /*---------------------*/
 /*----------TIMER-----------*/
 function get_timer() {
-   var date_t = new Date(Date.UTC(2018, 02, 24, 00, 01));
+   var date_t = new Date(Date.UTC(2018, 04, 15, 00, 01));
 
    var date = new Date(Date.now());
    var timer = date_t - date;
