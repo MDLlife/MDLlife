@@ -2,21 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MDL - Talent Hub Blog</title>
-    <link>http://mdl.wtf/</link>
+    <link>https://mdl.wtf/</link>
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The 1st stage of MDL ITO nearly reached hardcap!</title>
+      <link>https://mdl.wtf/en/2018-04-24-stage_1_ito_is_over/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-04-24-stage_1_ito_is_over/</guid>
+      <description>It was a critical decision to split the ITO into three stages and hopefully our community understood and welcomed the approach. We did this to better align our goals and increase our transparency. Showing our intentions and being clear about our long-term strategy is an important part in maintaining our relations with every MDL stakeholder.
+The funds we were able to collect during the first stage will be enough to enhance our development activities as well as continuing marketing our platform to be even more presentable for our supporters and potential investors during the 2nd and the 3rd stages of the ITO.</description>
+    </item>
+    
+    <item>
       <title>Early MDL investors can now swap their waves tokens!</title>
-      <link>http://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</link>
+      <link>https://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</guid>
+      <guid>https://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</guid>
       <description>Good news everyone! Investors who bought Waves pre-MDL Tokens can now swap them in for Mainnet MDL!
 Our developers have been hard at work to make this possible and they have delivered!
 Swapping is made really easy, all you need to do is download the MDL wallet HERE (Press &amp;ldquo;Get MDL&amp;rdquo;) and you will be asked to download the MDL wallet.
@@ -25,19 +35,19 @@ Once there, you need to create a new wallet (Choose a name and save the seed som
     
     <item>
       <title>How is the platfrom protected from Token volatility</title>
-      <link>http://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</link>
+      <link>https://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</guid>
+      <guid>https://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</guid>
       <description>Crypto currencies are known for their high fluctuating rates – daily trading range of 30% is not an unusual thing with these financial instruments, not to mention dumps and pumps that happen time to time. How can we deliver valuable tool to the talent sourcing market with MDL Token? The main contradiction lies in the conflict of actual platform users and crypto community – the first ones want to have stable economic ecosystem and the second ones want to speculate.</description>
     </item>
     
     <item>
       <title>Development Update</title>
-      <link>http://mdl.wtf/en/2018-02-16-development-update-1/</link>
+      <link>https://mdl.wtf/en/2018-02-16-development-update-1/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-02-16-development-update-1/</guid>
+      <guid>https://mdl.wtf/en/2018-02-16-development-update-1/</guid>
       <description>Dear blockchain friends and MDL supporters.
 The MDL Platform has been in the state of active development for quite some time now and the time has come to share some updates with the community.
 We currently have around six ongoing dev projects within MDL. Some of them have been open source from day one (wallet, teller, the blockchain, blog, website), while others are being developed in-house and are tested internally (platform backend, android client, etc).</description>
@@ -45,10 +55,10 @@ We currently have around six ongoing dev projects within MDL. Some of them have 
     
     <item>
       <title>开发更新#1</title>
-      <link>http://mdl.wtf/zh/2018-02-16-development-update-1/</link>
+      <link>https://mdl.wtf/zh/2018-02-16-development-update-1/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2018-02-16-development-update-1/</guid>
+      <guid>https://mdl.wtf/zh/2018-02-16-development-update-1/</guid>
       <description>亲爱的在区块链伙伴们和MDL的支持者们：
 MDL平台在这段时间里一直在持续积极发展的状态，现已是时间可以于社区分享一些更新要文。
 我们的MDL里目前有大约六个开发中的项目。他们中的一些项目从第一天开始便是开源代码（钱包、teller、这个区块链、博客、网页），而其他一些正在进行内部开发和内部测试中（平台后端、Android客户端，等等）。
@@ -79,48 +89,48 @@ MDL Explorer将通过运行MDL节点局部先，然后再运行资源管理器�
     
     <item>
       <title>Pre-ITO Hard Cap Is Reached!</title>
-      <link>http://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</link>
+      <link>https://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</guid>
+      <guid>https://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</guid>
       <description>We believe MDL community is the most important stakeholder in the development of the platform - without you we are nothing! The presale hardcap is reached and that means we are doing the right things in the right time. MDL team is extremelly enthusiastic in bringing long-term value to the society and we are preparing more awesome stuff for the 2018. Stay tuned! Stay talented!
 Truly yours, MDL.life</description>
     </item>
     
     <item>
       <title>Pre-ITO Hard Cap wurde erreicht!</title>
-      <link>http://mdl.wtf/de/2018-01-31-pre-ito-hard-cap-is-reached/</link>
+      <link>https://mdl.wtf/de/2018-01-31-pre-ito-hard-cap-is-reached/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2018-01-31-pre-ito-hard-cap-is-reached/</guid>
+      <guid>https://mdl.wtf/de/2018-01-31-pre-ito-hard-cap-is-reached/</guid>
       <description>Liebe Freunde! Wir schätzen besonders das Vertrauen in das MDL Talent Hub Projekt durch unsere frühen Investoren und Unterstützer. Wir glauben, dass die MDL Community die wichtigste Interessensgruppe bei der Entwicklung der Plattform ist - ohne Euch sind wir nichts! Die Vorverkaufs Hard Cap wurde erreicht und das bedeutet, dass wir die richtigen Dinge zur richtigen Zeit tun. Das MDL-Team ist extrem enthusiastisch beim Thema, der Gesellschaft langfristigen Wert zu bringen.</description>
     </item>
     
     <item>
       <title>Средства  на пре-ITO собраны в полном объеме!</title>
-      <link>http://mdl.wtf/ru/2018-01-31-pre-ito-hard-cap/</link>
+      <link>https://mdl.wtf/ru/2018-01-31-pre-ito-hard-cap/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2018-01-31-pre-ito-hard-cap/</guid>
+      <guid>https://mdl.wtf/ru/2018-01-31-pre-ito-hard-cap/</guid>
       <description>Дорогие друзья! Мы очень ценим доверие к проекту MDL Talent Hub наших ранних инвесторов и сторонников, ведь сообщество MDL является самым важным участником команды проекта - без вас мы ничто! Требуемые для дальнейшего развития проекта средства собраны в полном объеме, а это означает, что мы на верном пути. Команда проекта MDL Talent Hub наслаждается возможностью принести реальную пользу обществу и готовит для вас в этом, 2018 году, прекрасные и потрясающие открытия.</description>
     </item>
     
     <item>
       <title>预售达到了最高限额!</title>
-      <link>http://mdl.wtf/zh/2018-01-31-pre-ito-hard-cap/</link>
+      <link>https://mdl.wtf/zh/2018-01-31-pre-ito-hard-cap/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2018-01-31-pre-ito-hard-cap/</guid>
+      <guid>https://mdl.wtf/zh/2018-01-31-pre-ito-hard-cap/</guid>
       <description>亲爱的朋友们！我们感谢大家可以把信任交托于我们的 MDL 艺人社。我们特别感激 MDL 艺人社的早期投资者对于我们的信任和支持。我们相信 MDL 社区是这个平台最重要的利益相关者 - 如果没有大家的支持，我们并不能成气候！预售的极限已经达到了，这个意味着我们在正确的时间做了正确的事情。MDL 团队在为社会创造长线价值的过程中充满了热情，我们为了 2018 准备了更多的酷炫事件。敬请期待！被才能充满吧！
 你亲爱的， MDL.life</description>
     </item>
     
     <item>
       <title>Минимальный порог пре-ITO успешно преодолен!</title>
-      <link>http://mdl.wtf/ru/2018-01-25-the-last-week-of-pre-ito/</link>
+      <link>https://mdl.wtf/ru/2018-01-25-the-last-week-of-pre-ito/</link>
       <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2018-01-25-the-last-week-of-pre-ito/</guid>
+      <guid>https://mdl.wtf/ru/2018-01-25-the-last-week-of-pre-ito/</guid>
       <description>Последняя неделя пре-ITO проекта MDL Talant Hub началась с приятной новости - успешно преодолена планка минимального порога в $300 000! Поздравляем всех наших инвесторов, участников и партнеров!
 Уже более 80 человек приняли участие в нашем пре-ITO, а ведь всё только начинается. Впереди масса интереснейшей и столь нужной людям работы, открытий, успехов, потрясений и побед, и мы рады, что вы решили пройти этот путь вместе с нами!
 Проект быстро набирает обороты, все больше новых участников, мероприятий, технических решений.</description>
@@ -128,10 +138,10 @@ Truly yours, MDL.life</description>
     
     <item>
       <title>预售的最后一周啦！</title>
-      <link>http://mdl.wtf/zh/2018-01-25-the-last-week-of-pre-ito/</link>
+      <link>https://mdl.wtf/zh/2018-01-25-the-last-week-of-pre-ito/</link>
       <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2018-01-25-the-last-week-of-pre-ito/</guid>
+      <guid>https://mdl.wtf/zh/2018-01-25-the-last-week-of-pre-ito/</guid>
       <description>上个星期，MDL艺人社的预售活动得到了一个愉快的消息 - 已经成功越过了最低门槛 $300 000！恭喜所有的投资者，参与者与伙伴们！
 预售项目已经有超过80位参与者，但是预售只是一个开端。预售让我们可以提前为大家准备这有趣的重磅项目，和有相同志向的人更好的一起工作，探索发现，共同冲刺，达成成就，共享成果，非常高兴您决定与我们一起走这条路。
 我们的项目正在迅速发展，有了更多的新成员，参与了更多的会议，也研讨了更多的技术方案。进行了高质量更新，开发软件，也有很酷的软件合作方。我们迫不及待的想告诉大家更多的进展。
@@ -140,90 +150,90 @@ Truly yours, MDL.life</description>
     
     <item>
       <title>Why MDL Token Hours Are So Cool?</title>
-      <link>http://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>https://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>https://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>MDL Talent Hub platform will be powered with MDL Token Hours (MDL TH). MDL TH will be used to support MDL Token value growth as well as to protect the platform from high MDL Token volatility. Below are 8 statements that describe MDL TH concept.
  The mechanism of MDL Token Hours has been adapted from Skycoin Coin Hours. The amount of MDL Tokens Hours received increases according to how many MDL Tokens are held.</description>
     </item>
     
     <item>
       <title>¿Por qué las horas de Token de MDL son tan geniales?</title>
-      <link>http://mdl.wtf/es/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>https://mdl.wtf/es/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>https://mdl.wtf/es/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>La plataforma MDL Talent Hub contará con la tecnología MDL Token Hours (MDL TH). MDL TH se utilizará para respaldar el crecimiento del valor de MDL Token y para proteger la plataforma de una alta volatilidad de tokens MDL. A continuación hay 8 afirmaciones que describen el concepto de MDL TH.
  El mecanismo de MDL Token Hours se ha adaptado de Skycoin Coin Hours. La cantidad de MDL Tokens Hours recibidas aumenta de acuerdo con la cantidad de Tokens MDL que se tienen.</description>
     </item>
     
     <item>
       <title>Чем так замечательны токены MDL Token Hours?</title>
-      <link>http://mdl.wtf/ru/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>https://mdl.wtf/ru/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>https://mdl.wtf/ru/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>Платформа MDL Talent Hub будет использовать для работы особые токены - MDL Token Hours (MDL TH). MDL TH нужен для поддержки роста стоимости токена MDL, а также для защиты платформы от высокой волатильности токенов MDL. Концепцию MDL TH описывают 8 инструкций:
  Механизм MDL Token Hours был адаптирован из Coin Hours проекта Skycoin. Чем больше токенов MDL лежит на счету пользователя, тем больше токенов MDL Token Hours ему регулярно начисляется. Токены можно копить.</description>
     </item>
     
     <item>
       <title>为什么艺人社的代币小时数那么酷</title>
-      <link>http://mdl.wtf/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>https://mdl.wtf/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>https://mdl.wtf/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>MDL 艺人社平台将会被 MDL 代币小时数（MDL TH）助力。MDL TH将会被用于支持 MDL 代币的价值增长，也会被用于保护平台，解决可能会发生的过高的 MDL 代币挥发性问题。以下八个概念可以解释 MDL TH。
  MDL TH 的机制根据 Skycoin 的 Coin Hours 进行了调整。 您所收到的 MDL 代币小时数的数量是根据您所拥有的 MDL 代币的数量，随着时间的积累而增加的。 MDL TH 是逐步增加的。 MDL TH 是从 MDL 区块链中派生出的区块。 MDL TH 是不能被交易的。这将增加 MDL 代币的价值和 MDL 代币小时数的稳定性。 代币小时数将在购买平台上的扩展功能时抵消。 限时功能和永久功能都可使用 MDL 代币小时数购买。 MDL TH 也将在进行 MDL 代币交易的过程中被抵消。   可以用 MDL TH 购买的功能列表，以及其波动性问题将在稍后介绍，敬请关注！</description>
     </item>
     
     <item>
       <title>Por qué el valor del token MDL aumentará con el tiempo</title>
-      <link>http://mdl.wtf/es/2018-01-14-why-mdl-value-increase/</link>
+      <link>https://mdl.wtf/es/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>https://mdl.wtf/es/2018-01-14-why-mdl-value-increase/</guid>
       <description>Para nuestros primeros inversores, es crucial saber por qué los tokens MDL aumentarán en valor a lo largo del tiempo. Nos acabamos de dar cuenta de que lo que era obvio para nosotros no es claro para la comunidad. Aquí explicamos brevemente nuestros planes sobre el uso del token y cómo garantizamos su crecimiento para nuestros criptoinversores.
 En primer lugar, el valor del token MDL aumentará a partir de nuestra expansión en el mercado de búsqueda de talentos, que a su vez está creciendo continuamente.</description>
     </item>
     
     <item>
       <title>Warum steigt der Wert von MDL Token im Laufe der Zeit?</title>
-      <link>http://mdl.wtf/de/2018-01-14-why-mdl-value-increase/</link>
+      <link>https://mdl.wtf/de/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>https://mdl.wtf/de/2018-01-14-why-mdl-value-increase/</guid>
       <description>Für unsere frühen Investoren ist es wichtig zu wissen, warum die MDL-Token im Laufe der Zeit an Wert gewinnen. Wir haben gerade erst realisiert, dass das, was für uns offensichtlich war, für die Gemeinschaft nicht klar ist. Hier erklären wir kurz unsere Pläne zur Nutzung der Token und wie wir das Wachstum für unsere Krypto Investoren garantieren.
 Zuallererst wird der Wert des MDL-Tokens durch unsere Expansion auf dem Talent-Sourcing-Markt wachsen, der sich selbst ständig in der Expansion befindet.</description>
     </item>
     
     <item>
       <title>Why the value of MDL Token will increase over time</title>
-      <link>http://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</link>
+      <link>https://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>https://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</guid>
       <description>For our early investors it is crucial to know why MDL tokens will increase in value over time. We have just realized that what was obvious to us is not that clear to the community. Here we briefly explain our plans about the usage of the Token and how we guarantee its growth for our crypto investors.
 First of all, the value of the MDL token will increase from our expansion in the talent sourcing market, which is itself continually growing.</description>
     </item>
     
     <item>
       <title>Почему будет расти стоимость токенов MDL</title>
-      <link>http://mdl.wtf/ru/2018-01-14-why-mdl-value-increase/</link>
+      <link>https://mdl.wtf/ru/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>https://mdl.wtf/ru/2018-01-14-why-mdl-value-increase/</guid>
       <description>Нашим ранним инвесторам крайне важно знать ответ на простой вопрос: &amp;ldquo;Почему токены MDL будут расти в цене?&amp;rdquo;. Мы только что поняли, что некоторые, очевидные для нас вещи, не вполне понятны сообществу. Поэтому мы должны кратко пояснить для наших криптоинвесторов планы использования токенов и то, чем мы обеспечиваем рост их стоимости.
 Прежде всего, цена токенов MDL будет увеличиваться по мере покорения нашим проектом рынка талантов, который сам по себе постоянно растет. Чем больше людей начинает использовать нашу платформу, тем больше спрос на токены MDL.</description>
     </item>
     
     <item>
       <title>为什么MDL代币的价值会随着时间增长呢？</title>
-      <link>http://mdl.wtf/zh/2018-01-14-why-mdl-value-increase/</link>
+      <link>https://mdl.wtf/zh/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>https://mdl.wtf/zh/2018-01-14-why-mdl-value-increase/</guid>
       <description>了解为什么MDL代币会随着时间的推移而增值对于我们的早期投资者来说，是很关键的。我们刚刚才意识到，这样对我们来说显而易见的升值趋势，对于社会来说却并不明朗。所以在这里我们想要简单介绍一下我们的代币使用计划，以及我们将如何保证我们的加密币投资者的资金增长。
 首先，MDL代币的价值将随着我们在艺人资源市场的扩张而增长，演艺这个市场正在不断扩大。越来越多的人使用我们的平台，就会越来越多的人想要拥有MDL代币。最初我们的目标是提供具有真正价值的产品，用于在实质上解决娱乐业现有问题，所以我们坚信我们可以根据我们的营销计划进行扩展。
 其次，当市场饱和度达到时，我们将为MDL代币开发实施更多功能，比如市场生态系统，与各大品牌的合作伙伴计划以及直播等等。当MDL代币的功能越来越多的时候，当然更多的人会希望拥有它。
@@ -233,57 +243,57 @@ First of all, the value of the MDL token will increase from our expansion in the
     
     <item>
       <title>Anonimato y publicidad en MDL Talent Hub</title>
-      <link>http://mdl.wtf/es/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/es/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/es/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>Una de nuestras misiones es brindar transparencia al mercado de búsqueda de talentos, sin embargo, también debemos hacer frente a los procesos y entornos comúnmente aceptados en este área. El uso de la cadena de bloques y almacenamiento persistente de datos inmutables (PIDS) - IPFS, CXO - tecnologías que son conocidas por su capacidad de hacer que los datos sean abiertos, rastreables e inmutables plantea una buena pregunta: ¿qué tipo de información estará abierta al público?</description>
     </item>
     
     <item>
       <title>Anonimitas dan publisitas pada MDL Talent Hub</title>
-      <link>http://mdl.wtf/id/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/id/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/id/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>Salah satu misi kami adalah membawa transparansi ke pasar penemuan bakat, namun kami juga perlu mengatasi proses dan pengaturan yang umum diterima di bidang ini. Penggunaan blockchain dan teknologi Persistent Immutable Data Storage (PIDS) - IPFS, CXO yang dikenal karena kemampuan mereka untuk membuat data terbuka, dapat dilacak, dan tidak berubah menimbulkan pertanyaan bagus - jenis informasi apa yang akan terbuka untuk umum?
 Kegiatan operasional di segmen bakat pada industri hiburan selama beberapa tahun memberi kita sudut pandang yang sangat baik untuk mengamati apa yang mungkin ingin disembunyikan oleh pemain dan apa yang harus dipaparkan.</description>
     </item>
     
     <item>
       <title>Anonymity and publicity in MDL Talent Hube</title>
-      <link>http://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>One of our missions is to bring transparency to the talent sourcing market, however we also need to cope with the commonly accepted processes and settings in this area. Use of blockchain and Persistent Immutable Data Storage (PIDS) - IPFS, CXO - technologies that are known for their ability to make data open, traceable, and immutable raises a good question – what kind of information will be open to the public?</description>
     </item>
     
     <item>
       <title>Anonymität und Öffentlichkeitsarbeit im MDL Talent Hub</title>
-      <link>http://mdl.wtf/de/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/de/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/de/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>Eine unserer Missionen ist es, Transparenz auf dem Markt für Talentquellen zu schaffen. Wir müssen uns jedoch auch mit den allgemein akzeptierten Prozessen und Einstellungen in diesem Bereich beschäftigen. Der Einsatz von Blockchain und Persistent Immutable Data Storage (PIDS) - IPFS , CXO - Technologien, die dafür bekannt sind, Daten offen, nachvollziehbar und unveränderbar zu machen, werfen eine große Frage auf - welche Art von Informationen werden einem Publikum zugänglich sein?</description>
     </item>
     
     <item>
       <title>Анонимность и публичность в MDL Talent Hub</title>
-      <link>http://mdl.wtf/ru/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/ru/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/ru/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>Мы считаем, что необходимо сделать рынок талантов прозрачным, но необходимо учитывать множество устоявшихся норм и сложившихся годами моделей поведения. При использовании блокчейна, PIDS (постоянных неизменяемых хранилищ данных) - IPFS и CXO – технологий, позволяющих хранить данные открыто, общедоступно и неизменно, возникает резонный вопрос: какая именно информация будет находиться в открытом доступе?
 Учитывая наш богатый опыт работы в сегменте подбора талантов для индустрии развлечений, мы хорошо понимаем, какие материалы большинство исполнителей предпочтут сохранить в секрете, а какие обнародовать.</description>
     </item>
     
     <item>
       <title>艺人社的加密性和公开性</title>
-      <link>http://mdl.wtf/zh/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/zh/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/zh/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>我们的任务之一是为娱乐业市场带来透明度，但是，我们也需要应对这一任务在此领域造成的影响，为艺人和预定者创造更容易被接受的流程和环境。我们使用 blockchain 和 PIDS (IPFS, CXO) 技术，因为他们拥有众所周知的让信息公开可信的能力，他们的强项是使数据具有公开信，可追踪性，和拥有不可更改的特性。但是与此同时，这些特性也提出了一个很好的问题 — 什么样的信息将会被开放给公众？
 几年来,，人才资源市场的运营活动为我们的团队提供了一个绝佳的视角, 来观察我们的人才可能会想要隐藏什么, 以及想要如何公开必要信息，或是炫耀那些值得炫耀的。关于这部分，网站所采取的安全手段，如私人秘钥和相关的核查工具，并不是本话题所含概的事项。
 工资 这对于艺人们来说并不是一个直截了当的话题 — 有时候艺人想要隐藏此数字，仅在必要时炫耀它。
@@ -298,55 +308,55 @@ Kegiatan operasional di segmen bakat pada industri hiburan selama beberapa tahun
     
     <item>
       <title>Ansätze und technische Entscheidungen</title>
-      <link>http://mdl.wtf/de/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/de/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/de/2017-12-31-approaches-technical-decisions/</guid>
       <description>Im aktuellen Stadium der globalen Blockchain-Entwicklung scheint es, als ob die meisten Leute absolut vergessen haben, dass hinter jedem Projekt tatsächlich Leute arbeiten (oder nicht). Eine stilvolle Website mit einem vielversprechenden Video mit Bitcoin- oder Ethereum-Adressen bringt die Menschen mehr dazu zu investieren, als eine hart arbeitende Gemeinschaft mit respektvollen Anführern. Menschen senden einfach Geld blind zu einem intelligenten Vertrag, ohne zu erforschen, wer an dem Konzept, dem Code, dem Marketing, etc.</description>
     </item>
     
     <item>
       <title>Approaches and Technical Decisions</title>
-      <link>http://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</guid>
       <description>Given the current state of global blockchain development, it seems that most people have totally forgotten that behind every project there are actual people working [or not]. So a stylish website with a promising, geeky video, featuring Bitcoin or Ethereum addresses, gets people more attracted to invest than a hardworking community with respect-worthy leaders. People just send money blindly to a smart contract, without researching who&amp;rsquo;s working on the concept, code, marketing, etc.</description>
     </item>
     
     <item>
       <title>Enfoques y decisiones técnicas</title>
-      <link>http://mdl.wtf/es/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/es/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/es/2017-12-31-approaches-technical-decisions/</guid>
       <description>Dado el estado actual del desarrollo global de la cadena de bloques, parece que la mayoría de la gente ha olvidado por completo que detrás de cada proyecto hay personas trabajando [o no]. Por lo tanto, un sitio web elegante con un video prometedor y geek, con direcciones de Bitcoin o Ethereum, atrae más a la gente para invertir que una comunidad trabajadora con líderes respetuosos. La gente simplemente envía dinero a ciegas a un contrato inteligente, sin investigar quién está trabajando en el concepto, el código, el marketing, etc.</description>
     </item>
     
     <item>
       <title>Pendekatan dan Keputusan Teknis</title>
-      <link>http://mdl.wtf/id/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/id/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/id/2017-12-31-approaches-technical-decisions/</guid>
       <description>Dalam perkembangan blockchain global terkini, nampaknya kebanyakan orang benar-benar lupa bahwa di balik setiap proyek ada orang-orang yang bekerja secara nyata [atau tidak]. Jadi, situs web bergaya dengan video menarik yang menjanjikan, yang menampilkan alamat Bitcoin atau Ethereum, membuat orang lebih tertarik untuk berinvestasi, daripada komunitas pekerja keras, dengan pemimpin terhormat. Orang hanya mengirim uang secara membabi buta ke kontrak pintar, tanpa meneliti siapa yang mengerjakan konsep, kode, pemasaran, dll. KYC yang benar atau uji kelayakan harus dilakukan di kedua pihak, jika tidak, pemberontakan dan keberuntungan terjadi.</description>
     </item>
     
     <item>
       <title>Наши подходы и технические решения</title>
-      <link>http://mdl.wtf/ru/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/ru/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-31-approaches-technical-decisions/</guid>
       <description>Если взглянуть со стороны на текущую ситуацию с блокчейн-проектами, то может сложиться впечатление, что большинство инвесторов начисто забыло о реальных разработчиках, которые стоят за этими проектами (или не стоят). И поэтому получается, что стильный сайт с классными видео и парой кошельков биткойна и эфира привлекает куда больше средств, чем реальная трудолюбивая команда с заслуживающими уважения лидерами. Люди отправляют свои деньги на смарт-контракты и даже не пытаются понять, а кто же работает над концепцией, кодом, маркетингом и пр.</description>
     </item>
     
     <item>
       <title>方法技术的决策</title>
-      <link>http://mdl.wtf/zh/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/zh/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-31-approaches-technical-decisions/</guid>
       <description>在当下全球区块链发展的状况中，大多数人似乎完全忘记了每个项目背后都有一些真正的在为此努力工作的人（或许有可能没有）。 因此，一个拥有极客团队背景和易于理解的介绍视屏的超级有型的时尚网站，当然比比特币或以太坊的复杂项目更吸引投资人的目光。人们只是盲目地把钱汇给一个智能合同，而没有真正研究是否有努力工作的团队在做概念，打代码，有没有一个值得信任的领导带领进行营销等方面或等等种种的工作。 真正的KYC或尽职调查应该在双方进行的，而不是只是乞求好运可以发生。 MDL采取了不同的方法，至少在预备ITO进行时。我们现在并不是要进行正式的KYC，而是要尽力了解我们的投资者，并且，我们认为让他们更了解我们也是很重要的。 在1月份的预备ITO期间，我们已经准备好所有可能遇到的问题的答案，并且尽可能的多多回应这些问题。
 为什么我们选择Waves平台来进行预备ITO？
 坦率地说，我们的所有团队成员都没有在Waves社区活跃过。但是我们对于一些以太坊项目有着丰富的知识，同时，对于ERC20，我们也是经验丰富的投资者。问题是。 ETH用户体验还远远不足于人们对它的期望。这个问题似乎一直没有任何改变，Ethereum网络现在的拥塞状态不仅不允许第一个有用的应用程序（ICO + crypto kitties）向世界展示其潜力，且它只是表明，把整个世界整合进入一个单一的数据库[实际上是区块链]可能不是最好的主意。Vitalik和他的团队正在做一个很好的事件，他们帮助加密货币社区成长，并向许多人开放，让大家都开了眼。但他们低估了即将带给世界的影响。我们并没有要与那些ERC20交战的想法，而是觉得，与其让我们的投资者浪费大量的交易费用，不如使用创建者Sasha为我们带来的便捷：它将允许MDL团队实现我们最初的众筹目标，并专注于重要的事情 - 建设伟大的产品。 MDL并没有冲击区块链加密货币的浪潮，我们正在乘坐工业革命4.0的震撼邮轮。
@@ -361,50 +371,50 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>Qué hacemos y por qué</title>
-      <link>http://mdl.wtf/es/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/es/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/es/2017-12-23-what-do-we-do-and-why/</guid>
       <description>¿Qué estamos haciendo y por qué?
 En la obsesión actual por la cadena de bloques hay tantos proyectos que parecen ser todo menos auténticos o incluso a veces son falsos. Las ICO se han convertido no solo en una herramienta para las startups para recaudar fondos, sino también para los estafadores que buscan hacer dinero rápido. ¿MDL Talent Hub es un proyecto real con una visión bien pensada y un plan de desarrollo, o simplemente está montando la ola de la criptolocura?</description>
     </item>
     
     <item>
       <title>Was machen wir und warum?</title>
-      <link>http://mdl.wtf/de/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/de/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/de/2017-12-23-what-do-we-do-and-why/</guid>
       <description>Was machen wir und warum?
 In der anhaltenden Blockchain-Manie gibt es so viele Projekte, die unecht oder gar unwahr wirken. ICOs wurden ein einfaches Tool für Startups um Geld zu sammeln, und so sind Betrüger auch bereit, schnelles Geld zu machen. Ist MDL Talent Hub eine echte Sache mit einem entschlossenen Visions- und Entwicklungsplan oder reitet es nur die Welle des Cryptohype? Wir glauben, dass wir auf dem festen Boden stehen und hier erklären wir warum.</description>
     </item>
     
     <item>
       <title>What Do We Do and Why</title>
-      <link>http://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</guid>
       <description>What we are doing and why?
 In the ongoing blockchain mania there are so many projects that seem to be less than genuine or even fake. ICOs have become not only a tool for startups to raise funds, but also for scammers looking to make a quick buck. Is MDL Talent Hub a real project with a well thought out vision and development plan, or it is just riding the wave of cryptohype?</description>
     </item>
     
     <item>
       <title>Что мы делаем и почему</title>
-      <link>http://mdl.wtf/ru/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/ru/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-23-what-do-we-do-and-why/</guid>
       <description>Что мы делаем и почему?
 На волне блокчейн-мании возникло так много проектов, что сразу и не понять, где жемчужина, а где афера. С помощью ICO стартапы научились собирать приличные средства, но и мошенники, к сожалению, не остаются в стороне. Так что же такое MDL Talent Hub – команда профессионалов с четким планом действий и ясным позиционированием проекта или просто очередная попытка оседлать волну криптоажиотажа? Мы считаем, что знаем что делаем, и вот почему.</description>
     </item>
     
     <item>
       <title>这些我们正在做的事儿，是什么？为什么？</title>
-      <link>http://mdl.wtf/zh/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/zh/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-23-what-do-we-do-and-why/</guid>
       <description>我们正在做什么呢？我们为什么要做这些呢？
 当下正在火爆风行的区块链热潮带来了超级多的项目，但是似乎并不是每个项目都是真实的，或有些项目并没有出于一种有用途的好初衷。ICO成为初创公司筹集资金的手段，但是这样的好工具在帮助真正有前途的公司发展的同时也被骗子们的盯上了。那，MDL艺人社是一个真实的，有实实在在的视野和发展计划的项目，还是也是乘坐着加密热潮的骗子项目呢？我们相信自己是站在坚实的基础上，以下让我们陈述为什么。
 首先，我们为什么仅仅为了一个申请招聘的环节而运用区块链技术呢？
@@ -417,10 +427,10 @@ In the ongoing blockchain mania there are so many projects that seem to be less 
     
     <item>
       <title>這些我們正在做的事兒，是什麼？為什麼？</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-23-what-do-we-do-and-why/</guid>
       <description>我們正在做什麼呢？我們為什麼要做這些呢？
 當下正在火爆風行的區塊鏈熱潮帶來了超級多的項目，但是似乎並不是每個項目都是真實的，或有些項目並沒有出於一種有用途的好初衷。ICO成為初創公司籌集資金的手段，但是這樣的好工具在幫助真正有前途的公司發展的同時也被騙子們的盯上了。那，MDL藝人社是一個真實的，有實實在在的視野和發展計劃的項目，還是也是乘坐著加密熱潮的騙子項目呢？我們相信自己是站在堅實的基礎上，以下讓我們陳述為什麼。
 首先，我們為什麼僅僅為了一個申請招聘的環節而運用區塊鏈技術呢？
@@ -433,50 +443,50 @@ In the ongoing blockchain mania there are so many projects that seem to be less 
     
     <item>
       <title>MDL - Mine Distributed Ledger</title>
-      <link>http://mdl.wtf/de/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/de/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/de/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub wird PIDS-Technologien (IPFS, CXO usw.) verwenden, die es ermöglichen, Informationen auf Geräten der Nutzer und bei Minern verteilt zu speichern, wodurch der Zugriff, die Geschwindigkeit und die Sicherheit von Informationen wesentlich erhöht werden.
 Um unsere Nutzer und Miner (Schürfer) zu entschädigen, werden wir ein Prämienprogramm einrichten, mit dem jeder eine bestimmte Anzahl von MDL-Token erhalten kann, wenn er Informationen über Talente, Ereignisse usw. speichert. MDL-Tokens können so auf MDL Talent Hub für andere Wertsachen ausgegeben oder in andere Krypto- oder Fiat-Währungen umgetauscht werden.</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger</title>
-      <link>http://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub will utilize PIDS technologies (IPFS, CXO, etc), which will allow information to be stored in a distributed manner on users’ devices and miners, improving access, speed, and security of information.
 In order to compensate our users and miners we will establish a bounty program by which anyone can get a certain number of MDL Tokens for storing info about talents, events, and so forth. MDL Tokens can then be spent on MDL Talent Hub for other valuables or exchanged to other crypto or fiat currency.</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger</title>
-      <link>http://mdl.wtf/es/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/es/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/es/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub utilizará tecnologías PIDS (IPFS, CXO, etc.), que permitirán que la información se almacene de forma distribuida en los dispositivos y mineros de los usuarios, mejorando el acceso, la velocidad y la seguridad de la información.
 A fin de compensar a nuestros usuarios y mineros, estableceremos un programa de recompensas mediante el cual cualquier persona puede obtener un cierto número de Tokens MDL para almacenar información sobre talentos, eventos, etc.</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger - Майни распределенный реестр</title>
-      <link>http://mdl.wtf/ru/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/ru/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub начинает использовать технологии PIDS (IPFS, CXO и т. д.), позволяющие хранить информацию особым способом, распределенную по устройствам пользователей и майнеров. Это повышает скорость доступа и обеспечивает надежное хранение данных.
 Мы создадим программу бонусов для мотивации наших пользователей и майнеров, участвуя в которой каждый сможет получить некоторое количество токенов MDL за хранение информации о талантах, событиях и т.д. Полученные таким образом MDL-токены могут быть использованы на MDL Talent Hub для покупки ценных вещей или обменены на другую криптовалюту и фиат.</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger(我的分布式賬本）</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL藝人社採用PIDS技術（IPFS，CXO等），這將使信息採用分布式的方式儲存在用戶和挖礦者的設備中，以提高訪問速度和保障更高的信息安全。
 為了補償我們的用戶和挖礦者，我們開展了賞金計劃 — 任何人都可以通過在平台上存儲有關於藝人，活動等等信息得到一定量的MDL代幣。MDL代幣可以被用來在藝人社使用，或者是轉換成其他的加密貨幣和法幣。
 此時此刻正有兩個相當靠譜的科技將被我們平台採用 - 星際文件系統（IPFS）和天空賬本（CXO）。IPFS已經完美運作許久，即便採礦還並未被運訓運作，我們部落格裡的全部媒體資料都已經被儲存在了那裡。但是我們指望著，它遲早有可能在IPFS挖取賞金。
@@ -486,10 +496,10 @@ A fin de compensar a nuestros usuarios y mineros, estableceremos un programa de 
     
     <item>
       <title>MDL - Mine Distributed Ledger(我的分布式账本</title>
-      <link>http://mdl.wtf/zh/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/zh/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL艺人社采用PIDS技术（IPFS，CXO等），这将使信息采用分布式的方式储存在用户和挖矿者的设备中，以提高访问速度和保障更高的信息安全。
 为了补偿我们的用户和挖矿者，我们开展了赏金计划 — 任何人都可以通过在平台上存储有关于艺人，活动等等信息得到一定量的MDL代币。MDL代币可以被用来在艺人社使用，或者是转换成其他的加密货币和法币。
 此时此刻正有两个相当靠谱的科技将被我们平台采用 - 星际文件系统（IPFS）和天空账本（CXO）。IPFS已经完美运作许久，即便采矿还并未被运训运作，我们部落格里的全部媒体资料都已经被储存在了那里。但是我们指望着，它迟早有可能在IPFS挖取赏金。
@@ -499,20 +509,20 @@ A fin de compensar a nuestros usuarios y mineros, estableceremos un programa de 
     
     <item>
       <title>MDL – Distribusi Pertambangan Unggul</title>
-      <link>http://mdl.wtf/id/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/id/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/id/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub akan menggunakan teknologi PIDS (IPFS, CXO, dll.), yang memungkinkan informasi disimpan secara terdistribusi pada perangkat pengguna dan penambang, meningkatkan akses, kecepatan, dan keamanan informasi jauh lebih tinggi.
 Untuk mengimbangi pengguna dan penambang, kami akan membuat program bounty dimana setiap orang bisa mendapatkan sejumlah Token MDL untuk menyimpan info tentang bakat, acara, dan sebagainya. Dibuat sedemikian rupa, Token MDL dapat digunakan untuk MDL Talent Hub untuk barang berharga lainnya atau ditukar dengan mata uang kripto atau fiat lainnya.</description>
     </item>
     
     <item>
       <title>MDL at Skyledger Conference</title>
-      <link>http://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>Since MDL Talent Hub is closely considering employing CXO technology and becoming a part of the Skyledger ecosystem, we were kindly invited to present our project to Shanghai blockchain enthusiasts and investors.
 Skyledger is positioning itself as blockchain 3.0 and is strongly supported by business and IT communities. The technology is developed here in Shanghai by an international team and is aiming to overcome other DAO protocols.
 MDL happy to be so close to one of the most advanced tech movements in China and the World.</description>
@@ -520,10 +530,10 @@ MDL happy to be so close to one of the most advanced tech movements in China and
     
     <item>
       <title>MDL bei der Skyledger Konferenz</title>
-      <link>http://mdl.wtf/de/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/de/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/de/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>Da MDL Talent Hub in Erwägung zieht, die CXO-Technologie einzusetzen und ein Teil des Skyledger-Ökosystems zu werden, wurden wir freundlicherweise eingeladen, unser Projekt den Blockchain-Enthusiasten und Investoren aus Shanghai vorzustellen.
 Skyledger positioniert sich als Blockchain 3.0 und wird stark von Business- und IT-Communities unterstützt. Die Technologie wird hier in Shanghai von einem internationalen Team entwickelt und zielt darauf ab, andere DAO-Protokolle zu überwinden.
 MDL genießt es, einer der fortschrittlichsten Tech-Bewegungen in China und der Welt nahe zu sein.</description>
@@ -531,20 +541,20 @@ MDL genießt es, einer der fortschrittlichsten Tech-Bewegungen in China und der 
     
     <item>
       <title>MDL en la Skyledger Conference</title>
-      <link>http://mdl.wtf/es/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/es/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/es/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>Dado que MDL Talent Hub está considerando utilizar la tecnología CXO y formar parte del ecosistema de Skyledger, se nos invitó amablemente a presentar nuestro proyecto a los entusiastas e inversores de cadena de bloques de Shanghai.
 Skyledger se está posicionando como una cadena de bloques 3.0 y es fuertemente respaldado por las comunidades de negocios y tecnología de la información. La tecnología se desarrolla aquí en Shanghai por un equipo internacional y tiene como objetivo superar otros protocolos DAO.</description>
     </item>
     
     <item>
       <title>MDL pada Konferensi Skyledger</title>
-      <link>http://mdl.wtf/id/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/id/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/id/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>Karena MDL Talent Hub mempertimbangkan dengan seksama untuk menggunakan teknologi CXO dan menjadi bagian dari ekosistem Skyledger, kami dengan senang hati diundang untuk mempresentasikan proyek kami kepada penggemar blockchain Shanghai dan investor.
 Skyledger memposisikan diri sebagai blockchain 3.0 dan sangat didukung oleh komunitas bisnis dan IT. Teknologi ini dikembangkan di Shanghai oleh tim internasional dan bertujuan untuk mengatasi protokol DAO lainnya.
 MDL menikmati berada dekat dengan salah satu gerakan teknologi paling maju di China dan Dunia.</description>
@@ -552,10 +562,10 @@ MDL menikmati berada dekat dengan salah satu gerakan teknologi paling maju di Ch
     
     <item>
       <title>MDL在天空帐本会议</title>
-      <link>http://mdl.wtf/zh/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/zh/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>因为MDL艺人社密切考虑采用CXO技术是天空账本生态系统的一部分，我们很荣幸被邀请到上海区块链爱好者与投资者会议来提出我们项目的理念。
 天空账本将自己定位为区块链版本 3﻿并且强力支持商业和IT社区。该技术是由国际团队在上海开发，旨在执行其他一些DAO协议。
 能够与世界范围内的科技佼佼者，与中国最先进的科技团队关系紧密，MDL团队倍感享受。</description>
@@ -563,10 +573,10 @@ MDL menikmati berada dekat dengan salah satu gerakan teknologi paling maju di Ch
     
     <item>
       <title>MDL在天空帳本會議</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>因為MDL藝人社密切考慮採用CXO技術是天空賬本生態系統的一部分，我們很榮幸被邀請到上海區塊鏈愛好者與投資者會議來提出我們項目的理念。
 天空賬本將自己定位為區塊鏈版本 3.0 並且強力支持商業和IT社區。該技術是由國際團隊在上海開發，旨在執行其他一些DAO協議。
 能夠與世界范圍內的科技佼佼者，與中國最先進的科技團隊關系緊密，MDL團隊倍感享受。</description>
@@ -574,10 +584,10 @@ MDL menikmati berada dekat dengan salah satu gerakan teknologi paling maju di Ch
     
     <item>
       <title>MDL팀, 스카이레저(Skyledger) 컨퍼런스 참석</title>
-      <link>http://mdl.wtf/kr/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/kr/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/kr/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>MDL 탤런트 허브(Talent Hub)는 CXO 기술의 채택을 면밀히 검토하고 있으며 스카이레저 생태계의 구성원이 될 계획이므로 중국 상해의 블록체인 지지자 및 투자자들에게 MDL 프로젝트를 소개할 수 있도록 스카이레저 컨퍼런스에 초청 받았습니다.
 스카이레저는 블록체인 3.0을 내세우고 있어 업계 및 IT 관계사들의 열렬한 지지를 받고 있습니다. 이 기술은 세계적인 팀이 이 곳 상해에서 개발하고 있으며 여타 DAO 프로토콜을 극복하는 것을 목표로 삼고 있습니다.
 MDL은 중국을 비롯한 전세계에서 가장 진보된 기술을 이끌어 가고 있는 팀과 긴밀한 관계를 유지할 수 있게 되어 매우 기쁩니다.</description>
@@ -585,60 +595,60 @@ MDL은 중국을 비롯한 전세계에서 가장 진보된 기술을 이끌어 
     
     <item>
       <title>La Pre-ITO está en marcha</title>
-      <link>http://mdl.wtf/es/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/es/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/es/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>Para prepararnos para la ITO, necesitamos un capital de 500.000 $. Esta cantidad nos permitirá lanzar nuestra campaña de ITO en marzo de 2018, en la que esperamos recaudar 20 millones de dólares para el desarrollo de la plataforma, expansión transfronteriza y desarrollo comercial, así como para I + D y la implementación adicional de las tecnologías de la cadena de bloques y PIDS.
 En enero de 2018, estamos planeando concluir la Pre-ITO para el token MDL.</description>
     </item>
     
     <item>
       <title>Pre-ITO Is Ongoing</title>
-      <link>http://mdl.wtf/ar/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/ar/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ar/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/ar/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>In order to prepare for ITO, we require ca. $500.000. This amount will allow to launch ITO campaign in March 2018, where we are expecting to raise ca. $20m for the development of the platform, cross-border scaling and business development, as well as for R&amp;amp;D and further implementation of BC &amp;amp; PIDS technologies.
 In January 2018 we are planning to conclude Pre-ITO for MDL the Token. MDL Token was issued on the 8th of October 2017 on Waves platform in the amount of 100.</description>
     </item>
     
     <item>
       <title>Pre-ITO Is Ongoing</title>
-      <link>http://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>In order to prepare for ITO, we require capital in the amount of $500.000. This amount will allow us to launch our ITO campaign in March, 2018, where we are expecting to rais $20m for the development of the platform, cross-border scaling and business development, as well as for R&amp;amp;D and further implementation of blockchain &amp;amp; PIDS technologies.
 In January 2018 we are planning to conclude the Pre-ITO for the MDL Token.</description>
     </item>
     
     <item>
       <title>Pre-ITO Sedang Berjalan</title>
-      <link>http://mdl.wtf/id/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/id/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/id/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>Untuk mempersiapkan ITO, kami membutuhkan dana $500.000. Jumlah ini akan memungkinkan untuk meluncurkan kampanye ITO pada bulan Maret 2018, di mana kami mengharapkan untuk meningkatkan dana $ 20m untuk pengembangan platform, penskalaan lintas batas dan pengembangan bisnis, serta Litbang dan penerapan lebih lanjut teknologi BC &amp;amp; PIDS.
 Pada bulan Januari 2018, kami merencanakan untuk menyimpulkan Pre-ITO untuk Token MDL. Token MDL dikeluarkan pada tanggal 8 Oktober 2017 di platform Waves sebesar 100.</description>
     </item>
     
     <item>
       <title>Pre-ITO läuft</title>
-      <link>http://mdl.wtf/de/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/de/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/de/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>Um das ITO vorzubereiten, benötigen wir ca. $ 500.000. Dieser Betrag wird es ermöglichen, die ITO-Kampagne im März 2018 zu starten, die 20 Mio USD für die Entwicklung der Plattform, die grenzüberschreitende Skalierung und Geschäftsentwicklung, sowie für die Forschung und Entwicklung und die weitere Implementierung von BC &amp;amp; PIDS-Technologien einbringen soll.
 Im Januar 2018 planen wir, ein Pre-ITO für den MDL-Token abzuhalten. Der MDL-Token wurde am 8. Oktober 2017 mit der Anzahl von 100.</description>
     </item>
     
     <item>
       <title>Pre-ITO 진행 중</title>
-      <link>http://mdl.wtf/kr/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/kr/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/kr/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>MDL팀은 ITO 준비를 위해 약 50만 달러가 필요합니다. 이 금액으로 2018년 3월에 ITO 캠페인을 개시할 계획이며, 이 과정에서 플랫폼 개발, 아시아권 확대 및 사업 전개, R&amp;amp;D, BC 및 PIDS 기술 구현 등을 위해 약 2천만 달러를 추가 조성할 계획입니다.
 2018년 1월에는 MDL 토큰을 위한 Pre-ITO를 마무리할 계획입니다. MDL 토큰은 2017년 10월 8일에 Waves 플랫폼으로 1억개가 발행되었습니다.
 토큰 자산 정보는 아래 주소에서 확인하실 수 있습니다 - http://wavesgo.com/tokens/HtM2zY7gDnGbmNmEtF44K8TGCgajDj4rBX29bH87kwXP
@@ -647,20 +657,20 @@ Pre-ITO 세일에 참가할 참가자는 Waves 지갑을 설치해야 합니다.
     
     <item>
       <title>Старт пре-ITO</title>
-      <link>http://mdl.wtf/ru/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/ru/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>Чтобы подготовиться к ITO, нам понадобится ок. $ 500 000. Эта сумма позволит начать кампанию ITO в марте 2018 года, от которой мы ожидаем сборов ок. $ 20 млн на развитие платформы, распространение проекта в другие регионы мира и расширение бизнеса, а также на НИОКР и адаптацию новейших технологий блокчейна и PIDS.
 В январе 2018 года мы планируем завершить пре-ITO токенов MDL. Токен MDL был выпущен на платформе Waves 8го октября 2017 года в количестве 100 000 000 штук.</description>
     </item>
     
     <item>
       <title>預備ITO正在進行中</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>我們需要大約500,000美元來為我們的ITO進行准備。這一數額將允許ITO活動在2018年3月進行開展。屆時，我們預計將為平台的開發籌集約2000萬美元，為業務發展和使MDL實現跨進規模化，以及加強研究開發還有加快進一步實施 BC &amp;amp; PID 技術。
 MDL代幣在2017年10月8日以100,000,000個的總量在Waves平台上發布了。 代幣的資產信息可在以下鏈接中查看 - http://wavesgo.com/tokens/HtM2zY7gDnGbmNmEtF44K8TGCgajDj4rBX29bH87kwXP
 在2018年1月，我們計劃結束預備ITO中的MDL代幣的發售。
@@ -675,10 +685,10 @@ ITO的軟上限將為1,000萬美元，硬上限將為2,500萬美元，個人購�
     
     <item>
       <title>预备ITO正在进行中</title>
-      <link>http://mdl.wtf/zh/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/zh/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>我们需要大约500,000美元来为我们的ITO进行准备。这一数额将允许ITO活动在2018年3月进行开展。届时，我们预计将为平台的开发筹集约2000万美元，为业务发展和使MDL实现跨进规模化，以及加强研究开发还有加快进一步实施 BC &amp;amp; PID 技术。
 MDL代币在2017年10月8日以100,000,000个的总量在Wav﻿s平台上发布了。 代币的资产信息可在以下链接中查看 - http://wavesgo.com/tokens/HtM2zY7gDnGbmNmEtF44K8TGCgajDj4rBX29bH87kwXP
 在2018年1月，我们计划结束预备ITO中的MDL代币的发售。
@@ -693,60 +703,60 @@ ITO的软上限将为1,000万美元，硬上限将为2,500万美元，个人购�
     
     <item>
       <title>Benutzerinstrumente - Teil 1</title>
-      <link>http://mdl.wtf/de/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/de/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/de/2017-12-08-user-instruments-part1/</guid>
       <description>Profil Wir glauben, dass eine talentierte Person in vielerlei Hinsicht talentiert sein kann, so dass jedes Profil mehrere Portfolios hat - Schauspieler, Tänzer, Origami-Meister oder anderes. Jedes der Portfolios wird über ausreichend Präsentationsmaterial wie Compcard, Vorstellungsvideos oder anderes verfügen. So kann ein Bucher leicht ein bestimmtes Portfolio eines Talents auswählen, das für das bestimmte Ereignis benötigt wird.
 Search Suche wird sowohl für Bucher als auch für Talente verfügbar sein, indem es für Jobs als auch für Freiberufler zur Verfügung steht.</description>
     </item>
     
     <item>
       <title>Instrumen Pengguna - Bagian 1</title>
-      <link>http://mdl.wtf/id/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/id/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/id/2017-12-08-user-instruments-part1/</guid>
       <description>Profil Kami percaya bahwa orang berbakat mampu berbakat dalam banyak hal, sehingga setiap profil memiliki beberapa portofolio - aktor, penari, master origami, atau apa pun. Masing-masing portofolio akan memiliki materi presentasi yang cukup seperti compcard, video intro, atau yang lain. Dengan demikian pemesan dapat dengan mudah memilih portofolio tertentu dari bakat, yang dibutuhkan untuk acara tertentu.
 Pencarian Pencarian akan tersedia baik untuk pemesan dan talenta dalam hal memungkinkan untuk mencari pekerjaan dan juga pekerja lepas.</description>
     </item>
     
     <item>
       <title>Instrumentos de usuario - Parte 1</title>
-      <link>http://mdl.wtf/es/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/es/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/es/2017-12-08-user-instruments-part1/</guid>
       <description>Perfil Creemos que una persona talentosa puede ser talentosa de muchas maneras, por lo que cada perfil tendrá varias carteras: actor, bailarín, maestro de origami o lo que sea. Cada una de las carteras tendrá suficientes materiales de presentación como compcard, videos introductorios, etc. Por lo tanto, una agencia puede elegir fácilmente una cartera específica de un talento tal y como se requiera para el evento determinado.
 Buscar La búsqueda estará disponible tanto para agencias como para talentos, de modo que los freelancers puedan buscar trabajos y que las agencias encuentren freelancers.</description>
     </item>
     
     <item>
       <title>User Instruments - Part 1</title>
-      <link>http://mdl.wtf/en/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/en/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/en/2017-12-08-user-instruments-part1/</guid>
       <description>Profile We believe that a talented person can be talented in many ways, so each profile will have several portfolios – actor, dancer, origami master, or whatever. Each of the portfolios will have sufficient presentation materials like compcard, intro videos, etc. Thus a booker can easily choose as specific portfolio from a talent as required for the certain event.
 Search Search will be available both for bookers and talents so that it will possible for freelancers to look for jobs, and for bookers to find freelancers.</description>
     </item>
     
     <item>
       <title>Инструменты пользователя, часть 1</title>
-      <link>http://mdl.wtf/ru/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/ru/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-08-user-instruments-part1/</guid>
       <description>Профиль Мы считаем, что талантливый человек может быть талантлив во многих отношениях, поэтому в каждом профиле будет несколько портфолио - актер, танцор, мастер оригами или что-то еще. Для составления каждого портфолио доступны различные ресурсы, такие как композитки, встраиваемое видео и пр. Таким образом, букеру легко будет выбрать то портфолио таланта, которое лучше подходит для конкретного мероприятия.
 Поиск Поиск будет доступен как для букеров, так и для талантов, так что можно будет искать и постоянную работу, и заказы для фрилансеров.</description>
     </item>
     
     <item>
       <title>用戶指南 - 篇章 1</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-08-user-instruments-part1/</guid>
       <description>個人資料 我們相信有才華的藝人們不可能隻有一種才能，所以每份個人資料頁面中都將會包含多個技能資料頁面 – 演戲，跳舞，折紙，馬戲或者任意有趣的技能。每位藝人的資料頁中都將擁有足夠的演示材料：模卡，視頻，高清照片等等。這樣，預約方就能夠更有目標性的去選擇藝人，為合適的展會活動選擇最適合的藝人。
 信息查找 查找功能將會面向藝人和預約者雙方開放，人才可以毛遂自薦，找到心儀工作，同時預約方也能找到最合適的藝人。我們的目標是使平台維持直觀簡單，因此我們將認真聽取建議，同時利用公認的行業標准打造最優平台。
 日程計劃 對於自由職業者和活動方來說，一個完美的時間管理工具是必不可少的。MDL藝人社有一個可以打造它的完美建議！所有的日程都會被鏈接到同一個數據庫中，所以預約方可以看到人才們的日程安排情況﹔人才也將注意到即將到來的日程安排。當然，此日程表也將會使用區塊鏈技術，讓所有的日程安排都有據可查。
@@ -756,10 +766,10 @@ App下載 對於預約者來說，收集人才資料並介紹給最終客戶是�
     
     <item>
       <title>用户指南 - 篇章 1</title>
-      <link>http://mdl.wtf/zh/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/zh/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-08-user-instruments-part1/</guid>
       <description>个人资料 我们相信有才华的艺人们不可能只有一种才能，所以每份个人资料页面中都将会包含多个技能资料页面 – 演戏，跳舞，折纸，马戏或者任意有趣的技能。每位艺人的资料页中都将拥有足够的演示材料：模卡，视频，高清照片等等。这样，预约方就能够更有目标性的去选择艺人，为合适的展会活动选择最适合的艺人。
 信息查找 查找功能将会面向艺人和预约者双方开放，人才可以毛遂自荐，找到心仪工作，同时预约方也能找到最合适的艺人。我们的目标是使平台维持直观简单，因此我们将认真听取建议，同时利用公认的行业标准打造最优平台。
 日程计划 对于自由职业者和活动方来说，一个完美的时间管理工具是必不可少的。MDL艺人社有一个可以打造它的完美建议！所有的日程都会被链接到同一个数据库中，所以预约方可以看到人才们的日程安排情况；人才也将注意到即将到来的日程安排。当然，此日程表也将会使用区块链技术，让所有的日程安排都有据可查。
@@ -769,74 +779,74 @@ App下载 对于预约者来说，收集人才资料并介绍给最终客户是�
     
     <item>
       <title>사용자 도구 - 1부</title>
-      <link>http://mdl.wtf/kr/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/kr/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/kr/2017-12-08-user-instruments-part1/</guid>
       <description>프로필 Profile 재능이 있는 사람은 여러 방면에 재능이 있다고 생각됩니다. 따라서 각 프로필에는 다수의 포트폴리오, 즉, 배우, 무용수, 종이접기 장인 등등을 위한 포트폴리오가 필요할 것입니다. 이들 포트폴리오 각각에는 컴카드, 소개 동영상 등등 충분한 자기 소개 자료들이 포함됩니다. 따라서 인력소싱회사는 특정 행사에 필요한 재능에 대해 손쉽게 해당 포트폴리오를 선택할 수 있습니다.
 검색 Search 검색 기능은 인력소싱회사와 연예인력 양측 모두에게 제공되므로 프리랜서 뿐만 아니라 구직자들도 활용할 수 있습니다. MDL은 이 플랫폼을 누구나 한 눈에 보고 손쉽게 이용할 수 있도록 제작한다는 목표 아래 플랫폼을 준비하고 있으며 MDL 커뮤니티에서 나오는 다양한 제안들에 주의해서 귀기울이고 있으며 동시에 업계에서 이미 수용된 표준들 역시 활용할 것입니다.</description>
     </item>
     
     <item>
       <title>MDL - Hidupku Sehari-hari</title>
-      <link>http://mdl.wtf/id/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/id/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/id/2017-12-06-mdl-my-daily-life/</guid>
       <description>Selama beberapa dekade terakhir, ekonomi dunia telah mengalami pergeseran besar-besaran dari pertanian dan produksi ke layanan dan berlanjut ke sektor ekonomi kreatif seperti yang dicatat oleh Richard Florida, kepala Martin Prosperity Institute, Kanada. Teknologi modern mengganggu ekonomi sedemikian rupa sehingga semakin banyak orang yang menganggur dan yang sebelumnya dianggap gila adalah gagasan tentang pendapatan dasar tanpa syarat sudah diterapkan di negara-negara maju. Segera masyarakat kita akan menghadapi momentum saat tenaga kerja fisik dan mental rutin tidak diperlukan lagi untuk kemajuan.</description>
     </item>
     
     <item>
       <title>MDL - Mein tägliches Leben</title>
-      <link>http://mdl.wtf/de/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/de/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/de/2017-12-06-mdl-my-daily-life/</guid>
       <description>Seit einigen Jahrzehnten erlebt die Weltwirtschaft einen massiven Wandel von Landwirtschaft und Produktion zu Dienstleistungen und weiter zu einem kreativen Wirtschaftssektor, wie Richard Florida, Leiter des Martin Wohlstandsinstitutes in Kanada, festgestellt hat. Moderne Technologien stören die Wirtschaft derart, dass immer mehr Menschen arbeitslos bleiben und die früher als verrückt angesehene Idee des bedingungslosen Grundeinkommens in fortgeschrittenen Ländern bereits umgesetzt wird. Sehr bald wird unsere Gesellschaft mit der Dynamik konfrontiert sein, dass routinemäßige physische und sogar mentale menschliche Arbeit für den Fortschritt nicht mehr benötigt wird.</description>
     </item>
     
     <item>
       <title>MDL - My Daily Life</title>
-      <link>http://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</guid>
       <description>For the last several decades the world&amp;rsquo;s economy has been experiencing a massive shift from agriculture and production based to services and creative based, as noted by Richard Florida, the head of the Martin Prosperity Institute, Canada. Modern technologies disrupt the economy in such a way that more and more people will be left unemployed. The change is so momentous that ideas which were previously considered insane such as that of unconditional basic income are already being implemented in advanced countries.</description>
     </item>
     
     <item>
       <title>MDL - My Daily Life</title>
-      <link>http://mdl.wtf/es/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/es/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/es/2017-12-06-mdl-my-daily-life/</guid>
       <description>Durante las últimas décadas, la economía mundial ha experimentado un cambio masivo de la agricultura y la producción a los servicios y la creatividad, como lo señala Richard Florida, director del Martin Prosperity Institute de Canadá. Las tecnologías modernas revolucionan la economía de tal manera que cada vez más personas quedarán desempleadas. El cambio es tan trascendental que las ideas que anteriormente se consideraban una locura, como la del ingreso básico incondicional, ya se están implementando en los países avanzados.</description>
     </item>
     
     <item>
       <title>MDL - My Daily Life</title>
-      <link>http://mdl.wtf/ru/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/ru/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-06-mdl-my-daily-life/</guid>
       <description>За последние несколько десятилетий мировая экономика пережила массовый переход от сельского хозяйства и промышленного производства к услугам и далее к креативному сектору экономики, как отметил Ричард Флорида (Richard Florida), глава Института Мартина Просперити (Martin Prosperity Institute), Канада. Современные технологии нарушают экономику таким образом, что все больше и больше людей остаются безработными, а ранее воспринимаемая как безумие идея безусловного базового дохода уже внедряется в развитых странах. Очень скоро наше общество достигнет такого положения, когда рутинный физический и даже умственный человеческий труд больше не нужен.</description>
     </item>
     
     <item>
       <title>MDL - 나의 일상 생활(My Daily Life)</title>
-      <link>http://mdl.wtf/kr/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/kr/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/kr/2017-12-06-mdl-my-daily-life/</guid>
       <description>캐나다 마틴번영연구소(Martin Prosperity Institute)의 리처드 플로리다(Richard Florida) 소장도 주목한 바 있듯이, 지난 수십년간 세계 경제는 농업 및 생산 경제에서 서비스 경제, 나아가서는 창조 경제로 대대적인 이동을 경험하고 있습니다. 현대 기술은 점점 더 많은 사람들을 실업자로 전락시켜 경제가 어려워지고 있으며, 이전에는 미친 소리로 치부되었던 &amp;ldquo;조건없는 기본 소득&amp;rdquo;의 개념도 선진국에서는 이미 시행되고 있는 상황입니다. 머지 않아 우리 사회는 발전을 위해서 더 이상 사람의 일상적 정신 활동, 심지어는 육체 활동마저도 필요하지 않을 순간을 마주하게 될 것입니다.</description>
     </item>
     
     <item>
       <title>我的每一天 - My Daily Life（MDL艺人社）</title>
-      <link>http://mdl.wtf/zh/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/zh/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-06-mdl-my-daily-life/</guid>
       <description>几十年来，我们世界的经济经历了从农业生产到服务业再到创新经济的巨大转变，正如加拿大马丁繁荣研究所的主管Richard Florida所指出的那样。现代技术正在扰乱经济，让越来越多的人失业，而早期被视为疯狂的无条件基本收入的想法已经在部分发达国家实施。很快，我们的社会将面临冲击，也许日常体力劳动甚至脑力劳动都有可能不会再被需要了。问题来了——人们会怎么做呢？
 MDL艺人社有可能并没有办法去拯救世界，但定将成为一个能够将世界变得更敞亮的平台。此项目的一个基本特点是：它将创造就业机会，为每一位参与者的生活带来更多的意义。人们可以为自己的业余爱好和特长找到观众，并且赚一些零花钱，难道不是很好吗？MDL会使其中步骤变得更为容易！
 新世界的体系让现实的思维方式成为我们了的一部分，人们有意无意地放弃了自己的爱好并且也许正后悔着，现在强迫自己的孩子们学习艺术，希望新一代更具有艺术性。MDL艺人社的概念迟早会让这个世界发生一些小小的变化，我们欣喜的期望着，并且不断促进着。</description>
@@ -844,10 +854,10 @@ MDL艺人社有可能并没有办法去拯救世界，但定将成为一个能�
     
     <item>
       <title>我的每一天 - My Daily Life（MDL藝人社）</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-06-mdl-my-daily-life/</guid>
       <description>幾十年來，我們世界的經濟經歷了從農業生產到服務業再到創新經濟的巨大轉變，正如加拿大馬丁繁榮研究所的主管Richard Florida所指出的那樣。現代技術正在擾亂經濟，讓越來越多的人失業，而早期被視為瘋狂的無條件基本收入的想法已經在部分發達國家實施。很快，我們的社會將面臨沖擊，也許日常體力勞動甚至腦力勞動都有可能不會再被需要了。問題來了——人們會怎麼做呢？
 MDL藝人社有可能並沒有辦法去拯救世界，但定將成為一個能夠將世界變得更敞亮的平台。此項目的一個基本特點是：它將創造就業機會，為每一位參與者的生活帶來更多的意義。人們可以為自己的業余愛好和特長找到觀眾，並且賺一些零花錢，難道不是很好嗎？MDL會使其中步驟變得更為容易！
 新世界的體系讓現實的思維方式成為我們了的一部分，人們有意無意地放棄了自己的愛好並且也許正后悔著，現在強迫自己的孩子們學習藝術，希望新一代更具有藝術性。MDL藝人社的概念遲早會讓這個世界發生一些小小的變化，我們欣喜的期望著，並且不斷促進著。</description>
@@ -855,40 +865,40 @@ MDL藝人社有可能並沒有辦法去拯救世界，但定將成為一個能�
     
     <item>
       <title>Bagaimana MDL Mengamankan Reputasi</title>
-      <link>http://mdl.wtf/id/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/id/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/id/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>Untuk memudahkan kredibilitas reputasi, MDL Talent Hub akan menggunakan dua teknologi modern - blockchain dan PIDS. Mari kita jelaskan dengan cara sederhana bagaimana cara kerjanya.
 Persistent Immutable Data Storage (PIDS) adalah cara baru untuk menyimpan informasi. Teknologi ini memungkinkan penyimpanan data pada perangkat pengguna dari pada menggunakan server terpusat dan layak dilakukan. Saat ini ada dua protokol menjanjikan yang sedang dikembangkan dan sudah tersedia untuk penggunaan - IPFS dan CXO; keduanya berjanji secara substansial mengurangi biaya dan meningkatkan kecepatan transmisi.</description>
     </item>
     
     <item>
       <title>Cómo MDL asegura la reputación</title>
-      <link>http://mdl.wtf/es/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/es/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/es/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>Para facilitar la credibilidad de la reputación, MDL Talent Hub empleará dos tecnologías modernas: la cadena de bloque y los PIDS. Permítanos explicar de manera simple cómo funcionará.
 El almacenamiento permanente de datos inmutables (PIDS) es una nueva forma de mantener la información. La tecnología permite el almacenamiento de datos en dispositivos de usuarios en lugar de utilizar servidores centralizados que son vulnerables a los ataques. Hoy en día existen dos protocolos prometedores que se están desarrollando y ya están disponibles para su uso: IPFS y CXO; ambos prometen reducir sustancialmente los costos y aumentar la velocidad de transmisión.</description>
     </item>
     
     <item>
       <title>How MDL secures reputation</title>
-      <link>http://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>In order to facilitate the credibility of reputation MDL Talent Hub will employ two modern technologies – blockchain and PIDS. Let us explain in a simple manner how it will work.
 Persistent Immutable Data Storage (PIDS) is a new way to keep information. The technology allows storage of data on devices of users instead of using centralized servers which are vulnerable to attack. Nowadays there are two promising protocols being developed and already available for usage – IPFS and CXO; both promise to substantially reduce costs and increase the speed of transmission.</description>
     </item>
     
     <item>
       <title>MDL如何担保信誉&#34;</title>
-      <link>http://mdl.wtf/zh/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/zh/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>为了确保信誉的可信度，MDL人才枢纽系统将采用两种现代技术–区块链和PIDS。让我们简单地解释一下它将如何进行运作。
 Persistent Immutable Data Storage（PIDS）是一种新兴的信息保存方式。该技术允许数据在用户的设备上进行存储，而不是中心化的采用集中的方式攻击服务器。现在，已经有两个可信的的协议正在开发中，并且已经可以使用–IPFS和CXO；它们都有望大幅度降低成本并提高传输速度。上传文件后，它将接收一个hash-sum–一串文件的特定编码地址，任何人都可以使用它来访问该文件。
 区块链可以被称为是一种不断增长记录列表，区块链技术确保了这列表的不可改变性的，因为它是以分散和加密的方式存储的。高级加密的存储方式允许储存点化的信息，例如hash或URL地址。这一点带来的好处是，任何人都可以确信这个列表不曾被改动的，也可以确保它不能被随意篡改。这就是为什么此技术无法被黑客袭击的原因。
@@ -898,10 +908,10 @@ Persistent Immutable Data Storage（PIDS）是一种新兴的信息保存方式�
     
     <item>
       <title>MDL如何擔保信譽</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>為了確保信譽的可信度，MDL人才樞紐系統將採用兩種現代技術–區塊鏈和PIDS。讓我們簡單地解釋一下它將如何進行運作。
 Persistent Immutable Data Storage（PIDS）是一種新興的信息保存方式。該技術允許數據在用戶的設備上進行存儲，而不是中心化的採用集中的方式攻擊服務器。現在，已經有兩個可信的的協議正在開發中，並且已經可以使用–IPFS和CXO﹔它們都有望大幅度降低成本並提高傳輸速度。上傳文件后，它將接收一個hash-sum–一串文件的特定編碼地址，任何人都可以使用它來訪問該文件。
 區塊鏈可以被稱為是一種不斷增長記錄列表，區塊鏈技術確保了這列表的不可改變性的，因為它是以分散和加密的方式存儲的。高級加密的存儲方式允許儲存點化的信息，例如hash或URL地址。這一點帶來的好處是，任何人都可以確信這個列表不曾被改動的，也可以確保它不能被隨意篡改。這就是為什麼此技術無法被黑客襲擊的原因。
@@ -911,90 +921,90 @@ Persistent Immutable Data Storage（PIDS）是一種新興的信息保存方式�
     
     <item>
       <title>MDL의 평판 확보 방법</title>
-      <link>http://mdl.wtf/kr/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/kr/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/kr/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>평판의 신뢰성을 확보하기 위해 MDL 탤런트 허브(Talent Hub)는 두 가지 최신 기술을 채택하는데, 블록체인과 PIDS가 바로 그것입니다. 이 기술들이 어떻게 작동하는지 간단하게 설명드리겠습니다.
 PIDS(Persistent Immutable Data Storage 지속성 변형불가 데이터 저장)는 새로운 형태의 데이터 저장 방식입니다. 이 기술은 중앙집중식의, 공격에 취약한 서버를 사용하지 않고 각 사용자 장치에 데이터를 저장합니다. 최근, 그 미래가 아주 밝은 두 가지 새로운 프로토콜이 개발되고 있으며 이미 사용가능한 단계에 이르고 있는데, IPFS와 CXO가 바로 그것입니다. 이 두 가지 프로토콜은 전송 비용의 대폭적인 감소와 전송 속도의 상당한 향상을 동시에 보장합니다.</description>
     </item>
     
     <item>
       <title>Wie MDL die Reputation (Ruf) sichert</title>
-      <link>http://mdl.wtf/de/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/de/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/de/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>Um die Glaubwürdigkeit der Reputation zu erleichtern, wird MDL Talent Hub zwei moderne Technologien einsetzen - Blockchain und PIDS. Lassen Sie uns auf einfache Weise erklären, wie es funktionieren wird.
 Persistente unveränderliche Datenspeicherung (PIDS) ist eine neue Art, Informationen zu speichern. Die Technologie ermöglicht die Speicherung von Daten auf Geräten von Benutzern, anstelle von zentralisiert, anfällig für Angriffe auf Server. Heutzutage gibt es zwei vielversprechende Protokolle, die entwickelt und für den Gebrauch bereits verfügbar sind - IPFS und CXO; Beide versprechen wesentliche Kostenreduzierung und die Übertragungsgeschwindigkeit zu erhöhen.</description>
     </item>
     
     <item>
       <title>Как MDL гарантирует репутацию</title>
-      <link>http://mdl.wtf/ru/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/ru/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/ru/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>Чтобы способствовать объективной репутации участников на рынке талантов, MDL Talent Hub применит современные технологии - блокчейн и PIDS. Давайте объясним простыми словами, как это будет работать.
 Постоянное неизменяемое хранилище данных (PIDS - Persistent Immutable Data Storage) - новый способ хранения информации, в котором используются устройства пользователей вместо уязвимых для атак централизованных серверов. Разрабатываются и уже доступны для использования перспективные технологии - IPFS и CXO; обе обещают значительно снизить стоимость и увеличить скорость передачи.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub at SF2017 Seoul</title>
-      <link>http://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>Since South Korea is actively promoting the startup ecosystem and innovations to survive the fierce technological competition in Asia, the Korean government has initiated a program of annual startup festivals, and last week was the first successful trial. It was a gathering of entrepreneurs, tech media, and VCs all under one roof of the COEX complex in Seoul.
 MDL Talent Hub was kindly invited to participate in the event and was lucky enough to gain some excellent exposure since the problems the project is aiming to solve exist in Korea as well.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub at SF2017 Seoul</title>
-      <link>http://mdl.wtf/id/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/id/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/id/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>Since South Korea is actively promoting startup ecosystem and innovations to survive fierce technological competition in Asia, Korean government has initiated program of annual startup festivals and last week was the first successful trial of gathering entrepreneurs, tech media, and VCs under one roof of COEX complex in Seoul.
 MDL Talent Hub was kindly invited to participate in the event and was lucky enough to get an excellent exposure since the problems the project is aiming to solve exist in Korea as well.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub auf der SF2017 in Seoul</title>
-      <link>http://mdl.wtf/de/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/de/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/de/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>Da Südkorea aktiv das Startup-Ökosystem und Innovationen fördert um den heftigen technologischen Wettbewerb in Asien zu überleben, hat die koreanische Regierung ein Programm von jährlichen Startup-Festivals initiiert und letzte Woche war der erste erfolgreiche Versuch, Unternehmer, Tech-Medien und VCs unter einem Dach des COEX-Komplexes in Seoul zu versammeln.
 MDL Talent Hub wurde freundlicherweise zur Teilnahme an der Veranstaltung eingeladen und hatte das Glück, eine hervorragende Präsentation zu erhalten, da die Probleme, die das Projekt lösen soll, auch in Korea existieren.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub en SF2017 Seoul</title>
-      <link>http://mdl.wtf/es/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/es/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/es/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>Dado que Corea del Sur está promoviendo activamente el ecosistema de startups y las innovaciones para sobrevivir a la feroz competencia tecnológica en Asia, el gobierno coreano ha iniciado un programa de festivales de startups anuales, y la semana pasada fue la primera prueba exitosa. Fue una reunión de empresarios, medios tecnológicos y capitalistas de riesgo, todo bajo el mismo techo del complejo COEX en Seúl.
 MDL Talent Hub fue amablemente invitado a participar en el evento y tuvo la suerte de obtener una excelente exposición ya que los problemas que el proyecto intenta resolver también existen en Corea.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub на SF2017 в Сеуле</title>
-      <link>http://mdl.wtf/ru/2017-03-12-sf2017-seoul/</link>
+      <link>https://mdl.wtf/ru/2017-03-12-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-03-12-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/ru/2017-03-12-sf2017-seoul/</guid>
       <description>В связи с тем, что Южная Корея интенсивно развивает стартап-экосистему и инновации, чтобы выжить в жесткой технологической конкуренции Азии, корейское правительство инициировало программу ежегодных фестивалей стартапов. На прошлой неделе прошло первое успешное мероприятие по встрече предпринимателей, технических медиа и венчурных фондов под одной крышей в комплексе COEX в Сеуле.
 Коллектив проекта MDL Talent Hub был любезно приглашен участвовать в мероприятии и успешно представил отличную экспозицию, ведь проблемы, на решение которых нацелен проект, актуальны и в Корее.</description>
     </item>
     
     <item>
       <title>MDL艺人社在首尔SF2017</title>
-      <link>http://mdl.wtf/zh/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/zh/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/zh/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>由于韩国正在亚洲积极推动创业生态系统和创新，以让更多企业在激烈的技术竞争中生存下来，韩国政府启动了一年一度的创业节计划。上周，首次成功的企业家聚会成功举办。科技媒体，和风投专家同在COEX的屋檐下。
 MDL艺人社被热切地邀请参与活动，并很幸运地得到了一个抢眼的展位，获得了大量的曝光率。因为该项目的目的旨在解决一个在国际上普遍存在的问题，此现象在韩国也存在。这常盛会是一个扩大我们的业务网络，并获得较多有益的发展思路的绝佳机会。
 MDL团队热爱韩国，并计划在2019年进入韩国市场。</description>
@@ -1002,10 +1012,10 @@ MDL团队热爱韩国，并计划在2019年进入韩国市场。</description>
     
     <item>
       <title>MDL藝人社在首爾SF2017</title>
-      <link>http://mdl.wtf/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>由於韓國正在亞洲積極推動創業生態系統和創新，以讓更多企業在激烈的技術競爭中生存下來，韓國政府啟動了一年一度的創業節計劃。上周，首次成功的企業家聚會成功舉辦。科技媒體，和風投專家同在COEX的屋檐下。
 MDL藝人社被熱切地邀請參與活動，並很幸運地得到了一個搶眼的展位，獲得了大量的曝光率。因為該項目的目的旨在解決一個在國際上普遍存在的問題，此現象在韓國也存在。這常盛會是一個擴大我們的業務網絡，並獲得較多有益的發展思路的絕佳機會。
 MDL團隊熱愛韓國，並計劃在2019年進入韓國市場。</description>
@@ -1013,50 +1023,50 @@ MDL團隊熱愛韓國，並計劃在2019年進入韓國市場。</description>
     
     <item>
       <title>SF2017에 참가한 MDL 탤런트허브(Talent Hub)</title>
-      <link>http://mdl.wtf/kr/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/kr/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/kr/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>한국은 아시아의 치열한 기술 경쟁에서 이기기 위해 스타트업 생태계와 혁신을 적극 권장하고 있습니다. 그 일환으로 한국 정부는 매년 개최될 스타트업 페스티발 프로그램을 구상하였고, 드디어 지난 주, 서울 코엑스의 한 지붕 아래 기업가, 첨단기술 언론매체, 창업투자사 등이 함께 모이는 첫번째 시도를 성공적으로 치루어냈습니다.
 MDL 탤런트 허브(Talent Hub)는 이번 행사에 참가 초청을 받아 그 존재감을 훌륭하게 발휘할 수 있었습니다. MDL팀의 그런 활약이 가능했던 이유는 바로 MDL이 해결하고자 하는 문제점들이 한국에도 존재하고 있기 때문이었습니다.</description>
     </item>
     
     <item>
       <title>Die Webseite ist gestartet und MDL geht für die SF2017 nach Korea</title>
-      <link>http://mdl.wtf/de/2017-11-25-webpage-is-launched-and-mdl-goes-to-korea-for-sf2017/</link>
+      <link>https://mdl.wtf/de/2017-11-25-webpage-is-launched-and-mdl-goes-to-korea-for-sf2017/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-11-25-webpage-is-launched-and-mdl-goes-to-korea-for-sf2017/</guid>
+      <guid>https://mdl.wtf/de/2017-11-25-webpage-is-launched-and-mdl-goes-to-korea-for-sf2017/</guid>
       <description>Anfang Dezember wird das MDL Team am Startup Festival 2017 in Seoul, Südkorea teilnehmen. Die SF2017 wird zum ersten Mal von der koreanischen Regierung organisiert, um das Innovations-Ökosystem im Land zu unterstützen. Es werden rund 60 ausgewählte Startups aus Asien persönlich eingeladen, VCs und Medien aus aller Welt zu treffen. MDL ist auf der Liste!
 Es wird das erste große Ereignis für uns als Team sein und wir freuen uns darauf, unseren künftigen potenziellen Partnern sowie alten Freunden, die wir dort treffen werden, einen guten Eindruck zu vermitteln.</description>
     </item>
     
     <item>
       <title>Laman Web Diluncurkan dan MDL Pergi ke Korea Untuk SF2017.</title>
-      <link>http://mdl.wtf/id/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/id/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/id/2017-11-25-webpage-is-launched-korea/</guid>
       <description>Pada awal bulan Desember, Tim MDL akan mengikuti Festival Startup 2017 di Seoul, Korea Selatan. SF2017 diselenggarakan untuk pertama kalinya oleh pemerintah Korea untuk memfasilitasi ekosistem inovasi di negara ini. Ada sekitar 60 startup terpilih dari Asia yang diundang secara pribadi untuk bertemu VC dan media dari seluruh dunia. MDL masuk dalam daftar!
 Ini akan menjadi ajang besar pertama bagi kami sebagai tim dan kami berharap dapat memberikan kesan yang bagus kepada calon mitra masa depan dan juga teman lama yang akan kami temui di sana.</description>
     </item>
     
     <item>
       <title>Lanzamiento de la página web y MDL va a Corea para el SF2017.</title>
-      <link>http://mdl.wtf/es/2017-11-25--webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/es/2017-11-25--webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-11-25--webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/es/2017-11-25--webpage-is-launched-korea/</guid>
       <description>A principios de diciembre, el equipo de MDL se unirá al Startup Festival 2017 en Seúl, Corea del Sur. SF2017 es organizado por primera vez por el gobierno coreano para facilitar un ecosistema innovador en el país. Habrá alrededor de 60 startups elegidas de Asia que han sido invitadas personalmente a conocer capital de riesgo y medios de todo el mundo. ¡MDL está en la lista!
 Será el primer gran evento para nosotros como equipo y esperamos dar una buena impresión a nuestros socios potenciales, así como a los viejos amigos que nos encontraremos allí.</description>
     </item>
     
     <item>
       <title>MDL如何擔保信譽</title>
-      <link>http://mdl.wtf/zh-hant/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/zh-hant/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-11-25-webpage-is-launched-korea/</guid>
       <description>在12月初，MDL團隊將在韓國首爾參加2017創業節。SF2017是韓國政府為促進國家創新生態系統而首次組織的。來自亞洲的約60家創業公司將親自受邀與來自世界各地的風投和媒體見面。MDL就在其列表中！
 這將是我們作為一個團隊的第一件大事，我們期待著能夠帶給我們未來的潛在合作伙伴以及我們將在那裡見到的老朋友們留下美好的印象。
 此外，我們很高興地宣布，我們的網頁mdl.life現在已經啟動，請讓我們用這個精彩的視頻來解釋我們將會用這個平台來達成的目標是什麼。
@@ -1066,10 +1076,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>MDL带着漂亮的页面去韩国参加SF2017啦</title>
-      <link>http://mdl.wtf/zh/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/zh/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/zh/2017-11-25-webpage-is-launched-korea/</guid>
       <description>在12月初，MDL团队将在韩国首尔参加2017创业节。SF2017是韩国政府为促进国家创新生态系统而首次组织的。来自亚洲的约60家创业公司将亲自受邀与来自世界各地的风投和媒体见面。MDL就在其列表中！
 这将是我们作为一个团队的第一件大事，我们期待着能够带给我们未来的潜在合作伙伴以及我们将在那里见到的老朋友们留下美好的印象。
 此外，我们很高兴地宣布，我们的网页mdl.life现在已经启动，请让我们用这个精彩的视频来解释我们将会用这个平台来达成的目标是什么。
@@ -1079,40 +1089,40 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>SF2017 참가 위해 한국 방문하는 MDL팀! 그리고 MDL 홈페이지 오픈!</title>
-      <link>http://mdl.wtf/kr/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/kr/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/kr/2017-11-25-webpage-is-launched-korea/</guid>
       <description>2017년 12월 초, 대한민국 서울에서 개최되는 &amp;lsquo;스타트업 페스티발 2017&amp;rsquo;(Startup Festival 2017)(이하 SF2017)에 참석하기 위해 MDL팀이 한국을 방문합니다. 한국 정부는 한국내 혁신 생태계 활성화를 위해 처음으로 SF2017를 개최합니다. 이번 행사에는 아시아에서 엄선된 약 60개 스타트업이 참가하며, 각각 개별 초청되어 창투사 및 전세계 언론 매체를 만날 기회를 가지게 됩니다. MDL이 당당히 그 초청목록에 포함되었습니다!
 이번 행사는 MDL팀으로서도 처음 맞이하는 대규모 행사이며, 한국에서 만나게 될 오랜 친구들은 물론 미래의 잠재 파트너들에게도 좋은 인상을 남길 수 있기를 고대하고 있습니다.</description>
     </item>
     
     <item>
       <title>Webpage is launched and MDL goes to Korea for SF2017.</title>
-      <link>http://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</guid>
       <description>In the very beginning of December, the MDL Team will join Startup Festival 2017 in Seoul, South Korea. SF2017 is organized for the first time by the Korean government in order to facilitate an innovative ecosystem in the country. There will be around 60 chosen startups from Asia who have been personally invited to meet VCs and media from all around the world. MDL is on the list!
 It will be the first big event for us as a team and we are looking forward to giving a nice impression to our potential partners as well as old friends that we will meet there.</description>
     </item>
     
     <item>
       <title>Сайт запущен, а MDL отправляется в Корею на SF2017</title>
-      <link>http://mdl.wtf/ru/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/ru/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/ru/2017-11-25-webpage-is-launched-korea/</guid>
       <description>В начале декабря команда MDL присоединится к Startup Festival 2017 в Сеуле, Южная Корея. SF2017 впервые организован корейским правительством для содействия развитию инновационной экосистемы в стране. Участвуют десятки стартапов из Азии, персонально приглашенных для встречи с венчурными инвесторами и международными СМИ. MDL состоит в списке!
 Это первое крупное событие для нас как команды, и мы с нетерпением ждем момента, чтобы произвести приятное впечатление на потенциальных партнеров и старых друзей, которых непременно там встретим.</description>
     </item>
     
     <item>
       <title>Dari Mana Uang Itu Berasal?</title>
-      <link>http://mdl.wtf/id/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/id/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/id/2017-11-14-where-do-the-money-come-from/</guid>
       <description>Agar arus keuangan kita tetap positif, kita mempertimbangkan metode penciptaan pendapatan berikut. Aliran inovatif dimungkinkan karena penggunaan teknologi blockchain.
 Aliran Tradisional
 1.Fungsi yang diperluas
@@ -1123,10 +1133,10 @@ Ini adalah fitur dasar dari setiap pasar dan tujuan kami adalah menjadikannya pa
     
     <item>
       <title>Where will the money come from?</title>
-      <link>http://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</guid>
       <description>In order to keep our financial flows positive we are considering the following methods of revenue creation. Innovative streams are enabled by the use of blockchain technology.
 Traditional Streams
 1.Extended functionality
@@ -1136,10 +1146,10 @@ Paid features will provide extended functionality for users of our platform. Ext
     
     <item>
       <title>Woher kommt das Geld?</title>
-      <link>http://mdl.wtf/de/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/de/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/de/2017-11-14-where-do-the-money-come-from/</guid>
       <description>Um unsere finanziellen Ströme positiv zu halten, prüfen wir die folgenden Methoden der Umsatzschaffung. Dank der Blockchain-Technologie werden innovative Ströme freigesetzt.
 Traditionelle Ströme
  Erweiterte Funktionalität  Wir geben unseren VIP-Teilnehmern die Chance, herausragend zu sein. Die erweiterte Funktionalität ermöglicht es den Buchern sachkundiger zu sein, und den Talenten besser präsentabel zu sein und das macht beide auf dem Markt aktiver.
@@ -1148,10 +1158,10 @@ Traditionelle Ströme
     
     <item>
       <title>¿De dónde saldrá el dinero?</title>
-      <link>http://mdl.wtf/es/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/es/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/es/2017-11-14-where-do-the-money-come-from/</guid>
       <description>Para mantener nuestros flujos financieros positivos, estamos considerando los siguientes métodos de creación de ingresos. Las transmisiones innovadoras se habilitan mediante el uso de tecnología de cadena de bloques.
 Fuentes tradicionales
 1.Funcionalidad extendida
@@ -1160,10 +1170,10 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>Откуда приходят деньги?</title>
-      <link>http://mdl.wtf/ru/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/ru/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/ru/2017-11-14-where-do-the-money-come-from/</guid>
       <description>Для достижения положительного платежного баланса проект будет получать доходы несколькими способами. Помимо традиционных источников доходов (комиссии, реклама и пр.), технология блокчейн открывает новые, инновационные источники прибыли.
 Традиционные источники доходов
  Расширенная функциональность  Мы поможем нашим VIP-клиентам выделиться с помощью инструментов платформы. Расширенная функциональность позволит букерам быть осведомленнее, а талантам - шире заявить о себе, что поможет и тем, и другим повысить активность на рынке. Как следствие - и успешность.</description>
@@ -1171,10 +1181,10 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>錢從哪裡來?</title>
-      <link>http://mdl.wtf/zh-hant/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/zh-hant/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-11-14-where-do-the-money-come-from/</guid>
       <description>為了保証我們的資金流向正面，我們正在考慮以下創收方式。由於區塊鏈技術的被啟用，一種創新的經濟系統已經啟用。
 傳統體系
 1.擴展功能
@@ -1189,10 +1199,10 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>钱从哪里来?</title>
-      <link>http://mdl.wtf/zh/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/zh/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/zh/2017-11-14-where-do-the-money-come-from/</guid>
       <description>为了保证我们的资金流向正面，我们正在考虑以下创收方式。由于区块链技术的被启用，一种创新的经济系统已经启用。
 传统体系
 1.扩展功能
@@ -1207,10 +1217,10 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>돈은 어디서 나오나요?</title>
-      <link>http://mdl.wtf/kr/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/kr/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/kr/2017-11-14-where-do-the-money-come-from/</guid>
       <description>재정 흐름을 긍정적으로 유지하기 위해 다음과 같은 수익 창출 방법을 고려하고 있습니다. 혁신적인 스트림은 블록체인 기술로 인해 가능하게 됩니다.
 전통적인 스트림
 1.기능 확장
@@ -1221,60 +1231,60 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>What are we gonna do?</title>
-      <link>http://mdl.wtf/en/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/en/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/en/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;lsquo;If I had an hour to solve a problem I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rsquo; - Albert Einstein
  That especially applies to constantly evolving talent market that requires nonstop monitoring and analysis in order to be aware of constantly evolving issues. In addition, because solutions are not easy to develop, certain complications simply remain ignored. Thus not only identifying existing issues, but also foreseeing upcoming ones and taking preventive measures is necessary to allow one to be on the top of things.</description>
     </item>
     
     <item>
       <title>What we gonna do?</title>
-      <link>http://mdl.wtf/de/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/de/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/de/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;ldquo;Wenn ich eine Stunde hätte, um ein Problem zu lösen, würde ich 55 Minuten über das Problem nachdenken und 5 Minuten über Lösungen.&amp;rdquo; - Albert Einstein
  Das trifft kaum auf den sich ständig entwickelnden Talentmarkt zu, der eine stetige Überwachung und Analyse erfordert, um sich der ständig auftauchenden Probleme bewusst zu werden. Darüber hinaus kommen Lösungen nicht sofort, so dass bestimmte Komplikationen einfach ignoriert bleiben. Daher wird nicht nur wichtig sein, bestehende Probleme zu kennen, sondern auch vorausschauend kommende zu erkennen und vorbeugende Maßnahmen zu ergreifen, damit man ganz vorne mit dabei sein kann.</description>
     </item>
     
     <item>
       <title>What we gonna do?</title>
-      <link>http://mdl.wtf/id/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/id/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/id/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;lsquo;Jika saya punya waktu satu jam untuk memecahkan masalah, saya akan menghabiskan 55 menit untuk memikirkan masalah ini dan 5 menit memikirkan solusi.&amp;rsquo; - Albert Einstein
  Itu hampir tidak berlaku untuk pasar bakat yang terus berkembang yang memerlukan pemantauan dan analisis tanpa henti untuk mengetahui masalah yang terus-menerus bermunculan. Selain itu, solusi tidak segera datang sehingga komplikasi tertentu tetap diabaikan begitu saja. Dengan demikian tidak hanya identifikasi isu-isu yang ada, tapi juga untuk memperkirakan yang akan datang dan akibatnya penerapan tindakan pencegahan akan memungkinkan seseorang untuk berada di atas segalanya.</description>
     </item>
     
     <item>
       <title>¿Qué haremos?</title>
-      <link>http://mdl.wtf/es/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/es/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/es/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;ldquo;Si tuviera una hora para resolver un problema, gastaría 55 minutos pensando el problema y 5 minutos pensando en las soluciones&amp;rdquo;. - Albert Einstein
  Esto se aplica especialmente al mercado de talentos en constante evolución que requiere un monitoreo y análisis ininterrumpidos para estar al tanto de los problemas en constante evolución. Además, como las soluciones no son fáciles de desarrollar, ciertas complicaciones simplemente se ignoran. Por lo tanto, no solo es necesario identificar los problemas existentes, sino también prever los próximos y tomar medidas preventivas para permitirle a uno estar a la vanguardia.</description>
     </item>
     
     <item>
       <title>Что мы будем делать?</title>
-      <link>http://mdl.wtf/ru/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/ru/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/ru/2017-10-30-what-we-gonna-do/</guid>
       <description>«Если бы мне дали час на решение задачи, я бы 55 минут думал о задаче и пять минут – о решении». - Альберт Энштейн
 Этот метод едва ли подходит динамично развивающемуся рынку талантов, где требуются непрерывный мониторинг и аналитика, для того, чтобы быть в курсе возникающих вопросов. Решения не приходят сразу, и некоторые проблемы фактически остаются без внимания. Таким образом, не только выявление существующих, но и предвидение будущих проблем и последующее осуществление превентивных мер позволит контролировать ситуацию.</description>
     </item>
     
     <item>
       <title>我们在做什么呢？</title>
-      <link>http://mdl.wtf/zh/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/zh/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/zh/2017-10-30-what-we-gonna-do/</guid>
       <description>如果我有一个小时来解决一个问题，我会花55分钟思考这个问题，5分钟考虑解决方案。-阿尔伯特·爱因斯坦
 虽然这是爱因斯坦的话，但是这几乎不适用于不断变化的人才市场。因为人才市场需要不断地监控和分析，以了解不断出现的问题。此外，问题的解决方案并不会立即出现，以致某些并发症仍然被忽略。那这样如果可以设计一个系统，使之不仅识别存在的问题，也预见到即将到来的问题，并且提供随之而来的预防措施，如果可以管理得当，那这样的系统定会是顶尖的吧。
 我们的团队深刻了解人才市场的业务流程，以及拥有能够充分利用当代技术解决方案的能力，这使我们的团队有能力成为业界的游戏改变者。我们的工具将会有助于解决现有问题，让市场参与者能够有更好的体验。 具体来说，我们将会实施以下工作：
@@ -1283,10 +1293,10 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>我們在做什麼呢？</title>
-      <link>http://mdl.wtf/zh-hant/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/zh-hant/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-10-30-what-we-gonna-do/</guid>
       <description>如果我有一個小時來解決一個問題，我會花55分鐘思考這個問題，5分鐘考慮解決方案。-阿爾伯特·愛因斯坦
 雖然這是愛因斯坦的話，但是這幾乎不適用於不斷變化的人才市場。因為人才市場需要不斷地監控和分析，以了解不斷出現的問題。此外，問題的解決方案並不會立即出現，以致某些並發症仍然被忽略。那這樣如果可以設計一個系統，使之不僅識別存在的問題，也預見到即將到來的問題，並且提供隨之而來的預防措施，如果可以管理得當，那這樣的系統定會是頂尖的吧。
 我們的團隊深刻了解人才市場的業務流程，以及擁有能夠充分利用當代技術解決方案的能力，這使我們的團隊有能力成為業界的游戲改變者。我們的工具將會有助於解決現有問題，讓市場參與者能夠有更好的體驗。 具體來說，我們將會實施以下工作：
@@ -1295,50 +1305,50 @@ Las funciones de pago proporcionarán funcionalidad extendida para los usuarios 
     
     <item>
       <title>우리가 할 일은?</title>
-      <link>http://mdl.wtf/kr/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/kr/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/kr/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;lsquo;나에게 문제를 해결할 시간이 1시간 주어진다면 그 문제에 대해 55분, 해답을 생각하는 것에 5분을 쓸 것입니다.&amp;rsquo; - 알버트 아인슈타인
 이러한 아인슈타인의 말은 끊임없이 진화하는 탤런트 시장에서는 거의 적용되지 않습니다. 탤런트 시장은 지속적으로 나타나는 문제점을 알리는 논스톱 모니터링 및 분석이 필요합니다. 게다가 문제에 대한 해결책은 즉각적으로 나오지 않으므로 이에 따른 더 복잡한 문제들이 생기고 방치되고 있습니다. 따라서 기존의 문제를 확인할 뿐 아니라 앞으로 발생할 문제를 미리 예측하고 이에 대한 예방 조치를 시행하여 상황을 잘 파악할 수 있습니다.</description>
     </item>
     
     <item>
       <title>El equipo de MDL en Slush</title>
-      <link>http://mdl.wtf/es/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/es/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/es/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>La primera aparición pública de MDL fue el 12 de octubre de 2017 en la Slush Conference. Presentamos nuestra visión e ideas a varios inversores de capital de riesgo con experiencia y hombres de negocios de alta tecnología, y no solo obtuvimos comentarios positivos y aliento, sino que también recibimos algunos consejos valiosos.
 Las ideas excelentes no pueden florecer en un ecosistema cerrado, por lo que compartir el pensamiento y el conocimiento es absolutamente importante para la supervivencia y el desarrollo en el mundo moderno.</description>
     </item>
     
     <item>
       <title>MDL team at Slush</title>
-      <link>http://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>The first public appearance of MDL was on the 12th of October 2017 at Slush Conference. We presented our vision and ideas to several experienced VC investors and high-tech businessmen and not only got positive feedback and encouragement, but also received some valuable advice.
 Excellent ideas cannot flourish in a closed off ecosystem, so sharing thinking and knowledge is absolutely important for survival and development in the modern world. It is said that social capital is much more important than any physical asset, so we were very happy to grow up our network by acquiring new valuable connections as well as strengthen our ties with old friends.</description>
     </item>
     
     <item>
       <title>MDL-Team bei Slush</title>
-      <link>http://mdl.wtf/de/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/de/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/de/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>Der erste öffentliche Auftritt von MDL fand am 12. Oktober 2017 auf der Slush Conference statt. Wir haben unsere Vision und Ideen mehreren erfahrenen VC-Investoren und High-Tech-Unternehmern vorgestellt und nicht nur positives Feedback und Ermutigung erhalten, sondern auch wertvolle Ratschläge.
 Ausgezeichnete Ideen können nicht in einem geschlossenen Ökosystem auftauchen, daher ist Teilen von Denken und Wissen für das Überleben und die Entwicklung in der modernen Welt absolut wichtig. Es wird gesagt, dass soziales Kapital viel wichtiger ist als irgendein materieller Vermögenswert.</description>
     </item>
     
     <item>
       <title>MDL团队在Slush</title>
-      <link>http://mdl.wtf/zh/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/zh/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/zh/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>在2017年10月12日的Slush会议上，MDL团队首次公开露面。 我们已经向几位经验丰富的风投投资者和高科技产业商人展示了我们的愿景和想法，不仅获得了积极的反馈和鼓励，并且获得了一些宝贵的意见。
 优秀的想法不能出现在含蓄的生态系统中，所以分享思想和知识对于现代世界的生存和发展是绝对重要的。 据说社会资本要比其他任何实物资产更重要得多，所以我们很高兴能够建立更多有价值的关系，也要加强与老朋友的联系来扩大我们的关系网络。
 MDL团队对Slush集团表示最诚挚的感谢，感谢这次启发性活动的顺利组织举行，并且绝对希望能够再次看到大家。</description>
@@ -1346,10 +1356,10 @@ MDL团队对Slush集团表示最诚挚的感谢，感谢这次启发性活动的
     
     <item>
       <title>MDL團隊在Slush</title>
-      <link>http://mdl.wtf/zh-hant/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/zh-hant/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>在2017年10月12日的Slush會議上，MDL團隊首次公開露面。 我們已經向幾位經驗豐富的風投投資者和高科技產業商人展示了我們的願景和想法，不僅獲得了積極的反饋和鼓勵，並且獲得了一些寶貴的意見。
 優秀的想法不能出現在含蓄的生態系統中，所以分享思想和知識對於現代世界的生存和發展是絕對重要的。 據說社會資本要比其他任何實物資產更重要得多，所以我們很高興能夠建立更多有價值的關系，也要加強與老朋友的聯系來擴大我們的關系網絡。
 MDL團隊對Slush集團表示最誠摯的感謝，感謝這次啟發性活動的順利組織舉行，並且絕對希望能夠再次看到大家。</description>
@@ -1357,77 +1367,77 @@ MDL團隊對Slush集團表示最誠摯的感謝，感謝這次啟發性活動的
     
     <item>
       <title>Slush 에서의 MDL team</title>
-      <link>http://mdl.wtf/kr/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/kr/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/kr/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>MDL의 첫 공개는 2017년 10월 12일 Slush Conference에서 있었습니다. 우리는 경험 많은 벤처 투자자들과 하이테크 사업가에게 우리의 비전과 아이디어를 제시했으며 긍정적인 피드백과 격려뿐 아니라 소중한 조언을 받았습니다.
 훌륭한 아이디어는 보존된 생태계에는 나타나지 않으므로 현대사회에서 생존과 발전을 위해서는 생각과 지식을 공유하는 것이 절대적으로 중요합니다. 사회적 자본은 그 어떤 물리적 자산보다 훨씬 중요하다고 합니다. 그래서 우리는 오랜 친구와의 유대 관계를 강화할 뿐만 아니라 새로운 관계를 맺음으로써 네트워크를 확장할 수 있어서 매우 행복했습니다.</description>
     </item>
     
     <item>
       <title>Tim MDL di Slush</title>
-      <link>http://mdl.wtf/id/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/id/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/id/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>Tampilan publik pertama MDL adalah pada tanggal 12 Oktober 2017 di Konferensi Slush. Kami telah menyampaikan visi dan gagasan kami kepada beberapa investor VC berpengalaman dan pengusaha teknologi tinggi dan tidak hanya mendapat umpan balik dan dorongan positif namun juga mendapat beberapa saran berharga.
 Ide bagus tidak dapat muncul dalam ekosistem yang dilindungi, jadi berbagi pemikiran dan pengetahuan sangat penting untuk kelangsungan hidup dan perkembangan di dunia modern. Dikatakan bahwa modal sosial jauh lebih penting daripada aset fisik apapun, jadi kami sangat senang bisa mengembangkan jaringan kami dengan memperoleh koneksi baru yang berharga serta memperkuat hubungan kami dengan teman lama.</description>
     </item>
     
     <item>
       <title>Команда MDL на Slush</title>
-      <link>http://mdl.wtf/ru/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/ru/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/ru/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>Первое публичное появление MDL произошло 12 октября 2017 на конференции Slush. Здесь, представив наше видение и идеи опытным венчурным инвесторам и бизнесменам из сферы высоких технологий, мы получили не только положительные отзывы и поддержку, но, вдобавок, несколько ценных советов.
 Блестящие идеи не могут появиться в замкнутой экосистеме, поэтому обмен знаниями и опытом просто необходим для выживания и развития в современном мире. Говорят, что социальный капитал намного важнее любых материальных ценностей, поэтому мы были очень рады расширить наше сообщество, как через обретение новых значимых контактов, так и через укрепление связей со старыми друзьями.</description>
     </item>
     
     <item>
       <title>Creación de MDL (video)</title>
-      <link>http://mdl.wtf/es/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/es/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/es/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  Se dice que algunos eventos tienen menos probabilidades de suceder y algunos más. Parece que el evento que tuvo lugar el 8 de octubre tuvo muchas posibilidades de ocurrir. Todas las piezas del rompecabezas se juntaron en un solo lugar. Fue un pequeño paso adelante hacia una gran empresa que va a afectar a nuestra sociedad, y aún más, las vidas de sus partes directamente interesadas.</description>
     </item>
     
     <item>
       <title>Lahirnya MDL (video)</title>
-      <link>http://mdl.wtf/id/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/id/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/id/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  Dikatakan bahwa beberapa kejadian memiliki sedikit kemungkinan untuk terjadi dan beberapa lainnya. Sepertinya acara yang berlangsung pada 8 Oktober ini memiliki peluang bagus untuk tampil. Semua potongan puzzle dikumpulkan di satu tempat. Ini adalah langkah awal inisiasi menuju usaha besar yang akan mempengaruhi masyarakat kita dan bahkan lebih banyak lagi kehidupan para pemangku kepentingan langsung yang merupakan tiga &amp;hellip;
 Tiga teman dari bekas ibu kota Rusia Saint-Petersburg tinggal di Shanghai dan bekerja di berbagai industri - IT, perdagangan internasional, dan produksi TVC.</description>
     </item>
     
     <item>
       <title>MDL Einführung  (Video)</title>
-      <link>http://mdl.wtf/de/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/de/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/de/2017-10-10-mdl-inception/</guid>
       <description>Es wird gesagt, dass einige Ereignisse weniger wahrscheinlich sind und noch einiges mehr. Es sieht so aus, als ob die Veranstaltung, die am 8. Oktober stattfand, ziemlich gute Chancen hatte, stattzufinden. Alle Puzzleteile wurden an einem Ort gesammelt. Es war ein winziger Schritt der Einleitung in Richtung eines großen Wagnisses, das unsere Gesellschaft und noch viel mehr das Leben seiner direkten Unternehmer beeinflussen wird. Es waren drei an der Zahl &amp;hellip;</description>
     </item>
     
     <item>
       <title>MDL inception (video)</title>
-      <link>http://mdl.wtf/en/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/en/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/en/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  It is said that some events have less probability to happen and some more. It looks like the event that took place on the 8th of October had pretty good chances to occur. All the puzzle pieces were collected in one place. It was a tiny step forward towards a great venture that is going to affect our society, and even more, the lives of its direct stakeholders.</description>
     </item>
     
     <item>
       <title>MDL 成立 (視頻)</title>
-      <link>http://mdl.wtf/zh-hant/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/zh-hant/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  據說有些事件發生的可能是性很小，就像10月8日發生的事件。這一天，所有的拼圖都被整合在了那裡。這是開始一個偉大事業的微小一步。這一步將影響我們的社會，甚至更多的直接利益相關者。
 在不同領域出類拔萃的三位來自俄羅斯首都聖彼得堡的朋友，分別在IT，國際貿易和TVC生產行業進行發展。 除了國籍之外，他們唯一的共同之處在於他們身上的一種閃閃發光的精神。 這便是足夠展開事業的熱忱&amp;hellip;
 但是廢話少說！
@@ -1443,10 +1453,10 @@ MDL 是我們的名字。
     
     <item>
       <title>MDL 成立 (视频)</title>
-      <link>http://mdl.wtf/zh/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/zh/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/zh/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  据说有些事件发生的可能是性很小，就像10月8日发生的事件。这一天，所有的拼图都被整合在了那里。这是开始一个伟大事业的微小一步。这一步将影响我们的社会，甚至更多的直接利益相关者。
 在不同领域出类拔萃的三位来自俄罗斯首都圣彼得堡的朋友，分别在IT，国际贸易和TVC生产行业进行发展。 除了国籍之外，他们唯一的共同之处在于他们身上的一种闪闪发光的精神。 这便是足够展开事业的热忱&amp;hellip;
 但是废话少说！
@@ -1462,20 +1472,20 @@ MDL 是我们的名字。
     
     <item>
       <title>MDL 인셉션 (비디오)</title>
-      <link>http://mdl.wtf/kr/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/kr/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/kr/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  어떤 사건들은 일어날 확률이 적고 또 어떤 사건들은 더 많이 발생한다고 합니다. 10 월 8 일에 있었던 사건은 꽤 좋은 기회였던 것처럼 보입니다. 모든 퍼즐 조각들이 한 곳에서 모였습니다. 그것은 우리 사회에 영향을 끼칠 수 있는 커다란 모험을 향한 작은 시작 단계에 불과했지만 우리 3명의 삶에 직접적인 영향을 끼칠 정도로 큰일이었습니다.
 IT, 국제무역, TV CF제작 등 다양한 산업분야에서 활약하고 있는, 러시아의 옛 수도 상트페테르부르크에서 온 세 남자들.</description>
     </item>
     
     <item>
       <title>MDLの開始（ビデオ）</title>
-      <link>http://mdl.wtf/ja/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/ja/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ja/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/ja/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  時に物事が生まれる確率はとても低いと言われる。10月8日に開始されたこのプロジェクトはとても良い機会に恵まれた。全てのパズルのピースは一つの場所に集められた。いつか世の中に影響を与えるであろう、素晴らしい冒険に向けた小さな一歩であり、3人のステークホルダーの人生そのものである。
 ロシア、サンクトペテルブルグ出身の上海に住む3人 – IT、国際貿易、TVC（テレビコマーシャル）業界に従事 - 国籍以外の共通点は事業に対する迸る魂だった。それは事業を開始するためには十分であった…
 近い将来、様々な産業にて溢れかえるように使われるであろうブロックチェーン技術と結びつけるアイデアは価値を加え、我々は外国人モデル/アーティストに関わるイベントや制作業界にて第一人者となると決意した。IT及びブロックチェーンの専門家、マーケットに対する理解と経験、法や税に関するノウハウを組み合わせることは優位性のある競争力やマーケットの大部分をつかむ機会を与えると我々は考えている。
@@ -1489,68 +1499,68 @@ MDLと名付け、 プロジェクトをスタートした。</description>
     
     <item>
       <title>Начало MDL (видео)</title>
-      <link>http://mdl.wtf/ru/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/ru/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/ru/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  Говорят, что у некоторых событий вероятность произойти больше, а у некоторых – меньше. Однако, произошедшее 8 октября 2017 не было случайностью – элементы этого пазла рано или поздно собрались бы вместе. Именно в этот день состоялся первый маленький шаг вперед для большого начинания, цель которого – изменить к лучшему мир.
 Три друга из города Санкт-Петербурга, проживающие в Шанхае и работающие в разных сферах – компьютерные технологии, международная торговля и производство ТВ- рекламы – объединили свои усилия в рамках амбициозного проекта .</description>
     </item>
     
     <item>
       <title>Lo principal</title>
-      <link>http://mdl.wtf/es/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/es/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/es/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/es/2017-10-08-the-thing-is/</guid>
       <description>La mayoría de los países asiáticos, incluidos China e Indonesia, ya en los últimos años han transformado con entusiasmo sus economías de las impulsadas por las exportaciones a las impulsadas por el consumo. En consecuencia, se espera que la industria publicitaria siga mostrando un crecimiento de dos dígitos. Teniendo en cuenta los patrones colectivistas de las culturas asiáticas, podemos observar la participación abrumadora de talentos en todas las actividades de marketing.</description>
     </item>
     
     <item>
       <title>Permasalahannya adalah</title>
-      <link>http://mdl.wtf/id/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/id/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/id/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/id/2017-10-08-the-thing-is/</guid>
       <description>Karena mayoritas negara Asia, termasuk China dan Indonesia, sudah beberapa tahun dengan antusias mentransformasikan ekonomi mereka dari industri berbasis konsumsi ekspor, industri periklanan terus menunjukkan pertumbuhan dua digit. Dengan mempertimbangkan pola kolektif dalam budaya Asia, kita dapat mengamati keterlibatan talenta yang luar biasa dalam semua aktivitas pemasaran. Tidak peduli apakah itu online, layar, atau promosi di tempat, bakat selalu menjadi bagian penting dari itu.
 Jadi, misalnya, Cina mengalami arus masuk besar bakat asing dari semua jenis - model dan aktor, penyanyi dan penari, sirkus dan pemain taman hiburan, dan semuanya dianggap premium di sini hanya karena kewarganegaraan mereka.</description>
     </item>
     
     <item>
       <title>The thing is</title>
-      <link>http://mdl.wtf/en/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/en/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/en/2017-10-08-the-thing-is/</guid>
       <description>The majority of Asian countries, including China and Indonesia, have already for the past several years been enthusiastically transforming their economies from export-driven to consumption-driven. Accordingly, the advertisement industry is expected to continue to show double digit growth. Taking into consideration collectivistic patterns of Asian cultures we can observe overwhelming involvement of talents in all marketing activities. No matter whether it is online, onscreen, or onsite promotion, talents are always a key element of advertising and promotional activities.</description>
     </item>
     
     <item>
       <title>Zur Sache …</title>
-      <link>http://mdl.wtf/de/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/de/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/de/2017-10-08-the-thing-is/</guid>
       <description>Da die Mehrheit der asiatischen Länder, darunter China und Indonesien, bereits seit mehreren Jahren ihre Volkswirtschaften mit Begeisterung von der Export- zur Konsumorientierung transformieren, wächst die Werbeindustrie jährlich weiterhin zweistellig. Unter Berücksichtigung kollektivistischer Muster asiatischer Kulturen können wir eine überwältigende Beteiligung von Talenten bei allen Marketingaktivitäten beobachten. Egal ob online, auf dem Bildschirm oder vor Ort, Talent ist immer der Schlüssel dazu.
 So erlebt beispielsweise China einen massiven Zustrom von ausländischen Talenten aller Art - Models und Schauspieler, Sänger und Tänzer, Zirkus- und Themenparkdarsteller, und alle von ihnen werden hier nur wegen ihrer Nationalität als „Premium“ angesehen.</description>
     </item>
     
     <item>
       <title>Доколе?</title>
-      <link>http://mdl.wtf/ru/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/ru/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ru/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/ru/2017-10-08-the-thing-is/</guid>
       <description>Большинство стран Азии, включая Китай и Индонезию, уже несколько лет с энтузиазмом трансформирует свою экономику с экспорта на внутреннее потребление. В связи с этим, индустрия рекламы продолжает демонстрировать двузначные темпы роста. Принимая во внимание коллективизм как особенность многих азиатских культур, легко объяснить всестороннее вовлечение артистов в любую маркетинговую деятельность. Не важно, идет ли речь об онлайн-продвижении, телерекламе или о промо-мероприятиях – таланты всегда являются ключевым элементом.
 Например в Китай, со всего света приезжают талантливые представители шоу-бизнеса – модели, актеры, певцы, танцоры, цирковые артисты и другие.</description>
     </item>
     
     <item>
       <title>このプロジェクトについて、</title>
-      <link>http://mdl.wtf/ja/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/ja/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/ja/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/ja/2017-10-08-the-thing-is/</guid>
       <description>中国やインドネシアを含む、アジアの国々の多くで、この数年の間、輸出主導型経済から消費主導型、広告業界主導の経済への移り変わりは数百倍もの成長を見せている。 アジア圏における集産主義を念頭に置いて場合、私達は全てのマーケティング活動において圧倒的多数の才能が見られる。オンライン、テレビ上、現場でのプロモーションそれぞれに関わらず、才能はいつもキーである。
 例えば、中国はあらゆるタイプのタレント – モデル、俳優、歌手、ダンサー、サーカスやパフォーマーなど - 、膨大な数の外国人タレントが存在し、多くの場合において彼の国籍により価値を生み出しているケースが多い。30ものモデル代理店に属する、中国大陸を拠点として働いているフリーランスの外国人モデルの数は10,000人と見積もられている。この状態は近年始まったものであるため、これらの人々に対して、固定したインフラや成熟したマーケットスタンダードが存在していない。
 プロモーションイベントやテレビまたは、ファッションショーでの成功は参加タレントに依存されるケースが多い。製品を全面に押し出すために膨大なリソースが割かれることや、タレントを最大限活かすアイデアがあることはとてつもなく重要になる。一方では、タレントは頻繁に悪用され、騙され、単純に蔑ろにされている。マーケットが継続的に成長しているため、契約者とタレント双方から、規制や透明性に対する声が上がっている。
@@ -1562,10 +1572,10 @@ So erlebt beispielsweise China einen massiven Zustrom von ausländischen Talente
     
     <item>
       <title>这个就是。</title>
-      <link>http://mdl.wtf/zh/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/zh/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/zh/2017-10-08-the-thing-is/</guid>
       <description>中国、印度尼西亚，大多数的亚洲国家在几年前就已经热情转型，将其经济从出口驱动转向消费驱动。广告业继续呈现两位数增长。想一想组成亚洲文化的集体主义模式，我们不难发现在所有营销活动中，有模特参与的，总能有压倒性的优势。无论是在线，荧幕上或者是现场推广，模特总是它的关键部分。
 由此，比方说，大量各种各样的外来人才涌现中国，其中不乏模特、演员、歌手及舞者，马戏团成员和主题公园演出者。并且，由于这些人才的国籍，他们普遍被群众认为是高价的。 据估算表示，在中国大陆有大约10,000名自由职业的外国模特与30多个专业模特机构公司为会展公司，产品车间，各种展览等提供服务。这一切都在最近才开始发生，还未建立任何坚实的基础设施和参与者交互的市场标准。
 随着人才供需市场的持续发展，我们听到一种声音呼唤着市场的透明化和规范化。更加具体的来说，以下例举了人才和需求方的一些已存在的问题：
@@ -1577,10 +1587,10 @@ So erlebt beispielsweise China einen massiven Zustrom von ausländischen Talente
     
     <item>
       <title>這個就是。)</title>
-      <link>http://mdl.wtf/zh-hant/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/zh-hant/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/zh-hant/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/zh-hant/2017-10-08-the-thing-is/</guid>
       <description>中國、印度尼西亞，大多數的亞洲國家在幾年前就已經熱情轉型，將其經濟從出口驅動轉向消費驅動。廣告業繼續呈現兩位數增長。想一想組成亞洲文化的集體主義模式，我們不難發現在所有營銷活動中，有模特參與的，總能有壓倒性的優勢。無論是在線，熒幕上或者是現場推廣，模特總是它的關鍵部分。
 由此，比方說，大量各種各樣的外來人才涌現中國，其中不乏模特、演員、歌手及舞者，馬戲團成員和主題公園演出者。並且，由於這些人才的國籍，他們普遍被群眾認為是高價的。 據估算表示，在中國大陸有大約10,000名自由職業的外國模特與30多個專業模特機構公司為會展公司，產品車間，各種展覽等提供服務。這一切都在最近才開始發生，還未建立任何堅實的基礎設施和參與者交互的市場標准。
 隨著人才供需市場的持續發展，我們聽到一種聲音呼喚著市場的透明化和規范化。更加具體的來說，以下例舉了人才和需求方的一些已存在的問題：
@@ -1592,20 +1602,20 @@ So erlebt beispielsweise China einen massiven Zustrom von ausländischen Talente
     
     <item>
       <title>그러니까 문제는..</title>
-      <link>http://mdl.wtf/kr/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/kr/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/kr/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/kr/2017-10-08-the-thing-is/</guid>
       <description>중국과 인도네시아를 비롯한 대다수 아시아 국가들이 수년간 적극적으로 수출주도 경제에서 소비주도 경제로 전환함에 따라 광고산업은 계속해서 두 자릿수의 성장을 보이고 있습니다. 아시아문화의 집단주의적 패턴을 고려하였을 때, 우리는 모든 마케팅 활동에서 인재들의 압도적인 참여를 관찰할 수 있습니다. 온라인, 영화, TV 또는 현장 프로모션 무엇이 되었든 텔런트의 능력이 핵심요소가 됩니다.
 그렇기에 중국의 예를 보면 모델과 배우, 가수와 댄서, 서커스와 테마파크 공연자 등 다양한 유형의 해외 인재가 엄청나게 유입되고 있고 이들 모두는 외국인이라는 국적으로 인해 프리미엄으로 간주됩니다.</description>
     </item>
     
     <item>
       <title>Warum sind MDL Token Hours so cool?</title>
-      <link>http://mdl.wtf/de/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>https://mdl.wtf/de/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Thu, 19 Jan 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/de/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>https://mdl.wtf/de/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>Die MDL Talent Hub-Plattform wird mit MDL Token Hours (MDL TH) betrieben. MDL TH werden verwendet, um das MDL-Token-Wertwachstum zu unterstützen und die Plattform vor hoher Volatilität zu schützen. Es folgen 8 Aussagen, die das MDL TH-Konzept näher beschreiben.
  Der Mechanismus der MDL Token Hours wurde von den Skycoin Coin Hours übernommen.
  Die Anzahl der empfangenen MDL Token Hours erhöht sich entsprechend der Anzahl der gehaltenen MDL-Token. Die Token werden sich im Laufe der Zeit vermehren.</description>
