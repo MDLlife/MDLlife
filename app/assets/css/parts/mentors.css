@@ -153,7 +153,7 @@
   max-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.5); }
   #mentorsModal.show, #teamModal.show, #comingSoon.show, #get-mdl-modal.show, #subs-modal.show, #faces-modal.show {
-    z-index: 70000000; }
+    z-index: 1000000; }
   #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog, #get-mdl-modal .modal-dialog, #subs-modal .modal-dialog, #faces-modal .modal-dialog {
     top: 50%;
     margin-top: -150px;

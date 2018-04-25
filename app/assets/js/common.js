@@ -215,14 +215,14 @@ function videoControllers(){
         if($(this).hasClass('play')){
             $('#video-preview').get(0).play();
             $(this).addClass('stop').removeClass('play');
-            $(this).find('img').attr('src','/img/stop.svg');
+            $(this).find('img').attr('src','/app/assets/img/stop.svg');
             return;
         }
 
         if($(this).hasClass('stop')){
             $('#video-preview').get(0).pause();
             $(this).addClass('play').removeClass('stop');
-            $(this).find('img').attr('src','/img/play.svg');
+            $(this).find('img').attr('src','/app/assets/img/play.svg');
             return;
         }
     });
