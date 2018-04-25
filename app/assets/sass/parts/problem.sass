@@ -1,0 +1,187 @@
+@import "../fonts.sass"
+
+#problem
+	position: relative
+	width: 100%
+	// top: calc(100vh - 30px)
+	padding-top: 115px
+	padding-bottom: 90px
+	background-color: transparent
+	z-index: 10001
+	.problem__bubble
+		position: absolute
+		right: -70px
+		top: -120px
+	.problem__bubble-second
+		position: absolute
+		left: -70px
+		bottom: 80px
+		z-index: 10002
+		@media(max-width: 1500px)
+			display: none
+	.problem__title
+		font-family: $gilroy_light
+		font-size: 48px
+		font-style: normal
+		font-stretch: normal
+		line-height: 1.02
+		letter-spacing: normal
+		text-align: center
+		color: #1f0738
+	.problem__separator
+		margin: 45px auto 0
+		width: 60px
+		height: 3px
+		background-color: #ff2394
+	.problem__item--wrapper
+		position: relative
+		width: 930px
+		margin: 0 auto
+		.problem__item
+			position: relative
+			display: inline-block
+			vertical-align: top
+			width: 306px
+			height: 300px
+			margin-top: 45px
+			margin-right: 0
+			background-color: transparent
+			outline: none
+			&:hover
+				//background-color: white
+				//box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.5)
+				.problem__item--image
+					&.not-hover
+						opacity: 0
+					&.hover
+						opacity: 1
+						// transform: scale(1.1)
+				// .problem__item--separator
+				// 	background-image: linear-gradient(265deg, #e040a9, #ff3e92)
+				.problem__item--desc li
+					&:before
+						background-color: #940067
+			&:nth-child(3n)
+				margin-right: 0
+			.problem__item--separator
+				position: absolute
+				top: 139px
+				left: 50%
+				margin-left: -15px
+				width: 30px
+				height: 2px
+				background-image: linear-gradient(265deg, #000000, #000000)
+				transition: all 0.4s ease-out
+			.problem__item--image
+				position: absolute
+				display: block
+				top: 55px
+				left: 50%
+				width: 51px
+				height: 61px
+				margin-left: -25.5px
+				transition: all 0.4s ease-out
+				&.hover
+					opacity: 0
+			.problem__item--title
+				position: relative
+				top: 153px
+				font-family: $sans
+				font-size: 22px
+				font-weight: 600
+				font-style: normal
+				font-stretch: normal
+				line-height: normal
+				letter-spacing: 0.4px
+				text-align: center
+				color: #1a0a2b
+				transition: all 0.4s ease-out
+			.problem__item--desc
+				position: relative
+				top: 162px
+				list-style: none
+				padding-left: 0
+				width: 215px
+				margin: 0 auto
+				&.zh
+					li
+						padding-left: 0
+						text-align: center
+						&:before
+							display: none
+				li
+					padding-left: 0
+					margin-bottom: 3px
+					position: relative
+					font-family: $sans
+					font-size: 16px
+					font-weight: normal
+					font-style: normal
+					font-stretch: normal
+					line-height: 1.25
+					letter-spacing: 0.7px
+					text-align: center
+					color: rgba(26, 10, 43, 0.75)
+					&:before
+						content: ""
+						display: none
+						position: absolute
+						left: 0
+						top: 50%
+						margin-top: -2px
+						width: 4px
+						height: 4px
+						background-color: #1a0a2b
+						border-radius: 50%
+						transition: all 0.4s ease-out
+@media(max-width: 991px)
+	#problem
+		.problem__bubble
+			display: none
+		.problem__item--wrapper
+			width: 620px
+			.problem__item
+				margin-top: 20px
+
+@media (max-width: 768px)
+	.section-wrapper-second
+		top: 0 !important
+	#problem
+		padding-top: 140px
+		.problem__title
+			font-size: 28px
+		.problem__bubble,.problem__bubble-second
+			display: none
+		.problem__item--wrapper
+			width: 100%
+			text-align: center
+			.problem__item
+				margin-top: 10px
+				margin-top: 0
+				width: 90%
+				height: 290px
+				&:hover
+					background-color: transparent
+					box-shadow: none
+					.problem__item--image
+						&.not-hover
+							opacity: 1
+						&.hover
+							opacity: 0
+		.slick-dots
+			padding-left: 0
+			text-align: center
+			list-style: none
+			li
+				display: inline-block
+				width: 9px
+				height: 9px
+				margin-right: 14px
+				background-color: #d8d8d8
+				border-radius: 50%
+				&.slick-active
+					background-color: #c72897
+				&:last-child
+					margin-right: 0
+				button
+					display: none

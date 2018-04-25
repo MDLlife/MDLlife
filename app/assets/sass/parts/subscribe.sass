@@ -1,0 +1,92 @@
+@import "../fonts.sass"
+
+#subscribe
+	overflow: hidden
+	position: relative
+	height: 450px
+	width: calc(100% - 40px)
+	margin: 0 auto
+	background-color: #150526
+	background-image: url(/app/assets/img/website-parts/subscribe/s-bg.png)
+	background-size: cover
+	background-position: center
+	background-attachment: fixed
+	@media(max-width: 768px)
+		display: none
+	.s-el
+		position: absolute
+		&:nth-child(1)
+			right: 90px
+			bottom: 50px
+		&:nth-child(2)
+			right: 74px
+			top: -100px
+		&:nth-child(3)
+			left: 94px
+			bottom: -100px
+	#sib_embed_signup
+		position: absolute
+		top: 50%
+		left: 50%
+		margin-left: -285px
+		margin-top: -81px
+		width: 570px
+		opacity: 1
+		.subscribe-label
+			text-align: center
+			color: white
+			font-family: $sans
+			font-weight: 600
+			font-size: 22px
+			margin-bottom: 50px
+		.message_area
+			position: absolute !important
+			bottom: -40px
+			background-color: transparent !important
+			border: none !important
+			font-family: $sans !important
+			font-weight: 400 !important
+			font-size: 14px !important
+			width: 100% !important
+			text-align: center !important
+			.close
+				display: none !important
+		.mandatory-email
+			position: relative	
+			left: 20px	
+			width: 100%	
+		#email
+			position: relative
+			left: 0
+			top: 0
+			padding-left: 31px	
+			display: block
+			margin: 0 auto
+			width: 380px
+			height: 46px
+			border-radius: 33px
+			border: solid 1px #c72897
+			outline: none
+			-webkit-appearence: none
+			font-size: 14px	
+			color: white
+			font-family: $sans
+			background-color: transparent
+		.button
+			position: absolute
+			top: 0	
+			right: 60px
+			height: 46px
+			width: 130px	
+			border-radius: 33px
+			border: none
+			outline: none
+			-webkit-appearence: none
+			background-color: #c72897
+			font-family: $sans
+			font-size: 14px
+			font-weight: bold
+			font-style: normal
+			font-stretch: normal
+			letter-spacing: normal
+			color: white

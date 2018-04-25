@@ -1,0 +1,196 @@
+@import "../fonts.sass"
+
+#about
+	padding: 20px
+	position: relative	
+	overflow: hidden
+	top: calc(100vh - 20px)
+	z-index: 10001
+	height: 98vh !important
+	min-height: 900px
+	width: 100% !important
+	background-color: #FBFBFB
+	.b-h-a
+		position: absolute
+		width: 127px
+		height: 255px
+		top: 0
+		left: 0	
+		display: block
+	.b-h-a-t
+		position: absolute
+		bottom: -50px
+		right: 0	
+		display: block
+	// @media(max-width: 2000px)
+	// 	height: 110vh !important
+	// @media(max-width: 1600px)
+	// 	height: 120vh !important
+	// @media(max-width: 1500px)
+	// 	height: 125vh !important
+	.about__content--wrapper
+		height: 730px
+		width: 100%
+		position: absolute
+		left: 0
+		top: 50%
+		margin-top: -365px
+		// @media(max-width: 2000px)
+		// 	margin-top: -43vh
+		// @media(max-width: 1800px)
+		// 	margin-top: -45.5vh
+		// @media(max-width: 1600px)
+		// 	margin-top: -52vh
+		// @media(max-width: 1500px)
+		// 	margin-top: -57.5vh
+	.about__wrapper
+		top: 0
+		position: relative
+		height: 100%
+		box-shadow: 0 1px 17px 0 rgba(0, 0, 0, 0.36)
+		text-align: center	
+		margin: 0 auto
+		background-color: white
+		.about-background-image
+			position: absolute
+			@media(max-width: 768px)
+				display: none
+			&.one
+				bottom: 0
+				left: 0	
+			&.two
+				top: 350px
+				left: 40px
+			&.three
+				right: 180px
+				bottom: 100px
+			&.four
+				right: 0
+				top: 350px
+			&.five
+				right: 90px
+				bottom: 160px
+		.about__text-block--title
+			font-family: $gilroy_light
+			font-size: 48px
+			font-style: normal
+			font-stretch: normal
+			line-height: normal
+			letter-spacing: normal
+			text-align: center
+			color: #1a0a2b
+		.about__text-block--separator
+			margin: 45px auto
+			width: 60px
+			height: 3px
+			background-color: #ff2394
+		.about__text-block--desc
+			width: 552px
+			opacity: 0.75
+			font-family: $sans
+			font-size: 16px
+			font-weight: normal
+			font-style: normal
+			font-stretch: normal
+			line-height: 1.81
+			letter-spacing: 0.3px
+			text-align: left
+			color: #1a0a2b
+			left: 0
+			margin: 0 auto
+	#about__video-block--wrappper
+		margin: 0 auto
+		margin-top: 55px
+		width: 840px
+		height: 470px
+		&:hover
+			.about__video-block--btn-play.stop
+				opacity: 1
+		.about__bubble
+			position: absolute
+			right: -170px
+			bottom: 0px
+			z-index: 0
+	#about__video-block
+		position: relative
+		z-index: 1
+		width: 840px
+		height: 470px
+		.about__video-block--btn-play
+			width: 82px	
+			height: 82px
+			position: absolute
+			top: 50%
+			left: 50%
+			margin-top: -41px	
+			margin-left: -45px	
+			&.stop
+				opacity: 0
+				transition: all 0.3s ease
+		.video-preview
+			width: 840px
+			height: 470px
+@media(max-width:991px)
+	#about
+		#about__video-block--wrappper
+			width: 500px
+			height: 350px
+			#about__video-block,#video-preview
+				width: 100%
+				height: 100%
+		.about__wrapper
+			.about__text-block--desc
+				left: 15px
+				position: relative
+		.about__content--wrapper
+			height: 580px
+			margin-top: -290px
+@media(max-width: 768px)
+	#about
+		top: 0
+		height: auto !important
+		min-height: auto !important
+		padding: 0
+		.about__title
+			font-size: 28px
+		.b-h-a
+			display: none
+		.b-h-a-t
+			display: none
+		.about__content--wrapper
+			padding: 90px 0 115px 0
+			position: static
+			margin: unset
+			height: auto
+		.about__wrapper
+			box-shadow: none
+			.about__text-block--desc
+				margin: 0 auto
+				width: 235px
+				font-size: 14px
+				left: 0	
+				text-align: left
+			.about__text-block--title
+				font-size: 28px	
+		#about__video-block--wrappper
+			width: 100%
+			margin: 45px auto 0
+			height: auto
+		#about__video-block
+			width: 100%
+			height: auto
+			.about__video-block--btn-play
+				display: none
+				width: 50px
+				height: 50px
+				margin-top: -25px
+				margin-left: -25px
+				img
+					height: 50px
+					width: 50px
+			#video-preview
+				display: block
+				margin: 0 auto
+				width: 310px
+				height: 325px
+				object-fit: cover

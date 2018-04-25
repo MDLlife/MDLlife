@@ -1,0 +1,813 @@
+@import "../fonts.sass"
+
+@keyframes spin 
+	0%
+		transform: rotate(0deg)
+	100%
+		transform: rotate(360deg)
+#whitelist-form
+	position: relative
+	top: 0
+	left: 0
+	height: 0
+	width: 0
+	opacity: 0
+	background-color: rgba(31, 7, 56, 1)
+	transition: all 0.5s ease
+	z-index: 9000000000
+	width: 100%
+	opacity: 1
+	height: 1000px
+	#whitelist-loader,#whitelist-waiting-send
+		position: absolute
+		z-index: 1200
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+		background-color: #1a0a2b
+		opacity: 1
+		transition: all 0.5s ease-out
+		&.loaded
+			opacity: 0
+			z-index: 0
+		#loader-spin
+			position: absolute
+			left: 50%
+			top: 50%
+			z-index: 1
+			width: 100px
+			height: 100px
+			margin: -50px 0 0 -50px
+			border: 5px solid #f3f3f3
+			border-radius: 50%
+			border-top: 5px solid #c72897
+			animation: spin 1.5s linear infinite
+	#whitelist-waiting-send
+		background-color: rgba(255,255,255,0.7) !important
+		#loader-spin
+			border: 5px solid rgb(110, 179, 231)
+			border-top: 5px solid #c72897
+	&.opened
+		z-index: 9000000000
+		width: 100%
+		opacity: 1
+		height: 100%
+	#whitelist-form--back,#whitelist-form--next
+		@media(max-width: 768px)
+			display: none !important
+	#whitelist-form--next,.whitelist-form--next
+		position: absolute
+		bottom: 24px
+		right: 62px
+		border: none
+		-webit-appearence: none
+		outline: none
+		background-color: #c72897
+		width: 122px
+		height: 43px
+		border-radius: 24.5px
+		font-family: $sans
+		font-weight: 600
+		font-size: 16px
+		text-transform: uppercase
+		color: white
+		cursor: pointer
+		&.mob
+			display: none
+			@media(max-width: 768px)
+				display: block
+		&.disabled
+			color: rgba(255,255,255,.5)
+	#whitelist-form--back,.whitelist-form--back
+		display: none
+		position: absolute
+		bottom: 24px
+		left: 165px
+		border: none
+		-webit-appearence: none
+		outline: none
+		background-color: #c72897
+		width: 122px
+		height: 43px
+		border-radius: 24.5px
+		font-family: $sans
+		font-weight: 600
+		font-size: 16px
+		text-transform: uppercase
+		color: white
+		cursor: pointer
+		&.term
+			bottom: -68px
+		&.mob
+			display: none
+			@media(max-width: 768px)
+				display: block
+		&.deckstop
+			display: block
+			left: 40px
+			@media(max-width: 768px)
+				display: none
+		&.disabled
+			color: rgba(255,255,255,.5)
+	.whitelist-form--wrapper
+		padding: 5px
+		width: 691px
+		height: 731px
+		position: absolute
+		left: 50%
+		top: 50%
+		margin-left: -345.5px
+		margin-top: -365.5px
+		background-color: white
+		overflow: hidden
+		.btn_close
+			width: 45px
+			height: 45px
+			position: absolute
+			z-index: 2131
+			right: 5px
+			top: 5px
+			background-color: #1a0a2b
+			cursor: pointer
+			&:before,&:after
+				content: ""
+				display: block
+				width: 2px
+				height: 25px
+				background-color: white
+				position: absolute
+				left: 50%
+				margin-left: -1px
+				top: 50%
+				margin-top: -12.5px
+			&:before
+				transform: rotate(45deg)
+			&:after
+				transform: rotate(-45deg)
+		.white-list--nav
+			display: inline-block
+			vertical-align: top
+			padding-top: 63px
+			position: relative
+			height: 100%
+			width: 115px
+			background-color: #1a0a2b
+			.white-list--btn
+				position: relative
+				width: 43px
+				height: 43px
+				display: block
+				margin: 0 auto
+				border: 1px solid #c72897
+				border-radius: 50%
+				-webit-appearence: none
+				outline: none
+				background-color: transparent
+				cursor: pointer
+				&:before,&:after
+					content: ""
+					position: absolute
+					top: 50%
+					margin-top: -7.5px
+					width: 2px
+					height: 15px
+					background-color: #c72897
+				&.up
+					&:before
+						left: 13.9px
+						transform: rotate(45deg)
+					&:after
+						right: 15.5px
+						transform: rotate(-45deg)
+				&.down
+					&:before
+						left: 13.9px
+						transform: rotate(-45deg)
+					&:after
+						right: 15.5px
+						transform: rotate(45deg)
+			.white-list--dots
+				padding-top: 133px
+				padding-bottom: 115px
+				.white-list--dot
+					display: block
+					position: relative
+					margin: 63px auto
+					width: 15.4px
+					height: 15.4px
+					border: 1px solid white
+					border-radius: 50%
+					background-color: #1a0a2b
+					transition: all 0.3s ease
+					cursor: pointer
+					&:last-child
+						margin: 63px auto 0
+					&:first-child
+						margin: 0 auto 63px
+					&:hover
+						background-color: #c72897
+						border: 1px solid #c72897
+					&.active
+						width: 25px
+						height: 25px
+						background-color: #c72897
+						border: none
+					&:last-child
+						&:before
+							display: none
+					&:before
+						content: ""
+						display: block
+						width: 1px
+						height: 64px
+						position: relative
+						left: 0
+						margin: 0 auto
+						background-color: white
+					&:before
+						top: 100%
+		.white-list--content-wrapper
+			position: relative
+			vertical-align: top
+			width: calc(100% - 120px)
+			height: 100%
+			display: inline-block
+			background-color: white
+			overflow: hidden
+			#confirm
+				display: block
+				margin: 0 auto
+				text-align: center
+				border: none
+				-webit-appearence: none
+				outline: none
+				background-color: #c72897
+				padding-top: 15px
+				width: 200px
+				height: 53px
+				border-radius: 24.5px
+				font-family: $sans
+				font-weight: 600
+				font-size: 16px
+				text-transform: uppercase
+				color: white
+				cursor: pointer
+				opacity: 0.5
+				pointer-events: none
+				&.active
+					pointer-events: auto
+					opacity: 1
+			.white-list--content-item
+				width: 100%
+				height: 100%
+				position: absolute
+				left: 0
+				transition: all 0.5s ease
+				&[data-step]
+					width: 100%
+					height: 100%
+				&.personal-information
+					padding-left: 47px
+					padding-top: 21px
+					padding-right: 59px
+					padding-bottom: 80px
+					overflow-y: scroll
+					.fa-sync-alt,.fa-volume-up
+						color: #1d082d !important
+					#hidden-submit-form
+						display: none
+					label
+						display: block
+						margin-bottom: 6px
+						color: #1d082d
+						font-family: $sans
+						font-weight: 400
+						font-size: 14px
+					.input-group.date .input-group-addon
+						display: block !important
+						width: 50px !important
+						border: 1px solid #eff0f0
+						padding-top: 7px
+						text-align: center
+						font-size: 25px
+						cursor: pointer
+						.fa-calendar-alt
+							color: #1d082d !important
+					.input-group>.custom-select,.input-group>.form-control
+						&:not(:last-child)
+							border: 1px solid #eff0f0 
+							height: 55px
+					.form-control
+						&:focus
+							box-shadow: none !important
+							border: 1px solid #eff0f0 !important
+					.pi-title
+						font-family: $gilroy_bold
+						font-size: 24px
+						color: #c72897
+					#captcha-styled,.captcha-field
+						display: inline-block
+						vertical-align: top
+						width: 48%
+						height: 55px
+						text-align: center
+						border: 1px solid #eff0f0
+						-webit-appearence: none !important
+						font-size: 22px !important
+						font-family: $sans
+						font-weight: 700
+						color: #1a0a2b !important
+						outline: none
+					#captcha-field
+						&:focus
+							border: 1px solid #c035a0 !important
+					#captcha-styled
+						padding-top: 0
+						margin-right: 2.5%
+						#captcha-image
+							width: 100%
+							max-height: 55px
+					.captchaReloadButton,.captchaPlayButton
+						position: relative
+						margin-top: 10px
+						top: 2px
+						cursor: pointer
+					#pi-input--day, #pi-input--year
+						padding-top: 7px
+						width: 30%
+						display: inline-block
+						vertical-align: top
+					#pi-input--day
+						margin-right: 10px
+					.select.month
+						padding-top: 0 !important
+						margin-right: 10px !important
+					#captcha-field
+						padding-top: 2px
+					#captcha-error
+						display: none
+						font-family: $sans
+						font-weight: 600
+						font-size: 12px
+						color: #ff0000
+					.intl-tel-input
+						width: 100%
+					#pi-input--phone
+						padding-left: 60px
+
+					.pi-input--wrapper
+						margin-bottom: 1rem
+						&.has-error
+							input,.input-group-addon
+								border-color: red !important
+							.helper
+								display: block
+								color: red
+								font-size: 12px
+						&.date-birth
+							margin-bottom: 6px
+							label
+								margin-bottom: 0
+						&.captcha
+							margin-bottom: 5px
+						&.name
+							margin-top: 24px
+						.helper
+							display: none
+						label
+							display: block
+							margin-bottom: 6px
+							color: #1d082d
+							font-family: $sans
+							font-weight: 400
+							font-size: 14px
+						.pi-input
+							width: 100%
+							height: 55px
+							padding-left: 18px
+							border: 1px solid #eff0f0
+							-webit-appearence: none !important
+							font-size: 16px !important
+							font-family: $sans
+							font-weight: 400
+							color: #1a0a2b !important
+							outline: none
+							&:focus
+								border: 1px solid #c035a0 !important
+						#pi-input--adress
+							width: 265px
+							display: inline-block
+							vertical-align: top
+							margin-right: 15px
+						#pi-input--apt
+							width: 145px
+							display: inline-block
+							vertical-align: top
+						#pi-input--passport
+							display: none
+						#pi-input--adress-proof
+							display: none
+						.file-upload-styled
+							width: 100%
+							height: 55px
+							padding-left: 18px
+							border: 1px solid #eff0f0
+							-webit-appearence: none !important
+							font-size: 16px !important
+							font-family: $sans
+							font-weight: 400
+							color: #1a0a2b !important
+							outline: none
+							cursor: pointer
+						&.date-birth,&.country-select,&.citizen-select
+							input.select-styled
+								padding-bottom: 10px
+							.select,input.select-styled
+								position: relative
+								vertical-align: top
+								display: inline-block
+								width: 138px
+								height: 55px
+								margin-right: 15px
+								border: 1px solid #eff0f0 
+								outline: none !important
+								background: transparent !important
+								font-family: $sans
+								font-size: 16px
+								font-weight: 400
+								font-style: normal
+								font-stretch: normal
+								line-height: normal
+								text-align: center
+								color: #1a0a2b
+								cursor: pointer
+								&.month
+									.select-options li
+										span
+											margin-left: 17px
+								&.country,&.citizen
+									width: 100%
+									.select-options
+										position: absolute
+										top: 51px
+										z-index: 1
+									.select-options,.select-options li
+										width: 100%
+										text-align: left
+										span
+											margin-left: 17px
+								&:last-child
+									margin-right: 0
+							.select-hidden 
+								display: none
+								visibility: hidden
+								padding-right: 10px
+							.select-styled,input.select-styled
+								width: 100%
+								position: relative
+								padding-top: 16px
+								color: #1a0a2b
+								font-family: $sans
+								font-weight: 400
+								font-size: 16px
+								text-align: left
+								padding-left: 17.5px
+								&.active
+									&:after
+										content: "" 
+										width: 0
+										height: 0
+										border-style: solid
+										border-width: 0 5.5px 6px 5.5px
+										border-color: transparent transparent #33144a transparent
+								&:after 
+									content: ""
+									display: block
+									position: absolute
+									right: 17.5px
+									bottom: 7px
+									width: 0
+									height: 0
+									border-style: solid
+									border-width: 6px 5.5px 0 5.5px
+									border-color: #33144a transparent transparent transparent
+							.select-options
+								height: 270px
+								width: 138px
+								position: relative
+								z-index: 5
+								top: 15px
+								left: 0
+								display: none
+								list-style: none
+								overflow-y: scroll
+								overflow-x: hidden
+								padding-left: 0
+								background-color: white
+								border: 1px solid #eff0f0 !important
+							.select-options li
+								padding-top: 16px
+								position: relative
+								z-index: 5
+								text-align: center
+								border-top: 0px solid transparent
+								height: 55px
+								width: 138px
+								color: #1d082d
+								background-color: white
+								font-size: 14px
+								font-family: $sans
+								font-weight: 400
+								-moz-transition: all 0.15s ease-in
+								-o-transition: all 0.15s ease-in
+								-webkit-transition: all 0.15s ease-in
+								transition: all 0.15s ease-in
+								text-align: left
+								&:first-child
+									display: none !important
+							.select-options li>span
+								color: #1d082d
+								font-size: 14px
+								font-family: $sans
+								font-weight: 400
+								text-decoration: none
+								display: block
+								width: 100%
+							.select-options li>a
+								&:hover
+									color: #783387
+									background: #fff
+							.select-options li[rel="hide"] 
+								display: none
+				&.welcome
+					padding-left: 47px
+					.welcome-desc
+						font-family: $sans
+						font-size: 16px
+						color: #1a0a2b
+						a
+							font-family: $sans
+							font-weight: 700
+							font-size: 16px
+							color: #1a0a2b
+					.welcome-title
+						margin-top: 184px
+						margin-bottom: 74px
+						font-family: $gilroy_bold
+						font-size: 24px
+						color: #c72897
+					.welcome-checkbox-wrapper
+						margin-bottom: 16px
+						.welcome-checkbox
+							position: relative
+							top: 5px
+							-webkit-appearance: none 
+							width: 20px
+							height: 20px
+							border-radius: 50%
+							border: 1px solid #1f0a2f
+							outline: none
+							background-color: transparent
+							&:checked + .welcome-label
+								color: #c72897
+							&:checked 
+								&:before
+									content: ""
+									position: absolute
+									top: 50%
+									left: 50%
+									margin-top: -3px
+									margin-left: -3px
+									width: 6px
+									height: 6px
+									background-color: #c72897
+									border-radius: 50%
+									display: block
+						.welcome-label
+							position: relative
+							left: 15px
+							font-family: $sans
+							font-weight: 400
+							color: #1e092e
+							font-size: 14px
+							transition: all 0.4s ease
+						&:hover
+							.welcome-label
+								color: #c72897
+
+				&.terms
+					height: calc(100% - 41px)
+					padding: 39px 41px 32px 41px
+					overflow-y: scroll
+					overflow-x: hidden
+					color: #1e092e
+					font-family: $sans
+					font-size: 14px
+					font-weight: 400
+					.terms-wrapper
+						position: relative
+					h2,h3,h4,h5
+						font-size: 14px
+						font-weight: 600
+						margin-bottom: 15px
+					u
+						margin-bottom: 15px
+					h2
+						text-align: center
+					h3 
+						display: inline-block
+					p
+						margin-bottom: 15px
+					li
+						margin-bottom: 20px
+					a
+						font-weight: 700
+						color: #1e092e
+					strong
+						font-weight: 600
+					input[type = "checkbox"]
+						margin-right: 5px
+						left: 0px
+						top: 7px
+						outline: none
+						width: 20px
+						height: 20px
+						-webkit-appearance: none
+						position: relative
+						border: 1px solid black
+						&:checked
+							top: 7px
+							border: 1px solid #c72897 !important
+							&:before
+								content: "✔"
+								color: #c72897
+								position: absolute
+								left: 3px
+								bottom: 0
+								height: 100%
+					input[type = "checkbox"] + span
+						color: #c72897 !important
+					.ti-fc
+						position: relative
+						left: 25px
+						text-indent: -25px !important
+					.table-wrapper
+						overflow-x: scroll
+						padding-bottom: 40px
+					.top-wrap
+						padding-left: 17px
+					.second-wrap
+						padding-left: 17px
+				&.contact-thank
+					padding-top: 184px
+					position: relative
+					padding-left: 47px
+					padding-right: 40px
+					.contact-title
+						font-family: $gilroy_bold
+						font-size: 24px	
+						color: #c72897
+					.contact-desc
+						margin-top: 91px
+						font-family: $sans
+						font-weight: 400
+						color: #1e092e
+						font-size: 14px
+						a
+							color: #1e092e
+							font-weight: 700
+					.contact-link
+						position: absolute
+						bottom: 24px
+						right: 40px
+						padding-top: 8px
+						display: block
+						width: 122px
+						height: 43px
+						border-radius: 24.5px
+						background-color: #c72897
+						color: white
+						font-family: $sans
+						font-weight: 600
+						font-size: 16px
+						text-align: center
+					.thank-title
+						font-family: $gilroy_bold
+						font-size: 24px	
+						color: #c72897
+				.month.select-options
+					top: 0 !important
+				#submit-btn
+					margin-top: 30px
+					float: right
+					-webkit-appearance: none
+					border: none
+					padding-top: 0px
+					display: block
+					width: 122px
+					height: 43px
+					border-radius: 24.5px
+					background-color: #c72897
+					color: white
+					font-family: $sans
+					font-weight: 600
+					font-size: 16px
+					text-align: center
+					cursor: pointer
+					outline: none
+					&.disabled
+						color: rgba(255,255,255,.5)
+				#error-send
+					font-family: $sans
+					color: red
+					font-size: 14px
+					font-weight: 700
+					display: none
+
+@media (max-width: 768px)
+	#whitelist-form 
+		height: 100vh
+		min-height: 540px
+		max-height: 850px
+		background-color: white
+		.personal-information-wrapper
+			height: 1185px
+			position: relative
+		.whitelist-form--next
+			right: 10px
+			bottom: 0
+		.whitelist-form--back
+			display: block
+			left: 10px
+			bottom: 0
+		.whitelist-form--wrapper
+			width: 100%
+			height: 600px
+			position: static
+			margin: unset
+			.white-list--nav
+				display: none
+			.white-list--content-wrapper
+				width: 100%
+				.white-list--content-item
+					padding-left: 40px
+					padding-right: 40px
+					#submit-btn
+						position: absolute
+						margin-top: 0
+						right: 10px
+						bottom: -68px
+					&.personal-information
+						overflow-y: scroll
+						padding-left: 40px
+						padding-right: 40px
+						#pi-input--day
+							width: 31.5%
+							margin-right: 1%
+							padding-left: 10px
+						.select.month
+							width: 31.5% !important
+							margin-right: 1% !important
+							padding-left: 0px
+						#pi-input--year
+							width: 31.5%
+							padding-left: 10px
+						#month-search
+							padding-left: 10px !important
+							margin-right: 1% !important
+						#captcha-field
+							width: 47.9%
+						#captcha-styled
+							margin-right: 2.2%
+					&.welcome
+						.welcome-title
+							margin-top: 95px
+							margin-bottom: 90px
+					&.contact-thank
+						padding-top: 100px
+						.contact-link
+							bottom: 195px
+
+@media(max-width: 480px)
+	#whitelist-form 
+		.whitelist-form--next
+		.whitelist-form--back
+		.whitelist-form--wrapper
+			.white-list--nav
+			.white-list--content-wrapper
+				.white-list--content-item
+					padding-left: 20px !important
+					padding-right: 20px
+					&.personal-information
+						overflow-y: scroll
+						padding-left: 20px
+						padding-right: 20px
+					&.terms
+						padding-left: 20px
+						padding-right: 20px
+						.ti-fc
+							left: 15px
+
+
+
