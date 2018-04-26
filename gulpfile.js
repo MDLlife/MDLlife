@@ -56,7 +56,7 @@ gulp.task('libs-scripts', function() {
 
 gulp.task('css-custom', ['sass'], function() {
 	return gulp.src('app/assets/css/main.css') // Выбираем файл для минификации
-		.pipe(cssnano()) // Сжимаем
+		.pipe(cssnano({ zindex: false })) // Сжимаем
 		.pipe(gulp.dest('app/assets/css')); // Выгружаем в папку app/css
 });
 
