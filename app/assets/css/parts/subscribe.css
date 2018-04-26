@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url("../fonts/Gilroy-ExtraBold.eot");
+  src: url("../fonts/Gilroy-ExtraBold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-ExtraBold.woff2") format("woff2"), url("../fonts/Gilroy-ExtraBold.ttf") format("truetype"), url("../fonts/Gilroy-ExtraBold.svg#Gilroy-ExtraBold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url("../fonts/Gilroy-Light.eot");
+  src: url("../fonts/Gilroy-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/Gilroy-Light.woff2") format("woff2"), url("../fonts/Gilroy-Light.ttf") format("truetype"), url("../fonts/Gilroy-Light.svg#Gilroy-Light") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+#subscribe {
+  overflow: hidden;
+  position: relative;
+  height: 450px;
+  width: -webkit-calc(100% - 40px);
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  background-color: #150526;
+  background-image: url(/app/assets/img/website-parts/subscribe/s-bg.png);
+  -webkit-background-size: cover;
+          background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  @media (max-width: 768px) {
+    #subscribe {
+      display: none; } }
+  #subscribe .s-el {
+    position: absolute; }
+    #subscribe .s-el:nth-child(1) {
+      right: 90px;
+      bottom: 50px; }
+    #subscribe .s-el:nth-child(2) {
+      right: 74px;
+      top: -100px; }
+    #subscribe .s-el:nth-child(3) {
+      left: 94px;
+      bottom: -100px; }
+  #subscribe #sib_embed_signup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -285px;
+    margin-top: -81px;
+    width: 570px;
+    opacity: 1; }
+    #subscribe #sib_embed_signup .subscribe-label {
+      text-align: center;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 600;
+      font-size: 22px;
+      margin-bottom: 50px; }
+    #subscribe #sib_embed_signup .message_area {
+      position: absolute !important;
+      bottom: -40px;
+      background-color: transparent !important;
+      border: none !important;
+      font-family: "Open Sans", sans-serif !important;
+      font-weight: 400 !important;
+      font-size: 14px !important;
+      width: 100% !important;
+      text-align: center !important; }
+      #subscribe #sib_embed_signup .message_area .close {
+        display: none !important; }
+    #subscribe #sib_embed_signup .mandatory-email {
+      position: relative;
+      left: 20px;
+      width: 100%; }
+    #subscribe #sib_embed_signup #email {
+      position: relative;
+      left: 0;
+      top: 0;
+      padding-left: 31px;
+      display: block;
+      margin: 0 auto;
+      width: 380px;
+      height: 46px;
+      -webkit-border-radius: 33px;
+              border-radius: 33px;
+      border: solid 1px #c72897;
+      outline: none;
+      -webkit-appearence: none;
+      font-size: 14px;
+      color: white;
+      font-family: "Open Sans", sans-serif;
+      background-color: transparent; }
+    #subscribe #sib_embed_signup .button {
+      position: absolute;
+      top: 0;
+      right: 60px;
+      height: 46px;
+      width: 130px;
+      -webkit-border-radius: 33px;
+              border-radius: 33px;
+      border: none;
+      outline: none;
+      -webkit-appearence: none;
+      background-color: #c72897;
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      font-weight: bold;
+      font-style: normal;
+      font-stretch: normal;
+      letter-spacing: normal;
+      color: white; }
