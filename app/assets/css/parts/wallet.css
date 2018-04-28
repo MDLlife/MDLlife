@@ -19,8 +19,7 @@
   width: 100%;
   height: 100vh;
   min-height: 1450px;
-  top: -webkit-calc(100vh - 40px);
-  top: calc(100vh - 40px);
+  top: 100vh;
   text-align: center; }
   #wallet .wallet__content--wrapper {
     position: relative;

@@ -15,8 +15,7 @@
 #income {
   padding: 20px;
   position: relative;
-  top: -webkit-calc(100vh - 57px);
-  top: calc(100vh - 57px);
+  top: 100vh;
   z-index: 10003;
   width: 100%;
   height: 100vh;

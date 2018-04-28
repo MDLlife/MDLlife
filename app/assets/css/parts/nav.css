@@ -38,7 +38,7 @@
       background-color: #150526 !important; }
     #nav-main.sticky .nav__logo {
       display: block;
-      top: 15px;
+      top: 20px;
       left: 50%;
       margin-left: -75px; }
     #nav-main.sticky .nav__burger {
@@ -81,12 +81,12 @@
       transition: all 0.3s ease-out; }
       #nav-main .nav__logo .nav__logo--image.dec {
         width: 100px;
-        height: 50px; }
+        height: 39px; }
         @media (max-width: 768px) {
           #nav-main .nav__logo .nav__logo--image.dec {
             display: none; } }
       #nav-main .nav__logo .nav__logo--image.mob {
-        width: 55px;
+        width: 34px;
         height: 39px;
         display: none; }
         @media (max-width: 768px) {
@@ -369,6 +369,6 @@
       right: unnset;
       left: 50%;
       margin-left: -27.5px;
-      text-align: right; }
+      text-align: center; }
       #nav-main .nav__logo #nav__logo--text {
         display: none; } }

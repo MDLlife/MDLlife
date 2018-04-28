@@ -16,8 +16,8 @@
   position: fixed;
   top: 20px;
   left: 20px;
-  height: -webkit-calc(100vh - 20px);
-  height: calc(100vh - 20px);
+  height: -webkit-calc(100% - 40px);
+  height: calc(100% - 40px);
   width: -webkit-calc(100% - 40px) !important;
   width: calc(100% - 40px) !important;
   background-image: url("/app/assets/img/website-parts/header/header-bg.png");
@@ -60,7 +60,7 @@
         display: none; }
     #main-header .header__left-part .header__title--img {
       width: 295px;
-      height: 65px;
+      height: 50px;
       display: inline-block;
       position: relative;
       top: -7px;

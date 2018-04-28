@@ -1,5 +1,11 @@
 @import "../fonts.sass"
 
+.media-banner
+	width: 875px
+	margin: 0 auto
+	margin-top: 70px
+	img
+		width: 100%
 #media
 	position: relative
 	z-index: 10001
@@ -128,6 +134,8 @@
 			filter: gray
 			transition: all 0.5s ease
 @media(max-width: 991px)
+	.media-banner
+		width: 650px
 	#media
 		.media__item--first-row
 			width: 650px
@@ -142,6 +150,8 @@
 					margin-right: 0	
 
 @media (max-width: 768px)
+	.media-banner
+		width: 100%
 	#media
 		.media__title
 			font-size: 28px
