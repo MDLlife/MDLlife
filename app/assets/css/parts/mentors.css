@@ -160,7 +160,8 @@
     left: 50%;
     margin-left: -300px;
     width: 600px !important;
-    height: auto; }
+    height: auto;
+    position: absolute; }
   #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin, #get-mdl-modal .modal--linkin, #subs-modal .modal--linkin, #faces-modal .modal--linkin {
     text-align: center; }
   #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content, #get-mdl-modal .modal-content, #subs-modal .modal-content, #faces-modal .modal-content {

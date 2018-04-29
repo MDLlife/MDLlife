@@ -107,13 +107,13 @@
         #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--image-wrapper {
           left: 31px;
           top: 21px;
-          margin: unset; }
+          margin: 0; }
         #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--title {
           text-align: left;
           left: 94px;
           top: 21px;
-          margin-left: unset;
-          margin-top: unset;
+          margin-left: 0;
+          margin-top: 0;
           font-weight: 400; }
           #instruments .instruments__box--wrapper .instruments__box:hover .instruments__box--title span {
             font-weight: 600; }

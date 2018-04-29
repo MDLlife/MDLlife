@@ -117,9 +117,9 @@ footer .community-link {
   width: 40px;
   position: relative; }
   footer .community-link:hover img.one {
-    opacity: 0; }
+    opacity: 0.5; }
   footer .community-link:hover img.two {
-    opacity: 1; }
+    opacity: 0; }
   footer .community-link img {
     position: absolute;
     top: 0;
