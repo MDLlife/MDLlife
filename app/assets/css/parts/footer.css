@@ -134,5 +134,13 @@ footer .community-link {
     footer .community-link img.two {
       opacity: 0; }
 
+footer .media-banner {
+  margin-top: 35px;
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: center; }
+  footer .media-banner img {
+    width: 270px; }
+
 footer li:nth-child(2) img.community-link {
   width: 48px; }
