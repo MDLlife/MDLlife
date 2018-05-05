@@ -6,10 +6,21 @@
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 24 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Development Strategy</title>
+      <link>https://mdl.wtf/en/2018-05-04-mdl-development-strategy/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-05-04-mdl-development-strategy/</guid>
+      <description>MDL Development Strategy Development team at MDL have been working really hard to deliver the MVP, and the Architecture team has delivered UML diagrams that offers a number of benefits for our internal organization.
+The Unified Modeling Language (UML) will help us to model MDL systems and help us to build software that is designed to be simple and easy to use.
+At MDL, we are using UML diagrams because of:</description>
+    </item>
     
     <item>
       <title>The 1st stage of MDL ITO nearly reached hardcap!</title>
