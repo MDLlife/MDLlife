@@ -1,0 +1,280 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-108901953-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-108901953-1');
+    </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Token MDL blog">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="keywords" content="MDL,blockchain,talents,models,technology,app,IPFS">
+    <meta name="description" content="Blog of MDL Talent Hub. We create blockchain powered platform for talent sourcing industry.">
+
+    <meta property="og:title" content="MDL Development Strategy">
+    <meta property="og:image" content="images/80/2018-05-04-development-update.jpg">
+
+    <title>MDL - Talent Hub Blog &middot; MDL Development Strategy</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.teal-red.min.css">
+    <link rel="stylesheet" href="https://mdl.wtf/css/style.css">
+    <link rel="shortcut icon" href="https://mdl.wtf/images/favicon.ico" type="image/x-icon">
+
+  </head>
+  <body>
+     <div class="mdl-top single">
+
+         <div class="mdl-top__wrapper">
+         	 <a class="mdl-top__teleg" href="https://t.me/MDL_Talent_Hub"><img class="mdl-top__teleg-item" src="https://mdl.wtf/images/mdl_telegram.svg" alt=""></a>
+         	 <a class="mdl_logo-link" href="/"><img class="mdl_logo" src="https://mdl.wtf/images/mdl_logo.png" alt="MDL logo"></a>
+         	 
+            <select name="" id="mdl_lang">
+   <option class = "/" value="/">en</option>
+   <option class = "ru" value="/ru">ру</option>
+   <option class = "es" value="/es">es</option>
+   <option class = "de" value="/de">de</option>
+   <option class = "id" value="/id">id</option>
+   <option class = "zh" value="/zh">简体</option>
+   <option class = "zh-hant" value="/zh-hant">繁體</option>
+   <option class = "kr" value="/kr">한글</option>
+   <option class = "ja" value="/ja">日本語</option>
+   <option class = "ar" value="/ar">عربي</option>
+</select>
+
+         </div>
+          
+    </div>
+	
+	<div class="demo-layout mdl-layout mdl-js-layout">
+    <main class="demo-main mdl-layout__content mdl-blog-single">
+        <div class="demo-container mdl-grid">
+            <div class="mdl-cell mdl-cell--12-col">
+                <div class="mdl-picture__posts-wrapper">
+                    <div class="mdl-picture__posts top-posts">
+                        <div class="mdl-picture__post top-post">
+	
+	<div class="mdl-picture__post-image-wrapper">
+		<img src="https://mdl.wtf/images/80/2018-05-04-development-update.jpg" alt="MDL Development Strategy" class="mdl-picture__post-image">
+	</div>
+	
+	<h1 class="mdl-picture__post-title">MDL Development Strategy</h1>
+	<p class="mdl-picture__post-date">May 3, 2018</p>
+</div>
+                    </div>
+                </div>
+
+                <div class="mdl-single-posts__wrapper">
+                    <div class="mdl-single-posts">
+                        
+
+<h2 id="mdl-development-strategy">MDL Development Strategy</h2>
+
+<p>Development team at MDL have been working really hard to deliver the MVP, and the Architecture team has delivered
+UML diagrams that offers a number of benefits for our internal organization.</p>
+
+<p>The Unified Modeling Language (UML) will help us to model MDL systems and help us to build software
+that is designed to be simple and easy to use.</p>
+
+<p>At MDL, we are using UML diagrams because:</p>
+
+<ul>
+<li>Its a great way to illustrate information systems, no matter how simple or complex.</li>
+<li>Help us to better understand the general overview of the schematics of an application.</li>
+<li>To visually express any specific needs of a system and disseminate that information throughout the business.</li>
+<li>Create detailed specifications and highlight any specific functionality that need to be programmed / implemented to the described structure.</li>
+<li>Provide an implementation-independent description used in a system that are later passed between its components.</li>
+</ul>
+
+<p>Well, this points are valid. But why do we need to document everything with UML ?
+The answer is simple, Cost saving.</p>
+
+<h2 id="mdl-is-saving-on-software-maintenance-costs">MDL is saving on software maintenance costs</h2>
+
+<p>The cost of software maintenance is rising dramatically.
+In fact studies are reporting that nowadays software maintenance accounts for more than 90% of the total cost of software.</p>
+
+<p>So bare with me here, because there are are several reasons for this.</p>
+
+<p>Software systems become hard to maintain over time, while every day more and more software is being produced.</p>
+
+<p>When the documentation is lacking or incomplete, information gets lost. It costs time and effort to recover that back.
+Furthermore, systems tend to become increasingly complex. This makes extending a system difficult and costly.</p>
+
+<p>Rebuilding a system is also not an option, it will incur high costs, as the system that needs to be replaced can become very large,
+the test coverage unknown and the original and modified requirements are not well documented, nobody knows how its really supposed to work.</p>
+
+<p><img src="/images/uml/costs_evidence1.png" alt="" /></p>
+
+<p>To perform proper maintenance on a existing software a number of different activities should be performed.</p>
+
+<p>The key issue that needs to be dealt with is limited understanding. In other words,
+how quickly a software engineer can understand where to make a change or correction in software.</p>
+
+<p>40-60% of the maintenance effort is devoted to this task, If the code is not documented and the architecture is defined. In practice, this means that 60% of the time a Developer will spend working is wasted on looking for the problem, rather then solving the problem.</p>
+
+<h2 id="continuous-integration-and-continuous-deployment">Continuous integration and continuous deployment</h2>
+
+<p>At MDL, we have decided to take this seriously and start to save costs and improve quality.
+What we are building is a practical and integrated approach that is able to identify problems as early as possible, and allow us to produce the best possible software.</p>
+
+<p><img src="/images/uml/uml-technology-environment.jpg" alt="" /></p>
+
+<h2 id="summary">Summary</h2>
+
+<p>We have presented several ways to not only save software maintenance costs, but prevent delays and deliver the best product our customers well deserve.
+Our strategy is based on empirical studies. We have chosen a practical solution for establishing continuous incremental improvement
+and thus lowering software maintenance costs.</p>
+
+<p>Furthermore, we described the unique state-of-the-art capabilities of our Architecture.</p>
+
+<p>Finally, using an integrated approach, we presented the financial benefits for your business, which, as we have seen, can be
+substantial.</p>
+
+<h2 id="call-to-action">Call to action</h2>
+
+<p>After reading this post one thing should be clear.
+Saving on maintenance costs will never be achieved with one major action, this is a team effort and everyone is responsible.</p>
+
+<p>Our integrated approach should institutionalized in the company’s own software maintenance area.</p>
+
+<p>The practical information on software combined with the a great and supportive technology is the right approach
+that will allow us to reduce software maintenance costs and keep it low in a sustainable way, at the same time as we deliver a great product for our customers.</p>
+
+<p>Keep an eye on the next posts, where we will explain how the MDL team will build this great architecture, together we are stronger.</p>
+
+<h2 id="authors">Authors</h2>
+
+<ul>
+<li>Thomas Modeneis - Chief Architect</li>
+<li>Ivens F. V. Signorini - Backend Developer</li>
+</ul>
+
+
+                        <div class="clearfix">
+                            <div class="next_wrapper">
+                                <a href="" class="mdl-random_post">Next article</a>
+                            </div>
+                        </div>
+
+                        <div class="mdl-picture__posts top-post ">
+
+                            
+                            <div class="mdl-picture__post">
+  <a href="https://mdl.wtf/en/2018-05-04-mdl-development-strategy/">
+    
+    <div class="mdl-picture__post-image-wrapper">
+      <img src="https://mdl.wtf/images/80/2018-05-04-development-update.jpg" alt="MDL Development Strategy" class="mdl-picture__post-image">
+    </div>
+    
+    <h2 class="mdl-picture__post-title">MDL Development Strategy</h2>
+    <p class="mdl-picture__post-date">May 3, 2018</p>
+  </a>
+</div>
+
+
+                            
+                            <div class="mdl-picture__post">
+  <a href="https://mdl.wtf/en/2018-04-24-stage_1_ito_is_over/">
+    
+    <div class="mdl-picture__post-image-wrapper">
+      <img src="https://mdl.wtf/images/2018-04-24-stage_1_ITO_is_over.jpg" alt="The 1st stage of MDL ITO nearly reached hardcap!" class="mdl-picture__post-image">
+    </div>
+    
+    <h2 class="mdl-picture__post-title">The 1st stage of MDL ITO nearly reached hardcap!</h2>
+    <p class="mdl-picture__post-date">April 24, 2018</p>
+  </a>
+</div>
+
+
+                            
+                            <div class="mdl-picture__post">
+  <a href="https://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/">
+    
+    <div class="mdl-picture__post-image-wrapper">
+      <img src="https://mdl.wtf/images/2018-04-16-investors-can-now-swap-their-waves-tokens.png" alt="Early MDL investors can now swap their waves tokens!" class="mdl-picture__post-image">
+    </div>
+    
+    <h2 class="mdl-picture__post-title">Early MDL investors can now swap their waves tokens!</h2>
+    <p class="mdl-picture__post-date">April 16, 2018</p>
+  </a>
+</div>
+
+
+                            
+                        </div>
+
+                        <div class="prv_wrapper">
+                            <a href="/en/2018-04-24-stage_1_ito_is_over" class="view-all-posts">Previous article</a>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+    </main>
+</div>
+<div class="mdl-layout" >
+    <div id="comentarismo-plugin" class="mdl-layout-coment "></div>
+</div>
+<script src="https://api.comentarismo.com/static/js/build/comentarismo-client.js"></script><script type="text/javascript">
+    (function (d) {
+        if(window.parent.document.getElementById('iFrameResizer0')){parent.location.href=parent.location.href+"#comentarismo-plugin"}
+        var v = '{' +
+        'icons:{' +
+        'commenticon: "<i class=\'material-icons dp48\'>comment</i>",' +
+        'thumbsup: "//api.comentarismo.com/static/img/thumbs-up.jpg",' +
+        'thumbsdown: "//api.comentarismo.com/static/img/thumbs-down.jpg",' +
+        'replybtn: "//api.comentarismo.com/static/img/comentarismo_reply.jpg",' +
+        'replybtn_style: "width: 10px;height: 10px;"' +
+        '},' +
+        'host: "api.comentarismo.com",' +
+        'css: "//api.comentarismo.com/static/css/custom.css",' +
+        'debug: "true",' +
+        'table: "commentaries",' +
+        'forum: "comentarismo",'+
+        'operator: "https://mdl.wtf",'+
+        'key: "80skGmBtNMISKRgJiipPoB2WXBq29eCmXjoeTx6xTLvFEZL8heFhFgGGz2jS8Jkr_VGb5UAfJo1frYxM8xXO5ATMqjWax8dVX1r5ePuMM60LSMjwwlFwWZ_F"'+
+        '}';
+        var init5 = '<head><script src="//api.comentarismo.com/static/js/build/comentarismo-client.js"></\script>' +
+            '</head>' +
+            '<body><div class="container comentarismo-container" id="comentarismo-container"></div></body>' +
+            '<script>(function(d){var comentarismo=new Comentarismo(' + v + ');comentarismo.connect(); })(document);</\script>';
+        var plugin = document.getElementById("comentarismo-plugin");
+        var iframe = plugin.appendChild(d.createElement('iframe')),
+            doc = iframe.contentWindow.document;
+        iframe.style.cssText = "margin-top:4rem;border:0;position:inherit;width:100%;height:100vh;left:0px";
+        doc.open();
+        doc.write(init5);
+        doc.close();
+        iFrameResize.iframeResizer({log:false, checkOrigin:false}, iframe)
+    })(document);
+</script>
+
+
+<div class="mdl-layout_container">
+
+			<footer>
+				<a class = "link-f" href="https://t.me/MDL_Talent_Hub">Telegram</a>
+				<h2><a href="/">MDL<span> talent hub</span></a></h2>
+			</footer>
+
+</div>
+
+ <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "https://mdl.wtf/js/custom.js"></script>
+
+
+
+  </body>
+</html>
