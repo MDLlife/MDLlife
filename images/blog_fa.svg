@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>bebo-logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="76.6205026%" cy="31.6759356%" fx="76.6205026%" fy="31.6759356%" r="107.151835%" gradientTransform="translate(0.766205,0.316759),rotate(129.600374),scale(1.000000,0.966691),translate(-0.766205,-0.316759)" id="radialGradient-1">
+            <stop stop-color="#FF2AC7" offset="0%"></stop>
+            <stop stop-color="#0042CB" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Desktop-HD-Copy-23" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-1324.000000, -2333.000000)">
+        <g id="bebo-logo" transform="translate(1324.000000, 2333.000000)">
+            <circle id="Oval-4" fill="url(#radialGradient-1)" cx="19" cy="19" r="19"></circle>
+            <path d="M20.035,14.551 C18.389,14.551 16.855,15.049 15.585,15.898 C15.585,15.898 15.585,10.213 15.585,9.979 C15.585,8.886 14.823,8 13.731,8 C12.638,8 12,8.886 12,9.979 L12,22.587 C12,27.025 15.597,30.624 20.035,30.624 C24.47,30.624 28.071,27.025 28.071,22.587 C28.07,18.15 24.47,14.551 20.035,14.551 Z M20.035,27.038 C17.577,27.038 15.585,25.045 15.585,22.587 C15.585,20.129 17.577,18.137 20.035,18.137 C22.494,18.137 24.486,20.129 24.486,22.587 C24.486,25.045 22.494,27.038 20.035,27.038 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
