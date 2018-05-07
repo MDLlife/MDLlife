@@ -213,7 +213,7 @@
 
 @media (max-width: 768px) {
   #instruments {
-    padding-bottom: 140px; }
+    padding-bottom: 40px; }
     #instruments .instruments__title {
       font-size: 28px; }
     #instruments .instruments__bubble {

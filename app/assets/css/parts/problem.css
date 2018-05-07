@@ -161,7 +161,8 @@
   .section-wrapper-second {
     top: 0 !important; }
   #problem {
-    padding-top: 140px; }
+    padding-top: 40px;
+    padding-bottom: 40px; }
     #problem .problem__title {
       font-size: 28px; }
     #problem .problem__bubble, #problem .problem__bubble-second {

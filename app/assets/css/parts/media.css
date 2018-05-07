@@ -168,31 +168,35 @@
         margin-right: 0; } }
 
 @media (max-width: 768px) {
-  #media .media__title {
-    font-size: 28px; }
-  #media .media__item--first-row {
-    width: 100%;
-    text-align: center; }
-    #media .media__item--first-row .media__item--first--item {
-      margin-bottom: 10px; }
-  #media .media__item--wrapper {
-    width: 275px;
-    position: relative; }
-    #media .media__item--wrapper .media__item--link {
-      margin: 15px auto !important;
-      display: inline-block;
-      top: 0 !important;
-      left: 0 !important; }
-      #media .media__item--wrapper .media__item--link:nth-child(11) {
-        width: 160px; }
-      #media .media__item--wrapper .media__item--link:nth-child(8) {
-        width: 120px; }
-      #media .media__item--wrapper .media__item--link:nth-child(7) {
-        width: 140px; }
-      #media .media__item--wrapper .media__item--link:nth-child(2) {
-        width: 178px; }
-      #media .media__item--wrapper .media__item--link:nth-child(1) {
-        position: absolute;
-        display: block;
-        top: 65px !important;
-        right: -171px; } }
+  #media {
+    padding: 45px 0; }
+    #media .media__title {
+      font-size: 28px; }
+    #media .media__separator {
+      margin-bottom: 40px; }
+    #media .media__item--first-row {
+      width: 100%;
+      text-align: center; }
+      #media .media__item--first-row .media__item--first--item {
+        margin-bottom: 10px; }
+    #media .media__item--wrapper {
+      width: 275px;
+      position: relative; }
+      #media .media__item--wrapper .media__item--link {
+        margin: 15px auto !important;
+        display: inline-block;
+        top: 0 !important;
+        left: 0 !important; }
+        #media .media__item--wrapper .media__item--link:nth-child(11) {
+          width: 160px; }
+        #media .media__item--wrapper .media__item--link:nth-child(8) {
+          width: 120px; }
+        #media .media__item--wrapper .media__item--link:nth-child(7) {
+          width: 140px; }
+        #media .media__item--wrapper .media__item--link:nth-child(2) {
+          width: 178px; }
+        #media .media__item--wrapper .media__item--link:nth-child(1) {
+          position: absolute;
+          display: block;
+          top: 65px !important;
+          right: -171px; } }

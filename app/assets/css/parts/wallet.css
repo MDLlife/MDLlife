@@ -483,7 +483,7 @@
         left: unset;
         display: none; } }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   #wallet .wallet__wrapper {
     width: 100%;
     margin-left: 0;
@@ -514,13 +514,14 @@
     #wallet .wallet__separator {
       margin: 45px auto; }
     #wallet .wallet__wrapper {
-      padding-top: 70px;
+      padding-top: 35px;
       width: 100%;
       margin: 0 auto;
       position: static; }
       #wallet .wallet__wrapper .wallet__left-part {
         width: 100%;
-        margin: 0 auto; }
+        margin: 0 auto;
+        padding: 0 40px; }
         #wallet .wallet__wrapper .wallet__left-part .end-date, #wallet .wallet__wrapper .wallet__left-part .start-date {
           text-align: left;
           padding-left: 17px;
@@ -550,22 +551,22 @@
             font-weight: 400;
             z-index: 3; }
           #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
-            left: 35px;
-            top: 614px; }
+            left: 170px;
+            top: 590px; }
             #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1):before {
               bottom: -32px;
               left: -10px; }
           #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2) {
-            top: 614px;
+            top: 590px;
             left: 50%;
             margin-left: -20px; }
             #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2):before {
               bottom: -32px;
               left: -14px; }
           #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
-            top: 614px;
+            top: 590px;
             left: unset;
-            right: 35px; }
+            right: 170px; }
             #wallet .wallet__wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3):before {
               bottom: -32px;
               left: -8px; }
@@ -657,7 +658,8 @@
           font-size: 16px; }
         #wallet .wallet__wrapper .wallet__right-part ul {
           margin-top: 35px;
-          padding-left: 0; }
+          padding-left: 40px;
+          padding-right: 40px; }
           #wallet .wallet__wrapper .wallet__right-part ul li {
             max-width: 330px;
             margin-bottom: 18px;
@@ -698,37 +700,49 @@
             #wallet .ito-structure .stage .stage-legend .sl-list .sl-list-item:before {
               width: 80px; } }
 
+@media (max-width: 600px) {
+  #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
+    left: 25px; }
+  #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
+    right: 25px; } }
+
 @media (max-width: 350px) {
-  #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title {
-    text-align: center;
-    margin-bottom: 35px; }
-    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:before {
-      opacity: 1;
-      top: unset;
-      font-size: 12px;
-      width: 60px;
+  #wallet .wallet__content--wrapper .wallet__left-part {
+    padding: 0 20px; }
+    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title {
       text-align: center;
-      font-weight: 400;
-      z-index: 3; }
-    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
-      left: 35px;
-      top: 550px; }
-      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1):before {
-        bottom: -32px;
-        left: -10px; }
-    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2) {
-      top: 550px;
-      left: 50%;
-      margin-left: -20px; }
-      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2):before {
-        bottom: -32px;
-        left: -14px; }
-    #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
-      top: 550px;
-      left: unset;
-      right: 35px; }
-      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3):before {
-        bottom: -32px;
-        left: -8px; }
-  #wallet .wallet__content--wrapper .wallet__right-part ul li {
-    font-size: 10px; } }
+      margin-bottom: 35px; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:before {
+        opacity: 1;
+        top: unset;
+        font-size: 12px;
+        width: 60px;
+        text-align: center;
+        font-weight: 400;
+        z-index: 3; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1) {
+        left: 35px;
+        top: 550px; }
+        #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(1):before {
+          bottom: -32px;
+          left: -10px; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2) {
+        top: 550px;
+        left: 50%;
+        margin-left: -20px; }
+        #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(2):before {
+          bottom: -32px;
+          left: -14px; }
+      #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3) {
+        top: 550px;
+        left: unset;
+        right: 35px; }
+        #wallet .wallet__content--wrapper .wallet__left-part .wallet__left-part--title .icobazar-link:nth-child(3):before {
+          bottom: -32px;
+          left: -8px; }
+  #wallet .wallet__content--wrapper .wallet__right-part ul {
+    padding: 0 20px; }
+    #wallet .wallet__content--wrapper .wallet__right-part ul li {
+      font-size: 10px; }
+  #wallet .wallet__content--wrapper .ito-structure .stage {
+    width: 300px; } }
