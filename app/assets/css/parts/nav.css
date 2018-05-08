@@ -59,7 +59,7 @@
     top: 5px;
     width: 150px;
     height: 59px; }
-    @media (min-width: 768px) {
+    @media (min-width: 769px) {
       #nav-main .nav__logo {
         display: none; } }
     #nav-main .nav__logo:hover .nav__logo--image {

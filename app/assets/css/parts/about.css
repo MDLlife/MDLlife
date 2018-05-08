@@ -159,7 +159,7 @@
     #about .b-h-a-t {
       display: none; }
     #about .about__content--wrapper {
-      padding: 90px 0 115px 0;
+      padding: 35px 0 35px 0;
       position: static;
       margin: unset;
       height: auto; }
@@ -168,10 +168,13 @@
               box-shadow: none; }
       #about .about__wrapper .about__text-block--desc {
         margin: 0 auto;
-        width: 235px;
         font-size: 14px;
         left: 0;
-        text-align: left; }
+        text-align: center;
+        width: 100%;
+        padding: 0 20px; }
+        #about .about__wrapper .about__text-block--desc br {
+          display: none; }
       #about .about__wrapper .about__text-block--title {
         font-size: 28px; }
     #about #about__video-block--wrappper {
@@ -193,7 +196,7 @@
       #about #about__video-block #video-preview {
         display: block;
         margin: 0 auto;
-        width: 310px;
         height: 325px;
         -o-object-fit: cover;
-           object-fit: cover; } }
+           object-fit: cover;
+        padding: 0 30px; } }

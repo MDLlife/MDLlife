@@ -374,12 +374,14 @@
 @media (max-width: 768px) {
   #income {
     top: 0;
-    height: 1250px;
+    height: 1060px;
     padding: 0;
     z-index: 200001;
     background-color: transparent;
     -webkit-box-shadow: none;
             box-shadow: none; }
+    #income.ru {
+      height: 1130px; }
     #income .income-wrapper .income-menu.ru {
       width: 215px; }
       #income .income-wrapper .income-menu.ru li {
@@ -390,7 +392,7 @@
           -ms-transform: translateY(-30px) rotate(0deg) translateX(30px) scale(0.9);
               transform: translateY(-30px) rotate(0deg) translateX(30px) scale(0.9); }
     #income .income-wrapper .income__content-wrapper {
-      padding-top: 140px;
+      padding-top: 35px;
       height: 100%;
       width: 100%;
       top: 0;
@@ -399,7 +401,7 @@
       margin-top: 0; }
     #income .income-wrapper .income-cards {
       margin: 0 auto;
-      max-width: 310px; }
+      max-width: 460px; }
       #income .income-wrapper .income-cards.ru .income-card .income-image-wrapper .income-legend.second {
         right: -50px !important;
         bottom: 33px; }
@@ -409,12 +411,12 @@
         #income .income-wrapper .income-cards.ru .income-card .income-text-wrapper .income-desc {
           font-size: 14px; }
       #income .income-wrapper .income-cards .income-card {
-        width: 310px;
-        height: 800px; }
+        width: 100%;
+        height: 720px; }
         #income .income-wrapper .income-cards .income-card.third .income-text-wrapper .income-desc {
           font-size: 14px; }
         #income .income-wrapper .income-cards .income-card .income-image-wrapper {
-          right: 70px; }
+          right: 145px; }
           #income .income-wrapper .income-cards .income-card .income-image-wrapper .income-text.insurance {
             bottom: 70px;
             left: -31px; }
@@ -424,3 +426,19 @@
           width: 90%;
           left: 0 !important;
           top: 340px; } }
+
+@media (max-width: 460px) {
+  #income.ru {
+    height: 1260px; }
+  #income .income-wrapper .income__title {
+    padding: 0 10px; }
+  #income .income-wrapper .income-cards {
+    max-width: 325px; }
+    #income .income-wrapper .income-cards.ru .income-card {
+      height: 820px; }
+    #income .income-wrapper .income-cards.kr .income-card {
+      height: 740px; }
+    #income .income-wrapper .income-cards .income-card {
+      width: 320px; }
+      #income .income-wrapper .income-cards .income-card .income-image-wrapper {
+        right: 70px; } }

@@ -1240,7 +1240,8 @@
       display: none; }
   #header__social-links {
     left: 10px;
-    bottom: 10px; }
+    bottom: 10px;
+    z-index: 300000; }
     #header__social-links .header__social-links--item {
       width: 35px;
       height: 35px; }
@@ -1248,7 +1249,7 @@
         height: 35px;
         width: 35px; } }
 
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 769px) and (max-width: 991px) {
   #main-header .header__content--wrapper .header__left-part {
     left: 4vw; }
   #main-header .header__content--wrapper .header__right-part {
