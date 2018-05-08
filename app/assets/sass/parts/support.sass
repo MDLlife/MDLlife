@@ -1,0 +1,76 @@
+@import "../fonts.sass"
+
+#support
+	padding: 100px 0 5px 0
+	.support__title
+		font-family: $gilroy_light
+		font-size: 48px
+		font-style: normal
+		font-stretch: normal
+		line-height: 1.02
+		letter-spacing: normal
+		text-align: center
+		color: #1f0738
+	.support__separator
+		margin: 45px auto 45px
+		width: 70px
+		height: 3px
+		background-color: #ff2394
+	.support__sub-title
+		margin-bottom: 16px	
+		font-family: $gilroy_light
+		font-weight: 600
+		font-size: 20px
+		font-style: normal
+		font-stretch: normal
+		line-height: 1.02
+		letter-spacing: normal
+		text-align: center
+		color: #1f0738
+		&.second
+			margin-top: 60px
+	.support-row
+		position: relative
+		margin: 0 auto
+		max-width: 995px
+		text-align: center
+		.support-item
+			position: relative
+			display: inline-block
+			height: 140px
+			width: 220px
+			margin: 28px 32px 0 0
+			vertical-align: top
+			box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.5)
+			&:hover
+				.support-img
+					transform: scale(1.25)
+			&:nth-child(4n)
+				margin-right: 0
+			.support-img
+				display: block
+				position: absolute
+				left: 50%
+				top: 50%
+				width: 150px
+				height: 51px
+				margin: -25px 0 0 -75px
+				object-fit: contain
+				transition: all 0.5s ease-out
+
+@media (max-width: 991px)
+	#support
+		.support-row
+			.support-item
+				&:nth-child(4n)
+					margin-right: 32px
+				&:nth-child(3n)
+					margin-right: 0
+@media (max-width: 768px)
+	#support
+		.support__title
+			font-size: 28px
+		.support-row
+			.support-item
+				margin: 28px auto 0 !important
+
