@@ -18,7 +18,13 @@ $(document).ready(function(){
     formInit();
     customizeSelect($('#langs-list'));
     circleLang();
-    incomeCards($('.income-cards'));
+
+    if(window.screen.width > 768 || window.innerWidth > 768 || window.screen.availWidth > 768){
+        incomeCards($('.income-cards'));
+    } else {
+        incomeMobile();
+    }
+    
     incomeEvents();
     checkGetMDL();
     mob_video();
@@ -531,6 +537,32 @@ function incomeEvents(){
         }
         if($(this).hasClass('third')){
             $('.income-card:eq(2)').trigger('click');
+            $(this).addClass('active');
+            $('#income-menu li.first').removeClass('active');
+            $('#income-menu li.second').removeClass('active');
+        }
+    });
+}
+
+function incomeMobile () {
+    $('#income-menu li').click(function(){
+        if($(this).hasClass('first')){
+            $('.income-card').fadeOut();
+            $('.income-card:eq(0)').fadeIn();
+            $(this).addClass('active');
+            $('#income-menu li.second').removeClass('active');
+            $('#income-menu li.third').removeClass('active');
+        }
+        if($(this).hasClass('second')){
+            $('.income-card').fadeOut();
+            $('.income-card:eq(1)').fadeIn();
+            $(this).addClass('active');
+            $('#income-menu li.first').removeClass('active');
+            $('#income-menu li.third').removeClass('active');
+        }
+        if($(this).hasClass('third')){
+            $('.income-card').fadeOut();
+            $('.income-card:eq(2)').fadeIn();
             $(this).addClass('active');
             $('#income-menu li.first').removeClass('active');
             $('#income-menu li.second').removeClass('active');
