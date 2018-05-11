@@ -33,7 +33,11 @@
 		position: relative
 		margin: 0 auto
 		max-width: 995px
-		text-align: center
+		text-align: justify
+		&:after
+			content: ""
+			display: inline-block
+			width: 220px
 		.support-item
 			position: relative
 			display: inline-block
@@ -57,6 +61,12 @@
 				margin: -25px 0 0 -75px
 				object-fit: contain
 				transition: all 0.5s ease-out
+		&:nth-of-type(3)
+			.support-item
+				.support-img
+					width: 110px
+					height: 80px
+					margin: -40px 0 0 -55px
 
 @media (max-width: 991px)
 	#support
@@ -71,6 +81,9 @@
 		.support__title
 			font-size: 28px
 		.support-row
+			text-align: center
+			&:after
+				width: 0
 			.support-item
 				width: 140px
 				height: 100px
