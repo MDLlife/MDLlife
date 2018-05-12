@@ -535,6 +535,8 @@
       width: 25%;
       position: absolute;
       text-align: left; }
+    #main-header .header__right-part.ito-wait .dhms_item.days .number {
+      left: -10px; }
     #main-header .header__right-part.ito-wait .dhms_item.days .number-type {
       left: -10px; }
     #main-header .header__right-part.ito-wait .dhms_item.hours {

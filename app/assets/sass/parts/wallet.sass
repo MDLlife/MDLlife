@@ -6,7 +6,7 @@
 	z-index: 10003
 	width: 100%
 	height: 100vh
-	min-height: 1450px
+	min-height: 1950px
 	top: 100vh
 	text-align: center
 	.wallet__content--wrapper
@@ -40,10 +40,10 @@
 		left: 50%
 		top: 50%
 		margin-left: -450px
-		margin-top: -650px
+		margin-top: -850px
 		z-index: 1
 		width: 900px
-		height: 1300px
+		height: 1703px
 		background-color: transparent
 		box-shadow: 0 2px 19px 0 rgba(0, 0, 0, 0.15)
 		.wallet__left-part
@@ -73,12 +73,11 @@
 			.wallet__left-part--title
 				position: relative	
 				margin-bottom: 24px
-				font-size: 22px
-				text-align: left
-				font-family: $sans
-				font-weight: 600
-				letter-spacing: 0.45px
 				color: white
+				font-family: $gilroy_light
+				font-weight: 600
+				font-size: 24px
+				text-align: left
 				.icobazar-link
 					display: block
 					position: absolute
@@ -172,20 +171,19 @@
 				display: inline-block
 		.wallet__right-part
 			.wallet__right-part--title
-				font-size: 22px
-				text-align: left
-				font-family: $sans
-				font-weight: 600
-				letter-spacing: 0.45px
 				color: white
+				font-family: $gilroy_light
+				font-weight: 600
+				font-size: 24px
+				text-align: left
 			ul
-				margin-top: 80px
+				margin-top: 41px
 				list-style: none
 				padding-left: 0
 				li
 					text-align: left
 					font-size: 16px
-					height: 60px
+					margin-bottom: 10px
 					opacity: 0.75
 					color: white
 					&:nth-child(1)
@@ -202,180 +200,143 @@
 				display: inline-block
 				vertical-align: bottom
 				width: 49%
-				top: -14px
+				top: -10px
 				span.mobile
 					display: none
 				&.one
 					left: -40px
+	
 	.ito-structure
-		margin-top: 30px
-		position: relative
-		left: -75px
-		width: 1000px
-		.is-choser
-			display: none
-			@media(max-width: 991px)
-				display: block
-		.is-wrapper
-			position: relative
-			width: 1000px
-		.is-title
-			padding-left: 49px
-			margin-bottom: 65px
-			width: 100%
+		width: 726px
+		margin: 30px auto 0
+		&__title
+			color: white
+			font-family: $gilroy_light
+			font-weight: 600
+			font-size: 24px
+	
+	.diagram
+		margin-top: 40px
+	.diagram__caps
+		margin-bottom: 13px
+		text-align: left
+	.diagram__caps-name
+		display: inline-block
+		margin-right: 36px
+		color: #dc019d
+		font-family: $sans
+		font-weight: 400
+		font-size: 16px
+	.timeline
+		width: 726px
+		height: 72px	
+		margin: 0 auto
+		border: 1px solid white
+		text-align: left
+		&__stage
+			height: 100%
+			display: inline-block
 			text-align: center
-			font-size: 22px
-			letter-spacing: 0.4px
+			vertical-align: top
+			&:nth-child(1)
+				padding: 22px 0
+				width: 168px
+				border-right: 1px solid white
+				background-color: #ff028f
+			&:nth-child(2)
+				position: relative
+				left: -4px
+				padding: 22px 0
+				width: 166px
+				border-right: 1px solid white
+				background: rgba(255,2,141,1);
+				background: -moz-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
+				background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,2,141,1)), color-stop(100%, rgba(188,1,138,1)))
+				background: -webkit-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
+				background: -o-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
+				background: -ms-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
+				background: linear-gradient(to right, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff028d', endColorstr='#bc018a', GradientType=1 )
+			&:nth-child(3)
+				padding: 8px 0
+				width: 380px
+		&__text
 			color: white
 			font-family: $sans
 			font-weight: 600
-		.stage
-			position: relative
-			width: 360px
-			height: 320px
+			font-size: 20px
+		&__sub-text
+			display: block
+			color: rgba(255,255,255, .5)
+			font-family: $sans
+			font-weight: 600
+			font-size: 14px
+
+	.legend
+		margin-top: 22px
+		text-align: justify
+		&__text-block
 			display: inline-block
-			&.second
-				opacity: 1 !important
-				left: 55px
-			&.third
-				left: 100px
-			&.non-active
-				width: 268px
-				opacity: 0.24
-				.stage-counter
-					width: 46px
-					.sc-counter
-						width: 46px
-						.sc-price
-							font-size: 12px
-							&.first
-								left: 3px
-							&.second
-								left: 6px
-					.stage-number
-						left: 0
-			.stage-legend
-				position: absolute
-				left: 0
-				.sl-title
-					position: relative
-					top: -6px
-					text-align: left
-					font-size: 18px
-					letter-spacing: 0.3px
-					color: white
-					font-family: $sans
-					font-weight: 600
-				.sl-list
-					padding-left: 0
-					list-style: none
-					.sl-list-item
-						line-height: 33px
-						text-align: left
-						font-size: 14px
-						letter-spacing: 0.3px
-						color: rgba(255,255,255,.75)
-						font-family: $sans
-						font-weight: 600
-						&:before
-							display: inline-block
-							width: 100px
-							color: rgba(255,255,255,1)
-						&:nth-child(1)
-							&:before
-								content: "Token price"
-						&:nth-child(2)
-							&:before
-								content: "Hard cap"
-						&:nth-child(3)
-							&:before
-								content: "Soft cap"
-						&:nth-child(4)
-							&:before
-								content: "Start date"
-						&:nth-child(5)
-							&:before
-								content: "End date"
-						.sl-list-item-currency
-							@media(max-width: 768px)
-								display: none
-							&.mob
-								display: none
-								@media(max-width: 768px)
-									display: inline-block
-			.stage-counter
-				width: 135px
-				height: 320px
-				position: absolute
-				right: 0
-				.sc-counter
-					position: absolute
-					left: 0
-					top: 0
-					width: 70px
-					height: 316px
-					border: 1px solid white
-					&:before
-						content: ""
-						width: 100%
-						height: 1px
-						position: absolute
-						left: 0
-						top: 81px
-						background-color: white
-					.total-stage-counter
-						position: absolute
-						z-index: 0
-						bottom: 0
-						width: 100%
-						background-color: #c72897
-					.sc-price
-						text-align: center
-						position: absolute
-						z-index: 1
-						font-family: $sans
-						font-weight: 400
-						font-size: 14px
-						color: white
-						&.first
-							left: 12px
-							top: 34px
-						&.second
-							bottom: 92px
-							left: 12px
-				.stage-number
-					display: block
-					width: 50px
-					position: absolute
-					bottom: -24px
-					left: 12px
-					font-family: $sans
-					font-weight: 400
-					font-size: 14px
-					color: white
-				.sc-legend
-					position: absolute
-					right: -10px
-					top: 0
-					height: 320px
-					width: 62px
-					.sc-legend-ach
-						position: absolute
-						left: 0
-						display: block
-						font-family: $sans
-						font-weight: 400
-						font-size: 14px
-						color: white
-						text-align: left
-						&.first
-							top: -6px
-						&.second
-							top: 77px
-						&.third
-							bottom: 139px
-						#sc-legend-raised-first
-							color: #c72897
+			margin-right: 45px
+			&:nth-child(6)
+				margin-right: 38px
+			&:nth-child(7)
+				margin-right: 35px
+		&__text
+			color: #bbb
+			font-family: $sans
+			font-weight: 400
+		&__sub-text
+			color: white
+			font-family: $sans
+			font-weight: 600
+	
+	.token-price
+		margin-top: 65px
+		&__title
+			color: white
+			font-family: $gilroy_light
+			font-weight: 600
+			font-size: 24px
+
+	.token-price-table
+		margin-top: 40px
+		&__inner
+			width: 100%
+			border: 1px solid rgba(255,255,255,1)
+		&__col,&__head-col
+			width: 25%
+			padding: 10px 0 9px 14px
+			text-align: left
+			border-bottom: 1px solid rgba(255,255,255,.45)
+			border-right: 1px solid rgba(255,255,255,.45)
+			&:last-child
+				border-right: none
+		&__row
+			&:last-child
+				.token-price-table__col
+					border-bottom: none
+		&__head-col
+			color: white
+			font-family: $sans
+			font-weight: 600
+			font-size: 16px
+		&__date
+			font-size: 12px
+			color: #FD028F
+		&__col
+			color: rgba(255,255,255, .7)
+			font-family: $sans
+			font-weight: 400
+			font-size: 16px
+			&.non-opacity
+				color: rgba(255,255,255, 1)
+		&__mob-value
+			display: none
+		&__dec-value
+			display: block
+
+
 
 
 	.wallet-banner
@@ -431,51 +392,6 @@
 		width: 60px
 		height: 3px
 		background-color: #ef3f9e
-@media (min-width: 991px) and (max-width: 1200px)
-	#wallet
-		.ito-structure
-			left: -95px
-			.is-title
-				padding-left: 87px
-			.stage
-				&.first
-					left: 38px
-				&.third
-					left: 65px
-@media (max-width: 991px)
-	#wallet
-		.ito-structure
-			width: auto
-			left: unset
-			.is-title
-				margin-bottom: 50px
-			.is-choser
-				margin-bottom: 53px
-				.isc-list
-					padding-left: 0px
-					list-style: none
-					.isc-item
-						display: inline-block
-						color: white
-						font-family: $sans
-						font-weight: 300
-						margin-right: 10px
-						&.active
-							font-weight: 700
-						&:last-child
-							margin-right: 0
-			.is-wrapper
-				width: auto
-				left: unset
-			.is-title
-			.stage
-				display: block
-				left: unset
-				right: unset
-				margin: 0 auto
-				&.second,&.third
-					left: unset
-					display: none
 @media (min-width: 769px) and (max-width: 991px)
 	#wallet
 		.wallet__wrapper
@@ -490,13 +406,20 @@
 				margin: 0 auto
 				width: 280px
 				.wallet__button.one
-					left: -80px
+					left: -60px
 				.wallet__button.two
-					left: -50px
+					left: -25px
+		.ito-structure
+			width: 690px
+		.timeline
+			width: 690px
+			&__stage
+				&:nth-child(3)
+					width: 345px
 @media (max-width: 768px)
 	#wallet
 		top: 0
-		min-height: 1635px
+		min-height: 2235px
 		padding: 0
 		.wallet__content--wrapper
 			background-image: none
@@ -614,10 +537,11 @@
 							&:nth-child(7)
 								&:before
 									content: "Min individual cap"
+
 									
 			.wallet-banner
 				position: relative
-				top: 165px
+				top: 115px
 				padding: 8px 10px 8px 10px
 				width: 90%
 				.wb-first
@@ -681,30 +605,71 @@
 					width: 125px
 		.wallet__link
 			left: 0
+
+
 		.ito-structure
-			margin-top: 0
-			top: 160px
-			.is-title
-				margin-bottom: 40px
-				text-align: center
-				padding-left: 0
-			.stage
-				width: 310px
-				.stage-counter
-					.sc-counter
-						left: -4px
-					.sc-legend
-						right: 0
-				.stage-legend
-					top: -10px
-					.sl-title
-						font-size: 16px
-						display: none
-					.sl-list
-						.sl-list-item
-							font-size: 12px
-							&:before
-								width: 80px
+			position: relative
+			top: 150px
+			width: 100%
+		.diagram
+			&__caps
+				width: 300px
+				margin: 0 auto
+			&__caps-name
+				font-size: 12px
+				margin-right: 10px
+		.timeline
+			width: 300px
+			&__stage
+				width: 32% !important
+				&:nth-child(3)
+					position: relative
+					left: -3px
+			&__text
+				font-size: 14px
+			&__sub-text
+				font-size: 12px
+		.legend
+			width: 300px
+			margin: 20px auto 0 
+			&__text-block
+				&:nth-child(1)
+					margin-right: 10px
+				&:nth-child(2)
+					margin-right: 0
+					text-align: right
+					.legend__text
+						position: relative
+						left: 5px
+				&:nth-child(3)
+					margin-right: 50px
+				&:nth-child(4)
+					margin-right: 0
+					text-align: right
+					.legend__text
+						position: relative
+						left: 5px
+				&:nth-child(6)
+					margin-right: 10px
+				&:nth-child(7)
+					margin-right: 0
+					text-align: right
+					.legend__text
+						position: relative
+						left: 5px
+		.token-price-table
+			&__inner
+				width: 283px
+				margin: 0 auto
+			&__head-col,&__col
+				font-size: 14px
+			&_mob-hidden
+				display: none
+			&__dec-value
+				display: none
+			&__mob-value
+				display: block
+
 @media (max-width: 600px)
 	#wallet
 		.wallet__content--wrapper
@@ -757,6 +722,3 @@
 					padding: 0 20px
 					li
 						font-size: 10px
-			.ito-structure
-				.stage
-					width: 300px
