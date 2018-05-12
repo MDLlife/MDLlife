@@ -258,6 +258,7 @@ function checkGetMDL(){
 }
 
 function setRaisedLegend(){
+    $('#pink-line').css('width', "100%");
     $.getJSON("/ito-stats", function(data){
         var mdl = Number(data.mdl).toFixed(0);
         var usd = Number(data.usd).toFixed(0);
@@ -266,14 +267,14 @@ function setRaisedLegend(){
         $('#raised-dollars').text(pretty_usd.join(" "));
         $('#raised-mdl').text(pretty_mdl.join(" "));
         var line_percent = (data.usd / 2500000) * 100;
-        $('#pink-line').css('width',line_percent + "%");
+        $('#pink-line').css('width', "100%");
     });
-    $.getJSON("/ito-stats", function(data){
-        var usd = (Number(data.usd).toFixed(0) / 1000000).toFixed(2);
-        $('#sc-legend-raised-first').text(usd.toString() + "M");
-        var total_percent = (data.usd / 2500000) * 100;
-        $('#total-first-stage').css('height',total_percent + "%");
-    });
+    // $.getJSON("/ito-stats", function(data){
+    //     var usd = (Number(data.usd).toFixed(0) / 1000000).toFixed(2);
+    //     $('#sc-legend-raised-first').text(usd.toString() + "M");
+    //     var total_percent = (data.usd / 2500000) * 100;
+    //     $('#total-first-stage').css('height',total_percent + "%");
+    // });
 }
 
 function doScrambleText(element,phrase){ 
@@ -1311,7 +1312,7 @@ function formInit(){
 /*---------------------*/
 /*----------TIMER-----------*/
 function get_timer() {
-   var date_t = new Date(Date.UTC(2018, 04, 15, 00, 01));
+   var date_t = new Date(Date.UTC(2018, 07, 25, 00, 01));
 
    var date = new Date(Date.now());
    var timer = date_t - date;
