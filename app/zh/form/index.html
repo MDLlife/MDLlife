@@ -7,8 +7,8 @@
 	<meta name="keywords" content="MDL,blockchain,talents,models,technology,app,IPFS">
 	<meta name="description" content="Talent Hub. Global trustchain connecting performers to gigs and brands to audiences.">
 	<title>MDL - Talent Hub</title>
-	<link rel="stylesheet" href="../../assets/css/libs.min.css?rev=5e46398ae06c577f87b9e7641a773b32">
-	<link rel="stylesheet" href="../../assets/css/main.css?rev=b3e4c17ac9820600af632870722daaa5">
+	<link rel="stylesheet" href="../../assets/css/libs.min.css?rev=@@hash">
+	<link rel="stylesheet" href="../../assets/css/main.css?rev=@@hash">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<link rel="icon" href="../img/favicon.ico" type="image/x-icon" />
 	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -145,22 +145,22 @@
 			</div>
 			<div class="white-list--content-wrapper">
 				<div class="white-list--content-item welcome">
-					<h2 class="welcome-title">Добро пожаловать на форму заявки <br> белого листа проекта МДЛ</h2>
-					<p class="welcome-desc">Данная форма исключительно для физических лиц, <br> юридическим лицам просим оставить заявку на<a href="mailto:team@mdl.life">team@mdl.life</a></p>
+					<h2 class="welcome-title">欢迎加入MDL ITO 白名单认证页面</h2>
+					<p class="welcome-desc">白名单认证只针对个人用户，机构投资请通 过 <br><a href="mailto:team@mdl.life">team@mdl.life</a>联系我们</p>
 					<!-- <p class="welcome-checkbox-wrapper"><input name = "private" type="checkbox" class="welcome-checkbox"><label for="private" id = "private-label" class="welcome-label">For Private Individuals</label></p> -->
 <!-- 					<p class="welcome-checkbox-wrapper"><input name = "institutional" type="checkbox" class="welcome-checkbox"><label for="institutional" id = "institutional-label" class="welcome-label">For Institutional Entities</label></p> -->
 					<button type="button" class="whitelist-form--next mob">Next</button>
 				</div>
 				<div class="white-list--content-item personal-information">
 					<div class="personal-information-wrapper">
-						<h2 class="pi-title">Персональная информация</h2>
+						<h2 class="pi-title">个人信息</h2>
 						<form id="main-whitelist-form" autocomplete="off">
 							<div class="pi-input--wrapper name">
-								<label for="name">ФИО (как в паспорте)</label>
+								<label for="name">护照上的全名</label>
 								<input type="text" name = "name" placeholder="Name" id = "pi-input--name" class="check-input pi-input">
 							</div>
 							<div class="pi-input--wrapper date-birth">
-								<label for="date-birth">Дата рождения</label>
+								<label for="date-birth">出生日期</label>
 								<!-- <input type="text" name = "day" id = "pi-input--day" placeholder="Day" maxlength="2" class="check-input pi-input">
 								<select name="month" id="month"></select>
 								<input type="text" name = "year" id = "pi-input--year" placeholder="Year" maxlength="4" class="check-input pi-input"> -->
@@ -172,35 +172,35 @@
 								</div>
 							</div>
 							<div class="pi-input--wrapper citizen-select">
-									<label >Гражданство</label>
+									<label >国籍</label>
 									<select name="citizen" id="citizen"></select>
 									<span class="triangle"></span>
 							</div>
 							<div class="pi-input--wrapper country-select">
-									<label >Страна пребывания</label>
+									<label >现居国家</label>
 									<select name="country" id="country"></select>
 									<span class="triangle"></span>
 							</div>
 							<div class="pi-input--wrapper email">
-								<label for="email">Электронная почта</label> 
+								<label for="email">Email</label> 
 								<input type="email" name = "email" placeholder="E-mail" id = "pi-input--email" class="check-input pi-input">
 							</div>
 							<div class="pi-input--wrapper passport-upload">
-								<label for = "passport">Скан паспорта или водительского удовстверения</label>
+								<label for = "passport">护照、身份证或公司认可的由政府机关出具的身份证明文件的复印件</label>
 								<input type="file" name = "passport" class="pi-input" id = "pi-input--passport">
-								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled file-upload-styled-passport" readonly="readonly">
+								<input type="text" placeholder = "上传(大大于15M)" class="check-input file-upload-styled file-upload-styled-passport" readonly="readonly">
 							</div>
 							<div class="pi-input--wrapper adress-proof">
-								<label for = "adress-proof">Свидетельство о прописке</label>
+								<label for = "adress-proof">居住地址证明(比如3个月的银行流水账单或公用事业帐单)</label>
 								<input type="file" name = "adress-proof" class="pi-input" id = "pi-input--adress-proof">
-								<input type="text" placeholder = "Upload (up to 15 mb)" class="check-input file-upload-styled file-upload-styled-adress" readonly="readonly">
+								<input type="text" placeholder = "上传(大大于15M)" class="check-input file-upload-styled file-upload-styled-adress" readonly="readonly">
 							</div>
 							<div class="pi-input--wrapper source">
-								<label for="source">Источник дохода</label>
+								<label for="source">资金来源说明</label>
 								<input type="text" name = "source" placeholder="" id = "pi-input--source" class="check-input pi-input">
 							</div>
 							<div class="pi-input--wrapper phone">
-								<label for="phone">Телефонный номер</label>
+								<label for="phone">电话号码</label>
 								<input type="tel" name = "phone" placeholder="" id = "pi-input--phone" class="check-input pi-input">
 							</div>
 							<div class="pi-input--wrapper captcha">
@@ -231,25 +231,26 @@
 							<li><u>No Refunds/Cancellation by Buyer</u>: Purchase of the Tokens are non-refundable and purchases cannot be cancelled by Buyer. Company reserves the right to refuse or cancel Token purchase requests at any time in its sole discretion.</li>
 							<li><u>Risks</u>: There are risks associated with purchasing the Tokens, owning the Tokens and using the Tokens in the MDL™ Talent Hub platform or ecosystem (“MDL™ Talent Hub Platform”) including (but not necessarily limited to) that the Tokens may have no value and the risks described in Exhibit 3 of the <a href="https://mdl.life/docs/MDL_Terms_And_Conditions.pdf" target="_blank">Terms and Conditions</a> and Buyer has read, understood and accepts all such risks.</li>
 						</ol>
-						<p>Прокрутите страницу вниз и отметьте все чекбоксы:</p>
+						<p>Please scroll down fully and check all boxes to proceed:</p>
 						<p class="ti-fc"><input class="term-checkbox-one term-checkbox" type="checkbox"><span>Check here to confirm that you are not a Restricted Person nor are you purchasing the Tokens on behalf of a Restricted Person</span> </p>
-						<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Подтвердите что Вы прочли, поняли и согласны с условиями описанными в Соглашении (которое включает <a href="https://mdl.life/docs/MDL_Terms_And_Conditions.pdf">Условия и Положения</a>)</span></p>
-						<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Подтвердите что Вы прочли, поняли и согласны с<a href="https://mdl.life/docs/MDL_Terms_Of_Use.pdf" target="_blank">Условиями Пользования</a> и <a href="https://mdl.life/docs/MDL_Privacy_Policy.pdf" target="_blank">Политикой Приватности</a></span></p>
+						<p class="ti-fc"><input class="term-checkbox-two term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the terms of this Agreement (which includes the <a href="https://mdl.life/docs/MDL_Terms_And_Conditions.pdf">Terms and Conditions</a>)</span></p>
+						<p class="ti-fc"><input class="term-checkbox-three term-checkbox" type="checkbox"><span>Check here to confirm that you have read, understand and agree to the <a href="https://mdl.life/docs/MDL_Terms_Of_Use.pdf" target="_blank">Terms of Use</a> and <a href="https://mdl.life/docs/MDL_Privacy_Policy.pdf" target="_blank">Privacy Policy</a> </span></p>
 						<p class="ti-fc">
 							<input class="term-checkbox-four term-checkbox" type="checkbox">
-							<span>Подтвердите что Вы прочли и поняли <a href="https://mdl.life/whitepaper/WhitePaper_eng_1.5.3.pdf" target="_blank">Белую Книгу</a></span>
+							<span>Check here to confirm that you have read and understand the <a href="https://mdl.life/whitepaper/WhitePaper_eng_1.5.3.pdf" target="_blank">Whitepaper</a></span>
 						</p>
-						<button type="submit" id = "submit-btn">Подтвердить</button>
+						<button type="submit" id = "submit-btn">Submit</button>
 						<p id="error-send"></p>
 						<button type="button" class="whitelist-form--back mob term">Back</button>
 					</div>
 				</div>
 				<div class="white-list--content-item contact-thank">
 					<div class="thank-wrapper" id = "thank-wrapper">
-						<h2 class="thank-title">Ваше согласие с белым списком получено.</h2>
-						<p class="contact-desc">Чтобы начать процесс входа в белый список, пожалуйста, подтвердите свой адрес электронной почты по ссылке, отправленной на ваш почтовый ящик. <br><br>Если вы не получили письмо с подтверждением в течение нескольких минут, проверьте папку со спамом.</p>
-						<p class="contact-desc">Для получения справок и поддержки, пожалуйста, свяжитесь<a href="mailto:support@mdl.life">support@mdl.life</a></p>
-						<span id = "confirm" onclick="trackPurchaseConfirm();">Подтвердить покупку</span>
+						<h2 class="thank-title">Your whitelist submission is well received.</h2>
+						<p class="contact-desc">To initiate the whitelist entry process please confirm your email address via the link sent to your inbox.<br><br>
+						If you don't receive the confirmation email within several minutes please check your spam folder.</p>
+						<p class="contact-desc">For inquiries and support please contact <a href="mailto:support@mdl.life">support@mdl.life</a></p>
+						<span id = "confirm" onclick="trackPurchaseConfirm();">Confirm Purchase</span>
 					</div>
 				</div>
 			</div>
@@ -262,7 +263,7 @@
 
 					<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 					<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-					<script src="../../assets/js/libs.min.js?rev=79e4b3f7e79df99eeae2913eb856b41a"></script>
-					<script src="../../assets/js/common.js?rev=38c086bcb50d5da99d406e696547e8b1"></script>			
+					<script src="../../assets/js/libs.min.js?rev=@@hash"></script>
+					<script src="../../assets/js/common.js?rev=@@hash"></script>			
 				</body>
 				</html>

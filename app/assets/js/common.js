@@ -259,16 +259,16 @@ function checkGetMDL(){
 
 function setRaisedLegend(){
     $('#pink-line').css('width', "100%");
-    $.getJSON("/ito-stats", function(data){
-        var mdl = Number(data.mdl).toFixed(0);
-        var usd = Number(data.usd).toFixed(0);
-        var pretty_usd = usd.toString().split( /(?=(?:\d{3})+(?!\d))/),
-            pretty_mdl = mdl.toString().split( /(?=(?:\d{3})+(?!\d))/);
-        $('#raised-dollars').text(pretty_usd.join(" "));
-        $('#raised-mdl').text(pretty_mdl.join(" "));
-        var line_percent = (data.usd / 2500000) * 100;
-        $('#pink-line').css('width', "100%");
-    });
+    // $.getJSON("/ito-stats", function(data){
+    //     var mdl = Number(data.mdl).toFixed(0);
+    //     var usd = Number(data.usd).toFixed(0);
+    //     var pretty_usd = usd.toString().split( /(?=(?:\d{3})+(?!\d))/),
+    //         pretty_mdl = mdl.toString().split( /(?=(?:\d{3})+(?!\d))/);
+    //     $('#raised-dollars').text(pretty_usd.join(" "));
+    //     $('#raised-mdl').text(pretty_mdl.join(" "));
+    //     var line_percent = (data.usd / 2500000) * 100;
+    //     $('#pink-line').css('width', "100%");
+    // });
     // $.getJSON("/ito-stats", function(data){
     //     var usd = (Number(data.usd).toFixed(0) / 1000000).toFixed(2);
     //     $('#sc-legend-raised-first').text(usd.toString() + "M");
