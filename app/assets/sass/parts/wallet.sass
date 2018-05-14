@@ -273,10 +273,10 @@
 			font-size: 14px
 
 	.legend
-		margin-top: 22px
 		text-align: justify
 		&__text-block
 			display: inline-block
+			margin-top: 15px
 			margin-right: 45px
 			&:nth-child(6)
 				margin-right: 38px
@@ -287,6 +287,7 @@
 			font-family: $sans
 			font-weight: 400
 		&__sub-text
+			display: block
 			color: white
 			font-family: $sans
 			font-weight: 600
@@ -537,8 +538,29 @@
 							&:nth-child(7)
 								&:before
 									content: "Min individual cap"
-
-									
+							&.chinese-mob
+								&:nth-child(1)
+									&:before
+										content: "发行价"
+								&:nth-child(2)
+									&:before
+										content: "硬上限"
+								&:nth-child(3)
+									&:before
+										content: "软上限"
+								&:nth-child(4)
+									&:before
+										content: "发售数量"
+								&:nth-child(5)
+									&:before
+										content: "代币总量"
+								&:nth-child(6)
+									&:before
+										content: "可接受币种"
+								&:nth-child(7)
+									&:before
+										content: "个人限购"
+										
 			.wallet-banner
 				position: relative
 				top: 115px
@@ -631,7 +653,7 @@
 				font-size: 12px
 		.legend
 			width: 300px
-			margin: 20px auto 0 
+			margin: 0 auto 
 			&__text-block
 				&:nth-child(1)
 					margin-right: 10px
