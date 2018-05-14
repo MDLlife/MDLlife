@@ -1,5 +1,4 @@
 @import "../fonts.sass"
-
 #wallet
 	padding: 20px
 	position: relative
@@ -71,7 +70,7 @@
 					opacity: 0.5
 					margin-bottom: 24px
 			.wallet__left-part--title
-				position: relative	
+				position: relative
 				margin-bottom: 24px
 				color: white
 				font-family: $gilroy_light
@@ -97,7 +96,7 @@
 						left: 260px
 						&:before
 							content: "ICObench 4.6"
-							left: -20px	
+							left: -20px
 					&:hover
 						&:before
 							opacity: 1
@@ -205,7 +204,7 @@
 					display: none
 				&.one
 					left: -40px
-	
+
 	.ito-structure
 		width: 726px
 		margin: 30px auto 0
@@ -214,7 +213,7 @@
 			font-family: $gilroy_light
 			font-weight: 600
 			font-size: 24px
-	
+
 	.diagram
 		margin-top: 40px
 	.diagram__caps
@@ -229,7 +228,7 @@
 		font-size: 16px
 	.timeline
 		width: 726px
-		height: 72px	
+		height: 72px
 		margin: 0 auto
 		border: 1px solid white
 		text-align: left
@@ -249,14 +248,14 @@
 				padding: 22px 0
 				width: 166px
 				border-right: 1px solid white
-				background: rgba(255,2,141,1);
-				background: -moz-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
-				background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,2,141,1)), color-stop(100%, rgba(188,1,138,1)))
-				background: -webkit-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
-				background: -o-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
-				background: -ms-linear-gradient(left, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
-				background: linear-gradient(to right, rgba(255,2,141,1) 0%, rgba(188,1,138,1) 100%)
-				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff028d', endColorstr='#bc018a', GradientType=1 )
+				background: rgba(255, 2, 141, 1);
+				background: -moz-linear-gradient(left, rgba(255, 2, 141, 1) 0%, rgba(188, 1, 138, 1) 100%)
+				background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255, 2, 141, 1)), color-stop(100%, rgba(188, 1, 138, 1)))
+				background: -webkit-linear-gradient(left, rgba(255, 2, 141, 1) 0%, rgba(188, 1, 138, 1) 100%)
+				background: -o-linear-gradient(left, rgba(255, 2, 141, 1) 0%, rgba(188, 1, 138, 1) 100%)
+				background: -ms-linear-gradient(left, rgba(255, 2, 141, 1) 0%, rgba(188, 1, 138, 1) 100%)
+				background: linear-gradient(to right, rgba(255, 2, 141, 1) 0%, rgba(188, 1, 138, 1) 100%)
+				filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff028d', endColorstr='#bc018a', GradientType=1)
 			&:nth-child(3)
 				padding: 8px 0
 				width: 380px
@@ -267,7 +266,7 @@
 			font-size: 20px
 		&__sub-text
 			display: block
-			color: rgba(255,255,255, .5)
+			color: rgba(255, 255, 255, .5)
 			font-family: $sans
 			font-weight: 600
 			font-size: 14px
@@ -278,20 +277,22 @@
 			display: inline-block
 			margin-top: 15px
 			margin-right: 45px
-			&:nth-child(6)
-				margin-right: 38px
-			&:nth-child(7)
-				margin-right: 35px
+			vertical-align: top
 		&__text
 			color: #bbb
 			font-family: $sans
 			font-weight: 400
+			&_blocked
+				display: block
+				margin-top: 15px
 		&__sub-text
 			display: block
 			color: white
 			font-family: $sans
 			font-weight: 600
-	
+		&__mob-title,&__mob-sub-title
+			display: none
+
 	.token-price
 		margin-top: 65px
 		&__title
@@ -304,13 +305,14 @@
 		margin-top: 40px
 		&__inner
 			width: 100%
-			border: 1px solid rgba(255,255,255,1)
-		&__col,&__head-col
+			border: 1px solid rgba(255, 255, 255, 1)
+		&__col, &__head-col
 			width: 25%
 			padding: 10px 0 9px 14px
+			
 			text-align: left
-			border-bottom: 1px solid rgba(255,255,255,.45)
-			border-right: 1px solid rgba(255,255,255,.45)
+			border-bottom: 1px solid rgba(255, 255, 255, .45)
+			border-right: 1px solid rgba(255, 255, 255, .45)
 			&:last-child
 				border-right: none
 		&__row
@@ -326,19 +328,16 @@
 			font-size: 12px
 			color: #FD028F
 		&__col
-			color: rgba(255,255,255, .7)
+			color: rgba(255, 255, 255, .7)
 			font-family: $sans
 			font-weight: 400
 			font-size: 16px
 			&.non-opacity
-				color: rgba(255,255,255, 1)
+				color: rgba(255, 255, 255, 1)
 		&__mob-value
 			display: none
 		&__dec-value
 			display: block
-
-
-
 
 	.wallet-banner
 		width: 657px
@@ -348,23 +347,23 @@
 		text-align: left
 		border-width: 3px 3px 3px 3px;
 		border-style: solid
-		-webkit-border-image: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,68,203,1)), color-stop(100%, rgba(255,42,198,1))) 1
-		-webkit-border-image: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,68,203,1)), color-stop(100%, rgba(255,42,198,1))) 1
-		-moz-border-image: -moz-linear-gradient(to right, rgba(0,68,203,1) 0%, rgba(255,42,198,1) 100%) 1
-		-o-border-image: -o-linear-gradient(to right, rgba(0,68,203,1) 0%, rgba(255,42,198,1) 100%) 1
-		border-image: linear-gradient(to right, rgba(0,68,203,1) 0%, rgba(255,42,198,1) 100%) 1
+		-webkit-border-image: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 68, 203, 1)), color-stop(100%, rgba(255, 42, 198, 1))) 1
+		-webkit-border-image: -webkit-gradient(left top, right top, color-stop(0%, rgba(0, 68, 203, 1)), color-stop(100%, rgba(255, 42, 198, 1))) 1
+		-moz-border-image: -moz-linear-gradient(to right, rgba(0, 68, 203, 1) 0%, rgba(255, 42, 198, 1) 100%) 1
+		-o-border-image: -o-linear-gradient(to right, rgba(0, 68, 203, 1) 0%, rgba(255, 42, 198, 1) 100%) 1
+		border-image: linear-gradient(to right, rgba(0, 68, 203, 1) 0%, rgba(255, 42, 198, 1) 100%) 1
 		.wb-first
 			margin-bottom: 0
 			font-family: $sans
 			font-weight: 400
 			font-size: 16px
-			color: rgba(255,255,255,.67)
+			color: rgba(255, 255, 255, .67)
 			a
 				position: relative
 				top: 0
 				font-size: 18px
 				font-weight: 700
-				color: rgba(255,255,255,1)
+				color: rgba(255, 255, 255, 1)
 				text-decoration: none
 				img
 					position: relative
@@ -393,6 +392,7 @@
 		width: 60px
 		height: 3px
 		background-color: #ef3f9e
+
 @media (min-width: 769px) and (max-width: 991px)
 	#wallet
 		.wallet__wrapper
@@ -417,10 +417,11 @@
 			&__stage
 				&:nth-child(3)
 					width: 345px
+
 @media (max-width: 768px)
 	#wallet
 		top: 0
-		min-height: 2235px
+		min-height: 2540px
 		padding: 0
 		.wallet__content--wrapper
 			background-image: none
@@ -432,14 +433,14 @@
 			margin: 45px auto
 		.wallet__wrapper
 			padding-top: 35px
-			width: 100%	
+			width: 100%
 			margin: 0 auto
 			position: static
 			.wallet__left-part
 				width: 100%
 				margin: 0 auto
 				padding: 0 40px;
-				.end-date,.start-date
+				.end-date, .start-date
 					text-align: left
 					padding-left: 17px
 					padding-right: 17px
@@ -455,10 +456,10 @@
 							float: right
 							top: -7px
 				.start-date
-					background-color: rgba(255,255,255,0.07)
+					background-color: rgba(255, 255, 255, 0.07)
 				.wallet__left-part--title
 					text-align: center
-					margin-bottom: 35px	
+					margin-bottom: 35px
 					.icobazar-link
 						&:before
 							opacity: 1
@@ -508,7 +509,7 @@
 							text-align: right
 							line-height: -30
 							&:nth-child(odd)
-								background-color: rgba(255,255,255,0.07)
+								background-color: rgba(255, 255, 255, 0.07)
 							&:nth-child(even)
 								background-color: #1b0531
 							&:before
@@ -560,7 +561,7 @@
 								&:nth-child(7)
 									&:before
 										content: "个人限购"
-										
+
 			.wallet-banner
 				position: relative
 				top: 115px
@@ -628,62 +629,137 @@
 		.wallet__link
 			left: 0
 
-
 		.ito-structure
 			position: relative
 			top: 150px
 			width: 100%
 		.diagram
+			width: 310px
+			margin: 40px auto 0
 			&__caps
+				display: none
 				width: 300px
 				margin: 0 auto
 			&__caps-name
 				font-size: 12px
 				margin-right: 10px
 		.timeline
-			width: 300px
+			display: inline-block
+			width: 74px
+			height: 617px
+			margin: unset
+			vertical-align: top
 			&__stage
-				width: 32% !important
-				&:nth-child(3)
-					position: relative
-					left: -3px
-			&__text
-				font-size: 14px
-			&__sub-text
-				font-size: 12px
-		.legend
-			width: 300px
-			margin: 0 auto 
-			&__text-block
+				position: relative
 				&:nth-child(1)
-					margin-right: 10px
+					padding: 0
+					height: 182px
+					width: 100%
+					border-right: none
+					border-bottom: 1px solid white
 				&:nth-child(2)
-					margin-right: 0
-					text-align: right
-					.legend__text
-						position: relative
-						left: 5px
+					padding: 0
+					height: 182px
+					width: 100%
+					left: 0
+					background: rgba(255,2,141,1);
+					background: -moz-linear-gradient(top, rgba(255,2,141,1) 0%, rgba(204,0,150,1) 100%);
+					background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,2,141,1)), color-stop(100%, rgba(204,0,150,1)));
+					background: -webkit-linear-gradient(top, rgba(255,2,141,1) 0%, rgba(204,0,150,1) 100%);
+					background: -o-linear-gradient(top, rgba(255,2,141,1) 0%, rgba(204,0,150,1) 100%);
+					background: -ms-linear-gradient(top, rgba(255,2,141,1) 0%, rgba(204,0,150,1) 100%);
+					background: linear-gradient(to bottom, rgba(255,2,141,1) 0%, rgba(204,0,150,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff028d', endColorstr='#cc0096', GradientType=0 );
+					border-right: none
+					border-bottom: 1px solid white
 				&:nth-child(3)
-					margin-right: 50px
+					height: 253px
+					width: 100%
+					position: relative
+					padding: 69px 0 0 0
+					left: 0
+					.timeline__text
+						display: none
+			&__text
+				position: absolute
+				top: 50%
+				left: 50%
+				margin-left: -17.5px
+				margin-top: -13px
+				display: block
+				width: 35px
+				height: 26px
+				font-size: 14px
+				color: rgba(255,255,255,0)
+				&:after
+					content: ""
+					position: absolute
+					left: 9px
+					bottom: 10px
+					display: block
+					height: 3px
+					width: 30px
+					background-color: white
+					border-radius: 0 1.5px 1.5px 0
+					transform: rotate(-45deg) scale(1)
+				&:before
+					content: ""
+					position: absolute
+					left: 0
+					bottom: 5px
+					display: block
+					height: 3px
+					width: 17px
+					background-color: white
+					border-radius: 0 1.5px 1.5px 0
+					transform: rotate(-135deg) scale(1)
+			&__mob-date-part
+				display: block
+				margin-top: 22px
+				font-size: 13px
+				color: rgba(255,255,255,1)
+				&:first-child
+					margin-top: 0
+		.legend
+			display: inline-block
+			width: 192px
+			vertical-align: top
+			&__text-block
+				width: 100%
+				margin: 0 0 0 25px
+				&:nth-child(2)
+					margin-top: 42px
+				&:nth-child(3)
+					margin-top: 50px
+					.legend__mob-title
+						margin-bottom: 16px
 				&:nth-child(4)
-					margin-right: 0
-					text-align: right
-					.legend__text
-						position: relative
-						left: 5px
-				&:nth-child(6)
-					margin-right: 10px
-				&:nth-child(7)
-					margin-right: 0
-					text-align: right
-					.legend__text
-						position: relative
-						left: 5px
+					margin-top: 12px
+			&__mob-title,&__mob-sub-title
+				display: block
+			&__mob-title
+				margin-bottom: 0
+				color: white
+				font-family: $sans
+				font-weight: 600
+				font-size: 16px
+			&__mob-sub-title
+				margin-bottom: 12px
+				color: #dc0193
+				font-family: $sans
+				font-weight: 400
+				font-size: 13px
+			&__text
+				font-size: 13px
+				&_blocked
+					margin-top: 12px
+			&__sub-text
+				font-size: 13px
 		.token-price-table
 			&__inner
 				width: 283px
 				margin: 0 auto
-			&__head-col,&__col
+			&__head-col, &__col
 				font-size: 14px
 			&_mob-hidden
 				display: none
@@ -702,6 +778,7 @@
 							left: 25px
 						&:nth-child(3)
 							right: 25px
+
 @media (max-width: 350px)
 	#wallet
 		.wallet__content--wrapper
@@ -709,7 +786,7 @@
 				padding: 0 20px
 				.wallet__left-part--title
 					text-align: center
-					margin-bottom: 35px	
+					margin-bottom: 35px
 					.icobazar-link
 						&:before
 							opacity: 1
