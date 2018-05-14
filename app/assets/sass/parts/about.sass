@@ -99,8 +99,8 @@
 			left: 0
 			margin: 0 auto
 	#about__video-block--wrappper
-		margin: 0 auto
-		margin-top: 55px
+		position: relative
+		margin: 55px auto 0
 		width: 840px
 		height: 470px
 		&:hover
@@ -111,33 +111,39 @@
 			right: -170px
 			bottom: 0px
 			z-index: 0
-	#about__video-block
-		position: relative
-		z-index: 1
-		width: 840px
-		height: 470px
-		.about__video-block--btn-play
-			width: 82px	
-			height: 82px
+	.about-player
+		width: 100%
+		height: 100%
+		position: absolute
+		margin: auto
+		top: 0
+		left: 0
+		right: 0
+		bottom: 0
+		#about-video
+			width: 100%
+			height: 100%
+			z-index: 2
 			position: absolute
-			top: 50%
-			left: 50%
-			margin-top: -41px	
-			margin-left: -45px	
-			&.stop
-				opacity: 0
-				transition: all 0.3s ease
-		.video-preview
-			width: 840px
-			height: 470px
+			left: 0
+			overflow: hidden
+			border-radius: 20px
+			border: 10px solid #000
+			box-shadow: 0 0 10px #000
+		#about-canvas
+			position: absolute
+			left: 0
+			width: 100%
+			height: 100%
+			transform: scale(1.1)
+			-webkit-filter: blur(50px)
+			opacity: 0.75
+			z-index: 0
 @media(max-width:991px)
 	#about
 		#about__video-block--wrappper
 			width: 500px
 			height: 350px
-			#about__video-block,#video-preview
-				width: 100%
-				height: 100%
 		.about__wrapper
 			.about__text-block--desc
 				left: 15px
@@ -176,24 +182,12 @@
 			.about__text-block--title
 				font-size: 28px	
 		#about__video-block--wrappper
-			width: 100%
+			width: 90%
 			margin: 45px auto 0
-			height: auto
-		#about__video-block
-			width: 100%
-			height: auto
-			.about__video-block--btn-play
-				display: none
-				width: 50px
-				height: 50px
-				margin-top: -25px
-				margin-left: -25px
-				img
-					height: 50px
-					width: 50px
-			#video-preview
-				display: block
-				margin: 0 auto
-				height: 325px
-				object-fit: cover
-				padding: 0 30px
+			height: 325px
+			.about-player
+				#about-video
+					box-shadow: none
+					border: none
+				#about-canvas
+					display: none
