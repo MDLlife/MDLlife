@@ -2,21 +2,64 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ens on MDL - Talent Hub Blog</title>
-    <link>http://mdl.wtf/en/</link>
+    <link>https://mdl.wtf/en/</link>
     <description>Recent content in Ens on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 16 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://mdl.wtf/en/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://mdl.wtf/en/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>The 4 P&#39;s MDL Talent Hub is solving.</title>
+      <link>https://mdl.wtf/en/2018-05-09-the-4-pps-mdl-talent-hub-is-solving/</link>
+      <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-05-09-the-4-pps-mdl-talent-hub-is-solving/</guid>
+      <description>The 4 P&amp;rsquo;s MDL Talent Hub is solving. MDL Talent Hub is creating 3 ecosystems in 1 platform that will solve the problems of talent-bookers &amp;amp; agents, talents and brands.
+The 4 main Problems MDL Talent Hub will address:
+ Talents all over the world are experiencing problems in the talent-booking industry. On the other hand, companies, especially small-mid-size companies, are experiencing lower ROI&amp;rsquo;s than they should have when working with influencers.</description>
+    </item>
+    
+    <item>
+      <title>MDL Development Strategy</title>
+      <link>https://mdl.wtf/en/2018-05-04-mdl-development-strategy/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-05-04-mdl-development-strategy/</guid>
+      <description>MDL Development Strategy Development team at MDL have been working really hard to deliver the MVP, and the Architecture team has delivered UML diagrams that offers a number of benefits for our internal organization.
+The Unified Modeling Language (UML) will help us to model MDL systems and help us to build software that is designed to be simple and easy to use.
+At MDL, we are using UML diagrams because:</description>
+    </item>
+    
+    <item>
+      <title>The 1st stage of MDL ITO nearly reached hardcap!</title>
+      <link>https://mdl.wtf/en/2018-04-24-stage_1_ito_is_over/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-04-24-stage_1_ito_is_over/</guid>
+      <description>It was a critical decision to split the ITO into three stages and hopefully our community understood and welcomed the approach. We did this to better align our goals and increase our transparency. Showing our intentions and being clear about our long-term strategy is an important part in maintaining our relations with every MDL stakeholder.
+The funds we were able to collect during the first stage will be enough to enhance our development activities as well as continuing marketing our platform to be even more presentable for our supporters and potential investors during the 2nd and the 3rd stages of the ITO.</description>
+    </item>
+    
+    <item>
+      <title>And on the 239th day MDL created the DEMO!</title>
+      <link>https://mdl.wtf/en/2018-04-17-and-on-the-239-th-day-mdl-created-the-demo/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-04-17-and-on-the-239-th-day-mdl-created-the-demo/</guid>
+      <description>Yes, it is finally here! It has been 239 days since we started MDL Talent Hub and The MDL Talent Hub Platform demo has finally arrived in all its glory! Check out the video down below and we&amp;rsquo;ve also included an .apk file for you to try it out!
+ If you want to try it out yourself, find the link to the application HERE
+Enjoy and stay excited as MDL Talent Hub is moving forward day by day to bring you the best experience ever!</description>
+    </item>
+    
+    <item>
       <title>Early MDL investors can now swap their waves tokens!</title>
-      <link>http://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</link>
+      <link>https://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</link>
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</guid>
+      <guid>https://mdl.wtf/en/2018-04-16-investors-can-now-swap-their-waves-tokens/</guid>
       <description>Good news everyone! Investors who bought Waves pre-MDL Tokens can now swap them in for Mainnet MDL!
 Our developers have been hard at work to make this possible and they have delivered!
 Swapping is made really easy, all you need to do is download the MDL wallet HERE (Press &amp;ldquo;Get MDL&amp;rdquo;) and you will be asked to download the MDL wallet.
@@ -25,19 +68,19 @@ Once there, you need to create a new wallet (Choose a name and save the seed som
     
     <item>
       <title>How is the platfrom protected from Token volatility</title>
-      <link>http://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</link>
+      <link>https://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</link>
       <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</guid>
+      <guid>https://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</guid>
       <description>Crypto currencies are known for their high fluctuating rates – daily trading range of 30% is not an unusual thing with these financial instruments, not to mention dumps and pumps that happen time to time. How can we deliver valuable tool to the talent sourcing market with MDL Token? The main contradiction lies in the conflict of actual platform users and crypto community – the first ones want to have stable economic ecosystem and the second ones want to speculate.</description>
     </item>
     
     <item>
       <title>Development Update</title>
-      <link>http://mdl.wtf/en/2018-02-16-development-update-1/</link>
+      <link>https://mdl.wtf/en/2018-02-16-development-update-1/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-02-16-development-update-1/</guid>
+      <guid>https://mdl.wtf/en/2018-02-16-development-update-1/</guid>
       <description>Dear blockchain friends and MDL supporters.
 The MDL Platform has been in the state of active development for quite some time now and the time has come to share some updates with the community.
 We currently have around six ongoing dev projects within MDL. Some of them have been open source from day one (wallet, teller, the blockchain, blog, website), while others are being developed in-house and are tested internally (platform backend, android client, etc).</description>
@@ -45,78 +88,78 @@ We currently have around six ongoing dev projects within MDL. Some of them have 
     
     <item>
       <title>Pre-ITO Hard Cap Is Reached!</title>
-      <link>http://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</link>
+      <link>https://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</guid>
+      <guid>https://mdl.wtf/en/2018-01-31-pre-ito-hard-cap/</guid>
       <description>We believe MDL community is the most important stakeholder in the development of the platform - without you we are nothing! The presale hardcap is reached and that means we are doing the right things in the right time. MDL team is extremelly enthusiastic in bringing long-term value to the society and we are preparing more awesome stuff for the 2018. Stay tuned! Stay talented!
 Truly yours, MDL.life</description>
     </item>
     
     <item>
       <title>Why MDL Token Hours Are So Cool?</title>
-      <link>http://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>https://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>https://mdl.wtf/en/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>MDL Talent Hub platform will be powered with MDL Token Hours (MDL TH). MDL TH will be used to support MDL Token value growth as well as to protect the platform from high MDL Token volatility. Below are 8 statements that describe MDL TH concept.
  The mechanism of MDL Token Hours has been adapted from Skycoin Coin Hours. The amount of MDL Tokens Hours received increases according to how many MDL Tokens are held.</description>
     </item>
     
     <item>
       <title>Why the value of MDL Token will increase over time</title>
-      <link>http://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</link>
+      <link>https://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>https://mdl.wtf/en/2018-01-14-why-mdl-value-increase/</guid>
       <description>For our early investors it is crucial to know why MDL tokens will increase in value over time. We have just realized that what was obvious to us is not that clear to the community. Here we briefly explain our plans about the usage of the Token and how we guarantee its growth for our crypto investors.
 First of all, the value of the MDL token will increase from our expansion in the talent sourcing market, which is itself continually growing.</description>
     </item>
     
     <item>
       <title>Anonymity and publicity in MDL Talent Hube</title>
-      <link>http://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>https://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>https://mdl.wtf/en/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>One of our missions is to bring transparency to the talent sourcing market, however we also need to cope with the commonly accepted processes and settings in this area. Use of blockchain and Persistent Immutable Data Storage (PIDS) - IPFS, CXO - technologies that are known for their ability to make data open, traceable, and immutable raises a good question – what kind of information will be open to the public?</description>
     </item>
     
     <item>
       <title>Approaches and Technical Decisions</title>
-      <link>http://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</link>
+      <link>https://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>https://mdl.wtf/en/2017-12-31-approaches-technical-decisions/</guid>
       <description>Given the current state of global blockchain development, it seems that most people have totally forgotten that behind every project there are actual people working [or not]. So a stylish website with a promising, geeky video, featuring Bitcoin or Ethereum addresses, gets people more attracted to invest than a hardworking community with respect-worthy leaders. People just send money blindly to a smart contract, without researching who&amp;rsquo;s working on the concept, code, marketing, etc.</description>
     </item>
     
     <item>
       <title>What Do We Do and Why</title>
-      <link>http://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</link>
+      <link>https://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>https://mdl.wtf/en/2017-12-23-what-do-we-do-and-why/</guid>
       <description>What we are doing and why?
 In the ongoing blockchain mania there are so many projects that seem to be less than genuine or even fake. ICOs have become not only a tool for startups to raise funds, but also for scammers looking to make a quick buck. Is MDL Talent Hub a real project with a well thought out vision and development plan, or it is just riding the wave of cryptohype?</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger</title>
-      <link>http://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>https://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>https://mdl.wtf/en/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub will utilize PIDS technologies (IPFS, CXO, etc), which will allow information to be stored in a distributed manner on users’ devices and miners, improving access, speed, and security of information.
 In order to compensate our users and miners we will establish a bounty program by which anyone can get a certain number of MDL Tokens for storing info about talents, events, and so forth. MDL Tokens can then be spent on MDL Talent Hub for other valuables or exchanged to other crypto or fiat currency.</description>
     </item>
     
     <item>
       <title>MDL at Skyledger Conference</title>
-      <link>http://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>https://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>https://mdl.wtf/en/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>Since MDL Talent Hub is closely considering employing CXO technology and becoming a part of the Skyledger ecosystem, we were kindly invited to present our project to Shanghai blockchain enthusiasts and investors.
 Skyledger is positioning itself as blockchain 3.0 and is strongly supported by business and IT communities. The technology is developed here in Shanghai by an international team and is aiming to overcome other DAO protocols.
 MDL happy to be so close to one of the most advanced tech movements in China and the World.</description>
@@ -124,69 +167,69 @@ MDL happy to be so close to one of the most advanced tech movements in China and
     
     <item>
       <title>Pre-ITO Is Ongoing</title>
-      <link>http://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>https://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>https://mdl.wtf/en/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>In order to prepare for ITO, we require capital in the amount of $500.000. This amount will allow us to launch our ITO campaign in March, 2018, where we are expecting to rais $20m for the development of the platform, cross-border scaling and business development, as well as for R&amp;amp;D and further implementation of blockchain &amp;amp; PIDS technologies.
 In January 2018 we are planning to conclude the Pre-ITO for the MDL Token.</description>
     </item>
     
     <item>
       <title>User Instruments - Part 1</title>
-      <link>http://mdl.wtf/en/2017-12-08-user-instruments-part1/</link>
+      <link>https://mdl.wtf/en/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-08-user-instruments-part1/</guid>
+      <guid>https://mdl.wtf/en/2017-12-08-user-instruments-part1/</guid>
       <description>Profile We believe that a talented person can be talented in many ways, so each profile will have several portfolios – actor, dancer, origami master, or whatever. Each of the portfolios will have sufficient presentation materials like compcard, intro videos, etc. Thus a booker can easily choose as specific portfolio from a talent as required for the certain event.
 Search Search will be available both for bookers and talents so that it will possible for freelancers to look for jobs, and for bookers to find freelancers.</description>
     </item>
     
     <item>
       <title>MDL - My Daily Life</title>
-      <link>http://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</link>
+      <link>https://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>https://mdl.wtf/en/2017-12-06-mdl-my-daily-life/</guid>
       <description>For the last several decades the world&amp;rsquo;s economy has been experiencing a massive shift from agriculture and production based to services and creative based, as noted by Richard Florida, the head of the Martin Prosperity Institute, Canada. Modern technologies disrupt the economy in such a way that more and more people will be left unemployed. The change is so momentous that ideas which were previously considered insane such as that of unconditional basic income are already being implemented in advanced countries.</description>
     </item>
     
     <item>
       <title>How MDL secures reputation</title>
-      <link>http://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>https://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>https://mdl.wtf/en/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>In order to facilitate the credibility of reputation MDL Talent Hub will employ two modern technologies – blockchain and PIDS. Let us explain in a simple manner how it will work.
 Persistent Immutable Data Storage (PIDS) is a new way to keep information. The technology allows storage of data on devices of users instead of using centralized servers which are vulnerable to attack. Nowadays there are two promising protocols being developed and already available for usage – IPFS and CXO; both promise to substantially reduce costs and increase the speed of transmission.</description>
     </item>
     
     <item>
       <title>MDL Talent Hub at SF2017 Seoul</title>
-      <link>http://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>https://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>https://mdl.wtf/en/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>Since South Korea is actively promoting the startup ecosystem and innovations to survive the fierce technological competition in Asia, the Korean government has initiated a program of annual startup festivals, and last week was the first successful trial. It was a gathering of entrepreneurs, tech media, and VCs all under one roof of the COEX complex in Seoul.
 MDL Talent Hub was kindly invited to participate in the event and was lucky enough to gain some excellent exposure since the problems the project is aiming to solve exist in Korea as well.</description>
     </item>
     
     <item>
       <title>Webpage is launched and MDL goes to Korea for SF2017.</title>
-      <link>http://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</link>
+      <link>https://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>https://mdl.wtf/en/2017-11-25-webpage-is-launched-korea/</guid>
       <description>In the very beginning of December, the MDL Team will join Startup Festival 2017 in Seoul, South Korea. SF2017 is organized for the first time by the Korean government in order to facilitate an innovative ecosystem in the country. There will be around 60 chosen startups from Asia who have been personally invited to meet VCs and media from all around the world. MDL is on the list!
 It will be the first big event for us as a team and we are looking forward to giving a nice impression to our potential partners as well as old friends that we will meet there.</description>
     </item>
     
     <item>
       <title>Where will the money come from?</title>
-      <link>http://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</link>
+      <link>https://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>https://mdl.wtf/en/2017-11-14-where-do-the-money-come-from/</guid>
       <description>In order to keep our financial flows positive we are considering the following methods of revenue creation. Innovative streams are enabled by the use of blockchain technology.
 Traditional Streams
 1.Extended functionality
@@ -196,39 +239,39 @@ Paid features will provide extended functionality for users of our platform. Ext
     
     <item>
       <title>What are we gonna do?</title>
-      <link>http://mdl.wtf/en/2017-10-30-what-we-gonna-do/</link>
+      <link>https://mdl.wtf/en/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-30-what-we-gonna-do/</guid>
+      <guid>https://mdl.wtf/en/2017-10-30-what-we-gonna-do/</guid>
       <description>&amp;lsquo;If I had an hour to solve a problem I&amp;rsquo;d spend 55 minutes thinking about the problem and 5 minutes thinking about solutions.&amp;rsquo; - Albert Einstein
  That especially applies to constantly evolving talent market that requires nonstop monitoring and analysis in order to be aware of constantly evolving issues. In addition, because solutions are not easy to develop, certain complications simply remain ignored. Thus not only identifying existing issues, but also foreseeing upcoming ones and taking preventive measures is necessary to allow one to be on the top of things.</description>
     </item>
     
     <item>
       <title>MDL team at Slush</title>
-      <link>http://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>https://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>https://mdl.wtf/en/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>The first public appearance of MDL was on the 12th of October 2017 at Slush Conference. We presented our vision and ideas to several experienced VC investors and high-tech businessmen and not only got positive feedback and encouragement, but also received some valuable advice.
 Excellent ideas cannot flourish in a closed off ecosystem, so sharing thinking and knowledge is absolutely important for survival and development in the modern world. It is said that social capital is much more important than any physical asset, so we were very happy to grow up our network by acquiring new valuable connections as well as strengthen our ties with old friends.</description>
     </item>
     
     <item>
       <title>MDL inception (video)</title>
-      <link>http://mdl.wtf/en/2017-10-10-mdl-inception/</link>
+      <link>https://mdl.wtf/en/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-10-mdl-inception/</guid>
+      <guid>https://mdl.wtf/en/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  It is said that some events have less probability to happen and some more. It looks like the event that took place on the 8th of October had pretty good chances to occur. All the puzzle pieces were collected in one place. It was a tiny step forward towards a great venture that is going to affect our society, and even more, the lives of its direct stakeholders.</description>
     </item>
     
     <item>
       <title>The thing is</title>
-      <link>http://mdl.wtf/en/2017-10-08-the-thing-is/</link>
+      <link>https://mdl.wtf/en/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://mdl.wtf/en/2017-10-08-the-thing-is/</guid>
+      <guid>https://mdl.wtf/en/2017-10-08-the-thing-is/</guid>
       <description>The majority of Asian countries, including China and Indonesia, have already for the past several years been enthusiastically transforming their economies from export-driven to consumption-driven. Accordingly, the advertisement industry is expected to continue to show double digit growth. Taking into consideration collectivistic patterns of Asian cultures we can observe overwhelming involvement of talents in all marketing activities. No matter whether it is online, onscreen, or onsite promotion, talents are always a key element of advertising and promotional activities.</description>
     </item>
     
