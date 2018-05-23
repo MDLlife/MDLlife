@@ -13,11 +13,11 @@
   font-style: normal; }
 
 #main-header {
-  position: fixed;
+  position: relative;
   top: 20px;
   left: 20px;
-  height: -webkit-calc(100% - 40px);
-  height: calc(100% - 40px);
+  height: -webkit-calc(100vh - 40px);
+  height: calc(100vh - 40px);
   width: -webkit-calc(100% - 40px) !important;
   width: calc(100% - 40px) !important;
   background-image: url("/app/assets/img/website-parts/header/header-bg.png");
@@ -536,13 +536,13 @@
       position: absolute;
       text-align: left; }
     #main-header .header__right-part.ito-wait .dhms_item.days .number {
-      left: -10px; }
+      left: 0px; }
     #main-header .header__right-part.ito-wait .dhms_item.days .number-type {
       left: -10px; }
     #main-header .header__right-part.ito-wait .dhms_item.hours {
       left: 23%; }
       #main-header .header__right-part.ito-wait .dhms_item.hours .number {
-        left: 10px; }
+        left: 14px; }
       #main-header .header__right-part.ito-wait .dhms_item.hours .number-type {
         left: 0px; }
     #main-header .header__right-part.ito-wait .dhms_item.minutes {
