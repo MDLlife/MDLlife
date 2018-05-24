@@ -6,10 +6,21 @@
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 09 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>How MDL Talent Hub is implementing AI.</title>
+      <link>https://mdl.wtf/en/2018-05-23-how-mdl-talent-hub-is-implementing-ai/</link>
+      <pubDate>Wed, 23 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-05-23-how-mdl-talent-hub-is-implementing-ai/</guid>
+      <description>How MDL Talent Hub is implementing AI Artificial Intelligence, with a modern platform, comes modern technology.
+In order to make our user experience as smart, intuitive and crisp as possible, we have set our sights on a couple of AI solutions that we are going to implement in order to better serve the needs of our users.
+Here is a look of the first plans for AI implementation in the MDL Talent Hub platform.</description>
+    </item>
     
     <item>
       <title>The 4 P&#39;s MDL Talent Hub is solving.</title>
