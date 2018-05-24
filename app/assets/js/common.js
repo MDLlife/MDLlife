@@ -590,42 +590,23 @@ function incomeMobile() {
 // #mdl-alert
 function Alert(){
     this.alert = $('#mdl-alert');
-    this.closed = localStorage.getItem('closed');
+    // this.closed = localStorage.getItem('closed');
 
     this.showAlert = function() {
-        if(this.closed){
-            this.alert.remove();
-        } else {
-            this.alert.addClass('show');
-        }
+        this.alert.addClass('show');
     };
 
-    this.setLocaleValueOnCloseAlert = function() {
-        this.alert.on('closed.bs.alert', function () {
-            this.closed = localStorage.setItem('closed',true);
-        })
-    };
+    // this.setLocaleValueOnCloseAlert = function() {
+    //     this.alert.on('closed.bs.alert', function () {
+    //         this.closed = localStorage.setItem('closed',true);
+    //     })
+    // };
 
     this.init = function() {
         this.showAlert();
-        this.setLocaleValueOnCloseAlert();
     };
 }
 
-// function showMdlAlert(){
-//     var closed = localStorage.getItem('closed');
-//     if(closed){
-//         $('#mdl-alert').remove();
-//     } else {
-//         $('#mdl-alert').addClass('show');
-//     }
-// }
-//
-// function setLocaleValueOnCloseAlert() {
-//     $('#mdl-alert').on('closed.bs.alert', function () {
-//         localStorage.setItem('closed',true);
-//     })
-// }
 
 // --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
 // Cписок инпутов (где без префикса пи инпут селекты)  $('#pi-input--name') $('#pi-input--day') $('#month') $('#pi-input--year')
