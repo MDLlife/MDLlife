@@ -1,5 +1,8 @@
 // Initialization
 $(document).ready(function () {
+    // showMdlAlert();
+    // setLocaleValueOnCloseAlert();
+    new Alert().init();
     setRaisedLegend();
     jumpingArrow();
     customScrolling();
@@ -7,7 +10,6 @@ $(document).ready(function () {
     if(window.location.pathname.indexOf('form') < 0){
         videoControllers();
     }
-    windowOnSroll();
     walletIcoStructure();
     initScrambleText();
     initSiteNav();
@@ -243,15 +245,6 @@ function videoControllers() {
     // video.addEventListener('ended', function() {
     //     stopTimer();
     // });
-}
-
-function windowOnSroll() {
-    $(window).scroll(function () {
-        if ($(this).scrollTop() > 800)
-            $('#main-header').css('position', 'absolute');
-        else
-            $('#main-header').css('position', 'fixed');
-    });
 }
 
 function checkGetMDL() {
@@ -592,6 +585,47 @@ function incomeMobile() {
         }
     });
 }
+
+
+// #mdl-alert
+function Alert(){
+    this.alert = $('#mdl-alert');
+    this.closed = localStorage.getItem('closed');
+
+    this.showAlert = function() {
+        if(this.closed){
+            this.alert.remove();
+        } else {
+            this.alert.addClass('show');
+        }
+    };
+
+    this.setLocaleValueOnCloseAlert = function() {
+        this.alert.on('closed.bs.alert', function () {
+            this.closed = localStorage.setItem('closed',true);
+        })
+    };
+
+    this.init = function() {
+        this.showAlert();
+        this.setLocaleValueOnCloseAlert();
+    };
+}
+
+// function showMdlAlert(){
+//     var closed = localStorage.getItem('closed');
+//     if(closed){
+//         $('#mdl-alert').remove();
+//     } else {
+//         $('#mdl-alert').addClass('show');
+//     }
+// }
+//
+// function setLocaleValueOnCloseAlert() {
+//     $('#mdl-alert').on('closed.bs.alert', function () {
+//         localStorage.setItem('closed',true);
+//     })
+// }
 
 // --- FORM ----  --- FORM ---- --- FORM ----  --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----   --- FORM ----    --- FORM ----   --- FORM ----
 // Cписок инпутов (где без префикса пи инпут селекты)  $('#pi-input--name') $('#pi-input--day') $('#month') $('#pi-input--year')
