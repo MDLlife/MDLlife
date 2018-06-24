@@ -178,14 +178,14 @@
 
 @media (min-width: 769px) and (max-width: 991px) {
   #team {
-    height: 1500px; }
+    height: 1550px; }
     #team .team__content--wrapper .team-lines {
       width: 100%; }
     #team .team__wrapper {
       width: 760px;
-      height: 1110px;
+      height: 1430px;
       margin-left: -380px;
-      margin-top: -555px; }
+      margin-top: -715px; }
     #team .team__item--wrapper {
       width: 760px; }
       #team .team__item--wrapper .team__item:nth-child(4n) {
