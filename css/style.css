@@ -156,7 +156,7 @@
 }
 
 /*.select-options li:last-child{
-	padding-bottom: 25px;
+    padding-bottom: 25px;
 
 }*/
 
@@ -189,14 +189,15 @@
 }
 
 .mdl_logo-link {
-    left: 34%;
+    left: 50%;
+    margin-left: -125px;
     position: absolute;
 }
 
 .mdl_logo {
     display: block;
-    width: 295px;
-    height: 71px;
+    width: 250px;
+    height: 60px;
     margin: 0 auto;
 }
 
@@ -210,10 +211,10 @@
     margin: 0;
     position: absolute;
     z-index: 2;
-    left: 8px;
+    left: 45px;
     top: unset;
-    bottom: 25px;
-    width: 98%;
+    bottom: 30px;
+    width: 75%;
     height: 88px;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
@@ -231,10 +232,10 @@
     margin: 0;
     position: absolute;
     z-index: 2;
-    left: 8px;
-    top:  280px;
+    left: 45px;
+    top:  264px;
     bottom: 20px;
-    width: 98%;
+    width: 75%;
     height: 22px;
     opacity: 0.47;
     font-family: 'Open Sans', sans-serif;
@@ -378,7 +379,7 @@
     transition: all .3s ease;
 }
 
-/* 	INDEX MAIN CONTENT */
+/*  INDEX MAIN CONTENT */
 .mdl-text__posts-wrapper {
     padding-top: 15px;
     padding-bottom: 100px;
@@ -607,10 +608,10 @@
     margin: 0;
     position: absolute;
     z-index: 2;
-    left: 8px;
+    left: 45px;
     top: 260px;
-    width: 98%;
-    height: 88px;
+    width: 75%;
+    height: 70px;
     font-family: 'Open Sans', sans-serif;
     font-size: 30px;
     font-weight: bold;
@@ -627,10 +628,10 @@
     margin: 0;
     position: absolute;
     z-index: 2;
-    left: 8px;
-    top: 348px;
+    left: 45px;
+    top: 342px;
     bottom: 1px;
-    width: 98%;
+    width: 75%;
     height: 22px;
     opacity: 0.47;
     font-family: 'OpenSans', sans-serif;
@@ -716,8 +717,8 @@
     position: absolute;
     z-index: 2;
     top: unset;
-    bottom: 20px;
-    left: 5px;
+    bottom: 10px;
+    left: 14px;
     width: 96%;
     height: 19px;
     font-family: 'Open Sans', sans-serif;
@@ -1162,7 +1163,7 @@ footer li:nth-child(2) img.community-link {
     }
 
     .mdl-picture__post.top-post .mdl-picture__post-title {
-        top: 50px;
+        top: 69px;
         width: 96%;
         font-size: 20px;
     }
