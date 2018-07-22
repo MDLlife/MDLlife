@@ -137,10 +137,33 @@ footer .community-link {
 footer .media-banner {
   margin-top: 35px;
   margin-bottom: 15px;
-  width: 100%;
+  margin: 35px 10px 15px;
+  width: 270px;
   text-align: center; }
   footer .media-banner img {
     width: 270px; }
+  footer .media-banner-wrapper {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
 
 footer li:nth-child(2) img.community-link {
   width: 48px; }
