@@ -145,16 +145,16 @@
         -o-transition: all 0.3s ease-out;
         transition: all 0.3s ease-out; }
 
-#mentorsModal, #teamModal, #comingSoon, #get-mdl-modal, #subs-modal, #faces-modal {
+#mentorsModal, #teamModal, #comingSoon, #get-mdl-modal, #subs-modal, #faces-modal, #qr-modal {
   z-index: 0;
   padding: 0 !important;
   margin: 0 !important;
   width: 100% !important;
   max-width: 100% !important;
   background-color: rgba(0, 0, 0, 0.5); }
-  #mentorsModal.show, #teamModal.show, #comingSoon.show, #get-mdl-modal.show, #subs-modal.show, #faces-modal.show {
+  #mentorsModal.show, #teamModal.show, #comingSoon.show, #get-mdl-modal.show, #subs-modal.show, #faces-modal.show, #qr-modal.show {
     z-index: 1000000; }
-  #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog, #get-mdl-modal .modal-dialog, #subs-modal .modal-dialog, #faces-modal .modal-dialog {
+  #mentorsModal .modal-dialog, #teamModal .modal-dialog, #comingSoon .modal-dialog, #get-mdl-modal .modal-dialog, #subs-modal .modal-dialog, #faces-modal .modal-dialog, #qr-modal .modal-dialog {
     top: 50%;
     margin-top: -150px;
     left: 50%;
@@ -162,9 +162,9 @@
     width: 600px !important;
     height: auto;
     position: absolute; }
-  #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin, #get-mdl-modal .modal--linkin, #subs-modal .modal--linkin, #faces-modal .modal--linkin {
+  #mentorsModal .modal--linkin, #teamModal .modal--linkin, #comingSoon .modal--linkin, #get-mdl-modal .modal--linkin, #subs-modal .modal--linkin, #faces-modal .modal--linkin, #qr-modal .modal--linkin {
     text-align: center; }
-  #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content, #get-mdl-modal .modal-content, #subs-modal .modal-content, #faces-modal .modal-content {
+  #mentorsModal .modal-content, #teamModal .modal-content, #comingSoon .modal-content, #get-mdl-modal .modal-content, #subs-modal .modal-content, #faces-modal .modal-content, #qr-modal .modal-content {
     background-color: #150526;
     outline: none;
     border: none;
@@ -176,15 +176,18 @@
     font-weight: 400;
     padding: 50px 20px 30px 20px;
     text-align: left; }
-    #mentorsModal .modal-content .close, #teamModal .modal-content .close, #comingSoon .modal-content .close, #get-mdl-modal .modal-content .close, #subs-modal .modal-content .close, #faces-modal .modal-content .close {
+    #mentorsModal .modal-content .close, #teamModal .modal-content .close, #comingSoon .modal-content .close, #get-mdl-modal .modal-content .close, #subs-modal .modal-content .close, #faces-modal .modal-content .close, #qr-modal .modal-content .close {
       position: absolute;
       right: -10px;
       top: -10px;
       outline: none;
       opacity: 1 !important; }
-      #mentorsModal .modal-content .close img, #teamModal .modal-content .close img, #comingSoon .modal-content .close img, #get-mdl-modal .modal-content .close img, #subs-modal .modal-content .close img, #faces-modal .modal-content .close img {
+      #mentorsModal .modal-content .close img, #teamModal .modal-content .close img, #comingSoon .modal-content .close img, #get-mdl-modal .modal-content .close img, #subs-modal .modal-content .close img, #faces-modal .modal-content .close img, #qr-modal .modal-content .close img {
         width: 40px;
         height: 40px; }
+
+#qr-modal .modal-body {
+  text-align: center; }
 
 #faces-modal .modal-dialog {
   margin-top: -230px; }
