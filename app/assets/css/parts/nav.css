@@ -153,7 +153,7 @@
         width: 25px;
         margin: 0 0 0 -13px; }
   #nav-main .nav__links-lang {
-    width: 293px;
+    width: 360px;
     height: 100%;
     position: absolute;
     top: 0px;
@@ -168,7 +168,7 @@
       width: 51.5px;
       height: 50.4px;
       z-index: 1000;
-      top: 1px;
+      top: -1px;
       right: 0;
       bottom: 0;
       left: 0.4px;
@@ -267,7 +267,7 @@
       #nav-main .nav__links-lang .nav__link-lang--lang .base {
         position: absolute;
         left: -1.3px;
-        top: -1.5px; }
+        top: -3.5px; }
         #nav-main .nav__links-lang .nav__link-lang--lang .base.clicked {
           z-index: 1001; }
           #nav-main .nav__links-lang .nav__link-lang--lang .base.clicked .c1 {
@@ -297,6 +297,8 @@
       color: #ffffff;
       z-index: 1;
       outline: none; }
+      #nav-main .nav__links-lang .nav__link-lang--blog:nth-child(3) {
+        left: 152px; }
     #nav-main .nav__links-lang .nav__link-lang--wp {
       padding-top: 2px;
       display: block;
@@ -307,7 +309,7 @@
       border: solid 1px #ffffff;
       text-align: center;
       position: absolute;
-      left: 145px;
+      right: 0;
       height: 95px;
       top: 10px;
       z-index: 0;
