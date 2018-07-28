@@ -1,0 +1,47 @@
+@import "__header/article__header"
+@import "__image/article__image"
+@import "__content/article__content"
+.article
+	margin: 0 auto 25px
+	width: 457px
+	box-shadow: 0 1px 0 0 rgba(0, 0, 0, 0.15)
+	background-color: rgb(255, 255, 255)
+	border: solid 1px rgb(243, 243, 243)
+	&:hover
+		.article__image-inner
+			transform: scale(1.2)
+	@media(max-width: 991px)
+		width: 350px
+		height: 430px
+	@media(max-width: 768px)
+		margin: 0 auto 20px
+		padding-bottom: 20px
+		position: relative
+		width: 100%
+		height: auto
+		box-shadow: none
+		border: none
+		&:hover
+			.article__image-inner
+				transform: scale(1)
+		&:after
+			content: ''
+			position: absolute
+			display: block
+			bottom: 0
+			left: 19px
+			width: calc(100% - 19px)
+			height: 1px
+			background-color: rgba(0,0,0,.18)
+		&.article_first
+			&:after
+				width: 100%
+				left: 0
+			.article__header
+				padding: 12px 19px 0 19px
+			.article__image
+				display: block
+			.article__content
+				padding: 8px 19px 0 19px
+			.article__text
+				display: block

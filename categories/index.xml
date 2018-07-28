@@ -2,13 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MDL - Talent Hub Blog</title>
-    <link>https://mdl.wtf/categories/</link>
+    <link>http://localhost/categories/</link>
     <description>Recent content in Categories on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     
-	<atom:link href="https://mdl.wtf/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Development</title>
+      <link>http://localhost/categories/development/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>http://localhost/categories/news/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/categories/news/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

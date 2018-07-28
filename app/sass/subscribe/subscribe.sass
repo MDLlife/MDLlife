@@ -1,0 +1,142 @@
+@import "../fonts/fonts"
+@import "__title/subscribe-form__title.sass"
+.subscribe-form
+	margin-top: 170px
+	position: relative
+	@media(max-width: 1400px)
+		margin-top: 120px
+	@media(max-width: 1200px)
+		margin-top: 100px
+	@media(max-width: 991px)
+		margin-top: 60px
+	&_footer
+		margin-top: 0
+		@media(max-width: 768px)
+			text-align: center
+			width: 100%
+			#sib_embed_signup1,#sib_embed_signup
+				.mandatory-email
+					width: 100%
+					display: flex
+					justify-content: center
+				#email1
+					padding: 0 0 0 15px
+					width: 65%
+					max-width: 320px
+#sib_embed_signup1,#sib_embed_signup
+	width: 485px
+	opacity: 1
+	@media (max-width: 1200px)
+		width: 100%
+	.subscribe-label
+		text-align: center
+		color: white
+		font-family: $sans
+		font-weight: 600
+		font-size: 22px
+		margin-bottom: 50px
+	.sib-container
+		position: relative
+	.hidden-btns
+		display: none
+	.message_area
+		position: absolute !important
+		bottom: -43px
+		background-color: transparent !important
+		border: none !important
+		font-family: $sans !important
+		font-weight: 400 !important
+		font-size: 14px !important
+		width: 100% !important
+		text-align: center !important
+		.close
+			display: none !important
+	#email1
+		position: relative
+		left: 0
+		top: 0
+		display: inline-block
+		padding: 0 0 0 31px
+		width: 320px
+		height: 48px
+		box-sizing: border-box
+		font-size: 14px
+		color: rgba(59,19,89,1)
+		font-family: $sans
+		background-color: white
+		outline: none
+		border: none
+		-webkit-appearence: none
+		vertical-align: top
+		@media(max-width: 1200px)
+			width: 270px
+			height: 45px
+		@media(max-width: 991px)
+			width: 225px
+			height: 40px
+	.button
+		position: relative
+		display: inline-block
+		margin-left: 12px
+		height: 48px
+		width: 147px
+		overflow: hidden
+		font-family: $sans
+		font-size: 16px
+		font-weight: 600
+		font-style: normal
+		font-stretch: normal
+		letter-spacing: normal
+		text-decoration: none
+		color: white
+		border: none
+		outline: none
+		-webkit-appearence: none
+		vertical-align: top
+		background: none
+		box-shadow: 0px 2px 11px 0px rgba(255,35,148,1)
+		transition: all 0.3s ease 0s
+		transform: translateY(0)
+		cursor: pointer
+		&:after
+			content: ''
+			position: absolute
+			top: 0
+			z-index: -1
+			display: inline-block
+			height: 48px
+			width: 294px
+			background: rgba(204,0,150,1)
+			background: -moz-linear-gradient(45deg, rgba(204,0,150,1) 0%, rgba(255,2,141,1) 100%)
+			background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(204,0,150,1)), color-stop(100%, rgba(255,2,141,1)))
+			background: -webkit-linear-gradient(45deg, rgba(204,0,150,1) 0%, rgba(255,2,141,1) 100%)
+			background: -o-linear-gradient(45deg, rgba(204,0,150,1) 0%, rgba(255,2,141,1) 100%)
+			background: -ms-linear-gradient(45deg, rgba(204,0,150,1) 0%, rgba(255,2,141,1) 100%)
+			background: linear-gradient(45deg, rgba(204,0,150,1) 0%, rgba(255,2,141,1) 100%)
+			filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cc0096', endColorstr='#ff028d', GradientType=1 )
+			transform: translateX(-240px)
+			transition: transform .4s ease-in
+		&:hover
+			box-shadow: 0px 8px 16px 0px rgba(255, 35, 148, 0.4)
+			transform: translateY(-7px)
+			&:after
+				transform: translateX(-160px)
+		@media(max-width: 1200px)
+			width: 120px
+			height: 45px
+		@media(max-width: 991px)
+			width: 100px
+			height: 40px
+		@media(max-width: 768px)
+			width: 35%
+			max-width: 100px
+			font-size: 14px
+			&:after
+				width: 100%
+				left: 0
+				transform: translateX(0)
+			&:hover
+				box-shadow: 0px 2px 11px 0px rgba(255,35,148,1)
+				transform: translateY(0)
+				&:after
+					transform: translateX(0)

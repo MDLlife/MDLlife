@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on MDL - Talent Hub Blog</title>
+    <link>http://localhost/de/categories/development/</link>
+    <description>Recent content in Development on MDL - Talent Hub Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost/de/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Ansätze und technische Entscheidungen</title>
+      <link>http://localhost/de/2017-12-31-approaches-technical-decisions/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/de/2017-12-31-approaches-technical-decisions/</guid>
+      <description>Im aktuellen Stadium der globalen Blockchain-Entwicklung scheint es, als ob die meisten Leute absolut vergessen haben, dass hinter jedem Projekt tatsächlich Leute arbeiten (oder nicht). Eine stilvolle Website mit einem vielversprechenden Video mit Bitcoin- oder Ethereum-Adressen bringt die Menschen mehr dazu zu investieren, als eine hart arbeitende Gemeinschaft mit respektvollen Anführern. Menschen senden einfach Geld blind zu einem intelligenten Vertrag, ohne zu erforschen, wer an dem Konzept, dem Code, dem Marketing, etc.</description>
+    </item>
+    
+    <item>
+      <title>MDL - Mine Distributed Ledger</title>
+      <link>http://localhost/de/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/de/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <description>MDL Talent Hub wird PIDS-Technologien (IPFS, CXO usw.) verwenden, die es ermöglichen, Informationen auf Geräten der Nutzer und bei Minern verteilt zu speichern, wodurch der Zugriff, die Geschwindigkeit und die Sicherheit von Informationen wesentlich erhöht werden.
+Um unsere Nutzer und Miner (Schürfer) zu entschädigen, werden wir ein Prämienprogramm einrichten, mit dem jeder eine bestimmte Anzahl von MDL-Token erhalten kann, wenn er Informationen über Talente, Ereignisse usw. speichert. MDL-Tokens können so auf MDL Talent Hub für andere Wertsachen ausgegeben oder in andere Krypto- oder Fiat-Währungen umgetauscht werden.</description>
+    </item>
+    
+    <item>
+      <title>Benutzerinstrumente - Teil 1</title>
+      <link>http://localhost/de/2017-12-08-user-instruments-part1/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/de/2017-12-08-user-instruments-part1/</guid>
+      <description>Profil Wir glauben, dass eine talentierte Person in vielerlei Hinsicht talentiert sein kann, so dass jedes Profil mehrere Portfolios hat - Schauspieler, Tänzer, Origami-Meister oder anderes. Jedes der Portfolios wird über ausreichend Präsentationsmaterial wie Compcard, Vorstellungsvideos oder anderes verfügen. So kann ein Bucher leicht ein bestimmtes Portfolio eines Talents auswählen, das für das bestimmte Ereignis benötigt wird.
+Search Suche wird sowohl für Bucher als auch für Talente verfügbar sein, indem es für Jobs als auch für Freiberufler zur Verfügung steht.</description>
+    </item>
+    
+  </channel>
+</rss>

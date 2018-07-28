@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on MDL - Talent Hub Blog</title>
+    <link>http://localhost/ar/categories/news/</link>
+    <description>Recent content in News on MDL - Talent Hub Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 13 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost/ar/categories/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pre-ITO Is Ongoing</title>
+      <link>http://localhost/ar/2017-12-13-pre-ito-is-ongoing/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost/ar/2017-12-13-pre-ito-is-ongoing/</guid>
+      <description>In order to prepare for ITO, we require ca. $500.000. This amount will allow to launch ITO campaign in March 2018, where we are expecting to raise ca. $20m for the development of the platform, cross-border scaling and business development, as well as for R&amp;amp;D and further implementation of BC &amp;amp; PIDS technologies.
+In January 2018 we are planning to conclude Pre-ITO for MDL the Token. MDL Token was issued on the 8th of October 2017 on Waves platform in the amount of 100.</description>
+    </item>
+    
+  </channel>
+</rss>
