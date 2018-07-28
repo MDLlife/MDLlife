@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on MDL - Talent Hub Blog</title>
-    <link>http://test-show.zzz.com.ua/zh-hant/categories/development/</link>
+    <link>http://localhost/zh-hant/categories/development/</link>
     <description>Recent content in Development on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 21 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://test-show.zzz.com.ua/zh-hant/categories/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/zh-hant/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MDL - Mine Distributed Ledger(我的分布式賬本）</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>http://localhost/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>http://localhost/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL藝人社採用PIDS技術（IPFS，CXO等），這將使信息採用分布式的方式儲存在用戶和挖礦者的設備中，以提高訪問速度和保障更高的信息安全。
 為了補償我們的用戶和挖礦者，我們開展了賞金計劃 — 任何人都可以通過在平台上存儲有關於藝人，活動等等信息得到一定量的MDL代幣。MDL代幣可以被用來在藝人社使用，或者是轉換成其他的加密貨幣和法幣。
 此時此刻正有兩個相當靠譜的科技將被我們平台採用 - 星際文件系統（IPFS）和天空賬本（CXO）。IPFS已經完美運作許久，即便採礦還並未被運訓運作，我們部落格裡的全部媒體資料都已經被儲存在了那裡。但是我們指望著，它遲早有可能在IPFS挖取賞金。
@@ -25,10 +25,10 @@
     
     <item>
       <title>用戶指南 - 篇章 1</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-08-user-instruments-part1/</link>
+      <link>http://localhost/zh-hant/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-08-user-instruments-part1/</guid>
+      <guid>http://localhost/zh-hant/2017-12-08-user-instruments-part1/</guid>
       <description>個人資料 我們相信有才華的藝人們不可能隻有一種才能，所以每份個人資料頁面中都將會包含多個技能資料頁面 – 演戲，跳舞，折紙，馬戲或者任意有趣的技能。每位藝人的資料頁中都將擁有足夠的演示材料：模卡，視頻，高清照片等等。這樣，預約方就能夠更有目標性的去選擇藝人，為合適的展會活動選擇最適合的藝人。
 信息查找 查找功能將會面向藝人和預約者雙方開放，人才可以毛遂自薦，找到心儀工作，同時預約方也能找到最合適的藝人。我們的目標是使平台維持直觀簡單，因此我們將認真聽取建議，同時利用公認的行業標准打造最優平台。
 日程計劃 對於自由職業者和活動方來說，一個完美的時間管理工具是必不可少的。MDL藝人社有一個可以打造它的完美建議！所有的日程都會被鏈接到同一個數據庫中，所以預約方可以看到人才們的日程安排情況﹔人才也將注意到即將到來的日程安排。當然，此日程表也將會使用區塊鏈技術，讓所有的日程安排都有據可查。

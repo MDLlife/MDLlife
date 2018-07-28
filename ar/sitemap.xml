@@ -3,219 +3,219 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://test-show.zzz.com.ua/ar/2017-12-13-pre-ito-is-ongoing/</loc>
+    <loc>http://localhost/ar/2017-12-13-pre-ito-is-ongoing/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://test-show.zzz.com.ua/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://test-show.zzz.com.ua/es/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/es/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="http://test-show.zzz.com.ua/id/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/id/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="de"
-                href="http://test-show.zzz.com.ua/de/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/de/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://test-show.zzz.com.ua/kr/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/kr/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://test-show.zzz.com.ua/ru/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/ru/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
-                href="http://test-show.zzz.com.ua/zh-hant/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/zh-hant/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh"
-                href="http://test-show.zzz.com.ua/zh/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/zh/2017-12-13-pre-ito-is-ongoing/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://test-show.zzz.com.ua/ar/2017-12-13-pre-ito-is-ongoing/"
+                href="http://localhost/ar/2017-12-13-pre-ito-is-ongoing/"
                 />
   </url>
   
   <url>
-    <loc>http://test-show.zzz.com.ua/ar/categories/</loc>
+    <loc>http://localhost/ar/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://test-show.zzz.com.ua/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="http://test-show.zzz.com.ua/zh-hant/categories/"
+                href="http://localhost/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://test-show.zzz.com.ua/es/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://test-show.zzz.com.ua/ja/categories/"
+                href="http://localhost/es/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://test-show.zzz.com.ua/ru/categories/"
+                href="http://localhost/ru/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://test-show.zzz.com.ua/zh/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="http://test-show.zzz.com.ua/id/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://test-show.zzz.com.ua/de/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="http://test-show.zzz.com.ua/kr/categories/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="http://test-show.zzz.com.ua/ar/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>http://test-show.zzz.com.ua/ar/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://test-show.zzz.com.ua/"
+                hreflang="ja"
+                href="http://localhost/ja/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="zh-hant"
-                href="http://test-show.zzz.com.ua/zh-hant/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="http://test-show.zzz.com.ua/es/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://test-show.zzz.com.ua/ja/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="http://test-show.zzz.com.ua/ru/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="http://test-show.zzz.com.ua/zh/"
+                href="http://localhost/zh-hant/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="http://test-show.zzz.com.ua/id/"
+                href="http://localhost/id/categories/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="http://test-show.zzz.com.ua/de/"
+                hreflang="zh"
+                href="http://localhost/zh/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://test-show.zzz.com.ua/kr/"
+                href="http://localhost/kr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost/de/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://test-show.zzz.com.ua/ar/"
+                href="http://localhost/ar/categories/"
                 />
   </url>
   
   <url>
-    <loc>http://test-show.zzz.com.ua/ar/categories/news/</loc>
+    <loc>http://localhost/ar/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://test-show.zzz.com.ua/categories/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="http://test-show.zzz.com.ua/zh-hant/categories/news/"
+                href="http://localhost/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="es"
-                href="http://test-show.zzz.com.ua/es/categories/news/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="http://test-show.zzz.com.ua/ja/categories/news/"
+                href="http://localhost/es/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ru"
-                href="http://test-show.zzz.com.ua/ru/categories/news/"
+                href="http://localhost/ru/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="zh"
-                href="http://test-show.zzz.com.ua/zh/categories/news/"
+                hreflang="ja"
+                href="http://localhost/ja/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://localhost/zh-hant/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="http://test-show.zzz.com.ua/id/categories/news/"
+                href="http://localhost/id/"
                 />
     <xhtml:link
                 rel="alternate"
-                hreflang="de"
-                href="http://test-show.zzz.com.ua/de/categories/news/"
+                hreflang="zh"
+                href="http://localhost/zh/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="kr"
-                href="http://test-show.zzz.com.ua/kr/categories/news/"
+                href="http://localhost/kr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost/de/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="ar"
-                href="http://test-show.zzz.com.ua/ar/categories/news/"
+                href="http://localhost/ar/"
+                />
+  </url>
+  
+  <url>
+    <loc>http://localhost/ar/categories/news/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://localhost/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="http://localhost/es/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="http://localhost/ru/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="http://localhost/ja/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="http://localhost/zh-hant/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="http://localhost/id/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="http://localhost/zh/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="http://localhost/kr/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://localhost/de/categories/news/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="http://localhost/ar/categories/news/"
                 />
   </url>
   

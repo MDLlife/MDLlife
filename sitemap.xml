@@ -2,72 +2,72 @@
 <sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/en/sitemap.xml</loc>
+	   	<loc>http://localhost/en/sitemap.xml</loc>
 		
-	   	<lastmod>2018-07-25T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/zh-hant/sitemap.xml</loc>
-		
-	   	<lastmod>2017-12-23T00:00:00+00:00</lastmod>
+	   	<lastmod>2018-07-27T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/es/sitemap.xml</loc>
+	   	<loc>http://localhost/es/sitemap.xml</loc>
 		
 	   	<lastmod>2018-01-19T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/ar/sitemap.xml</loc>
+	   	<loc>http://localhost/ar/sitemap.xml</loc>
 		
 	   	<lastmod>2017-12-13T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/ja/sitemap.xml</loc>
+	   	<loc>http://localhost/ru/sitemap.xml</loc>
+		
+	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://localhost/ja/sitemap.xml</loc>
 		
 	   	<lastmod>2017-10-10T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/ru/sitemap.xml</loc>
+	   	<loc>http://localhost/zh-hant/sitemap.xml</loc>
 		
-	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
-		
-	</sitemap>
-	
-	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/zh/sitemap.xml</loc>
-		
-	   	<lastmod>2018-05-24T00:00:00+00:00</lastmod>
+	   	<lastmod>2017-12-23T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/id/sitemap.xml</loc>
+	   	<loc>http://localhost/id/sitemap.xml</loc>
 		
 	   	<lastmod>2018-01-09T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/de/sitemap.xml</loc>
+	   	<loc>http://localhost/zh/sitemap.xml</loc>
 		
-	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
+	   	<lastmod>2018-05-24T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	
 	<sitemap>
-	   	<loc>http://test-show.zzz.com.ua/kr/sitemap.xml</loc>
+	   	<loc>http://localhost/kr/sitemap.xml</loc>
 		
 	   	<lastmod>2017-12-14T00:00:00+00:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://localhost/de/sitemap.xml</loc>
+		
+	   	<lastmod>2018-01-31T00:00:00+00:00</lastmod>
 		
 	</sitemap>
 	

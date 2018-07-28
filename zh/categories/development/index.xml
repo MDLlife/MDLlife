@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on MDL - Talent Hub Blog</title>
-    <link>http://test-show.zzz.com.ua/zh/categories/development/</link>
+    <link>http://localhost/zh/categories/development/</link>
     <description>Recent content in Development on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://test-show.zzz.com.ua/zh/categories/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/zh/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MDL 发展战略</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-04-mdl-development-strategy/</link>
+      <link>http://localhost/zh/2018-05-04-mdl-development-strategy/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-04-mdl-development-strategy/</guid>
+      <guid>http://localhost/zh/2018-05-04-mdl-development-strategy/</guid>
       <description>MDL 发展战略 MDL的开发团队一直在努力制造MVP方案，而且我们的架构团队已经交付了UML图表，这为我们的组织内部提供了诸多益处。
 统一建模语言（UML）将帮助我们为MDL系统建模并帮助我们构建简单易用的软件。
 在MDL中，我们使用UML图的原因为：
@@ -41,10 +41,10 @@ Ivens F. V. Signorini - 后端开发人员</description>
     
     <item>
       <title>开发更新#1</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-02-16-development-update-1/</link>
+      <link>http://localhost/zh/2018-02-16-development-update-1/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-02-16-development-update-1/</guid>
+      <guid>http://localhost/zh/2018-02-16-development-update-1/</guid>
       <description>亲爱的在区块链伙伴们和MDL的支持者们：
 MDL平台在这段时间里一直在持续积极发展的状态，现已是时间可以于社区分享一些更新要文。
 我们的MDL里目前有大约六个开发中的项目。他们中的一些项目从第一天开始便是开源代码（钱包、teller、这个区块链、博客、网页），而其他一些正在进行内部开发和内部测试中（平台后端、Android客户端，等等）。
@@ -75,10 +75,10 @@ MDL Explorer将通过运行MDL节点局部先，然后再运行资源管理器�
     
     <item>
       <title>方法技术的决策</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-31-approaches-technical-decisions/</link>
+      <link>http://localhost/zh/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>http://localhost/zh/2017-12-31-approaches-technical-decisions/</guid>
       <description>在当下全球区块链发展的状况中，大多数人似乎完全忘记了每个项目背后都有一些真正的在为此努力工作的人（或许有可能没有）。 因此，一个拥有极客团队背景和易于理解的介绍视屏的超级有型的时尚网站，当然比比特币或以太坊的复杂项目更吸引投资人的目光。人们只是盲目地把钱汇给一个智能合同，而没有真正研究是否有努力工作的团队在做概念，打代码，有没有一个值得信任的领导带领进行营销等方面或等等种种的工作。 真正的KYC或尽职调查应该在双方进行的，而不是只是乞求好运可以发生。 MDL采取了不同的方法，至少在预备ITO进行时。我们现在并不是要进行正式的KYC，而是要尽力了解我们的投资者，并且，我们认为让他们更了解我们也是很重要的。 在1月份的预备ITO期间，我们已经准备好所有可能遇到的问题的答案，并且尽可能的多多回应这些问题。
 为什么我们选择Waves平台来进行预备ITO？
 坦率地说，我们的所有团队成员都没有在Waves社区活跃过。但是我们对于一些以太坊项目有着丰富的知识，同时，对于ERC20，我们也是经验丰富的投资者。问题是。 ETH用户体验还远远不足于人们对它的期望。这个问题似乎一直没有任何改变，Ethereum网络现在的拥塞状态不仅不允许第一个有用的应用程序（ICO + crypto kitties）向世界展示其潜力，且它只是表明，把整个世界整合进入一个单一的数据库[实际上是区块链]可能不是最好的主意。Vitalik和他的团队正在做一个很好的事件，他们帮助加密货币社区成长，并向许多人开放，让大家都开了眼。但他们低估了即将带给世界的影响。我们并没有要与那些ERC20交战的想法，而是觉得，与其让我们的投资者浪费大量的交易费用，不如使用创建者Sasha为我们带来的便捷：它将允许MDL团队实现我们最初的众筹目标，并专注于重要的事情 - 建设伟大的产品。 MDL并没有冲击区块链加密货币的浪潮，我们正在乘坐工业革命4.0的震撼邮轮。
@@ -93,10 +93,10 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>MDL - Mine Distributed Ledger(我的分布式账本</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>http://localhost/zh/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>http://localhost/zh/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL艺人社采用PIDS技术（IPFS，CXO等），这将使信息采用分布式的方式储存在用户和挖矿者的设备中，以提高访问速度和保障更高的信息安全。
 为了补偿我们的用户和挖矿者，我们开展了赏金计划 — 任何人都可以通过在平台上存储有关于艺人，活动等等信息得到一定量的MDL代币。MDL代币可以被用来在艺人社使用，或者是转换成其他的加密货币和法币。
 此时此刻正有两个相当靠谱的科技将被我们平台采用 - 星际文件系统（IPFS）和天空账本（CXO）。IPFS已经完美运作许久，即便采矿还并未被运训运作，我们部落格里的全部媒体资料都已经被储存在了那里。但是我们指望着，它迟早有可能在IPFS挖取赏金。
@@ -106,10 +106,10 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>用户指南 - 篇章 1</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-08-user-instruments-part1/</link>
+      <link>http://localhost/zh/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-08-user-instruments-part1/</guid>
+      <guid>http://localhost/zh/2017-12-08-user-instruments-part1/</guid>
       <description>个人资料 我们相信有才华的艺人们不可能只有一种才能，所以每份个人资料页面中都将会包含多个技能资料页面 – 演戏，跳舞，折纸，马戏或者任意有趣的技能。每位艺人的资料页中都将拥有足够的演示材料：模卡，视频，高清照片等等。这样，预约方就能够更有目标性的去选择艺人，为合适的展会活动选择最适合的艺人。
 信息查找 查找功能将会面向艺人和预约者双方开放，人才可以毛遂自荐，找到心仪工作，同时预约方也能找到最合适的艺人。我们的目标是使平台维持直观简单，因此我们将认真听取建议，同时利用公认的行业标准打造最优平台。
 日程计划 对于自由职业者和活动方来说，一个完美的时间管理工具是必不可少的。MDL艺人社有一个可以打造它的完美建议！所有的日程都会被链接到同一个数据库中，所以预约方可以看到人才们的日程安排情况；人才也将注意到即将到来的日程安排。当然，此日程表也将会使用区块链技术，让所有的日程安排都有据可查。

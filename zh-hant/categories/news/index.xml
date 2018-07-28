@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>News on MDL - Talent Hub Blog</title>
-    <link>http://test-show.zzz.com.ua/zh-hant/categories/news/</link>
+    <link>http://localhost/zh-hant/categories/news/</link>
     <description>Recent content in News on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sat, 23 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://test-show.zzz.com.ua/zh-hant/categories/news/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/zh-hant/categories/news/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>這些我們正在做的事兒，是什麼？為什麼？</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-23-what-do-we-do-and-why/</link>
+      <link>http://localhost/zh-hant/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>http://localhost/zh-hant/2017-12-23-what-do-we-do-and-why/</guid>
       <description>我們正在做什麼呢？我們為什麼要做這些呢？
 當下正在火爆風行的區塊鏈熱潮帶來了超級多的項目，但是似乎並不是每個項目都是真實的，或有些項目並沒有出於一種有用途的好初衷。ICO成為初創公司籌集資金的手段，但是這樣的好工具在幫助真正有前途的公司發展的同時也被騙子們的盯上了。那，MDL藝人社是一個真實的，有實實在在的視野和發展計劃的項目，還是也是乘坐著加密熱潮的騙子項目呢？我們相信自己是站在堅實的基礎上，以下讓我們陳述為什麼。
 首先，我們為什麼僅僅為了一個申請招聘的環節而運用區塊鏈技術呢？
@@ -28,10 +28,10 @@
     
     <item>
       <title>MDL在天空帳本會議</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>http://localhost/zh-hant/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>http://localhost/zh-hant/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>因為MDL藝人社密切考慮採用CXO技術是天空賬本生態系統的一部分，我們很榮幸被邀請到上海區塊鏈愛好者與投資者會議來提出我們項目的理念。
 天空賬本將自己定位為區塊鏈版本 3.0 並且強力支持商業和IT社區。該技術是由國際團隊在上海開發，旨在執行其他一些DAO協議。
 能夠與世界范圍內的科技佼佼者，與中國最先進的科技團隊關系緊密，MDL團隊倍感享受。</description>
@@ -39,10 +39,10 @@
     
     <item>
       <title>預備ITO正在進行中</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>http://localhost/zh-hant/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>http://localhost/zh-hant/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>我們需要大約500,000美元來為我們的ITO進行准備。這一數額將允許ITO活動在2018年3月進行開展。屆時，我們預計將為平台的開發籌集約2000萬美元，為業務發展和使MDL實現跨進規模化，以及加強研究開發還有加快進一步實施 BC &amp;amp; PID 技術。
 MDL代幣在2017年10月8日以100,000,000個的總量在Waves平台上發布了。 代幣的資產信息可在以下鏈接中查看 - http://wavesgo.com/tokens/HtM2zY7gDnGbmNmEtF44K8TGCgajDj4rBX29bH87kwXP
 在2018年1月，我們計劃結束預備ITO中的MDL代幣的發售。
@@ -57,10 +57,10 @@ ITO的軟上限將為1,000萬美元，硬上限將為2,500萬美元，個人購�
     
     <item>
       <title>我的每一天 - My Daily Life（MDL藝人社）</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-06-mdl-my-daily-life/</link>
+      <link>http://localhost/zh-hant/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>http://localhost/zh-hant/2017-12-06-mdl-my-daily-life/</guid>
       <description>幾十年來，我們世界的經濟經歷了從農業生產到服務業再到創新經濟的巨大轉變，正如加拿大馬丁繁榮研究所的主管Richard Florida所指出的那樣。現代技術正在擾亂經濟，讓越來越多的人失業，而早期被視為瘋狂的無條件基本收入的想法已經在部分發達國家實施。很快，我們的社會將面臨沖擊，也許日常體力勞動甚至腦力勞動都有可能不會再被需要了。問題來了——人們會怎麼做呢？
 MDL藝人社有可能並沒有辦法去拯救世界，但定將成為一個能夠將世界變得更敞亮的平台。此項目的一個基本特點是：它將創造就業機會，為每一位參與者的生活帶來更多的意義。人們可以為自己的業余愛好和特長找到觀眾，並且賺一些零花錢，難道不是很好嗎？MDL會使其中步驟變得更為容易！
 新世界的體系讓現實的思維方式成為我們了的一部分，人們有意無意地放棄了自己的愛好並且也許正后悔著，現在強迫自己的孩子們學習藝術，希望新一代更具有藝術性。MDL藝人社的概念遲早會讓這個世界發生一些小小的變化，我們欣喜的期望著，並且不斷促進著。</description>
@@ -68,10 +68,10 @@ MDL藝人社有可能並沒有辦法去拯救世界，但定將成為一個能�
     
     <item>
       <title>MDL如何擔保信譽</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>http://localhost/zh-hant/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>http://localhost/zh-hant/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>為了確保信譽的可信度，MDL人才樞紐系統將採用兩種現代技術–區塊鏈和PIDS。讓我們簡單地解釋一下它將如何進行運作。
 Persistent Immutable Data Storage（PIDS）是一種新興的信息保存方式。該技術允許數據在用戶的設備上進行存儲，而不是中心化的採用集中的方式攻擊服務器。現在，已經有兩個可信的的協議正在開發中，並且已經可以使用–IPFS和CXO﹔它們都有望大幅度降低成本並提高傳輸速度。上傳文件后，它將接收一個hash-sum–一串文件的特定編碼地址，任何人都可以使用它來訪問該文件。
 區塊鏈可以被稱為是一種不斷增長記錄列表，區塊鏈技術確保了這列表的不可改變性的，因為它是以分散和加密的方式存儲的。高級加密的存儲方式允許儲存點化的信息，例如hash或URL地址。這一點帶來的好處是，任何人都可以確信這個列表不曾被改動的，也可以確保它不能被隨意篡改。這就是為什麼此技術無法被黑客襲擊的原因。
@@ -81,10 +81,10 @@ Persistent Immutable Data Storage（PIDS）是一種新興的信息保存方式�
     
     <item>
       <title>MDL藝人社在首爾SF2017</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>http://localhost/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>http://localhost/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>由於韓國正在亞洲積極推動創業生態系統和創新，以讓更多企業在激烈的技術競爭中生存下來，韓國政府啟動了一年一度的創業節計劃。上周，首次成功的企業家聚會成功舉辦。科技媒體，和風投專家同在COEX的屋檐下。
 MDL藝人社被熱切地邀請參與活動，並很幸運地得到了一個搶眼的展位，獲得了大量的曝光率。因為該項目的目的旨在解決一個在國際上普遍存在的問題，此現象在韓國也存在。這常盛會是一個擴大我們的業務網絡，並獲得較多有益的發展思路的絕佳機會。
 MDL團隊熱愛韓國，並計劃在2019年進入韓國市場。</description>
@@ -92,10 +92,10 @@ MDL團隊熱愛韓國，並計劃在2019年進入韓國市場。</description>
     
     <item>
       <title>MDL如何擔保信譽</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-11-25-webpage-is-launched-korea/</link>
+      <link>http://localhost/zh-hant/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>http://localhost/zh-hant/2017-11-25-webpage-is-launched-korea/</guid>
       <description>在12月初，MDL團隊將在韓國首爾參加2017創業節。SF2017是韓國政府為促進國家創新生態系統而首次組織的。來自亞洲的約60家創業公司將親自受邀與來自世界各地的風投和媒體見面。MDL就在其列表中！
 這將是我們作為一個團隊的第一件大事，我們期待著能夠帶給我們未來的潛在合作伙伴以及我們將在那裡見到的老朋友們留下美好的印象。
 此外，我們很高興地宣布，我們的網頁mdl.life現在已經啟動，請讓我們用這個精彩的視頻來解釋我們將會用這個平台來達成的目標是什麼。
@@ -105,10 +105,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>錢從哪裡來?</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-11-14-where-do-the-money-come-from/</link>
+      <link>http://localhost/zh-hant/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>http://localhost/zh-hant/2017-11-14-where-do-the-money-come-from/</guid>
       <description>為了保証我們的資金流向正面，我們正在考慮以下創收方式。由於區塊鏈技術的被啟用，一種創新的經濟系統已經啟用。
 傳統體系
 1.擴展功能
@@ -123,10 +123,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>我們在做什麼呢？</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-10-30-what-we-gonna-do/</link>
+      <link>http://localhost/zh-hant/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-10-30-what-we-gonna-do/</guid>
+      <guid>http://localhost/zh-hant/2017-10-30-what-we-gonna-do/</guid>
       <description>如果我有一個小時來解決一個問題，我會花55分鐘思考這個問題，5分鐘考慮解決方案。-阿爾伯特·愛因斯坦
 雖然這是愛因斯坦的話，但是這幾乎不適用於不斷變化的人才市場。因為人才市場需要不斷地監控和分析，以了解不斷出現的問題。此外，問題的解決方案並不會立即出現，以致某些並發症仍然被忽略。那這樣如果可以設計一個系統，使之不僅識別存在的問題，也預見到即將到來的問題，並且提供隨之而來的預防措施，如果可以管理得當，那這樣的系統定會是頂尖的吧。
 我們的團隊深刻了解人才市場的業務流程，以及擁有能夠充分利用當代技術解決方案的能力，這使我們的團隊有能力成為業界的游戲改變者。我們的工具將會有助於解決現有問題，讓市場參與者能夠有更好的體驗。 具體來說，我們將會實施以下工作：
@@ -135,10 +135,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>MDL團隊在Slush</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>http://localhost/zh-hant/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>http://localhost/zh-hant/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>在2017年10月12日的Slush會議上，MDL團隊首次公開露面。 我們已經向幾位經驗豐富的風投投資者和高科技產業商人展示了我們的願景和想法，不僅獲得了積極的反饋和鼓勵，並且獲得了一些寶貴的意見。
 優秀的想法不能出現在含蓄的生態系統中，所以分享思想和知識對於現代世界的生存和發展是絕對重要的。 據說社會資本要比其他任何實物資產更重要得多，所以我們很高興能夠建立更多有價值的關系，也要加強與老朋友的聯系來擴大我們的關系網絡。
 MDL團隊對Slush集團表示最誠摯的感謝，感謝這次啟發性活動的順利組織舉行，並且絕對希望能夠再次看到大家。</description>
@@ -146,10 +146,10 @@ MDL團隊對Slush集團表示最誠摯的感謝，感謝這次啟發性活動的
     
     <item>
       <title>MDL 成立 (視頻)</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-10-10-mdl-inception/</link>
+      <link>http://localhost/zh-hant/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-10-10-mdl-inception/</guid>
+      <guid>http://localhost/zh-hant/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  據說有些事件發生的可能是性很小，就像10月8日發生的事件。這一天，所有的拼圖都被整合在了那裡。這是開始一個偉大事業的微小一步。這一步將影響我們的社會，甚至更多的直接利益相關者。
 在不同領域出類拔萃的三位來自俄羅斯首都聖彼得堡的朋友，分別在IT，國際貿易和TVC生產行業進行發展。 除了國籍之外，他們唯一的共同之處在於他們身上的一種閃閃發光的精神。 這便是足夠展開事業的熱忱&amp;hellip;
 但是廢話少說！
@@ -165,10 +165,10 @@ MDL 是我們的名字。
     
     <item>
       <title>這個就是。)</title>
-      <link>http://test-show.zzz.com.ua/zh-hant/2017-10-08-the-thing-is/</link>
+      <link>http://localhost/zh-hant/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh-hant/2017-10-08-the-thing-is/</guid>
+      <guid>http://localhost/zh-hant/2017-10-08-the-thing-is/</guid>
       <description>中國、印度尼西亞，大多數的亞洲國家在幾年前就已經熱情轉型，將其經濟從出口驅動轉向消費驅動。廣告業繼續呈現兩位數增長。想一想組成亞洲文化的集體主義模式，我們不難發現在所有營銷活動中，有模特參與的，總能有壓倒性的優勢。無論是在線，熒幕上或者是現場推廣，模特總是它的關鍵部分。
 由此，比方說，大量各種各樣的外來人才涌現中國，其中不乏模特、演員、歌手及舞者，馬戲團成員和主題公園演出者。並且，由於這些人才的國籍，他們普遍被群眾認為是高價的。 據估算表示，在中國大陸有大約10,000名自由職業的外國模特與30多個專業模特機構公司為會展公司，產品車間，各種展覽等提供服務。這一切都在最近才開始發生，還未建立任何堅實的基礎設施和參與者交互的市場標准。
 隨著人才供需市場的持續發展，我們聽到一種聲音呼喚著市場的透明化和規范化。更加具體的來說，以下例舉了人才和需求方的一些已存在的問題：

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Development on MDL - Talent Hub Blog</title>
-    <link>http://test-show.zzz.com.ua/ru/categories/development/</link>
+    <link>http://localhost/ru/categories/development/</link>
     <description>Recent content in Development on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://test-show.zzz.com.ua/ru/categories/development/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/ru/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Наши подходы и технические решения</title>
-      <link>http://test-show.zzz.com.ua/ru/2017-12-31-approaches-technical-decisions/</link>
+      <link>http://localhost/ru/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/ru/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>http://localhost/ru/2017-12-31-approaches-technical-decisions/</guid>
       <description>Если взглянуть со стороны на текущую ситуацию с блокчейн-проектами, то может сложиться впечатление, что большинство инвесторов начисто забыло о реальных разработчиках, которые стоят за этими проектами (или не стоят). И поэтому получается, что стильный сайт с классными видео и парой кошельков биткойна и эфира привлекает куда больше средств, чем реальная трудолюбивая команда с заслуживающими уважения лидерами. Люди отправляют свои деньги на смарт-контракты и даже не пытаются понять, а кто же работает над концепцией, кодом, маркетингом и пр.</description>
     </item>
     
     <item>
       <title>MDL - Mine Distributed Ledger - Майни распределенный реестр</title>
-      <link>http://test-show.zzz.com.ua/ru/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>http://localhost/ru/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/ru/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>http://localhost/ru/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL Talent Hub начинает использовать технологии PIDS (IPFS, CXO и т. д.), позволяющие хранить информацию особым способом, распределенную по устройствам пользователей и майнеров. Это повышает скорость доступа и обеспечивает надежное хранение данных.
 Мы создадим программу бонусов для мотивации наших пользователей и майнеров, участвуя в которой каждый сможет получить некоторое количество токенов MDL за хранение информации о талантах, событиях и т.д. Полученные таким образом MDL-токены могут быть использованы на MDL Talent Hub для покупки ценных вещей или обменены на другую криптовалюту и фиат.</description>
     </item>
     
     <item>
       <title>Инструменты пользователя, часть 1</title>
-      <link>http://test-show.zzz.com.ua/ru/2017-12-08-user-instruments-part1/</link>
+      <link>http://localhost/ru/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/ru/2017-12-08-user-instruments-part1/</guid>
+      <guid>http://localhost/ru/2017-12-08-user-instruments-part1/</guid>
       <description>Профиль Мы считаем, что талантливый человек может быть талантлив во многих отношениях, поэтому в каждом профиле будет несколько портфолио - актер, танцор, мастер оригами или что-то еще. Для составления каждого портфолио доступны различные ресурсы, такие как композитки, встраиваемое видео и пр. Таким образом, букеру легко будет выбрать то портфолио таланта, которое лучше подходит для конкретного мероприятия.
 Поиск Поиск будет доступен как для букеров, так и для талантов, так что можно будет искать и постоянную работу, и заказы для фрилансеров.</description>
     </item>

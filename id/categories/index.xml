@@ -2,28 +2,28 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on MDL - Talent Hub Blog</title>
-    <link>http://test-show.zzz.com.ua/id/categories/</link>
+    <link>http://localhost/id/categories/</link>
     <description>Recent content in Categories on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     
-	<atom:link href="http://test-show.zzz.com.ua/id/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/id/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Development</title>
-      <link>http://test-show.zzz.com.ua/id/categories/development/</link>
+      <link>http://localhost/id/categories/development/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/id/categories/development/</guid>
+      <guid>http://localhost/id/categories/development/</guid>
       <description></description>
     </item>
     
     <item>
       <title>News</title>
-      <link>http://test-show.zzz.com.ua/id/categories/news/</link>
+      <link>http://localhost/id/categories/news/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/id/categories/news/</guid>
+      <guid>http://localhost/id/categories/news/</guid>
       <description></description>
     </item>
     

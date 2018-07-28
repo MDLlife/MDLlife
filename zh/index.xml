@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>MDL - Talent Hub Blog</title>
-    <link>http://test-show.zzz.com.ua/zh/</link>
+    <link>http://localhost/zh/</link>
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 24 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://test-show.zzz.com.ua/zh/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost/zh/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>MDL艺人社在TNW会议</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-24-the-next-web-tnw-mdl-talent-hub/</link>
+      <link>http://localhost/zh/2018-05-24-the-next-web-tnw-mdl-talent-hub/</link>
       <pubDate>Thu, 24 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-24-the-next-web-tnw-mdl-talent-hub/</guid>
+      <guid>http://localhost/zh/2018-05-24-the-next-web-tnw-mdl-talent-hub/</guid>
       <description>MDL艺人社在TNW会议上处于最新技术潮流的前沿 MDL艺人社 — 新网。
 MDL团队了解这世界正在发生变化，技术已经不再只是一个行业，它是一个潜在的驱动因素，它有能力可以改变和引领全球每一个企业的创新。
 TNW会议是顶尖科技企业的必去之处，2018年，我们的团队在阿姆斯特丹出席。
@@ -29,10 +29,10 @@ Ivens F. V. Signorini - [MDL] 区块链 &amp;amp; Golang 开发者: “我非常
     
     <item>
       <title>MDL艺人社正在解决的4个问题：）</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-09-the-4-pps-mdl-talent-hub-is-solving/</link>
+      <link>http://localhost/zh/2018-05-09-the-4-pps-mdl-talent-hub-is-solving/</link>
       <pubDate>Wed, 09 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-09-the-4-pps-mdl-talent-hub-is-solving/</guid>
+      <guid>http://localhost/zh/2018-05-09-the-4-pps-mdl-talent-hub-is-solving/</guid>
       <description>MDL艺人社正在解决的4个问题 MDL艺人社正在打造三种生态环境集合在一个平台上，为解决人才荟萃者，代理商，人才和品牌的问题。
 以下将罗列MDL艺人社将会解决的四个主要问题:
  世界各地的艺人们在表演者预订行业中会遇到问题。另一方面，与公司，特别是中小型公司所创造的影响力相比，投资回报率较低。有许多问题需要解决，我们正在采取行动解决行业内的多种问题。 —Dimitri Doronin
@@ -51,10 +51,10 @@ MDL艺人社 拥有来自全球各地的，准备与我们一起加入变革的�
     
     <item>
       <title>MDL 被2018全球石墨烯开发者会议邀请讲话！</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-08-mdl-was-invited-to-speak-at-the-2018-global-graphene/</link>
+      <link>http://localhost/zh/2018-05-08-mdl-was-invited-to-speak-at-the-2018-global-graphene/</link>
       <pubDate>Tue, 08 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-08-mdl-was-invited-to-speak-at-the-2018-global-graphene/</guid>
+      <guid>http://localhost/zh/2018-05-08-mdl-was-invited-to-speak-at-the-2018-global-graphene/</guid>
       <description>MDL 2018被邀请到上海 全球石墨烯开发者会议  2018年五月五日，MDL艺人社的合作伙伴YOYOW邀请我们在上海GGDC进行发言。 YOYOW在此次活动中宣布了他们的产品发布，并邀请MDL艺人社作为演讲嘉宾，解释其技术在MDL艺人社生态系统中的使用意义。
  Dimitri Doronin 在会议上介绍了MDL艺人社，并表达了它将如何为娱乐行业的发展带来益处。
 此次活动取得了巨大成功，组织者中国区块链中心（Blockchain Center China/GDEX）确保了每个人都有足够的时间在舞台上闪耀。 许多有趣的人前来参加了本次会议，主办方允许参与观众与应邀公司在本次活动中穿插互动，使公司出席演讲更生动。
@@ -72,10 +72,10 @@ GDEX
     
     <item>
       <title>什么是 MDL 代币小时数经济?</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-06-what-is-the-mdl-token-hour-economy/</link>
+      <link>http://localhost/zh/2018-05-06-what-is-the-mdl-token-hour-economy/</link>
       <pubDate>Sun, 06 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-06-what-is-the-mdl-token-hour-economy/</guid>
+      <guid>http://localhost/zh/2018-05-06-what-is-the-mdl-token-hour-economy/</guid>
       <description>Sky Fiber 区块链技术 可以为代币持有者积累代币小时数。 这机制是很简单的 — 如果有人拥有一个MDL代币，则在1小时后，他或她获得1个MDL代币小时数，如果有10个MDL代币，则在1小时后他或她获得10个MDL代币小时数。拥有越多的MDL代币，持有时间越长，将会累积越多的代币小时数。
 代币小时数的用途 在Skycoin区块链以及其他Sky Fiber的链中，代币小时数用于支付交易费用，从而保证系统免受微交易泛滥。虽然小时数的最初目的已经足够让人信服了，但它们的本质能够允许它们在Fiber生态系统项目中拥有更广泛的用途。
 一些代币小时数特定标准  MDL代币小时数以不变的速度累计。 MDL代币小时数不可被交易。这将增加MDL代币的价值和MDL代币小时数的稳定性。 代币小时数在使用时会被销毁，所以它们不能传递价值。 MDL代币小时数会在每次MDL代币的传输中被销毁。 MDL代币可以在MDL平台的使用过程中被用来购买扩展功能，提升增强工具和使用暂时性或永久性的自定义功能。  MDL代币小时数的使用示例 代币小时数对于持有MDL代币的投机者是有趣的：
@@ -86,10 +86,10 @@ GDEX
     
     <item>
       <title>MDL 艺人社的影响群体 &amp; 表演者</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-05-mdl-talent-hub-influencers-performers-take-note/</link>
+      <link>http://localhost/zh/2018-05-05-mdl-talent-hub-influencers-performers-take-note/</link>
       <pubDate>Sat, 05 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-05-mdl-talent-hub-influencers-performers-take-note/</guid>
+      <guid>http://localhost/zh/2018-05-05-mdl-talent-hub-influencers-performers-take-note/</guid>
       <description> 为什么你要加入 MDL 艺人社  MDL 艺人社是一个承载从演艺新人到专业大咖，各个阶层有才华的艺人和有影响力的人物的平台，并让他们能和品牌和经纪公司相连接。
  MDL 艺人社的独特之处在于我们与品牌和代理商的合作，以及它为每一位平台使用者（艺人，品牌和代理）制作了一个声誉系统。这是为了解决艺人预订行业中可能发生的种种问题，如性骚扰，拖欠工资，损害品牌形象等等。
 当声誉是必须通过努力来维护的时候，我们能更清楚如何剔除超低声誉的坏人与奖励维持声誉的好人！娱乐行业对声誉系统有着巨大的需求，MDL 艺人社已经准备好为大环境提供此项服务。
@@ -105,10 +105,10 @@ GDEX
     
     <item>
       <title>MDL 发展战略</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-05-04-mdl-development-strategy/</link>
+      <link>http://localhost/zh/2018-05-04-mdl-development-strategy/</link>
       <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-05-04-mdl-development-strategy/</guid>
+      <guid>http://localhost/zh/2018-05-04-mdl-development-strategy/</guid>
       <description>MDL 发展战略 MDL的开发团队一直在努力制造MVP方案，而且我们的架构团队已经交付了UML图表，这为我们的组织内部提供了诸多益处。
 统一建模语言（UML）将帮助我们为MDL系统建模并帮助我们构建简单易用的软件。
 在MDL中，我们使用UML图的原因为：
@@ -134,10 +134,10 @@ Ivens F. V. Signorini - 后端开发人员</description>
     
     <item>
       <title>开发更新#1</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-02-16-development-update-1/</link>
+      <link>http://localhost/zh/2018-02-16-development-update-1/</link>
       <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-02-16-development-update-1/</guid>
+      <guid>http://localhost/zh/2018-02-16-development-update-1/</guid>
       <description>亲爱的在区块链伙伴们和MDL的支持者们：
 MDL平台在这段时间里一直在持续积极发展的状态，现已是时间可以于社区分享一些更新要文。
 我们的MDL里目前有大约六个开发中的项目。他们中的一些项目从第一天开始便是开源代码（钱包、teller、这个区块链、博客、网页），而其他一些正在进行内部开发和内部测试中（平台后端、Android客户端，等等）。
@@ -168,20 +168,20 @@ MDL Explorer将通过运行MDL节点局部先，然后再运行资源管理器�
     
     <item>
       <title>预售达到了最高限额!</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-01-31-pre-ito-hard-cap/</link>
+      <link>http://localhost/zh/2018-01-31-pre-ito-hard-cap/</link>
       <pubDate>Wed, 31 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-01-31-pre-ito-hard-cap/</guid>
+      <guid>http://localhost/zh/2018-01-31-pre-ito-hard-cap/</guid>
       <description>亲爱的朋友们！我们感谢大家可以把信任交托于我们的 MDL 艺人社。我们特别感激 MDL 艺人社的早期投资者对于我们的信任和支持。我们相信 MDL 社区是这个平台最重要的利益相关者 - 如果没有大家的支持，我们并不能成气候！预售的极限已经达到了，这个意味着我们在正确的时间做了正确的事情。MDL 团队在为社会创造长线价值的过程中充满了热情，我们为了 2018 准备了更多的酷炫事件。敬请期待！被才能充满吧！
 你亲爱的， MDL.life</description>
     </item>
     
     <item>
       <title>预售的最后一周啦！</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-01-25-the-last-week-of-pre-ito/</link>
+      <link>http://localhost/zh/2018-01-25-the-last-week-of-pre-ito/</link>
       <pubDate>Thu, 25 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-01-25-the-last-week-of-pre-ito/</guid>
+      <guid>http://localhost/zh/2018-01-25-the-last-week-of-pre-ito/</guid>
       <description>上个星期，MDL艺人社的预售活动得到了一个愉快的消息 - 已经成功越过了最低门槛 $300 000！恭喜所有的投资者，参与者与伙伴们！
 预售项目已经有超过80位参与者，但是预售只是一个开端。预售让我们可以提前为大家准备这有趣的重磅项目，和有相同志向的人更好的一起工作，探索发现，共同冲刺，达成成就，共享成果，非常高兴您决定与我们一起走这条路。
 我们的项目正在迅速发展，有了更多的新成员，参与了更多的会议，也研讨了更多的技术方案。进行了高质量更新，开发软件，也有很酷的软件合作方。我们迫不及待的想告诉大家更多的进展。
@@ -190,20 +190,20 @@ MDL Explorer将通过运行MDL节点局部先，然后再运行资源管理器�
     
     <item>
       <title>为什么艺人社的代币小时数那么酷</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
+      <link>http://localhost/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</link>
       <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
+      <guid>http://localhost/zh/2018-01-19-why-mdl-token-hours-are-so-cool/</guid>
       <description>MDL 艺人社平台将会被 MDL 代币小时数（MDL TH）助力。MDL TH将会被用于支持 MDL 代币的价值增长，也会被用于保护平台，解决可能会发生的过高的 MDL 代币挥发性问题。以下八个概念可以解释 MDL TH。
  MDL TH 的机制根据 Skycoin 的 Coin Hours 进行了调整。 您所收到的 MDL 代币小时数的数量是根据您所拥有的 MDL 代币的数量，随着时间的积累而增加的。 MDL TH 是逐步增加的。 MDL TH 是从 MDL 区块链中派生出的区块。 MDL TH 是不能被交易的。这将增加 MDL 代币的价值和 MDL 代币小时数的稳定性。 代币小时数将在购买平台上的扩展功能时抵消。 限时功能和永久功能都可使用 MDL 代币小时数购买。 MDL TH 也将在进行 MDL 代币交易的过程中被抵消。   可以用 MDL TH 购买的功能列表，以及其波动性问题将在稍后介绍，敬请关注！</description>
     </item>
     
     <item>
       <title>为什么MDL代币的价值会随着时间增长呢？</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-01-14-why-mdl-value-increase/</link>
+      <link>http://localhost/zh/2018-01-14-why-mdl-value-increase/</link>
       <pubDate>Sun, 14 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-01-14-why-mdl-value-increase/</guid>
+      <guid>http://localhost/zh/2018-01-14-why-mdl-value-increase/</guid>
       <description>了解为什么MDL代币会随着时间的推移而增值对于我们的早期投资者来说，是很关键的。我们刚刚才意识到，这样对我们来说显而易见的升值趋势，对于社会来说却并不明朗。所以在这里我们想要简单介绍一下我们的代币使用计划，以及我们将如何保证我们的加密币投资者的资金增长。
 首先，MDL代币的价值将随着我们在艺人资源市场的扩张而增长，演艺这个市场正在不断扩大。越来越多的人使用我们的平台，就会越来越多的人想要拥有MDL代币。最初我们的目标是提供具有真正价值的产品，用于在实质上解决娱乐业现有问题，所以我们坚信我们可以根据我们的营销计划进行扩展。
 其次，当市场饱和度达到时，我们将为MDL代币开发实施更多功能，比如市场生态系统，与各大品牌的合作伙伴计划以及直播等等。当MDL代币的功能越来越多的时候，当然更多的人会希望拥有它。
@@ -213,10 +213,10 @@ MDL Explorer将通过运行MDL节点局部先，然后再运行资源管理器�
     
     <item>
       <title>艺人社的加密性和公开性</title>
-      <link>http://test-show.zzz.com.ua/zh/2018-01-09-anonymity-publicity-in-mdl/</link>
+      <link>http://localhost/zh/2018-01-09-anonymity-publicity-in-mdl/</link>
       <pubDate>Tue, 09 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2018-01-09-anonymity-publicity-in-mdl/</guid>
+      <guid>http://localhost/zh/2018-01-09-anonymity-publicity-in-mdl/</guid>
       <description>我们的任务之一是为娱乐业市场带来透明度，但是，我们也需要应对这一任务在此领域造成的影响，为艺人和预定者创造更容易被接受的流程和环境。我们使用 blockchain 和 PIDS (IPFS, CXO) 技术，因为他们拥有众所周知的让信息公开可信的能力，他们的强项是使数据具有公开信，可追踪性，和拥有不可更改的特性。但是与此同时，这些特性也提出了一个很好的问题 — 什么样的信息将会被开放给公众？
 几年来,，人才资源市场的运营活动为我们的团队提供了一个绝佳的视角, 来观察我们的人才可能会想要隐藏什么, 以及想要如何公开必要信息，或是炫耀那些值得炫耀的。关于这部分，网站所采取的安全手段，如私人秘钥和相关的核查工具，并不是本话题所含概的事项。
 工资 这对于艺人们来说并不是一个直截了当的话题 — 有时候艺人想要隐藏此数字，仅在必要时炫耀它。
@@ -231,10 +231,10 @@ MDL Explorer将通过运行MDL节点局部先，然后再运行资源管理器�
     
     <item>
       <title>方法技术的决策</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-31-approaches-technical-decisions/</link>
+      <link>http://localhost/zh/2017-12-31-approaches-technical-decisions/</link>
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-31-approaches-technical-decisions/</guid>
+      <guid>http://localhost/zh/2017-12-31-approaches-technical-decisions/</guid>
       <description>在当下全球区块链发展的状况中，大多数人似乎完全忘记了每个项目背后都有一些真正的在为此努力工作的人（或许有可能没有）。 因此，一个拥有极客团队背景和易于理解的介绍视屏的超级有型的时尚网站，当然比比特币或以太坊的复杂项目更吸引投资人的目光。人们只是盲目地把钱汇给一个智能合同，而没有真正研究是否有努力工作的团队在做概念，打代码，有没有一个值得信任的领导带领进行营销等方面或等等种种的工作。 真正的KYC或尽职调查应该在双方进行的，而不是只是乞求好运可以发生。 MDL采取了不同的方法，至少在预备ITO进行时。我们现在并不是要进行正式的KYC，而是要尽力了解我们的投资者，并且，我们认为让他们更了解我们也是很重要的。 在1月份的预备ITO期间，我们已经准备好所有可能遇到的问题的答案，并且尽可能的多多回应这些问题。
 为什么我们选择Waves平台来进行预备ITO？
 坦率地说，我们的所有团队成员都没有在Waves社区活跃过。但是我们对于一些以太坊项目有着丰富的知识，同时，对于ERC20，我们也是经验丰富的投资者。问题是。 ETH用户体验还远远不足于人们对它的期望。这个问题似乎一直没有任何改变，Ethereum网络现在的拥塞状态不仅不允许第一个有用的应用程序（ICO + crypto kitties）向世界展示其潜力，且它只是表明，把整个世界整合进入一个单一的数据库[实际上是区块链]可能不是最好的主意。Vitalik和他的团队正在做一个很好的事件，他们帮助加密货币社区成长，并向许多人开放，让大家都开了眼。但他们低估了即将带给世界的影响。我们并没有要与那些ERC20交战的想法，而是觉得，与其让我们的投资者浪费大量的交易费用，不如使用创建者Sasha为我们带来的便捷：它将允许MDL团队实现我们最初的众筹目标，并专注于重要的事情 - 建设伟大的产品。 MDL并没有冲击区块链加密货币的浪潮，我们正在乘坐工业革命4.0的震撼邮轮。
@@ -249,10 +249,10 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>这些我们正在做的事儿，是什么？为什么？</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-23-what-do-we-do-and-why/</link>
+      <link>http://localhost/zh/2017-12-23-what-do-we-do-and-why/</link>
       <pubDate>Sat, 23 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-23-what-do-we-do-and-why/</guid>
+      <guid>http://localhost/zh/2017-12-23-what-do-we-do-and-why/</guid>
       <description>我们正在做什么呢？我们为什么要做这些呢？
 当下正在火爆风行的区块链热潮带来了超级多的项目，但是似乎并不是每个项目都是真实的，或有些项目并没有出于一种有用途的好初衷。ICO成为初创公司筹集资金的手段，但是这样的好工具在帮助真正有前途的公司发展的同时也被骗子们的盯上了。那，MDL艺人社是一个真实的，有实实在在的视野和发展计划的项目，还是也是乘坐着加密热潮的骗子项目呢？我们相信自己是站在坚实的基础上，以下让我们陈述为什么。
 首先，我们为什么仅仅为了一个申请招聘的环节而运用区块链技术呢？
@@ -265,10 +265,10 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>MDL - Mine Distributed Ledger(我的分布式账本</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <link>http://localhost/zh/2017-12-21-mdl-mine-distributed-ledger/</link>
       <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <guid>http://localhost/zh/2017-12-21-mdl-mine-distributed-ledger/</guid>
       <description>MDL艺人社采用PIDS技术（IPFS，CXO等），这将使信息采用分布式的方式储存在用户和挖矿者的设备中，以提高访问速度和保障更高的信息安全。
 为了补偿我们的用户和挖矿者，我们开展了赏金计划 — 任何人都可以通过在平台上存储有关于艺人，活动等等信息得到一定量的MDL代币。MDL代币可以被用来在艺人社使用，或者是转换成其他的加密货币和法币。
 此时此刻正有两个相当靠谱的科技将被我们平台采用 - 星际文件系统（IPFS）和天空账本（CXO）。IPFS已经完美运作许久，即便采矿还并未被运训运作，我们部落格里的全部媒体资料都已经被储存在了那里。但是我们指望着，它迟早有可能在IPFS挖取赏金。
@@ -278,10 +278,10 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>MDL在天空帐本会议</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-14-mdl-at-skyledger-conference/</link>
+      <link>http://localhost/zh/2017-12-14-mdl-at-skyledger-conference/</link>
       <pubDate>Thu, 14 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-14-mdl-at-skyledger-conference/</guid>
+      <guid>http://localhost/zh/2017-12-14-mdl-at-skyledger-conference/</guid>
       <description>因为MDL艺人社密切考虑采用CXO技术是天空账本生态系统的一部分，我们很荣幸被邀请到上海区块链爱好者与投资者会议来提出我们项目的理念。
 天空账本将自己定位为区块链版本 3﻿并且强力支持商业和IT社区。该技术是由国际团队在上海开发，旨在执行其他一些DAO协议。
 能够与世界范围内的科技佼佼者，与中国最先进的科技团队关系紧密，MDL团队倍感享受。</description>
@@ -289,10 +289,10 @@ MDL[目前]并不是一个缩略平台或是一大堆智能合约。 我们将�
     
     <item>
       <title>预备ITO正在进行中</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-13-pre-ito-is-ongoing/</link>
+      <link>http://localhost/zh/2017-12-13-pre-ito-is-ongoing/</link>
       <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-13-pre-ito-is-ongoing/</guid>
+      <guid>http://localhost/zh/2017-12-13-pre-ito-is-ongoing/</guid>
       <description>我们需要大约500,000美元来为我们的ITO进行准备。这一数额将允许ITO活动在2018年3月进行开展。届时，我们预计将为平台的开发筹集约2000万美元，为业务发展和使MDL实现跨进规模化，以及加强研究开发还有加快进一步实施 BC &amp;amp; PID 技术。
 MDL代币在2017年10月8日以100,000,000个的总量在Wav﻿s平台上发布了。 代币的资产信息可在以下链接中查看 - http://wavesgo.com/tokens/HtM2zY7gDnGbmNmEtF44K8TGCgajDj4rBX29bH87kwXP
 在2018年1月，我们计划结束预备ITO中的MDL代币的发售。
@@ -307,10 +307,10 @@ ITO的软上限将为1,000万美元，硬上限将为2,500万美元，个人购�
     
     <item>
       <title>用户指南 - 篇章 1</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-08-user-instruments-part1/</link>
+      <link>http://localhost/zh/2017-12-08-user-instruments-part1/</link>
       <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-08-user-instruments-part1/</guid>
+      <guid>http://localhost/zh/2017-12-08-user-instruments-part1/</guid>
       <description>个人资料 我们相信有才华的艺人们不可能只有一种才能，所以每份个人资料页面中都将会包含多个技能资料页面 – 演戏，跳舞，折纸，马戏或者任意有趣的技能。每位艺人的资料页中都将拥有足够的演示材料：模卡，视频，高清照片等等。这样，预约方就能够更有目标性的去选择艺人，为合适的展会活动选择最适合的艺人。
 信息查找 查找功能将会面向艺人和预约者双方开放，人才可以毛遂自荐，找到心仪工作，同时预约方也能找到最合适的艺人。我们的目标是使平台维持直观简单，因此我们将认真听取建议，同时利用公认的行业标准打造最优平台。
 日程计划 对于自由职业者和活动方来说，一个完美的时间管理工具是必不可少的。MDL艺人社有一个可以打造它的完美建议！所有的日程都会被链接到同一个数据库中，所以预约方可以看到人才们的日程安排情况；人才也将注意到即将到来的日程安排。当然，此日程表也将会使用区块链技术，让所有的日程安排都有据可查。
@@ -320,10 +320,10 @@ App下载 对于预约者来说，收集人才资料并介绍给最终客户是�
     
     <item>
       <title>我的每一天 - My Daily Life（MDL艺人社）</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-06-mdl-my-daily-life/</link>
+      <link>http://localhost/zh/2017-12-06-mdl-my-daily-life/</link>
       <pubDate>Wed, 06 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-06-mdl-my-daily-life/</guid>
+      <guid>http://localhost/zh/2017-12-06-mdl-my-daily-life/</guid>
       <description>几十年来，我们世界的经济经历了从农业生产到服务业再到创新经济的巨大转变，正如加拿大马丁繁荣研究所的主管Richard Florida所指出的那样。现代技术正在扰乱经济，让越来越多的人失业，而早期被视为疯狂的无条件基本收入的想法已经在部分发达国家实施。很快，我们的社会将面临冲击，也许日常体力劳动甚至脑力劳动都有可能不会再被需要了。问题来了——人们会怎么做呢？
 MDL艺人社有可能并没有办法去拯救世界，但定将成为一个能够将世界变得更敞亮的平台。此项目的一个基本特点是：它将创造就业机会，为每一位参与者的生活带来更多的意义。人们可以为自己的业余爱好和特长找到观众，并且赚一些零花钱，难道不是很好吗？MDL会使其中步骤变得更为容易！
 新世界的体系让现实的思维方式成为我们了的一部分，人们有意无意地放弃了自己的爱好并且也许正后悔着，现在强迫自己的孩子们学习艺术，希望新一代更具有艺术性。MDL艺人社的概念迟早会让这个世界发生一些小小的变化，我们欣喜的期望着，并且不断促进着。</description>
@@ -331,10 +331,10 @@ MDL艺人社有可能并没有办法去拯救世界，但定将成为一个能�
     
     <item>
       <title>MDL如何担保信誉&#34;</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-05-how-mdl-secures-reputation/</link>
+      <link>http://localhost/zh/2017-12-05-how-mdl-secures-reputation/</link>
       <pubDate>Tue, 05 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-05-how-mdl-secures-reputation/</guid>
+      <guid>http://localhost/zh/2017-12-05-how-mdl-secures-reputation/</guid>
       <description>为了确保信誉的可信度，MDL人才枢纽系统将采用两种现代技术–区块链和PIDS。让我们简单地解释一下它将如何进行运作。
 Persistent Immutable Data Storage（PIDS）是一种新兴的信息保存方式。该技术允许数据在用户的设备上进行存储，而不是中心化的采用集中的方式攻击服务器。现在，已经有两个可信的的协议正在开发中，并且已经可以使用–IPFS和CXO；它们都有望大幅度降低成本并提高传输速度。上传文件后，它将接收一个hash-sum–一串文件的特定编码地址，任何人都可以使用它来访问该文件。
 区块链可以被称为是一种不断增长记录列表，区块链技术确保了这列表的不可改变性的，因为它是以分散和加密的方式存储的。高级加密的存储方式允许储存点化的信息，例如hash或URL地址。这一点带来的好处是，任何人都可以确信这个列表不曾被改动的，也可以确保它不能被随意篡改。这就是为什么此技术无法被黑客袭击的原因。
@@ -344,10 +344,10 @@ Persistent Immutable Data Storage（PIDS）是一种新兴的信息保存方式�
     
     <item>
       <title>MDL艺人社在首尔SF2017</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-12-03-mdl-at-sf2017-seoul/</link>
+      <link>http://localhost/zh/2017-12-03-mdl-at-sf2017-seoul/</link>
       <pubDate>Sun, 03 Dec 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-12-03-mdl-at-sf2017-seoul/</guid>
+      <guid>http://localhost/zh/2017-12-03-mdl-at-sf2017-seoul/</guid>
       <description>由于韩国正在亚洲积极推动创业生态系统和创新，以让更多企业在激烈的技术竞争中生存下来，韩国政府启动了一年一度的创业节计划。上周，首次成功的企业家聚会成功举办。科技媒体，和风投专家同在COEX的屋檐下。
 MDL艺人社被热切地邀请参与活动，并很幸运地得到了一个抢眼的展位，获得了大量的曝光率。因为该项目的目的旨在解决一个在国际上普遍存在的问题，此现象在韩国也存在。这常盛会是一个扩大我们的业务网络，并获得较多有益的发展思路的绝佳机会。
 MDL团队热爱韩国，并计划在2019年进入韩国市场。</description>
@@ -355,10 +355,10 @@ MDL团队热爱韩国，并计划在2019年进入韩国市场。</description>
     
     <item>
       <title>MDL带着漂亮的页面去韩国参加SF2017啦</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-11-25-webpage-is-launched-korea/</link>
+      <link>http://localhost/zh/2017-11-25-webpage-is-launched-korea/</link>
       <pubDate>Sat, 25 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-11-25-webpage-is-launched-korea/</guid>
+      <guid>http://localhost/zh/2017-11-25-webpage-is-launched-korea/</guid>
       <description>在12月初，MDL团队将在韩国首尔参加2017创业节。SF2017是韩国政府为促进国家创新生态系统而首次组织的。来自亚洲的约60家创业公司将亲自受邀与来自世界各地的风投和媒体见面。MDL就在其列表中！
 这将是我们作为一个团队的第一件大事，我们期待着能够带给我们未来的潜在合作伙伴以及我们将在那里见到的老朋友们留下美好的印象。
 此外，我们很高兴地宣布，我们的网页mdl.life现在已经启动，请让我们用这个精彩的视频来解释我们将会用这个平台来达成的目标是什么。
@@ -368,10 +368,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>钱从哪里来?</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-11-14-where-do-the-money-come-from/</link>
+      <link>http://localhost/zh/2017-11-14-where-do-the-money-come-from/</link>
       <pubDate>Tue, 14 Nov 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-11-14-where-do-the-money-come-from/</guid>
+      <guid>http://localhost/zh/2017-11-14-where-do-the-money-come-from/</guid>
       <description>为了保证我们的资金流向正面，我们正在考虑以下创收方式。由于区块链技术的被启用，一种创新的经济系统已经启用。
 传统体系
 1.扩展功能
@@ -386,10 +386,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>我们在做什么呢？</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-10-30-what-we-gonna-do/</link>
+      <link>http://localhost/zh/2017-10-30-what-we-gonna-do/</link>
       <pubDate>Mon, 30 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-10-30-what-we-gonna-do/</guid>
+      <guid>http://localhost/zh/2017-10-30-what-we-gonna-do/</guid>
       <description>如果我有一个小时来解决一个问题，我会花55分钟思考这个问题，5分钟考虑解决方案。-阿尔伯特·爱因斯坦
 虽然这是爱因斯坦的话，但是这几乎不适用于不断变化的人才市场。因为人才市场需要不断地监控和分析，以了解不断出现的问题。此外，问题的解决方案并不会立即出现，以致某些并发症仍然被忽略。那这样如果可以设计一个系统，使之不仅识别存在的问题，也预见到即将到来的问题，并且提供随之而来的预防措施，如果可以管理得当，那这样的系统定会是顶尖的吧。
 我们的团队深刻了解人才市场的业务流程，以及拥有能够充分利用当代技术解决方案的能力，这使我们的团队有能力成为业界的游戏改变者。我们的工具将会有助于解决现有问题，让市场参与者能够有更好的体验。 具体来说，我们将会实施以下工作：
@@ -398,10 +398,10 @@ Your browser does not support the video tag.  </description>
     
     <item>
       <title>MDL团队在Slush</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-10-13-mdl-team-slush-shanghai/</link>
+      <link>http://localhost/zh/2017-10-13-mdl-team-slush-shanghai/</link>
       <pubDate>Fri, 13 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-10-13-mdl-team-slush-shanghai/</guid>
+      <guid>http://localhost/zh/2017-10-13-mdl-team-slush-shanghai/</guid>
       <description>在2017年10月12日的Slush会议上，MDL团队首次公开露面。 我们已经向几位经验丰富的风投投资者和高科技产业商人展示了我们的愿景和想法，不仅获得了积极的反馈和鼓励，并且获得了一些宝贵的意见。
 优秀的想法不能出现在含蓄的生态系统中，所以分享思想和知识对于现代世界的生存和发展是绝对重要的。 据说社会资本要比其他任何实物资产更重要得多，所以我们很高兴能够建立更多有价值的关系，也要加强与老朋友的联系来扩大我们的关系网络。
 MDL团队对Slush集团表示最诚挚的感谢，感谢这次启发性活动的顺利组织举行，并且绝对希望能够再次看到大家。</description>
@@ -409,10 +409,10 @@ MDL团队对Slush集团表示最诚挚的感谢，感谢这次启发性活动的
     
     <item>
       <title>MDL 成立 (视频)</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-10-10-mdl-inception/</link>
+      <link>http://localhost/zh/2017-10-10-mdl-inception/</link>
       <pubDate>Tue, 10 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-10-10-mdl-inception/</guid>
+      <guid>http://localhost/zh/2017-10-10-mdl-inception/</guid>
       <description>Your browser does not support the video tag.  据说有些事件发生的可能是性很小，就像10月8日发生的事件。这一天，所有的拼图都被整合在了那里。这是开始一个伟大事业的微小一步。这一步将影响我们的社会，甚至更多的直接利益相关者。
 在不同领域出类拔萃的三位来自俄罗斯首都圣彼得堡的朋友，分别在IT，国际贸易和TVC生产行业进行发展。 除了国籍之外，他们唯一的共同之处在于他们身上的一种闪闪发光的精神。 这便是足够展开事业的热忱&amp;hellip;
 但是废话少说！
@@ -428,10 +428,10 @@ MDL 是我们的名字。
     
     <item>
       <title>这个就是。</title>
-      <link>http://test-show.zzz.com.ua/zh/2017-10-08-the-thing-is/</link>
+      <link>http://localhost/zh/2017-10-08-the-thing-is/</link>
       <pubDate>Sun, 08 Oct 2017 00:00:00 +0000</pubDate>
       
-      <guid>http://test-show.zzz.com.ua/zh/2017-10-08-the-thing-is/</guid>
+      <guid>http://localhost/zh/2017-10-08-the-thing-is/</guid>
       <description>中国、印度尼西亚，大多数的亚洲国家在几年前就已经热情转型，将其经济从出口驱动转向消费驱动。广告业继续呈现两位数增长。想一想组成亚洲文化的集体主义模式，我们不难发现在所有营销活动中，有模特参与的，总能有压倒性的优势。无论是在线，荧幕上或者是现场推广，模特总是它的关键部分。
 由此，比方说，大量各种各样的外来人才涌现中国，其中不乏模特、演员、歌手及舞者，马戏团成员和主题公园演出者。并且，由于这些人才的国籍，他们普遍被群众认为是高价的。 据估算表示，在中国大陆有大约10,000名自由职业的外国模特与30多个专业模特机构公司为会展公司，产品车间，各种展览等提供服务。这一切都在最近才开始发生，还未建立任何坚实的基础设施和参与者交互的市场标准。
 随着人才供需市场的持续发展，我们听到一种声音呼唤着市场的透明化和规范化。更加具体的来说，以下例举了人才和需求方的一些已存在的问题：
