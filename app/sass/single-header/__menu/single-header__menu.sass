@@ -1,0 +1,23 @@
+@import "../../fonts/fonts"
+.single-header__list
+	margin: 0
+	padding-left: 0
+	list-style: none
+	@media(max-width: 768px)
+		display: none
+.single-header__item
+	display: inline-block
+	padding: 29px 45px 25px
+	font-family: $gilroy_light
+	font-weight: 600
+	font-size: 16px
+	color: #160027
+	cursor: pointer
+	transition: all .5s ease-out
+	@media(max-width: 1200px)
+		padding: 29px 25px 25px
+		font-size: 14px
+	&_selected
+		border-bottom: 2px solid #ff2394
+	&:hover
+		color: #320256

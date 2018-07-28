@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on MDL - Talent Hub Blog</title>
+    <link>http://test-show.zzz.com.ua/es/categories/development/</link>
+    <description>Recent content in Development on MDL - Talent Hub Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://test-show.zzz.com.ua/es/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Enfoques y decisiones técnicas</title>
+      <link>http://test-show.zzz.com.ua/es/2017-12-31-approaches-technical-decisions/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/es/2017-12-31-approaches-technical-decisions/</guid>
+      <description>Dado el estado actual del desarrollo global de la cadena de bloques, parece que la mayoría de la gente ha olvidado por completo que detrás de cada proyecto hay personas trabajando [o no]. Por lo tanto, un sitio web elegante con un video prometedor y geek, con direcciones de Bitcoin o Ethereum, atrae más a la gente para invertir que una comunidad trabajadora con líderes respetuosos. La gente simplemente envía dinero a ciegas a un contrato inteligente, sin investigar quién está trabajando en el concepto, el código, el marketing, etc.</description>
+    </item>
+    
+    <item>
+      <title>MDL - Mine Distributed Ledger</title>
+      <link>http://test-show.zzz.com.ua/es/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/es/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <description>MDL Talent Hub utilizará tecnologías PIDS (IPFS, CXO, etc.), que permitirán que la información se almacene de forma distribuida en los dispositivos y mineros de los usuarios, mejorando el acceso, la velocidad y la seguridad de la información.
+A fin de compensar a nuestros usuarios y mineros, estableceremos un programa de recompensas mediante el cual cualquier persona puede obtener un cierto número de Tokens MDL para almacenar información sobre talentos, eventos, etc.</description>
+    </item>
+    
+    <item>
+      <title>Instrumentos de usuario - Parte 1</title>
+      <link>http://test-show.zzz.com.ua/es/2017-12-08-user-instruments-part1/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/es/2017-12-08-user-instruments-part1/</guid>
+      <description>Perfil Creemos que una persona talentosa puede ser talentosa de muchas maneras, por lo que cada perfil tendrá varias carteras: actor, bailarín, maestro de origami o lo que sea. Cada una de las carteras tendrá suficientes materiales de presentación como compcard, videos introductorios, etc. Por lo tanto, una agencia puede elegir fácilmente una cartera específica de un talento tal y como se requiera para el evento determinado.
+Buscar La búsqueda estará disponible tanto para agencias como para talentos, de modo que los freelancers puedan buscar trabajos y que las agencias encuentren freelancers.</description>
+    </item>
+    
+  </channel>
+</rss>

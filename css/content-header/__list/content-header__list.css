@@ -1,0 +1,10 @@
+.content-header__list {
+  margin: 0px;
+  padding: 0;
+  list-style: none; }
+  @media (max-width: 768px) {
+    .content-header__list {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex; } }

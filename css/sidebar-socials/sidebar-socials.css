@@ -1,0 +1,37 @@
+.sidebar-social {
+  position: absolute;
+  bottom: 27px; }
+  @media (max-width: 768px) {
+    .sidebar-social {
+      display: none; } }
+  .sidebar-social_footer {
+    position: relative;
+    bottom: 0; }
+    @media (max-width: 768px) {
+      .sidebar-social_footer {
+        display: block; }
+        .sidebar-social_footer .sidebar-social__list {
+          text-align: center;
+          margin-top: 70px; } }
+
+.sidebar-social__list {
+  padding-left: 0;
+  margin: 0;
+  list-style: none; }
+
+.sidebar-social__icon {
+  display: inline-block;
+  margin-right: 47px;
+  vertical-align: top; }
+  .sidebar-social__icon_footer {
+    margin-right: 67px; }
+    .sidebar-social__icon_footer .sidebar-social__image {
+      height: 28px; }
+    @media (max-width: 991px) {
+      .sidebar-social__icon_footer {
+        margin-right: 40px; } }
+    @media (max-width: 768px) {
+      .sidebar-social__icon_footer {
+        margin-right: 30px; } }
+  .sidebar-social__icon:last-child {
+    margin-right: 0; }

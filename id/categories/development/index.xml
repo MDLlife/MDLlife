@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on MDL - Talent Hub Blog</title>
+    <link>http://test-show.zzz.com.ua/id/categories/development/</link>
+    <description>Recent content in Development on MDL - Talent Hub Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 31 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://test-show.zzz.com.ua/id/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Pendekatan dan Keputusan Teknis</title>
+      <link>http://test-show.zzz.com.ua/id/2017-12-31-approaches-technical-decisions/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/id/2017-12-31-approaches-technical-decisions/</guid>
+      <description>Dalam perkembangan blockchain global terkini, nampaknya kebanyakan orang benar-benar lupa bahwa di balik setiap proyek ada orang-orang yang bekerja secara nyata [atau tidak]. Jadi, situs web bergaya dengan video menarik yang menjanjikan, yang menampilkan alamat Bitcoin atau Ethereum, membuat orang lebih tertarik untuk berinvestasi, daripada komunitas pekerja keras, dengan pemimpin terhormat. Orang hanya mengirim uang secara membabi buta ke kontrak pintar, tanpa meneliti siapa yang mengerjakan konsep, kode, pemasaran, dll. KYC yang benar atau uji kelayakan harus dilakukan di kedua pihak, jika tidak, pemberontakan dan keberuntungan terjadi.</description>
+    </item>
+    
+    <item>
+      <title>MDL – Distribusi Pertambangan Unggul</title>
+      <link>http://test-show.zzz.com.ua/id/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/id/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <description>MDL Talent Hub akan menggunakan teknologi PIDS (IPFS, CXO, dll.), yang memungkinkan informasi disimpan secara terdistribusi pada perangkat pengguna dan penambang, meningkatkan akses, kecepatan, dan keamanan informasi jauh lebih tinggi.
+Untuk mengimbangi pengguna dan penambang, kami akan membuat program bounty dimana setiap orang bisa mendapatkan sejumlah Token MDL untuk menyimpan info tentang bakat, acara, dan sebagainya. Dibuat sedemikian rupa, Token MDL dapat digunakan untuk MDL Talent Hub untuk barang berharga lainnya atau ditukar dengan mata uang kripto atau fiat lainnya.</description>
+    </item>
+    
+    <item>
+      <title>Instrumen Pengguna - Bagian 1</title>
+      <link>http://test-show.zzz.com.ua/id/2017-12-08-user-instruments-part1/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/id/2017-12-08-user-instruments-part1/</guid>
+      <description>Profil Kami percaya bahwa orang berbakat mampu berbakat dalam banyak hal, sehingga setiap profil memiliki beberapa portofolio - aktor, penari, master origami, atau apa pun. Masing-masing portofolio akan memiliki materi presentasi yang cukup seperti compcard, video intro, atau yang lain. Dengan demikian pemesan dapat dengan mudah memilih portofolio tertentu dari bakat, yang dibutuhkan untuk acara tertentu.
+Pencarian Pencarian akan tersedia baik untuk pemesan dan talenta dalam hal memungkinkan untuk mencari pekerjaan dan juga pekerja lepas.</description>
+    </item>
+    
+  </channel>
+</rss>

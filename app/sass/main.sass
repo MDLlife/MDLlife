@@ -1,0 +1,35 @@
+@import "default"
+@import "animation"
+@import "single-modal/single-modal"
+@import "menu-mob/menu-mob"
+@import "sidebar/sidebar"
+@import "content/content"
+@import "single/single"
+@import "footer/footer"
+
+.main
+	position: relative
+	opacity: 1
+	transition: all .5s ease-out
+	&.post-changed
+		.main__inner
+			transition: all .5s ease-out
+			animation-name: post-change-main__inner
+			animation-duration: 1.2s
+			animation-timing-function: ease
+		.sidebar
+			animation-name: post-change-sidebar
+			animation-duration: 1.2s
+			animation-timing-function: ease
+			&__inner
+				animation-name: post-change-sidebar-inner
+				animation-duration: 1.2s
+				animation-timing-function: ease
+		.articles
+			animation-name: post-change-articles
+			animation-duration: 1.2s
+			animation-timing-function: ease
+		.content-header
+			animation-name: post-change-content-header
+			animation-duration: 1.2s
+			animation-timing-function: ease

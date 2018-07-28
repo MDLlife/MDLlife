@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Development on MDL - Talent Hub Blog</title>
+    <link>http://test-show.zzz.com.ua/categories/development/</link>
+    <description>Recent content in Development on MDL - Talent Hub Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://test-show.zzz.com.ua/categories/development/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MDL Development Strategy</title>
+      <link>http://test-show.zzz.com.ua/2018-05-04-mdl-development-strategy/</link>
+      <pubDate>Thu, 03 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2018-05-04-mdl-development-strategy/</guid>
+      <description>MDL Development Strategy Development team at MDL have been working really hard to deliver the MVP, and the Architecture team has delivered UML diagrams that offers a number of benefits for our internal organization.
+The Unified Modeling Language (UML) will help us to model MDL systems and help us to build software that is designed to be simple and easy to use.
+At MDL, we are using UML diagrams because:</description>
+    </item>
+    
+    <item>
+      <title>The 1st stage of MDL ITO nearly reached hardcap!</title>
+      <link>http://test-show.zzz.com.ua/2018-04-24-stage_1_ito_is_over/</link>
+      <pubDate>Tue, 24 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2018-04-24-stage_1_ito_is_over/</guid>
+      <description>MDL Has Nearly Reached Its Hardcap! It was tough, but we did it.
+It was a critical decision to split the ITO into three stages and hopefully our community understood and welcomed the approach. We did this to better align our goals and increase our transparency. Showing our intentions and being clear about our long-term strategy is an important part in maintaining our relations with every MDL stakeholder.
+The funds we were able to collect during the first stage will be enough to enhance our development activities as well as continuing marketing our platform to be even more presentable for our supporters and potential investors during the 2nd and the 3rd stages of the ITO.</description>
+    </item>
+    
+    <item>
+      <title>And on the 239th day MDL created the DEMO!</title>
+      <link>http://test-show.zzz.com.ua/2018-04-17-and-on-the-239-th-day-mdl-created-the-demo/</link>
+      <pubDate>Tue, 17 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2018-04-17-and-on-the-239-th-day-mdl-created-the-demo/</guid>
+      <description>Yes, it is finally here! It has been 239 days since we started MDL Talent Hub and The MDL Talent Hub Platform demo has finally arrived in all its glory! Check out the video down below and we&amp;rsquo;ve also included an .apk file for you to try it out!
+ If you want to try it out yourself, find the link to the application HERE
+Enjoy and stay excited as MDL Talent Hub is moving forward day by day to bring you the best experience ever!</description>
+    </item>
+    
+    <item>
+      <title>Early MDL investors can now swap their waves tokens!</title>
+      <link>http://test-show.zzz.com.ua/2018-04-16-investors-can-now-swap-their-waves-tokens/</link>
+      <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2018-04-16-investors-can-now-swap-their-waves-tokens/</guid>
+      <description>Good news everyone! Investors who bought Waves pre-MDL Tokens can now swap them in for Mainnet MDL!
+Our developers have been hard at work to make this possible and they have delivered!
+Swapping is made really easy, all you need to do is download the MDL wallet HERE (Press &amp;ldquo;Get MDL&amp;rdquo;) and you will be asked to download the MDL wallet.
+Once there, you need to create a new wallet (Choose a name and save the seed somewhere safe) and when you select the type of currency you want to invest in exchange for MDL Tokens, you should choose &amp;ldquo;MDL.</description>
+    </item>
+    
+    <item>
+      <title>How is the platfrom protected from Token volatility</title>
+      <link>http://test-show.zzz.com.ua/2018-02-23-how-platform-is-protected-token-volatility/</link>
+      <pubDate>Fri, 23 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2018-02-23-how-platform-is-protected-token-volatility/</guid>
+      <description>Crypto currencies are known for their high fluctuating rates – daily trading range of 30% is not an unusual thing with these financial instruments, not to mention dumps and pumps that happen time to time. How can we deliver valuable tool to the talent sourcing market with MDL Token? The main contradiction lies in the conflict of actual platform users and crypto community – the first ones want to have stable economic ecosystem and the second ones want to speculate.</description>
+    </item>
+    
+    <item>
+      <title>Development Update</title>
+      <link>http://test-show.zzz.com.ua/2018-02-16-development-update-1/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2018-02-16-development-update-1/</guid>
+      <description>Dear blockchain friends and MDL supporters.
+The MDL Platform has been in the state of active development for quite some time now and the time has come to share some updates with the community.
+We currently have around six ongoing dev projects within MDL. Some of them have been open source from day one (wallet, teller, the blockchain, blog, website), while others are being developed in-house and are tested internally (platform backend, android client, etc).</description>
+    </item>
+    
+    <item>
+      <title>Approaches and Technical Decisions</title>
+      <link>http://test-show.zzz.com.ua/2017-12-31-approaches-technical-decisions/</link>
+      <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2017-12-31-approaches-technical-decisions/</guid>
+      <description>Given the current state of global blockchain development, it seems that most people have totally forgotten that behind every project there are actual people working [or not]. So a stylish website with a promising, geeky video, featuring Bitcoin or Ethereum addresses, gets people more attracted to invest than a hardworking community with respect-worthy leaders. People just send money blindly to a smart contract, without researching who&amp;rsquo;s working on the concept, code, marketing, etc.</description>
+    </item>
+    
+    <item>
+      <title>MDL - Mine Distributed Ledger</title>
+      <link>http://test-show.zzz.com.ua/2017-12-21-mdl-mine-distributed-ledger/</link>
+      <pubDate>Thu, 21 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2017-12-21-mdl-mine-distributed-ledger/</guid>
+      <description>MDL Talent Hub will utilize PIDS technologies (IPFS, CXO, etc), which will allow information to be stored in a distributed manner on users’ devices and miners, improving access, speed, and security of information.
+In order to compensate our users and miners we will establish a bounty program by which anyone can get a certain number of MDL Tokens for storing info about talents, events, and so forth. MDL Tokens can then be spent on MDL Talent Hub for other valuables or exchanged to other crypto or fiat currency.</description>
+    </item>
+    
+    <item>
+      <title>User Instruments - Part 1</title>
+      <link>http://test-show.zzz.com.ua/2017-12-08-user-instruments-part1/</link>
+      <pubDate>Fri, 08 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://test-show.zzz.com.ua/2017-12-08-user-instruments-part1/</guid>
+      <description>Profile We believe that a talented person can be talented in many ways, so each profile will have several portfolios – actor, dancer, origami master, or whatever. Each of the portfolios will have sufficient presentation materials like compcard, intro videos, etc. Thus a booker can easily choose as specific portfolio from a talent as required for the certain event.
+Search Search will be available both for bookers and talents so that it will possible for freelancers to look for jobs, and for bookers to find freelancers.</description>
+    </item>
+    
+  </channel>
+</rss>

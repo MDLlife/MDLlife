@@ -1,0 +1,29 @@
+@import "../../fonts/fonts"
+.footer__top
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	align-items: center
+	@media(max-width: 768px)
+		justify-content: center
+.footer__title
+	margin: 0
+	position: relative
+	z-index: 1
+	font-family: $gilroy_bold
+	font-weight: 800
+	font-size: 54px
+	letter-spacing: 1.1px
+	color: white
+	&_bold
+		text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
+		color: rgba(59,19,89,1)
+		letter-spacing: 1.34px
+.footer__bubble
+	width: 110px
+	height: 110px
+	margin-right: 166px
+	@media(max-width: 991px)
+		margin-right: 85px
+	@media(max-width: 768px)
+		display: none

@@ -1,0 +1,117 @@
+@import "../fonts/fonts"
+.single-modal
+	position: fixed
+	top: 0
+	left: 0
+	width: 100%
+	height: 100%
+	z-index: -100
+	opacity: 0
+	transition: all .4s ease
+	&__inner
+		position: absolute
+		left: 0
+		top: 0
+		width: 100%
+		height: 100%
+		z-index: 0
+	&_opened
+		background-color: rgba(255,255,255,.63)
+		z-index: 100
+		opacity: 1
+	&-window
+		padding: 54px 98px
+		width: 654px
+		height: 293px
+		position: absolute
+		z-index: 1
+		left: 50%
+		top: 50%
+		margin-left: -327px
+		margin-top: -146px
+		background-color: #160027
+		overflow: hidden
+		box-sizing: border-box
+		@media(max-width: 768px)
+			padding: 54px 50px
+			width: 310px
+			height: 350px
+			margin-left: -155px
+		&__title-box
+			position: relative
+			&:after
+				content: ''
+				position: absolute
+				right: 33px
+				top: -75px
+				display: block
+				width: 110px
+				height: 110px
+				background-image: url(../../img/sidebar/bubble.png)
+				background-size: 100%
+				background-position: center
+		&__title
+			margin: 0
+			position: relative
+			z-index: 1
+			font-family: $gilroy_bold
+			font-weight: 800
+			font-size: 20px
+			letter-spacing: 1.1px
+			color: white
+			text-align: center
+			&_bold
+				text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white
+				color: #160027
+				letter-spacing: 1.34px
+		&__divider
+			margin-top: 53px
+			width: 100%
+			height: 1px
+			background-color: rgba(255,255,255,.33)
+		&__list
+			margin: 0 auto
+			padding-left: 0
+			max-width: 200px
+			list-style: none
+		&__item,&__link
+			margin-top: 35px
+			font-family: $gilroy_light
+			font-weight: 600
+			font-size: 14px
+			color: white
+			text-decoration: none
+		&__social-image
+			display: inline-block
+			margin-right: 11px
+			width: 21px
+			vertical-align: middle
+		&__close
+			position: absolute
+			top: 19px
+			right: 19px
+			width: 18px
+			height: 18px
+			cursor: pointer
+			&:after
+				content: ''
+				position: absolute
+				display: block
+				left: 0
+				bottom: 7px
+				width: 100%
+				height: 2px
+				border-radius: 2px
+				background-color: white
+				transform: rotate(-45deg)
+			&:before
+				content: ''
+				position: absolute
+				display: block
+				left: 0
+				bottom: 7px
+				width: 100%
+				height: 2px
+				border-radius: 2px
+				background-color: white
+				transform: rotate(45deg)
