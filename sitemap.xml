@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mdl.wtf/en/2018-07-27-talkinanelevatorday/</loc>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mdl.wtf/en/2018-07-25-about-our-yoyow-partnership/</loc>
     <lastmod>2018-07-25T00:00:00+00:00</lastmod>
   </url>
@@ -30,6 +35,11 @@
   <url>
     <loc>https://mdl.wtf/en/2018-07-05-mdl-attending-riseconf-2018-hk/</loc>
     <lastmod>2018-07-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/en/2018-06-28-mdl-token-distribution-announcement/</loc>
+    <lastmod>2018-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -906,7 +916,7 @@
   
   <url>
     <loc>https://mdl.wtf/en/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -936,7 +946,13 @@
   
   <url>
     <loc>https://mdl.wtf/</loc>
-    <lastmod>2018-07-25T00:00:00+00:00</lastmod>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/categories/news/</loc>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
