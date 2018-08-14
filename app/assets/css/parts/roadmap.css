@@ -129,7 +129,7 @@
   background-color: #ffffff;
   -webkit-box-shadow: none;
           box-shadow: none;
-  height: auto;
+  min-height: 200px !important;
   -ms-transform: scale(1);
   -webkit-transform: scale(1);
           transform: scale(1);
