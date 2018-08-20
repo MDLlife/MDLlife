@@ -548,6 +548,31 @@
             width: 120px; }
           #main-header .header__right-part.ito-going .raised-wrapper .raised-legend-wrapper .raised-legend span {
             opacity: 0.8; }
+    #main-header .header__right-part.ito-wait .be-annon {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+          -ms-flex-align: center;
+              align-items: center;
+      width: 100%;
+      height: 74px;
+      font-family: "Gilroy-Light";
+      font-weight: 500;
+      font-size: 17px;
+      color: white;
+      border: 1px solid white; }
     #main-header .header__right-part.ito-wait .header-timer_dhms {
       height: 75px;
       margin-bottom: 23px;
@@ -673,7 +698,7 @@
     #main-header .header__right-part.ito-wait .timer-title {
       font-family: "Gilroy-Light";
       font-size: 28px;
-      margin-bottom: 30px;
+      margin-bottom: 34px;
       font-style: normal;
       font-stretch: normal;
       line-height: normal;
@@ -698,8 +723,8 @@
         color: white; }
     #main-header .header__right-part.ito-wait .raised-wrapper {
       position: relative;
-      top: -2px;
-      left: 3px; }
+      top: 20px;
+      left: -2px; }
       #main-header .header__right-part.ito-wait .raised-wrapper .raised-mob-alert {
         width: 100%;
         position: absolute;
@@ -781,7 +806,7 @@
             color: white; }
         #main-header .header__right-part.ito-wait .raised-wrapper .line-wrapper .line {
           position: relative;
-          width: 295px;
+          width: 101%;
           height: 2px;
           background-color: white; }
           #main-header .header__right-part.ito-wait .raised-wrapper .line-wrapper .line .pink-line {
@@ -843,7 +868,7 @@
           position: absolute;
           text-align: center;
           z-index: 1;
-          right: 3px;
+          right: -4px;
           top: -4px;
           width: 10px;
           height: 10px;
@@ -1143,6 +1168,8 @@
         font-size: 12px;
         font-weight: 700;
         color: #c72897; }
+      #main-header .header__right-part.ito-wait .be-annon {
+        margin-bottom: 30px; }
       #main-header .header__right-part.ito-wait .header-timer {
         width: 310px;
         margin: 0 auto; }
