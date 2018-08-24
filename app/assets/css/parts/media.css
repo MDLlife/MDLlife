@@ -109,10 +109,13 @@
         width: 200px;
         margin-right: 0px; }
       #media .media__item--wrapper .media__item--link:nth-child(9) {
-        top: 0;
-        left: 312px;
+        top: -20px;
+        left: 220px;
         width: 200px;
         margin-right: 20px; }
+      #media .media__item--wrapper .media__item--link:nth-child(10) {
+        top: -20px;
+        left: -230px; }
       #media .media__item--wrapper .media__item--link:hover .media__item--photo {
         -webkit-filter: none;
                 filter: none;
@@ -180,4 +183,6 @@
           position: absolute;
           display: block;
           top: 65px !important;
-          right: -171px; } }
+          right: -171px; }
+        #media .media__item--wrapper .media__item--link:nth-child(10) {
+          left: -20px !important; } }
