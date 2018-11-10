@@ -1,0 +1,8 @@
+.articles {
+  padding: 244px 0 0 0; }
+  @media (max-width: 1400px) {
+    .articles {
+      padding: 167px 0 0 0; } }
+  @media (max-width: 768px) {
+    .articles {
+      padding: 25px 0 0; } }
