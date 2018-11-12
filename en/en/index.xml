@@ -6,10 +6,21 @@
     <description>Recent content in Ens on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/en/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>The MDL Talent Hub is Celebrating Golang 9 Years.</title>
+      <link>https://mdl.wtf/en/en/2018-11-10-mdl-talent-hub-celebrating-golang-9years/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/en/2018-11-10-mdl-talent-hub-celebrating-golang-9years/</guid>
+      <description>MDL Talent Hub is Celebrating Golang 9 years old. Today marks the ninth anniversary of the day that Golang went open-sourced. We would like to take time to cheer and praise this amazing language that has provided so much to our community.
+The past 12 months have been a breakout year for the MDL developers, our AMAZING community, and so for the Go language and community.
+Why are we celebrating ?</description>
+    </item>
     
     <item>
       <title>MDL @Blockchance - Interviews.</title>
