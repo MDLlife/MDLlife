@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mdl.wtf/en/en/2018-14-10-mdl-talent-hub-android-wallet-store/</loc>
+    <lastmod>2018-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mdl.wtf/en/en/2018-11-10-mdl-talent-hub-celebrating-golang-9years/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
@@ -334,7 +339,7 @@
   
   <url>
     <loc>https://mdl.wtf/en/categories/development/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -380,7 +385,7 @@
   
   <url>
     <loc>https://mdl.wtf/en/en/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -441,7 +446,7 @@
   
   <url>
     <loc>https://mdl.wtf/en/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-14T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
