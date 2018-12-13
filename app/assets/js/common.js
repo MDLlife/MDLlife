@@ -39,7 +39,7 @@ $(document).ready(function () {
     $(".roadmap-slider-for").slick({
         slidesToShow: 1,
         slidesToScroll: 1,
-        initialSlide: 2,
+        initialSlide: 3,
         vertical: !0,
         swipe: !1,
         focusOnSelect: !0,

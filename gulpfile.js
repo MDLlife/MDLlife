@@ -93,13 +93,13 @@ gulp.task('custom-scripts', function(){
 });
 
 gulp.task('build', ['img', 'sass', 'libs-scripts', 'custom-scripts', 'css-custom', 'css-libs', 'rev'], function() {
-	var buildCss = gulp.src([ // Переносим библиотеки в продакшен
+	gulp.src([
 		'app/assets/css/main.css',
 		'app/assets/css/libs.min.css'
 		])
-	.pipe(gulp.dest('assets/css'))
+	.pipe(gulp.dest('assets/css'));
 
-	var buildJs = gulp.src([
+	gulp.src([
 		'app/assets/js/libs.min.js',
 		'app/assets/js/utils.js'
 		])
