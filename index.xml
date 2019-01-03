@@ -6,10 +6,21 @@
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 03 Jan 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Android Wallet Beta Release</title>
+      <link>https://mdl.wtf/en/2019-01-03-mdl-android-wallet-open-beta-release/</link>
+      <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-01-03-mdl-android-wallet-open-beta-release/</guid>
+      <description>MDL Android Wallet Beta Released and Localized! 10 years ago today the genesis block for the Bitcoin blockchain was generated.
+That makes today a great day to announce the MDL Android wallet&amp;rsquo;s official release for open Beta testing on Google Play.
+Just a month and a half ago we released our internal Android wallet in alpha channel, and where there were (minor) glitches before, now there are no more. Many thanks everybody who took part in internal testing to help fix hundreds of small bugs and make the many recommendations that were applied.</description>
+    </item>
     
     <item>
       <title>MDL Talent Hub Global New Year 2019 Chess Tournament</title>
