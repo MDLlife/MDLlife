@@ -6,10 +6,20 @@
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 19 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Talent Hub - Development update 2019 (part I)</title>
+      <link>https://mdl.wtf/en/2019-03-04-mdl-dev-update-part-1/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-03-04-mdl-dev-update-part-1/</guid>
+      <description>We are happy to announce some important updates this week, including new versions of our desktop and mobile wallet and key improvements on the UX/UI front. This article though will only cover the first part. There&amp;rsquo;s more soon.
+New features for the app are ready to go, from ways talents and bookers can post feedback on each other to payment management and messaging, as well as improved onboarding. Meanwhile, we’ve built full end-to-end scenarios for bookers, talents, agencies, and most importantly parents that will help us make the gig booking process better for everyone involved.</description>
+    </item>
     
     <item>
       <title>MDL New Year 2019 Chess opens today</title>

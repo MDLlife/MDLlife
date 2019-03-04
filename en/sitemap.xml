@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mdl.wtf/en/2019-03-04-mdl-dev-update-part-1/</loc>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mdl.wtf/en/2019-01-19-mdl-new-year-2019-chess-tournament-opens-today/</loc>
     <lastmod>2019-01-19T00:00:00+00:00</lastmod>
   </url>
@@ -364,7 +369,7 @@
   
   <url>
     <loc>https://mdl.wtf/categories/development/</loc>
-    <lastmod>2018-12-10T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -410,7 +415,7 @@
   
   <url>
     <loc>https://mdl.wtf/en/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -471,7 +476,7 @@
   
   <url>
     <loc>https://mdl.wtf/</loc>
-    <lastmod>2019-01-19T00:00:00+00:00</lastmod>
+    <lastmod>2019-03-04T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"

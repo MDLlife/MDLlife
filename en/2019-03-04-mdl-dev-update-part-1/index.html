@@ -90,51 +90,100 @@
     </div>
 </header>
         <div class="single-content">
-    <div class="single-content__inner"><h1>MDL Attending RISECONF 2018 HK</h1>
+    <div class="single-content__inner"><h1>MDL Talent Hub - Development update 2019 (part I)</h1>
         <p class="single-content__date">
-            <span class="single-content__tag">News</span>
-            5 July 2018
+            <span class="single-content__tag">Development</span>
+            4 March 2019
         </p>
-        <img src="https://mdl.wtf/images/80/2018-07-05-mdl-attending-riseconf-2018-hk-1.jpeg" alt="MDL Attending RISECONF 2018 HK">
+        <img src="https://mdl.wtf/images/80/2018-02-16-development-update-1.jpg" alt="MDL Talent Hub - Development update 2019 (part I)">
         
 
-<blockquote>
-<p>It is that time of the year again, no it&rsquo;s not in Silicon Valley, it is however, in China, Hong Kong! RISE Conference for those who don&rsquo;t know, is on it&rsquo;s 4th installment and is the biggest gathering of start-ups, entrepreneurs, investors, established tech brands, and tech thought-leaders in Asia.</p>
+<p>We are happy to announce some important updates this week, including new versions of our desktop and mobile wallet and key improvements on the UX/UI front. This article though will only cover the first part. There&rsquo;s more soon.</p>
 
-<p>It is for that exact reason, that we felt it extremely appropriate to showcase MDL Talent Hub and have a booth during the event. Besides spreading the word and showcasing our MVP, MDL Talent Hub will focus on making connections in the right places, with media, investors and collaboration opportunities in mind.</p>
-</blockquote>
+<p>New features for the app are ready to go, from ways talents and bookers can post feedback on each other to payment management and messaging, as well as improved onboarding. Meanwhile, we’ve built full end-to-end scenarios for bookers, talents, agencies, and most importantly parents that will help us make the gig booking process better for everyone involved.</p>
 
-<p><img src="../../images/2018-07-05-mdl-attending-riseconf-2018-hk-2.jpeg" alt="" /></p>
+<h2 id="desktop-wallet">Desktop wallet</h2>
 
-<blockquote>
-<p>MDL Talent Hub is in its launching blocks to test out their MVP version of the huge MDL Talent Hub Ecosystem. This ecosystem will consist of an app that will allow talent bookers, agencies and brands, to better collaborate with talents and KOL’s.</p>
+<p>The wallet has been updated from  0.21 -&gt; 0.24, including changes and improvements in step with Skycoin wallet developments:</p>
 
-<p>Gone are the days where collaborations in KOL-&amp;-talent-booking industry were a risky endeavor. The MDL Talent Hub Ecosystem will make use of a reputation system that will touch on almost every aspect in the KOL-&amp;-Talent Booking industry. This is done to ensure that parties from both sides, talent &amp; KOL but also the agency, booker and brand side, are protected from foul play, financial risks, sudden cancelations contract breaches, sexual harassments and other issues that are harming this industry.</p>
+<p><a href="https://github.com/MDLlife/MDL/blob/develop/CHANGELOG.md">https://github.com/MDLlife/MDL/blob/develop/CHANGELOG.md</a></p>
 
-<p>With the upcoming MVP launch, CEO Dimitry Doronin said, “We have seen many talent-booking-management solutions in the market, but none are as focused on the users from both the demand and supply side as the MDL Talent Hub Ecosystem. There is a huge demand for organization and global standards in the KOL-&amp;-booking industry. Having worked in the talent-booking scene myself, I know this first-hand. MDL, together with its community and partners, is ready to bring solutions to the many who need it. Our platform will save time, remove trust barriers and promote collaborations.”</p>
-</blockquote>
+<p>Among the multiple updates are:</p>
 
-<h2 id="to-fully-implement-the-platform-worldwide-in-the-coming-years-mdl-talent-hub-is-planning-the-following-strategy">To fully implement the platform worldwide in the coming years, MDL Talent Hub is planning the following strategy:</h2>
+<ul>
+<li><p><em><strong><em>Wallet encryption</em></strong></em> using chacha20+poly1305 for encryption and authentication and scrypt for key derivation.
+<center>
+<img src="../../images/dev-update-2019-1/encrypted-wallet.png" alt="" />
+Add passwords, not to store your seed in plain text
+</center></p></li>
 
-<ol>
-<li><p>Focusing on testing and perfecting the technology of the functions and its relation to the blockchain, by launching the first iteration with MDL partners and networks in China first.</p></li>
+<li><p><em><strong><em>Advanced Send</em></strong></em>, allowing users to control which outputs to use for transaction, a detailed control of Token Hour allocation and feature to send to a multiple receivers (Multi-Send)</p></li>
+</ul>
 
-<li><p>Expanding in Asia through partners &amp; ambassadors in Korea, Japan, Singapore to adapt the trial and tested system outside of China.</p></li>
+<p><center></p>
 
-<li><p>Continuing the growth and availability to high demand markets such as India, The United States, Europe and eventually the rest of the world.</p></li>
-</ol>
+<p><img src="../../images/dev-update-2019-1/choose-addr.png" alt="Choose addresses to send from" />
+ Choose multiple addresses to send from, or specify one</p>
 
-<p><img src="../../images/2018-07-05-mdl-attending-riseconf-2018-hk-3.jpeg" alt="" /></p>
+<p><img src="../../images/dev-update-2019-1/multiple-dest.png" alt="" />
+ Choose multiple destination addresses (Multi-Send)</p>
 
-<blockquote>
-<p>About MDL Talent Hub: MDL is a blockchain based KOL-&amp;-Talent Booking Ecosystem situated in Shanghai, China. Founded in 2017, MDL Talent Hub is on a fast track to launch the most complete timesaving KOL-&amp;-talent booking collaboration platform in the world.</p>
+<p><img src="../../images/dev-update-2019-1/tokenhour-alloc.png" alt="" />
+ Specify Token Hours allocation to be sent along</p>
 
-<p><strong>We all have a story to tell. Share yours, be an inspiration to others and join the movement!</strong></p>
-</blockquote>
+<p><img src="../../images/dev-update-2019-1/preview.png" alt="" />
+ Preview the transaction and see results.</p>
 
-<h2 id="join-the-movement">Join the movement.</h2>
+<p></center>
+The result of this transaction can be seen in  <a href="https://explorer.mdl.wtf/app/transaction/529071af4ec3c148ea7f397f9b2d187809d7e9ff727507a008938ad67b0ca5f7">the explorer, here</a></p>
 
-<p> <a href="https://mdl.life/">— MDL Talent Hub </a></p>
+<ul>
+<li><em><strong><em>Setup wizard</em></strong></em>, helps you creating a new secure encrypted wallet on first launch of the wallet</li>
+</ul>
+
+<table>
+<thead>
+<tr>
+<th align="center">Create Wallet</th>
+<th align="center">Encrypt Wallet</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="../../images/dev-update-2019-1/wizard-1.png" alt="" /></td>
+<td align="center"><img src="../../images/dev-update-2019-1/wizard-3.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>Added Content-Security-Policy header to http responses
+
+<ul>
+<li>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement to distribution of malware.</li>
+</ul></li>
+<li>Added CSRF check to wallet API
+
+<ul>
+<li>Cross-Site Request Forgery (CSRF) is an attack that forces an end user to execute unwanted actions on a web application in which they&rsquo;re currently authenticated.  If the victim is a normal user, a successful CSRF attack can force the user to perform state changing requests like transferring funds, changing their email address, and so forth.</li>
+</ul></li>
+<li>Added libskycoin C API wrapper
+
+<ul>
+<li>libskycoin 0.0.1 released with bindings for cipher/address, cipher/hash, cipher/crypto, cli/create_rawtx</li>
+</ul></li>
+<li>Updated website with new wallet links, including the new Android Beta wallet:</li>
+</ul>
+
+<p><center>
+  <img src="../../images/dev-update-2019-1/download-wallet.png" alt="" />
+  Also available at <a href="https://github.com/MDLlife/MDL/releases">github.com/MDLlife/MDL</a>
+ </center></p>
+
+<p>Migration to v0.25 has started, which will allow iOS mobile wallet, improved explorer with detailed Token Hours information and, soon, Skywallet integration.</p>
+
+<p>More dev updates are coming soon, covering <a href="https://play.google.com/store/apps/details?id=live.mdl.wallet">Mobile wallets</a> and <a href="https://mdl.live">MDL TH platform development</a>.</p>
 
     </div>
 </div>
@@ -146,29 +195,29 @@
                 
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-28-mdl-token-distribution-announcement/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-28-mdl-token-distribution-announcement.jpeg" alt="MDL Token Distribution Announcement"
+                            <div class="common-posts__figure"><a href="../../en/2019-01-19-mdl-new-year-2019-chess-tournament-opens-today/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/gif/mdl-2019-newyear-chess-tournament-1.gif" alt="MDL New Year 2019 Chess opens today"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-28-mdl-token-distribution-announcement/">MDL Token Distribution Announcement</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-01-19-mdl-new-year-2019-chess-tournament-opens-today/">MDL New Year 2019 Chess opens today</a>
                             </h3>
                         </li>
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-27-mdl-talent-hub-at-cief/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-27-mdl-talent-Hub-at-cief-1.jpeg" alt="The MDL Talent Hub at CIEF"
+                            <div class="common-posts__figure"><a href="../../en/2019-01-07-mdl-new-year-2019-chess-tournament-soon/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/gif/mdl-2019-newyear-chess-tournament-1.gif" alt="MDL New Year 2019 Chess tournament starting soon"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-27-mdl-talent-hub-at-cief/">The MDL Talent Hub at CIEF</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-01-07-mdl-new-year-2019-chess-tournament-soon/">MDL New Year 2019 Chess tournament starting soon</a>
                             </h3>
                         </li>
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-20-we-are-mdl/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-20-we-are-mdl-1.jpeg" alt="We Are MDL"
+                            <div class="common-posts__figure"><a href="../../en/2019-01-03-mdl-android-wallet-open-beta-release/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/gif/mdl_android_beta_release.gif" alt="MDL Android Wallet Beta Release"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-20-we-are-mdl/">We Are MDL</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-01-03-mdl-android-wallet-open-beta-release/">MDL Android Wallet Beta Release</a>
                             </h3>
                         </li>
                         

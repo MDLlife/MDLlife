@@ -6,10 +6,20 @@
     <description>Recent content in Development on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 Dec 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Talent Hub - Development update 2019 (part I)</title>
+      <link>https://mdl.wtf/en/2019-03-04-mdl-dev-update-part-1/</link>
+      <pubDate>Mon, 04 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-03-04-mdl-dev-update-part-1/</guid>
+      <description>We are happy to announce some important updates this week, including new versions of our desktop and mobile wallet and key improvements on the UX/UI front. This article though will only cover the first part. There&amp;rsquo;s more soon.
+New features for the app are ready to go, from ways talents and bookers can post feedback on each other to payment management and messaging, as well as improved onboarding. Meanwhile, we’ve built full end-to-end scenarios for bookers, talents, agencies, and most importantly parents that will help us make the gig booking process better for everyone involved.</description>
+    </item>
     
     <item>
       <title>MDL Talent Hub is Sustainable.</title>
@@ -95,6 +105,17 @@ Once there, you need to create a new wallet (Choose a name and save the seed som
       
       <guid>https://mdl.wtf/en/2018-02-23-how-platform-is-protected-token-volatility/</guid>
       <description>Crypto currencies are known for their high fluctuating rates – daily trading range of 30% is not an unusual thing with these financial instruments, not to mention dumps and pumps that happen time to time. How can we deliver valuable tool to the talent sourcing market with MDL Token? The main contradiction lies in the conflict of actual platform users and crypto community – the first ones want to have stable economic ecosystem and the second ones want to speculate.</description>
+    </item>
+    
+    <item>
+      <title>Development Update</title>
+      <link>https://mdl.wtf/en/2018-02-16-development-update-1/</link>
+      <pubDate>Fri, 16 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2018-02-16-development-update-1/</guid>
+      <description>Dear blockchain friends and MDL supporters.
+The MDL Platform has been in the state of active development for quite some time now and the time has come to share some updates with the community.
+We currently have around six ongoing dev projects within MDL. Some of them have been open source from day one (wallet, teller, the blockchain, blog, website), while others are being developed in-house and are tested internally (platform backend, android client, etc).</description>
     </item>
     
     <item>
