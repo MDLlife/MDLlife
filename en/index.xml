@@ -6,10 +6,20 @@
     <description>Recent content in Ens on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 04 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Token Now Trading on XBTS.io DEX</title>
+      <link>https://mdl.wtf/en/2019-03-05-mdl-now-trading-on-xbts/</link>
+      <pubDate>Tue, 05 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-03-05-mdl-now-trading-on-xbts/</guid>
+      <description>It was never a secret that MDL Talent Hub prefers decentralized exchanges&amp;ndash;DEXs&amp;ndash;for listing, and as we were already trading on Waves DEX starting from the beginning of the project, we are now very happy to announce that MDL Token is also trading on yet another DEX: XBTS.io.
+XBTS Decentralized Exchange is for everyone who wants to simply and securely buy and sell Bitcoins or Altcoins. Instant buy/sell of cryptocurrencies at fair price is blockchain-guaranteed.</description>
+    </item>
     
     <item>
       <title>MDL Talent Hub - Development update 2019 (part I)</title>
