@@ -6,10 +6,24 @@
     <description>Recent content in News on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 06 Mar 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/categories/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>March 8th, 2019 | MDL Talent Hub Hamburg Meet-up @ WeWork Labs</title>
+      <link>https://mdl.wtf/en/2019-03-06-mdl-hamburg-ww-labs-meetup-invitation/</link>
+      <pubDate>Wed, 06 Mar 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-03-06-mdl-hamburg-ww-labs-meetup-invitation/</guid>
+      <description>Please feel invited and join us this Friday, if you happened to be in Hamburg, Germany.
+Meetup.com Event:
+https://www.meetup.com/Friends-of-WeWork-Labs-Hamburg/events/259502829
+(German below)
+Apply your talent in a new way!
+MDL Talent Hub is a completely new way to skilfully promote your talent and organise it for gigs via a secure Blockchain based system. Data is protected against third parties by the platform. The payment runs through the MDL tokens which guarantee transparency between booker and talent.</description>
+    </item>
     
     <item>
       <title>MDL Token Now Trading on XBTS.io DEX</title>
