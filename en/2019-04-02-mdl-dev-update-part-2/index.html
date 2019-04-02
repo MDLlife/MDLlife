@@ -90,35 +90,129 @@
     </div>
 </header>
         <div class="single-content">
-    <div class="single-content__inner"><h1>MDL&#43;Sigma Partnership Announcement.</h1>
+    <div class="single-content__inner"><h1>MDL Talent Hub - Development update 2019 (part II)</h1>
         <p class="single-content__date">
-            <span class="single-content__tag">News</span>
-            16 July 2018
+            <span class="single-content__tag">Development</span>
+            2 April 2019
         </p>
-        <img src="https://mdl.wtf/images/80/2018-07-16-mdl-sigma-partnership-announcement.jpeg" alt="MDL&#43;Sigma Partnership Announcement.">
+        <img src="https://mdl.wtf/images/80/2018-02-16-development-update-1.jpg" alt="MDL Talent Hub - Development update 2019 (part II)">
         
 
-<h1 id="mdl-sigma-partnership">MDL+Sigma Partnership</h1>
+<p>In <a href="https://mdl.wtf/en/2019-03-04-mdl-dev-update-part-1/">part one</a> of our extended update for 2019 a few weeks ago we announced that we were starting migration to Desktop Wallet v0.25, along with other developments for the first part of the year. This time we are happy to bring news that migration is complete and v0.25 has launched, with new fixes and features that make trading MDL a better way to pay and be paid for any talent.</p>
 
-<h2 id="announcement">Announcement.</h2>
+<h2 id="desktop-wallet">Desktop wallet</h2>
 
-<blockquote>
-<p>MDL Talent Hub made another push forward with their goal of uniting talents, brands and agencies. And today we are happy to announce our new partnership and welcome <a href="http://sigmascouting.ru/">Sigma</a> onboard.</p>
+<p>In terms of <a href="https://github.com/MDLlife/MDL/releases">Desktop Wallet</a> UI improvements, you’ll now be able to filter transactions in your History tab based on the wallets used for the transaction and also when you made the transaction. The URI specification has been extended to support plain addresses without an mdl: prefix, and the libmdl source code has been removed thanks based on migration to <a href="https://github.com/skycoin/libskycoin">https://github.com/skycoin/libskycoin</a>. On the technical front, the desktop wallet now has the CLI addressTransactions command, as well as /api/v2/wallet/seed/verify to verify if a seed is a valid bip39 mnemonic seed, and much much more.</p>
 
-<p>Founded in 2015, within only a few years, Sigma has become one of the most prominent model scouting agencies in Russia, having formed three basic directions such as photo shooting, modeling, and promo.</p>
+<p><img src="../../images/dev-update-2019-2/desktop-wallet-history-filter.png" alt="" /></p>
 
-<p>Now, Sigma can be called with no doubt as one of the leaders in the Russian model scouting market, already having more than 500 people in the team and over 50 offices across Russia and Belarus. Each branch has its own model school based on the unique teaching methods and is consisted of 13 theoretical subjects and extensive professional practice.</p>
+<p>There is really a lot to read about technical updates. For the full detailed list you can check <a href="https://github.com/MDLlife/MDL/blob/master/CHANGELOG.md">CHANGELOG</a></p>
 
-<p>Back to those times when Sigma was founded, it was an association of specialists with a broad experience of working in Russian biggest model agencies. It was a group of professionals who wanted to create something new and innovative in the modeling business, deploying all their skills and experience. This is also where the name comes from. Sigma is a union of knowledge and common goals. The goals that disrupt the industry and bring it to an entirely new level. MDL Talent Hub is looking forward to our fruitful cooperation in the future and explore new challenges together. Big things are coming up. Keep your eyes open!</p>
+<h2 id="mobile-wallet">Mobile Wallet</h2>
 
-<p>We are always active on Telegram. Join our group chat to know more about MDL and everything that’s going on within our community.</p>
-</blockquote>
+<p><a href="https://MDL.app">Mobile Wallet</a> is improving quickly &ndash; the Google Play Wallet Beta has been released with localization updates for Traditional and Simplified Chinese, Dutch (NL), Spanish (Castellano and US), Russian, German, and soon-to-be-released Japanese.</p>
 
-<p><strong>And as always:</strong></p>
+<table>
+<thead>
+<tr>
+<th align="center">Pin protection</th>
+<th align="center">Dashboard</th>
+<th align="center">Explorer</th>
+</tr>
+</thead>
 
-<h2 id="join-the-movement">Join the movement.</h2>
+<tbody>
+<tr>
+<td align="center"><img src="../../images/dev-update-2019-2/android-wallet-pin.jpg" alt="" /></td>
+<td align="center"><img src="../../images/dev-update-2019-2/android-wallet-dashboard.jpg" alt="" /></td>
+<td align="center"><img src="../../images/dev-update-2019-2/android-wallet-explorer.jpg" alt="" /></td>
+</tr>
 
-<p> <a href="https://mdl.life/">— MDL Talent Hub </a></p>
+<tr>
+<td align="center"><img src="../../images/dev-update-2019-2/android-wallet-create.jpg" alt="" /></td>
+<td align="center"><img src="../../images/dev-update-2019-2/android-wallet-import.jpg" alt="" /></td>
+<td align="center"><img src="../../images/dev-update-2019-2/android-wallet-success.jpg" alt="" /></td>
+</tr>
+</tbody>
+</table>
+
+<p>Mobile Wallet now supports Skycoin wallet’s QR-code scanner, and lets you set an amount in MDL to receive to your own wallet via QR code.</p>
+
+<p>Explorer integration has been added for TXID and Addresses, and the UI now shows the MDL Theme for all Dialogues.</p>
+
+<h2 id="blockchain-explorer">Blockchain Explorer</h2>
+
+<p><a href="https://explorer.mdl.life">The web explorer</a> is getting a brand new update and will be ready to show detailed info on Talent Hours for all transactions, figuratively putting the “TH” in MDL TH. (This was previously known as Token Hours). There’s also much more, to be announced soon.</p>
+
+<h2 id="mobile-platform-apps">Mobile Platform apps</h2>
+
+<p>The Mobile MDL Talent Hub platform app is now being translated into Flutter, which will give both Android and iOS users a native experience. (More on this soon in an article of its own.)</p>
+
+<h2 id="web-portal">Web Portal</h2>
+
+<p>Lastly, the <a href="https://MDL.live">web portal</a> is getting more features ready. check out the full list of app portals and functions that are making the user experience smoother and more solid all around:</p>
+
+<ul>
+<li>Gig feedback</li>
+</ul>
+
+<p><img src="../../images/dev-update-2019-2/web-feedback-1.png" alt="" /></p>
+
+<table>
+<thead>
+<tr>
+<th align="center">Talent</th>
+<th align="center">Booker</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="center"><img src="../../images/dev-update-2019-2/web-feedback-2.png" alt="" /></td>
+<td align="center"><img src="../../images/dev-update-2019-2/web-feedback-3.png" alt="" /></td>
+</tr>
+</tbody>
+</table>
+
+<ul>
+<li>Translations
+
+<ul>
+<li>Chinese traditional,</li>
+<li>Spanish,</li>
+<li>Portuguese,</li>
+<li>Russian,</li>
+<li>Arabic,</li>
+<li>German,</li>
+<li>Indonesian,</li>
+<li>Japanese,</li>
+<li>Korean,</li>
+<li>Croatian</li>
+</ul></li>
+<li>Payment management for bookers</li>
+</ul>
+
+<p><img src="../../images/dev-update-2019-2/web-payment-talent.png" alt="" /></p>
+
+<ul>
+<li>Payment management for talents</li>
+</ul>
+
+<p><img src="../../images/dev-update-2019-2/web-payment-talent-2.png" alt="" /></p>
+
+<ul>
+<li>Calendar</li>
+</ul>
+
+<p><img src="../../images/dev-update-2019-2/web-calendar.png" alt="" /></p>
+
+<ul>
+<li>Onboarding (Complete for Models and Bookers)</li>
+<li>SMS login / signup implementation</li>
+<li>Messenger</li>
+<li>Progressive WebApp and Service Workers</li>
+<li>Gig creation for Bookers</li>
+</ul>
 
     </div>
 </div>
@@ -130,29 +224,29 @@
                 
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-07-10-bounty-announcement/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-07-10-bounty-announcement.jpeg" alt="Summer is in full glory and so is bounty season!"
+                            <div class="common-posts__figure"><a href="../../en/2019-03-11-mdl-chess-champ-winner-is/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/gif/mdl-2019-newyear-chess-winner-is.gif" alt="MDL New Year 2019 Chess Championship | The Winner Is"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-07-10-bounty-announcement/">Summer is in full glory and so is bounty season!</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-03-11-mdl-chess-champ-winner-is/">MDL New Year 2019 Chess Championship | The Winner Is</a>
                             </h3>
                         </li>
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-07-05-mdl-attending-riseconf-2018-hk/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/80/2018-07-05-mdl-attending-riseconf-2018-hk-1.jpeg" alt="MDL Attending RISECONF 2018 HK"
+                            <div class="common-posts__figure"><a href="../../en/2019-03-07-mdl-first-days-trading-xbts-mooning/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/images/trading-on-xbts.png" alt="MDL Token XBTS.io DEX Increased price 2321.31% in 24h."
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-07-05-mdl-attending-riseconf-2018-hk/">MDL Attending RISECONF 2018 HK</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-03-07-mdl-first-days-trading-xbts-mooning/">MDL Token XBTS.io DEX Increased price 2321.31% in 24h.</a>
                             </h3>
                         </li>
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-27-mdl-talent-hub-at-cief/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-27-mdl-talent-Hub-at-cief-1.jpeg" alt="The MDL Talent Hub at CIEF"
+                            <div class="common-posts__figure"><a href="../../en/2019-03-06-mdl-hamburg-ww-labs-meetup-invitation/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/images/mdl-th-wework-labs-insider.jpg" alt="March 8th, 2019 | MDL Talent Hub Hamburg Meet-up @ WeWork Labs"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-27-mdl-talent-hub-at-cief/">The MDL Talent Hub at CIEF</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-03-06-mdl-hamburg-ww-labs-meetup-invitation/">March 8th, 2019 | MDL Talent Hub Hamburg Meet-up @ WeWork Labs</a>
                             </h3>
                         </li>
                         

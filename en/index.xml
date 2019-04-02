@@ -6,10 +6,19 @@
     <description>Recent content in Ens on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 02 Apr 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/en/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Talent Hub - Development update 2019 (part II)</title>
+      <link>https://mdl.wtf/en/2019-04-02-mdl-dev-update-part-2/</link>
+      <pubDate>Tue, 02 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-04-02-mdl-dev-update-part-2/</guid>
+      <description>In part one of our extended update for 2019 a few weeks ago we announced that we were starting migration to Desktop Wallet v0.25, along with other developments for the first part of the year. This time we are happy to bring news that migration is complete and v0.25 has launched, with new fixes and features that make trading MDL a better way to pay and be paid for any talent.</description>
+    </item>
     
     <item>
       <title>MDL New Year 2019 Chess Championship | The Winner Is</title>
