@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://mdl.wtf/en/2019-06-12-mdl-chale-wote-2019-crowdfund/</loc>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://mdl.wtf/en/2019-05-03-mdl-dev-update-part-3/</loc>
     <lastmod>2019-05-03T00:00:00+00:00</lastmod>
   </url>
@@ -445,7 +450,7 @@
   
   <url>
     <loc>https://mdl.wtf/en/</loc>
-    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -506,7 +511,7 @@
   
   <url>
     <loc>https://mdl.wtf/</loc>
-    <lastmod>2019-05-03T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -562,7 +567,7 @@
   
   <url>
     <loc>https://mdl.wtf/categories/news/</loc>
-    <lastmod>2019-03-11T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
