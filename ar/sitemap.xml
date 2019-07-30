@@ -3,11 +3,6 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mdl.wtf/ar/ar/2017-12-13-pre-ito-is-ongoing/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://mdl.wtf/ar/ar/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -15,6 +10,7 @@
   
   <url>
     <loc>https://mdl.wtf/ar/categories/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -65,61 +61,6 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://mdl.wtf/ar/categories/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/ar/languages/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mdl.wtf/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://mdl.wtf/ru/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mdl.wtf/zh/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="https://mdl.wtf/zh-hant/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://mdl.wtf/kr/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mdl.wtf/ja/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://mdl.wtf/es/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://mdl.wtf/id/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mdl.wtf/de/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://mdl.wtf/ar/languages/"
                 />
   </url>
   
@@ -232,6 +173,66 @@
                 rel="alternate"
                 hreflang="ar"
                 href="https://mdl.wtf/ar/categories/news/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/ar/ar/2017-12-13-pre-ito-is-ongoing/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/ar/languages/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mdl.wtf/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mdl.wtf/ru/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mdl.wtf/zh/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://mdl.wtf/zh-hant/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://mdl.wtf/kr/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mdl.wtf/ja/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://mdl.wtf/es/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://mdl.wtf/id/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mdl.wtf/de/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://mdl.wtf/ar/languages/"
                 />
   </url>
   
