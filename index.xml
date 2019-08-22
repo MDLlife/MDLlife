@@ -6,10 +6,20 @@
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Development update - August</title>
+      <link>https://mdl.wtf/en/2019-08-22-mdl-development-update-aug/</link>
+      <pubDate>Thu, 22 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2019-08-22-mdl-development-update-aug/</guid>
+      <description>MDL IOs Wallet is being developed We are super proud to announce that the new MDL IOs Wallet is being developed and its already functional. We are now in process of opening a new developer account on Apple store and getting all the approvals, so hang in there, this may take a little while! :)
+We are going to walk you around, please feel free to grab a seat and enjoy the show!</description>
+    </item>
     
     <item>
       <title>MDL Development update - July</title>
