@@ -3,8 +3,77 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://mdl.wtf/zh-hant/categories/</loc>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-23-what-do-we-do-and-why/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</loc>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-14-mdl-at-skyledger-conference/</loc>
+    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-13-pre-ito-is-ongoing/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-08-user-instruments-part1/</loc>
+    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-06-mdl-my-daily-life/</loc>
+    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-05-how-mdl-secures-reputation/</loc>
+    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</loc>
+    <lastmod>2017-12-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-11-25-webpage-is-launched-korea/</loc>
+    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-11-14-where-do-the-money-come-from/</loc>
+    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-30-what-we-gonna-do/</loc>
+    <lastmod>2017-10-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-13-mdl-team-slush-shanghai/</loc>
+    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-10-mdl-inception/</loc>
+    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-08-the-thing-is/</loc>
+    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/categories/</loc>
     <priority>0</priority>
     <xhtml:link
                 rel="alternate"
@@ -55,6 +124,107 @@
                 rel="alternate"
                 hreflang="zh-hant"
                 href="https://mdl.wtf/zh-hant/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/categories/development/</loc>
+    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mdl.wtf/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mdl.wtf/ru/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mdl.wtf/zh/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://mdl.wtf/kr/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://mdl.wtf/es/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://mdl.wtf/id/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mdl.wtf/de/categories/development/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://mdl.wtf/zh-hant/categories/development/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://mdl.wtf/zh-hant/languages/</loc>
+    <priority>0</priority>
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://mdl.wtf/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ru"
+                href="https://mdl.wtf/ru/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh"
+                href="https://mdl.wtf/zh/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="kr"
+                href="https://mdl.wtf/kr/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ja"
+                href="https://mdl.wtf/ja/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="es"
+                href="https://mdl.wtf/es/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="id"
+                href="https://mdl.wtf/id/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="https://mdl.wtf/de/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="ar"
+                href="https://mdl.wtf/ar/languages/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="zh-hant"
+                href="https://mdl.wtf/zh-hant/languages/"
                 />
   </url>
   
@@ -174,177 +344,6 @@
     <loc>https://mdl.wtf/zh-hant/zh-hant/</loc>
     <lastmod>2017-12-23T00:00:00+00:00</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-23-what-do-we-do-and-why/</loc>
-    <lastmod>2017-12-23T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/categories/development/</loc>
-    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mdl.wtf/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://mdl.wtf/ru/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mdl.wtf/zh/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://mdl.wtf/kr/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://mdl.wtf/es/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://mdl.wtf/id/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mdl.wtf/de/categories/development/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="https://mdl.wtf/zh-hant/categories/development/"
-                />
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-21-mdl-mine-distributed-ledger/</loc>
-    <lastmod>2017-12-21T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-14-mdl-at-skyledger-conference/</loc>
-    <lastmod>2017-12-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-13-pre-ito-is-ongoing/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-08-user-instruments-part1/</loc>
-    <lastmod>2017-12-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-06-mdl-my-daily-life/</loc>
-    <lastmod>2017-12-06T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-05-how-mdl-secures-reputation/</loc>
-    <lastmod>2017-12-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-12-03-mdl-at-sf2017-seoul/</loc>
-    <lastmod>2017-12-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-11-25-webpage-is-launched-korea/</loc>
-    <lastmod>2017-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-11-14-where-do-the-money-come-from/</loc>
-    <lastmod>2017-11-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-30-what-we-gonna-do/</loc>
-    <lastmod>2017-10-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-13-mdl-team-slush-shanghai/</loc>
-    <lastmod>2017-10-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-10-mdl-inception/</loc>
-    <lastmod>2017-10-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/zh-hant/2017-10-08-the-thing-is/</loc>
-    <lastmod>2017-10-08T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://mdl.wtf/zh-hant/languages/</loc>
-    <priority>0</priority>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://mdl.wtf/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ru"
-                href="https://mdl.wtf/ru/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh"
-                href="https://mdl.wtf/zh/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="kr"
-                href="https://mdl.wtf/kr/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ja"
-                href="https://mdl.wtf/ja/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="es"
-                href="https://mdl.wtf/es/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://mdl.wtf/id/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="https://mdl.wtf/de/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="ar"
-                href="https://mdl.wtf/ar/languages/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="zh-hant"
-                href="https://mdl.wtf/zh-hant/languages/"
-                />
   </url>
   
 </urlset>

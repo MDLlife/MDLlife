@@ -6,19 +6,9 @@
     <description>Recent content in Categories on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 19 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/es/categories/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>News</title>
-      <link>https://mdl.wtf/es/categories/news/</link>
-      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://mdl.wtf/es/categories/news/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Development</title>
@@ -26,6 +16,15 @@
       <pubDate>Sun, 31 Dec 2017 00:00:00 +0000</pubDate>
       
       <guid>https://mdl.wtf/es/categories/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://mdl.wtf/es/categories/news/</link>
+      <pubDate>Fri, 19 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/es/categories/news/</guid>
       <description></description>
     </item>
     
