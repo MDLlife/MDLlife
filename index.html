@@ -146,6 +146,13 @@
                 'event_label': 'Get MDL download'
             });
         }
+	
+        var trackPlatform = function () {
+            gtag('event', 'click', {
+                'event_category': 'Platform',
+                'event_label': 'Platform (Alpha)'
+            });
+        }
     </script>
 </head>
 <body>
@@ -519,6 +526,20 @@
                    data-aos-delay="500" onclick="trackGetMDL()" href="https://teller.mdl.cx/" target="_blank">
                     <svg class="liquid-button"
                          data-text="GET MDL"
+                         data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
+                         data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1"
+                         data-layer-2-force-limit="2"
+                         data-color1="rgb(110, 179, 231)"
+                         data-color2="#ffffff"
+                         data-color3="#ffffff"
+                         data-width="163"
+                         data-height="49"
+                         data-text-color="#c72897"></svg>
+                </a>
+                <a class="open-platform" data-aos="fade-up" data-aos-duration="1000"
+                   data-aos-delay="500" onclick="trackPlatform()" href="https://www.mdl.cx/" target="_blank">
+                    <svg class="liquid-button"
+                         data-text="PLATFORM (ALPHA)"
                          data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
                          data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1"
                          data-layer-2-force-limit="2"
