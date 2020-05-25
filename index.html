@@ -153,6 +153,13 @@
                 'event_label': 'Platform (Alpha)'
             });
         }
+	
+        var trackExplorer = function () {
+            gtag('event', 'click', {
+                'event_category': 'Explorer',
+                'event_label': 'Explorer (landing)'
+            });
+        }
     </script>
 </head>
 <body>
@@ -551,6 +558,20 @@
                          data-text-color="#c72897"></svg>
                 </a>
 
+                <a class="open-explorer" data-aos="fade-up" data-aos-duration="1000"
+                   data-aos-delay="500" onclick="trackExplorer()" href="https://explorer.mdl.wtf/" target="_blank">
+                    <svg class="liquid-button"
+                         data-text="EXPLORER"
+                         data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
+                         data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1"
+                         data-layer-2-force-limit="2"
+                         data-color1="rgb(110, 179, 231)"
+                         data-color2="#ffffff"
+                         data-color3="#ffffff"
+                         data-width="163"
+                         data-height="49"
+                         data-text-color="#c72897"></svg>
+                </a>
             </div>
         </div>
         <!-- <img class="hd__down-bg" src="/app/assets/img/header-down-bg.png" alt=""> -->
