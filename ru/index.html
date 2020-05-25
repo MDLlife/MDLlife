@@ -140,7 +140,19 @@
         var trackGetMDL = function () {
             gtag('event', 'click', {
                 'event_category': 'Get MDL',
-                'event_label': 'Get MDL download'
+                'event_label': 'Get MDL (ru)'
+            });
+        }
+        var trackPlatform = function () {
+            gtag('event', 'click', {
+                'event_category': 'Platform',
+                'event_label': 'Platform (ru)'
+            });
+        }
+        var trackExplorer = function () {
+            gtag('event', 'click', {
+                'event_category': 'Explorer',
+                'event_label': 'Explorer (ru)'
             });
         }
     </script>
@@ -496,7 +508,7 @@
                 <a class="open-platform" data-aos="fade-up" data-aos-duration="1000"
                    data-aos-delay="500" onclick="trackPlatform()" href="https://www.mdl.cx/" target="_blank">
                     <svg class="liquid-button"
-                         data-text="Платформа (В разработке)"
+                         data-text="Платформа"
                          data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
                          data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1"
                          data-layer-2-force-limit="2"
