@@ -146,6 +146,18 @@
                 'event_label': 'Get MDL download'
             });
         }
+	var trackPlatform = function () {
+            gtag('event', 'click', {
+                'event_category': 'Platform',
+                'event_label': 'Platform (zh)'
+            });
+        }
+        var trackExplorer = function () {
+            gtag('event', 'click', {
+                'event_category': 'Explorer',
+                'event_label': 'Explorer (zh)'
+            });
+        }
     </script>
 </head>
 <body>
@@ -412,16 +424,34 @@
 
 <header id="main-header">
     <div class="header__content--wrapper">
-        <div class="header__left-part">
+        <div class="header__left-part" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">
             <div class="header__title" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="1500"><img
                     class="header__title--img" src="/app/assets/img/website-parts/header/logo_mdl_header.png" alt="">
                 <h1><span>MDL</span>Talent Hub</h1></div>
             <div class="header__separator separator" data-aos="fade-up" data-aos-duration="1200"
                  data-aos-delay="1300"></div>
-            <h2 class="header__desc" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1100">연기자와 공연 그리고 브랜드와
-                <br> 관객을 연결시키는 글로벌 트러스트체인</h2>
+            <h2 class="header__desc" data-aos="fade-up" data-aos-duration="1200" data-aos-delay="1100">연기자와 공연 그리고 브랜드와 관객을<br>연결시키는 글로벌 트러스트체인</h2>
+            <p class="subscribe-label">Trade MDL token on DEX:</p>
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.BTC">MDL/BTC</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.STH">MDL/STH</a><br>
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_CNY">MDL/CNY</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.USDT">MDL/USDT</a><br>
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.ETH">MDL/ETH</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.SKY">MDL/SKY</a><br>
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.RVN">MDL/RVN</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_XBTSX.DASH">MDL/DASH</a><br>
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_EUR">MDL/EUR</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <a href="https://ex.xbts.io/#/market/XBTSX.MDL_RUB">MDL/RUB</a>
+
+
+            <p class="subscribe-label">Track MDL token price:</p>
+              <a target="_blank" href="https://coinpaprika.com/coin/mdl-mdl/"><img
+                      src="/app/assets/img/website-parts/support/coinpaprika.png" width="128px" alt="coinpaprika"></a>
+<!--
             <p class="subscribe-label">Register now, and be amongst the first users</p>
             <a href="https://www.mdl.live/" class="subscribe-btn" target="_blank">Register</a>
+
+          -->
         </div>
         <!-- <div class="header__right-part">
             <div class="header-timer">
@@ -484,37 +514,35 @@
                 </div> -->
         <div class="header__right-part ito-wait">
             <div class="header-timer">
-                <p class="timer-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">ITO WILL START
-                    IN<br> <span>Stage 2</span></p>
+                <p class="timer-title" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">MDL Token Teller<br> <span>Available</span></p>
                 <!--<div class="header-timer_dhms" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1300">-->
-                <!--<div class="dhms_item days">-->
-                <!--<span id="timer_d" class="number"></span><span class="number-type">Days</span>-->
+                    <!--<div class="dhms_item days">-->
+                        <!--<span id="timer_d" class="number"></span><span class="number-type">Days</span>-->
+                    <!--</div>-->
+                    <!--<div class="dhms_item hours">-->
+                        <!--<span id="timer_h" class="number"></span><span class="number-type">Hrs</span>-->
+                    <!--</div>-->
+                    <!--<div class="dhms_item minutes">-->
+                        <!--<span id="timer_m" class="number"></span><span class="number-type">Min</span>-->
+                    <!--</div>-->
+                    <!--<div class="dhms_item seconds">-->
+                        <!--<span id="timer_s" class="number"></span><span class="number-type">Sec</span>-->
+                    <!--</div>-->
                 <!--</div>-->
-                <!--<div class="dhms_item hours">-->
-                <!--<span id="timer_h" class="number"></span><span class="number-type">Hrs</span>-->
-                <!--</div>-->
-                <!--<div class="dhms_item minutes">-->
-                <!--<span id="timer_m" class="number"></span><span class="number-type">Min</span>-->
-                <!--</div>-->
-                <!--<div class="dhms_item seconds">-->
-                <!--<span id="timer_s" class="number"></span><span class="number-type">Sec</span>-->
-                <!--</div>-->
-                <!--</div>-->
-                <div class="be-annon">Date to be announced</div>
-                <div class="raised-wrapper">
-                    <span class="max-value">Stage 1 ( Soft Cap is taken ) - <span
-                            id="raised-dollars">2 464 880</span><span> USD </span></span>
-                    <div class="line-wrapper">
-                        <div class="line">
-                            <div id="pink-line" class="pink-line"></div>
-                        </div>
-                        <div class="pink-point"></div>
-                        <div class="hc-point"></div>
-                        <div class="sc-point"></div>
-                    </div>
-                </div>
-                <a class="header-timer_btn open-white-list-form" data-aos="fade-up" data-aos-duration="1000"
-                   data-aos-delay="500" data-toggle="modal" data-target="#get-mdl-modal" onclick="trackGetMDL();">
+<!--                 <div class="be-annon"  data-aos="fade-up" data-aos-duration="1000" data-aos-delay="1500">Date to be announced</div> -->
+              <!-- <div class="raised-wrapper">
+
+                  <div class="line-wrapper">
+                      <div class="line">
+                          <div id="pink-line" class="pink-line"></div>
+                      </div>
+                      <div class="pink-point"></div>
+                      <div class="hc-point"></div>
+                      <div class="sc-point"></div>
+                  </div>
+              </div> -->
+                <a class="open-white-list-form" data-aos="fade-up" data-aos-duration="1000"
+                   data-aos-delay="500" onclick="trackGetMDL()" href="https://teller.mdl.cx/" target="_blank">
                     <svg class="liquid-button"
                          data-text="GET MDL"
                          data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
@@ -527,52 +555,38 @@
                          data-height="49"
                          data-text-color="#c72897"></svg>
                 </a>
-                <div id="sib_embed_signup2">
-                    <div class="forms-builder-wrapper">
-                        <input type="hidden" id="sib_embed1_signup_lang" value="en">
-                        <input type="hidden" id="sib_embed1_invalid_email_message"
-                               value="That email address is not valid. Please try again.">
-                        <input type="hidden" name="primary_type" id="primary_type" value="email">
-                        <form class="description" id="theform2" name="theform"
-                              action="https://my.sendinblue.com/users/subscribeembed/js_id/346pc/id/1"
-                              onsubmit="return false;">
-                            <input type="hidden" name="js_id" id="js_id" value="346pc"><input type="hidden"
-                                                                                              name="listid" id="listid1"
-                                                                                              value="2"><input
-                                type="hidden" name="from_url" id="from_url2" value="yes"><input type="hidden"
-                                                                                                name="hdn_email_txt"
-                                                                                                id="hdn_email_txt2"
-                                                                                                value="">
-                            <div class="sib-container rounded">
-                                <input type="hidden" name="req_hid" id="req_hid" value="" style="font-size: 13px;">
-                                <div class="view-messages" style=" margin:5px 0;"></div>
-                                <div class="primary-group email-group forms-builder-group ui-sortable" style="">
-                                    <div class="row mandatory-email" style="position: relative">
-                                        <input type="text" name="email" id="email2" value="" placeholder="E-mail">
-                                        <button class="button editable " type="submit" data-editfield="subscribe"
-                                                onclick="trackEmailSubscribe(); yaCounter48000959.reachGoal('ostemail')"
-                                                ;>Subscribe
-                                        </button>
-                                        <div style="clear:both;"></div>
-                                        <div class="hidden-btns">
-                                            <a class="btn move" href="#"><i class="fa fa-arrows"></i></a><br>
-                                        </div>
-                                    </div>
-                                    <p class="sub-mob-alert">Subscribe for beta testing</p>
-                                </div>
-                                <div class="captcha forms-builder-group" style="display: none;">
-                                    <div class="row"
-                                         style="font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; color: rgb(103, 48, 145); font-size: 25px; padding: 10px 20px;">
-                                        <div id="gcaptcha" style="transform: scale(1); margin-left: 0px;"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
+                <a class="open-platform" data-aos="fade-up" data-aos-duration="1000"
+                   data-aos-delay="500" onclick="trackPlatform()" href="https://www.mdl.cx/" target="_blank">
+                    <svg class="liquid-button"
+                         data-text="PLATFORM (ALPHA)"
+                         data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
+                         data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1"
+                         data-layer-2-force-limit="2"
+                         data-color1="rgb(110, 179, 231)"
+                         data-color2="#ffffff"
+                         data-color3="#ffffff"
+                         data-width="163"
+                         data-height="49"
+                         data-text-color="#c72897"></svg>
+                </a>
+
+                <a class="open-explorer" data-aos="fade-up" data-aos-duration="1000"
+                   data-aos-delay="500" onclick="trackExplorer()" href="https://explorer.mdl.wtf/" target="_blank">
+                    <svg class="liquid-button"
+                         data-text="EXPLORER"
+                         data-force-factor="0.1" data-layer-1-viscosity="0.5" data-layer-2-viscosity="0.4"
+                         data-layer-1-mouse-force="50" data-layer-2-mouse-force="50" data-layer-1-force-limit="1"
+                         data-layer-2-force-limit="2"
+                         data-color1="rgb(110, 179, 231)"
+                         data-color2="#ffffff"
+                         data-color3="#ffffff"
+                         data-width="163"
+                         data-height="49"
+                         data-text-color="#c72897"></svg>
+                </a>
             </div>
         </div>
-        <!-- <img class="hd__down-bg" src="img/header-down-bg.png" alt=""> -->
+        <!-- <img class="hd__down-bg" src="/app/assets/img/header-down-bg.png" alt=""> -->
         <!-- <div class="header__line-down"></div> -->
 
 </header>
