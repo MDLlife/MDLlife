@@ -6,10 +6,20 @@
     <description>Recent content in News on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/categories/news/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Talent Hub 2020 Revival</title>
+      <link>https://mdl.wtf/en/2020-07-15-mdl-2020-revival/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2020-07-15-mdl-2020-revival/</guid>
+      <description>Hello all new friends and our dear community members, here are the latest updates of our project. We all know it has been a difficult time for everyone, but we have still been working very hard to keep, manage and develop everything we have achieved so far. It is time for announcing and showing some of our latest work. Please keep up.
+MDL Talent Hub has always been and continue going mobile:</description>
+    </item>
     
     <item>
       <title>MDL in Ghana @ Chale Wote Festival 2019</title>
