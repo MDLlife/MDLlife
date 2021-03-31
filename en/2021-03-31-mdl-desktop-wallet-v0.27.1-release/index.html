@@ -90,59 +90,116 @@
     </div>
 </header>
         <div class="single-content">
-    <div class="single-content__inner"><h1>The MDL Talent Hub at CIEF</h1>
+    <div class="single-content__inner"><h1>MDL Desktop Wallet v0.27.1 Release</h1>
         <p class="single-content__date">
-            <span class="single-content__tag">News</span>
-            26 June 2018
+            <span class="single-content__tag">Development</span>
+            31 March 2021
         </p>
-        <img src="https://mdl.wtf/images/2018-06-27-mdl-talent-Hub-at-cief-1.jpeg" alt="The MDL Talent Hub at CIEF">
+        <img src="https://mdl.wtf/images/80/2018-02-16-development-update-1.jpg" alt="MDL Desktop Wallet v0.27.1 Release">
         
 
-<h2 id="mdl-talent-hub-at-cief">MDL Talent Hub at CIEF</h2>
+<p>We are happy to announce some important updates this week, including new versions of our desktop wallet and key improvements on the UX/UI front. This version of wallet supports <a href="https://skycoin.com/skywallet">Skycoin&rsquo;s hardware wallet</a>. Also includes all the features of Skycoin&rsquo;s version 0.27.</p>
 
-<p>Our Team Attended The “China Innovation and Entrepreneur Fair” in Guangzhou last weekend. This is a short recap!</p>
+<p>The wallet has been updated from  0.26.1 -&gt; 0.27.1, including changes and improvements in step with Skycoin wallet developments.
+Among the multiple updates are:</p>
 
-<p>First of all, we have <strong>2 event video recaps</strong> which you can watch here:</p>
+<h3 id="added">Added</h3>
 
-<blockquote>
-<p>MDL Talent Hub @CIEF Part 1</p>
-</blockquote>
+<ul>
+<li>Updated electron from version 2 to version 10, with many security fixes</li>
+<li>Add <code>createRawTransactionV2</code> CLI command, which calls the API of <code>/wallet/transaction</code> to create the transaction and can create then unsigned transaction. Once the API&rsquo;s performance issue has been fixed, we will replace the <code>createRawTransaction</code> with it.</li>
+<li>Add <code>signTransaction</code> CLI command to sign transaction.</li>
+<li>Do windows electron builds by travis and abandon the appveyor</li>
+<li>Migrate <code>mdl.live</code> to <code>mdl.cx</code></li>
+<li>Use transaction history when scanning wallet addresses, instead of the current address balance</li>
+<li>Document the daemon&rsquo;s CLI options</li>
+<li>Add the ability to save transaction notes</li>
+<li>Add CLI <code>encodeJsonTransaction</code> command to retrieve raw transaction given its JSON representation</li>
+<li>Add <code>package bip44</code>, implementing the bip44 spec <a href="https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki">https://github.com/bitcoin/bips/blob/master/bip-0044.mediawiki</a></li>
+<li>Codesign daemon and standalone binaries</li>
+<li>Add a guided method for entering the seeds in the GUI</li>
+<li>Add new wallet type <code>collection</code> for wallets that are an arbitrary collection of private keys, rather than generated from a seed</li>
+<li>Add new wallet type <code>bip44</code> for hierarchical deterministic (HD) wallets obeying the bip44 protocol.
+The Skycoin bip44 <code>coin</code> number is <code>8000</code>. Nice round number. How can we add MDL there as well?
+<code>bip44</code> wallets avoid address reuse, generating a new change address for each transaction.
+Affects APIs are <code>POST /api/v1/wallet</code>, <code>GET /api/v1/wallets</code>, <code>GET /api/v1/wallet</code>, <code>POST /api/v1/wallet/seed</code> and <code>POST /api/v1/wallet/recover</code>.
+Refer to the <a href="./src/api/README.md">API documentation</a> for API changes.
+<code>bip44</code> wallets support bip39 &ldquo;seed passphrases&rdquo;.
+More details are explained in <a href="https://github.com/skycoin/skycoin/wiki/Wallet-File-Formats-and-Types">https://github.com/skycoin/skycoin/wiki/Wallet-File-Formats-and-Types</a></li>
+<li><code>cli walletCreate</code> support for <code>bip44</code> wallets added</li>
+<li>Add <code>bip44_coin</code> field to <code>GET /api/v1/health</code> <code>fiber</code> params</li>
+<li>Add the &ldquo;bulk send&rdquo; option to the GUI advanced form</li>
+<li>Add <code>cli walletKeyExport</code> command to export <code>xpub</code>, <code>xprv</code>, <code>pub</code> and <code>prv</code> key from a <code>bip44</code> wallet</li>
+<li>Add <code>xpub</code> type wallet, which can generate addresses without exposing private keys</li>
+<li>Add <code>block_publisher</code> flag to <code>/api/v1/health</code></li>
+<li>Add <code>no_broadcast</code> option to <code>POST /api/v1/injectTransaction</code> to disable broadcast of the transaction. The transaction will only be added to the local pool.</li>
+<li>Add <code>cli distributeGenesis</code> command to split the genesis block into distribution addresses when setting up a new fiber coin</li>
+</ul>
 
-<iframe width="700" height="393" src="https://www.youtube.com/embed/GioGHJLpEKE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h3 id="fixed">Fixed</h3>
 
-<blockquote>
-<p>MDL Talent Hub @CIEF Part 2</p>
-</blockquote>
+<ul>
+<li>Price loading is displayed correctly now</li>
+<li>#7, #162, corrupted file in ~/.mdl/data/ dir makes the desktop wallet show ERROR #1.</li>
+<li>#87, can not run web gui from MDL docker image.</li>
+<li>#2287 A <code>Content-Type</code> with a <code>charset</code> specified, for example <code>application/json; charset=utf-8</code>, will not return an HTTP 415 error anymore</li>
+<li>Fix <code>fiber.toml</code> transaction verification parameters ignored by newcoin</li>
+<li>#2373 Fix and clean-up further panics with various <code>mdl-cli</code> commands (lastBlocks, checkdb) which were not correctly handling arguments.</li>
+<li>#2442 Reset the &ldquo;trusted&rdquo; flag to false for all peers on load, before registering default hardcoded peers in the peerlist</li>
+<li>#26 Add additional database corruption checks in ResetCorruptDB to detect encoder ErrBufferUnderflow and ErrMaxLenExceeded</li>
+</ul>
 
-<iframe width="700" height="393" src="https://www.youtube.com/embed/m2R-B6yroD0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<h3 id="changed">Changed</h3>
 
-<h3 id="short-event-recap">Short Event Recap</h3>
+<ul>
+<li><code>type</code> is now a required parameter for <code>POST /api/v1/wallet</code>. <code>type</code> can be <code>deterministic</code>, <code>bip44</code> or <code>xpub</code>.</li>
+<li>Add <code>display_name</code>, <code>ticker</code>, <code>coin_hours_display_name</code>, <code>coin_hours_display_name_singular</code>, <code>coin_hours_ticker</code>, <code>explorer_url</code> to the <code>/health</code> endpoint response</li>
+<li><code>cli addPrivateKey</code> will only work on a <code>collection</code> type wallet. Create one with <code>cli walletCreate -t collection</code></li>
+<li>Don&rsquo;t print the wallet in the terminal after <code>cli encryptWallet</code> or <code>cli decryptWallet</code></li>
+<li>Remove <code>WALLET_DIR</code> and <code>WALLET_NAME</code> envvars from the <code>cli</code> tool. Commands which need to operate on a wallet file accept the wallet file on the command line instead.</li>
+<li>Now the modal window for showing QR codes in the GUI allows to request specific amounts of coins, as in mobile wallets. This changes did no include the ability to read QR codes or URLs.</li>
+</ul>
 
-<p><img src="../../images/2018-06-27-mdl-talent-Hub-at-cief-1.jpeg" alt="" /></p>
+<h3 id="removed">Removed</h3>
 
-<blockquote>
-<p><strong>MDL Talent Hub</strong> visited the China Innovation and Entrepreneurship Fair in Guangzhou last week. The main goal was to visit and meet up with new agencies, brands and investors who we could collaborate with.</p>
+<ul>
+<li>Remove <code>-arbitrating</code> option from the daemon CLI options</li>
+<li>Remove <code>-print-web-interface-address</code> option from the daemon CLI options</li>
+<li>Remove <code>cli walletDir</code> command</li>
+</ul>
 
-<p>While doing so, we also had a booth at the CIEF to expose the MDL Community and grow it amongst potential partner projects and people interested in innovative projects, such as MDL Talent Hub.</p>
+<h1 id="download-page-https-github-com-mdllife-mdl-releases-tag-v0-27-1"><a href="https://github.com/MDLlife/MDL/releases/tag/v0.27.1">Download page</a></h1>
 
-<p>At the fair, we managed to connect with a lot of interesting people from both the talent side as well as the agency/booker/brand side.</p>
+<ul>
+<li>cli: CLI utility for communicating with the daemon and various offline operations (<a href="https://github.com/MDLlife/MDL/blob/release/0.27.1/cmd/mdl-cli">https://github.com/MDLlife/MDL/blob/release/0.27.1/cmd/mdl-cli</a>)</li>
+<li>daemon: For running as a daemon on a server</li>
+<li>gui-standalone: For running from the command line as a desktop client that opens in your browser</li>
+<li>gui-electron: For running as a desktop client that opens in its own application</li>
+</ul>
 
-<p>Besides that we met with reporters, had an interview filmed with our CEO Dimitry Doronin and had a lot of fun with existing and new MDL Fans who got the chance to win an MDL T-shirt if they could get the ball into the hoop we installed at our booth!</p>
-</blockquote>
+<p>Architectures</p>
 
-<p><img src="../../images/2018-06-27-mdl-talent-Hub-at-cief-2.jpeg" alt="" /></p>
+<pre><code>win: Windows (32-bit or 64-bit)
+win-x64: 64-bit Windows
+win-x86: 32-bit Windows
+linux-arm: ARM Linux (e.g. RaspberryPi)
+linux-x64: 64-bit Linux
+osx: 64-bit OS X / macOS
+osx-darwn-x64: 64-bit OS X / macOS
+</code></pre>
 
-<blockquote>
-<p>To round things up, it is safe to say that it was a great event and we met some wonderful people, both on the fair aswel as after hours. We had some lovely help from 2 models who we hired to support us with sharing the information and playing the basketbal games and both of them did a wonderful job helping the MDL Booth stand out more than any of the booths around us!</p>
-</blockquote>
+<ul>
+<li><a href="https://github.com/MDLlife/MDL/releases/download/v0.27.1/MDL-0.27.1-osx.dmg">MacOS Wallet</a></li>
+<li><a href="https://github.com/MDLlife/MDL/releases/download/v0.27.1/MDL-0.27.1-win-setup.exe">Windows Wallet</a></li>
+<li><a href="https://github.com/MDLlife/MDL/releases/download/v0.27.1/MDL-0.27.1-linux.AppImage">Linux Wallet AppImage</a></li>
+<li><a href="https://github.com/MDLlife/MDL/releases/download/v0.27.1/MDL_0.27.1-linux_amd64.snap">Linux Wallet snap (amd64)</a></li>
+</ul>
 
-<p><img src="../../images/2018-06-27-mdl-talent-Hub-at-cief-3.jpeg" alt="" /></p>
+<p>Remember, we also have Android wallet:</p>
 
-<blockquote>
-<p>So now that your up to date, don&rsquo;t miss out on our next on-site appearance or event and make sure to…</p>
-</blockquote>
-
-<p>Join the movement, Join <a href="https://www.mdl.life/">MDL Talent Hub!</a></p>
+<ul>
+<li><a href="https://MDL.app">Android Wallet</a></li>
+</ul>
 
     </div>
 </div>
@@ -154,29 +211,29 @@
                 
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-28-mdl-token-distribution-announcement/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-28-mdl-token-distribution-announcement.jpeg" alt="MDL Token Distribution Announcement"
+                            <div class="common-posts__figure"><a href="../../en/2020-07-15-mdl-2020-revival/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/images/80/2018-01-31-pre-ito-hard-cap.png" alt="MDL Talent Hub 2020 Revival"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-28-mdl-token-distribution-announcement/">MDL Token Distribution Announcement</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2020-07-15-mdl-2020-revival/">MDL Talent Hub 2020 Revival</a>
                             </h3>
                         </li>
                         
                         <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-20-we-are-mdl/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-20-we-are-mdl-1.jpeg" alt="We Are MDL"
+                            <div class="common-posts__figure"><a href="../../en/2019-09-14-mdl-in-ghana-chale-wote-2019/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/images/ghana-chale-wote-2019/photo_2019-09-04_09-59-14.jpg" alt="MDL in Ghana @ Chale Wote Festival 2019"
                                     class="common-posts__image"></a></div>
                             <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-20-we-are-mdl/">We Are MDL</a>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-09-14-mdl-in-ghana-chale-wote-2019/">MDL in Ghana @ Chale Wote Festival 2019</a>
                             </h3>
                         </li>
                         
-                        <li class="common-posts__item" data-cat="news">
-                            <div class="common-posts__figure"><a href="../../en/2018-06-26-you-should-join-the-we-are-mdl-competition/" class="common-posts__link"><img
-                                    src="https://mdl.wtf/images/2018-06-26-you-should-join-the-we-are-mdl-competition.jpeg" alt="You should join the We Are MDL Competition!"
+                        <li class="common-posts__item" data-cat="development">
+                            <div class="common-posts__figure"><a href="../../en/2019-08-22-mdl-development-update-aug/" class="common-posts__link"><img
+                                    src="https://mdl.wtf/images/2019-08/mdl-ios-wallet-send-coins-view-success.jpg" alt="MDL Development update - August"
                                     class="common-posts__image"></a></div>
-                            <p class="common-posts__tag">News</p>
-                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2018-06-26-you-should-join-the-we-are-mdl-competition/">You should join the We Are MDL Competition!</a>
+                            <p class="common-posts__tag">Development</p>
+                            <h3 class="common-posts__title"><a class="common-posts__link" href="../../en/2019-08-22-mdl-development-update-aug/">MDL Development update - August</a>
                             </h3>
                         </li>
                         

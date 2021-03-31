@@ -6,10 +6,21 @@
     <description>Recent content on MDL - Talent Hub Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 31 Mar 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mdl.wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>MDL Desktop Wallet v0.27.1 Release</title>
+      <link>https://mdl.wtf/en/2021-03-31-mdl-desktop-wallet-v0.27.1-release/</link>
+      <pubDate>Wed, 31 Mar 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://mdl.wtf/en/2021-03-31-mdl-desktop-wallet-v0.27.1-release/</guid>
+      <description>We are happy to announce some important updates this week, including new versions of our desktop wallet and key improvements on the UX/UI front. This version of wallet supports Skycoin&amp;rsquo;s hardware wallet. Also includes all the features of Skycoin&amp;rsquo;s version 0.27.
+The wallet has been updated from 0.26.1 -&amp;gt; 0.27.1, including changes and improvements in step with Skycoin wallet developments. Among the multiple updates are:
+Added  Updated electron from version 2 to version 10, with many security fixes Add createRawTransactionV2 CLI command, which calls the API of /wallet/transaction to create the transaction and can create then unsigned transaction.</description>
+    </item>
     
     <item>
       <title>MDL Talent Hub 2020 Revival</title>
